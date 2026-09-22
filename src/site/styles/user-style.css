@@ -1,79 +1,112 @@
-/* 全域字體與正文排版優化 */
+/* ==========================================================
+   PMBA Executive Modern Theme (All Pages Global Override)
+   ========================================================== */
+
+/* 1. 全域背景與排版微調：沉穩低調的深灰藍底色 */
 body {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Noto Sans TC", sans-serif;
-  color: #E2E8F0;
-  background-color: #0F172A; /* 沉穩深藍黑，告別死黑 */
-  line-height: 1.75;
-  letter-spacing: -0.01em;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Hiragino Sans GB", "Microsoft JhengHei", Roboto, sans-serif !important;
+  background-color: #0c111d !important; /* 沉穩低調商務黑 */
+  color: #94a3b8 !important;            /* 舒適灰字，告別死白眩光 */
+  line-height: 1.75 !important;
+  letter-spacing: -0.01em !important;
 }
 
-/* 標題降噪：移除高飽和刺眼顏色，統一優雅漸層與字重 */
-h1, h2, h3, h4 {
-  color: #F8FAFC !important;
-  font-weight: 600;
-  letter-spacing: -0.02em;
+/* 2. 標題降噪：移除黃/橘/發光漸層，改用冷白與鋼灰層次 */
+h1, h2, h3, h4, h5, h6 {
+  color: #f8fafc !important;
+  font-weight: 600 !important;
+  letter-spacing: -0.025em !important;
   text-shadow: none !important;
+  filter: none !important;
 }
 
 h1 {
-  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
-  padding-bottom: 0.4em;
-  margin-top: 1.2em;
+  font-size: 2.1rem !important;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08) !important;
+  padding-bottom: 0.4em !important;
+  margin-top: 1.5em !important;
 }
 
-/* 超連結優化：移除刺眼純藍純紫，改用科技淡藍與平滑底線 */
+h2 {
+  font-size: 1.45rem !important;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05) !important;
+  padding-bottom: 0.3em !important;
+  margin-top: 1.6em !important;
+}
+
+/* 3. 雙向連結優化：徹底移除刺眼純藍與純紫，改用科技淡藍與微底線 */
 a, .internal-link {
-  color: #38BDF8 !important;
-  text-decoration: none;
-  border-bottom: 1px solid rgba(56, 189, 248, 0.3);
-  transition: all 0.2s ease;
+  color: #38bdf8 !important;
+  text-decoration: none !important;
+  border-bottom: 1px solid rgba(56, 189, 248, 0.25) !important;
+  transition: all 0.2s ease-in-out !important;
 }
 
 a:hover, .internal-link:hover {
-  color: #7DD3FC !important;
-  border-bottom-color: #7DD3FC;
-  background-color: rgba(56, 189, 248, 0.08);
-  border-radius: 2px;
+  color: #7dd3fc !important;
+  border-bottom-color: #7dd3fc !important;
+  background-color: rgba(56, 189, 248, 0.08) !important;
+  border-radius: 3px !important;
 }
 
-/* 引言區塊 (Blockquote) 輕量化：去除笨重灰底，改用左側細光條 */
+/* 4. 引用區塊 (Blockquote) 重塑：去除笨重灰底，改用左側極細光條 */
 blockquote {
   background: rgba(255, 255, 255, 0.02) !important;
-  border-left: 3px solid #38BDF8 !important;
+  border-left: 3px solid #38bdf8 !important;
   border-top: none !important;
   border-right: none !important;
   border-bottom: none !important;
-  color: #94A3B8 !important;
-  padding: 12px 18px !important;
-  margin: 1.2em 0 !important;
-  border-radius: 0 8px 8px 0;
+  color: #cbd5e1 !important;
+  padding: 12px 20px !important;
+  margin: 1.5em 0 !important;
+  border-radius: 0 8px 8px 0 !important;
 }
 
-/* 程式碼區塊與表格質感 */
-pre, code {
-  background-color: #1E293B !important;
-  border: 1px solid rgba(255, 255, 255, 0.05);
-  border-radius: 6px;
+/* 5. 條列清單質感提升：縮小間距，增加乾淨的邊界感 */
+ul, ol {
+  padding-left: 20px !important;
+  margin-bottom: 1.2em !important;
 }
 
+li {
+  margin-bottom: 6px !important;
+  color: #cbd5e1 !important;
+}
+
+li::marker {
+  color: #64748b !important; /* 項目符號弱化為低調深灰 */
+}
+
+/* 6. 表格現代化排版 */
 table {
-  width: 100%;
-  border-collapse: collapse;
-  margin: 1.5em 0;
-  background: rgba(255, 255, 255, 0.01);
-  border-radius: 8px;
-  overflow: hidden;
+  width: 100% !important;
+  border-collapse: separate !important;
+  border-spacing: 0 !important;
+  margin: 1.5em 0 !important;
+  background: rgba(255, 255, 255, 0.02) !important;
+  border: 1px solid rgba(255, 255, 255, 0.08) !important;
+  border-radius: 8px !important;
+  overflow: hidden !important;
 }
 
 th {
-  background: rgba(255, 255, 255, 0.05);
-  color: #F1F5F9;
-  text-align: left;
-  padding: 10px 14px;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  background: rgba(255, 255, 255, 0.05) !important;
+  color: #f1f5f9 !important;
+  font-weight: 600 !important;
+  padding: 12px 16px !important;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08) !important;
 }
 
 td {
-  padding: 10px 14px;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.04);
+  padding: 12px 16px !important;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.04) !important;
+}
+
+/* 7. 行內代碼與標籤 Tag 輕量化 */
+code:not(pre code) {
+  background-color: #1e293b !important;
+  color: #38bdf8 !important;
+  padding: 2px 6px !important;
+  border-radius: 4px !important;
+  border: 1px solid rgba(255, 255, 255, 0.05) !important;
 }
