@@ -23,7 +23,7 @@ flowchart LR
 ## 💡 三大核心要素
 
 ### 1. 市場結構 (Market Structure)
-* **產業集中度**：如 [[he-fen-da-er-zhi-shu-hhi_赫芬達爾指數 HHI]]、[[industry-concentration_產業集中度|CR4 / CR8]]。
+* **產業集中度**：如 [[index-hhi_赫芬達爾指數 HHI|he-fen-da-er-zhi-shu-hhi_赫芬達爾指數 HHI]]、[[industry-concentration_產業集中度|CR4 / CR8]]。
 * **[[barriers-to-entry_進入障礙]]與[[exit-barriers_退出障礙]]**：規模經濟、資本門檻、法規管制。
 * **產品差異化與成本結構**：固定成本佔比與產品替代性。
 
@@ -34,7 +34,7 @@ flowchart LR
 
 ### 3. 市場績效 (Market Performance)
 * **經濟效率**：產能利用率與[[economies-of-scale_規模經濟]]實現程度。
-* **獲利能力**：[[industry-ping-jia-yu-valuation-indicator-valuation-metrics_產業評價與估值指標 Valuation Metrics|ROIC]]、ROE 與利潤率。
+* **獲利能力**：[[valuation-indicator-valuation-metrics_產業評價與估值指標 Valuation Metrics|ROIC]]、ROE 與利潤率。
 * **技術進步**：產業創新速度與專利產出。
 
 ---
@@ -42,5 +42,5 @@ flowchart LR
 ## 🔗 相關概念
 * [[bo-te-five-forces-analysis_波特五力分析]]
 * [[industry-concentration_產業集中度]]
-* [[he-fen-da-er-zhi-shu-hhi_赫芬達爾指數 HHI]]
-* [[yi-dong-zhang-ai-mobility-barriers_移動障礙 Mobility Barriers]]
+* [[index-hhi_赫芬達爾指數 HHI|he-fen-da-er-zhi-shu-hhi_赫芬達爾指數 HHI]]
+* [[barriers-mobility-barriers_移動障礙 Mobility Barriers|yi-dong-zhang-ai-mobility-barriers_移動障礙 Mobility Barriers]]

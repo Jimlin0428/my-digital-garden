@@ -19,10 +19,10 @@
 ## 三、 產業意涵與策略判讀
 - **製造業與重資產產業**：需特別關注折舊與產能利用率對此指標的固定成本分攤影響。
 - **IC 設計與軟體平台**：多呈現高指標特徵，優勢來自無形資產與[[98_商業概念庫/network-effects_網絡效應\|network-effects_網絡效應]]，但需關注銷售與研發費用控管。
-- **零售通路與電商**：指標與流轉速度（如[[98_商業概念庫/inventory-turnover-ratio_存貨週轉率\|inventory-turnover-ratio_存貨週轉率]]）高度相關，需結合[[98_商業概念庫/cash-zhuan-huan-cycle_現金轉換週期\|cash-zhuan-huan-cycle_現金轉換週期]]判讀真實營運健康度。
+- **零售通路與電商**：指標與流轉速度（如[[98_商業概念庫/inventory-turnover-ratio_存貨週轉率\|inventory-turnover-ratio_存貨週轉率]]）高度相關，需結合[[cash-zhuan-huan-cycle_現金轉換週期\|cash-zhuan-huan-cycle_現金轉換週期]]判讀真實營運健康度。
 
 ## 四、 關聯主題與模組
 * [[04_主題選修/12_產業分析與投資策略/02_模組筆記/Module_1_總論與架構/M1-2_三大景氣循環與資本評價邏輯\|M1-2 三大景氣循環與資本評價邏輯]]
 * [[04_主題選修/12_產業分析與投資策略/02_模組筆記/Module_1_總論與架構/M1-4_台灣產業發展歷程與決策工具箱\|M1-4 台灣產業發展歷程與決策工具箱]]
-* [[98_商業概念庫/industry-ping-jia-yu-valuation-indicator-valuation-metrics_產業評價與估值指標 Valuation Metrics\|industry-ping-jia-yu-valuation-indicator-valuation-metrics_產業評價與估值指標 Valuation Metrics]]
-* [[98_商業概念庫/du-bang-analysis-fa_杜邦分析法\|du-bang-analysis-fa_杜邦分析法]]
+* [[industry-ping-jia-yu-valuation-indicator-valuation-metrics_產業評價與估值指標 Valuation Metrics\|industry-ping-jia-yu-valuation-indicator-valuation-metrics_產業評價與估值指標 Valuation Metrics]]
+* [[du-bang-analysis-fa_杜邦分析法\|du-bang-analysis-fa_杜邦分析法]]
