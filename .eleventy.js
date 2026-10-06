@@ -118,6 +118,7 @@ const slugify = (str) => {
       .replace(/[^\w\u4e00-\u9fa5\-_~]+/g, "")
   );
 };
+
 const {
   userMarkdownSetup,
   userEleventySetup,
@@ -128,20 +129,10 @@ const { basesPlugin } = require("./src/helpers/basesPlugin");
 const Image = require("@11ty/eleventy-img");
 const { isDecodableImage } = require("./src/helpers/imageFormat.js");
 
-// Build containers have few CPUs and little memory; the default queue
-// concurrency of 10 holds ~10 decoded images in memory at once without
-// finishing any faster. Sharp already parallelizes within each job.
 Image.concurrency = 2;
 
-// Image generation is started fire-and-forget during transforms (the markup
-// only needs statsSync), but every pending job is awaited in the
-// eleventy.after hook below so the build doesn't linger — or get killed —
-// doing invisible work after Eleventy reports completion.
 const pendingImageJobs = [];
 
-// Note: fillPictureSourceSets only references the first two widths; the
-// full-size original is served via the <img src> fallback, so a full
-// resolution "auto" rendition would never be referenced by the markup.
 function transformImage(src, cls, alt, sizes, widths = ["500", "700"]) {
   let options = {
     widths: widths,
@@ -150,8 +141,6 @@ function transformImage(src, cls, alt, sizes, widths = ["500", "700"]) {
     urlPath: "/img/optimized",
   };
 
-  // A rejection here (e.g. a corrupt file) must not become an unhandled
-  // rejection, which would fail the whole build.
   pendingImageJobs.push(
     Image(src, options).catch((err) => {
       console.warn(`[image] Skipping optimization of ${src}: ${err.message}`);
@@ -166,11 +155,6 @@ function getAnchorLink(filePath, linkTitle) {
   return `<a ${Object.keys(attributes).map(key => `${key}="${attributes[key]}"`).join(" ")}>${innerHTML}</a>`;
 }
 
-// Resolving a wikilink target reads and YAML-parses the target note's
-// frontmatter from disk. The same targets are linked from many notes (and the
-// same link is resolved again by the graph/backlink machinery), so cache per
-// (target, title). Cleared in eleventy.before so watch-mode rebuilds see
-// frontmatter edits.
 const anchorAttributesCache = new Map();
 
 function getAnchorAttributes(filePath, linkTitle) {
@@ -244,11 +228,16 @@ function computeAnchorAttributes(filePath, linkTitle) {
 }
 
 const tagRegex = /(^|\s|\>)(#[^\s!@#$%^&*()=+\.,\[{\]};:'"?><]+)(?!([^<]*>))/g;
-
 const markdownFileTypeRegex = /\.(md|markdown)$/i;
 const isMarkdownPage = (inputPath) => inputPath && inputPath.match(markdownFileTypeRegex);
 
 module.exports = function(eleventyConfig) {
+  // 核心修復：在全域註冊支援中文的 slugify
+  if (typeof eleventyConfig.setSlugify === "function") {
+    eleventyConfig.setSlugify(slugify);
+  }
+  eleventyConfig.addFilter("slugify", slugify);
+
   eleventyConfig.setLiquidOptions({
     dynamicPartials: true,
   });
@@ -285,7 +274,6 @@ module.exports = function(eleventyConfig) {
     .use(namedHeadingsFilter)
     .use(basesPlugin)
     .use(function(md) {
-      //https://github.com/DCsunset/markdown-it-mermaid-plugin
       const origFenceRule =
         md.renderer.rules.fence ||
         function(tokens, idx, options, env, self) {
@@ -303,20 +291,14 @@ module.exports = function(eleventyConfig) {
         }
         if (token.info === "gist") {
           const code = token.content.trim();
-          // Support multiple gist references, one per line
           const gistLines = code.split('\n').filter(line => line.trim());
-
           const scripts = gistLines.map(line => {
             line = line.trim();
-            // Parse format: [username/]gist-id[#filename]
             const parts = line.split('#');
             const gistPath = parts[0];
             const filename = parts[1] || '';
-
-            // Build the GitHub Gist embed URL
             const gistUrl = `https://gist.github.com/${gistPath}.js`;
             const scriptUrl = filename ? `${gistUrl}?file=${encodeURIComponent(filename)}` : gistUrl;
-
             return `<script src="${scriptUrl}"></script>`;
           });
           return scripts.join('\n');
@@ -366,14 +348,11 @@ module.exports = function(eleventyConfig) {
             collapseClasses += " is-collapsed"
           }
 
-          let res = `<div data-callout-metadata class="callout ${collapseClasses}" data-callout="${token.info.substring(3)
-            }">${titleDiv}\n<div class="callout-content">${md.render(
+          let res = `<div data-callout-metadata class="callout ${collapseClasses}" data-callout="${token.info.substring(3)             }">${titleDiv}\n<div class="callout-content">${md.render(
               parts.slice(nbLinesToSkip).join("\n")
             )}</div></div>`;
           return res
         }
-
-        // Other languages
         return origFenceRule(tokens, idx, options, env, slf);
       };
 
@@ -384,7 +363,6 @@ module.exports = function(eleventyConfig) {
         };
       md.renderer.rules.image = (tokens, idx, options, env, self) => {
         const imageName = tokens[idx].content;
-        //"image.png|metadata?|width"
         const [fileName, ...widthAndMetaData] = imageName.split("|");
         const lastValue = widthAndMetaData[widthAndMetaData.length - 1];
         const lastValueIsNumber = !isNaN(lastValue);
@@ -429,7 +407,6 @@ module.exports = function(eleventyConfig) {
         ) {
           return false;
         }
-        // Any explicit scheme (http, https, mailto, etc) is treated as external.
         return /^[a-z][a-z0-9+.-]*:/i.test(trimmed);
       }
 
@@ -485,23 +462,15 @@ module.exports = function(eleventyConfig) {
     return (
       str &&
       str.replace(/\[\[(.*?\|.*?)\]\]/g, function(match, p1) {
-        //Check if it is an embedded excalidraw drawing or mathjax javascript
         if (p1.indexOf("],[") > -1 || p1.indexOf('"$"') > -1) {
           return match;
         }
         const [fileLink, linkTitle] = p1.split("|");
-
         return getAnchorLink(fileLink, linkTitle);
       })
     );
   });
 
-  // Resolve markdown-style relative links to .md files (e.g. [X](../a/b.md))
-  // to their real permalinks. Obsidian resolves these in-app, but they reach
-  // the rendered HTML untouched, where trailing-slash page URLs make the
-  // browser resolve them one directory too deep.
-  // pageInputPath overrides this.page for contexts like the feed, where the
-  // rendered content belongs to a looped-over note rather than the current page.
   eleventyConfig.addFilter("resolveMdLinks", function(str, pageInputPath) {
     const inputPath = pageInputPath || (this.page && this.page.inputPath);
     if (!str || !inputPath) {
@@ -524,8 +493,6 @@ module.exports = function(eleventyConfig) {
         }
         firstAttempt = firstAttempt || attributes;
       }
-      // Unresolved targets keep getAnchorAttributes' /404 behavior, matching
-      // how dead wikilinks are handled.
       return firstAttempt;
     });
   });
@@ -550,24 +517,15 @@ module.exports = function(eleventyConfig) {
 
   eleventyConfig.addFilter("xmlSafe", function(str) {
     if (!str) return str;
-    // Remove invalid XML characters (0xFFFE, 0xFFFF, etc.)
     str = str.replace(/\uFFFE|\uFFFF/g, '');
-    // Escape ]]> in content to prevent CDATA issues
     str = str.replace(/\]\]>/g, ']]&gt;');
-    // Self-close br, hr, and link tags
     str = str.replace(/<br\s*>/gi, '<br />');
     str = str.replace(/<hr\s*>/gi, '<hr />');
     str = str.replace(/<link([^>]*?)(?<!\/)>/gi, '<link$1 />');
-    // Self-close img tags that aren't already self-closed
     str = str.replace(/<img([^>]*?)(?<!\/)>/gi, '<img$1 />');
     return str;
   });
 
-  // The dataview-js-links, callout-block, picture and table steps below used
-  // to be four separate transforms, each doing its own full HTML parse and
-  // re-serialize of every page. They are applied in the same order on a
-  // single parsed tree in the combined "obsidian-html" transform after their
-  // helper definitions.
   function transformDataviewJsLinks(parsed) {
     for (const dataViewJsLink of parsed.querySelectorAll("a[data-href].internal-link")) {
       const notePath = dataViewJsLink.getAttribute("data-href");
@@ -580,15 +538,11 @@ module.exports = function(eleventyConfig) {
     }
   }
 
-  // Shared helper to transform callout blockquotes - used by both callout-block transform and canvas-markdown
   const calloutMeta = /\[!([\w-]*)\|?(\s?.*)\](\+|\-){0,1}(\s?.*)/;
   function transformCalloutBlockquotes(blockquotes) {
     for (const blockquote of blockquotes) {
-      // Process nested blockquotes first
       transformCalloutBlockquotes(blockquote.querySelectorAll("blockquote"));
-
       let content = blockquote.innerHTML;
-
       let titleDiv = "";
       let calloutType = "";
       let calloutMetaData = "";
@@ -619,7 +573,6 @@ module.exports = function(eleventyConfig) {
         }
       );
 
-      /* Hacky fix for callouts with only a title */
       if (content === "\n<p>\n") {
         content = "";
       }
@@ -634,7 +587,6 @@ module.exports = function(eleventyConfig) {
       blockquote.innerHTML = `${titleDiv}${contentDiv}`;
     }
   }
-
 
   function fillPictureSourceSets(src, cls, alt, meta, width, imageTag) {
     imageTag.tagName = "picture";
@@ -670,7 +622,6 @@ module.exports = function(eleventyConfig) {
     imageTag.innerHTML = html;
   }
 
-
   async function transformPictures(parsed) {
     if (process.env.USE_FULL_RESOLUTION_IMAGES === "true") {
       return;
@@ -678,12 +629,6 @@ module.exports = function(eleventyConfig) {
     for (const imageTag of parsed.querySelectorAll(".cm-s-obsidian img")) {
       const src = imageTag.getAttribute("src");
       if (src && src.startsWith("/") && !src.endsWith(".svg")) {
-        // Files sharp can't decode (e.g. HEIC or a truncated AVIF renamed
-        // to .jpg) keep their original <img> tag instead of a <picture>
-        // pointing at optimized files that will never exist. This must be
-        // a real decode probe, not just a header check: feeding an
-        // undecodable file to eleventy-img fails the whole build via
-        // unhandled promise rejections in its internals.
         if (!(await isDecodableImage("./src/site" + decodeURI(src)))) {
           continue;
         }
@@ -703,7 +648,6 @@ module.exports = function(eleventyConfig) {
             fillPictureSourceSets(src, cls, alt, meta, width, imageTag);
           }
         } catch {
-          // Make it fault tolarent.
         }
       }
     }
@@ -745,11 +689,10 @@ module.exports = function(eleventyConfig) {
     return parsed.innerHTML;
   });
 
-  // Helper function to convert wiki-links in canvas text nodes (same logic as link filter)
   function convertCanvasLinks(str) {
     return (
       str &&
-      str.replace(/\[\[(.*?\|.*?)\]\]/g, function(match, p1) {
+      str.replace(/\[\[(.*?\Vert{}.*?)\]\]/g, function(match, p1) {
         if (p1.indexOf("],[") > -1 || p1.indexOf('"$"') > -1) {
           return match;
         }
@@ -759,7 +702,6 @@ module.exports = function(eleventyConfig) {
     );
   }
 
-  // Helper function to convert tags in canvas text nodes (same logic as taggify filter)
   function convertCanvasTags(str) {
     return (
       str &&
@@ -769,7 +711,6 @@ module.exports = function(eleventyConfig) {
     );
   }
 
-  // Render markdown in canvas text nodes at build time
   eleventyConfig.addTransform("canvas-markdown", function(str) {
     if (!str || !str.includes('data-markdown="')) {
       return str;
@@ -782,20 +723,15 @@ module.exports = function(eleventyConfig) {
         if (base64Content) {
           try {
             const markdown = Buffer.from(base64Content, 'base64').toString('utf8');
-            // Render markdown
             let rendered = markdownLib.render(markdown);
-            // Apply wiki-link conversion (same as link filter)
             rendered = convertCanvasLinks(rendered);
-            // Apply tag conversion (same as taggify filter)
             rendered = convertCanvasTags(rendered);
-            // Apply callout transformation (reuse shared helper)
             const renderedParsed = parse(rendered);
             transformCalloutBlockquotes(renderedParsed.querySelectorAll("blockquote"));
             rendered = renderedParsed.innerHTML;
             textNode.innerHTML = rendered;
             textNode.removeAttribute('data-markdown');
           } catch (e) {
-            // If markdown rendering fails, show raw text as fallback
             console.error('Failed to render canvas markdown:', e);
             const rawText = Buffer.from(base64Content, 'base64').toString('utf8');
             textNode.innerHTML = `<pre>${rawText}</pre>`;
@@ -805,7 +741,6 @@ module.exports = function(eleventyConfig) {
       }
       return parsed.innerHTML;
     } catch (e) {
-      // If parsing fails entirely, return original content
       console.error('Failed to parse canvas content:', e);
       return str;
     }
@@ -817,11 +752,6 @@ module.exports = function(eleventyConfig) {
       (this.page.outputPath || "").endsWith(".html")
     ) {
       try {
-        // preserveLineBreaks is intentionally off: its trailing-whitespace
-        // regex is quadratic on large text chunks and was one of the biggest
-        // single costs of the whole build. conservativeCollapse still keeps a
-        // whitespace character wherever there was one (a newline renders the
-        // same as a space), so output is visually identical.
         return await htmlMinifier.minify(content, {
           useShortDoctype: true,
           removeComments: true,
@@ -832,7 +762,6 @@ module.exports = function(eleventyConfig) {
           keepClosingSlash: true,
         });
       } catch {
-        // If the html minifying fails for some reason due to some malformed text, just return the content as is.
         return content;
       }
     }
@@ -848,7 +777,6 @@ module.exports = function(eleventyConfig) {
       try {
         return JSON.stringify(JSON.parse(content));
       } catch {
-        // If the JSON minifying fails for some reason due to malformed JSON, just return the content as is.
         return content;
       }
     }
@@ -878,14 +806,11 @@ module.exports = function(eleventyConfig) {
     tags: ["h1", "h2", "h3", "h4", "h5", "h6"],
   });
 
-  // Canvas files are pre-compiled HTML by the plugin - don't process as markdown
   eleventyConfig.addExtension("canvas", {
     read: true,
     compile: async function(inputContent, inputPath) {
-      // Extract content after frontmatter (canvas HTML is already compiled by plugin)
       const parsed = matter(inputContent, matterOptions);
       return async (data) => {
-        // Return the HTML content directly without markdown processing
         return parsed.content;
       };
     }
