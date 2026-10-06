@@ -104,8 +104,20 @@ function cachedMinifyCSS(text, type) {
 const {
   headerToId,
   namedHeadingsFilter,
-  cachedSlugify: slugify,
 } = require("./src/helpers/utils");
+
+// 自訂中文相容的 slugify：保留中文字元與英數字，避免被過濾成空字串
+const slugify = (str) => {
+  if (!str) return "";
+  return encodeURI(
+    str
+      .toString()
+      .trim()
+      .toLowerCase()
+      .replace(/\s+/g, "-")
+      .replace(/[^\w\u4e00-\u9fa5\-_~]+/g, "")
+  );
+};
 const {
   userMarkdownSetup,
   userEleventySetup,
