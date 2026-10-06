@@ -14,16 +14,23 @@ const allSettings = [
 module.exports = {
   eleventyComputed: {
     layout: (data) => {
-      if (data.tags.indexOf("gardenEntry") != -1) {
+      if (data.tags && data.tags.indexOf("gardenEntry") != -1) {
         return "layouts/index.njk";
       }
       return "layouts/note.njk";
     },
     permalink: (data) => {
-      if (data.tags.indexOf("gardenEntry") != -1) {
+      // 1. 若為首頁，直接輸出至根目錄 /
+      if (data.tags && data.tags.indexOf("gardenEntry") != -1) {
         return "/";
       }
-      return data.permalink || undefined;
+      // 2. 若筆記有自訂 permalink，優先使用自訂值
+      if (data.permalink) {
+        return data.permalink;
+      }
+      // 3. 處理中文檔名與子資料夾：使用 encodeURI 保留中文字元，避免被預設 slugify 濾成空字串
+      const rawPath = data.page.filePathStem.replace(/^\/notes\//, "");
+      return `/notes/${encodeURI(rawPath)}/`;
     },
     basesNotes: (data) => {
       if (!data.collections || !data.collections.note) return [];
