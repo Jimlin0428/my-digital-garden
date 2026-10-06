@@ -38,5 +38,5 @@ flowchart TD
 ---
 
 ## 🔗 相關概念
-* [[business-cycle_景氣循環|jing-qi-xun-huan_景氣循環]]
-* [[valuation-indicator-valuation-metrics_產業評價與估值指標 Valuation Metrics|industry-ping-jia-yu-valuation-indicator-valuation-metrics_產業評價與估值指標 Valuation Metrics]]
+* [[98_商業概念庫/business-cycle_景氣循環\|jing-qi-xun-huan_景氣循環]]
+* [[98_商業概念庫/valuation-indicator-valuation-metrics_產業評價與估值指標 Valuation Metrics\|industry-ping-jia-yu-valuation-indicator-valuation-metrics_產業評價與估值指標 Valuation Metrics]]
