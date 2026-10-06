@@ -96,9 +96,9 @@
 > [!TIP] 🧠 核心商業分析架構與理論卡片精選索引
 > 商業概念庫收錄 700+ 份原子化概念卡片，以下為兩門選修課程高頻引用之經典核心模型：
 
-- ⚙️ **戰略與分析架構**：[[98_商業概念庫/五力分析\|五力分析]] ｜ [[98_商業概念庫/SWOT分析\|SWOT分析]] ｜ [[98_商業概念庫/PEST分析\|PEST分析]] ｜ [[98_商業概念庫/VRIO架構\|VRIO架構]] ｜ [[98_商業概念庫/BCG矩陣\|BCG矩陣]] ｜ [[98_商業概念庫/SCP模型\|SCP模型]] ｜ [[98_商業概念庫/策略群組 Strategic Groups\|策略群組 Strategic Groups]]
-- 🚀 **創業與商業模式**：[[98_商業概念庫/MVP最小可行產品\|MVP最小可行產品]] ｜ [[98_商業概念庫/PMF產品市場適配\|PMF產品市場適配]] ｜ [[98_商業概念庫/關鍵轉折\|關鍵轉折]] ｜ [[98_商業概念庫/商業模式\|商業模式]] ｜ [[04_主題選修/10_創業與企業財務策略/02_模組筆記/Module_1_創新思維與商業模式/M1-10_七大市場力量與商業戰略價值公式\|七大市場力量 (7 Powers)]] ｜ [[98_商業概念庫/網絡效應\|網絡效應]] ｜ [[98_商業概念庫/範疇經濟 Economies of Scope\|範疇經濟 Economies of Scope]]
-- 💰 **財務與估值指標**：[[98_商業概念庫/永續成長率\|永續成長率]] ｜ [[98_商業概念庫/單位經濟模型\|單位經濟模型]] ｜ [[98_商業概念庫/赫芬達爾指數 HHI\|赫芬達爾指數 HHI]] ｜ [[98_商業概念庫/競合戰略 Coopetition\|競合戰略 Coopetition]] ｜ [[98_商業概念庫/產業評價與估值指標 Valuation Metrics\|產業評價與估值指標 Valuation Metrics]] ｜ [[98_商業概念庫/企業生命週期\|企業生命週期]] ｜ [[98_商業概念庫/企業價值\|企業價值]]
+- ⚙️ **戰略與分析架構**：[[98_商業概念庫/five-forces_五力分析\|five-forces_五力分析]] ｜ [[98_商業概念庫/SWOT分析\|SWOT分析]] ｜ [[98_商業概念庫/PEST分析\|PEST分析]] ｜ [[98_商業概念庫/VRIO架構\|VRIO架構]] ｜ [[98_商業概念庫/BCG矩陣\|BCG矩陣]] ｜ [[98_商業概念庫/SCP模型\|SCP模型]] ｜ [[98_商業概念庫/strategic-groups_策略群組 Strategic Groups\|strategic-groups_策略群組 Strategic Groups]]
+- 🚀 **創業與商業模式**：[[98_商業概念庫/MVP最小可行產品\|MVP最小可行產品]] ｜ [[98_商業概念庫/PMF產品市場適配\|PMF產品市場適配]] ｜ [[98_商業概念庫/pmba-dg-publish_關鍵轉折\|pmba-dg-publish_關鍵轉折]] ｜ [[98_商業概念庫/business-model_商業模式\|business-model_商業模式]] ｜ [[04_主題選修/10_創業與企業財務策略/02_模組筆記/Module_1_創新思維與商業模式/M1-10_七大市場力量與商業戰略價值公式\|七大市場力量 (7 Powers)]] ｜ [[98_商業概念庫/network-effects_網絡效應\|network-effects_網絡效應]] ｜ [[98_商業概念庫/economies-of-scope_範疇經濟 Economies of Scope\|economies-of-scope_範疇經濟 Economies of Scope]]
+- 💰 **財務與估值指標**：[[98_商業概念庫/sustainable-growth-rate_永續成長率\|sustainable-growth-rate_永續成長率]] ｜ [[98_商業概念庫/unit-economics-model_單位經濟模型\|unit-economics-model_單位經濟模型]] ｜ [[98_商業概念庫/hhi-herfindahl-hirschman-index_赫芬達爾指數 HHI\|hhi-herfindahl-hirschman-index_赫芬達爾指數 HHI]] ｜ [[98_商業概念庫/coopetition_競合戰略 Coopetition\|coopetition_競合戰略 Coopetition]] ｜ [[98_商業概念庫/industry_產業評價與估值指標 Valuation Metrics\|industry_產業評價與估值指標 Valuation Metrics]] ｜ [[98_商業概念庫/corporate-life-cycle_企業生命週期\|corporate-life-cycle_企業生命週期]] ｜ [[98_商業概念庫/firm-value_企業價值\|firm-value_企業價值]]
 
 ---
 
