@@ -232,24 +232,29 @@ const markdownFileTypeRegex = /\.(md|markdown)$/i;
 const isMarkdownPage = (inputPath) => inputPath && inputPath.match(markdownFileTypeRegex);
 
 module.exports = function(eleventyConfig) {
-  // 核心修復：強制攔截全域 permalink 計算，保留中文路徑並避免多個中文檔名搶佔 /index.html
+  // 自動修正被外掛截斷成 // 的中文路徑，全庫一勞永逸
   eleventyConfig.addGlobalData("eleventyComputed.permalink", () => {
     return (data) => {
-      // 1. 首頁直接輸出至根目錄 /
+      // 1. 首頁固定輸出至根目錄 /
       if (data.tags && data.tags.indexOf("gardenEntry") !== -1) {
         return "/";
       }
-      // 2. 取得目前筆記的原始路徑 (例如: /notes/98_商業概念庫/黑字倒閉)
-      const stem = data.page && data.page.filePathStem;
-      if (stem) {
-        const cleanPath = stem.replace(/^\/notes\//, "");
-        return `/notes/${encodeURI(cleanPath)}/`;
+
+      let link = data.permalink;
+
+      // 2. 若外掛生成的 permalink 以 // 結尾或無效（代表中文檔名被吃掉）
+      if (!link || link.endsWith("//") || link.endsWith("/undefined/")) {
+        const stem = data.page && data.page.filePathStem;
+        if (stem) {
+          const cleanPath = stem.replace(/^\/notes\//, "");
+          return `/notes/${encodeURI(cleanPath)}/`;
+        }
+        const fallbackTitle = data.title || "note";
+        return `/notes/${encodeURI(fallbackTitle)}/`;
       }
-      // 3. 若有手動設定 permalink 則採用
-      if (data.permalink) {
-        return data.permalink;
-      }
-      return undefined;
+
+      // 3. 正常指定了英文 permalink 的筆記直接採用
+      return link;
     };
   });
 
