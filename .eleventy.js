@@ -232,30 +232,36 @@ const markdownFileTypeRegex = /\.(md|markdown)$/i;
 const isMarkdownPage = (inputPath) => inputPath && inputPath.match(markdownFileTypeRegex);
 
 module.exports = function(eleventyConfig) {
-  // 自動修正被外掛截斷成 // 的中文路徑，全庫一勞永逸
+  // 1. 全域攔截並自動補齊被外掛截斷成 // 的中文路徑
   eleventyConfig.addGlobalData("eleventyComputed.permalink", () => {
     return (data) => {
-      // 1. 首頁固定輸出至根目錄 /
       if (data.tags && data.tags.indexOf("gardenEntry") !== -1) {
         return "/";
       }
 
-      let link = data.permalink;
-
-      // 2. 若外掛生成的 permalink 以 // 結尾或無效（代表中文檔名被吃掉）
-      if (!link || link.endsWith("//") || link.endsWith("/undefined/")) {
+      const p = data.permalink;
+      if (!p || p === "/" || p.endsWith("//") || p.endsWith("/undefined/")) {
         const stem = data.page && data.page.filePathStem;
         if (stem) {
           const cleanPath = stem.replace(/^\/notes\//, "");
           return `/notes/${encodeURI(cleanPath)}/`;
         }
-        const fallbackTitle = data.title || "note";
-        return `/notes/${encodeURI(fallbackTitle)}/`;
+        return `/notes/${encodeURI(data.title || "note")}/`;
       }
-
-      // 3. 正常指定了英文 permalink 的筆記直接採用
-      return link;
+      return p;
     };
+  });
+
+  // 2. 攔截集合資料，若 Frontmatter 裡有包含 // 的 permalink 直接移除，強制走上面的動態計算
+  eleventyConfig.addCollection("cleanCollisions", function(collectionApi) {
+    collectionApi.getAll().forEach((item) => {
+      if (item.data && typeof item.data.permalink === "string") {
+        if (item.data.permalink.endsWith("//") || item.data.permalink.includes("/04/10/")) {
+          delete item.data.permalink;
+        }
+      }
+    });
+    return [];
   });
 
   if (typeof eleventyConfig.setSlugify === "function") {
