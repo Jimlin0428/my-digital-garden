@@ -19,8 +19,8 @@ module.exports = {
       }
       return "layouts/note.njk";
     },
-    permalink: (data) => {
-      // 1. 若為首頁，直接輸出至根目錄 /
+    permalink: function (data) {
+      // 1. 首頁直接輸出至根目錄 /
       if (data.tags && data.tags.indexOf("gardenEntry") != -1) {
         return "/";
       }
@@ -28,9 +28,14 @@ module.exports = {
       if (data.permalink) {
         return data.permalink;
       }
-      // 3. 處理中文檔名與子資料夾：使用 encodeURI 保留中文字元，避免被預設 slugify 濾成空字串
-      const rawPath = data.page.filePathStem.replace(/^\/notes\//, "");
-      return `/notes/${encodeURI(rawPath)}/`;
+      // 3. 透過 this.page 取得真實路徑並使用 encodeURI 保留中文檔名
+      const pageObj = this.page || data.page;
+      if (pageObj && pageObj.filePathStem) {
+        const rawPath = pageObj.filePathStem.replace(/^\/notes\//, "");
+        return `/notes/${encodeURI(rawPath)}/`;
+      }
+      // 4. 安全退回方案：若取不到 page 物件，使用 fileSlug
+      return `/notes/${encodeURI(data.fileSlug || "")}/`;
     },
     basesNotes: (data) => {
       if (!data.collections || !data.collections.note) return [];
