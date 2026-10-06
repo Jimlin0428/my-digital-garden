@@ -237,7 +237,7 @@
 - 筆記修訂狀態管理 (⚪ 未開始 / ⚪ 待重整 / 🟢 已完成)
 - 核心關鍵詞及官方課綱全量對照
 ### 📚 98_商業概念庫 (跨週次雙向鏈結網絡)
-- 戰略與商業模式：[[schumpeter_熊彼得]]、[[PEST分析]]、[[VRIO架構]]、[[business-model_商業模式]]、[[pmba-dg-publish_精實創業]]
-- 財務與估值推導：[[Gordon股利折現模型]]、[[WACC加權平均資本成本]]、[[sustainable-growth-rate_永續成長率]]、[[自由現金流折現DCF]]、[[corporate-life-cycle_企業生命週期]]
+- 戰略與商業模式：[[xiong-bi-de_熊彼得]]、[[PEST分析]]、[[VRIO架構]]、[[business-model_商業模式]]、[[lean-startup_精實創業]]
+- 財務與估值推導：[[Gordon股利折現模型]]、[[WACC加權平均資本成本]]、[[yong-xu-cheng-zhang-rate_永續成長率]]、[[自由現金流折現DCF]]、[[enterprise-sheng-ming-cycle_企業生命週期]]
 - 創投與合約條款：[[TermSheet投資意向書]]、[[清算優先權]]、[[反稀釋條款]]、[[CapTable股權結構表]]、[[出場機制Exit]]
 ```
