@@ -3,9 +3,6 @@ const settings = require("../../helpers/constants");
 const { pickNoteMetadata } = require("../../helpers/bases-engine/noteMetadata");
 const pluginLoader = require("../../helpers/pluginLoader");
 
-// Core note settings plus any per-note flags declared by enabled plugins
-// (manifest "noteSettings"). Same resolution for both: per-note frontmatter
-// wins, the env var of the same name is the global default.
 const allSettings = [
   ...settings.ALL_NOTE_SETTINGS,
   ...pluginLoader.getNoteSettingKeys(),
@@ -19,7 +16,7 @@ module.exports = {
       }
       return "layouts/note.njk";
     },
-    permalink: function (data) {
+    permalink: (data) => {
       // 1. 首頁直接輸出至根目錄 /
       if (data.tags && data.tags.indexOf("gardenEntry") != -1) {
         return "/";
@@ -28,14 +25,15 @@ module.exports = {
       if (data.permalink) {
         return data.permalink;
       }
-      // 3. 透過 this.page 取得真實路徑並使用 encodeURI 保留中文檔名
-      const pageObj = this.page || data.page;
-      if (pageObj && pageObj.filePathStem) {
-        const rawPath = pageObj.filePathStem.replace(/^\/notes\//, "");
-        return `/notes/${encodeURI(rawPath)}/`;
+      // 3. 取得目前檔案的完整路徑（例如：/notes/98_商業概念庫/黑字倒閉）
+      const filePathStem = data.page && data.page.filePathStem;
+      if (filePathStem) {
+        // 移除開頭的 /notes/，並使用 encodeURI 保留中文字元
+        const cleanPath = filePathStem.replace(/^\/notes\//, "");
+        return `/notes/${encodeURI(cleanPath)}/`;
       }
-      // 4. 安全退回方案：若取不到 page 物件，使用 fileSlug
-      return `/notes/${encodeURI(data.fileSlug || "")}/`;
+      // 4. 防呆回退方案
+      return `/notes/${encodeURI(data.title || "note")}/`;
     },
     basesNotes: (data) => {
       if (!data.collections || !data.collections.note) return [];
