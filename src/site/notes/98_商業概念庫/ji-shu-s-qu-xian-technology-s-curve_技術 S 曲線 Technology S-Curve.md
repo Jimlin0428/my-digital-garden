@@ -32,4 +32,4 @@ flowchart LR
 ## 🔗 相關概念
 * [[industry-life-cycle_產業生命週期]]
 * [[shuang-gui-zhuan-xing-dual-transformation_雙軌轉型 Dual Transformation]]
-* [[經驗曲線 / 學習曲線]]
+* [[experience-curve_經驗曲線與學習曲線|經驗曲線 / 學習曲線]]
