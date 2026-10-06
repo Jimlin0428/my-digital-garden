@@ -104,20 +104,20 @@
   - [[M1-7_產業市場空間與策略群組|W04 市場空間界定與策略群組]]（[[TAM]]/[[SAM]]/[[SOM]]、策略群組地圖 SGM、移動障礙）
   - [[M1-8_商業生態系與平台網絡|W05 商業生態系與結構]]（Keystone/Niche/支配者、單雙邊市場網絡效應）
 
-### [[02_產業間分析/index|Module 2：產業間分析 (Inter-Industry Analysis)]]
-- [[02_產業間分析/M2-1_產業垂直價值體系|產業垂直價值體系 (Value System) (W06)]]
+### [[M2-1_產業垂直價值體系|Module 2：產業間分析 (Inter-Industry Analysis)]]
+- [[M2-1_產業垂直價值體系|產業垂直價值體系 (Value System) (W06)]]
   - [[enterprise_企業]]內部[[value-lian_價值鏈]] (Value Chain) 串聯至跨產業價值體系
   - 上中下游利潤池 (Profit Pool) 分配與微笑曲線 (Smile Curve) 定位
   - 垂直整合決策：自製 (Make) vs 外購 (Buy) ｜ 交易成本理論 (TCE) 實務應用
-- [[02_產業間分析/M2-2_產業聚落與地理生態|產業聚落生態學 (Cluster Ecology) (W06)]]
+- [[M2-2_產業聚落與地理生態|產業聚落生態學 (Cluster Ecology) (W06)]]
   - 波特鑽石模型 (Diamond Model)：生產要素 ｜ 需求條件 ｜ 關聯與支援產業 ｜ [[enterprise_企業]]策略與競爭結構
   - 地理鄰近性與外部規模經濟：技術知識外溢 ｜ 專門人才庫 ｜ 供應鏈配套綜效
-- [[02_產業間分析/M2-3_價值網分析與競合戰略|產業價值網與競合分析 (Coopetition) (W08)]]
+- [[M2-3_價值網分析與競合戰略|產業價值網與競合分析 (Coopetition) (W08)]]
   - Brandenburger 價值網 (Value Net)：顧客 ｜ 供應商 ｜ 競爭對手 ｜ [[complementary-goods_互補品]] (Complementors)
   - PARTS 賽局戰略架構：Players (參與者) ｜ Added values (附加價值) ｜ Rules (規則) ｜ Tactics (戰術) ｜ Scope (範疇)
   - 競合策略實務：把餅做大 (正和博弈) vs 分割利潤 (零和博弈)
 
-### [[03_產業演化與動態轉型/index|Module 3：產業演化與動態轉型 (Industry Evolution)]]
+### [[M3-1_產業生命週期與技術S曲線|Module 3：產業演化與動態轉型 (Industry Evolution)]]
 - [[M3-1_產業生命週期與技術S曲線|產品與產業生命週期 (PLC) (W07)]]
   - 生命週期四階段：[[dao-ru-qi_導入期]] (萌芽) ｜ [[cheng-zhang-qi_成長期]] (擴張) ｜ [[cheng-shu-qi_成熟期]] (整併) ｜ [[shuai-tui-qi_衰退期]] (萎縮)
   - 技術演化 S 曲線：技術效能突破點 ｜ 主導設計確立 (Dominant Design) ｜ 舊技術天花板
@@ -126,7 +126,7 @@
   - [[innovation_創新]]者的兩難 (Innovator's Dilemma)：既有巨頭為何忽視利基破壞者
   - 成熟[[enterprise_企業]]雙軌轉型 (Dual Transformation)：A軌 (核心本業優化) ＋ B軌 (第二成長曲線[[innovation_創新]])
 
-### [[04_產業投資策略與實務/index|Module 4：產業投資策略與實務 (Industry Investment & Practices)]]
+### [[M4-1_產業評價與估值基石|Module 4：產業投資策略與實務 (Industry Investment & Practices)]]
 - [[M4-1_產業評價與估值基石|產業投資概論與估值模型 (W10)]]
   - [[nei-zai-value_內在價值]]折現模型：現金流折現 (DCF) ｜ 終值 (Terminal Value) ｜ [[min-gan-du-analysis_敏感度分析]]
   - [[capital-yu-suan_資本預算]]決策：NPV 絕對財富優先原則 ｜ 門檻收益率 (Hurdle Rate = WACC + α)
@@ -139,7 +139,7 @@
   - 杜邦分析法 (DuPont Analysis)：[[jing-li-rate_淨利率]] (獲利性) × [[total-asset-turnover-ratio_總資產週轉率]] (營運效率) × [[equity-cheng-shu_權益乘數]] ([[finance-gang-gan_財務槓桿]])
   - 價值創造檢驗：ROIC vs WACC ｜ 經濟增加值 (EVA) 篩選標的
 
-### [[05_實務專題與期末整合/index|Module 5：實務專題與期末整合 (Practices, Lectures & Projects)]]
+### [[M5-1_業師講座半導體分析|Module 5：實務專題與期末整合 (Practices, Lectures & Projects)]]
 - [[M5-1_業師講座半導體分析|業師專題 (一)：工研院半導體分析實務 (W13)]]
   - 全球半導體先進製程演進 ｜ 地緣政治供應鏈重組 ｜ 智庫產業研究方法論
 - [[M5-2_業師講座產業投資實務|業師專題 (二)：中信證券產業投資實務 (W14)]]
