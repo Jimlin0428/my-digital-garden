@@ -232,7 +232,27 @@ const markdownFileTypeRegex = /\.(md|markdown)$/i;
 const isMarkdownPage = (inputPath) => inputPath && inputPath.match(markdownFileTypeRegex);
 
 module.exports = function(eleventyConfig) {
-  // 核心修復：在全域註冊支援中文的 slugify
+  // 核心修復：強制攔截全域 permalink 計算，保留中文路徑並避免多個中文檔名搶佔 /index.html
+  eleventyConfig.addGlobalData("eleventyComputed.permalink", () => {
+    return (data) => {
+      // 1. 首頁直接輸出至根目錄 /
+      if (data.tags && data.tags.indexOf("gardenEntry") !== -1) {
+        return "/";
+      }
+      // 2. 取得目前筆記的原始路徑 (例如: /notes/98_商業概念庫/黑字倒閉)
+      const stem = data.page && data.page.filePathStem;
+      if (stem) {
+        const cleanPath = stem.replace(/^\/notes\//, "");
+        return `/notes/${encodeURI(cleanPath)}/`;
+      }
+      // 3. 若有手動設定 permalink 則採用
+      if (data.permalink) {
+        return data.permalink;
+      }
+      return undefined;
+    };
+  });
+
   if (typeof eleventyConfig.setSlugify === "function") {
     eleventyConfig.setSlugify(slugify);
   }
