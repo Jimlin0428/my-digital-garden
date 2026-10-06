@@ -126,7 +126,7 @@ flowchart TD
 - **事件日期**：2026-09-15 (課堂開場時事)
 - **涉及市場 / 賽道**：全球總體通膨、美國貨幣政策、AI 算力基礎設施、光通訊/細光子 (CPO) 族群
 - **課堂對接週次**：[[M1-2_白板決策鏈與財務價值三角|W02 M1-2]] ｜ [[M1-6_創業觀念模式與商業計畫書審查|W02 M1-6]]
-- **對接商業概念**：[[jia-quan-ping-jun-zi-jin-cost_加權平均資金成本|WACC加權平均資本成本]] ｜ [[capital-zhi-chu_資本支出|資本支出CapEx]] ｜ [[industry-ping-jia-yu-valuation-indicator-valuation-metrics_產業評價與估值指標 Valuation Metrics|估值乘數重錨]]
+- **對接商業概念**：[[weighted-average-cost-of-capital_加權平均資金成本|WACC加權平均資本成本]] ｜ [[capital-expenditure_資本支出|資本支出CapEx]] ｜ [[valuation-indicator-valuation-metrics_產業評價與估值指標 Valuation Metrics|估值乘數重錨]]
 
 #### 1. 總體事件 / 政策信號 (Macro Catalyst)
 - **通膨指標雙軌拆解與黏著性**：
@@ -160,7 +160,7 @@ flowchart TD
 - **事件日期**：2026-09-08 (課堂開場時事)
 - **涉及市場 / 賽道**：全球一級創投市場 / 美日貨幣政策背離 / AI 與半導體新創
 - **課堂對接週次**：[[M1-1_創業本質與創業家精神|W01 M1-1]] ｜ [[M1-2_白板決策鏈與財務價值三角|W01 M1-2]]
-- **對接商業概念**：[[jia-quan-ping-jun-zi-jin-cost_加權平均資金成本|WACC加權平均資本成本]] ｜ [[fei-wei-theory_肥尾理論]] ｜ [[yong-xu-cheng-zhang-rate_永續成長率]]
+- **對接商業概念**：[[weighted-average-cost-of-capital_加權平均資金成本|WACC加權平均資本成本]] ｜ [[fat-tail-theory_肥尾理論|fei-wei-theory_肥尾理論]] ｜ [[sustainable-growth-rate_永續成長率|yong-xu-cheng-zhang-rate_永續成長率]]
 
 #### 1. 總體事件 / 政策信號 (Macro Catalyst)
 - **美國就業數據擾動**：美國勞工統計局 (BLS) 發布大非農新增就業人口高達 16 萬人遠超市場預期，形成「經濟好消息即股市壞消息」，推升市場對聯準會利率高懸與升息機率（升息一碼機率逼近六成）之擔憂。
@@ -190,7 +190,7 @@ flowchart TD
 - **事件日期**：2022-2023 全球週期性傳導
 - **涉及市場 / 賽道**：全球一級創投市場 / 高估值 SaaS 獨角獸
 - **課堂對接週次**：[[M1-1_創業本質與創業家精神|W01_創業概論]]、[[progress_📊 課程與筆記進度追蹤#w08|W08_創業投資]]、[[progress_📊 課程與筆記進度追蹤#w09|W09_企業財務策略概論]]
-- **對接商業概念**：[[jia-quan-ping-jun-zi-jin-cost_加權平均資金成本|WACC加權平均資本成本]]、[[fei-wei-theory_肥尾理論]]、[[cash-flow-zhe-xian-fa_現金流量折現法|DCF現金流折現模型]]
+- **對接商業概念**：[[weighted-average-cost-of-capital_加權平均資金成本|WACC加權平均資本成本]]、[[fat-tail-theory_肥尾理論|fei-wei-theory_肥尾理論]]、[[cash-flow-discounted_現金流量折現法|DCF現金流折現模型]]
 
 #### 1. 總體事件 / 政策信號 (Macro Catalyst)
 - 美國聯準會（Fed）為對抗高通膨，於 2022～2023 年間將聯邦基金基準利率由 0%~0.25% 迅速推升至 5.25%~5.50%。
@@ -216,7 +216,7 @@ flowchart TD
 - **事件日期**：2023-2024
 - **涉及市場 / 賽道**：台灣資本市場 / 軟體、生技、綠能高潛力新創
 - **課堂對接週次**：[[M1-4_創意思考工具與設計思考方法|W02_創業構想與商業計畫]]、[[progress_📊 課程與筆記進度追蹤#w08|W08_創業投資]]、[[progress_📊 課程與筆記進度追蹤#w15|W15_業師專題_台灣創投產業趨勢]]
-- **對接商業概念**：[[enterprise-sheng-ming-cycle_企業生命週期]]、[[exit-strategy_出場機制 Exit Strategy|創投出場機制Exit]]
+- **對接商業概念**：[[corporate-life-cycle_企業生命週期|enterprise-sheng-ming-cycle_企業生命週期]]、[[exit-strategy_出場機制 Exit Strategy|創投出場機制Exit]]
 
 #### 1. 總體事件 / 政策信號 (Macro Catalyst)
 - 金管會與台灣證交所放寬「臺灣創新板 (Taiwan Innovation Board, TIB)」上市審查條件，以「市值」取代傳統「獲利門檻」，並逐步鬆綁合格投資人限制。

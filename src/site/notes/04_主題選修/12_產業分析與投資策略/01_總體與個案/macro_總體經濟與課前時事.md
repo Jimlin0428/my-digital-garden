@@ -16,7 +16,7 @@
 > └─ 例：Fed FOMC 利率決策、國債發行規模、關稅與地緣政治壁壘
 > 
 > **Step 2. 經濟與金融傳導 (Transmission)**
-> └─ 例：長端公債殖利率走勢、[[98_商業概念庫/enterprise_企業\|enterprise_企業]] WACC [[98_商業概念庫/zi-jin-cost_資金成本\|zi-jin-cost_資金成本]]墊高、美元指數波動
+> └─ 例：長端公債殖利率走勢、[[98_商業概念庫/enterprise_企業\|enterprise_企業]] WACC [[98_商業概念庫/cost-of-capital_資金成本\|zi-jin-cost_資金成本]]墊高、美元指數波動
 > 
 > **Step 3. 實體產業營運衝擊 (Industry)**
 > └─ 例：高 CapEx 擴產計畫遞延、供應鏈去庫存壓力、產能過剩風險
@@ -39,7 +39,7 @@
   - [指標 2：統計屬性標記（領先 Leading / 同時 Concurrent / 落後 Lagging 指標）]
 - **對實體產業的結構性衝擊**：
   - [受惠產業（受刺激或利差擴大）]：
-  - [受害產業（成本轉嫁困難或[[98_商業概念庫/capital-zhi-chu_資本支出\|capital-zhi-chu_資本支出]]受抑）]：
+  - [受害產業（成本轉嫁困難或[[98_商業概念庫/capital-expenditure_資本支出\|capital-zhi-chu_資本支出]]受抑）]：
 - **對[[98_商業概念庫/capital-market_資本市場\|capital-market_資本市場]]與投資評價的傳導路徑**：
   - [無風險利率與折現率 r 變化對資產估值 (Valuation Compression/Expansion) 的影響]：
   - [企業加權平均資本成本 (WACC) 與專案門檻收益率 (Hurdle Rate) 變化]：
@@ -62,10 +62,10 @@
   - **美國國債增速 vs 名目 GDP 增速**：國債年化增長 7.5% vs 名目 GDP 4.3%（債務增長為 GDP 之 1.7 倍），國債利息年增 7%~8%。
 - **對實體產業的結構性衝擊**：
   - 長端美債出現「買方罷工 (Buyer Strike)」，長天期無風險公債殖利率居高不下。
-  - 重資產基礎設施型產業（高 CapEx ＋ 高負債比）之融資借貸成本劇增，新增[[98_商業概念庫/chan-neng-kuo-zhang_產能擴張\|chan-neng-kuo-zhang_產能擴張]]受限。
+  - 重資產基礎設施型產業（高 CapEx ＋ 高負債比）之融資借貸成本劇增，新增[[98_商業概念庫/capacity-expansion_產能擴張\|chan-neng-kuo-zhang_產能擴張]]受限。
 - **對[[98_商業概念庫/capital-market_資本市場\|capital-market_資本市場]]與投資評價的傳導路徑**：
   - 依資產折現公式 $V_0 = \sum \frac{CF_t}{(1 + r)^t}$，折現率 $r$ 高懸必然引發估值乘數壓縮 (Valuation Compression)。
-  - [[98_商業概念庫/enterprise_企業\|enterprise_企業]] WACC 居高不下，提高[[98_商業概念庫/capital-yu-suan_資本預算\|capital-yu-suan_資本預算]]門檻收益率（$\text{Hurdle Rate} = \text{WACC} + \alpha$），壓抑投資專案通過率。
+  - [[98_商業概念庫/enterprise_企業\|enterprise_企業]] WACC 居高不下，提高[[98_商業概念庫/capital-budgeting_資本預算\|capital-yu-suan_資本預算]]門檻收益率（$\text{Hurdle Rate} = \text{WACC} + \alpha$），壓抑投資專案通過率。
 - **高階經理人與投資人策略啟發**：
   - 經理人應審慎檢視在建工程之 IRR 是否實質覆蓋當前經通膨與風險貼水校正之 Hurdle Rate。
   - 避開過度仰賴廉價短期融資支撐資本開支之脆弱[[98_商業概念庫/enterprise_企業\|enterprise_企業]]。
@@ -111,11 +111,11 @@
   1. **資產定價估值壓縮（Valuation Compression）**：
      $$V_0 = \sum_{t=1}^{n} rac{	ext{CF}_t}{(1 + r)^t}$$
      無風險利率與折現率 $r$ 高懸，直接放大分母，即使[[98_商業概念庫/enterprise_企業\|enterprise_企業]]獲利不變，整體資產估值乘數（P/E 或 EV/EBITDA）亦遭到系統性壓縮。
-  2. **重資產產業[[98_商業概念庫/capital-zhi-chu_資本支出\|capital-zhi-chu_資本支出]]（CapEx）受到強烈壓抑**：
+  2. **重資產產業[[98_商業概念庫/capital-expenditure_資本支出\|capital-zhi-chu_資本支出]]（CapEx）受到強烈壓抑**：
      借貸與發債融資成本激增，直接拉高加權平均資本成本（WACC），導致大量專案預期報酬率無法跨越門檻收益率（$	ext{Hurdle Rate} = 	ext{WACC} + lpha$），半導體、航運與基礎建設等資本密集產業擴產意願明顯趨於保守。
 - **高階經理人策略啟發**：
-  - 嚴格控制[[98_商業概念庫/liability-bi-rate_負債比率\|liability-bi-rate_負債比率]]，避免在高利率週期進行高槓桿財務擴張；
-  - [[98_商業概念庫/capital-yu-suan_資本預算\|capital-yu-suan_資本預算]]審核應以「現金流自體造血能力」為核心，優先保留[[98_商業概念庫/liu-dong-xing_流動性\|liu-dong-xing_流動性]]儲備。
+  - 嚴格控制[[98_商業概念庫/liability-ratio_負債比率\|liability-bi-rate_負債比率]]，避免在高利率週期進行高槓桿財務擴張；
+  - [[98_商業概念庫/capital-budgeting_資本預算\|capital-yu-suan_資本預算]]審核應以「現金流自體造血能力」為核心，優先保留[[98_商業概念庫/liquidity_流動性\|liu-dong-xing_流動性]]儲備。
 
 ---
 
@@ -137,7 +137,7 @@
 - **「實體經濟 vs. 金融經濟」之市場預期傳導機制**：
   - **好消息為何變成壞消息？**
     - 實體經濟層面：PMI 指數飆升至 57 與 58，代表工廠訂單與服務消費旺盛，實體經濟蓬勃。
-    - 金融經濟層面：金融市場看的是「未來預期與[[98_商業概念庫/zi-jin-cost_資金成本\|zi-jin-cost_資金成本]]折現」。強勁的經濟數據意味著通膨降溫阻力加大，市場對 10 月 FOMC 升息機率之預期大幅拉升（原本預期僅 4 成，數據發布後顯著攀升）。
+    - 金融經濟層面：金融市場看的是「未來預期與[[98_商業概念庫/cost-of-capital_資金成本\|zi-jin-cost_資金成本]]折現」。強勁的經濟數據意味著通膨降溫阻力加大，市場對 10 月 FOMC 升息機率之預期大幅拉升（原本預期僅 4 成，數據發布後顯著攀升）。
     - [[98_商業概念庫/capital-market_資本市場\|capital-market_資本市場]]反應：十年期公債殖利率應聲衝破 5.0%，無風險折現率暴增導致美股三大指數全面下挫。
 - **AI 帶來全要素生產力（Total Factor Productivity, TFP）之結構性躍升**：
   - **裁員但利潤創高的背後邏輯**：2026 年初美股大型科技權值股（如微軟、Google、Meta）紛紛發動裁員，但營收與利潤卻持續創歷史新高。
@@ -149,25 +149,25 @@
   - 區分實體訂單與金融折現，切忌見到景氣數據火熱就盲目追高估值已過度透支的科技成長股；
   - 密切追蹤 CSP 巨頭（微軟、Google、亞馬遜、Meta）在 2026~2027 年的 AI 商業變現時程與自由現金流轉正拐點。
 
-### 🗓️ 2026/10/01 [[98_商業概念庫/quan-qiu-hua_全球化\|quan-qiu-hua_全球化]]三部曲、台灣出口破千億、科技巨頭 CapEx 膨脹與估值背離警訊 (W04)
+### 🗓️ 2026/10/01 [[98_商業概念庫/globalization_全球化\|quan-qiu-hua_全球化]]三部曲、台灣出口破千億、科技巨頭 CapEx 膨脹與估值背離警訊 (W04)
 
 * **關聯週次 / 模組**：W04 ｜ Module 1：總論與架構（產業內市場空間與策略群組）
 * **討論背景與核心事件**：
-  1. **[[98_商業概念庫/quan-qiu-hua_全球化\|quan-qiu-hua_全球化]]演變三部曲（板書推導核心）**：
-     * **1980～1990s [[98_商業概念庫/quan-qiu-hua_全球化\|quan-qiu-hua_全球化]]時代（Globalization）**：全球跨國供應鏈深度分工，受惠中國大陸與新興市場勞動力紅利釋放，全球物價水準長期穩定下降。
+  1. **[[98_商業概念庫/globalization_全球化\|quan-qiu-hua_全球化]]演變三部曲（板書推導核心）**：
+     * **1980～1990s [[98_商業概念庫/globalization_全球化\|quan-qiu-hua_全球化]]時代（Globalization）**：全球跨國供應鏈深度分工，受惠中國大陸與新興市場勞動力紅利釋放，全球物價水準長期穩定下降。
      * **2008～2016 慢球化時代（Slow-balization）**：全球金融海嘯（GFC）後反思高速粗放成長，快時尚（Inditex/Zara、H&M）興起伴隨過度消費與紡織廢棄物問題。歐洲全面推動 3R（Reduce, Reuse, Recycle）、WEEE 廢電子電機設備回收指令與 RoHS 無有害物質標準；[[98_商業概念庫/enterprise_企業\|enterprise_企業]]責任由 CSR 正式昇華為 ESG 嚴格制度標準。
      * **2019～至今 貿易保護與區域化時代（Trump-balization / Reglobalization）**：多邊自由貿易體系瓦解，轉向區域雙邊貿易協定（如 USMCA 美墨加協定代替 NAFTA）。歐洲政壇普遍右傾化（Anti-immigration / 保護主義抬頭）。
   2. **台灣出口結構歷史性翻轉**：
      * 台灣單月出口金額首次突破 1,000 億美元大關（上月達 1,090 億美元創下歷史新高）。
-     * 出口市場地理結構劇變：五年前對中國大陸及香港出口佔比超過 40%，現已劇降至約 15%；美國躍升為第一大出口國，東協為第二大。背後核心驅動力為高效能運算（HPC）與 AI 算力建設，美國四大 CSP 雲端巨頭（微軟、Google、AWS、Meta）之龐大[[98_商業概念庫/capital-zhi-chu_資本支出\|capital-zhi-chu_資本支出]]直接轉化為台灣伺服器供應鏈訂單。
+     * 出口市場地理結構劇變：五年前對中國大陸及香港出口佔比超過 40%，現已劇降至約 15%；美國躍升為第一大出口國，東協為第二大。背後核心驅動力為高效能運算（HPC）與 AI 算力建設，美國四大 CSP 雲端巨頭（微軟、Google、AWS、Meta）之龐大[[98_商業概念庫/capital-expenditure_資本支出\|capital-zhi-chu_資本支出]]直接轉化為台灣伺服器供應鏈訂單。
   3. **科技巨頭估值背離與自由現金流警訊**：
      * AI 正式邁向 SI（Superintelligence, 超級智慧），科技巨頭啟動史上最大規模股票回購（NVIDIA 加碼 1,500 億美元、Apple 與 Google 各逾 1,100 億美元）。
      * **估值矛盾拆解**：
-       - *[[98_商業概念庫/ben-yi-bi_本益比\|ben-yi-bi_本益比]]表面偏低*：Meta 前瞻 PE 降至 21 倍；記憶體龍頭美光（Micron）明年預估 EPS 飆增 121%，前瞻 PE 跌至極低之 5.29 倍，海力士亦僅 5.44 倍。
+       - *[[98_商業概念庫/pe-ratio_本益比\|ben-yi-bi_本益比]]表面偏低*：Meta 前瞻 PE 降至 21 倍；記憶體龍頭美光（Micron）明年預估 EPS 飆增 121%，前瞻 PE 跌至極低之 5.29 倍，海力士亦僅 5.44 倍。
        - *自由現金流嚴重告急*：科技巨頭之**股價現金流量比（Price to Free Cash Flow, P/FCF）高達 45 倍**（顯示為嚴重紅色警戒），揭露市場給予極高市值，但其每股產生的自由現金流（FCF）卻極度匱乏。
-       - *根因剖析*：龐大且不可逆的 AI 伺服器與資料中心[[98_商業概念庫/capital-zhi-chu_資本支出\|capital-zhi-chu_資本支出]]（CapEx）嚴重侵蝕自由現金流，一旦營收增長未達預期，將面臨巨大的[[98_商業概念庫/zhe-jiu_折舊\|zhe-jiu_折舊]]攤提與減損風暴。
+       - *根因剖析*：龐大且不可逆的 AI 伺服器與資料中心[[98_商業概念庫/capital-expenditure_資本支出\|capital-zhi-chu_資本支出]]（CapEx）嚴重侵蝕自由現金流，一旦營收增長未達預期，將面臨巨大的[[98_商業概念庫/zhe-jiu_折舊\|zhe-jiu_折舊]]攤提與減損風暴。
   4. **席勒 CAPE 比率高懸與通膨黏性限制降息**：
-     * 經通膨調整後的美股標普 500 席勒週期性調整[[98_商業概念庫/ben-yi-bi_本益比\|ben-yi-bi_本益比]]（Shiller CAPE ratio）已來到 41 倍，遠超歷史中位數（16～17 倍），逼近 2000 年網路泡沫（Dot-com bubble）崩盤前的 44 倍極端歷史峰值。
+     * 經通膨調整後的美股標普 500 席勒週期性調整[[98_商業概念庫/pe-ratio_本益比\|ben-yi-bi_本益比]]（Shiller CAPE ratio）已來到 41 倍，遠超歷史中位數（16～17 倍），逼近 2000 年網路泡沫（Dot-com bubble）崩盤前的 44 倍極端歷史峰值。
      * 記憶體（美光、海力士）[[98_商業概念庫/gross-margin-rate_毛利率\|gross-margin-rate_毛利率]]拉高至 80%~86%，但在伺服器與硬體 BOM 表中佔比高達 20%~30%。記憶體暴利轉嫁下游客戶，將強化通膨黏性（Inflation Stickiness），使美聯準會（Fed）降息空間受限，未來兩年[[98_商業概念庫/enterprise_企業\|enterprise_企業]] WACC 與折現率將維持高檔。
 * **高階經理人與投資人策略啟發**：
   1. 經理人不可被低前瞻 PE 迷惑，應密切監控[[98_商業概念庫/enterprise_企業\|enterprise_企業]]的自由現金流消耗率（[[98_商業概念庫/Burn Rate\|Burn Rate]]）與 CapEx 產出效能。

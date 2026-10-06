@@ -84,29 +84,29 @@
     - 產業定義與邊界動態模糊化挑戰
     - [[industry-analysis_產業分析]]標準執行六步驟 (界定/蒐集/結構/KSF/群組/策略)
   - [[M1-2_三大景氣循環與資本評價邏輯|M1-2 三大景氣循環與資本評價邏輯（板書推導專題）]]
-    - 三大波動週期：基欽 ([[cun-huo_存貨]] 3~4年) ｜ 朱格拉 (CapEx 7~10年) ｜ 康波 (長波 20~30年)
+    - 三大波動週期：基欽 ([[inventory_存貨|cun-huo_存貨]] 3~4年) ｜ 朱格拉 (CapEx 7~10年) ｜ 康波 (長波 20~30年)
     - 時間尺度法則：8～10 年時間序列分析（以廣達 2016-2025 雙軌轉型為例）
-    - [[nei-zai-value_內在價值]]折現模型 (DCF)：成長 g × 獲利 × 風險折現率 r
-    - [[capital-yu-suan_資本預算]]檢驗：NPV 絕對金額優先原則 ｜ 門檻收益率 Hurdle Rate = WACC + α
+    - [[value-2_內在價值|nei-zai-value_內在價值]]折現模型 (DCF)：成長 g × 獲利 × 風險折現率 r
+    - [[capital-budgeting_資本預算|capital-yu-suan_資本預算]]檢驗：NPV 絕對金額優先原則 ｜ 門檻收益率 Hurdle Rate = WACC + α
   - [[M1-3_產業獲利結構差異與十大經典理論|M1-3 產業獲利結構差異與十大經典理論]]
-    - 洞察一：跨產業獲利驅動因子解構（鴻海營收規模 vs [[tai-ji-dian_台積電]]技術寡占 vs 中租利差呆帳）
+    - 洞察一：跨產業獲利驅動因子解構（鴻海營收規模 vs [[tsmc_台積電|tai-ji-dian_台積電]]技術寡占 vs 中租利差呆帳）
     - 洞察二：同產業定位差距（實體通路：統一超 vs 全家 vs 寶雅品類殺手 Category Killer 41% ROE；代工六哥 AI 轉型）
     - 洞察三：動態重構的現代產業環境邊界
     - 十大經典[[industry-analysis_產業分析]]理論精要（SCP 典範三大學派、交易成本 TCE、賽局、組織生態、聚落、RBV/VRIO、S曲線、體制、五力、鑽石）
   - [[M1-4_台灣產業發展歷程與決策工具箱|M1-4 台灣產業發展歷程與決策工具箱]]
     - 台灣戰後產業轉型七大階段 (重建/進口替代/出口擴張/重化/策略性/高科技/[[innovation_創新]]布局)
-    - 台灣核心護城河：高彈性互補性[[strategy-lian-meng_策略聯盟]]網絡
+    - 台灣核心護城河：高彈性互補性[[strategy-alliance_策略聯盟|strategy-lian-meng_策略聯盟]]網絡
     - 高階經理人產業投資立項七大檢核問句
     - PMBA 碩士學位論文 (20～50頁) 無縫對接指南 (第一章至第六章實戰映射)
 - **【W02 ～ W05 後續進階主題 (規劃中)】**：
   - [[M1-5_波特五力分析與量化架構|W02 波特五力分析與量化架構]]（五力雷達圖量化、台灣製藥單一買方、福斯車廠退出障礙）
-  - [[M1-6_產業分析模式與九大分析工具矩陣|W03 產業分析模式]]（[[market-ji-zhong-du_市場集中度]] CR4/HHI、[[industry-structure_產業結構]]分析模型）
+  - [[M1-6_產業分析模式與九大分析工具矩陣|W03 產業分析模式]]（[[market-concentration_市場集中度|market-ji-zhong-du_市場集中度]] CR4/HHI、[[industry-structure_產業結構]]分析模型）
   - [[M1-7_產業市場空間與策略群組|W04 市場空間界定與策略群組]]（[[TAM]]/[[SAM]]/[[SOM]]、策略群組地圖 SGM、移動障礙）
   - [[M1-8_商業生態系與平台網絡|W05 商業生態系與結構]]（Keystone/Niche/支配者、單雙邊市場網絡效應）
 
 ### [[M2-1_產業垂直價值體系|Module 2：產業間分析 (Inter-Industry Analysis)]]
 - [[M2-1_產業垂直價值體系|產業垂直價值體系 (Value System) (W06)]]
-  - [[enterprise_企業]]內部[[value-lian_價值鏈]] (Value Chain) 串聯至跨產業價值體系
+  - [[enterprise_企業]]內部[[value-chain_價值鏈|value-lian_價值鏈]] (Value Chain) 串聯至跨產業價值體系
   - 上中下游利潤池 (Profit Pool) 分配與微笑曲線 (Smile Curve) 定位
   - 垂直整合決策：自製 (Make) vs 外購 (Buy) ｜ 交易成本理論 (TCE) 實務應用
 - [[M2-2_產業聚落與地理生態|產業聚落生態學 (Cluster Ecology) (W06)]]
@@ -119,7 +119,7 @@
 
 ### [[M3-1_產業生命週期與技術S曲線|Module 3：產業演化與動態轉型 (Industry Evolution)]]
 - [[M3-1_產業生命週期與技術S曲線|產品與產業生命週期 (PLC) (W07)]]
-  - 生命週期四階段：[[dao-ru-qi_導入期]] (萌芽) ｜ [[cheng-zhang-qi_成長期]] (擴張) ｜ [[cheng-shu-qi_成熟期]] (整併) ｜ [[shuai-tui-qi_衰退期]] (萎縮)
+  - 生命週期四階段：[[introduction-stage_導入期|dao-ru-qi_導入期]] (萌芽) ｜ [[growth-stage_成長期|cheng-zhang-qi_成長期]] (擴張) ｜ [[maturity-stage_成熟期|cheng-shu-qi_成熟期]] (整併) ｜ [[decline-stage_衰退期|shuai-tui-qi_衰退期]] (萎縮)
   - 技術演化 S 曲線：技術效能突破點 ｜ 主導設計確立 (Dominant Design) ｜ 舊技術天花板
 - [[M3-2_破壞式創新與雙軌轉型|產業發展與轉型 (W09)]]
   - Christensen 破壞式[[innovation_創新]] (Disruptive Innovation)：低階破壞 (Low-end) vs 新市場破壞 (New-market)
@@ -128,15 +128,15 @@
 
 ### [[M4-1_產業評價與估值基石|Module 4：產業投資策略與實務 (Industry Investment & Practices)]]
 - [[M4-1_產業評價與估值基石|產業投資概論與估值模型 (W10)]]
-  - [[nei-zai-value_內在價值]]折現模型：現金流折現 (DCF) ｜ 終值 (Terminal Value) ｜ [[min-gan-du-analysis_敏感度分析]]
-  - [[capital-yu-suan_資本預算]]決策：NPV 絕對財富優先原則 ｜ 門檻收益率 (Hurdle Rate = WACC + α)
-  - 相對估值乘數法：[[ben-yi-bi_本益比]] (P/E) ｜ [[gu-jia-jing-zhi-bi_股價淨值比]] (P/B) ｜ [[enterprise-value_企業價值]]乘數 (EV/EBITDA) ｜ 週期乘數校正
+  - [[value-2_內在價值|nei-zai-value_內在價值]]折現模型：現金流折現 (DCF) ｜ 終值 (Terminal Value) ｜ [[analysis-2_敏感度分析|min-gan-du-analysis_敏感度分析]]
+  - [[capital-budgeting_資本預算|capital-yu-suan_資本預算]]決策：NPV 絕對財富優先原則 ｜ 門檻收益率 (Hurdle Rate = WACC + α)
+  - 相對估值乘數法：[[pe-ratio_本益比|ben-yi-bi_本益比]] (P/E) ｜ [[pb-ratio_股價淨值比|gu-jia-jing-zhi-bi_股價淨值比]] (P/B) ｜ [[enterprise-value_企業價值]]乘數 (EV/EBITDA) ｜ 週期乘數校正
 - [[M4-2_產業投資策略與資產配置|產業投資策略與景氣循環 (W11)]]
   - 自上而下配置 (Top-Down)：總經與美林投資時鐘 (Investment Clock) 產業輪動
   - 策略風格分類：成長型投資 (Growth) vs 價值型投資 (Value) vs 深度動能 (Momentum)
   - 戰略型投資 vs 財務型投資：[[enterprise_企業]]創投 (CVC) 戰略卡位 ｜ 私募股權 (PE/[[VC]]) LBO 運作
 - [[M4-3_財務報表與產業績效評析|產業績效評析與杜邦解構 (W12)]]
-  - 杜邦分析法 (DuPont Analysis)：[[jing-li-rate_淨利率]] (獲利性) × [[total-asset-turnover-ratio_總資產週轉率]] (營運效率) × [[equity-cheng-shu_權益乘數]] ([[finance-gang-gan_財務槓桿]])
+  - 杜邦分析法 (DuPont Analysis)：[[net-profit-margin_淨利率|jing-li-rate_淨利率]] (獲利性) × [[total-asset-turnover-ratio_總資產週轉率]] (營運效率) × [[equity_權益乘數|equity-cheng-shu_權益乘數]] ([[financial-leverage_財務槓桿|finance-gang-gan_財務槓桿]])
   - 價值創造檢驗：ROIC vs WACC ｜ 經濟增加值 (EVA) 篩選標的
 
 ### [[M5-1_業師講座半導體分析|Module 5：實務專題與期末整合 (Practices, Lectures & Projects)]]
