@@ -23,8 +23,8 @@ flowchart LR
 ## 💡 三大核心要素
 
 ### 1. 市場結構 (Market Structure)
-* **產業集中度**：如 [[index-hhi_赫芬達爾指數 HHI|he-fen-da-er-zhi-shu-hhi_赫芬達爾指數 HHI]]、[[industry-concentration_產業集中度|CR4 / CR8]]。
-* **[[barriers-to-entry_進入障礙]]與[[exit-barriers_退出障礙]]**：規模經濟、資本門檻、法規管制。
+* **產業集中度**：如 [[98_商業概念庫/index-hhi_赫芬達爾指數 HHI\|he-fen-da-er-zhi-shu-hhi_赫芬達爾指數 HHI]]、[[98_商業概念庫/industry-concentration_產業集中度\|CR4 / CR8]]。
+* **[[98_商業概念庫/barriers-to-entry_進入障礙\|barriers-to-entry_進入障礙]]與[[98_商業概念庫/exit-barriers_退出障礙\|exit-barriers_退出障礙]]**：規模經濟、資本門檻、法規管制。
 * **產品差異化與成本結構**：固定成本佔比與產品替代性。
 
 ### 2. 企業行為 (Market Conduct)
@@ -33,14 +33,14 @@ flowchart LR
 * **組織與併購**：垂直整合與橫向併購。
 
 ### 3. 市場績效 (Market Performance)
-* **經濟效率**：產能利用率與[[economies-of-scale_規模經濟]]實現程度。
-* **獲利能力**：[[valuation-indicator-valuation-metrics_產業評價與估值指標 Valuation Metrics|ROIC]]、ROE 與利潤率。
+* **經濟效率**：產能利用率與[[98_商業概念庫/economies-of-scale_規模經濟\|economies-of-scale_規模經濟]]實現程度。
+* **獲利能力**：[[98_商業概念庫/valuation-indicator-valuation-metrics_產業評價與估值指標 Valuation Metrics\|ROIC]]、ROE 與利潤率。
 * **技術進步**：產業創新速度與專利產出。
 
 ---
 
 ## 🔗 相關概念
-* [[bo-te-five-forces-analysis_波特五力分析]]
-* [[industry-concentration_產業集中度]]
-* [[index-hhi_赫芬達爾指數 HHI|he-fen-da-er-zhi-shu-hhi_赫芬達爾指數 HHI]]
-* [[barriers-mobility-barriers_移動障礙 Mobility Barriers|yi-dong-zhang-ai-mobility-barriers_移動障礙 Mobility Barriers]]
+* [[98_商業概念庫/bo-te-five-forces-analysis_波特五力分析\|bo-te-five-forces-analysis_波特五力分析]]
+* [[98_商業概念庫/industry-concentration_產業集中度\|industry-concentration_產業集中度]]
+* [[98_商業概念庫/index-hhi_赫芬達爾指數 HHI\|he-fen-da-er-zhi-shu-hhi_赫芬達爾指數 HHI]]
+* [[98_商業概念庫/barriers-mobility-barriers_移動障礙 Mobility Barriers\|yi-dong-zhang-ai-mobility-barriers_移動障礙 Mobility Barriers]]

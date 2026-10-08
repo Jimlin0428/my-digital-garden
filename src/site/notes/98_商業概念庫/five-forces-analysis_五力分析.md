@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/98/bo-te-five-forces-analysis/","tags":["商業概念","產業分析","策略管理","競爭策略","PMBA"],"dg-note-properties":{"aliases":["波特五力分析","五力分析","五力模型","Porter's Five Forces","Five Forces Analysis"],"tags":["商業概念","產業分析","策略管理","競爭策略","PMBA"]}}
+{"dg-publish":true,"permalink":"/98/five-forces-analysis/","tags":["商業概念","產業分析","策略管理","競爭策略","PMBA"],"dg-note-properties":{"aliases":["五力分析","波特五力分析","五力模型","Porter's Five Forces","Five Forces Analysis"],"tags":["商業概念","產業分析","策略管理","競爭策略","PMBA"]}}
 ---
 
 
@@ -162,3 +162,4 @@ Step 5: 優先順序精煉 ──▶ 精煉出主宰產業勝負的「前 5~9 �
   - [[98_商業概念庫/existing-competitors_現有競爭者\|existing-competitors_現有競爭者]] ｜ [[98_商業概念庫/exit-barriers_退出障礙\|exit-barriers_退出障礙]] ｜ [[98_商業概念庫/market-concentration_市場集中度\|market-concentration_市場集中度]]
   - [[98_商業概念庫/value-net_價值網\|value-net_價值網]] ｜ [[98_商業概念庫/strategy-coopetition_競合戰略 Coopetition\|strategy-coopetition_競合戰略 Coopetition]] ｜ [[98_商業概念庫/complementary-goods_互補品\|complementary-goods_互補品]]
   - [[98_商業概念庫/value-curve_價值曲線\|value-curve_價值曲線]] ｜ [[98_商業概念庫/economic-moat_經濟護城河\|economic-moat_經濟護城河]]
+  - [[98_商業概念庫/bo-te-five-forces-analysis_波特五力分析\|bo-te-five-forces-analysis_波特五力分析]]

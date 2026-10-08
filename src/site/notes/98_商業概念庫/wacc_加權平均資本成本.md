@@ -1,9 +1,11 @@
 ---
-{"dg-publish":true,"permalink":"/98/weighted-average-cost-of-capital/","tags":["商業概念","財務管理","公司理財","資本結構","企業評價","PMBA"],"dg-note-properties":{"aliases":["WACC","加權平均資金成本","加權平均資本成本","Weighted Average Cost of Capital","加權資金成本","最適資金成本"],"tags":["商業概念","財務管理","公司理財","資本結構","企業評價","PMBA"]}}
+{"dg-publish":true,"permalink":"/98/wacc/","tags":["商業概念","財務管理","公司理財","資本結構","企業評價","PMBA"],"dg-note-properties":{"aliases":["WACC","加權平均資本成本","加權平均資金成本","Weighted Average Cost of Capital","加權資金成本","最適資金成本"],"tags":["商業概念","財務管理","公司理財","資本結構","企業評價","PMBA"]}}
 ---
 
 
 # 加權平均資金成本 (Weighted Average Cost of Capital, WACC)
+
+> 💡 **導航與索引**：本篇亦可參閱庫內標準命名字卡 [[98_商業概念庫/weighted-average-cost-of-capital_加權平均資金成本\|weighted-average-cost-of-capital_加權平均資金成本]]。
 
 ## 一、 核心定義與財務學本質
 
@@ -112,3 +114,4 @@ $$\text{經濟增加值 (EVA)} = (\text{ROIC} - \text{WACC}) \times \text{投入
   - [[98_商業概念庫/net-present-value_淨現值法\|net-present-value_淨現值法]] ｜ [[98_商業概念庫/equity-cost_權益成本\|equity-cost_權益成本]]
   - [[98_商業概念庫/capital-structure_資本結構\|capital-structure_資本結構]] ｜ [[98_商業概念庫/capital-structure-2_最佳資本結構\|capital-structure-2_最佳資本結構]]
   - [[98_商業概念庫/enterprise-value-evaluation_企業價值評估\|enterprise-value-evaluation_企業價值評估]] ｜ [[98_商業概念庫/discounted-cash-flow_折現現金流量\|discounted-cash-flow_折現現金流量]]
+  - [[98_商業概念庫/weighted-average-cost-of-capital_加權平均資金成本\|weighted-average-cost-of-capital_加權平均資金成本]]

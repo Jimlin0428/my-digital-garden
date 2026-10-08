@@ -10,6 +10,11 @@
 - 其本質在於幫助企業經理人分析[[98_商業概念庫/market-structure_市場結構\|市場結構]]、[[98_商業概念庫/competitive-advantage_競爭優勢\|competition-you-shi_競爭優勢]]、資源配置與動態轉型方向，確保企業在競爭環境中建立永續營運壁壘。
 
 ## 二、 計算公式與關鍵指標（若為財務/量化概念）
+- **標準計算公式**：
+  $$\text{本益比 (P/E)} = \frac{\text{每股市價 }(P_0)}{\text{每股盈餘 }(\text{EPS})}$$
+- **內在價值與成長期權拆解**：
+  結合 [[98_商業概念庫/pvgo_成長機會現值\|PVGO 成長機會現值]]，前瞻本益比可進一步二元拆解為「無成長基準」與「成長溢價期權」：
+  $$\frac{P_0}{\text{EPS}_1} = \frac{1}{r_e} + \frac{\text{PVGO}}{\text{EPS}_1}$$
 - **衡量維度與指標架構**：
   - 量化指標：結合[[98_商業概念庫/industry-concentration_產業集中度\|industry-concentration_產業集中度]]、[[98_商業概念庫/economies-of-scale_規模經濟\|economies-of-scale_規模經濟]]效益與[[98_商業概念庫/return-on-invested-capital_資本投入報酬率\|資本回報率]]等維度綜合衡量。
   - 質化評估：檢視企業在[[98_商業概念庫/barriers-to-entry_進入障礙\|barriers-to-entry_進入障礙]]、[[98_商業概念庫/switching-costs_轉換成本\|switching-costs_轉換成本]]與品牌資產上的護城河強度。
@@ -25,3 +30,4 @@
 * [[04_主題選修/12_產業分析與投資策略/02_模組筆記/Module_1_總論與架構/M1-6_產業分析模式與九大分析工具矩陣\|M1-6 產業分析模式與九大分析工具矩陣]]
 * [[98_商業概念庫/bo-te-five-forces-analysis_波特五力分析\|bo-te-five-forces-analysis_波特五力分析]]
 * [[98_商業概念庫/SCP模型\|SCP模型]]
+* [[98_商業概念庫/pvgo_成長機會現值\|pvgo_成長機會現值 (PVGO 成長機會現值)]]
