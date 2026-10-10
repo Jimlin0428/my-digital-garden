@@ -190,7 +190,7 @@ flowchart TD
 - **事件日期**：2022-2023 全球週期性傳導
 - **涉及市場 / 賽道**：全球一級創投市場 / 高估值 SaaS 獨角獸
 - **課堂對接週次**：[[M1-1_創業本質與創業家精神|W01_創業概論]]、[[progress_📊 課程與筆記進度追蹤#w08|W08_創業投資]]、[[progress_📊 課程與筆記進度追蹤#w09|W09_企業財務策略概論]]
-- **對接商業概念**：[[weighted-average-cost-of-capital_加權平均資金成本|WACC加權平均資本成本]]、[[fat-tail-theory_肥尾理論|fei-wei-theory_肥尾理論]]、[[cash-flow-discounted_現金流量折現法|DCF現金流折現模型]]
+- **對接商業概念**：[[weighted-average-cost-of-capital_加權平均資金成本|WACC加權平均資本成本]]、[[fat-tail-theory_肥尾理論|fei-wei-theory_肥尾理論]]、[[dcf_現金流量折現法|DCF現金流折現模型]]
 
 #### 1. 總體事件 / 政策信號 (Macro Catalyst)
 - 美國聯準會（Fed）為對抗高通膨，於 2022～2023 年間將聯邦基金基準利率由 0%~0.25% 迅速推升至 5.25%~5.50%。

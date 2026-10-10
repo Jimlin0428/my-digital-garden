@@ -240,6 +240,6 @@
 - 核心關鍵詞及官方課綱全量對照
 ### 📚 98_商業概念庫 (跨週次雙向鏈結網絡)
 - 戰略與商業模式：[[schumpeter_熊彼得|xiong-bi-de_熊彼得]]、[[PEST分析]]、[[VRIO架構]]、[[business-model_商業模式]]、[[lean-startup_精實創業]]
-- 財務與估值推導：[[dividend-discount-model_股利折現模型|Gordon股利折現模型]]、[[weighted-average-cost-of-capital_加權平均資金成本|WACC加權平均資本成本]]、[[sustainable-growth-rate_永續成長率|yong-xu-cheng-zhang-rate_永續成長率]]、[[cash-flow-discounted_現金流量折現法|自由現金流折現DCF]]、[[corporate-life-cycle_企業生命週期|enterprise-sheng-ming-cycle_企業生命週期]]
+- 財務與估值推導：[[dividend-discount-model_股利折現模型|Gordon股利折現模型]]、[[weighted-average-cost-of-capital_加權平均資金成本|WACC加權平均資本成本]]、[[sustainable-growth-rate_永續成長率|yong-xu-cheng-zhang-rate_永續成長率]]、[[dcf_現金流量折現法|自由現金流折現DCF]]、[[corporate-life-cycle_企業生命週期|enterprise-sheng-ming-cycle_企業生命週期]]
 - 創投與合約條款：[[term-sheet_投資意向書 Term Sheet|TermSheet投資意向書]]、[[liquidation-preference_清算優先權|清算優先權]]、[[anti-dilution_反稀釋條款|反稀釋條款]]、[[cap-table_股權結構表 Cap Table|CapTable股權結構表]]、[[exit-strategy_出場機制 Exit Strategy|出場機制Exit]]
 ```

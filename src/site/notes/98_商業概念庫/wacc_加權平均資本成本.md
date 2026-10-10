@@ -14,7 +14,7 @@
   - **投資人視角（Required Rate of Return）**：出資者承擔企業經營風險與財務風險所要求的最低要求報酬率。
   - **企業經理人視角（Opportunity Cost）**：動用社會資本與股東財富的**「機會成本（Opportunity Cost）」**。
 - **企業價值極大化 vs. WACC 極小化**：
-  在現金流量折現（DCF）模型中，企業實體價值（Enterprise Value, EV）等於未來所有[[98_商業概念庫/enterprise-free-cash-flow-liang_企業自由現金流量\|企業自由現金流]]（FCFF）以 WACC 折現之現值總和：
+  在[[98_商業概念庫/dcf_現金流量折現法\|現金流量折現（DCF）]]模型中，企業實體價值（Enterprise Value, EV）等於未來所有[[98_商業概念庫/enterprise-free-cash-flow-liang_企業自由現金流量\|企業自由現金流]]（FCFF）以 WACC 折現之現值總和：
   $$\text{企業價值 (EV)} = \sum_{t=1}^{\infty} \frac{\text{FCFF}_t}{(1 + \text{WACC})^t}$$
   👉 **核心定理**：當企業尋得一組最適資本結構，使得加權平均資金成本 $\text{WACC}$ 降至最低點時，企業整體價值必然達到極大化：
   $$\min \text{WACC} \iff \max \text{Enterprise Value } (V = B + S)$$
@@ -111,7 +111,7 @@ $$\text{經濟增加值 (EVA)} = (\text{ROIC} - \text{WACC}) \times \text{投入
   - [[04_主題選修/10_創業與企業財務策略/02_模組筆記/Module_1_創新思維與商業模式/M1-2_白板決策鏈與財務價值三角\|M1-2 白板決策鏈與財務價值三角]]（資本定價權與 WACC 折現率博弈）
 - 🔗 **核心概念原子卡片**：
   - [[98_商業概念庫/return-on-invested-capital_資本投入報酬率\|return-on-invested-capital_資本投入報酬率]] ｜ [[98_商業概念庫/pvgo_成長機會現值\|pvgo_成長機會現值]]
-  - [[98_商業概念庫/net-present-value_淨現值法\|net-present-value_淨現值法]] ｜ [[98_商業概念庫/equity-cost_權益成本\|equity-cost_權益成本]]
+  - [[98_商業概念庫/NPV_淨現值法 _Net Present Value\|淨現值法 (NPV)]] ｜ [[98_商業概念庫/equity-cost_權益成本\|equity-cost_權益成本]]
   - [[98_商業概念庫/capital-structure_資本結構\|capital-structure_資本結構]] ｜ [[98_商業概念庫/capital-structure-2_最佳資本結構\|capital-structure-2_最佳資本結構]]
-  - [[98_商業概念庫/enterprise-value-evaluation_企業價值評估\|enterprise-value-evaluation_企業價值評估]] ｜ [[98_商業概念庫/discounted-cash-flow_折現現金流量\|discounted-cash-flow_折現現金流量]]
+  - [[98_商業概念庫/enterprise-value-evaluation_企業價值評估\|enterprise-value-evaluation_企業價值評估]] ｜ [[98_商業概念庫/dcf_現金流量折現法\|現金流量折現法 (DCF)]]
   - [[98_商業概念庫/weighted-average-cost-of-capital_加權平均資金成本\|weighted-average-cost-of-capital_加權平均資金成本]]

@@ -26,3 +26,4 @@
 * [[04_主題選修/12_產業分析與投資策略/02_模組筆記/Module_1_總論與架構/M1-4_台灣產業發展歷程與決策工具箱\|M1-4 台灣產業發展歷程與決策工具箱]]
 * [[98_商業概念庫/valuation-indicator-valuation-metrics_產業評價與估值指標 Valuation Metrics\|industry-ping-jia-yu-valuation-indicator-valuation-metrics_產業評價與估值指標 Valuation Metrics]]
 * [[98_商業概念庫/dupont-analysis_杜邦分析法\|du-bang-analysis-fa_杜邦分析法]]
+* [[98_商業概念庫/dcf_現金流量折現法\|現金流量折現法 (DCF)]]
