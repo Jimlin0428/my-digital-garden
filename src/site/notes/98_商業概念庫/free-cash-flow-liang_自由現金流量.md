@@ -27,3 +27,4 @@
 * [[98_商業概念庫/valuation-indicator-valuation-metrics_產業評價與估值指標 Valuation Metrics\|industry-ping-jia-yu-valuation-indicator-valuation-metrics_產業評價與估值指標 Valuation Metrics]]
 * [[98_商業概念庫/dupont-analysis_杜邦分析法\|du-bang-analysis-fa_杜邦分析法]]
 * [[98_商業概念庫/dcf_現金流量折現法\|現金流量折現法 (DCF)]]
+* [[98_商業概念庫/sva_股東價值增加\|股東價值增加 (SVA)]]

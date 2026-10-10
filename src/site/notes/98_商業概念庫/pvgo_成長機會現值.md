@@ -73,5 +73,3 @@ $$\frac{P_0}{\text{EPS}_1} = \frac{1}{r_e} + \frac{\text{PVGO}}{\text{EPS}_1}$$
   - [[98_商業概念庫/return-on-invested-capital_資本投入報酬率\|資本投入報酬率 (ROIC)]]
   - [[98_商業概念庫/economic-moat_經濟護城河\|經濟護城河 (Economic Moat)]]
   - [[98_商業概念庫/earnings-per-share_每股盈餘\|每股盈餘 (EPS)]]
-  - [[98_商業概念庫/weighted-average-cost-of-capital_加權平均資金成本\|加權平均資金成本 (WACC)]]
-  - [[98_商業概念庫/dcf_現金流量折現法\|現金流量折現法 (DCF)]]

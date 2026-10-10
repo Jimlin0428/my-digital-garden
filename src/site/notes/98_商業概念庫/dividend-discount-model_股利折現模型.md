@@ -16,4 +16,4 @@
 - 適用於具備長期穩定獲利、高股息分紅與成熟現金流之企業（如中華電信、成熟期傳產金融股、鴻海）。
 
 ## 三、 關聯索引
-- 核心關聯：[[98_商業概念庫/dividend-policy_股利政策\|dividend-policy_股利政策]] ｜ [[98_商業概念庫/sustainable-growth-rate_永續成長率\|yong-xu-cheng-zhang-rate_永續成長率]] ｜ [[98_商業概念庫/return-on-invested-capital_資本投入報酬率\|return-on-invested-capital_資本投入報酬率]] ｜ [[98_商業概念庫/pvgo_成長機會現值\|pvgo_成長機會現值 (PVGO 成長機會現值)]] ｜ [[98_商業概念庫/dcf_現金流量折現法\|現金流量折現法 (DCF)]]
+- 核心關聯：[[98_商業概念庫/dividend-policy_股利政策\|dividend-policy_股利政策]] ｜ [[98_商業概念庫/sustainable-growth-rate_永續成長率\|yong-xu-cheng-zhang-rate_永續成長率]] ｜ [[98_商業概念庫/return-on-invested-capital_資本投入報酬率\|return-on-invested-capital_資本投入報酬率]] ｜ [[98_商業概念庫/pvgo_成長機會現值\|pvgo_成長機會現值 (PVGO 成長機會現值)]] ｜ [[98_商業概念庫/dcf_現金流量折現法\|現金流量折現法 (DCF)]] ｜ [[98_商業概念庫/sva_股東價值增加\|股東價值增加 (SVA)]]
