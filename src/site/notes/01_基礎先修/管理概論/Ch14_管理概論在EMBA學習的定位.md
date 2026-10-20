@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/01/02/ch14-emba/","title":"Ch14 管理概論在EMBA學習的定位","tags":["PMBA","管理概論","EMBA學習","管理思維","個案研究","跨領域整合","心智模式"],"dg-note-properties":{"title":"Ch14 管理概論在EMBA學習的定位","course":"管理概論","category":"01_基礎先修","type":"lecture-note","lecture":"02_Ch14","tags":["PMBA","管理概論","EMBA學習","管理思維","個案研究","跨領域整合","心智模式"],"aliases":["管理概論在EMBA學習的定位","Ch14_管理概論在EMBA學習的定位","L14_管理概論在EMBA學習的定位","Ch14","L14"]}}
+{"dg-publish":true,"permalink":"/01//ch14-emba/","title":"Ch14 管理概論在EMBA學習的定位","tags":["PMBA","管理概論","EMBA學習","管理思維","個案研究","跨領域整合","心智模式"],"dg-note-properties":{"title":"Ch14 管理概論在EMBA學習的定位","course":"管理概論","category":"01_基礎先修","type":"lecture-note","lecture":"02_Ch14","tags":["PMBA","管理概論","EMBA學習","管理思維","個案研究","跨領域整合","心智模式"],"aliases":["管理概論在EMBA學習的定位","Ch14_管理概論在EMBA學習的定位","L14_管理概論在EMBA學習的定位","Ch14","L14"]}}
 ---
 
 
