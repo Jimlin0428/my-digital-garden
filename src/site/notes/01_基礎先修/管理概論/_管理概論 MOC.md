@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/01//moc/","title":"管理概論 MOC (課程總覽地圖)","tags":["PMBA","管理概論","MOC","知識地圖","POLC"],"dg-note-properties":{"title":"管理概論 MOC (課程總覽地圖)","course":"管理概論","category":"01_基礎先修","type":"moc","tags":["PMBA","管理概論","MOC","知識地圖","POLC"],"aliases":["管理概論","管理概論 MOC","管理學 MOC"]}}
+{"dg-publish":true,"permalink":"/01/02/moc/","title":"管理概論 MOC (課程總覽地圖)","tags":["PMBA","管理概論","MOC","知識地圖","POLC"],"dg-note-properties":{"title":"管理概論 MOC (課程總覽地圖)","course":"管理概論","category":"01_基礎先修","type":"moc","tags":["PMBA","管理概論","MOC","知識地圖","POLC"],"aliases":["管理概論","管理概論 MOC","管理學 MOC"]}}
 ---
 
 
