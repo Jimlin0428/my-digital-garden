@@ -1,7 +1,6 @@
 ---
-{"dg-publish":true,"permalink":"/98/company-value/","tags":["商業概念","策略管理","PMBA"],"dg-note-properties":{"aliases":["公司內在價值"],"tags":["商業概念","策略管理","PMBA"]}}
+{"dg-publish":true,"permalink":"/98/company-value/","tags":["商業概念","策略管理","PMBA"],"dg-note-properties":{"aliases":["公司內在價值","內在價值","Intrinsic Value"],"tags":["商業概念","策略管理","PMBA"]}}
 ---
-
 
 # 公司內在價值
 

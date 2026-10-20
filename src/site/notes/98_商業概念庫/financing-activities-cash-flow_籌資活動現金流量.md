@@ -1,7 +1,6 @@
 ---
-{"dg-publish":true,"permalink":"/98/financing-activities-cash-flow/","tags":["商業概念","策略管理","PMBA"],"dg-note-properties":{"aliases":["籌資活動現金流量"],"tags":["商業概念","策略管理","PMBA"]}}
+{"dg-publish":true,"permalink":"/98/financing-activities-cash-flow/","tags":["商業概念","策略管理","PMBA"],"dg-note-properties":{"aliases":["籌資活動現金流量","籌資活動現金流","Financing Activities Cash Flow"],"tags":["商業概念","策略管理","PMBA"]}}
 ---
-
 
 # 籌資活動現金流量
 

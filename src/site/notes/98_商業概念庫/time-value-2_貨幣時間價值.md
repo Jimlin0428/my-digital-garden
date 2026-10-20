@@ -1,7 +1,6 @@
 ---
-{"dg-publish":true,"permalink":"/98/time-value-2/","tags":["商業概念","策略管理","PMBA"],"dg-note-properties":{"aliases":["貨幣時間價值"],"tags":["商業概念","策略管理","PMBA"]}}
+{"dg-publish":true,"permalink":"/98/time-value-2/","tags":["商業概念","策略管理","PMBA"],"dg-note-properties":{"aliases":["貨幣時間價值","時間價值","Time Value of Money","TVM"],"tags":["商業概念","策略管理","PMBA"]}}
 ---
-
 
 # 貨幣時間價值
 

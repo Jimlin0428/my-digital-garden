@@ -1,7 +1,6 @@
 ---
-{"dg-publish":true,"permalink":"/98/investing-cash-flow-statement/","tags":["商業概念","策略管理","PMBA"],"dg-note-properties":{"aliases":["投資活動現金流量"],"tags":["商業概念","策略管理","PMBA"]}}
+{"dg-publish":true,"permalink":"/98/investing-cash-flow-statement/","tags":["商業概念","策略管理","PMBA"],"dg-note-properties":{"aliases":["投資活動現金流量","投資活動現金流","Investing Cash Flow"],"tags":["商業概念","策略管理","PMBA"]}}
 ---
-
 
 # 投資活動現金流量
 

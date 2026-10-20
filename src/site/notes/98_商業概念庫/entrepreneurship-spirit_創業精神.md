@@ -1,7 +1,6 @@
 ---
-{"dg-publish":true,"permalink":"/98/entrepreneurship-spirit/","tags":["商業概念","策略管理","PMBA"],"dg-note-properties":{"aliases":["創業精神"],"tags":["商業概念","策略管理","PMBA"]}}
+{"dg-publish":true,"permalink":"/98/entrepreneurship-spirit/","tags":["商業概念","策略管理","PMBA"],"dg-note-properties":{"aliases":["創業精神","創業家精神","Entrepreneurship Spirit","Entrepreneurial Mindset"],"tags":["商業概念","策略管理","PMBA"]}}
 ---
-
 
 # 創業精神
 

@@ -68,8 +68,9 @@ $$\frac{P_0}{\text{EPS}_1} = \frac{1}{r_e} + \frac{\text{PVGO}}{\text{EPS}_1}$$
   - [[04_主題選修/10_創業與企業財務策略/00_課程導航與進度/mindmap_創業與企業財務策略_心智圖導航\|創業與企業財務策略 心智圖導航]]
 - 🔗 **核心概念原子卡片**：
   - [[98_商業概念庫/dividend-discount-model_股利折現模型\|股利折現模型 (DDM)]]
-  - [[98_商業概念庫/pe-ratio_本益比\|本益比 (P/E Ratio)]]
+  - [[98_商業概念庫/EPS_本益比_Earnings Per Share\|本益比 (P/E Ratio)]]
   - [[98_商業概念庫/sustainable-growth-rate_永續成長率\|永續成長率 (SGR)]]
   - [[98_商業概念庫/return-on-invested-capital_資本投入報酬率\|資本投入報酬率 (ROIC)]]
   - [[98_商業概念庫/economic-moat_經濟護城河\|經濟護城河 (Economic Moat)]]
   - [[98_商業概念庫/earnings-per-share_每股盈餘\|每股盈餘 (EPS)]]
+  - [[98_商業概念庫/capm_資本資產定價模型\|資本資產定價模型 (CAPM)]]

@@ -40,16 +40,16 @@ flowchart TD
     BE --> D5["5. 專屬品牌資產 Proprietary Assets<br/>(商標、專利壁壘、通路特許關係)"]
 ```
 
-1. **[[98_商業概念庫/brand-8_品牌知名度\|brand-8_品牌知名度]]（Brand Awareness）**：消費者能否在該產品類別中迅速聯想並辨識出該品牌，涵蓋從輔助知名度（Recognition）、未提示回憶（Recall）到第一提及（Top of Mind，佔據[[98_商業概念庫/mind-share_心智佔有率\|mind-share_心智佔有率]]）。
+1. **[[brand-8_品牌知名度]]（Brand Awareness）**：消費者能否在該產品類別中迅速聯想並辨識出該品牌，涵蓋從輔助知名度（Recognition）、未提示回憶（Recall）到第一提及（Top of Mind，佔據[[mind-share_心智佔有率]]）。
 2. **知覺品質（Perceived Quality）**：顧客對產品或服務相較於替代品整體品質與機能的主觀評價，是支撐品牌溢價的實質基礎。
-3. **[[98_商業概念庫/brand-4_品牌形象\|品牌聯想]]（Brand Associations）**：消費者記憶庫中所有與該品牌連結的節點（包括功能屬性、品牌個性、企業社會責任與品牌代言人）。
-4. **[[98_商業概念庫/brand-loyalty_品牌忠誠度\|brand-loyalty_品牌忠誠度]]（Brand Loyalty）**：核心忠實顧客持續回購並抵禦競品降價誘惑的能力，直接決定了企業未來的現金流穩定度與[[98_商業概念庫/clv-customer-lifetime-value_顧客終身價值\|clv-customer-lifetime-value_顧客終身價值]]。
+3. **[[brand-4_品牌形象|品牌聯想]]（Brand Associations）**：消費者記憶庫中所有與該品牌連結的節點（包括功能屬性、品牌個性、企業社會責任與品牌代言人）。
+4. **[[brand-loyalty_品牌忠誠度]]（Brand Loyalty）**：核心忠實顧客持續回購並抵禦競品降價誘惑的能力，直接決定了企業未來的現金流穩定度與[[clv-customer-lifetime-value_顧客終身價值]]。
 5. **專屬品牌資產（Proprietary Brand Assets）**：法律保障的註冊商標、技術專利與排他性通路網絡，防止對手侵權仿冒。
 
 ---
 
 ### 2. 凱勒（Kevin Lane Keller）CBBE 品牌共鳴金字塔
-凱文·凱勒教授建立的[[98_商業概念庫/customer-brand-equity_顧客基礎品牌權益\|customer-brand-equity_顧客基礎品牌權益]]（Customer-Based Brand Equity, CBBE）模型，揭示了由理智與感性雙路徑共同攀登至頂層「品牌共鳴」的四階段演進：
+凱文·凱勒教授建立的[[customer-brand-equity_顧客基礎品牌權益]]（Customer-Based Brand Equity, CBBE）模型，揭示了由理智與感性雙路徑共同攀登至頂層「品牌共鳴」的四階段演進：
 
 ```mermaid
 flowchart TD
@@ -74,10 +74,10 @@ flowchart TD
     R3L & R3R --> R4
 ```
 
-- **第一階段（身分）**：建立[[98_商業概念庫/brand-3_品牌識別\|品牌識別]]與顯著性，確保進入消費者的採購考慮集合（Consideration Set）。
+- **第一階段（身分）**：建立[[brand-3_品牌識別|品牌識別]]與顯著性，確保進入消費者的採購考慮集合（Consideration Set）。
 - **第二階段（意義）**：左腦理性傳遞產品績效，右腦感性刻畫品牌個性與情境形象。
 - **第三階段（反應）**：引導顧客產生理性肯定（專業判斷）與正向情緒體驗（感性感受）。
-- **第四階段（關係）**：達成頂層的[[98_商業概念庫/brand-5_品牌共鳴\|brand-5_品牌共鳴]]，讓消費者成為品牌的熱烈擁護者與傳教士。
+- **第四階段（關係）**：達成頂層的[[brand-5_品牌共鳴]]，讓消費者成為品牌的熱烈擁護者與傳教士。
 
 ---
 
@@ -92,7 +92,7 @@ flowchart TD
 | **價格溢價能力** | **Price Premium** | $$\text{溢價率 (\%)} = \frac{P_{\text{品牌}} - P_{\text{基準白牌}}}{P_{\text{基準白牌}}} \times 100\%$$ | 衡量消費者因品牌光環而願意額外支付的溢價百分比。 |
 | **顧客推薦口碑** | **淨推薦值 (NPS)** | $$\text{NPS} = \% \text{推薦者 (9-10分)} - \% \text{批評者 (0-6分)}$$ | 衡量顧客主動為品牌宣傳的滿意度與口碑忠誠度。 |
 | **心智與市場份額** | **心智轉化率** | $$\text{心智轉化率} = \frac{\text{市場佔有率 (Market Share)}}{\text{心智佔有率 (Mind Share)}}$$ | 檢視品牌的認知度是否能高效率轉化為實際銷售營收。 |
-| **顧客資產價值** | **[[98_商業概念庫/clv-customer-lifetime-value_顧客終身價值\|顧客終身價值 (CLV)]]** | $$\text{CLV} = \sum_{t=1}^{n} \frac{(R_t - C_t) \times r^t}{(1 + d)^t}$$ | 強大品牌透過降低流失率、提高留存率（$r$）倍增顧客長遠價值。 |
+| **顧客資產價值** | **[[clv-customer-lifetime-value_顧客終身價值\|顧客終身價值 (CLV)]]** | $$\text{CLV} = \sum_{t=1}^{n} \frac{(R_t - C_t) \times r^t}{(1 + d)^t}$$ | 強大品牌透過降低流失率、提高留存率（$r$）倍增顧客長遠價值。 |
 
 ---
 
@@ -117,33 +117,33 @@ flowchart TD
 
 ### 1. 守護價格底線，嚴防「促銷成癮症」
 - 許多經理人面對短期業績目標時，常頻繁祭出大打折促銷。
-- **經理人洞見**：過度促銷是摧毀品牌權益的毒藥。降價會打破消費者原有的「價格錨點（Price Anchor）」，向市場釋放「這項商品根本不值原價」的強烈負面信號，吸引無忠誠度的價格傭兵，永久損害品牌的[[98_商業概念庫/pricing-power_溢價能力\|pricing-power_溢價能力]]。
+- **經理人洞見**：過度促銷是摧毀品牌權益的毒藥。降價會打破消費者原有的「價格錨點（Price Anchor）」，向市場釋放「這項商品根本不值原價」的強烈負面信號，吸引無忠誠度的價格傭兵，永久損害品牌的[[pricing-power_溢價能力]]。
 
 ### 2. 品牌延伸與槓桿效應的「品牌稀釋陷阱」
-- 透過[[98_商業概念庫/brand-10_品牌延伸\|brand-10_品牌延伸]]或[[98_商業概念庫/line-extension_線延伸\|line-extension_線延伸]]跨入新領域，能大幅壓低市場教育費用。
-- **邊界警訊（[[98_商業概念庫/brand-dilution_品牌稀釋\|brand-dilution_品牌稀釋]]）**：
+- 透過[[brand-10_品牌延伸]]或[[product-2_產品線延伸|線延伸]]跨入新領域，能大幅壓低市場教育費用。
+- **邊界警訊（[[brand-dilution_品牌稀釋]]）**：
   - 延伸必須基於消費者能理解的「核心能力關聯性」。
   - 若過度授權或跨足與原本高階定位衝突的平價品類（如皮爾卡登過度授權案），將迅速稀釋母品牌數十年累積的心智資產，造成不可逆的品牌貶值。
 
 ### 3. 品牌重塑（Rebranding）的系統工程
-- 當面臨市場結構變遷、品牌形象老化或跨國轉型時，企業需評估啟動[[98_商業概念庫/brand_品牌重塑\|brand_品牌重塑]]。
+- 當面臨市場結構變遷、品牌形象老化或跨國轉型時，企業需評估啟動[[brand_品牌重塑]]。
 - **實踐原則**：重塑絕非僅是更換 Logo 或視覺包裝，而是必須同步更新產品體驗、組織服務與價值承諾的系統化變革，避免「換湯不換藥」引發既有忠實客群的強烈反彈。
 
 ---
 
 ## 五、 關聯主題與模組筆記
-* [[02_核心必修/02_行銷管理/_行銷管理 MOC\|行銷管理 MOC 課程導航]]
-* [[02_核心必修/02_行銷管理/L04_品牌管理與品牌權益\|L04 核心必修：品牌管理與品牌權益]]
-* [[98_商業概念庫/customer-brand-equity_顧客基礎品牌權益\|customer-brand-equity_顧客基礎品牌權益]]
-* [[98_商業概念庫/brand-8_品牌知名度\|brand-8_品牌知名度]]
-* [[98_商業概念庫/brand-4_品牌形象\|brand-4_品牌形象]]
-* [[98_商業概念庫/brand-5_品牌共鳴\|brand-5_品牌共鳴]]
-* [[98_商業概念庫/brand-loyalty_品牌忠誠度\|brand-loyalty_品牌忠誠度]]
-* [[98_商業概念庫/brand-10_品牌延伸\|brand-10_品牌延伸]]
-* [[98_商業概念庫/brand-dilution_品牌稀釋\|brand-dilution_品牌稀釋]]
-* [[98_商業概念庫/brand-positioning_品牌定位\|brand-positioning_品牌定位]]
-* [[98_商業概念庫/pricing-power_溢價能力\|pricing-power_溢價能力]]
-* [[98_商業概念庫/perception-risk_知覺風險\|perception-risk_知覺風險]]
-* [[98_商業概念庫/mind-share_心智佔有率\|mind-share_心智佔有率]]
-* [[98_商業概念庫/goodwill_商譽\|goodwill_商譽]]
-* [[98_商業概念庫/clv-customer-lifetime-value_顧客終身價值\|clv-customer-lifetime-value_顧客終身價值]]
+* [[_行銷管理 MOC|行銷管理 MOC 課程導航]]
+* [[L04_品牌管理與品牌權益|L04 核心必修：品牌管理與品牌權益]]
+* [[customer-brand-equity_顧客基礎品牌權益]]
+* [[brand-8_品牌知名度]]
+* [[brand-4_品牌形象]]
+* [[brand-5_品牌共鳴]]
+* [[brand-loyalty_品牌忠誠度]]
+* [[brand-10_品牌延伸]]
+* [[brand-dilution_品牌稀釋]]
+* [[brand-positioning_品牌定位]]
+* [[pricing-power_溢價能力]]
+* [[perception-risk_知覺風險]]
+* [[mind-share_心智佔有率]]
+* [[goodwill_商譽]]
+* [[clv-customer-lifetime-value_顧客終身價值]]

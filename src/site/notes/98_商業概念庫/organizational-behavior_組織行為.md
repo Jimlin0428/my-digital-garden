@@ -1,7 +1,6 @@
 ---
-{"dg-publish":true,"permalink":"/98/organizational-behavior/","tags":["商業概念","策略管理","PMBA"],"dg-note-properties":{"aliases":["組織行為"],"tags":["商業概念","策略管理","PMBA"]}}
+{"dg-publish":true,"permalink":"/98/organizational-behavior/","tags":["商業概念","策略管理","PMBA"],"dg-note-properties":{"aliases":["組織行為","組織行為學","Organizational Behavior","OB"],"tags":["商業概念","策略管理","PMBA"]}}
 ---
-
 
 # 組織行為
 

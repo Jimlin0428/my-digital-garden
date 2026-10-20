@@ -27,3 +27,4 @@
 * [[98_商業概念庫/valuation-indicator-valuation-metrics_產業評價與估值指標 Valuation Metrics\|industry-ping-jia-yu-valuation-indicator-valuation-metrics_產業評價與估值指標 Valuation Metrics]]
 * [[98_商業概念庫/dupont-analysis_杜邦分析法\|du-bang-analysis-fa_杜邦分析法]]
 * [[weighted-average-cost-of-capital_加權平均資金成本\|weighted-average-cost-of-capital_加權平均資金成本 (WACC)]]
+* [[98_商業概念庫/capm_資本資產定價模型\|資本資產定價模型 (CAPM)]]

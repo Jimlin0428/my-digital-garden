@@ -28,4 +28,4 @@
 - **進入戰略決策**：新創企業應儘量避開成熟寡占市場正面交鋒，尋求具有差異化潛力的利基獨占性區隔切入。
 
 ## 四、 關聯索引
-- 核心關聯：[[98_商業概念庫/five-forces-analysis_五力分析\|five-forces-analysis_五力分析]] ｜ [[98_商業概念庫/industry-concentration_產業集中度\|industry-concentration_產業集中度]] ｜ [[98_商業概念庫/barriers-to-entry_進入障礙\|barriers-to-entry_進入障礙]] ｜ [[98_商業概念庫/pricing-power_溢價能力\|yi-jia-neng-li_溢價能力]]
+- 核心關聯：[[98_商業概念庫/bo-te-five-forces-analysis_波特五力分析\|五力分析]] ｜ [[98_商業概念庫/industry-concentration_產業集中度\|industry-concentration_產業集中度]] ｜ [[98_商業概念庫/barriers-to-entry_進入障礙\|barriers-to-entry_進入障礙]] ｜ [[98_商業概念庫/pricing-power_溢價能力\|yi-jia-neng-li_溢價能力]]

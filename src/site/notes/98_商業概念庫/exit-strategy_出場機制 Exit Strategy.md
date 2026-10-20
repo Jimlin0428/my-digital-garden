@@ -1,7 +1,6 @@
 ---
-{"dg-publish":true,"permalink":"/98/exit-strategy-exit-strategy/","tags":["商業概念","創業融資","創投資本","投資策略","PMBA"],"dg-note-properties":{"aliases":["出場機制","Exit Strategy","退場策略"],"tags":["商業概念","創業融資","創投資本","投資策略","PMBA"]}}
+{"dg-publish":true,"permalink":"/98/exit-strategy-exit-strategy/","tags":["商業概念","創業融資","創投資本","投資策略","PMBA"],"dg-note-properties":{"aliases":["出場機制","Exit Strategy","退場策略","退場規劃"],"tags":["商業概念","創業融資","創投資本","投資策略","PMBA"]}}
 ---
-
 
 # 出場機制 (Exit Strategy)
 

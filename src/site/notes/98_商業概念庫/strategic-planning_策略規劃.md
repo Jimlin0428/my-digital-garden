@@ -1,7 +1,6 @@
 ---
-{"dg-publish":true,"permalink":"/98/strategic-planning/","tags":["商業概念","策略管理","PMBA"],"dg-note-properties":{"aliases":["策略規劃"],"tags":["商業概念","策略管理","PMBA"]}}
+{"dg-publish":true,"permalink":"/98/strategic-planning/","tags":["商業概念","策略管理","PMBA"],"dg-note-properties":{"aliases":["策略規劃","策略性規劃","Strategic Planning","Strategic Planning Process"],"tags":["商業概念","策略管理","PMBA"]}}
 ---
-
 
 # 策略規劃
 
