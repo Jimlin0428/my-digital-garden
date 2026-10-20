@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/01//moc/","title":"財務報表分析 MOC (課程總覽地圖)","tags":["PMBA","財務報表分析","MOC","知識地圖"],"dg-note-properties":{"title":"財務報表分析 MOC (課程總覽地圖)","course":"財務報表分析","category":"01_基礎先修","type":"moc","tags":["PMBA","財務報表分析","MOC","知識地圖"],"aliases":["財務報表分析","財務報表分析 MOC","財報分析 MOC"]}}
+{"dg-publish":true,"permalink":"/01//moc/","title":"財務報表分析 MOC (課程總覽地圖)","tags":["PMBA","財務報表分析","MOC","知識地圖"],"dg-note-properties":{"title":"財務報表分析 MOC (課程總覽地圖)","course":"財務報表分析","category":"01_基礎先修","type":"moc","tags":["PMBA","財務報表分析","MOC","知識地圖"],"aliases":["財務報表分析","財務報表分析 MOC","財報分析 MOC"],"permalink":"/01/01/sum/"}}
 ---
 
 
@@ -46,23 +46,23 @@ flowchart TD
 ## 📚 課程單元與筆記進度
 
 ### 模組一：四大財務報表核心架構與勾稽 (Financial Statements Architecture)
-- [x] **[[Ch01_企業營運與財務報表簡介|Ch01 企業營運與財務報表簡介]]**  
+- [x] **[[01_基礎先修/財務報表分析/Ch01_企業營運與財務報表簡介\|Ch01 企業營運與財務報表簡介]]**  
   *三大營運循環、存量與流量動態勾稽、IFRS 公允價值框架、四大報表連動關係。*
-- [x] **[[Ch02_認識綜合損益表|Ch02 認識綜合損益表]]**  
+- [x] **[[01_基礎先修/財務報表分析/Ch02_認識綜合損益表\|Ch02 認識綜合損益表]]**  
   *損益階梯逐層剖析、營業利益之本業純度、其他綜合損益 (OCI)、盈餘品質診斷。*
-- [x] **[[Ch03_認識資產負債表與權益變動表|Ch03 認識資產負債表與權益變動表]]**  
+- [x] **[[01_基礎先修/財務報表分析/Ch03_認識資產負債表與權益變動表\|Ch03 認識資產負債表與權益變動表]]**  
   *特定時點存量、流動性高低排序、資產配置結構、權益變動表與歷年保留盈餘軌跡。*
-- [x] **[[Ch04_認識現金流量表|Ch04 認識現金流量表]]**  
+- [x] **[[01_基礎先修/財務報表分析/Ch04_認識現金流量表\|Ch04 認識現金流量表]]**  
   *營業/投資/籌資三大現金流、權責發生制調節、自由現金流量 (FCF)、黑字倒閉防範。*
 
 ### 模組二：四大財務比率分析工具箱 (Financial Ratios Toolbox)
-- [x] **[[Ch05_流動性分析|Ch05 流動性分析 (短期償債能力)]]**  
+- [x] **[[01_基礎先修/財務報表分析/Ch05_流動性分析\|Ch05 流動性分析 (短期償債能力)]]**  
   *流動比率、速動比率、淨營運資金 (NWC)、存貨與應收帳款折價風險。*
-- [x] **[[Ch06_長期償債能力分析|Ch06 長期償債能力分析 (資本結構與槓桿)]]**  
+- [x] **[[01_基礎先修/財務報表分析/Ch06_長期償債能力分析\|Ch06 長期償債能力分析 (資本結構與槓桿)]]**  
   *負債比率、利息保障倍數、財務槓桿指數 (FLI)、三個圈圈模型、違約風險邊界。*
-- [x] **[[Ch07_獲利能力分析|Ch07 獲利能力分析 (利潤階梯與杜邦分析)]]**  
+- [x] **[[01_基礎先修/財務報表分析/Ch07_獲利能力分析\|Ch07 獲利能力分析 (利潤階梯與杜邦分析)]]**  
   *毛利率、營業利益率、稅後純益率、杜邦分析三因子拆解 (ROE)、虛胖槓桿辨識。*
-- [x] **[[Ch08_經營能力分析|Ch08 經營能力分析 (營運效率與資產活化)]]**  
+- [x] **[[01_基礎先修/財務報表分析/Ch08_經營能力分析\|Ch08 經營能力分析 (營運效率與資產活化)]]**  
   *應收帳款與存貨周轉率、平均收現日數 (DSO)、現金轉換週期 (CCC)、負 CCC 護城河。*
 
 ---
@@ -86,16 +86,16 @@ flowchart TD
 
 ---
 
-## 🔗 知識庫雙向鏈接（[[98_商業概念庫]] 原子卡片推薦）
+## 🔗 知識庫雙向鏈接（[[98_商業概念庫\|98_商業概念庫]] 原子卡片推薦）
 
-- **財務報表架構**：[[balance-sheet_資產負債表]] · [[income-loss-3_綜合損益表]] · [[cash-flow-statement_現金流量表]] · [[statement-of-changes-in-equity_權益變動表]] · [[financial-2_財務報表附註]]
-- **現金流量系列**：[[operating-cash-flow-statement_營業活動現金流量]] · [[investing-cash-flow-statement_投資活動現金流量]] · [[financing-activities-cash-flow_籌資活動現金流量]] · [[free-cash-flow-liang_自由現金流量]]
-- **比率與評價**：[[liquidity_流動性]] · [[capital-structure_資本結構]] · [[financial-leverage_財務槓桿]] · [[dupont-analysis_杜邦分析法]] · [[cash-switching-cycle_現金轉換週期]] · [[working-capital_營運資金]]
+- **財務報表架構**：[[98_商業概念庫/balance-sheet_資產負債表\|balance-sheet_資產負債表]] · [[98_商業概念庫/income-loss-3_綜合損益表\|income-loss-3_綜合損益表]] · [[98_商業概念庫/cash-flow-statement_現金流量表\|cash-flow-statement_現金流量表]] · [[98_商業概念庫/statement-of-changes-in-equity_權益變動表\|statement-of-changes-in-equity_權益變動表]] · [[98_商業概念庫/financial-2_財務報表附註\|financial-2_財務報表附註]]
+- **現金流量系列**：[[98_商業概念庫/operating-cash-flow-statement_營業活動現金流量\|operating-cash-flow-statement_營業活動現金流量]] · [[98_商業概念庫/investing-cash-flow-statement_投資活動現金流量\|investing-cash-flow-statement_投資活動現金流量]] · [[98_商業概念庫/financing-activities-cash-flow_籌資活動現金流量\|financing-activities-cash-flow_籌資活動現金流量]] · [[98_商業概念庫/free-cash-flow-liang_自由現金流量\|free-cash-flow-liang_自由現金流量]]
+- **比率與評價**：[[98_商業概念庫/liquidity_流動性\|liquidity_流動性]] · [[98_商業概念庫/capital-structure_資本結構\|capital-structure_資本結構]] · [[98_商業概念庫/financial-leverage_財務槓桿\|financial-leverage_財務槓桿]] · [[98_商業概念庫/dupont-analysis_杜邦分析法\|dupont-analysis_杜邦分析法]] · [[98_商業概念庫/cash-switching-cycle_現金轉換週期\|cash-switching-cycle_現金轉換週期]] · [[98_商業概念庫/working-capital_營運資金\|working-capital_營運資金]]
 
 ---
 
 ## 🚀 銜接後續進階課程
 
-- ➡️ **[[02_核心必修/01_財務管理/_財務管理 MOC|核心必修：財務管理 (Corporate Finance)]]**：由「歷史報表分析」進階至「未來投資決策（NPV / IRR）、融資結構理論（MM定理）與資本加權成本（WACC）」。
-- ➡️ **[[04_主題選修/10_創業與企業財務策略/_創業與企業財務策略 MOC|主題選修：創業與企業財務策略]]**：新創估值（Pre/Post-money）、白板決策鏈、燒錢率（Burn Rate）與融資出場機制。
-- ➡️ **[[04_主題選修/12_產業分析與投資策略/00_課程導航與進度/mindmap_產業分析與投資策略_心智圖導航|主題選修：產業分析與投資策略]]**：由單一公司報表擴展至產業獲利結構、三大景氣循環與宏觀資本評價。
+- ➡️ **[[02_核心必修/01_財務管理/_財務管理 MOC\|核心必修：財務管理 (Corporate Finance)]]**：由「歷史報表分析」進階至「未來投資決策（NPV / IRR）、融資結構理論（MM定理）與資本加權成本（WACC）」。
+- ➡️ **[[04_主題選修/10_創業與企業財務策略/_創業與企業財務策略 MOC\|主題選修：創業與企業財務策略]]**：新創估值（Pre/Post-money）、白板決策鏈、燒錢率（Burn Rate）與融資出場機制。
+- ➡️ **[[04_主題選修/12_產業分析與投資策略/00_課程導航與進度/mindmap_產業分析與投資策略_心智圖導航\|主題選修：產業分析與投資策略]]**：由單一公司報表擴展至產業獲利結構、三大景氣循環與宏觀資本評價。
