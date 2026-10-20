@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/01//moc/","title":"財務報表分析 MOC (課程總覽地圖)","tags":["PMBA","財務報表分析","MOC","知識地圖"],"dg-note-properties":{"title":"財務報表分析 MOC (課程總覽地圖)","course":"財務報表分析","category":"01_基礎先修","type":"moc","tags":["PMBA","財務報表分析","MOC","知識地圖"],"aliases":["財務報表分析","財務報表分析 MOC","財報分析 MOC"]}}
+{"dg-publish":true,"permalink":"/01/01/moc/","title":"財務報表分析 MOC (課程總覽地圖)","tags":["PMBA","財務報表分析","MOC","知識地圖"],"dg-note-properties":{"title":"財務報表分析 MOC (課程總覽地圖)","course":"財務報表分析","category":"01_基礎先修","type":"moc","tags":["PMBA","財務報表分析","MOC","知識地圖"],"aliases":["財務報表分析","財務報表分析 MOC","財報分析 MOC"]}}
 ---
 
 
