@@ -99,14 +99,14 @@ flowchart TD
 
 ## 🔗 跨學程前後貫通與綜效思考
 
-- ⬅️ **[[01_基礎先修/02_管理概論/_管理概論 MOC|基礎先修：管理概論]]**：承接 Ch08 個體行為、Ch09 激勵理論與 Ch10 領導模型，將理論進一步昇華為實踐心理與政治治理。
-- ➡️ **[[02_核心必修/02_行銷管理/_行銷管理 MOC|核心必修：行銷管理]]**：消費者購買行為（L02）之知覺、態度與決策旅程，即為組織行為個體心理學向外部市場端之延伸。
-- ➡️ **[[04_主題選修/10_創業與企業財務策略/_創業與企業財務策略 MOC|主題選修：創業與企業財務策略]]**：新創團隊早期核心合夥人激勵機制、股權激勵（ESOP）與組織文化奠基。
+- ⬅️ **[[01_基礎先修/02_管理概論/_管理概論 MOC\|基礎先修：管理概論]]**：承接 Ch08 個體行為、Ch09 激勵理論與 Ch10 領導模型，將理論進一步昇華為實踐心理與政治治理。
+- ➡️ **[[02_核心必修/02_行銷管理/_行銷管理 MOC\|核心必修：行銷管理]]**：消費者購買行為（L02）之知覺、態度與決策旅程，即為組織行為個體心理學向外部市場端之延伸。
+- ➡️ **[[04_主題選修/10_創業與企業財務策略/_創業與企業財務策略 MOC\|主題選修：創業與企業財務策略]]**：新創團隊早期核心合夥人激勵機制、股權激勵（ESOP）與組織文化奠基。
 
 ---
 
-## 💎 推薦關聯之 [[98_商業概念庫]] 原子卡片
+## 💎 推薦關聯之 [[98_商業概念庫\|98_商業概念庫]] 原子卡片
 
-- **個體心理**：[[organizational-behavior_組織行為]] · [[bounded-rationality_有限理性]] · [[perception-2_知覺]] · [[cognitive-bias_認知偏差]]
-- **激勵與領導**：[[two-factor-theory_雙因素理論]] · [[transformational-leadership_轉換型領導]] · [[servant-leadership_僕人式領導]]
-- **團隊與組織**：[[organizational-structure_組織結構]] · [[change-management_變革管理]] · [[corporate-culture_企業文化]]
+- **個體心理**：[[98_商業概念庫/organizational-behavior_組織行為\|organizational-behavior_組織行為]] · [[98_商業概念庫/bounded-rationality_有限理性\|bounded-rationality_有限理性]] · [[98_商業概念庫/perception-2_知覺\|perception-2_知覺]] · [[cognitive-bias_認知偏差\|cognitive-bias_認知偏差]]
+- **激勵與領導**：[[98_商業概念庫/two-factor-theory_雙因素理論\|two-factor-theory_雙因素理論]] · [[98_商業概念庫/transformational-leadership_轉換型領導\|transformational-leadership_轉換型領導]] · [[98_商業概念庫/servant-leadership_僕人式領導\|servant-leadership_僕人式領導]]
+- **團隊與組織**：[[98_商業概念庫/organizational-structure_組織結構\|organizational-structure_組織結構]] · [[98_商業概念庫/change-management_變革管理\|change-management_變革管理]] · [[corporate-culture_企業文化\|corporate-culture_企業文化]]

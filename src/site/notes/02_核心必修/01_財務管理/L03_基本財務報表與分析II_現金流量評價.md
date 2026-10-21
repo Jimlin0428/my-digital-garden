@@ -39,9 +39,9 @@ flowchart TD
 ```
 
 #### (1) 現金流量表三大支柱之財務意涵
-1. **[[operating-cash-flow-statement_營業活動現金流量|營業活動現金流]]（CFO）**：企業最根本的內部造血機能。長期穩健的企業必須具備持續為正且高於淨利的 CFO。
-2. **[[investing-cash-flow-statement_投資活動現金流量|投資活動現金流]]（CFI）**：衡量企業是否持續投資未來。處於成長期的健全企業，其 CFI 通常為「負值」，代表積極進行[[capital-expenditure_資本支出|capital-zhi-chu_資本支出]]以構築技術護城河與累積[[asset-2_無形資產|wu-xing-asset_無形資產]]。
-3. **[[financing-activities-cash-flow_籌資活動現金流量|chou-zi-huo-dong-cash-liu_籌資活動現金流]]（CFF）**：反映企業與外部[[capital-market_資本市場]]（股東與債權人）的互動，調配[[capital-structure_資本結構]]。新創與擴張期通常為正（對外籌資），成熟期則為負（還債、分紅）。
+1. **[[98_商業概念庫/operating-cash-flow-statement_營業活動現金流量\|營業活動現金流]]（CFO）**：企業最根本的內部造血機能。長期穩健的企業必須具備持續為正且高於淨利的 CFO。
+2. **[[98_商業概念庫/investing-cash-flow-statement_投資活動現金流量\|投資活動現金流]]（CFI）**：衡量企業是否持續投資未來。處於成長期的健全企業，其 CFI 通常為「負值」，代表積極進行[[98_商業概念庫/capital-expenditure_資本支出\|capital-zhi-chu_資本支出]]以構築技術護城河與累積[[98_商業概念庫/asset-2_無形資產\|wu-xing-asset_無形資產]]。
+3. **[[98_商業概念庫/financing-activities-cash-flow_籌資活動現金流量\|chou-zi-huo-dong-cash-liu_籌資活動現金流]]（CFF）**：反映企業與外部[[98_商業概念庫/capital-market_資本市場\|capital-market_資本市場]]（股東與債權人）的互動，調配[[98_商業概念庫/capital-structure_資本結構\|capital-structure_資本結構]]。新創與擴張期通常為正（對外籌資），成熟期則為負（還債、分紅）。
 
 #### (2) 八大生命週期現金流組合矩陣（8-Pattern Matrix）
 經理人可透過 CFO、CFI、CFF 的正負符號組合，迅速判定企業所處的生命週期階段與潛在財務風險：
@@ -61,7 +61,7 @@ flowchart TD
 
 ### 2. 營運現金流量（OCF）計算與三種拆解法
 
-在公司財務學與[[capital-budgeting_資本預算|capital-yu-suan_資本預算]]中，[[operations-cash-flow_營運現金流量]]（Operating Cash Flow, OCF）是指在未扣除[[capital-expenditure_資本支出|capital-zhi-chu_資本支出]]與[[working-capital_營運資金]]追加前，由日常本業創造的稅後現金流入。
+在公司財務學與[[98_商業概念庫/capital-budgeting_資本預算\|capital-yu-suan_資本預算]]中，[[98_商業概念庫/operations-cash-flow_營運現金流量\|operations-cash-flow_營運現金流量]]（Operating Cash Flow, OCF）是指在未扣除[[98_商業概念庫/capital-expenditure_資本支出\|capital-zhi-chu_資本支出]]與[[98_商業概念庫/working-capital_營運資金\|working-capital_營運資金]]追加前，由日常本業創造的稅後現金流入。
 
 ```mermaid
 flowchart LR
@@ -79,24 +79,24 @@ $$\text{OCF} = \text{營業收入 (S)} - \text{付現營業成本 (C)} - \text{�
 
 #### (2) 底層法（Bottom-up Approach）
 $$\text{OCF} = \text{稅後淨利 (NI)} + \text{折舊與攤銷 (D)}$$
-- **概念核心**：以[[income-statement_損益表]]底部的稅後淨利為起點，加回未實際流出現金的非現金費用。
-- **適用前提**：僅適用於專案層級無利息費用干擾的情境（即 $\text{EBIT} = \text{EBT}$，其中 EBIT 為[[profit_息稅前利潤|xi-shui-qian-profit_息稅前利潤]]）。
+- **概念核心**：以[[98_商業概念庫/income-statement_損益表\|income-statement_損益表]]底部的稅後淨利為起點，加回未實際流出現金的非現金費用。
+- **適用前提**：僅適用於專案層級無利息費用干擾的情境（即 $\text{EBIT} = \text{EBT}$，其中 EBIT 為[[98_商業概念庫/profit_息稅前利潤\|xi-shui-qian-profit_息稅前利潤]]）。
 
 #### (3) 稅盾法（Tax Shield Approach，評價最關鍵模型）
 $$\text{OCF} = (\text{S} - \text{C}) \times (1 - t) + \text{D} \times t$$
 - **兩大部分之財務本質**：
   1. **$(\text{S} - \text{C}) \times (1 - t)$**：若公司無任何固定資產折舊時，本業營運所能產生的稅後營業現金流入。
-  2. **$\text{D} \times t$**：**[[depreciation-tax-shield_折舊稅盾|zhe-jiu-shui-dun_折舊稅盾]]（Depreciation Tax Shield）**。折舊費用本身雖非現金流出，但依法屬於稅前扣除項目，每提列 1 元折舊即可少繳 $t$ 元的所得稅，等同為企業創造了實質的現金節稅效益。
+  2. **$\text{D} \times t$**：**[[98_商業概念庫/depreciation-tax-shield_折舊稅盾\|zhe-jiu-shui-dun_折舊稅盾]]（Depreciation Tax Shield）**。折舊費用本身雖非現金流出，但依法屬於稅前扣除項目，每提列 1 元折舊即可少繳 $t$ 元的所得稅，等同為企業創造了實質的現金節稅效益。
 
 #### (4) 折舊稅盾的時間價值效益
 - **總額相同，時間不同**：固定資產在其使用壽命內所能產生的總折舊金額是固定的（即資產原始成本減去殘值）。
-- **加速折舊的價值創造**：若法規允許採用加速折舊法（如雙倍餘額遞減法或定率遞減法），企業在專案投資初期能夠提列更多折舊，將稅盾利益大幅提前。依據[[time-value-2_貨幣時間價值|huo-bi-shi-jian-value_貨幣時間價值]]原理，前期的現金流現值遠高於後期，能實質提升專案的淨現值（NPV）。
+- **加速折舊的價值創造**：若法規允許採用加速折舊法（如雙倍餘額遞減法或定率遞減法），企業在專案投資初期能夠提列更多折舊，將稅盾利益大幅提前。依據[[98_商業概念庫/time-value-2_貨幣時間價值\|huo-bi-shi-jian-value_貨幣時間價值]]原理，前期的現金流現值遠高於後期，能實質提升專案的淨現值（NPV）。
 
 ---
 
 ### 3. 自由現金流量（FCF）的嚴謹推導
 
-[[free-cash-flow-liang_自由現金流量]]是指企業營運產生的現金在滿足了維持正常營運及支持未來成長所需之「必要[[capital-expenditure_資本支出|capital-zhi-chu_資本支出]]」與「[[working-capital_營運資金]]追加」後，可以完全自由分配給資本提供者的剩餘現金。
+[[98_商業概念庫/free-cash-flow-liang_自由現金流量\|free-cash-flow-liang_自由現金流量]]是指企業營運產生的現金在滿足了維持正常營運及支持未來成長所需之「必要[[98_商業概念庫/capital-expenditure_資本支出\|capital-zhi-chu_資本支出]]」與「[[98_商業概念庫/working-capital_營運資金\|working-capital_營運資金]]追加」後，可以完全自由分配給資本提供者的剩餘現金。
 
 ```mermaid
 flowchart TD
@@ -116,9 +116,9 @@ $$\text{FCFF} = \text{EBIT} \times (1 - t) + \text{折舊與攤銷 (D\&A)} - \te
 $$\text{FCFF} = \text{營運現金流量 (OCF)} - \text{資本支出 (CapEx)} - \Delta\text{淨營運資金 (NWC)}$$
 
 - **各項變數之精準定義**：
-  - **$\text{EBIT} \times (1 - t)$**：稅後營業淨利（NOPAT），排除不同[[capital-structure_資本結構]]舉債利息的干擾。
-  - **$\text{CapEx}$**：當期購買不動產、廠房及設備與[[asset-2_無形資產|wu-xing-asset_無形資產]]的實質現金流出（維護型 + 成長型）。
-  - **$\Delta\text{NWC}$**：[[changes-in-net-working-capital_淨營運資金變動]]（期末 NWC $-$ 期初 NWC）。若營收擴張導致[[receivable_應收帳款|ying-shou-zhang-kuan_應收帳款]]與[[inventory_存貨|cun-huo_存貨]]增加，$\Delta\text{NWC} > 0$，代表資金被營運積壓，為現金流之**扣項**。
+  - **$\text{EBIT} \times (1 - t)$**：稅後營業淨利（NOPAT），排除不同[[98_商業概念庫/capital-structure_資本結構\|capital-structure_資本結構]]舉債利息的干擾。
+  - **$\text{CapEx}$**：當期購買不動產、廠房及設備與[[98_商業概念庫/asset-2_無形資產\|wu-xing-asset_無形資產]]的實質現金流出（維護型 + 成長型）。
+  - **$\Delta\text{NWC}$**：[[98_商業概念庫/changes-in-net-working-capital_淨營運資金變動\|changes-in-net-working-capital_淨營運資金變動]]（期末 NWC $-$ 期初 NWC）。若營收擴張導致[[98_商業概念庫/receivable_應收帳款\|ying-shou-zhang-kuan_應收帳款]]與[[98_商業概念庫/inventory_存貨\|cun-huo_存貨]]增加，$\Delta\text{NWC} > 0$，代表資金被營運積壓，為現金流之**扣項**。
 
 #### (2) 股權自由現金流量（FCFE）推導公式
 $$\text{FCFE} = \text{FCFF} - \text{利息費用} \times (1 - t) + \text{淨借款 (新增借款 - 償還本金)}$$
@@ -126,12 +126,12 @@ $$\text{FCFE} = \text{FCFF} - \text{利息費用} \times (1 - t) + \text{淨借�
 $$\text{FCFE} = \text{稅後淨利 (NI)} + \text{折舊與攤銷} - \text{CapEx} - \Delta\text{NWC} + \text{淨借款}$$
 
 #### (3) 評價模型與折現率匹配原則
-在運用[[dcf_現金流量折現法|現金流量折現法 (DCF)]]進行[[enterprise-value-evaluation_企業價值評估]]時，現金流量與折現率必須保持嚴格的定義對稱：
+在運用[[98_商業概念庫/dcf_現金流量折現法\|現金流量折現法 (DCF)]]進行[[98_商業概念庫/enterprise-value-evaluation_企業價值評估\|enterprise-value-evaluation_企業價值評估]]時，現金流量與折現率必須保持嚴格的定義對稱：
 
 | 評價視角 | 現金流度量指標 | 對應之折現率 | 計算得出之價值結果 |
 | :--- | :--- | :--- | :--- |
-| **企業整體價值觀點** | **[[enterprise-free-cash-flow-liang_企業自由現金流量]]（FCFF）** | **加權平均資本成本（WACC）** | **企業整體價值（Enterprise Value, EV）**<br/>$\text{股權價值} = \text{EV} - \text{淨負債}$ |
-| **股權持有人觀點** | **[[equity-free-cash-flow_股權自由現金流量|gu-quan-free-cash-flow-liang_股權自由現金流量]]（FCFE）** | **股權資本成本（$K_e$，以 [[capm_資本資產定價模型|CAPM]] 估算）** | **股權價值（Equity Value）**<br/>直接除以流通在外股數即得每股內在價值 |
+| **企業整體價值觀點** | **[[98_商業概念庫/enterprise-free-cash-flow-liang_企業自由現金流量\|enterprise-free-cash-flow-liang_企業自由現金流量]]（FCFF）** | **加權平均資本成本（WACC）** | **企業整體價值（Enterprise Value, EV）**<br/>$\text{股權價值} = \text{EV} - \text{淨負債}$ |
+| **股權持有人觀點** | **[[98_商業概念庫/equity-free-cash-flow_股權自由現金流量\|gu-quan-free-cash-flow-liang_股權自由現金流量]]（FCFE）** | **股權資本成本（$K_e$，以 [[98_商業概念庫/capm_資本資產定價模型\|CAPM]] 估算）** | **股權價值（Equity Value）**<br/>直接除以流通在外股數即得每股內在價值 |
 
 ---
 
@@ -172,23 +172,23 @@ flowchart LR
 
 ### 1. 黑字倒閉（Profitable Insolvency）的深層病理剖析
 - **「賺錢的公司為什麼會突然倒閉？」**
-  - 在商業世界中，許多倒閉的企業在破產當季的[[income-statement_損益表]]上依然呈現亮麗的稅後淨利。
+  - 在商業世界中，許多倒閉的企業在破產當季的[[98_商業概念庫/income-statement_損益表\|income-statement_損益表]]上依然呈現亮麗的稅後淨利。
   - **病徵形成路徑**：
     1. **過度激進擴張**：經理人為了衝刺營收成長，盲目接單並大幅放寬放帳條件（如 120 天甚至 180 天帳期）。
-    2. **營運資金黑洞（$\Delta\text{NWC} \gg 0$）**：營業額暴增導致[[receivable_應收帳款|ying-shou-zhang-kuan_應收帳款]]與備料[[inventory_存貨|cun-huo_存貨]]幾何級數膨脹，將企業所有可動用的[[liquidity_流動性|liu-dong-xing_流動性]]全數鎖死在[[balance-sheet_資產負債表]]左側。
-    3. **[[maturity-mismatch_以短支長|yi-duan-zhi-zhang_以短支長]]與資金斷裂**：企業仰賴短期銀行周轉金墊付供應商貨款與薪資。一旦市場景氣稍有遲疑、主要客戶延遲付款，或銀行因風險控管緊縮信用額度，企業庫存無法立即變現、[[receivable_應收帳款|ying-shou-zhang-kuan_應收帳款]]無法貼現，即刻面臨跳票，引發連鎖破產。
+    2. **營運資金黑洞（$\Delta\text{NWC} \gg 0$）**：營業額暴增導致[[98_商業概念庫/receivable_應收帳款\|ying-shou-zhang-kuan_應收帳款]]與備料[[98_商業概念庫/inventory_存貨\|cun-huo_存貨]]幾何級數膨脹，將企業所有可動用的[[98_商業概念庫/liquidity_流動性\|liu-dong-xing_流動性]]全數鎖死在[[98_商業概念庫/balance-sheet_資產負債表\|balance-sheet_資產負債表]]左側。
+    3. **[[98_商業概念庫/maturity-mismatch_以短支長\|yi-duan-zhi-zhang_以短支長]]與資金斷裂**：企業仰賴短期銀行周轉金墊付供應商貨款與薪資。一旦市場景氣稍有遲疑、主要客戶延遲付款，或銀行因風險控管緊縮信用額度，企業庫存無法立即變現、[[98_商業概念庫/receivable_應收帳款\|ying-shou-zhang-kuan_應收帳款]]無法貼現，即刻面臨跳票，引發連鎖破產。
 - **經理人防範之道**：
-  - 建立「以現金流為核心」的內控預警系統，將[[operating-cash-flow-statement_營業活動現金流量|營業活動現金流]]（CFO）與[[cash-switching-cycle_現金轉換週期|cash-zhuan-huan-cycle_現金轉換週期]]（CCC）列為比營收更優先的考核指標。
+  - 建立「以現金流為核心」的內控預警系統，將[[98_商業概念庫/operating-cash-flow-statement_營業活動現金流量\|營業活動現金流]]（CFO）與[[98_商業概念庫/cash-switching-cycle_現金轉換週期\|cash-zhuan-huan-cycle_現金轉換週期]]（CCC）列為比營收更優先的考核指標。
 
 ---
 
 ### 2. 經理人短期美化自由現金流（FCF）的手段與防範
 - **短視經理人的兩大操弄手法**：
-  1. **刻意砍停維護型[[capital-expenditure_資本支出|capital-zhi-chu_資本支出]]（Maintenance CapEx）**：
+  1. **刻意砍停維護型[[98_商業概念庫/capital-expenditure_資本支出\|capital-zhi-chu_資本支出]]（Maintenance CapEx）**：
      - 在公式 $\text{FCFF} = \text{OCF} - \text{CapEx} - \Delta\text{NWC}$ 中，減少 CapEx 能立即按 1:1 的比例推升當期自由現金流。
      - 經理人推遲生產設備歲修、凍結軟硬體升級，短期內交出漂亮的現金流成績單以領取高額獎金；但代價是產線妥善率急跌、工安事故頻傳與良率崩潰，將殘局留給繼任者。
-  2. **惡意拖延供應商[[payable_應付帳款|ying-fu-zhang-kuan_應付帳款]]（人為壓低 $\Delta\text{NWC}$）**：
-     - 經理人在季底強行將應付帳款天數（DPO）拉長，暫停向供應商支付貨款。這會導致期末[[current-liabilities_流動負債|liu-dong-liability_流動負債]]虛增，進而壓低[[net-working-capital_淨營運資金]]（$\Delta\text{NWC} < 0$），在帳面上製造營運資金釋放現金的假象。
+  2. **惡意拖延供應商[[98_商業概念庫/payable_應付帳款\|ying-fu-zhang-kuan_應付帳款]]（人為壓低 $\Delta\text{NWC}$）**：
+     - 經理人在季底強行將應付帳款天數（DPO）拉長，暫停向供應商支付貨款。這會導致期末[[98_商業概念庫/current-liabilities_流動負債\|liu-dong-liability_流動負債]]虛增，進而壓低[[98_商業概念庫/net-working-capital_淨營運資金\|net-working-capital_淨營運資金]]（$\Delta\text{NWC} < 0$），在帳面上製造營運資金釋放現金的假象。
      - 此舉將重挫企業商業信用，導致關鍵供應商拒絕出貨或提高報價，破壞供應鏈長期戰略夥伴關係。
 - **董事會與投資人的防禦機制**：
   - **細分 CapEx 結構**：在預算審查中嚴格拆分「維護型 CapEx」與「擴張型 CapEx」，維護型支出應設有剛性下限，不得隨意縮減。
