@@ -23,5 +23,6 @@
 
 ## 🔗 相關概念
 * [[98_商業概念庫/dupont-analysis_杜邦分析法\|du-bang-analysis-fa_杜邦分析法]]
-* [[98_商業概念庫/dcf_現金流量折現法\|現金流量折現法 (DCF)]] ｜ [[cash-flow-discounted_現金流量折現法\|cash-flow-discounted_現金流量折現法]]
+* [[98_商業概念庫/dcf_現金流量折現法\|現金流量折現法 (DCF)]] ｜ [[98_商業概念庫/discounted-cash-flow_折現現金流量\|現金流量折現法]]
 * [[98_商業概念庫/cycle-2_三大經濟循環週期\|san-da-economics-xun-huan-cycle_三大經濟循環週期]]
+* [[98_商業概念庫/davis-double-whammy_戴維斯雙殺效應\|戴維斯雙殺與雙擊效應 (Davis Double Whammy)]]
