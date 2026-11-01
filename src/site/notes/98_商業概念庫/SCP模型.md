@@ -40,7 +40,7 @@ flowchart LR
 ---
 
 ## 🔗 相關概念
-* [[98_商業概念庫/bo-te-five-forces-analysis_波特五力分析\|bo-te-five-forces-analysis_波特五力分析]]
+* [[98_商業概念庫/Porter's Five Forces Analysis_波特五力分析\|Porter's Five Forces Analysis_波特五力分析]]
 * [[98_商業概念庫/industry-concentration_產業集中度\|industry-concentration_產業集中度]]
 * [[98_商業概念庫/index-hhi_赫芬達爾指數 HHI\|he-fen-da-er-zhi-shu-hhi_赫芬達爾指數 HHI]]
 * [[98_商業概念庫/barriers-mobility-barriers_移動障礙 Mobility Barriers\|yi-dong-zhang-ai-mobility-barriers_移動障礙 Mobility Barriers]]
