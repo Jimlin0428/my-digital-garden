@@ -1,33 +1,17 @@
 ---
-{"dg-publish":true,"permalink":"/98/eps-earnings-per-share/","tags":["商業概念","策略管理","PMBA"],"dg-note-properties":{"aliases":["本益比"],"tags":["商業概念","策略管理","PMBA"]}}
+{"dg-publish":true,"permalink":"/98/eps-earnings-per-share/","tags":["商業概念","財務分析","價值評估","PMBA"],"dg-note-properties":{"aliases":["本益比","P/E","EPS_本益比_Earnings Per Share"],"tags":["商業概念","財務分析","價值評估","PMBA"]}}
 ---
 
 
-# 本益比
+# 本益比 (Price-to-Earnings Ratio, P/E)
 
-## 一、 核心定義與本質
-- **本益比** 是管理學、產業分析與企業策略決策中的重要核心概念。
-- 其本質在於幫助企業經理人分析[[98_商業概念庫/market-structure_市場結構\|市場結構]]、[[98_商業概念庫/competitive-advantage_競爭優勢\|competition-you-shi_競爭優勢]]、資源配置與動態轉型方向，確保企業在競爭環境中建立永續營運壁壘。
+> 💡 **導航與專題整合**：本卡片為歷史檔名過渡橋接，本益比（P/E Ratio）之完整定義、前瞻/動態/席勒本益比辨析、PVGO 成長期權拆解、PEG 比率與戴維斯效應實戰，請直接參閱正式權威卡片 **[[98_商業概念庫/pe-ratio_本益比\|本益比 (P/E Ratio)]]**。
+>
+> 📌 若欲查閱「每股盈餘（Earnings Per Share, EPS）」本身之計算與定義，請參閱 **[[98_商業概念庫/earnings-per-share_每股盈餘\|每股盈餘 (Basic EPS)]]** 與 **[[98_商業概念庫/diluted-eps_稀釋後每股盈餘\|稀釋後每股盈餘 (Diluted EPS)]]**。
 
-## 二、 計算公式與關鍵指標（若為財務/量化概念）
-- **標準計算公式**：
-  $$\text{本益比 (P/E)} = \frac{\text{每股市價 }(P_0)}{\text{每股盈餘 }(\text{EPS})}$$
-- **內在價值與成長期權拆解**：
-  結合 [[98_商業概念庫/pvgo_成長機會現值\|PVGO 成長機會現值]]，前瞻本益比可進一步二元拆解為「無成長基準」與「成長溢價期權」：
-  $$\frac{P_0}{\text{EPS}_1} = \frac{1}{r_e} + \frac{\text{PVGO}}{\text{EPS}_1}$$
-- **衡量維度與指標架構**：
-  - 量化指標：結合[[98_商業概念庫/industry-concentration_產業集中度\|industry-concentration_產業集中度]]、[[98_商業概念庫/economies-of-scale_規模經濟\|economies-of-scale_規模經濟]]效益與[[98_商業概念庫/return-on-invested-capital_資本投入報酬率\|資本回報率]]等維度綜合衡量。
-  - 質化評估：檢視企業在[[98_商業概念庫/barriers-to-entry_進入障礙\|barriers-to-entry_進入障礙]]、[[98_商業概念庫/switching-costs_轉換成本\|switching-costs_轉換成本]]與品牌資產上的護城河強度。
+---
 
-## 三、 產業意涵與策略判讀
-- **市場結構視角**：在寡占或高度集中市場中，本益比 決定了龍頭企業與追隨者的戰略互動與利基定位。
-- **動態轉型視角**：面臨技術[[98_商業概念庫/technology-s-curve-technology-s-curve_技術 S 曲線 Technology S-Curve\|S曲線]]轉折與破壞式創新時，企業需運用 本益比 評估資產重組與[[98_商業概念庫/dual-transformation-dual-transformation_雙軌轉型 Dual Transformation\|雙軌轉型]]路徑。
-- **營運實踐**：經理人需將此概念落實於產品藍圖、供應鏈協同與商業模式設計中。
-
-## 四、 關聯主題與模組
-* [[04_主題選修/12_產業分析與投資策略/00_課程導航與進度/mindmap_產業分析與投資策略_心智圖導航\|產業分析與投資策略 心智圖導航]]
-* [[04_主題選修/12_產業分析與投資策略/02_模組筆記/Module_1_總論與架構/M1-3_產業獲利結構差異與十大經典理論\|M1-3 產業獲利結構差異與十大經典理論]]
-* [[04_主題選修/12_產業分析與投資策略/02_模組筆記/Module_1_總論與架構/M1-6_產業分析模式與九大分析工具矩陣\|M1-6 產業分析模式與九大分析工具矩陣]]
-* [[98_商業概念庫/bo-te-five-forces-analysis_波特五力分析\|bo-te-five-forces-analysis_波特五力分析]]
-* [[98_商業概念庫/SCP模型\|SCP模型]]
-* [[98_商業概念庫/pvgo_成長機會現值\|pvgo_成長機會現值 (PVGO 成長機會現值)]]
+## 一、 快速索引
+- **核心計算**：$\text{本益比 (P/E)} = \frac{\text{每股市價}}{\text{每股盈餘 (EPS)}}$
+- **正式權威專題**：[[98_商業概念庫/pe-ratio_本益比\|本益比 (Price-to-Earnings Ratio, P/E)]]
+- **每股獲利基石**：[[98_商業概念庫/earnings-per-share_每股盈餘\|每股盈餘 (Earnings Per Share, EPS)]]
