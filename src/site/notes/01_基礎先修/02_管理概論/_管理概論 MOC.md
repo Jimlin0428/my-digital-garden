@@ -124,4 +124,4 @@ flowchart TD
 - **管理職能**：[[98_商業概念庫/control-7_控制職能\|control-7_控制職能]] · [[98_商業概念庫/bounded-rationality_有限理性\|bounded-rationality_有限理性]] · [[98_商業概念庫/strategic-planning_策略規劃\|strategic-planning_策略規劃]] · [[98_商業概念庫/strategic-management_策略管理\|strategic-management_策略管理]]
 - **組織與變革**：[[98_商業概念庫/organizational-structure_組織結構\|organizational-structure_組織結構]] · [[98_商業概念庫/change-management_變革管理\|change-management_變革管理]] · [[98_商業概念庫/organizational-behavior_組織行為\|organizational-behavior_組織行為]]
 - **領導與激勵**：[[98_商業概念庫/two-factor-theory_雙因素理論\|two-factor-theory_雙因素理論]] · [[98_商業概念庫/transformational-leadership_轉換型領導\|transformational-leadership_轉換型領導]] · [[98_商業概念庫/servant-leadership_僕人式領導\|servant-leadership_僕人式領導]]
-- **策略工具箱**：[[98_商業概念庫/bo-te-five-forces-analysis_波特五力分析\|bo-te-five-forces-analysis_波特五力分析]] · [[swot-analysis_SWOT分析\|swot-analysis_SWOT分析]] · [[bcg-matrix_BCG矩陣\|bcg-matrix_BCG矩陣]] · [[balanced-scorecard_平衡計分卡\|balanced-scorecard_平衡計分卡]]
+- **策略工具箱**：[[98_商業概念庫/Porter's Five Forces Analysis_波特五力分析\|Porter's Five Forces Analysis_波特五力分析]] · [[98_商業概念庫/SWOT分析\|SWOT分析]] · [[98_商業概念庫/BCG矩陣\|BCG矩陣]] · [[98_商業概念庫/balanced-scorecard-bsc_平衡計分卡\|平衡計分卡]]

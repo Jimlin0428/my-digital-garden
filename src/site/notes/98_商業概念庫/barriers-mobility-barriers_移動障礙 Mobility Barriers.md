@@ -33,4 +33,4 @@ flowchart TD
 ## 🔗 相關概念
 * [[strategic-groups-strategic-groups_策略群組 Strategic Groups|strategy-qun-zu-strategic-groups_策略群組 Strategic Groups]]
 * [[barriers-to-entry_進入障礙]]
-* [[bo-te-five-forces-analysis_波特五力分析]]
+* [[Porter's Five Forces Analysis_波特五力分析]]

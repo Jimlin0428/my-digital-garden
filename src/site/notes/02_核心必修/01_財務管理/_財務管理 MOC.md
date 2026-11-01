@@ -120,6 +120,6 @@ flowchart TD
 ## 💎 推薦關聯之 [[98_商業概念庫\|98_商業概念庫]] 原子卡片
 
 - **現金流與估值**：[[98_商業概念庫/free-cash-flow-liang_自由現金流量\|free-cash-flow-liang_自由現金流量]] · [[98_商業概念庫/company-value_公司內在價值\|company-value_公司內在價值]] · [[98_商業概念庫/time-value-2_貨幣時間價值\|time-value-2_貨幣時間價值]] · [[98_商業概念庫/operating-cash-flow-statement_營業活動現金流量\|operating-cash-flow-statement_營業活動現金流量]]
-- **資本預算**：[[net-present-value_淨現值 NPV\|net-present-value_淨現值 NPV]] · [[98_商業概念庫/internal-rate-of-return_內部報酬率\|internal-rate-of-return_內部報酬率]] · [[98_商業概念庫/discounted-payback-period_折現回收期間法\|discounted-payback-period_折現回收期間法]]
-- **資本結構與槓桿**：[[98_商業概念庫/capital-structure_資本結構\|capital-structure_資本結構]] · [[98_商業概念庫/financial-leverage_財務槓桿\|financial-leverage_財務槓桿]] · [[weighted-average-cost-of-capital_加權平均資金成本 WACC\|weighted-average-cost-of-capital_加權平均資金成本 WACC]] · [[tax-shield_利息稅盾\|tax-shield_利息稅盾]]
-- **併購與金融**：[[mergers-and-acquisitions_併購 M&A\|mergers-and-acquisitions_併購 M&A]] · [[synergy_綜效\|synergy_綜效]] · [[98_商業概念庫/dividend-policy_股利政策\|dividend-policy_股利政策]] · [[options-derivative_選擇權\|options-derivative_選擇權]]
+- **資本預算**：[[98_商業概念庫/NPV_淨現值法 _Net Present Value\|淨現值 NPV]] · [[98_商業概念庫/internal-rate-of-return_內部報酬率\|internal-rate-of-return_內部報酬率]] · [[98_商業概念庫/discounted-payback-period_折現回收期間法\|discounted-payback-period_折現回收期間法]]
+- **資本結構與槓桿**：[[98_商業概念庫/capital-structure_資本結構\|capital-structure_資本結構]] · [[98_商業概念庫/financial-leverage_財務槓桿\|financial-leverage_財務槓桿]] · [[98_商業概念庫/wacc_加權平均資本成本\|加權平均資金成本 WACC]] · [[98_商業概念庫/interest-tax-shield_利息稅盾\|interest-tax-shield_利息稅盾]]
+- **併購與金融**：[[98_商業概念庫/enterprise-m-and-a_企業併購\|併購 M&A]] · [[98_商業概念庫/merger-acquisition_併購綜效\|綜效]] · [[98_商業概念庫/dividend-policy_股利政策\|dividend-policy_股利政策]] · [[98_商業概念庫/options_選擇權\|options_選擇權]]

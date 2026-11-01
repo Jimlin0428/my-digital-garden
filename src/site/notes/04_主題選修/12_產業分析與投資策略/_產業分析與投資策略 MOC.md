@@ -39,7 +39,7 @@
 - [[04_主題選修/12_產業分析與投資策略/02_模組筆記/Module_1_總論與架構/M1_模組架構心智圖\|M1 模組架構心智圖]]：第一模組架構總結
 
 ### 模組二：產業內與產業間分析 (Intra- & Inter-Industry Dynamics)
-- [[02_模組筆記/Module_2_產業間分析/M2-1_產業垂直價值體系\|M2-1 產業垂直價值體系]]：企業價值鏈、跨產業三機制（強化/共用/填補）、市場共通性與資源相似性演化矩陣、微笑曲線與利潤咽喉
+- [[04_主題選修/12_產業分析與投資策略/02_模組筆記/Module_2_產業內與產業間分析/M2-1_產業垂直價值體系\|M2-1 產業垂直價值體系]]：企業價值鏈、跨產業三機制（強化/共用/填補）、市場共通性與資源相似性演化矩陣、微笑曲線與利潤咽喉
 - [[04_主題選修/12_產業分析與投資策略/02_模組筆記/Module_2_產業內與產業間分析/M2-2_產業聚落與地理生態\|M2-2 產業聚落與地理生態]]：波特鑽石模型、新竹科學園區與台灣聚落綜效
 - [[04_主題選修/12_產業分析與投資策略/02_模組筆記/Module_2_產業內與產業間分析/M2-3_價值網分析與競合戰略\|M2-3 價值網分析與競合戰略]]：PARTS 模型、互補品（Complementors）與競合戰略（Coopetition）
 
@@ -62,8 +62,8 @@
 
 ## 💎 推薦關聯之 [[98_商業概念庫\|98_商業概念庫]] 原子卡片
 
-- [[98_商業概念庫/bo-te-five-forces-analysis_波特五力分析\|bo-te-five-forces-analysis_波特五力分析]] · [[98_商業概念庫/market-structure_市場結構\|market-structure_市場結構]] · [[98_商業概念庫/competitive-advantage_競爭優勢\|competitive-advantage_競爭優勢]]
-- [[98_商業概念庫/economic-moat_經濟護城河\|economic-moat_經濟護城河]] · [[98_商業概念庫/value-chain_價值鏈\|value-chain_價值鏈]] · [[swot-analysis_SWOT分析\|swot-analysis_SWOT分析]] · [[bcg-matrix_BCG矩陣\|bcg-matrix_BCG矩陣]]
-- [[98_商業概念庫/Value_System_產業價值體系\|Value_System_產業價值體系]] · [[98_商業概念庫/Firm_Value_Chain_企業價值鏈\|Firm_Value_Chain_企業價值鏈]] · [[98_商業概念庫/Cross_Industry_Synergy_跨產業協同機制\|Cross_Industry_Synergy_跨產業協同機制]]
+- [[98_商業概念庫/Porter's Five Forces Analysis_波特五力分析\|Porter's Five Forces Analysis_波特五力分析]] · [[98_商業概念庫/market-structure_市場結構\|market-structure_市場結構]] · [[98_商業概念庫/competitive-advantage_競爭優勢\|competitive-advantage_競爭優勢]]
+- [[98_商業概念庫/economic-moat_經濟護城河\|economic-moat_經濟護城河]] · [[98_商業概念庫/value-chain_價值鏈\|value-chain_價值鏈]] · [[98_商業概念庫/SWOT分析\|SWOT分析]] · [[98_商業概念庫/BCG矩陣\|BCG矩陣]]
+- [[98_商業概念庫/Value_System_產業價值體系\|Value_System_產業價值體系]] · [[98_商業概念庫/Value_Chokepoint_價值咽喉\|Value_Chokepoint_價值咽喉]] · [[98_商業概念庫/Firm_Value_Chain_企業價值鏈\|Firm_Value_Chain_企業價值鏈]] · [[98_商業概念庫/Cross_Industry_Synergy_跨產業協同機制\|Cross_Industry_Synergy_跨產業協同機制]]
 - [[98_商業概念庫/Niche_Theory_組織生態學利基理論\|Niche_Theory_組織生態學利基理論]] · [[98_商業概念庫/RK_Selection_Theory_生物演化選擇理論\|RK_Selection_Theory_生物演化選擇理論]] · [[98_商業概念庫/Industry_Standards_產業標準與正反饋\|Industry_Standards_產業標準與正反饋]]
 - [[98_商業概念庫/Smile_Curve_微笑曲線\|Smile_Curve_微笑曲線]] · [[98_商業概念庫/Industry_Community_產業群落與聚落\|Industry_Community_產業群落與聚落]]

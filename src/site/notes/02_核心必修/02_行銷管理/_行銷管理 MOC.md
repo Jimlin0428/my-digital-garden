@@ -88,6 +88,6 @@ flowchart TD
 
 ## 💎 推薦關聯之 [[98_商業概念庫]] 原子卡片
 
-- **行銷與顧客**：[[market-segmentation_市場區隔]] · [[positioning_市場定位]] · [[customer-value_顧客讓渡價值]] · [[marketing-4p-mix_行銷4P]]
-- **品牌權益**：[[brand-equity_品牌權益]] · [[brand-image_品牌形象]] · [[brand-extension_品牌延伸]] · [[product-2_產品線延伸]]
-- **產品與生命週期**：[[product-life-cycle_產品生命週期 PLC]] · [[innovation-diffusion_創新擴散理論]] · [[crossing-the-chasm_跨越鴻溝]]
+- **行銷與顧客**：[[market-segmentation_市場區隔]] · [[positioning-strategy_定位策略|市場定位]] · [[customer-value_顧客讓渡價值]] · [[marketing-4p-mix_行銷4P]]
+- **品牌權益**：[[brand-equity_品牌權益]] · [[brand-4_品牌形象|品牌形象]] · [[brand-10_品牌延伸|品牌延伸]] · [[product-2_產品線延伸]]
+- **產品與生命週期**：[[product-life-cycle_產品生命週期|產品生命週期 PLC]] · [[diffusion-of-innovations_創新擴散理論|創新擴散理論]] · [[crossing-the-chasm_跨越鴻溝]]
