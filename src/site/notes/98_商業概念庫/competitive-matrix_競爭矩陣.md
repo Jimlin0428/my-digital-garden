@@ -21,7 +21,7 @@
 
 ### 1.2 策略本質的三大核心價值
 1. **策略降維與競爭透明化 (Dimensionality Reduction & Market Visibility)**：
-   真實市場包含數十家廠商、上百項產品特徵與供應鏈細節。競爭矩陣透過嚴謹萃取「顧客核心購買準則（KBF）」與「產業[[key-success-factors-ksf_關鍵成功因素\|關鍵成功因素 (KSF)]]」，將複雜局勢投影至可直觀判讀的二維或矩陣框架中，讓隱晦的競爭格局一目了然。
+   真實市場包含數十家廠商、上百項產品特徵與供應鏈細節。競爭矩陣透過嚴謹萃取「顧客核心購買準則（KBF）」與「產業[[98_商業概念庫/key-success-factors-ksf_關鍵成功因素\|關鍵成功因素 (KSF)]]」，將複雜局勢投影至可直觀判讀的二維或矩陣框架中，讓隱晦的競爭格局一目了然。
 2. **發掘「競爭空白區 (White Space)」與非對稱定位**：
    透過正交軸向的切割，能清晰識別市場上「顧客需求未被充分滿足、現有巨頭未曾涉足或不屑經營」的策略利基（Niche），為企業落實[[98_商業概念庫/differentiation-strategy_差異化策略\|差異化策略]]或發動破壞式創新提供著力點。
 3. **破除「自我膨脹偏誤 (Confirmation Bias)」與確立取捨 (Trade-offs)**：
@@ -135,7 +135,7 @@ flowchart TB
 $$\text{CPM 加權總分} = \sum_{i=1}^{n} (W_i \times R_{ij})$$
 
 其中：
-- $W_i$：第 $i$ 項[[key-success-factors-ksf_關鍵成功因素\|關鍵成功因素 (Critical Success Factors, CSF / KSF)]]之權重，介於 $0.0 \sim 1.0$ 之間，且嚴格滿足：
+- $W_i$：第 $i$ 項[[98_商業概念庫/key-success-factors-ksf_關鍵成功因素\|關鍵成功因素 (Critical Success Factors, CSF / KSF)]]之權重，介於 $0.0 \sim 1.0$ 之間，且嚴格滿足：
   $$\sum_{i=1}^{n} W_i = 1.0$$
   權重高低由產業經濟特性決定，代表該因素對贏得市場份額與創造超額利潤的重要性。
 - $R_{ij}$：企業 $j$ 在第 $i$ 項關鍵成功因素上的客觀評分（Rating），標準商管評分尺度為 1~4 分：
