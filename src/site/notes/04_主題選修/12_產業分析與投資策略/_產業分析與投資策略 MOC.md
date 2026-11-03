@@ -32,19 +32,19 @@
 - [[04_主題選修/12_產業分析與投資策略/02_模組筆記/Module_1_總論與架構/M1-2_三大景氣循環與資本評價邏輯\|M1-2 三大景氣循環與資本評價邏輯]]：康德拉季耶夫長波、朱格拉設備投資循環、基欽存量庫存週期
 - [[04_主題選修/12_產業分析與投資策略/02_模組筆記/Module_1_總論與架構/M1-3_產業獲利結構差異與十大經典理論\|M1-3 產業獲利結構差異與十大經典理論]]：跨產業 ROIC 差異、超額利潤來源、十大策略理論地圖
 - [[04_主題選修/12_產業分析與投資策略/02_模組筆記/Module_1_總論與架構/M1-4_台灣產業發展歷程與決策工具箱\|M1-4 台灣產業發展歷程與決策工具箱]]：從加工出口到半導體護國神山、代工模式演進
-- [[04_主題選修/12_產業分析與投資策略/02_模組筆記/Module_1_總論與架構/M1-5_波特五力分析與量化架構\|M1-5 波特五力分析與量化架構]]：五種競爭作用力、進入障礙、量化評分矩陣
+- [[04_主題選修/12_產業分析與投資策略/99_歷史舊版備份/M1-5_波特五力分析與量化架構\|M1-5 波特五力分析與量化架構]]：五種競爭作用力、進入障礙、量化評分矩陣
 - [[04_主題選修/12_產業分析與投資策略/02_模組筆記/Module_1_總論與架構/M1-6_產業分析模式與九大分析工具矩陣\|M1-6 產業分析模式與九大分析工具矩陣]]：九大經典分析矩陣（SWOT/PESTEL/價值鏈/BCG/GE等）
-- [[04_主題選修/12_產業分析與投資策略/02_模組筆記/Module_1_總論與架構/M1-7_產業市場空間與策略群組\|M1-7 產業市場空間與策略群組]]：策略群組圖（Strategic Groups）、移動障礙（Mobility Barriers）
+- [[04_主題選修/12_產業分析與投資策略/99_歷史舊版備份/M1-7_產業市場空間與策略群組\|M1-7 產業市場空間與策略群組]]：策略群組圖（Strategic Groups）、移動障礙（Mobility Barriers）
 - [[04_主題選修/12_產業分析與投資策略/02_模組筆記/Module_1_總論與架構/M1-8_商業生態系與平台網絡\|M1-8 商業生態系與平台網絡]]：價值共創、平台雙邊市場效應、生態系主導者（Keystone）
 - [[04_主題選修/12_產業分析與投資策略/02_模組筆記/Module_1_總論與架構/M1_模組架構心智圖\|M1 模組架構心智圖]]：第一模組架構總結
 
 ### 模組二：產業內與產業間分析 (Intra- & Inter-Industry Dynamics)
-- [[04_主題選修/12_產業分析與投資策略/02_模組筆記/Module_2_產業內與產業間分析/M2-1_產業垂直價值體系\|M2-1 產業垂直價值體系]]：企業價值鏈、跨產業三機制（強化/共用/填補）、市場共通性與資源相似性演化矩陣、微笑曲線與利潤咽喉
+- [[04_主題選修/12_產業分析與投資策略/99_歷史舊版備份/M2-1_產業垂直價值體系\|M2-1 產業垂直價值體系]]：企業價值鏈、跨產業三機制（強化/共用/填補）、市場共通性與資源相似性演化矩陣、微笑曲線與利潤咽喉
 - [[04_主題選修/12_產業分析與投資策略/02_模組筆記/Module_2_產業內與產業間分析/M2-2_產業聚落與地理生態\|M2-2 產業聚落與地理生態]]：波特鑽石模型、新竹科學園區與台灣聚落綜效
-- [[04_主題選修/12_產業分析與投資策略/02_模組筆記/Module_2_產業內與產業間分析/M2-3_價值網分析與競合戰略\|M2-3 價值網分析與競合戰略]]：PARTS 模型、互補品（Complementors）與競合戰略（Coopetition）
+- [[04_主題選修/12_產業分析與投資策略/99_歷史舊版備份/M2-3_產業價值網與競合分析\|M2-3 產業價值網與競合分析]]：Brandenburger 價值網四方架構、互補品（Complementors）非零和做大餅、PARTS 賽局五大槓桿、囚犯困境/膽小鬼賽局、同業合作三大動機與產業群落演化
 
 ### 模組三：產業演化與動態轉型 (Evolution & Dynamic Transformation)
-- [[04_主題選修/12_產業分析與投資策略/03_產業演化與動態轉型/M3-1_產業生命週期與技術S曲線\|M3-1 產業生命週期與技術S曲線]]：主導設計（Dominant Design）、S 曲線跳躍與範式轉移
+- [[04_主題選修/12_產業分析與投資策略/99_歷史舊版備份/M3-1_產業生命週期與技術S曲線\|M3-1 產業生命週期與技術S曲線]]：產品生命週期 PLC 四階段特徵、安索夫/BCG 動態配置、市場空間三大重組形態、策略群組演化與移動障礙、性能過剩與產業雙螺旋模型 (Double Helix)
 - [[04_主題選修/12_產業分析與投資策略/03_產業演化與動態轉型/M3-2_破壞式創新與雙軌轉型\|M3-2 破壞式創新與雙軌轉型]]：低階破壞 vs. 新市場破壞、雙軌轉型模式 A/B
 
 ### 模組四：產業投資策略與實務 (Investment Strategies & Valuation)
@@ -64,6 +64,8 @@
 
 - [[98_商業概念庫/Porter's Five Forces Analysis_波特五力分析\|Porter's Five Forces Analysis_波特五力分析]] · [[98_商業概念庫/market-structure_市場結構\|market-structure_市場結構]] · [[98_商業概念庫/competitive-advantage_競爭優勢\|competitive-advantage_競爭優勢]]
 - [[98_商業概念庫/economic-moat_經濟護城河\|economic-moat_經濟護城河]] · [[98_商業概念庫/value-chain_價值鏈\|value-chain_價值鏈]] · [[98_商業概念庫/SWOT分析\|SWOT分析]] · [[98_商業概念庫/BCG矩陣\|BCG矩陣]]
-- [[98_商業概念庫/Value_System_產業價值體系\|Value_System_產業價值體系]] · [[98_商業概念庫/Value_Chokepoint_價值咽喉\|Value_Chokepoint_價值咽喉]] · [[98_商業概念庫/Firm_Value_Chain_企業價值鏈\|Firm_Value_Chain_企業價值鏈]] · [[98_商業概念庫/Cross_Industry_Synergy_跨產業協同機制\|Cross_Industry_Synergy_跨產業協同機制]]
-- [[98_商業概念庫/Niche_Theory_組織生態學利基理論\|Niche_Theory_組織生態學利基理論]] · [[98_商業概念庫/RK_Selection_Theory_生物演化選擇理論\|RK_Selection_Theory_生物演化選擇理論]] · [[98_商業概念庫/Industry_Standards_產業標準與正反饋\|Industry_Standards_產業標準與正反饋]]
-- [[98_商業概念庫/Smile_Curve_微笑曲線\|Smile_Curve_微笑曲線]] · [[98_商業概念庫/Industry_Community_產業群落與聚落\|Industry_Community_產業群落與聚落]]
+- [[Value_System_產業價值體系\|Value_System_產業價值體系]] · [[Value_Chokepoint_價值咽喉\|Value_Chokepoint_價值咽喉]] · [[98_商業概念庫/Firm_Value_Chain_企業價值鏈\|Firm_Value_Chain_企業價值鏈]] · [[98_商業概念庫/Cross_Industry_Synergy_跨產業協同機制\|Cross_Industry_Synergy_跨產業協同機制]]
+- [[Niche_Theory_組織生態學利基理論\|Niche_Theory_組織生態學利基理論]] · [[98_商業概念庫/RK_Selection_Theory_生物演化選擇理論\|RK_Selection_Theory_生物演化選擇理論]] · [[Industry_Standards_產業標準與正反饋\|Industry_Standards_產業標準與正反饋]]
+- [[98_商業概念庫/Smile_Curve_微笑曲線\|Smile_Curve_微笑曲線]] · [[Industry_Community_產業群落與聚落\|Industry_Community_產業群落與聚落]]
+- [[Value_Net_價值網絡模型\|Value_Net_價值網絡模型]] · [[98_商業概念庫/Coopetition_競合理論\|Coopetition_競合理論]] · [[98_商業概念庫/Complementor_互補者策略\|Complementor_互補者策略]] · [[98_商業概念庫/PARTS_賽局變革架構 PARTS Framework\|PARTS_賽局變革架構 PARTS Framework]] · [[98_商業概念庫/Prisoners_Dilemma_囚犯困境賽局\|Prisoners_Dilemma_囚犯困境賽局]] · [[98_商業概念庫/Chicken_Game_膽小鬼賽局\|Chicken_Game_膽小鬼賽局]] · [[98_商業概念庫/Added_Value_附加價值與定價權\|Added_Value_附加價值與定價權]] · [[Industry_Alliance_同業合作三大動機\|Industry_Alliance_同業合作三大動機]]
+- [[98_商業概念庫/PLC_產業生命週期模型 Product Life Cycle\|PLC_產業生命週期模型 Product Life Cycle]] · [[Strategic_Groups_策略群組動態演化\|Strategic_Groups_策略群組動態演化]] · [[98_商業概念庫/Mobility_Barriers_移動障礙與群組防禦\|Mobility_Barriers_移動障礙與群組防禦]] · [[98_商業概念庫/Double_Helix_產業雙螺旋演化模型\|Double_Helix_產業雙螺旋演化模型]] · [[98_商業概念庫/ERRC_藍海策略四度空間架構 ERRC Grid\|ERRC_藍海策略四度空間架構 ERRC Grid]] · [[98_商業概念庫/Hypercompetition_動態超競爭理論\|Hypercompetition_動態超競爭理論]] · [[98_商業概念庫/Three_Player_Game_三方競合賽局模型\|Three_Player_Game_三方競合賽局模型]] · [[98_商業概念庫/Performance_Oversupply_性能過剩與破壞性創新\|Performance_Oversupply_性能過剩與破壞性創新]]

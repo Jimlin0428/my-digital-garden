@@ -48,7 +48,7 @@
   - [[98_商業概念庫/wacc_加權平均資本成本\|加權平均資本成本 (WACC)]]
   - [[98_商業概念庫/financial-structure_財務結構\|財務結構 (Financial Structure)]]
   - [[98_商業概念庫/financial-leverage_財務槓桿\|財務槓桿 (Financial Leverage / DFL)]]
-  - [[98_商業概念庫/DTL_總槓桿\|總槓桿度 (DTL)]]
+  - [[DTL_總槓桿\|總槓桿度 (DTL)]]
   - [[98_商業概念庫/capm_資本資產定價模型\|資本資產定價模型 (CAPM)]]
 - 📚 **課程模組對接**：
   - [[02_核心必修/01_財務管理/L08_資本結構理論與決策\|L08 資本結構理論與決策：財務槓桿與EBIT-EPS分析]]

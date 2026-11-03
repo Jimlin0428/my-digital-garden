@@ -33,4 +33,4 @@
 
 ## 四、 關聯筆記與概念地圖
 - **核心關聯模組**：[[04_主題選修/10_創業與企業財務策略/02_模組筆記/Module_2_產品創新與精實驗證/M2-4_新創財務預測與外部融資需求模型\|M2-4_新創財務預測與外部融資需求模型]] ｜ [[04_主題選修/10_創業與企業財務策略/02_模組筆記/Module_2_產品創新與精實驗證/M2-3_創業行銷策略與全能屋模型\|M2-3_創業行銷策略與全能屋模型]]
-- **概念地圖對接**：[[98_商業概念庫/GIB_創櫃板籌資機制 Go Incubation Board\|GIB_創櫃板籌資機制 Go Incubation Board]] ｜ [[98_商業概念庫/Capital_Pool_資金池與備用週轉金模型\|Capital_Pool_資金池與備用週轉金模型]] ｜ [[98_商業概念庫/AFN_外部融資需求模型 Additional Funds Needed\|AFN_外部融資需求模型 Additional Funds Needed]]
+- **概念地圖對接**：[[98_商業概念庫/GIB_創櫃板籌資機制 Go Incubation Board\|GIB_創櫃板籌資機制 Go Incubation Board]] ｜ [[98_商業概念庫/capital-pool_資金池與備用週轉金模型\|Capital_Pool_資金池與備用週轉金模型]] ｜ [[98_商業概念庫/AFN_外部融資需求模型 Additional Funds Needed\|AFN_外部融資需求模型 Additional Funds Needed]]

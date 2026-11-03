@@ -8,7 +8,7 @@
 > [!abstract] 導讀與對接
 > - **上級地圖**：[[05_AI選修/10_AiX/_AiX MOC\|_AiX MOC]]
 > - **進度看板**：[[05_AI選修/10_AiX/00_課程導航與進度/progress_📊 課程與筆記進度追蹤\|progress_📊 課程與筆記進度追蹤]]
-> - **核心概念庫**：[[98_商業概念庫/AI_Red_Teaming_AI紅隊演練與安全評估\|AI_Red_Teaming_AI紅隊演練與安全評估]]、[[98_商業概念庫/Prompt_Injection_提示詞注入與越獄防護\|Prompt_Injection_提示詞注入與越獄防護]]
+> - **核心概念庫**：[[AI_Red_Teaming_AI紅隊演練與安全評估\|AI_Red_Teaming_AI紅隊演練與安全評估]]、[[98_商業概念庫/Prompt_Injection_提示詞注入與越獄防護\|Prompt_Injection_提示詞注入與越獄防護]]
 > - **實務案例**：[[05_AI選修/10_AiX/01_AI技術與實務案例庫/Case_Security_LLM越獄與提示詞注入攻擊實務\|Case_Security_LLM越獄與提示詞注入攻擊實務]]
 
 ---

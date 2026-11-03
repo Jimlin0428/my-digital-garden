@@ -422,7 +422,7 @@ flowchart TD
   - [[98_商業概念庫/differentiation-advantage_差異化優勢\|differentiation-advantage_差異化優勢]] ｜ [[98_商業概念庫/product-differentiation_產品差異化\|product-differentiation_產品差異化]]
   - [[98_商業概念庫/economic-moat_經濟護城河\|economic-moat_經濟護城河]] ｜ [[98_商業概念庫/barriers-to-entry_進入障礙\|barriers-to-entry_進入障礙]] ｜ [[98_商業概念庫/barriers-mobility-barriers_移動障礙 Mobility Barriers\|移動障礙 (Mobility Barriers)]]
   - [[98_商業概念庫/switching-costs_轉換成本\|switching-costs_轉換成本]] ｜ [[98_商業概念庫/economies-of-scale_規模經濟\|economies-of-scale_規模經濟]] ｜ [[98_商業概念庫/value-chain_價值鏈\|value-chain_價值鏈]]
-  - [[98_商業概念庫/value-proposition_價值主張\|value-proposition_價值主張]] ｜ [[98_商業概念庫/value-net_價值網\|value-net_價值網]] ｜ [[98_商業概念庫/value-curve_價值曲線\|value-curve_價值曲線]]
+  - [[98_商業概念庫/value-proposition_價值主張\|value-proposition_價值主張]] ｜ [[98_商業概念庫/value-net_價值網\|value-net_價值網]] ｜ [[98_商業概念庫/value-curve_價值曲線\|value-curve_價值曲線]] ｜ [[98_商業概念庫/vpc-value-price-cost_價值價格成本分析\|VPC 價值價格成本分析]]
   - [[98_商業概念庫/return-on-invested-capital_資本投入報酬率\|return-on-invested-capital_資本投入報酬率]] ｜ [[98_商業概念庫/total-asset-turnover-ratio_總資產週轉率\|total-asset-turnover-ratio_總資產週轉率]] ｜ [[98_商業概念庫/dupont-analysis_杜邦分析法\|dupont-analysis_杜邦分析法]]
   - [[98_商業概念庫/cash-switching-cycle_現金轉換週期\|cash-switching-cycle_現金轉換週期]] ｜ [[98_商業概念庫/strategic-groups-strategic-groups_策略群組 Strategic Groups\|策略群組 (Strategic Groups)]]
   - [[98_商業概念庫/strategy-coopetition_競合戰略 Coopetition\|strategy-coopetition_競合戰略 Coopetition]] ｜ [[98_商業概念庫/SWOT分析\|SWOT分析]] ｜ [[98_商業概念庫/BCG矩陣\|BCG矩陣]]

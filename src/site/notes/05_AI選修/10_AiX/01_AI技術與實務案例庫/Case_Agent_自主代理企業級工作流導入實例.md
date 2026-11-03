@@ -8,7 +8,7 @@
 > [!abstract] 導讀與對接
 > - **上級地圖**：[[05_AI選修/10_AiX/_AiX MOC\|_AiX MOC]]
 > - **關聯筆記**：[[M1-3_AI Agent自主代理與多代理協作系統\|M1-3_AI Agent自主代理與多代理協作系統]]
-> - **核心概念**：[[98_商業概念庫/AI_Agent_自主代理架構與運作機制\|AI_Agent_自主代理架構與運作機制]]、[[98_商業概念庫/Agentic_Workflow_自主代理工作流\|Agentic_Workflow_自主代理工作流]]
+> - **核心概念**：[[AI_Agent_自主代理架構與運作機制\|AI_Agent_自主代理架構與運作機制]]、[[98_商業概念庫/Agentic_Workflow_自主代理工作流\|Agentic_Workflow_自主代理工作流]]
 
 ---
 

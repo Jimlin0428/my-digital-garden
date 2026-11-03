@@ -92,7 +92,7 @@ flowchart TD
 | **價格溢價能力** | **Price Premium** | $$\text{溢價率 (\%)} = \frac{P_{\text{品牌}} - P_{\text{基準白牌}}}{P_{\text{基準白牌}}} \times 100\%$$ | 衡量消費者因品牌光環而願意額外支付的溢價百分比。 |
 | **顧客推薦口碑** | **淨推薦值 (NPS)** | $$\text{NPS} = \% \text{推薦者 (9-10分)} - \% \text{批評者 (0-6分)}$$ | 衡量顧客主動為品牌宣傳的滿意度與口碑忠誠度。 |
 | **心智與市場份額** | **心智轉化率** | $$\text{心智轉化率} = \frac{\text{市場佔有率 (Market Share)}}{\text{心智佔有率 (Mind Share)}}$$ | 檢視品牌的認知度是否能高效率轉化為實際銷售營收。 |
-| **顧客資產價值** | **[[clv-customer-lifetime-value_顧客終身價值\|顧客終身價值 (CLV)]]** | $$\text{CLV} = \sum_{t=1}^{n} \frac{(R_t - C_t) \times r^t}{(1 + d)^t}$$ | 強大品牌透過降低流失率、提高留存率（$r$）倍增顧客長遠價值。 |
+| **顧客資產價值** | **[[clv-customer-lifetime-value_顧客終身價值|顧客終身價值 (CLV)]]** | $$\text{CLV} = \sum_{t=1}^{n} \frac{(R_t - C_t) \times r^t}{(1 + d)^t}$$ | 強大品牌透過降低流失率、提高留存率（$r$）倍增顧客長遠價值。 |
 
 ---
 

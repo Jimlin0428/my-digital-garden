@@ -8,7 +8,7 @@
 > [!abstract] 導讀與對接
 > - **上級地圖**：[[05_AI選修/10_AiX/_AiX MOC\|_AiX MOC]]
 > - **關聯筆記**：[[05_AI選修/10_AiX/02_模組筆記/Module_03_AI時代下的資安防禦與信任架構/M2-1_AI威脅模型與技術快速發展下的資安基礎\|M2-1_AI威脅模型與技術快速發展下的資安基礎]]、[[05_AI選修/10_AiX/02_模組筆記/Module_03_AI時代下的資安防禦與信任架構/M2-2_大模型對抗攻擊與企業AI防護實務\|M2-2_大模型對抗攻擊與企業AI防護實務]]
-> - **核心概念**：[[98_商業概念庫/Prompt_Injection_提示詞注入與越獄防護\|Prompt_Injection_提示詞注入與越獄防護]]、[[98_商業概念庫/AI_Red_Teaming_AI紅隊演練與安全評估\|AI_Red_Teaming_AI紅隊演練與安全評估]]
+> - **核心概念**：[[98_商業概念庫/Prompt_Injection_提示詞注入與越獄防護\|Prompt_Injection_提示詞注入與越獄防護]]、[[AI_Red_Teaming_AI紅隊演練與安全評估\|AI_Red_Teaming_AI紅隊演練與安全評估]]
 
 ---
 

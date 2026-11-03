@@ -44,14 +44,15 @@
 - [[04_主題選修/10_創業與企業財務策略/02_模組筆記/Module_2_產品創新與精實驗證/M2-2_產品組合策略與品牌權益管理\|M2-2 產品組合策略與品牌權益管理]]：Kotler 五個產品層次模型、產品組合寬長深與品類擴充、品牌權益 David Aaker 模型、PLC 與 NPD 上市時機
 - [[04_主題選修/10_創業與企業財務策略/02_模組筆記/Module_2_產品創新與精實驗證/M2-3_創業行銷策略與全能屋模型\|M2-3 創業行銷策略與全能屋模型]]：全能屋模型 Omnihouse Model、三大創業行銷能力、行銷與財務閉環、行銷創意生產力
 - [[04_主題選修/10_創業與企業財務策略/02_模組筆記/Module_2_產品創新與精實驗證/M2-4_新創財務預測與外部融資需求模型\|M2-4 新創財務預測與外部融資需求模型]]：新創失敗第一死因資金斷裂、資本池三大分類、備用週轉金安全公式、財務報表編製八步驟、銷售額百分比法、外部融資需求 AFN 方程式、內部成長率 IGR vs. 永續成長率 SGR 雙極限推導、三大損益兩平點（會計/現金/財務 BEP）、營運/財務雙槓桿（DOL/DFL）、創業募資全景地圖（天使/創投/群募三模式/創櫃板)
+- [[04_主題選修/10_創業與企業財務策略/02_模組筆記/Module_2_產品創新與精實驗證/M2-5_創業投資與私募股權運作機制\|M2-5 創業投資與私募股權運作機制]]：私募股權全景、有限合夥制度 LP vs. GP、2/20 獲利與瀑布式分配、IVC vs. CVC 策略博弈、融資輪次與投前投後估值、Term Sheet 核心防禦條款、退場光譜與三大上市途徑
 
 ---
 
-## 💎 推薦關聯之 [[98_商業概念庫\|98_商業概念庫]] 原子卡片
+## 💎 推薦關聯之 **98 商業概念庫** 原子卡片
 
 - [[98_商業概念庫/entrepreneurship-spirit_創業精神\|entrepreneurship-spirit_創業精神]] · [[98_商業概念庫/business-model_商業模式\|business-model_商業模式]] · [[98_商業概念庫/lean-startup_精實創業\|lean-startup_精實創業]]
 - [[98_商業概念庫/PMF_產品市場契合度 Product-Market Fit\|PMF 產品市場契合度]] · [[98_商業概念庫/NWC_淨營運資本 Net Working Capital\|NWC 淨營運資本]] · [[98_商業概念庫/CCC_現金循環週期 Cash Conversion Cycle\|CCC 現金循環週期]] · [[98_商業概念庫/ROIC_投入資本報酬率 Return on Invested Capital\|ROIC 投入資本報酬率]]
-- [[98_商業概念庫/Kotler_五個產品層次模型 Five Product Levels\|Kotler 五個產品層次模型]] · [[98_商業概念庫/Product_Mix_產品組合管理 Product Mix\|Product Mix 產品組合管理]] · [[98_商業概念庫/Brand_Equity_品牌權益 David Aaker 模型\|Brand Equity 品牌權益]] · [[98_商業概念庫/Equity_Monetization_股權貨幣化 Equity Monetization\|Equity Monetization 股權貨幣化]]
+- [[98_商業概念庫/Kotler_五個產品層次模型 Five Product Levels\|Kotler 五個產品層次模型]] · [[98_商業概念庫/product-mix_產品組合管理\|Product Mix 產品組合管理]] · [[98_商業概念庫/brand-equity-aaker-model_品牌權益David Aaker模型\|Brand Equity 品牌權益]] · [[98_商業概念庫/equity-monetization_股權貨幣化\|Equity Monetization 股權貨幣化]]
 - [[98_商業概念庫/Omnihouse_全能屋模型 Omnihouse Model\|Omnihouse 全能屋模型]] · [[98_商業概念庫/Entrepreneurial_Marketing_創業行銷\|創業行銷]] · [[98_商業概念庫/EPV_盈餘能力價值模型 Earnings Power Value\|EPV 盈餘能力價值]] · [[98_商業概念庫/SOTP_零件加總估值法 Sum of the Parts\|SOTP 零件加總法]]
 - [[98_商業概念庫/BCG_Matrix_波士頓矩陣與動態現金流\|BCG 波士頓矩陣]] · [[98_商業概念庫/GE_McKinsey_Matrix_通用奇異矩陣\|GE 奇異矩陣]] · [[98_商業概念庫/Marketing_Creativity_行銷創意生產力\|行銷創意生產力]] · [[98_商業概念庫/Backwardation_AI算力逆價差\|AI 算力逆價差]]
 - [[98_商業概念庫/free-cash-flow-liang_自由現金流量\|free-cash-flow-liang_自由現金流量]] · [[98_商業概念庫/company-value_公司內在價值\|company-value_公司內在價值]] · [[98_商業概念庫/exit-strategy_出場機制 Exit Strategy\|exit-strategy_出場機制 Exit Strategy]]

@@ -5,7 +5,7 @@
 
 # 財務結構 (Financial Structure)
 
-> 💡 **導航與索引**：本篇為評估企業整體資金來源配置與長期清算安全底盤之核心概念，亦可參閱長期融資專題 [[98_商業概念庫/capital-structure_資本結構\|資本結構 (Capital Structure)]]、固定利息放大效應 [[98_商業概念庫/financial-leverage_財務槓桿\|財務槓桿 (Financial Leverage / DFL)]]、產銷營運敏感度 [[98_商業概念庫/DOL_營運槓桿\|營運槓桿度 (DOL)]]、總體風險複合指標 [[98_商業概念庫/DTL_總槓桿\|總槓桿度 (DTL)]]、股東權益拆解工具 [[98_商業概念庫/dupont-analysis_杜邦分析法\|杜邦分析法 (DuPont)]]、損益兩平防線 [[98_商業概念庫/BEP_三大損益兩平點分析 Breakeven Analysis\|三大損益兩平點 (BEP)]]，以及加權折現基準 [[98_商業概念庫/wacc_加權平均資本成本\|加權平均資本成本 (WACC)]]。
+> 💡 **導航與索引**：本篇為評估企業整體資金來源配置與長期清算安全底盤之核心概念，亦可參閱長期融資專題 [[98_商業概念庫/capital-structure_資本結構\|資本結構 (Capital Structure)]]、固定利息放大效應 [[98_商業概念庫/financial-leverage_財務槓桿\|財務槓桿 (Financial Leverage / DFL)]]、產銷營運敏感度 [[98_商業概念庫/DOL_營運槓桿\|營運槓桿度 (DOL)]]、總體風險複合指標 [[DTL_總槓桿\|總槓桿度 (DTL)]]、股東權益拆解工具 [[98_商業概念庫/dupont-analysis_杜邦分析法\|杜邦分析法 (DuPont)]]、損益兩平防線 [[98_商業概念庫/BEP_三大損益兩平點分析 Breakeven Analysis\|三大損益兩平點 (BEP)]]，以及加權折現基準 [[98_商業概念庫/wacc_加權平均資本成本\|加權平均資本成本 (WACC)]]。
 
 ## 一、 核心定義與「財務結構 vs. 資本結構」本質辨析
 
@@ -170,7 +170,7 @@ $$\text{權益乘數} = \frac{\text{資產總額}}{\text{股東權益總額}} = 
   - [[98_商業概念庫/capital-structure_資本結構\|資本結構 (Capital Structure)]]
   - [[98_商業概念庫/financial-leverage_財務槓桿\|財務槓桿度 (DFL)]]
   - [[98_商業概念庫/DOL_營運槓桿\|營運槓桿度 (DOL)]]
-  - [[98_商業概念庫/DTL_總槓桿\|總槓桿度 (DTL)]]
+  - [[DTL_總槓桿\|總槓桿度 (DTL)]]
   - [[98_商業概念庫/dupont-analysis_杜邦分析法\|杜邦分析法 (DuPont Analysis)]]
   - [[98_商業概念庫/BEP_三大損益兩平點分析 Breakeven Analysis\|三大損益兩平點分析 (BEP)]]
   - [[98_商業概念庫/wacc_加權平均資本成本\|加權平均資本成本 (WACC)]]

@@ -36,4 +36,4 @@
 ## 三、 跨模組雙向鏈結與延伸導航
 
 - **課程筆記**：[[04_主題選修/10_創業與企業財務策略/02_模組筆記/Module_2_產品創新與精實驗證/M2-3_創業行銷策略與全能屋模型\|M2-3 創業行銷策略與全能屋模型]]
-- **關聯概念**：[[98_商業概念庫/Entrepreneurial_Marketing_創業行銷\|創業行銷]] ｜ [[98_商業概念庫/Marketing_Creativity_行銷創意生產力\|行銷創意生產力]] ｜ [[98_商業概念庫/Product_Mix_產品組合管理 Product Mix\|Product Mix 產品組合管理]]
+- **關聯概念**：[[98_商業概念庫/Entrepreneurial_Marketing_創業行銷\|創業行銷]] ｜ [[98_商業概念庫/Marketing_Creativity_行銷創意生產力\|行銷創意生產力]] ｜ [[98_商業概念庫/product-mix_產品組合管理\|Product Mix 產品組合管理]]

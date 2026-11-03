@@ -5,7 +5,7 @@
 
 # 資本結構 (Capital Structure)
 
-> 💡 **導航與索引**：本篇為公司理財（Corporate Finance）與企業財務決策之最核心基石，探討企業如何配置長期負債與權益以極小化融資成本並極大化公司總價值。亦可參閱資產負債表全局視角 [[98_商業概念庫/financial-structure_財務結構\|財務結構 (Financial Structure)]]、折現率估算基準 [[98_商業概念庫/wacc_加權平均資本成本\|加權平均資本成本 (WACC)]]、股權要求回報率模型 [[98_商業概念庫/capm_資本資產定價模型\|資本資產定價模型 (CAPM)]]、固定利息放大機制 [[98_商業概念庫/financial-leverage_財務槓桿\|財務槓桿 (Financial Leverage / DFL)]]、產銷敏感度 [[98_商業概念庫/DOL_營運槓桿\|營運槓桿度 (DOL)]]、總體風險複合指標 [[98_商業概念庫/DTL_總槓桿\|總槓桿度 (DTL)]]、股東權益拆解工具 [[98_商業概念庫/dupont-analysis_杜邦分析法\|杜邦分析法 (DuPont)]]、完全稀釋檢驗 [[98_商業概念庫/diluted-eps_稀釋後每股盈餘\|稀釋後每股盈餘 (Diluted EPS)]]、新創股權地圖 [[98_商業概念庫/cap-table_股權結構表 Cap Table\|股權結構表 (Cap Table)]]，以及融資缺口預測 [[98_商業概念庫/AFN_外部融資需求模型 Additional Funds Needed\|外部融資需求模型 (AFN)]]。
+> 💡 **導航與索引**：本篇為公司理財（Corporate Finance）與企業財務決策之最核心基石，探討企業如何配置長期負債與權益以極小化融資成本並極大化公司總價值。亦可參閱資產負債表全局視角 [[98_商業概念庫/financial-structure_財務結構\|財務結構 (Financial Structure)]]、折現率估算基準 [[98_商業概念庫/wacc_加權平均資本成本\|加權平均資本成本 (WACC)]]、股權要求回報率模型 [[98_商業概念庫/capm_資本資產定價模型\|資本資產定價模型 (CAPM)]]、固定利息放大機制 [[98_商業概念庫/financial-leverage_財務槓桿\|財務槓桿 (Financial Leverage / DFL)]]、產銷敏感度 [[98_商業概念庫/DOL_營運槓桿\|營運槓桿度 (DOL)]]、總體風險複合指標 [[DTL_總槓桿\|總槓桿度 (DTL)]]、股東權益拆解工具 [[98_商業概念庫/dupont-analysis_杜邦分析法\|杜邦分析法 (DuPont)]]、完全稀釋檢驗 [[98_商業概念庫/diluted-eps_稀釋後每股盈餘\|稀釋後每股盈餘 (Diluted EPS)]]、新創股權地圖 [[98_商業概念庫/cap-table_股權結構表 Cap Table\|股權結構表 (Cap Table)]]，以及融資缺口預測 [[98_商業概念庫/AFN_外部融資需求模型 Additional Funds Needed\|外部融資需求模型 (AFN)]]。
 
 ---
 
@@ -294,7 +294,7 @@ $$\frac{(\text{EBIT}^* - I_1)(1 - T_C) - PD_1}{S_1} = \frac{(\text{EBIT}^* - I_2
   - [[98_商業概念庫/capm_資本資產定價模型\|資本資產定價模型 (CAPM)]]（計算權益資本成本 $r_E$ 之核心定價工具）
   - [[98_商業概念庫/financial-leverage_財務槓桿\|財務槓桿 (Financial Leverage / DFL)]]（固定利息費用對每股盈餘的放大效應）
   - [[98_商業概念庫/DOL_營運槓桿\|營運槓桿度 (DOL)]]（固定營業成本對營業利益之放大效應）
-  - [[98_商業概念庫/DTL_總槓桿\|總槓桿度 (DTL)]]（營運槓桿與財務槓桿之複合乘數）
+  - [[DTL_總槓桿\|總槓桿度 (DTL)]]（營運槓桿與財務槓桿之複合乘數）
   - [[98_商業概念庫/diluted-eps_稀釋後每股盈餘\|稀釋後每股盈餘 (Diluted EPS)]]（潛在稀釋型證券對股東每股獲利之完全稀釋檢驗）
   - [[98_商業概念庫/cap-table_股權結構表 Cap Table\|股權結構表 (Cap Table)]]（新創企業股權分配、期權池與多輪融資稀釋底冊）
   - [[98_商業概念庫/AFN_外部融資需求模型 Additional Funds Needed\|外部融資需求模型 (AFN)]]（營運成長缺口轉換為長期負債與股權融資之預測模型）

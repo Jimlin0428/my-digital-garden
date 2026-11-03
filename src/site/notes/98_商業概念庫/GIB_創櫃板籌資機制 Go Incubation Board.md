@@ -39,5 +39,5 @@
 ---
 
 ## 五、 關聯筆記與概念地圖
-- **核心關聯模組**：[[04_主題選修/10_創業與企業財務策略/02_模組筆記/Module_2_產品創新與精實驗證/M2-4_新創財務預測與外部融資需求模型\|M2-4_新創財務預測與外部融資需求模型]]
-- **概念地圖對接**：[[98_商業概念庫/Crowdfunding_群眾募資三大模式\|Crowdfunding_群眾募資三大模式]] ｜ [[98_商業概念庫/AFN_外部融資需求模型 Additional Funds Needed\|AFN_外部融資需求模型 Additional Funds Needed]] ｜ [[98_商業概念庫/Capital_Pool_資金池與備用週轉金模型\|Capital_Pool_資金池與備用週轉金模型]]
+- **核心關聯模組**：[[M2-4_新創財務預測與外部融資需求模型]]
+- **概念地圖對接**：[[Crowdfunding_群眾募資三大模式]] ｜ [[AFN_外部融資需求模型 Additional Funds Needed]] ｜ [[capital-pool_資金池與備用週轉金模型|Capital_Pool_資金池與備用週轉金模型]]

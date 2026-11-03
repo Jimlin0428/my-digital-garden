@@ -9,7 +9,7 @@
 > 本筆記由台大電機系李宏毅老師講授，以當前備受矚目的開源專案 **OpenClaw**（俗稱「養龍蝦」）為核心案例，深度解剖從純語言模型（LLM）跨越至自主代理（AI Agent）的工程架構與運作邏輯。內容涵蓋 Agent 作為「人機控制介面」的本質定位、System Prompt 與 Markdown 地端記憶注入、工具調用與動態免洗腳本自主生成、Subagent 子代理與上下文工程（Context Engineering）、心跳機制與 Cronjob 排程系統，並以「小金」自主營運 YouTube 頻道與 Meta 研究員郵件誤刪慘案，具體剖析間接提示詞注入（Prompt Injection）與系統安全隔離的防禦原則。  
 > - 上級地圖：[[05_AI選修/10_AiX/00_課程導航與進度/mindmap_AiX_心智圖導航\|全課程心智圖導航]]  
 > - 進度看板：[[05_AI選修/10_AiX/00_課程導航與進度/progress_📊 課程與筆記進度追蹤\|progress_📊 課程與筆記進度追蹤]]  
-> - 核心概念庫：[[98_商業概念庫/AI_Agent_自主代理架構與運作機制\|AI Agent]] ｜ [[98_商業概念庫/Agentic_Workflow_自主代理工作流\|自主代理工作流]] ｜ [[98_商業概念庫/Prompt_Injection_提示詞注入與越獄防護\|提示詞注入防護]] ｜ [[Context_Engineering_上下文工程\|上下文工程]] ｜ [[Heartbeat_心跳機制\|心跳機制]]
+> - 核心概念庫：[[98_商業概念庫/ai-agent_自主代理架構與運作機制\|AI Agent]] ｜ [[98_商業概念庫/Agentic_Workflow_自主代理工作流\|自主代理工作流]] ｜ [[98_商業概念庫/Prompt_Injection_提示詞注入與越獄防護\|提示詞注入防護]] ｜ [[Context_Engineering_上下文工程\|上下文工程]] ｜ [[Heartbeat_心跳機制\|心跳機制]]
 
 ---
 
@@ -163,7 +163,7 @@ $$	ext{Score} = w_1 \cdot S_1 (	ext{字面匹配頻率}) + w_2 \cdot S_2 (	ext{E
 - **企業落地之防禦基石**：以小金的 `SOUL.md` 操縱與 Meta 刪信慘案為借鏡，為企業導入自主 Agent 提供了「硬性審批、憑證隔離、實體沙盒」之安全金科玉律。
 
 ### 2. 雙向鏈結網絡
-- ◀️ 上級導航：[[05_AI選修/10_AiX/00_課程導航與進度/mindmap_AiX_心智圖導航\|全課程心智圖導航]]
-- 📊 進度追蹤：[[05_AI選修/10_AiX/00_課程導航與進度/progress_📊 課程與筆記進度追蹤\|progress_📊 課程與筆記進度追蹤]]
-- 🏢 案例庫對接：[[05_AI選修/10_AiX/01_AI技術與實務案例庫/Case_Agent_自主代理企業級工作流導入實例\|自主代理企業級工作流導入實例]] ｜ [[05_AI選修/10_AiX/01_AI技術與實務案例庫/Case_Security_LLM越獄與提示詞注入攻擊實務\|LLM越獄與提示詞注入攻擊實務]]
-- 📚 核心概念庫：[[98_商業概念庫/AI_Agent_自主代理架構與運作機制\|AI Agent]] ｜ [[98_商業概念庫/Agentic_Workflow_自主代理工作流\|自主代理工作流]] ｜ [[98_商業概念庫/Prompt_Injection_提示詞注入與越獄防護\|提示詞注入防護]] ｜ [[Context_Engineering_上下文工程\|上下文工程]] ｜ [[Heartbeat_心跳機制\|心跳機制]]
+- ◀️ 上級導航：[[mindmap_AiX_心智圖導航|全課程心智圖導航]]
+- 📊 進度追蹤：[[progress_📊 課程與筆記進度追蹤|progress_📊 課程與筆記進度追蹤]]
+- 🏢 案例庫對接：[[01_AI技術與實務案例庫/Case_Agent_自主代理企業級工作流導入實例|自主代理企業級工作流導入實例]] ｜ [[01_AI技術與實務案例庫/Case_Security_LLM越獄與提示詞注入攻擊實務|LLM越獄與提示詞注入攻擊實務]]
+- 📚 核心概念庫：[[ai-agent_自主代理架構與運作機制|AI Agent]] ｜ [[Agentic_Workflow_自主代理工作流|自主代理工作流]] ｜ [[Prompt_Injection_提示詞注入與越獄防護|提示詞注入防護]] ｜ [[Context_Engineering_上下文工程|上下文工程]] ｜ [[Heartbeat_心跳機制|心跳機制]]

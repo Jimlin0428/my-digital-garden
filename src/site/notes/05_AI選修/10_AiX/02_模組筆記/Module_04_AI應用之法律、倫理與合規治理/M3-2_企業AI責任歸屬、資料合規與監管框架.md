@@ -8,7 +8,7 @@
 > [!abstract] 導讀與對接
 > - **上級地圖**：[[05_AI選修/10_AiX/_AiX MOC\|_AiX MOC]]
 > - **進度看板**：[[05_AI選修/10_AiX/00_課程導航與進度/progress_📊 課程與筆記進度追蹤\|progress_📊 課程與筆記進度追蹤]]
-> - **核心概念庫**：[[98_商業概念庫/AI_Governance_企業AI治理與風險框架\|AI_Governance_企業AI治理與風險框架]]
+> - **核心概念庫**：[[AI_Governance_企業AI治理與風險框架\|AI_Governance_企業AI治理與風險框架]]
 
 ---
 
