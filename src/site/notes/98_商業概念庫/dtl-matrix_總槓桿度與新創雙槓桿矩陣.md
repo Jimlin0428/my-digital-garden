@@ -51,4 +51,4 @@ $$\text{DTL} = \frac{Q(P - V)}{Q(P - V) - FC - I}$$
 
 ## 四、 關聯筆記與概念地圖
 - **核心關聯模組**：[[M2-5_創業投資與私募股權運作機制]] ｜ [[M1-2_白板決策鏈與財務價值三角]] ｜ [[M2-4_新創財務預測與外部融資需求模型]]
-- **概念地圖對接**：[[BEP_三大損益兩平點分析 Breakeven Analysis]] ｜ [[capital-pool_資金池與備用週轉金模型|Capital_Pool_資金池與備用週轉金模型]] ｜ [[Real_Options_實質選擇權估值模型]]
+- **概念地圖對接**：[[BEP_三大損益兩平點分析 Breakeven Analysis]] ｜ [[capital-pool_資金池與備用週轉金模型|Capital_Pool_資金池與備用週轉金模型]] ｜ [[real-options_實質選擇權]]

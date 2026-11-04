@@ -37,4 +37,4 @@ $$\text{企業估值 (Valuation)} = \text{營業收入 (Sales)} \times \text{市
 
 ## 四、 關聯筆記與概念地圖
 - **核心關聯模組**：[[M2-5_創業投資與私募股權運作機制]] ｜ [[M1-2_白板決策鏈與財務價值三角]]
-- **概念地圖對接**：[[Real_Options_實質選擇權估值模型]] ｜ [[dtl-matrix_總槓桿度與新創雙槓桿矩陣|DTL_總槓桿度與新創雙槓桿矩陣]] ｜ [[AFN_外部融資需求模型 Additional Funds Needed]]
+- **概念地圖對接**：[[real-options_實質選擇權]] ｜ [[dtl-matrix_總槓桿度與新創雙槓桿矩陣|DTL_總槓桿度與新創雙槓桿矩陣]] ｜ [[AFN_外部融資需求模型 Additional Funds Needed]]

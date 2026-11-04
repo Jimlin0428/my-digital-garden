@@ -112,7 +112,7 @@
 - [[M2-2_產業聚落與地理生態|產業聚落生態學 (Cluster Ecology) (W06)]]
   - 波特鑽石模型 (Diamond Model)：生產要素 ｜ 需求條件 ｜ 關聯與支援產業 ｜ [[enterprise_企業]]策略與競爭結構
   - 地理鄰近性與外部規模經濟：技術知識外溢 ｜ 專門人才庫 ｜ 供應鏈配套綜效
-- [[M2-3_價值網分析與競合戰略|產業價值網與競合分析 (Coopetition) (W08)]]
+- [[M2-3_產業價值網與競合分析|產業價值網與競合分析 (Coopetition) (W08)]]
   - Brandenburger 價值網 (Value Net)：顧客 ｜ 供應商 ｜ 競爭對手 ｜ [[complementary-goods_互補品]] (Complementors)
   - PARTS 賽局戰略架構：Players (參與者) ｜ Added values (附加價值) ｜ Rules (規則) ｜ Tactics (戰術) ｜ Scope (範疇)
   - 競合策略實務：把餅做大 (正和博弈) vs 分割利潤 (零和博弈)
