@@ -89,7 +89,7 @@ flowchart TD
 ## 🔗 知識庫雙向鏈接（**98 商業概念庫** 原子卡片推薦）
 
 - **財務報表架構**：[[balance-sheet_資產負債表]] · [[income-loss-3_綜合損益表]] · [[cash-flow-statement_現金流量表]] · [[statement-of-changes-in-equity_權益變動表]] · [[financial-2_財務報表附註]]
-- **現金流量系列**：[[operating-cash-flow-statement_營業活動現金流量]] · [[investing-cash-flow-statement_投資活動現金流量]] · [[financing-activities-cash-flow_籌資活動現金流量]] · [[free-cash-flow-liang_自由現金流量]]
+- **現金流量系列**：[[operating-cash-flow-statement_營業活動現金流量]] · [[investing-cash-flow-statement_投資活動現金流量]] · [[financing-activities-cash-flow_籌資活動現金流量]] · [[free-cash-flow_自由現金流量]]
 - **比率與評價**：[[liquidity_流動性]] · [[capital-structure_資本結構]] · [[financial-leverage_財務槓桿]] · [[dupont-analysis_杜邦分析法]] · [[cash-switching-cycle_現金轉換週期]] · [[working-capital_營運資金]]
 
 ---

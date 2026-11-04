@@ -141,5 +141,5 @@ $$\text{SVA} = \underbrace{\text{PV of Cumulative Operating Cash Flows}}_{\text{
   - [[98_商業概念庫/dcf_現金流量折現法\|現金流量折現法 (DCF)]] ｜ [[98_商業概念庫/NPV_淨現值法 _Net Present Value\|淨現值法 (NPV)]]
   - [[98_商業概念庫/wacc_加權平均資本成本\|加權平均資金成本 (WACC)]] ｜ [[98_商業概念庫/return-on-invested-capital_資本投入報酬率\|資本投入報酬率 (ROIC)]]
   - [[98_商業概念庫/pvgo_成長機會現值\|成長機會現值 (PVGO)]] ｜ [[98_商業概念庫/dupont-analysis_杜邦分析法\|杜邦分析法 (DuPont)]]
-  - [[98_商業概念庫/free-cash-flow-liang_自由現金流量\|自由現金流量 (FCF)]] ｜ [[98_商業概念庫/capital-expenditure_資本支出\|資本支出 (CapEx)]]
+  - [[98_商業概念庫/free-cash-flow_自由現金流量\|自由現金流量 (FCF)]] ｜ [[98_商業概念庫/capital-expenditure_資本支出\|資本支出 (CapEx)]]
   - [[98_商業概念庫/economic-moat_經濟護城河\|經濟護城河 (Economic Moat)]] ｜ [[98_商業概念庫/sustainable-growth-rate_永續成長率\|永續成長率 (SGR)]] ｜ [[98_商業概念庫/capm_資本資產定價模型\|資本資產定價模型 (CAPM)]]

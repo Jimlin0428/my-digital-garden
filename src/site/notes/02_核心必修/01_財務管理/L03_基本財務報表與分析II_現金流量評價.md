@@ -11,7 +11,7 @@
 - **會計利潤可以被操縱，但現金流不能**：[[98_商業概念庫/zhe-jiu_折舊\|zhe-jiu_折舊]]攤銷年限、[[98_商業概念庫/inventory-method_存貨計價方法\|cun-huo-ji-jia-fang-fa_存貨計價方法]]與收入認列時點均存在人為調節與[[98_商業概念庫/management-2_盈餘管理\|ying-yu-management_盈餘管理]]的空間；然而，[[98_商業概念庫/cash-flow-statement_現金流量表\|cash-flow-statement_現金流量表]]記錄的是真實貨幣的收付軌跡，是穿透會計迷霧、檢驗企業獲利品質的最客觀試金石。
 - **自由現金流（FCF）是企業價值的真實源泉**：在金融估值理論中，[[98_商業概念庫/enterprise-value-evaluation_企業價值評估\|enterprise-value-evaluation_企業價值評估]]絕非看帳面淨利或[[98_商業概念庫/EPS_本益比_Earnings Per Share\|ben-yi-bi_本益比]]倍數，企業的內在價值本質上等於其未來全生命週期所能產生的[[98_商業概念庫/enterprise-free-cash-flow-liang_企業自由現金流量\|enterprise-free-cash-flow-liang_企業自由現金流量]]（FCFF）以反映風險的折現率折現後的現值總和。
 - **折舊稅盾的實質價值創造**：折舊費用雖非現金流出，但屬於合法的稅前可扣除項目；透過[[98_商業概念庫/depreciation-tax-shield_折舊稅盾\|zhe-jiu-shui-dun_折舊稅盾]]（$D \times t$），企業得以實質減少現金所得稅支出。採用加速折舊可在專案初期放大稅盾效益，依據[[98_商業概念庫/time-value-2_貨幣時間價值\|huo-bi-shi-jian-value_貨幣時間價值]]原理顯著推升專案淨現值（NPV）。
-- **警惕人為美化現金流的營運盲點**：經理人若為達成當期 KPI，透過砍停必要維護型[[98_商業概念庫/capital-expenditure_資本支出\|capital-zhi-chu_資本支出]]（CapEx）或惡意拖延供應商[[98_商業概念庫/payable_應付帳款\|ying-fu-zhang-kuan_應付帳款]]貨款來短期美化[[98_商業概念庫/free-cash-flow-liang_自由現金流量\|free-cash-flow-liang_自由現金流量]]，實質上是在透支企業長期生產力並摧毀供應鏈信任，屬於嚴重的短視治理危機。
+- **警惕人為美化現金流的營運盲點**：經理人若為達成當期 KPI，透過砍停必要維護型[[98_商業概念庫/capital-expenditure_資本支出\|capital-zhi-chu_資本支出]]（CapEx）或惡意拖延供應商[[98_商業概念庫/payable_應付帳款\|ying-fu-zhang-kuan_應付帳款]]貨款來短期美化[[98_商業概念庫/free-cash-flow_自由現金流量\|free-cash-flow_自由現金流量]]，實質上是在透支企業長期生產力並摧毀供應鏈信任，屬於嚴重的短視治理危機。
 
 ---
 
@@ -96,7 +96,7 @@ $$\text{OCF} = (\text{S} - \text{C}) \times (1 - t) + \text{D} \times t$$
 
 ### 3. 自由現金流量（FCF）的嚴謹推導
 
-[[98_商業概念庫/free-cash-flow-liang_自由現金流量\|free-cash-flow-liang_自由現金流量]]是指企業營運產生的現金在滿足了維持正常營運及支持未來成長所需之「必要[[98_商業概念庫/capital-expenditure_資本支出\|capital-zhi-chu_資本支出]]」與「[[98_商業概念庫/working-capital_營運資金\|working-capital_營運資金]]追加」後，可以完全自由分配給資本提供者的剩餘現金。
+[[98_商業概念庫/free-cash-flow_自由現金流量\|free-cash-flow_自由現金流量]]是指企業營運產生的現金在滿足了維持正常營運及支持未來成長所需之「必要[[98_商業概念庫/capital-expenditure_資本支出\|capital-zhi-chu_資本支出]]」與「[[98_商業概念庫/working-capital_營運資金\|working-capital_營運資金]]追加」後，可以完全自由分配給資本提供者的剩餘現金。
 
 ```mermaid
 flowchart TD

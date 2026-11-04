@@ -5,7 +5,7 @@
 
 # 現金流量折現法 (Discounted Cash Flow, DCF)
 
-> 💡 **導航與索引**：本篇為企業內在價值評價之母法，亦可參閱庫內對應卡片 折現率基礎 [[98_商業概念庫/wacc_加權平均資本成本\|WACC]] 與分子引擎 [[98_商業概念庫/free-cash-flow-liang_自由現金流量\|自由現金流量]]。
+> 💡 **導航與索引**：本篇為企業內在價值評價之母法，亦可參閱庫內對應卡片 折現率基礎 [[98_商業概念庫/wacc_加權平均資本成本\|WACC]] 與分子引擎 [[98_商業概念庫/free-cash-flow_自由現金流量\|自由現金流量]]。
 
 ---
 
@@ -163,7 +163,7 @@ $$\begin{aligned}
   - [[04_主題選修/12_產業分析與投資策略/00_課程導航與進度/mindmap_產業分析與投資策略_心智圖導航\|產業分析與投資策略 心智圖導航]] ｜ [[04_主題選修/10_創業與企業財務策略/00_課程導航與進度/mindmap_創業與企業財務策略_心智圖導航\|創業與企業財務策略 心智圖導航]]
 - 🔗 **核心概念原子卡片**：
   - [[98_商業概念庫/wacc_加權平均資本成本\|加權平均資金成本 (WACC)]] ｜ [[98_商業概念庫/pvgo_成長機會現值\|成長機會現值 (PVGO)]]
-  - [[98_商業概念庫/dividend-discount-model_股利折現模型\|股利折現模型 (DDM)]] ｜ [[98_商業概念庫/free-cash-flow-liang_自由現金流量\|自由現金流量 (FCF)]]
+  - [[98_商業概念庫/dividend-discount-model_股利折現模型\|股利折現模型 (DDM)]] ｜ [[98_商業概念庫/free-cash-flow_自由現金流量\|自由現金流量 (FCF)]]
   - [[98_商業概念庫/enterprise-free-cash-flow-liang_企業自由現金流量\|企業自由現金流量 (FCFF)]] ｜ [[98_商業概念庫/return-on-invested-capital_資本投入報酬率\|資本投入報酬率 (ROIC)]]
   - [[98_商業概念庫/dupont-analysis_杜邦分析法\|dupont-analysis_杜邦分析法]] ｜ [[98_商業概念庫/sustainable-growth-rate_永續成長率\|永續成長率 (SGR)]]
   - [[98_商業概念庫/capital-expenditure_資本支出\|capital-expenditure_資本支出]] ｜ [[98_商業概念庫/internal-rate-of-return_內部報酬率\|內部報酬率 (IRR)]]

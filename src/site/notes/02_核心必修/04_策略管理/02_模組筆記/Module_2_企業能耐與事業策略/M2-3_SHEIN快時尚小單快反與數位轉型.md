@@ -134,10 +134,10 @@ flowchart TD
 
 ## 🔗 模組導航與延伸閱讀
 
-- ⬅️ **上一章節**：[[M2-2_事業策略與競合思維|M2-2 事業策略與競合思維]]
-- ➡️ **下一模組預覽**：[[02_模組筆記/Module_3_產業型態與垂直整合/M3-1_產業型態與經營模式|Module 3 產業型態與垂直整合]]
+- ⬅️ **上一章節**：[[02_核心必修/04_策略管理/02_模組筆記/Module_2_企業能耐與事業策略/M2-2_事業策略與競合思維\|M2-2 事業策略與競合思維]]
+- ➡️ **下一模組預覽**：[[02_核心必修/04_策略管理/02_模組筆記/Module_3_產業型態與垂直整合/M3-1_產業型態與經營模式\|Module 3 產業型態與垂直整合]]
 - 💎 **本章關聯概念卡片**：
-  - [[Small_Order_Quick_Response_小單快反供應鏈]]
-  - [[Institutional_Cost_Tariff_Threshold_制度成本與小額關稅門檻]]
-  - [[Dual_Positioning_Trap_雙重定位陷阱與品牌代工衝突]]
-  - [[Frontstage_Backstage_Strategy_前台價值與後台成本架構]]
+  - [[98_商業概念庫/Small_Order_Quick_Response_小單快反供應鏈\|Small_Order_Quick_Response_小單快反供應鏈]]
+  - [[98_商業概念庫/Institutional_Cost_Tariff_Threshold_制度成本與小額關稅門檻\|Institutional_Cost_Tariff_Threshold_制度成本與小額關稅門檻]]
+  - [[98_商業概念庫/Dual_Positioning_Trap_雙重定位陷阱與品牌代工衝突\|Dual_Positioning_Trap_雙重定位陷阱與品牌代工衝突]]
+  - [[98_商業概念庫/Frontstage_Backstage_Strategy_前台價值與後台成本架構\|Frontstage_Backstage_Strategy_前台價值與後台成本架構]]
