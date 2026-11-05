@@ -1,7 +1,6 @@
 ---
-{"dg-publish":true,"permalink":"/98/product-mix/","tags":["商業概念","行銷管理","產品策略","策略管理","PMBA"],"dg-note-properties":{"aliases":["產品組合","產品組合管理","產品線管理","Product Mix","Product Assortment"],"tags":["商業概念","行銷管理","產品策略","策略管理","PMBA"]}}
+{"dg-publish":true,"permalink":"/98/product-mix/","tags":["商業概念","行銷管理","產品策略","策略管理","PMBA"],"dg-note-properties":{"aliases":["產品組合","產品組合管理","產品線管理","Product Mix","Product Assortment","Product_Mix_產品組合管理 Product Mix","產品組合管理 Product Mix","Product_Mix_產品組合管理"],"tags":["商業概念","行銷管理","產品策略","策略管理","PMBA"]}}
 ---
-
 
 # 產品組合管理 (Product Mix Management)
 

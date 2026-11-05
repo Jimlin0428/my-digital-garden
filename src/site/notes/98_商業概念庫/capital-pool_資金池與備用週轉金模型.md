@@ -1,7 +1,6 @@
 ---
-{"dg-publish":true,"permalink":"/98/capital-pool/","tags":["商業概念","創業財務","流動性管理","風險控制","PMBA"],"dg-note-properties":{"aliases":["Capital Pool","資金池","備用週轉金模型","資本池動態模型"],"tags":["商業概念","創業財務","流動性管理","風險控制","PMBA"]}}
+{"dg-publish":true,"permalink":"/98/capital-pool/","tags":["商業概念","創業財務","流動性管理","風險控制","PMBA"],"dg-note-properties":{"aliases":["Capital Pool","資金池","備用週轉金模型","資本池動態模型","Capital_Pool_資金池與備用週轉金模型","資金池模型"],"tags":["商業概念","創業財務","流動性管理","風險控制","PMBA"]}}
 ---
-
 
 # 資金池與備用週轉金模型 (Capital Pool & Safety Reserve Model)
 
@@ -49,5 +48,5 @@ $$\text{Cash Runway (月數)} = \frac{\text{可用現金與約當現金}}{\text{
 ---
 
 ## 五、 關聯筆記與概念地圖
-- **核心關聯模組**：[[04_主題選修/10_創業與企業財務策略/02_模組筆記/Module_2_產品創新與精實驗證/M2-4_新創財務預測與外部融資需求模型\|M2-4_新創財務預測與外部融資需求模型]] ｜ [[04_主題選修/10_創業與企業財務策略/02_模組筆記/Module_2_產品創新與精實驗證/M2-1_精實產品開發與服務創新驗證\|M2-1_精實產品開發與服務創新驗證]]
-- **概念地圖對接**：[[98_商業概念庫/AFN_外部融資需求模型 Additional Funds Needed\|AFN_外部融資需求模型 Additional Funds Needed]] ｜ [[98_商業概念庫/BEP_三大損益兩平點分析 Breakeven Analysis\|BEP_三大損益兩平點分析 Breakeven Analysis]] ｜ [[98_商業概念庫/Duration_Mismatch_算力資產負債天期錯配\|Duration_Mismatch_算力資產負債天期錯配]]
+- **核心關聯模組**：[[M2-4_新創財務預測與外部融資需求模型]] ｜ [[M2-1_精實產品開發與服務創新驗證]]
+- **概念地圖對接**：[[AFN_外部融資需求模型 Additional Funds Needed]] ｜ [[BEP_三大損益兩平點分析 Breakeven Analysis]] ｜ [[Duration_Mismatch_算力資產負債天期錯配]]

@@ -41,5 +41,5 @@
 ---
 
 ## 四、 關聯筆記與概念地圖
-- **核心關聯模組**：[[04_主題選修/12_產業分析與投資策略/99_歷史舊版備份/M3-1_產業生命週期與技術S曲線\|M3-1_產業生命週期與技術S曲線]] ｜ [[04_主題選修/12_產業分析與投資策略/99_歷史舊版備份/M2-1_產業垂直價值體系\|M2-1_產業垂直價值體系]]
-- **概念地圖對接**：[[98_商業概念庫/Performance_Oversupply_性能過剩與破壞性創新\|Performance_Oversupply_性能過剩與破壞性創新]] ｜ [[98_商業概念庫/PLC_產業生命週期模型 Product Life Cycle\|PLC_產業生命週期模型 Product Life Cycle]] ｜ [[Strategic_Groups_策略群組動態演化\|Strategic_Groups_策略群組動態演化]]
+- **核心關聯模組**：[[M3-1_產業生命週期與技術S曲線]] ｜ [[M2-1_產業垂直價值體系]]
+- **概念地圖對接**：[[Performance_Oversupply_性能過剩與破壞性創新]] ｜ [[PLC_產業生命週期模型 Product Life Cycle]] ｜ [[strategic-groups-evolution_策略群組動態演化|Strategic_Groups_策略群組動態演化]]

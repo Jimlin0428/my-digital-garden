@@ -1,7 +1,6 @@
 ---
-{"dg-publish":true,"permalink":"/98/brand-equity-aaker-model-david-aaker/","tags":["商業概念","行銷管理","品牌策略","無形資產","PMBA"],"dg-note-properties":{"aliases":["品牌權益","品牌資產","品牌價值模型","Brand Equity","David Aaker Brand Equity"],"tags":["商業概念","行銷管理","品牌策略","無形資產","PMBA"]}}
+{"dg-publish":true,"permalink":"/98/brand-equity-aaker-model-david-aaker/","tags":["商業概念","行銷管理","品牌策略","無形資產","PMBA"],"dg-note-properties":{"aliases":["品牌權益","品牌資產","品牌價值模型","Brand Equity","David Aaker Brand Equity","Brand_Equity_品牌權益 David Aaker 模型","品牌權益Aaker模型"],"tags":["商業概念","行銷管理","品牌策略","無形資產","PMBA"]}}
 ---
-
 
 # 品牌權益 David Aaker 模型 (Brand Equity)
 

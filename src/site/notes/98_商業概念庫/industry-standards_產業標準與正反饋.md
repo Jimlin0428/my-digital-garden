@@ -1,7 +1,6 @@
 ---
-{"dg-publish":true,"permalink":"/98/industry-standards/","tags":["商業概念","策略管理","網絡效應","產業演化","PMBA"],"dg-note-properties":{"aliases":["產業標準與正反饋","產業標準","贏家通吃","正反饋效應","Industry Standards","Winner-Takes-All"],"tags":["商業概念","策略管理","網絡效應","產業演化","PMBA"],"類別":"商業概念庫"}}
+{"dg-publish":true,"permalink":"/98/industry-standards/","tags":["商業概念","策略管理","網絡效應","產業演化","PMBA"],"dg-note-properties":{"aliases":["產業標準與正反饋","產業標準","贏家通吃","正反饋效應","Industry Standards","Winner-Takes-All","Industry_Standards_產業標準與正反饋"],"tags":["商業概念","策略管理","網絡效應","產業演化","PMBA"],"類別":"商業概念庫"}}
 ---
-
 
 # 產業標準與正反饋 (Industry Standards & Positive Feedback)
 

@@ -46,5 +46,5 @@
 ---
 
 ## 四、 關聯筆記與概念地圖
-- **核心關聯模組**：[[04_主題選修/12_產業分析與投資策略/99_歷史舊版備份/M2-3_產業價值網與競合分析\|M2-3_產業價值網與競合分析]] ｜ [[04_主題選修/12_產業分析與投資策略/99_歷史舊版備份/M1-5_波特五力分析與量化架構\|M1-5_波特五力分析與量化架構]]
-- **概念地圖對接**：[[98_商業概念庫/Prisoners_Dilemma_囚犯困境賽局\|Prisoners_Dilemma_囚犯困境賽局]] ｜ [[98_商業概念庫/PARTS_賽局變革架構 PARTS Framework\|PARTS_賽局變革架構 PARTS Framework]] ｜ [[Industry_Alliance_同業合作三大動機\|Industry_Alliance_同業合作三大動機]]
+- **核心關聯模組**：[[M2-3_產業價值網與競合分析]] ｜ [[M1-5_波特五力分析與量化架構]]
+- **概念地圖對接**：[[Prisoners_Dilemma_囚犯困境賽局]] ｜ [[PARTS_賽局變革架構 PARTS Framework]] ｜ [[industry-alliance_同業合作三大動機|Industry_Alliance_同業合作三大動機]]

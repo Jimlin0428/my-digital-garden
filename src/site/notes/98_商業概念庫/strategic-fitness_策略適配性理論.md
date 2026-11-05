@@ -1,7 +1,6 @@
 ---
-{"dg-publish":true,"permalink":"/98/strategic-fitness/","tags":["商業概念","策略管理","競爭優勢","組織設計","PMBA"],"dg-note-properties":{"aliases":["策略適配性","策略配適理論","Strategic Fit","內部適配與外部適配","動態適配"],"tags":["商業概念","策略管理","競爭優勢","組織設計","PMBA"]}}
+{"dg-publish":true,"permalink":"/98/strategic-fitness/","tags":["商業概念","策略管理","競爭優勢","組織設計","PMBA"],"dg-note-properties":{"aliases":["策略適配性","策略配適理論","Strategic Fit","內部適配與外部適配","動態適配","Strategic_Fitness_策略適配性理論","策略適配性理論"],"tags":["商業概念","策略管理","競爭優勢","組織設計","PMBA"]}}
 ---
-
 
 # 策略適配性理論 (Strategic Fitness)
 

@@ -1,7 +1,6 @@
 ---
-{"dg-publish":true,"permalink":"/98/brand-equity-lagging-indicator/","tags":["商業概念","策略管理","品牌策略","競爭優勢","PMBA"],"dg-note-properties":{"aliases":["品牌價值落後指標論","品牌價值的局限","Brand Equity as a Lagging Indicator","柯達諾基亞衰亡警示"],"tags":["商業概念","策略管理","品牌策略","競爭優勢","PMBA"]}}
+{"dg-publish":true,"permalink":"/98/brand-equity-lagging-indicator/","tags":["商業概念","策略管理","品牌策略","競爭優勢","PMBA"],"dg-note-properties":{"aliases":["品牌價值落後指標論","品牌價值的局限","Brand Equity as a Lagging Indicator","柯達諾基亞衰亡警示","Brand_Equity_Lagging_Indicator_品牌價值落後指標論"],"tags":["商業概念","策略管理","品牌策略","競爭優勢","PMBA"]}}
 ---
-
 
 # 品牌價值落後指標論 (Brand Equity as a Lagging Indicator)
 

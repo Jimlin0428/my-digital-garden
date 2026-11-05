@@ -17,7 +17,7 @@ graph LR
 ```
 
 ## 二、 數理公式：廣義加權平均反稀釋法（國際標準）
-$$CP_2 = CP_1 	imes rac{A + B}{A + C}$$
+$$CP_2 = CP_1 	imes rac{A + B}{A + C}$$
 - $CP_2$：調整後新換股價格
 - $CP_1$：原特別股購買價格
 - $A$：本輪融資前已發行完全稀釋總股數
@@ -28,6 +28,6 @@ $$CP_2 = CP_1 	imes rac{A + B}{A + C}$$
 - 創辦人應極力拒絕 Full Ratchet（完全棘輪條款），堅持採用 Broad-based Weighted Average（廣義加權平均條款），以守護團隊長期士氣。
 
 ## 四、 關聯模組與概念對接
-- 上層模組：[[04_主題選修/10_創業與企業財務策略/_創業與企業財務策略 MOC\|_創業與企業財務策略 MOC]] · [[Module_2_產品創新與精實驗證\|Module_2_產品創新與精實驗證]]
-- 課堂章節：[[04_主題選修/10_創業與企業財務策略/02_模組筆記/Module_2_產品創新與精實驗證/M2-5_創業投資與私募股權運作機制\|M2-5_創業投資與私募股權運作機制]]
-- 關聯概念：[[98_商業概念庫/Cap_Table_Evolution_資本結構股權表動態演變\|Cap_Table_Evolution_資本結構股權表動態演變]] · [[98_商業概念庫/Liquidation_Preference_Participating_優先清算權與參與分配\|Liquidation_Preference_Participating_優先清算權與參與分配]]
+- 上層模組：[[_創業與企業財務策略 MOC]] · **Module 2 產品創新與精實驗證**
+- 課堂章節：[[M2-5_創業投資與私募股權運作機制]]
+- 關聯概念：[[Cap_Table_Evolution_資本結構股權表動態演變]] · [[Liquidation_Preference_Participating_優先清算權與參與分配]]

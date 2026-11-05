@@ -1,7 +1,6 @@
 ---
-{"dg-publish":true,"permalink":"/98/industry-community/","tags":["商業概念","聚落生態學","產業分析","PMBA"],"dg-note-properties":{"aliases":["產業群落與聚落","產業群落","產業聚落","Industry Community","Industry Cluster"],"tags":["商業概念","聚落生態學","產業分析","PMBA"],"類別":"商業概念庫"}}
+{"dg-publish":true,"permalink":"/98/industry-community/","tags":["商業概念","聚落生態學","產業分析","PMBA"],"dg-note-properties":{"aliases":["產業群落與聚落","產業群落","產業聚落","Industry Community","Industry Cluster","Industry_Community_產業群落與聚落"],"tags":["商業概念","聚落生態學","產業分析","PMBA"],"類別":"商業概念庫"}}
 ---
-
 
 # 產業群落與聚落 (Industry Community vs. Cluster)
 

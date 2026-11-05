@@ -87,7 +87,7 @@ $$\text{DOL} = \frac{Q(P - V)}{Q(P - V) - FC} = \frac{Q}{Q - Q_{\text{acct}}^*}$
 ## 三、 總槓桿度 (DCL) 乘數效應：DOL 與 DFL 的聯立博弈
 
 企業面臨的總風險（Total Risk）由經營風險（本業）與財務風險（融資）相乘決定：
-$$\text{總槓桿度 ([[DTL_總槓桿|DTL / DCL]])} = \text{DOL} \times \text{DFL}$$
+$$\text{總槓桿度 ([[degree-of-total-leverage-dtl_總槓桿|DTL / DCL]])} = \text{DOL} \times \text{DFL}$$
 $$\text{DCL} = \underbrace{\frac{\% \Delta \text{EBIT}}{\% \Delta Q}}_{\text{DOL (營運槓桿)}} \times \underbrace{\frac{\% \Delta \text{EPS}}{\% \Delta \text{EBIT}}}_{\text{DFL (財務槓桿)}} = \frac{\% \Delta \text{EPS}}{\% \Delta Q}$$
 $$\text{DCL} = \frac{Q(P - V)}{Q(P - V) - FC - I - \frac{D_p}{1 - T_c}} = \frac{\text{邊際貢獻總額 (CM)}}{\text{稅前利潤 (EBT)}}$$
 *其中 $I$ 為利息費用，$D_p$ 為特別股股利，$T_c$ 為企業所得稅率。*
@@ -154,7 +154,7 @@ $$\text{DCL} = \frac{Q(P - V)}{Q(P - V) - FC - I - \frac{D_p}{1 - T_c}} = \frac{
   - [[01_基礎先修/01_財務報表分析/Ch07_獲利能力分析|Ch07 獲利能力分析]]（成本習性分類、固定成本稀釋與獲利彈性分析）
 - 🔗 **核心概念原子卡片**：
   - [[BEP_三大損益兩平點分析 Breakeven Analysis|三大損益兩平點分析 (BEP)]]
-  - [[financial-leverage_財務槓桿|財務槓桿度 (DFL)]] ｜ [[DTL_總槓桿|總槓桿度 (DTL / DCL)]]
+  - [[financial-leverage_財務槓桿|財務槓桿度 (DFL)]] ｜ [[degree-of-total-leverage-dtl_總槓桿|總槓桿度 (DTL / DCL)]]
   - [[davis-double-whammy_戴維斯雙殺效應|戴維斯雙殺與雙擊效應 (Davis Double Whammy)]]
   - [[dupont-analysis_杜邦分析法|杜邦分析法 (DuPont Analysis)]]
   - [[return-on-invested-capital_資本投入報酬率|資本投入報酬率 (ROIC)]]

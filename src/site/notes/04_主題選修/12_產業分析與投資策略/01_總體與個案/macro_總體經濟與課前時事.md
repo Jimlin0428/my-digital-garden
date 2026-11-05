@@ -150,7 +150,7 @@
      $$V_0 = \sum_{t=1}^{n} \frac{\text{CF}_t}{(1 + r)^t}$$
      無風險利率與折現率 $r$ 高懸，直接放大分母，即使[[98_商業概念庫/enterprise_企業\|enterprise_企業]]獲利不變，整體資產估值乘數（P/E 或 EV/EBITDA）亦遭到系統性壓縮。
   2. **重資產產業[[98_商業概念庫/capital-expenditure_資本支出\|capital-zhi-chu_資本支出]]（CapEx）受到強烈壓抑**：
-     借貸與發債融資成本激增，直接拉高加權平均資本成本（WACC），導致大量專案預期報酬率無法跨越門檻收益率（$\text{Hurdle Rate} = \text{WACC} + lpha$），半導體、航運與基礎建設等資本密集產業擴產意願明顯趨於保守。
+     借貸與發債融資成本激增，直接拉高加權平均資本成本（WACC），導致大量專案預期報酬率無法跨越門檻收益率（$\text{Hurdle Rate} = \text{WACC} + lpha$），半導體、航運與基礎建設等資本密集產業擴產意願明顯趨於保守。
 - **高階經理人策略啟發**：
   - 嚴格控制[[98_商業概念庫/liability-ratio_負債比率\|liability-bi-rate_負債比率]]，避免在高利率週期進行高槓桿財務擴張；
   - [[98_商業概念庫/capital-budgeting_資本預算\|capital-yu-suan_資本預算]]審核應以「現金流自體造血能力」為核心，優先保留[[98_商業概念庫/liquidity_流動性\|liu-dong-xing_流動性]]儲備。

@@ -63,33 +63,33 @@ flowchart TD
 ```
 
 ### 1. 靜態槓桿指標（結構性槓桿 / 存量指標）
-- **負債比率 (Debt Ratio)**：$$	ext{負債比率} = rac{	ext{總負債 (Total Debt)}}{	ext{總資產 (Total Assets)}}$$
-- **負債權益比 (Debt-to-Equity Ratio, D/E)**：$$	ext{D/E 比率} = rac{	ext{有息負債 } D}{	ext{股東權益 } E}$$
+- **負債比率 (Debt Ratio)**：$$	ext{負債比率} = rac{	ext{總負債 (Total Debt)}}{	ext{總資產 (Total Assets)}}$$
+- **負債權益比 (Debt-to-Equity Ratio, D/E)**：$$	ext{D/E 比率} = rac{	ext{有息負債 } D}{	ext{股東權益 } E}$$
 - **權益乘數 (Equity Multiplier, EM)**：
-  $$	ext{權益乘數 (EM)} = rac{	ext{總資產 } A}{	ext{股東權益 } E} = 1 + rac{D}{E}$$
+  $$	ext{權益乘數 (EM)} = rac{	ext{總資產 } A}{	ext{股東權益 } E} = 1 + rac{D}{E}$$
   在[[dupont-analysis_杜邦分析法|杜邦分析法]]中，$	ext{ROE} = 	ext{淨利率} 	imes 	ext{總資產週轉率} 	imes 	ext{權益乘數}$，權益乘數直接反映了資產負債表右側的靜態槓桿倍數。
 
 ### 2. 動態彈性指標：財務槓桿度 (Degree of Financial Leverage, DFL)
 - **彈性定義式（變動率視角）**：
-  $$	ext{DFL} = rac{\% \Delta 	ext{EPS}}{\% \Delta 	ext{EBIT}} = rac{\Delta 	ext{EPS} / 	ext{EPS}}{\Delta 	ext{EBIT} / 	ext{EBIT}}$$
+  $$	ext{DFL} = rac{\% \Delta 	ext{EPS}}{\% \Delta 	ext{EBIT}} = rac{\Delta 	ext{EPS} / 	ext{EPS}}{\Delta 	ext{EBIT} / 	ext{EBIT}}$$
 - **點位公式推導（含所得稅率 $T_c$ 與特別股股利 $D_p$）**：
   設普通股發行在外股數為 $S$，固定利息費用為 $I$，特別股股利為 $D_p$：
-  $$	ext{EPS} = rac{(	ext{EBIT} - I)(1 - T_c) - D_p}{S}$$
-  $$\Delta 	ext{EPS} = rac{\Delta 	ext{EBIT}(1 - T_c)}{S}$$
+  $$	ext{EPS} = rac{(	ext{EBIT} - I)(1 - T_c) - D_p}{S}$$
+  $$\Delta 	ext{EPS} = rac{\Delta 	ext{EBIT}(1 - T_c)}{S}$$
   代入定義式推導可得：
-  $$	ext{DFL} = rac{rac{\Delta 	ext{EBIT}(1 - T_c)}{S}}{rac{(	ext{EBIT} - I)(1 - T_c) - D_p}{S}} \div rac{\Delta 	ext{EBIT}}{	ext{EBIT}}$$
-  $$	ext{DFL} = rac{	ext{EBIT}}{	ext{EBIT} - I - rac{D_p}{1 - T_c}}$$
+  $$	ext{DFL} = rac{rac{\Delta 	ext{EBIT}(1 - T_c)}{S}}{rac{(	ext{EBIT} - I)(1 - T_c) - D_p}{S}} \div rac{\Delta 	ext{EBIT}}{	ext{EBIT}}$$
+  $$	ext{DFL} = rac{	ext{EBIT}}{	ext{EBIT} - I - rac{D_p}{1 - T_c}}$$
   - **無特別股情境之標準簡化式**：
-    $$	ext{DFL} = rac{	ext{EBIT}}{	ext{EBIT} - I} = rac{	ext{息稅前利潤}}{	ext{稅前利潤 (EBT)}} = 1 + rac{I}{	ext{EBT}}$$
+    $$	ext{DFL} = rac{	ext{EBIT}}{	ext{EBIT} - I} = rac{	ext{息稅前利潤}}{	ext{稅前利潤 (EBT)}} = 1 + rac{I}{	ext{EBT}}$$
   - **數理核心定理**：
     1. 若企業為純權益無負債經營（$I = 0$ 且 $D_p = 0$），則 **$	ext{DFL} = 1$**。EBIT 增長 10%，EPS 嚴格等比例增長 10%，無財務槓桿。
     2. 只要承擔固定利息支出（$I > 0$）且獲利足以付息（$	ext{EBIT} > I$），必有 **$	ext{DFL} > 1$**。
     3. **利息負擔 $I$ 佔比越高（或 EBIT 越接近 $I$），$	ext{DFL} 	o \infty$**，財務脆弱度達到極限。
 
-### 3. 雙槓桿聯立：總槓桿度 ([[DTL_總槓桿|DTL / DCL]])
+### 3. 雙槓桿聯立：總槓桿度 ([[degree-of-total-leverage-dtl_總槓桿|DTL / DCL]])
 結合 [[DOL_營運槓桿|營運槓桿 (DOL)]] 與財務槓桿 (DFL)：
-$$	ext{總槓桿度 (DCL)} = 	ext{DOL} 	imes 	ext{DFL} = rac{\% \Delta 	ext{EBIT}}{\% \Delta Q} 	imes rac{\% \Delta 	ext{EPS}}{\% \Delta 	ext{EBIT}} = rac{\% \Delta 	ext{EPS}}{\% \Delta Q}$$
-$$	ext{DCL} = rac{Q(P - V)}{Q(P - V) - FC - I - rac{D_p}{1 - T_c}} = rac{	ext{邊際貢獻 (CM)}}{	ext{稅前利潤 (EBT)}}$$
+$$	ext{總槓桿度 (DCL)} = 	ext{DOL} 	imes 	ext{DFL} = rac{\% \Delta 	ext{EBIT}}{\% \Delta Q} 	imes rac{\% \Delta 	ext{EPS}}{\% \Delta 	ext{EBIT}} = rac{\% \Delta 	ext{EPS}}{\% \Delta Q}$$
+$$	ext{DCL} = rac{Q(P - V)}{Q(P - V) - FC - I - rac{D_p}{1 - T_c}} = rac{	ext{邊際貢獻 (CM)}}{	ext{稅前利潤 (EBT)}}$$
 
 ---
 
@@ -99,11 +99,11 @@ $$	ext{DCL} = rac{Q(P - V)}{Q(P - V) - FC - I - rac{D_p}{1 - T_c}} = rac{	ext
 
 ### 1. 數理平衡模型
 設方案一為純普通股增資（利息 $I_1 = 0$，股數 $S_U$），方案二為舉債融資（新增年利息 $I$，股數維持 $S_L$）：
-$$rac{(	ext{EBIT}^* - I_1)(1 - T_c)}{S_U} = rac{(	ext{EBIT}^* - I_2)(1 - T_c)}{S_L}$$
+$$rac{(	ext{EBIT}^* - I_1)(1 - T_c)}{S_U} = rac{(	ext{EBIT}^* - I_2)(1 - T_c)}{S_L}$$
 消去所得稅項 $(1 - T_c)$ 並交叉相乘推導：
 $$	ext{EBIT}^* \cdot S_L = (	ext{EBIT}^* - I) \cdot S_U$$
 $$	ext{EBIT}^* (S_U - S_L) = I \cdot S_U$$
-$$	ext{EBIT}^* = rac{I \cdot S_U}{S_U - S_L}$$
+$$	ext{EBIT}^* = rac{I \cdot S_U}{S_U - S_L}$$
 
 ### 2. 經理人決策矩陣與準則
 
@@ -142,13 +142,13 @@ $$	ext{EBIT}^* = rac{I \cdot S_U}{S_U - S_L}$$
   $$V_L = V_U$$
 - **自製槓桿機制（Homemade Leverage）**：個人投資人可透過個人借貸融通複製或消除企業的槓桿，無套利均衡使企業無法藉由調整資本結構創造額外價值。
 - **MM 第二命題（權益成本代價）**：舉債雖然看似便宜（$r_d < r_e$），但舉債增加的財務風險會導致股東要求的股權報酬率 $r_e$ 線性上升：
-  $$r_e = r_0 + rac{D}{E}(r_0 - r_d)$$
+  $$r_e = r_0 + rac{D}{E}(r_0 - r_d)$$
   股權成本上升的幅度，恰好 $100\%$ 抵消低息負債的成本優勢，使得加權平均資本成本 [[wacc_加權平均資本成本|WACC]] 保持恆定不變。
 
 ### 2. MM 修正定理（1963 引入公司所得稅）
 - **利息稅盾效應 (Interest Tax Shield)**：負債利息可在計算所得稅前全額扣除，政府實質對負債融資提供了租稅補貼。企業總價值隨負債增加而單調遞增：
   $$V_L = V_U + T_c D$$
-  $$	ext{WACC} = r_0 \left[ 1 - T_c rac{D}{V} 
+  $$	ext{WACC} = r_0 \left[ 1 - T_c rac{D}{V} 
 ight]$$
 - **極端理論推論**：在僅考慮公司所得稅下，企業應 100% 舉債營運以最大化企業價值。
 
@@ -171,7 +171,7 @@ ight]$$
 
 ### 1. 利息保障倍數（TIE）之硬約束與防禦底線
 - **利息保障倍數 (Times Interest Earned, TIE)**：
-  $$	ext{TIE} = rac{	ext{息稅前利潤 (EBIT)}}{	ext{利息費用 (Interest)}} = rac{1}{1 - rac{1}{	ext{DFL}}}$$
+  $$	ext{TIE} = rac{	ext{息稅前利潤 (EBIT)}}{	ext{利息費用 (Interest)}} = rac{1}{1 - rac{1}{	ext{DFL}}}$$
 - **決策安全邊際**：經理人絕不可將財務槓桿推至極限（當 $	ext{TIE} 	o 1.0$ 時，$	ext{DFL} 	o \infty$）。健康運營之企業應將 TIE 維持在 **$3.0 \sim 5.0$ 倍以上**；景氣循環型產業更需保留更高緩衝，以防景氣寒冬 EBIT 驟降時違約暴雷。
 
 ### 2. 與營運槓桿 (DOL) 的風險對沖配對原則
@@ -196,7 +196,7 @@ ight]$$
   - [[01_基礎先修/01_財務報表分析/Ch06_長期償債能力分析|Ch06 長期償債能力分析]]（負債比率、利息保障倍數、財務槓桿指數評估）
   - [[01_基礎先修/01_財務報表分析/Ch07_獲利能力分析|Ch07 獲利能力分析]]（財務槓桿對 ROE 擴張效應與獲利含金量檢驗）
 - 🔗 **核心概念原子卡片**：
-  - [[DOL_營運槓桿|營運槓桿度 (DOL)]] ｜ [[DTL_總槓桿|總槓桿度 (DTL / DCL)]]
+  - [[DOL_營運槓桿|營運槓桿度 (DOL)]] ｜ [[degree-of-total-leverage-dtl_總槓桿|總槓桿度 (DTL / DCL)]]
   - [[wacc_加權平均資本成本|加權平均資本成本 (WACC)]]
   - [[dupont-analysis_杜邦分析法|杜邦分析法 (DuPont Analysis)]]
   - [[BEP_三大損益兩平點分析 Breakeven Analysis|三大損益兩平點分析 (BEP)]]

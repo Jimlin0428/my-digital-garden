@@ -1,7 +1,6 @@
 ---
-{"dg-publish":true,"permalink":"/98/dtl-matrix/","tags":["商業概念","財務管理","風險矩陣","資本結構","PMBA"],"dg-note-properties":{"aliases":["DTL","總槓桿度","綜合槓桿度","雙槓桿矩陣","Degree of Total Leverage"],"tags":["商業概念","財務管理","風險矩陣","資本結構","PMBA"]}}
+{"dg-publish":true,"permalink":"/98/dtl-matrix/","tags":["商業概念","財務管理","風險矩陣","資本結構","PMBA"],"dg-note-properties":{"aliases":["DTL","總槓桿度","綜合槓桿度","雙槓桿矩陣","Degree of Total Leverage","DTL_總槓桿度與新創雙槓桿矩陣","總槓桿度與新創雙槓桿矩陣"],"tags":["商業概念","財務管理","風險矩陣","資本結構","PMBA"]}}
 ---
-
 
 # 總槓桿度與新創雙槓桿矩陣 (Degree of Total Leverage, DTL)
 
@@ -51,4 +50,4 @@ $$\text{DTL} = \frac{Q(P - V)}{Q(P - V) - FC - I}$$
 
 ## 四、 關聯筆記與概念地圖
 - **核心關聯模組**：[[M2-5_創業投資與私募股權運作機制]] ｜ [[M1-2_白板決策鏈與財務價值三角]] ｜ [[M2-4_新創財務預測與外部融資需求模型]]
-- **概念地圖對接**：[[BEP_三大損益兩平點分析 Breakeven Analysis]] ｜ [[capital-pool_資金池與備用週轉金模型|Capital_Pool_資金池與備用週轉金模型]] ｜ [[real-options_實質選擇權]]
+- **概念地圖對接**：[[BEP_三大損益兩平點分析 Breakeven Analysis]] ｜ [[capital-pool_資金池與備用週轉金模型|Capital_Pool_資金池與備用週轉金模型]] ｜ [[real-options_實質選擇權|實質選擇權估值模型]]

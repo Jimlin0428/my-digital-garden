@@ -79,7 +79,7 @@
 ##### 🔹 模組二：產業內與產業間分析 (Module 2, Inter-Industry Analysis)
 - 📑 **M2-1 產業垂直價值體系**：[[04_主題選修/12_產業分析與投資策略/99_歷史舊版備份/M2-1_產業垂直價值體系\|M2-1_產業垂直價值體系]] (內部價值鏈延伸至跨產業垂直價值體系、微笑曲線 Smile Curve 利潤池分佈、自製 Make vs 外購 Buy、交易成本理論 TCE 資產專屬性應用)
 - 📑 **M2-2 產業聚落與地理生態**：[[04_主題選修/12_產業分析與投資策略/02_模組筆記/Module_2_產業內與產業間分析/M2-2_產業聚落與地理生態\|M2-2_產業聚落與地理生態]] (波特鑽石模型四大關鍵要素、新竹科學園區與台灣高科技聚落綜效、地理鄰近性與隱性知識外溢)
-- 📑 **M2-3 價值網分析與競合戰略**：[[04_主題選修/12_產業分析與投資策略/99_歷史舊版備份/M2-3_產業價值網與競合分析\|M2-3_產業價值網與競合分析]] (Brandenburger 價值網 Value Net 架構、互補品 Complementors 的正和博弈、PARTS 賽局戰略架構實務)
+- 📑 **M2-3 產業價值網與競合分析**：[[04_主題選修/12_產業分析與投資策略/99_歷史舊版備份/M2-3_產業價值網與競合分析\|M2-3_產業價值網與競合分析]] (Brandenburger 價值網 Value Net 架構、互補品 Complementors 的正和博弈、PARTS 賽局戰略架構實務)
 
 ##### 🔹 模組三至五：進階模組與期末整合 (Modules 3 ~ 5 規劃導航)
 - 📑 **模組三：產業演化與動態轉型**：[[04_主題選修/12_產業分析與投資策略/99_歷史舊版備份/M3-1_產業生命週期與技術S曲線\|M3-1 產業生命週期與技術 S 曲線]] ｜ [[04_主題選修/12_產業分析與投資策略/03_產業演化與動態轉型/M3-2_破壞式創新與雙軌轉型\|M3-2 破壞式創新與雙軌轉型]]
@@ -94,7 +94,7 @@
 > 商業概念庫收錄 700+ 份標準原子化卡片，以下為兩門選修課程高頻穿透引用之經典理論與模型索引（均已嚴格核對實體檔名）：
 
 - ⚙️ **戰略分析與競爭結構**：
-  - [[98_商業概念庫/PESTEL分析\|PESTEL 分析 (PESTEL Framework)]] ｜ [[98_商業概念庫/Porter's Five Forces Analysis_波特五力分析\|波特五力分析 (Porter's Five Forces)]] ｜ [[98_商業概念庫/competitive-matrix_競爭矩陣\|競爭矩陣 (Competitive Matrix)]] ｜ [[98_商業概念庫/key-success-factors-ksf_關鍵成功因素\|關鍵成功因素 (KSF)]] ｜ [[98_商業概念庫/strategic-planning_策略規劃\|策略規劃 (Strategic Planning)]] ｜ [[98_商業概念庫/business-ecosystem_商業生態系\|商業生態系 (Business Ecosystem)]] ｜ [[98_商業概念庫/platform-envelopment_平台包夾\|平台包夾 (Platform Envelopment)]] ｜ [[98_商業概念庫/two-sided-market_雙邊市場\|雙邊市場 (Two-Sided Market)]] ｜ [[98_商業概念庫/BCG_Matrix_波士頓矩陣與動態現金流\|波士頓矩陣 (BCG Matrix)]] ｜ [[98_商業概念庫/GE_McKinsey_Matrix_通用奇異矩陣\|通用奇異矩陣 (GE-McKinsey Matrix)]] ｜ [[98_商業概念庫/TAM\|總體潛在市場 (TAM)]] ｜ [[98_商業概念庫/SAM\|可服務市場 (SAM)]] ｜ [[98_商業概念庫/SOM\|可獲取市場 (SOM)]]
+  - [[98_商業概念庫/PESTEL分析\|PESTEL 分析 (PESTEL Framework)]] ｜ [[98_商業概念庫/Porter's Five Forces Analysis_波特五力分析\|波特五力分析 (Porter's Five Forces)]] ｜ [[98_商業概念庫/Firm_Value_Chain_企業價值鏈\|企業價值鏈 (Firm Value Chain)]] ｜ [[98_商業概念庫/value-system_產業價值體系\|產業價值體系 (Value System)]] ｜ [[98_商業概念庫/Smile_Curve_微笑曲線\|微笑曲線 (Smile Curve)]] ｜ [[98_商業概念庫/value-chokepoint_價值咽喉\|價值咽喉 (Value Chokepoint)]] ｜ [[98_商業概念庫/competitive-matrix_競爭矩陣\|競爭矩陣 (Competitive Matrix)]] ｜ [[98_商業概念庫/key-success-factors-ksf_關鍵成功因素\|關鍵成功因素 (KSF)]] ｜ [[98_商業概念庫/strategic-planning_策略規劃\|策略規劃 (Strategic Planning)]] ｜ [[98_商業概念庫/business-ecosystem_商業生態系\|商業生態系 (Business Ecosystem)]] ｜ [[98_商業概念庫/platform-envelopment_平台包夾\|平台包夾 (Platform Envelopment)]] ｜ [[98_商業概念庫/two-sided-market_雙邊市場\|雙邊市場 (Two-Sided Market)]] ｜ [[98_商業概念庫/BCG_Matrix_波士頓矩陣與動態現金流\|波士頓矩陣 (BCG Matrix)]] ｜ [[98_商業概念庫/GE_McKinsey_Matrix_通用奇異矩陣\|通用奇異矩陣 (GE-McKinsey Matrix)]] ｜ [[98_商業概念庫/TAM\|總體潛在市場 (TAM)]] ｜ [[98_商業概念庫/SAM\|可服務市場 (SAM)]] ｜ [[98_商業概念庫/SOM\|可獲取市場 (SOM)]]
 
 - 🚀 **創業創新與行銷管理**：
   - [[98_商業概念庫/Entrepreneurial_Marketing_創業行銷\|創業行銷 (Entrepreneurial Marketing)]] ｜ [[98_商業概念庫/Omnihouse_全能屋模型 Omnihouse Model\|全能屋模型 (Omnihouse Model)]] ｜ [[98_商業概念庫/Marketing_Creativity_行銷創意生產力\|行銷創意生產力 (Marketing Creativity)]] ｜ [[98_商業概念庫/brand-equity_品牌權益\|品牌權益 (Brand Equity)]] ｜ [[98_商業概念庫/stay-at-home-economy_宅經濟\|宅經濟 (Stay-at-Home Economy)]] ｜ [[98_商業概念庫/cap-table_股權結構表 Cap Table\|股權結構表 (Cap Table)]] ｜ [[98_商業概念庫/term-sheet_投資意向書 Term Sheet\|投資意向書 (Term Sheet)]]

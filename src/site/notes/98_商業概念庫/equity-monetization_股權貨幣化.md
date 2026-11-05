@@ -1,7 +1,6 @@
 ---
-{"dg-publish":true,"permalink":"/98/equity-monetization/","tags":["商業概念","創投資本","資本市場","併購戰略","PMBA"],"dg-note-properties":{"aliases":["股權貨幣化","股票貨幣化","Equity Monetization","ADR 跨境上市"],"tags":["商業概念","創投資本","資本市場","併購戰略","PMBA"]}}
+{"dg-publish":true,"permalink":"/98/equity-monetization/","tags":["商業概念","創投資本","資本市場","併購戰略","PMBA"],"dg-note-properties":{"aliases":["股權貨幣化","股票貨幣化","Equity Monetization","ADR 跨境上市","Equity_Monetization_股權貨幣化 Equity Monetization","股權貨幣化 Equity Monetization"],"tags":["商業概念","創投資本","資本市場","併購戰略","PMBA"]}}
 ---
-
 
 # 股權貨幣化 (Equity Monetization)
 

@@ -1,7 +1,6 @@
 ---
-{"dg-publish":true,"permalink":"/98/niche-theory/","tags":["商業概念","組織生態學","產業演化","PMBA"],"dg-note-properties":{"aliases":["組織生態學利基理論","利基理論","負載能量","Niche Theory","Carrying Capacity"],"tags":["商業概念","組織生態學","產業演化","PMBA"],"類別":"商業概念庫"}}
+{"dg-publish":true,"permalink":"/98/niche-theory/","tags":["商業概念","組織生態學","產業演化","PMBA"],"dg-note-properties":{"aliases":["組織生態學利基理論","利基理論","負載能量","Niche Theory","Carrying Capacity","Niche_Theory_組織生態學利基理論"],"tags":["商業概念","組織生態學","產業演化","PMBA"],"類別":"商業概念庫"}}
 ---
-
 
 # 組織生態學利基理論 (Niche Theory in Organizational Ecology)
 

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/05-ai/10-ai-x/01-ai/case-agent/","tags":["案例研究","MultiAgent","企業落地","自動化流程"],"dg-note-properties":{"類別":"實務案例","課程名稱":"[[05_AI選修/10_AiX/_AiX MOC|AiX 課程總覽]]","案例編號":"Case-01","主題":"企業級 Multi-Agent 自動化工作流程落地解析 (Enterprise Multi-Agent Workflow Implementation)","對應模組":"Module 1","對應章節":[["M1-3_AI Agent自主代理與多代理協作系統"]],"狀態":"🟢 已完成","tags":["案例研究","MultiAgent","企業落地","自動化流程"]}}
+{"dg-publish":true,"permalink":"/05-ai/10-ai-x/01-ai/case-agent/","tags":["案例研究","MultiAgent","企業落地","自動化流程"],"dg-note-properties":{"類別":"實務案例","課程名稱":"[[05_AI選修/10_AiX/_AiX MOC|AiX 課程總覽]]","案例編號":"Case-01","主題":"企業級 Multi-Agent 自動化工作流程落地解析 (Enterprise Multi-Agent Workflow Implementation)","對應模組":"Module 1","對應章節":[["2_以 OpenClaw 為例介紹 AI Agent 的運作原理|M1-3_AI Agent自主代理與多代理協作系統"]],"狀態":"🟢 已完成","tags":["案例研究","MultiAgent","企業落地","自動化流程"]}}
 ---
 
 
@@ -7,8 +7,8 @@
 
 > [!abstract] 導讀與對接
 > - **上級地圖**：[[05_AI選修/10_AiX/_AiX MOC\|_AiX MOC]]
-> - **關聯筆記**：[[M1-3_AI Agent自主代理與多代理協作系統\|M1-3_AI Agent自主代理與多代理協作系統]]
-> - **核心概念**：[[AI_Agent_自主代理架構與運作機制\|AI_Agent_自主代理架構與運作機制]]、[[98_商業概念庫/Agentic_Workflow_自主代理工作流\|Agentic_Workflow_自主代理工作流]]
+> - **關聯筆記**：[[05_AI選修/10_AiX/02_模組筆記/Module_02_生成式AI原理與代理架構/2_以 OpenClaw 為例介紹 AI Agent 的運作原理\|M1-3_AI Agent自主代理與多代理協作系統]]
+> - **核心概念**：[[98_商業概念庫/ai-agent_自主代理架構與運作機制\|AI_Agent_自主代理架構與運作機制]]、[[98_商業概念庫/Agentic_Workflow_自主代理工作流\|Agentic_Workflow_自主代理工作流]]
 
 ---
 
