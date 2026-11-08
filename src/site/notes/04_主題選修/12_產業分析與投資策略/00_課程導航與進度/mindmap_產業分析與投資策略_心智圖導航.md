@@ -121,7 +121,7 @@
 - [[M3-1_產業生命週期與技術S曲線|產品與產業生命週期 (PLC) (W07)]]
   - 生命週期四階段：[[introduction-stage_導入期|dao-ru-qi_導入期]] (萌芽) ｜ [[growth-stage_成長期|cheng-zhang-qi_成長期]] (擴張) ｜ [[maturity-stage_成熟期|cheng-shu-qi_成熟期]] (整併) ｜ [[decline-stage_衰退期|shuai-tui-qi_衰退期]] (萎縮)
   - 技術演化 S 曲線：技術效能突破點 ｜ 主導設計確立 (Dominant Design) ｜ 舊技術天花板
-- [[M3-2_破壞式創新與雙軌轉型|產業發展與轉型 (W09)]]
+- [[M3-2_產業發展轉型戰略與全球化動態|產業發展與轉型 (W09)]]
   - Christensen 破壞式[[innovation_創新]] (Disruptive Innovation)：低階破壞 (Low-end) vs 新市場破壞 (New-market)
   - [[innovation_創新]]者的兩難 (Innovator's Dilemma)：既有巨頭為何忽視利基破壞者
   - 成熟[[enterprise_企業]]雙軌轉型 (Dual Transformation)：A軌 (核心本業優化) ＋ B軌 (第二成長曲線[[innovation_創新]])
