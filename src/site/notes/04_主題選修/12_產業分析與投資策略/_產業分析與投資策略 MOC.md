@@ -45,7 +45,7 @@
 
 ### 模組三：產業演化與動態轉型 (Evolution & Dynamic Transformation)
 - [[04_主題選修/12_產業分析與投資策略/99_歷史舊版備份/M3-1_產業生命週期與技術S曲線\|M3-1 產業生命週期與技術S曲線]]：產品生命週期 PLC 四階段特徵、安索夫/BCG 動態配置、市場空間三大重組形態、策略群組演化與移動障礙、性能過剩與產業雙螺旋模型 (Double Helix)
-- [[04_主題選修/12_產業分析與投資策略/03_產業演化與動態轉型/M3-2_破壞式創新與雙軌轉型\|M3-2 破壞式創新與雙軌轉型]]：低階破壞 vs. 新市場破壞、雙軌轉型模式 A/B
+- [[04_主題選修/12_產業分析與投資策略/02_模組筆記/Module_3_產業演化與動態轉型/M3-2_產業發展轉型戰略與全球化動態\|M3-2 產業發展轉型戰略與全球化動態]]：產業結構實力八要素、波特鑽石模型內生化 (政府與機會)、產業聚落立體維度 (垂直/水平/人才庫)、Prahalad & Doz 跨國經營 IR Grid (四大象限)、三階段利潤週期 (流入/穩定/流出)、微笑曲線重構與雙軌轉型戰略 (A/B軌道)
 
 ### 模組四：產業投資策略與實務 (Investment Strategies & Valuation)
 - [[04_主題選修/12_產業分析與投資策略/04_產業投資策略與實務/M4-1_產業評價與估值基石\|M4-1 產業評價與估值基石]]：乘數估值法（P/E, P/B, EV/EBITDA）、DCF 現金流折現
@@ -61,6 +61,9 @@
 ---
 
 ## 💎 推薦關聯之 [[98_商業概念庫\|98_商業概念庫]] 原子卡片
+- [[98_商業概念庫/Diamond_Model_Government_Chance_鑽石模型政府與機會變數\|Diamond_Model_Government_Chance_鑽石模型政府與機會變數]] · [[98_商業概念庫/IR_Grid_Integration_Responsiveness_全球整合與在地回應模型\|IR_Grid_Integration_Responsiveness_全球整合與在地回應模型]] · [[98_商業概念庫/Divided_Government_Effect_分立政府制衡效應與財政政策\|Divided_Government_Effect_分立政府制衡效應與財政政策]]
+- [[98_商業概念庫/Industry_Transformation_Profit_Cycle_產業轉型三階段利潤週期\|Industry_Transformation_Profit_Cycle_產業轉型三階段利潤週期]] · [[98_商業概念庫/Industry_Structure_Strength_產業結構實力八要素\|Industry_Structure_Strength_產業結構實力八要素]] · [[98_商業概念庫/Vertical_Horizontal_Clustering_垂直與水平產業聚落理論\|Vertical_Horizontal_Clustering_垂直與水平產業聚落理論]]
+- [[98_商業概念庫/Sports_Entertainment_Ecosystem_運動娛樂商業生態系模型\|Sports_Entertainment_Ecosystem_運動娛樂商業生態系模型]] · [[98_商業概念庫/Institutional_Approval_Risk_州長水電審批權與地緣投資風險\|Institutional_Approval_Risk_州長水電審批權與地緣投資風險]]
 
 - [[98_商業概念庫/Porter's Five Forces Analysis_波特五力分析\|Porter's Five Forces Analysis_波特五力分析]] · [[98_商業概念庫/market-structure_市場結構\|market-structure_市場結構]] · [[98_商業概念庫/competitive-advantage_競爭優勢\|competitive-advantage_競爭優勢]]
 - [[98_商業概念庫/economic-moat_經濟護城河\|economic-moat_經濟護城河]] · [[98_商業概念庫/value-chain_價值鏈\|value-chain_價值鏈]] · [[98_商業概念庫/SWOT分析\|SWOT分析]] · [[98_商業概念庫/BCG矩陣\|BCG矩陣]]
