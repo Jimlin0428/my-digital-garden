@@ -27,9 +27,9 @@
 
 ```mermaid
 flowchart TD
-    classDef gain fill:#e8f5e9,stroke:#2e7d32,stroke-width:2px;
-    classDef loss fill:#ffebee,stroke:#c62828,stroke-width:2px;
-    classDef base fill:#f5f5f5,stroke:#424242,stroke-width:2px;
+    classDef base fill:#0f172a,stroke:#94a3b8,stroke-width:2px,color:#ffffff;
+    classDef gain fill:#143823,stroke:#4ade80,stroke-width:2px,color:#ffffff;
+    classDef loss fill:#5c1d24,stroke:#f87171,stroke-width:2px,color:#ffffff;
 
     Problem["【情境】：亞洲疾病爆發，預計將有 600 人死亡"]:::base
 
@@ -108,9 +108,9 @@ flowchart TD
 
 ```mermaid
 flowchart TD
-    classDef t1 fill:#e3f2fd,stroke:#1565c0,stroke-width:2px;
-    classDef t2 fill:#f3e5f5,stroke:#7b1fa2,stroke-width:2px;
-    classDef t3 fill:#fff3e0,stroke:#e65100,stroke-width:2px;
+    classDef t1 fill:#1e3a5f,stroke:#60a5fa,stroke-width:2px,color:#ffffff;
+    classDef t2 fill:#3b1d54,stroke:#c084fc,stroke-width:2px,color:#ffffff;
+    classDef t3 fill:#422006,stroke:#fb923c,stroke-width:2px,color:#ffffff;
 
     Root["框架效應三大分類 (Framing Typology)"]
     
