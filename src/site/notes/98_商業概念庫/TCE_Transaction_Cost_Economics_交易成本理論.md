@@ -2,6 +2,7 @@
 {"dg-publish":true,"permalink":"/98/tce-transaction-cost-economics/","tags":["商業概念","經濟學","產業分析","組織理論","策略管理","供應鏈管理","垂直整合","PMBA"],"dg-note-properties":{"aliases":["交易成本理論","交易成本經濟學","TCE","Transaction Cost Economics","TCE 交易成本理論","tce-transaction-cost-economics_交易成本理論","交易成本","Transaction Costs","科斯定理","Coase Theorem","企業本質理論","Theory of the Firm"],"tags":["商業概念","經濟學","產業分析","組織理論","策略管理","供應鏈管理","垂直整合","PMBA"]}}
 ---
 
+
 # 交易成本理論 (Transaction Cost Economics, TCE / 交易成本經濟學)
 
 > **商管核心價值**：  
@@ -294,29 +295,29 @@ graph LR
 ## 八、 PMBA 模組講義與知識網絡鏈結
 
 ### 8.1 官方課程與模組雙向反向鏈結
-- [[02_核心必修/04_策略管理/02_模組筆記/Module_3_產業型態與垂直整合/M3-2_本業發展與垂直整合策略|M3-2 本業發展與垂直整合策略]]：
+- [[02_核心必修/04_策略管理/02_模組筆記/Module_3_產業型態與垂直整合/M3-2_本業發展與垂直整合策略\|M3-2 本業發展與垂直整合策略]]：
   - 垂直整合四階段決策架構：資產專屬性、敲竹槓問題、雙邊獨占與扣押人質機制。
-- [[02_核心必修/04_策略管理/02_模組筆記/Module_3_產業型態與垂直整合/M3-3_可口可樂北美重組與再特許經營策略|M3-3 可口可樂北美重組與再特許經營策略]]：
+- [[02_核心必修/04_策略管理/02_模組筆記/Module_3_產業型態與垂直整合/M3-3_可口可樂北美重組與再特許經營策略\|M3-3 可口可樂北美重組與再特許經營策略]]：
   - 可口可樂北美裝瓶商重整與再特許經營：市場失靈修復、機率訂價與資產輕量化。
-- [[04_主題選修/12_產業分析與投資策略/02_模組筆記/Module_1_總論與架構/M1-3_產業獲利結構差異與十大經典理論|M1-3 產業獲利結構差異與十大經典理論]]：
+- [[04_主題選修/12_產業分析與投資策略/02_模組筆記/Module_1_總論與架構/M1-3_產業獲利結構差異與十大經典理論\|M1-3 產業獲利結構差異與十大經典理論]]：
   - 十大經典理論之第 2 大支柱：深入解析 TCE 如何作為「自製 vs 外購」的底層決策工具，並以台積電關鍵設備策略聯盟為實證。
-- [[04_主題選修/12_產業分析與投資策略/02_模組筆記/Module_1_總論與架構/M1-6_產業分析模式與九大分析工具矩陣|M1-6 產業分析模式與九大分析工具矩陣]]：
+- [[04_主題選修/12_產業分析與投資策略/02_模組筆記/Module_1_總論與架構/M1-6_產業分析模式與九大分析工具矩陣\|M1-6 產業分析模式與九大分析工具矩陣]]：
   - 模式九「企業邊界與生態系邊界分析」：評估產業鏈上下游垂直整合的必要性。
-- [[04_主題選修/10_創業與企業財務策略/02_模組筆記/Module_1_創新思維與商業模式/M1-9_商業模式畫布架構與價值主張設計|M1-9 商業模式畫布架構與價值主張設計]]：
+- [[04_主題選修/10_創業與企業財務策略/02_模組筆記/Module_1_創新思維與商業模式/M1-9_商業模式畫布架構與價值主張設計\|M1-9 商業模式畫布架構與價值主張設計]]：
   - 商業模式畫布之「關鍵合作夥伴（Key Partners）」：以策略聯盟降本避險，避免過早重資產自製引發的財務僵化。
-- [[04_主題選修/10_創業與企業財務策略/02_模組筆記/Module_1_創新思維與商業模式/M1-10_七大市場力量與商業戰略價值公式|M1-10 七大市場力量與商業戰略價值公式]]：
+- [[04_主題選修/10_創業與企業財務策略/02_模組筆記/Module_1_創新思維與商業模式/M1-10_七大市場力量與商業戰略價值公式\|M1-10 七大市場力量與商業戰略價值公式]]：
   - 「轉換成本（Switching Costs）」與「獨家資源（Cornered Resource）」：資產專屬性正是構建極高轉換成本壁壘的核心驅動力。
 
 ### 8.2 商業概念庫相關卡片
-- [[Asset_Specificity_Hold_up_資產專屬性與套牢問題]]（資產專屬性六大維度與敲竹槓賽局）
-- [[Bilateral_Monopoly_Hostage_Taking_雙邊獨占與相互扣押人質]]（少數議價情境下相互抵押人質治理）
-- [[Refranchising_Strategy_再特許經營與輕資產轉型]]（重資產修復完畢後的出表戰略）
-- [[Virtual_Integration_虛擬整合與資源槓桿]]（以資訊流取代所有權的輕資產整合）
-- [[Corporate_Headquarters_Role_企業總部定位與母體能耐]]（總部協調能力與企業治理邊界）
-- [[Incidence_Pricing_機率訂價與收益共享模式]]（混合治理合約防範機會主義的創新設計）
-- [[value-net_價值網|value-net_價值網]]（供應商與互補者的治理博弈，做大餅與分大餅）
-- [[strategy-coopetition_競合戰略 Coopetition|strategy-coopetition_競合戰略 Coopetition]]（混合治理下的競合共生模式）
-- [[vpc-value-price-cost_價值價格成本分析|vpc-value-price-cost_價值價格成本分析]]（垂直整合對降低成本 $C$ 與保障溢價 $P$ 的影響）
-- [[competitive-advantage_競爭優勢|competitive-advantage_競爭優勢]]（以專屬組織能力打造難以被市場替代的護城河）
-- [[framing-effect_框架效應|framing-effect_框架效應]]（商業外包談判中合約條件的框架鎖定）
-- [[endowment-effect_稟賦效應|endowment-effect_稟賦效應]]（資產專屬性與準租金沉沒所引發的敲竹槓與持有執念）
+- [[98_商業概念庫/Asset_Specificity_Hold_up_資產專屬性與套牢問題\|Asset_Specificity_Hold_up_資產專屬性與套牢問題]]（資產專屬性六大維度與敲竹槓賽局）
+- [[98_商業概念庫/Bilateral_Monopoly_Hostage_Taking_雙邊獨占與相互扣押人質\|Bilateral_Monopoly_Hostage_Taking_雙邊獨占與相互扣押人質]]（少數議價情境下相互抵押人質治理）
+- [[98_商業概念庫/Refranchising_Strategy_再特許經營與輕資產轉型\|Refranchising_Strategy_再特許經營與輕資產轉型]]（重資產修復完畢後的出表戰略）
+- [[98_商業概念庫/Virtual_Integration_虛擬整合與資源槓桿\|Virtual_Integration_虛擬整合與資源槓桿]]（以資訊流取代所有權的輕資產整合）
+- [[98_商業概念庫/Corporate_Headquarters_Role_企業總部定位與母體能耐\|Corporate_Headquarters_Role_企業總部定位與母體能耐]]（總部協調能力與企業治理邊界）
+- [[98_商業概念庫/Incidence_Pricing_機率訂價與收益共享模式\|Incidence_Pricing_機率訂價與收益共享模式]]（混合治理合約防範機會主義的創新設計）
+- [[98_商業概念庫/value-net_價值網\|value-net_價值網]]（供應商與互補者的治理博弈，做大餅與分大餅）
+- [[98_商業概念庫/strategy-coopetition_競合戰略 Coopetition\|strategy-coopetition_競合戰略 Coopetition]]（混合治理下的競合共生模式）
+- [[98_商業概念庫/vpc-value-price-cost_價值價格成本分析\|vpc-value-price-cost_價值價格成本分析]]（垂直整合對降低成本 $C$ 與保障溢價 $P$ 的影響）
+- [[98_商業概念庫/competitive-advantage_競爭優勢\|competitive-advantage_競爭優勢]]（以專屬組織能力打造難以被市場替代的護城河）
+- [[98_商業概念庫/framing-effect_框架效應\|framing-effect_框架效應]]（商業外包談判中合約條件的框架鎖定）
+- [[98_商業概念庫/endowment-effect_稟賦效應\|endowment-effect_稟賦效應]]（資產專屬性與準租金沉沒所引發的敲竹槓與持有執念）
