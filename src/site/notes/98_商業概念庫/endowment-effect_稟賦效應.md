@@ -210,4 +210,4 @@ flowchart LR
 - [[98_商業概念庫/framing-effect_框架效應\|framing-effect_框架效應]]（透過「擁有權框架」操控決策者的心理參考點）
 - [[mental-accounting_心智帳戶\|mental-accounting_心智帳戶]]（不同心智帳戶對資產價值的非理性分類與評估）
 - [[98_商業概念庫/vpc-value-price-cost_價值價格成本分析\|vpc-value-price-cost_價值價格成本分析]]（心理所有權如何放大顧客感知價值 $V$，拉大 $V - P$ 剩餘）
-- [[98_商業概念庫/tce-transaction-cost-economics_交易成本理論\|tce-transaction-cost-economics_交易成本理論]]（資產專屬性與準租金沉沒所引發的敲竹槓與持有執念）
+- [[98_商業概念庫/TCE_Transaction_Cost_Economics_交易成本理論\|TCE_Transaction_Cost_Economics_交易成本理論]]（資產專屬性與準租金沉沒所引發的敲竹槓與持有執念）
