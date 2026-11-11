@@ -159,7 +159,7 @@ flowchart TD
   - [[98_商業概念庫/anti-dilution_反稀釋條款\|反稀釋條款 (Anti-Dilution)]]
   - [[98_商業概念庫/diluted-eps_稀釋後每股盈餘\|稀釋後每股盈餘 (Diluted EPS)]]
   - [[98_商業概念庫/exit-strategy_出場機制 Exit Strategy\|出場機制 (Exit Strategy)]]
-  - [[98_商業概念庫/convertible-corporate-bonds_可轉換公司債\|可轉換公司債 (Convertible Bonds)]]
+  - [[98_商業概念庫/_待改寫草稿庫/convertible-corporate-bonds_可轉換公司債\|可轉換公司債 (Convertible Bonds)]]
   - [[98_商業概念庫/equity-dilution_股權稀釋\|股權稀釋 (Equity Dilution)]]
   - [[98_商業概念庫/financial-structure_財務結構\|財務結構 (Financial Structure)]]
   - [[98_商業概念庫/AFN_外部融資需求模型 Additional Funds Needed\|外部融資需求模型 (AFN)]]

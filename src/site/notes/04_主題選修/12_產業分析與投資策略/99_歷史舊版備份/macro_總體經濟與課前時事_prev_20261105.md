@@ -5,10 +5,10 @@
 # 總體經濟與課前時事
 
 > **知識庫定位**：課前總經動態、全球政經時事與貨幣政策之收納核心底稿。  
-> **商管核心價值**：[[98_商業概念庫/industry-analysis_產業分析\|industry-analysis_產業分析]]是介於總體宏觀 (Macro) 與[[98_商業概念庫/enterprise_企業\|enterprise_企業]]微觀 (Micro) 之間的中層分析 (Meso)。總體利率、通膨與地緣政治是所有產業獲利天花板與資本折現的源頭。  
+> **商管核心價值**：[[98_商業概念庫/industry-analysis_產業分析\|industry-analysis_產業分析]]是介於總體宏觀 (Macro) 與[[98_商業概念庫/_待改寫草稿庫/enterprise_企業\|enterprise_企業]]微觀 (Micro) 之間的中層分析 (Meso)。總體利率、通膨與地緣政治是所有產業獲利天花板與資本折現的源頭。  
 > **關聯看板**：[[04_主題選修/12_產業分析與投資策略/99_歷史舊版備份/progress_📊 課程與筆記進度追蹤\|progress_📊 課程與筆記進度追蹤]] ｜ [[04_主題選修/12_產業分析與投資策略/99_歷史舊版備份/cases_企業與產業案例庫\|企業與產業案例庫]]## 📖 總經時事記錄規範與傳導分析框架
 
-每週課前時事應遵循 **「總經事件 → 傳導路徑 → [[98_商業概念庫/industry-structure_產業結構\|industry-structure_產業結構]]衝擊 → [[98_商業概念庫/capital-market_資本市場\|capital-market_資本市場]]與投資評價」** 之四階因果傳導模型：
+每週課前時事應遵循 **「總經事件 → 傳導路徑 → [[98_商業概念庫/industry-structure_產業結構\|industry-structure_產業結構]]衝擊 → [[98_商業概念庫/_待改寫草稿庫/capital-market_資本市場\|capital-market_資本市場]]與投資評價」** 之四階因果傳導模型：
 
 > ### 💡 總經傳導四層因果鏈 (Macro Transmission Framework)
 > 
@@ -16,12 +16,12 @@
 > └─ 例：Fed FOMC 利率決策、國債發行規模、關稅與地緣政治壁壘
 > 
 > **Step 2. 經濟與金融傳導 (Transmission)**
-> └─ 例：長端公債殖利率走勢、[[98_商業概念庫/enterprise_企業\|enterprise_企業]] WACC [[98_商業概念庫/cost-of-capital_資金成本\|zi-jin-cost_資金成本]]墊高、美元指數波動
+> └─ 例：長端公債殖利率走勢、[[98_商業概念庫/_待改寫草稿庫/enterprise_企業\|enterprise_企業]] WACC [[98_商業概念庫/cost-of-capital_資金成本\|zi-jin-cost_資金成本]]墊高、美元指數波動
 > 
 > **Step 3. 實體產業營運衝擊 (Industry)**
 > └─ 例：高 CapEx 擴產計畫遞延、供應鏈去庫存壓力、產能過剩風險
 > 
-> **Step 4. [[98_商業概念庫/capital-market_資本市場\|capital-market_資本市場]]估值與決策 (Valuation & Strategy)**
+> **Step 4. [[98_商業概念庫/_待改寫草稿庫/capital-market_資本市場\|capital-market_資本市場]]估值與決策 (Valuation & Strategy)**
 > └─ 例：資產折現估值倍數承壓、投資門檻收益率 (Hurdle Rate) 抬升、防禦型資產配置
 
 ---
@@ -40,11 +40,11 @@
 - **對實體產業的結構性衝擊**：
   - [受惠產業（受刺激或利差擴大）]：
   - [受害產業（成本轉嫁困難或[[98_商業概念庫/capital-expenditure_資本支出\|capital-zhi-chu_資本支出]]受抑）]：
-- **對[[98_商業概念庫/capital-market_資本市場\|capital-market_資本市場]]與投資評價的傳導路徑**：
+- **對[[98_商業概念庫/_待改寫草稿庫/capital-market_資本市場\|capital-market_資本市場]]與投資評價的傳導路徑**：
   - [無風險利率與折現率 r 變化對資產估值 (Valuation Compression/Expansion) 的影響]：
   - [企業加權平均資本成本 (WACC) 與專案門檻收益率 (Hurdle Rate) 變化]：
 - **高階經理人與投資人策略啟發 (Actionable Insights)**：
-  - [1. [[98_商業概念庫/enterprise_企業\|enterprise_企業]]資本配置因應（如現金保留、延緩高負債投資）]
+  - [1. [[98_商業概念庫/_待改寫草稿庫/enterprise_企業\|enterprise_企業]]資本配置因應（如現金保留、延緩高負債投資）]
   - [2. 證券投資部位調整（如縮短存續期間、防禦型高股息配置）]
 
 ---
@@ -62,13 +62,13 @@
   - **美國國債增速 vs 名目 GDP 增速**：國債年化增長 7.5% vs 名目 GDP 4.3%（債務增長為 GDP 之 1.7 倍），國債利息年增 7%~8%。
 - **對實體產業的結構性衝擊**：
   - 長端美債出現「買方罷工 (Buyer Strike)」，長天期無風險公債殖利率居高不下。
-  - 重資產基礎設施型產業（高 CapEx ＋ 高負債比）之融資借貸成本劇增，新增[[98_商業概念庫/capacity-expansion_產能擴張\|chan-neng-kuo-zhang_產能擴張]]受限。
-- **對[[98_商業概念庫/capital-market_資本市場\|capital-market_資本市場]]與投資評價的傳導路徑**：
+  - 重資產基礎設施型產業（高 CapEx ＋ 高負債比）之融資借貸成本劇增，新增[[98_商業概念庫/_待改寫草稿庫/capacity-expansion_產能擴張\|chan-neng-kuo-zhang_產能擴張]]受限。
+- **對[[98_商業概念庫/_待改寫草稿庫/capital-market_資本市場\|capital-market_資本市場]]與投資評價的傳導路徑**：
   - 依資產折現公式 $V_0 = \sum \frac{CF_t}{(1 + r)^t}$，折現率 $r$ 高懸必然引發估值乘數壓縮 (Valuation Compression)。
-  - [[98_商業概念庫/enterprise_企業\|enterprise_企業]] WACC 居高不下，提高[[98_商業概念庫/capital-budgeting_資本預算\|capital-yu-suan_資本預算]]門檻收益率（$\text{Hurdle Rate} = \text{WACC} + \alpha$），壓抑投資專案通過率。
+  - [[98_商業概念庫/_待改寫草稿庫/enterprise_企業\|enterprise_企業]] WACC 居高不下，提高[[98_商業概念庫/capital-budgeting_資本預算\|capital-yu-suan_資本預算]]門檻收益率（$\text{Hurdle Rate} = \text{WACC} + \alpha$），壓抑投資專案通過率。
 - **高階經理人與投資人策略啟發**：
   - 經理人應審慎檢視在建工程之 IRR 是否實質覆蓋當前經通膨與風險貼水校正之 Hurdle Rate。
-  - 避開過度仰賴廉價短期融資支撐資本開支之脆弱[[98_商業概念庫/enterprise_企業\|enterprise_企業]]。
+  - 避開過度仰賴廉價短期融資支撐資本開支之脆弱[[98_商業概念庫/_待改寫草稿庫/enterprise_企業\|enterprise_企業]]。
 
 ---
 
@@ -80,7 +80,7 @@
   - 中國新能源車出口滲透率與產能過剩指數 (Overcapacity Index)。
   - 歐盟對中電動車反補貼關稅稅率動態。
 - **對實體產業的結構性衝擊**：
-  - 傳統油車巨頭面臨「新舊技術轉換夾殺」：既有燃油車固定資產面臨巨額[[98_商業概念庫/zhe-jiu_折舊\|zhe-jiu_折舊]]與減損，電動車軟體研發與電池供應鏈成本居高不下。
+  - 傳統油車巨頭面臨「新舊技術轉換夾殺」：既有燃油車固定資產面臨巨額[[98_商業概念庫/_待改寫草稿庫/zhe-jiu_折舊\|zhe-jiu_折舊]]與減損，電動車軟體研發與電池供應鏈成本居高不下。
   - 中國電動車藉極致供應鏈規模優勢將產能外溢全球，重塑全球汽車業五力結構中之「替代品性價比」與「既有競爭強度」。
 - **策略啟發**：
   - 傳統硬體製造商若無法在軟體定義汽車 (SDV) 構建生態系，其高退出障礙將成為致命拖累。
@@ -148,7 +148,7 @@
 - **對實體產業與資本估值的傳導路徑**：
   1. **資產定價估值壓縮（Valuation Compression）**：
      $$V_0 = \sum_{t=1}^{n} \frac{\text{CF}_t}{(1 + r)^t}$$
-     無風險利率與折現率 $r$ 高懸，直接放大分母，即使[[98_商業概念庫/enterprise_企業\|enterprise_企業]]獲利不變，整體資產估值乘數（P/E 或 EV/EBITDA）亦遭到系統性壓縮。
+     無風險利率與折現率 $r$ 高懸，直接放大分母，即使[[98_商業概念庫/_待改寫草稿庫/enterprise_企業\|enterprise_企業]]獲利不變，整體資產估值乘數（P/E 或 EV/EBITDA）亦遭到系統性壓縮。
   2. **重資產產業[[98_商業概念庫/capital-expenditure_資本支出\|capital-zhi-chu_資本支出]]（CapEx）受到強烈壓抑**：
      借貸與發債融資成本激增，直接拉高加權平均資本成本（WACC），導致大量專案預期報酬率無法跨越門檻收益率（$\text{Hurdle Rate} = \text{WACC} + lpha$），半導體、航運與基礎建設等資本密集產業擴產意願明顯趨於保守。
 - **高階經理人策略啟發**：
@@ -161,7 +161,7 @@
 - **關聯週次 / 模組**：W03 ｜ Module 1：產業內分析（[[98_商業概念庫/industry-analysis_產業分析\|industry-analysis_產業分析]]模式）
 - **討論背景與核心事件**：
   - 課堂開場透過 Trading Economics 實時數據平台，深度檢視美國與全球總體經濟指標。
-  - 揭示[[98_商業概念庫/capital-market_資本市場\|capital-market_資本市場]]中極為關鍵的深刻矛盾：**「實體經濟（Real Economy）與金融經濟（Financial Economy）的短期背離」**——好消息在金融市場反成利空！
+  - 揭示[[98_商業概念庫/_待改寫草稿庫/capital-market_資本市場\|capital-market_資本市場]]中極為關鍵的深刻矛盾：**「實體經濟（Real Economy）與金融經濟（Financial Economy）的短期背離」**——好消息在金融市場反成利空！
 - **核心觀察指標 (Key Indicators)**：
   1. **美國關鍵總經數據**：
      - **官方失業率 (Unemployment Rate)**：4.1%，展現就業市場強烈韌性。
@@ -176,7 +176,7 @@
   - **好消息為何變成壞消息？**
     - 實體經濟層面：PMI 指數飆升至 57 與 58，代表工廠訂單與服務消費旺盛，實體經濟蓬勃。
     - 金融經濟層面：金融市場看的是「未來預期與[[98_商業概念庫/cost-of-capital_資金成本\|zi-jin-cost_資金成本]]折現」。強勁的經濟數據意味著通膨降溫阻力加大，市場對 10 月 FOMC 升息機率之預期大幅拉升（原本預期僅 4 成，數據發布後顯著攀升）。
-    - [[98_商業概念庫/capital-market_資本市場\|capital-market_資本市場]]反應：十年期公債殖利率應聲衝破 5.0%，無風險折現率暴增導致美股三大指數全面下挫。
+    - [[98_商業概念庫/_待改寫草稿庫/capital-market_資本市場\|capital-market_資本市場]]反應：十年期公債殖利率應聲衝破 5.0%，無風險折現率暴增導致美股三大指數全面下挫。
 - **AI 帶來全要素生產力（Total Factor Productivity, TFP）之結構性躍升**：
   - **裁員但利潤創高的背後邏輯**：2026 年初美股大型科技權值股（如微軟、Google、Meta）紛紛發動裁員，但營收與利潤卻持續創歷史新高。
   - **經濟學解釋**：在資本與勞動力投入不變（甚至勞動投入減少）的情況下，產出規模卻顯著放大，這在經濟學上稱為**「全要素生產力（TFP）」**的躍升，核心驅動力即為生成式 AI 在軟體工程、客服與營運自動化上的效率爆發。
@@ -193,7 +193,7 @@
 * **討論背景與核心事件**：
   1. **[[98_商業概念庫/globalization_全球化\|quan-qiu-hua_全球化]]演變三部曲（板書推導核心）**：
      * **1980～1990s [[98_商業概念庫/globalization_全球化\|quan-qiu-hua_全球化]]時代（Globalization）**：全球跨國供應鏈深度分工，受惠中國大陸與新興市場勞動力紅利釋放，全球物價水準長期穩定下降。
-     * **2008～2016 慢球化時代（Slow-balization）**：全球金融海嘯（GFC）後反思高速粗放成長，快時尚（Inditex/Zara、H&M）興起伴隨過度消費與紡織廢棄物問題。歐洲全面推動 3R（Reduce, Reuse, Recycle）、WEEE 廢電子電機設備回收指令與 RoHS 無有害物質標準；[[98_商業概念庫/enterprise_企業\|enterprise_企業]]責任由 CSR 正式昇華為 ESG 嚴格制度標準。
+     * **2008～2016 慢球化時代（Slow-balization）**：全球金融海嘯（GFC）後反思高速粗放成長，快時尚（Inditex/Zara、H&M）興起伴隨過度消費與紡織廢棄物問題。歐洲全面推動 3R（Reduce, Reuse, Recycle）、WEEE 廢電子電機設備回收指令與 RoHS 無有害物質標準；[[98_商業概念庫/_待改寫草稿庫/enterprise_企業\|enterprise_企業]]責任由 CSR 正式昇華為 ESG 嚴格制度標準。
      * **2019～至今 貿易保護與區域化時代（Trump-balization / Reglobalization）**：多邊自由貿易體系瓦解，轉向區域雙邊貿易協定（如 USMCA 美墨加協定代替 NAFTA）。歐洲政壇普遍右傾化（Anti-immigration / 保護主義抬頭）。
   2. **台灣出口結構歷史性翻轉**：
      * 台灣單月出口金額首次突破 1,000 億美元大關（上月達 1,090 億美元創下歷史新高）。
@@ -203,13 +203,13 @@
      * **估值矛盾拆解**：
        - *[[98_商業概念庫/EPS_本益比_Earnings Per Share\|ben-yi-bi_本益比]]表面偏低*：Meta 前瞻 PE 降至 21 倍；記憶體龍頭美光（Micron）明年預估 EPS 飆增 121%，前瞻 PE 跌至極低之 5.29 倍，海力士亦僅 5.44 倍。
        - *自由現金流嚴重告急*：科技巨頭之**股價現金流量比（Price to Free Cash Flow, P/FCF）高達 45 倍**（顯示為嚴重紅色警戒），揭露市場給予極高市值，但其每股產生的自由現金流（FCF）卻極度匱乏。
-       - *根因剖析*：龐大且不可逆的 AI 伺服器與資料中心[[98_商業概念庫/capital-expenditure_資本支出\|capital-zhi-chu_資本支出]]（CapEx）嚴重侵蝕自由現金流，一旦營收增長未達預期，將面臨巨大的[[98_商業概念庫/zhe-jiu_折舊\|zhe-jiu_折舊]]攤提與減損風暴。
+       - *根因剖析*：龐大且不可逆的 AI 伺服器與資料中心[[98_商業概念庫/capital-expenditure_資本支出\|capital-zhi-chu_資本支出]]（CapEx）嚴重侵蝕自由現金流，一旦營收增長未達預期，將面臨巨大的[[98_商業概念庫/_待改寫草稿庫/zhe-jiu_折舊\|zhe-jiu_折舊]]攤提與減損風暴。
   4. **席勒 CAPE 比率高懸與通膨黏性限制降息**：
      * 經通膨調整後的美股標普 500 席勒週期性調整[[98_商業概念庫/EPS_本益比_Earnings Per Share\|ben-yi-bi_本益比]]（Shiller CAPE ratio）已來到 41 倍，遠超歷史中位數（16～17 倍），逼近 2000 年網路泡沫（Dot-com bubble）崩盤前的 44 倍極端歷史峰值。
-     * 記憶體（美光、海力士）[[98_商業概念庫/gross-margin-rate_毛利率\|gross-margin-rate_毛利率]]拉高至 80%~86%，但在伺服器與硬體 BOM 表中佔比高達 20%~30%。記憶體暴利轉嫁下游客戶，將強化通膨黏性（Inflation Stickiness），使美聯準會（Fed）降息空間受限，未來兩年[[98_商業概念庫/enterprise_企業\|enterprise_企業]] WACC 與折現率將維持高檔。
+     * 記憶體（美光、海力士）[[98_商業概念庫/gross-margin-rate_毛利率\|gross-margin-rate_毛利率]]拉高至 80%~86%，但在伺服器與硬體 BOM 表中佔比高達 20%~30%。記憶體暴利轉嫁下游客戶，將強化通膨黏性（Inflation Stickiness），使美聯準會（Fed）降息空間受限，未來兩年[[98_商業概念庫/_待改寫草稿庫/enterprise_企業\|enterprise_企業]] WACC 與折現率將維持高檔。
 * **高階經理人與投資人策略啟發**：
-  1. 經理人不可被低前瞻 PE 迷惑，應密切監控[[98_商業概念庫/enterprise_企業\|enterprise_企業]]的自由現金流消耗率（[[98_商業概念庫/Burn Rate\|Burn Rate]]）與 CapEx 產出效能。
-  2. 投資人應嚴格防範「高估值 + 負自由現金流」的科技脆弱型[[98_商業概念庫/enterprise_企業\|enterprise_企業]]，適度平衡至高股息、穩健現金流之防禦型策略群組。
+  1. 經理人不可被低前瞻 PE 迷惑，應密切監控[[98_商業概念庫/_待改寫草稿庫/enterprise_企業\|enterprise_企業]]的自由現金流消耗率（[[98_商業概念庫/_待改寫草稿庫/Burn Rate\|Burn Rate]]）與 CapEx 產出效能。
+  2. 投資人應嚴格防範「高估值 + 負自由現金流」的科技脆弱型[[98_商業概念庫/_待改寫草稿庫/enterprise_企業\|enterprise_企業]]，適度平衡至高股息、穩健現金流之防禦型策略群組。
 
 ### 🗓️ 2026/10/08 台積電 PVGO 估值模型、10 年期美債 5.3% 衝擊、地緣政治 GPR 指數與台灣人均淨財富全球第五 (W05)
 

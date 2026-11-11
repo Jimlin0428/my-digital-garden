@@ -1,27 +1,26 @@
 ---
-{"dg-publish":true,"permalink":"/98/authentic-leadership/","tags":["商業概念","策略管理","PMBA"],"dg-note-properties":{"aliases":["真誠領導"],"tags":["商業概念","策略管理","PMBA"]}}
+{"dg-publish":true,"permalink":"/98/authentic-leadership/","tags":["商業概念","領導力","倫理道德","自我意識","PMBA"],"dg-note-properties":{"aliases":["真誠領導","Authentic Leadership","真實領導"],"tags":["商業概念","領導力","倫理道德","自我意識","PMBA"]}}
 ---
 
 
-# 真誠領導
+# 真誠領導 (Authentic Leadership & Inner Moral Compass)
 
-## 一、 核心定義與本質
-- **真誠領導** 是管理學、產業分析與企業策略決策中的重要核心概念。
-- 其本質在於幫助企業經理人分析[[98_商業概念庫/market-structure_市場結構\|市場結構]]、[[98_商業概念庫/competitive-advantage_競爭優勢\|competition-you-shi_競爭優勢]]、資源配置與動態轉型方向，確保企業在競爭環境中建立永續營運壁壘。
+> **【核心決策摘要】**
+> **真誠領導（Authentic Leadership）** 由前美敦力（Medtronic）執行長比爾·喬治（Bill George, 2003）在安隆（Enron）與世界通訊等世紀公司治理詐欺案後率先倡導。真誠領導強調：**領導力源於內在的真實自我，而非模仿他人或戴上管理面具表演**。瓦盧姆巴等學者（Walumbwa et al., 2008）將真誠領導操作化為四大維度：**自我意識（Self-Awareness）**、**關係透明度（Relational Transparency）**、**平衡處理資訊（Balanced Processing）** 與 **內化道德準則（Internalized Moral Perspective）**。真誠領導者依據堅定不移的「**真北指針（True North）**」行事，在高度不確定時期能為組織建立最強韌的信任資本。
 
-## 二、 計算公式與關鍵指標（若為財務/量化概念）
-- **衡量維度與指標架構**：
-  - 量化指標：結合[[98_商業概念庫/industry-concentration_產業集中度\|industry-concentration_產業集中度]]、[[98_商業概念庫/economies-of-scale_規模經濟\|economies-of-scale_規模經濟]]效益與[[98_商業概念庫/return-on-invested-capital_資本投入報酬率\|資本回報率]]等維度綜合衡量。
-  - 質化評估：檢視企業在[[98_商業概念庫/barriers-to-entry_進入障礙\|barriers-to-entry_進入障礙]]、[[98_商業概念庫/switching-costs_轉換成本\|switching-costs_轉換成本]]與品牌資產上的護城河強度。
+---
 
-## 三、 產業意涵與策略判讀
-- **市場結構視角**：在寡占或高度集中市場中，真誠領導 決定了龍頭企業與追隨者的戰略互動與利基定位。
-- **動態轉型視角**：面臨技術[[98_商業概念庫/technology-s-curve-technology-s-curve_技術 S 曲線 Technology S-Curve\|S曲線]]轉折與破壞式創新時，企業需運用 真誠領導 評估資產重組與[[98_商業概念庫/dual-transformation-dual-transformation_雙軌轉型 Dual Transformation\|雙軌轉型]]路徑。
-- **營運實踐**：經理人需將此概念落實於產品藍圖、供應鏈協同與商業模式設計中。
+## 1. 真誠領導四大核心構面 (The 4 Dimensions)
 
-## 四、 關聯主題與模組
-* [[04_主題選修/12_產業分析與投資策略/00_課程導航與進度/mindmap_產業分析與投資策略_心智圖導航\|產業分析與投資策略 心智圖導航]]
-* [[04_主題選修/12_產業分析與投資策略/02_模組筆記/Module_1_總論與架構/M1-3_產業獲利結構差異與十大經典理論\|M1-3 產業獲利結構差異與十大經典理論]]
-* [[04_主題選修/12_產業分析與投資策略/02_模組筆記/Module_1_總論與架構/M1-6_產業分析模式與九大分析工具矩陣\|M1-6 產業分析模式與九大分析工具矩陣]]
-* [[98_商業概念庫/Porter's Five Forces Analysis_波特五力分析\|Porter's Five Forces Analysis_波特五力分析]]
-* [[98_商業概念庫/SCP模型\|SCP模型]]
+1. **自我意識（Self-Awareness）**：深刻了解自己的價值觀、情緒觸發點、核心優勢與致命盲點。
+2. **平衡處理（Balanced Processing）**：在做重大決策前，客觀客氣地傾聽不同觀點與反對聲音，不急於防禦辯護。
+3. **關係透明度（Relational Transparency）**：展現真實的情感與誠信，敢於向團隊坦承「我不知道」或「我犯了錯」。
+4. **內化道德準則（Internalized Moral Perspective）**：面臨外部巨大短期利益誘惑時，堅守倫理底線，不隨波逐流。
+
+---
+
+## 2. 關聯概念與延伸閱讀 (Cross References)
+
+- [[98_商業概念庫/corporate-governance_公司治理\|corporate-governance_公司治理]]：真誠領導作為內部道德防線的第一道基石。
+- [[98_商業概念庫/transformational-leadership_轉換型領導\|transformational-leadership_轉換型領導]]：防止魅力型領導淪為狂妄自大操縱的防腐劑。
+- [[home\|home]]：PMBA 知識庫首頁與模組導航。

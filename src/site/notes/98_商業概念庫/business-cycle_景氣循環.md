@@ -1,27 +1,38 @@
 ---
-{"dg-publish":true,"permalink":"/98/business-cycle/","tags":["商業概念","策略管理","PMBA"],"dg-note-properties":{"aliases":["景氣循環"],"tags":["商業概念","策略管理","PMBA"]}}
+{"dg-publish":true,"permalink":"/98/business-cycle/","tags":["商業概念","總體經濟學","資產配置","投資時鐘","PMBA"],"dg-note-properties":{"aliases":["景氣循環","Business Cycle","經濟循環","商業週期","經濟週期"],"tags":["商業概念","總體經濟學","資產配置","投資時鐘","PMBA"]}}
 ---
 
 
-# 景氣循環
+# 景氣循環 (Business Cycles & Macroeconomic Sector Rotation)
 
-## 一、 核心定義與本質
-- **景氣循環** 是管理學、產業分析與企業策略決策中的重要核心概念。
-- 其本質在於幫助企業經理人分析[[98_商業概念庫/market-structure_市場結構\|市場結構]]、[[98_商業概念庫/competitive-advantage_競爭優勢\|competition-you-shi_競爭優勢]]、資源配置與動態轉型方向，確保企業在競爭環境中建立永續營運壁壘。
+> **【核心決策摘要】**
+> **景氣循環（Business Cycles）** 是指一個國家或全球經濟在長期潛在增長趨勢線周圍，所呈現的**經濟活動交替擴張（Expansion）與收縮（Contraction）的週期性波動現象**。經典景氣循環包含四個階段：**復甦期（Recovery）**、**繁榮期（Peak / Boom）**、**衰退期（Slowdown / Recession）** 與 **蕭條低谷期（Trough / Depression）**。景氣循環受利率、通膨、信貸擴張與產能庫存週期共同驅動。在策略投資與公司理財中，美林證券著名的「**美林投資時鐘（Merrill Lynch Investment Clock）**」將經濟成長與通膨率交叉組裝，指導不同循環階段在**債券、股票、大宗商品與現金**之間的動態資產輪動。
 
-## 二、 計算公式與關鍵指標（若為財務/量化概念）
-- **衡量維度與指標架構**：
-  - 量化指標：結合[[98_商業概念庫/industry-concentration_產業集中度\|industry-concentration_產業集中度]]、[[98_商業概念庫/economies-of-scale_規模經濟\|economies-of-scale_規模經濟]]效益與[[98_商業概念庫/return-on-invested-capital_資本投入報酬率\|資本回報率]]等維度綜合衡量。
-  - 質化評估：檢視企業在[[98_商業概念庫/barriers-to-entry_進入障礙\|barriers-to-entry_進入障礙]]、[[98_商業概念庫/switching-costs_轉換成本\|switching-costs_轉換成本]]與品牌資產上的護城河強度。
+---
 
-## 三、 產業意涵與策略判讀
-- **市場結構視角**：在寡占或高度集中市場中，景氣循環 決定了龍頭企業與追隨者的戰略互動與利基定位。
-- **動態轉型視角**：面臨技術[[98_商業概念庫/technology-s-curve-technology-s-curve_技術 S 曲線 Technology S-Curve\|S曲線]]轉折與破壞式創新時，企業需運用 景氣循環 評估資產重組與[[98_商業概念庫/dual-transformation-dual-transformation_雙軌轉型 Dual Transformation\|雙軌轉型]]路徑。
-- **營運實踐**：經理人需將此概念落實於產品藍圖、供應鏈協同與商業模式設計中。
+## 1. 美林投資時鐘四維輪動矩陣 (The Investment Clock)
 
-## 四、 關聯主題與模組
-* [[04_主題選修/12_產業分析與投資策略/00_課程導航與進度/mindmap_產業分析與投資策略_心智圖導航\|產業分析與投資策略 心智圖導航]]
-* [[04_主題選修/12_產業分析與投資策略/02_模組筆記/Module_1_總論與架構/M1-3_產業獲利結構差異與十大經典理論\|M1-3 產業獲利結構差異與十大經典理論]]
-* [[04_主題選修/12_產業分析與投資策略/02_模組筆記/Module_1_總論與架構/M1-6_產業分析模式與九大分析工具矩陣\|M1-6 產業分析模式與九大分析工具矩陣]]
-* [[98_商業概念庫/Porter's Five Forces Analysis_波特五力分析\|Porter's Five Forces Analysis_波特五力分析]]
-* [[98_商業概念庫/SCP模型\|SCP模型]]
+```
+          通膨率 (Inflation)
+          高 ▲ ──────────────────────────────────────────┐
+             │ 【階段 3: 停滯性通膨 (Stagflation)】│ 【階段 2: 景氣過熱 (Overheat)】   │
+             │ • 經濟放緩 + 通膨高企              │ • 經濟高成長 + 通膨飆升           │
+             │ • 央行升息抗通膨                   │ • 產能缺口打滿, 原物料暴漲        │
+             │ 🌟 最優資產：【現金 (Cash)】       │ 🌟 最優資產：【大宗商品 Commodities】│
+             ├────────────────────────────────────┼───────────────────────────────────┤
+             │ 【階段 4: 衰退蕭條 (Reflation)】   │ 【階段 1: 景氣復甦 (Recovery)】   │
+             │ • 經濟下滑 + 通膨回落              │ • 經濟重啟增長 + 通膨維持低位     │
+             │ • 央行降息救市, 流動性充沛         │ • 企業獲利強勁復甦                │
+             │ 🌟 最優資產：【債券 (Bonds)】      │ 🌟 最優資產：【股票 (Equities)】  │
+          低 └────────────────────────────────────┴───────────────────────────────────▶
+             低                                   高
+                         經濟成長率 (Economic Growth)
+```
+
+---
+
+## 2. 關聯概念與延伸閱讀 (Cross References)
+
+- [[cyclical-industry_週期性產業]]：受景氣循環衝擊最大的重資產行業應對之道。
+- [[cash-flow-statement_現金流量表]]：景氣循環下企業各階段的現金儲備調配。
+- [[home]]：PMBA 知識庫首頁與模組導航。
