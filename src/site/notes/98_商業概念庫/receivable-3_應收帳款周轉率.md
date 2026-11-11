@@ -1,27 +1,24 @@
 ---
-{"dg-publish":true,"permalink":"/98/receivable-3/","tags":["商業概念","策略管理","PMBA"],"dg-note-properties":{"aliases":["應收帳款周轉率"],"tags":["商業概念","策略管理","PMBA"]}}
+{"dg-publish":true,"permalink":"/98/receivable-3/","tags":["商業概念","財務比率","信用管理","營運資金","杜邦分析","PMBA"],"dg-note-properties":{"aliases":["應收帳款周轉率","Accounts Receivable Turnover","應收帳款週轉率","RTR"],"tags":["商業概念","財務比率","信用管理","營運資金","杜邦分析","PMBA"]}}
 ---
 
 
-# 應收帳款周轉率
+# 應收帳款周轉率 (Accounts Receivable Turnover Ratio & Credit Management)
 
-## 一、 核心定義與本質
-- **應收帳款周轉率** 是管理學、產業分析與企業策略決策中的重要核心概念。
-- 其本質在於幫助企業經理人分析[[98_商業概念庫/market-structure_市場結構\|市場結構]]、[[98_商業概念庫/competitive-advantage_競爭優勢\|competition-you-shi_競爭優勢]]、資源配置與動態轉型方向，確保企業在競爭環境中建立永續營運壁壘。
+> **【核心決策摘要】**
+> **應收帳款周轉率（Accounts Receivable Turnover Ratio, RTR）** 是衡量企業在特定會計期間內，**收回應收帳款的效率與頻率**的核心比率。其計算方式為以**賒銷營業收入（Credit Sales）除以平均應收帳款餘額**。應收帳款周轉率直接反映了企業**信用政策（Credit Policy）的鬆緊度、催收效率與客戶品質**。周轉率高代表賒銷管理嚴密、客戶付款準時、壞帳風險低；周轉率驟降則強烈預警企業存在「放水寬鬆賒銷以虛增營收」或「大客戶周轉困難爆發壞帳」，是走向[[98_商業概念庫/insolvency-with-profit_黑字倒閉\|黑字倒閉]]的最致命前兆。
 
-## 二、 計算公式與關鍵指標（若為財務/量化概念）
-- **衡量維度與指標架構**：
-  - 量化指標：結合[[98_商業概念庫/industry-concentration_產業集中度\|industry-concentration_產業集中度]]、[[98_商業概念庫/economies-of-scale_規模經濟\|economies-of-scale_規模經濟]]效益與[[98_商業概念庫/return-on-invested-capital_資本投入報酬率\|資本回報率]]等維度綜合衡量。
-  - 質化評估：檢視企業在[[98_商業概念庫/barriers-to-entry_進入障礙\|barriers-to-entry_進入障礙]]、[[98_商業概念庫/switching-costs_轉換成本\|switching-costs_轉換成本]]與品牌資產上的護城河強度。
+---
 
-## 三、 產業意涵與策略判讀
-- **市場結構視角**：在寡占或高度集中市場中，應收帳款周轉率 決定了龍頭企業與追隨者的戰略互動與利基定位。
-- **動態轉型視角**：面臨技術[[98_商業概念庫/technology-s-curve-technology-s-curve_技術 S 曲線 Technology S-Curve\|S曲線]]轉折與破壞式創新時，企業需運用 應收帳款周轉率 評估資產重組與[[98_商業概念庫/dual-transformation-dual-transformation_雙軌轉型 Dual Transformation\|雙軌轉型]]路徑。
-- **營運實踐**：經理人需將此概念落實於產品藍圖、供應鏈協同與商業模式設計中。
+## 核心公式
+$$\text{Receivable Turnover (RTR)} = \frac{\text{賒銷營業收入 (Net Credit Sales)}}{\text{平均應收帳款及票據 (Average AR)}} = \frac{\text{Credit Sales}}{\frac{\text{期初 AR} + \text{期末 AR}}{2}}$$
 
-## 四、 關聯主題與模組
-* [[04_主題選修/12_產業分析與投資策略/00_課程導航與進度/mindmap_產業分析與投資策略_心智圖導航\|產業分析與投資策略 心智圖導航]]
-* [[04_主題選修/12_產業分析與投資策略/02_模組筆記/Module_1_總論與架構/M1-3_產業獲利結構差異與十大經典理論\|M1-3 產業獲利結構差異與十大經典理論]]
-* [[04_主題選修/12_產業分析與投資策略/02_模組筆記/Module_1_總論與架構/M1-6_產業分析模式與九大分析工具矩陣\|M1-6 產業分析模式與九大分析工具矩陣]]
-* [[98_商業概念庫/Porter's Five Forces Analysis_波特五力分析\|Porter's Five Forces Analysis_波特五力分析]]
-* [[98_商業概念庫/SCP模型\|SCP模型]]
+$$\text{應收帳款週轉天數 (DSO)} = \frac{365}{\text{Receivable Turnover}} = \frac{\text{平均應收帳款}}{\text{營業收入}} \times 365$$
+
+---
+
+## 關聯概念
+- [[98_商業概念庫/receivable-days-turnover_應收帳款週轉天數\|receivable-days-turnover_應收帳款週轉天數]]：DSO 核心時間指標。
+- [[98_商業概念庫/receivable-2_應收帳款承購\|receivable-2_應收帳款承購]]：應收帳款提前貼現避險機制。
+- [[98_商業概念庫/cash-switching-cycle_現金轉換週期\|cash-switching-cycle_現金轉換週期]]：DSO 在現金循環中之核心地位。
+- [[home\|home]]：PMBA 知識庫首頁與模組導航。

@@ -52,7 +52,7 @@ $$\text{WACC} = \left( \frac{E}{V} \times r_e \right) + \left( \frac{P}{V} \time
 | **$E$** | 股權市場價值 (Equity) | **市值（Market Value）**：每股市價 $\times$ 在外流通股數。 | ❌ 誤用資產負債表之「股東權益帳面價值」。 |
 | **$D$** | 有息負債市場價值 (Debt) | 短期借款 + 長期借款 + 應付公司債之現時市值。 | ❌ 誤將應付帳款等「無息營運負債」計入。 |
 | **$V = E + D$** | 企業總資本市值 | 總有息資本規模。 | ❌ 忽略隨股價波動之動態權重重估。 |
-| **$r_e$** | [[98_商業概念庫/equity-cost_權益成本\|股權成本]] (Cost of Equity) | 採用 **[[98_商業概念庫/capm_資本資產定價模型\|CAPM 模型]]**：$$r_e = R_f + \beta_e [E(R_m) - R_f]$$ | ❌ 誤以為股權資金「不用付利息＝無成本」。股權具剩餘索償權，成本遠高於債務。 |
+| **$r_e$** | [[98_商業概念庫/_待改寫草稿庫/equity-cost_權益成本\|股權成本]] (Cost of Equity) | 採用 **[[98_商業概念庫/capm_資本資產定價模型\|CAPM 模型]]**：$$r_e = R_f + \beta_e [E(R_m) - R_f]$$ | ❌ 誤以為股權資金「不用付利息＝無成本」。股權具剩餘索償權，成本遠高於債務。 |
 | **$r_d$** | 負債成本 (Cost of Debt) | 公司發行新債之**邊際到期殖利率（YTM）**或銀行新增放款利率。 | ❌ 誤採過去歷史借款之會計平均利息支出。 |
 | **$(1 - T_c)$** | **利息稅盾效應**<br>(Interest Tax Shield) | $T_c$ 為法定邊際企業所得稅率。因借款利息可在稅前列支扣抵稅額，實質降低債務成本。 | ❌ 漏乘 $(1 - T_c)$，忽略稅法賦予負債的租稅補貼優勢。 |
 
@@ -111,6 +111,6 @@ $$\text{經濟增加值 (EVA)} = (\text{ROIC} - \text{WACC}) \times \text{投入
   - [[04_主題選修/10_創業與企業財務策略/02_模組筆記/Module_1_創新思維與商業模式/M1-2_白板決策鏈與財務價值三角\|M1-2 白板決策鏈與財務價值三角]]（資本定價權與 WACC 折現率博弈）
 - 🔗 **核心概念原子卡片**：
   - [[98_商業概念庫/return-on-invested-capital_資本投入報酬率\|return-on-invested-capital_資本投入報酬率]] ｜ [[98_商業概念庫/pvgo_成長機會現值\|pvgo_成長機會現值]]
-  - [[98_商業概念庫/NPV_淨現值法 _Net Present Value\|淨現值法 (NPV)]] ｜ [[98_商業概念庫/equity-cost_權益成本\|equity-cost_權益成本]]
+  - [[98_商業概念庫/NPV_淨現值法 _Net Present Value\|淨現值法 (NPV)]] ｜ [[98_商業概念庫/_待改寫草稿庫/equity-cost_權益成本\|equity-cost_權益成本]]
   - [[98_商業概念庫/capital-structure_資本結構\|capital-structure_資本結構]] ｜ [[98_商業概念庫/capital-structure-2_最佳資本結構\|capital-structure-2_最佳資本結構]]
-  - [[98_商業概念庫/enterprise-value-evaluation_企業價值評估\|enterprise-value-evaluation_企業價值評估]] ｜ [[98_商業概念庫/sva_股東價值增加\|股東價值增加 (SVA)]] ｜ [[98_商業概念庫/dcf_現金流量折現法\|現金流量折現法 (DCF)]] ｜ [[98_商業概念庫/capm_資本資產定價模型\|資本資產定價模型 (CAPM)]]
+  - [[98_商業概念庫/_待改寫草稿庫/enterprise-value-evaluation_企業價值評估\|enterprise-value-evaluation_企業價值評估]] ｜ [[98_商業概念庫/sva_股東價值增加\|股東價值增加 (SVA)]] ｜ [[98_商業概念庫/dcf_現金流量折現法\|現金流量折現法 (DCF)]] ｜ [[98_商業概念庫/capm_資本資產定價模型\|資本資產定價模型 (CAPM)]]

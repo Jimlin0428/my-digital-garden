@@ -88,11 +88,11 @@ flowchart TD
     F1 <--> F2
     F4 <--> F3
 
-    style Diamond fill:#f8fafc,stroke:#334155,stroke-width:2px
-    style F1 fill:#eff6ff,stroke:#1d4ed8,stroke-width:2px
-    style F2 fill:#fefce8,stroke:#a16207,stroke-width:2px
-    style F3 fill:#f0fdf4,stroke:#15803d,stroke-width:2px
-    style F4 fill:#fee2e2,stroke:#b91c1c,stroke-width:2px
+    style Diamond fill:#f8fafc,stroke:#334155,stroke-width:2px,color:#0f172a
+    style F1 fill:#eff6ff,stroke:#1d4ed8,stroke-width:2px,color:#1e3a8a
+    style F2 fill:#fefce8,stroke:#a16207,stroke-width:2px,color:#713f12
+    style F3 fill:#f0fdf4,stroke:#15803d,stroke-width:2px,color:#14532d
+    style F4 fill:#fee2e2,stroke:#b91c1c,stroke-width:2px,color:#7f1d1d
 ```
 
 ---
@@ -297,13 +297,13 @@ flowchart TD
 
     Chance["【機會事件 (Chance)】<br/>• 個人電腦 (PC) 與筆記型電腦爆發浪潮<br/>• 智慧型手機 (iPhone) 席捲全球與晶片自研浪潮<br/>• 2020s 生成式 AI 算力大爆炸與美中科技地緣政治脫鉤"] -. 歷史窗口 .-> TaiwanDiamond
 
-    style TaiwanDiamond fill:#f8fafc,stroke:#334155,stroke-width:2px
-    style F1 fill:#eff6ff,stroke:#1d4ed8,stroke-width:2px
-    style F2 fill:#fefce8,stroke:#a16207,stroke-width:2px
-    style F3 fill:#f0fdf4,stroke:#15803d,stroke-width:2px
-    style F4 fill:#fee2e2,stroke:#b91c1c,stroke-width:2px
-    style Gov fill:#f3e8ff,stroke:#7e22ce,stroke-width:2px
-    style Chance fill:#fff7ed,stroke:#c2410c,stroke-width:2px
+    style TaiwanDiamond fill:#f8fafc,stroke:#334155,stroke-width:2px,color:#0f172a
+    style F1 fill:#eff6ff,stroke:#1d4ed8,stroke-width:2px,color:#1e3a8a
+    style F2 fill:#fefce8,stroke:#a16207,stroke-width:2px,color:#713f12
+    style F3 fill:#f0fdf4,stroke:#15803d,stroke-width:2px,color:#14532d
+    style F4 fill:#fee2e2,stroke:#b91c1c,stroke-width:2px,color:#7f1d1d
+    style Gov fill:#f3e8ff,stroke:#7e22ce,stroke-width:2px,color:#581c87
+    style Chance fill:#fff7ed,stroke:#c2410c,stroke-width:2px,color:#7c2d12
 ```
 
 ### 6.1 鑽石體系六大維度在台灣半導體的具體印證

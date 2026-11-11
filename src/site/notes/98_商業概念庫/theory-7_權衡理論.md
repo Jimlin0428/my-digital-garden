@@ -5,7 +5,7 @@
 
 # 權衡理論 (Trade-off Theory of Capital Structure)
 
-> 💡 **導航與索引**：本篇為現代公司理財（Corporate Finance）決定企業「最佳負債水準」之核心經典理論。探討企業如何在「利息稅盾利益」與「財務危機成本」之間取得黃金平衡。亦可參閱公司理財總覽卡片 [[98_商業概念庫/capital-structure_資本結構\|資本結構 (Capital Structure)]]、最佳點專題 [[98_商業概念庫/capital-structure-2_最佳資本結構\|最佳資本結構 (Optimal Capital Structure)]]、無摩擦基準 [[98_商業概念庫/capital-structure-3_資本結構無關論\|資本結構無關論 (MM Irrelevance)]]、融資階梯對立模型 [[98_商業概念庫/theory-6_啄食順序理論\|啄食順序理論 (Pecking Order)]]、折現率函數 [[98_商業概念庫/wacc_加權平均資本成本\|加權平均資本成本 (WACC)]]、資產負債表全局視角 [[98_商業概念庫/financial-structure_財務結構\|財務結構 (Financial Structure)]]、固定利息放大機制 [[98_商業概念庫/financial-leverage_財務槓桿\|財務槓桿 (Financial Leverage / DFL)]]、產銷敏感度 [[98_商業概念庫/DOL_營運槓桿\|營運槓桿度 (DOL)]]、總體風險指標 [[98_商業概念庫/degree-of-total-leverage-dtl_總槓桿\|總槓桿度 (DTL)]]，以及股權定價模型 [[98_商業概念庫/capm_資本資產定價模型\|資本資產定價模型 (CAPM)]]。
+> 💡 **導航與索引**：本篇為現代公司理財（Corporate Finance）決定企業「最佳負債水準」之核心經典理論。探討企業如何在「利息稅盾利益」與「財務危機成本」之間取得黃金平衡。亦可參閱公司理財總覽卡片 [[98_商業概念庫/capital-structure_資本結構\|資本結構 (Capital Structure)]]、最佳點專題 [[98_商業概念庫/capital-structure-2_最佳資本結構\|最佳資本結構 (Optimal Capital Structure)]]、無摩擦基準 [[98_商業概念庫/capital-structure-3_資本結構無關論\|資本結構無關論 (MM Irrelevance)]]、融資階梯對立模型 [[98_商業概念庫/_待改寫草稿庫/theory-6_啄食順序理論\|啄食順序理論 (Pecking Order)]]、折現率函數 [[98_商業概念庫/wacc_加權平均資本成本\|加權平均資本成本 (WACC)]]、資產負債表全局視角 [[98_商業概念庫/financial-structure_財務結構\|財務結構 (Financial Structure)]]、固定利息放大機制 [[98_商業概念庫/financial-leverage_財務槓桿\|財務槓桿 (Financial Leverage / DFL)]]、產銷敏感度 [[98_商業概念庫/DOL_營運槓桿\|營運槓桿度 (DOL)]]、總體風險指標 [[98_商業概念庫/degree-of-total-leverage-dtl_總槓桿\|總槓桿度 (DTL)]]，以及股權定價模型 [[98_商業概念庫/capm_資本資產定價模型\|資本資產定價模型 (CAPM)]]。
 
 ---
 

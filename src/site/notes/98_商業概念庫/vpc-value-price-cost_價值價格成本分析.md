@@ -121,8 +121,8 @@ flowchart LR
     Parity ==> Diff
     Parity ==> CostLead
 
-    style Diff fill:#ecfdf5,stroke:#059669,stroke-width:2px
-    style CostLead fill:#eff6ff,stroke:#2563eb,stroke-width:2px
+    style Diff fill:#ecfdf5,stroke:#059669,stroke-width:2px,color:#064e3b
+    style CostLead fill:#eff6ff,stroke:#2563eb,stroke-width:2px,color:#1e3a8a
 ```
 
 ### 2.1 途徑一：差異化策略（Differentiation Strategy）
@@ -163,8 +163,8 @@ flowchart TD
     P_Method --> M3
 
     style M3 fill:#dcfce7,stroke:#16a34a,stroke-width:2px,color:#14532d
-    style M1 fill:#fee2e2,stroke:#dc2626,stroke-width:1px
-    style M2 fill:#fef3c7,stroke:#d97706,stroke-width:1px
+    style M1 fill:#fee2e2,stroke:#dc2626,stroke-width:1px,color:#7f1d1d
+    style M2 fill:#fef3c7,stroke:#d97706,stroke-width:1px,color:#78350f
 ```
 
 ### 3.1 價值基礎定價之「經濟價值評估法（EVE, Economic Value Estimation）」
@@ -250,14 +250,14 @@ flowchart TD
     Pitfall3["❌ 陷阱三：替代品引發的天花板崩塌<br>(Ceiling Collapse Trap)"] --> Fix3["✅ 防範：全方位監控異業技術演進，及早佈局第二成長曲線"]
     Pitfall4["❌ 陷阱四：同質化競爭下的價值競底<br>(Commoditization Trap)"] --> Fix4["✅ 防範：建立高轉換成本、網絡效應或品牌無形資產"]
 
-    style Pitfall1 fill:#fee2e2,stroke:#ef4444,stroke-width:1px
-    style Pitfall2 fill:#fee2e2,stroke:#ef4444,stroke-width:1px
-    style Pitfall3 fill:#fee2e2,stroke:#ef4444,stroke-width:1px
-    style Pitfall4 fill:#fee2e2,stroke:#ef4444,stroke-width:1px
-    style Fix1 fill:#f0fdf4,stroke:#22c55e,stroke-width:1px
-    style Fix2 fill:#f0fdf4,stroke:#22c55e,stroke-width:1px
-    style Fix3 fill:#f0fdf4,stroke:#22c55e,stroke-width:1px
-    style Fix4 fill:#f0fdf4,stroke:#22c55e,stroke-width:1px
+    style Pitfall1 fill:#fee2e2,stroke:#ef4444,stroke-width:1px,color:#7f1d1d
+    style Pitfall2 fill:#fee2e2,stroke:#ef4444,stroke-width:1px,color:#7f1d1d
+    style Pitfall3 fill:#fee2e2,stroke:#ef4444,stroke-width:1px,color:#7f1d1d
+    style Pitfall4 fill:#fee2e2,stroke:#ef4444,stroke-width:1px,color:#7f1d1d
+    style Fix1 fill:#f0fdf4,stroke:#22c55e,stroke-width:1px,color:#14532d
+    style Fix2 fill:#f0fdf4,stroke:#22c55e,stroke-width:1px,color:#14532d
+    style Fix3 fill:#f0fdf4,stroke:#22c55e,stroke-width:1px,color:#14532d
+    style Fix4 fill:#f0fdf4,stroke:#22c55e,stroke-width:1px,color:#14532d
 ```
 
 ### 1. 內部自嗨偏誤（Cost-Value Fallacy）
@@ -285,21 +285,21 @@ flowchart TD
 ### 📚 官方教材與模組講義深度對接
 
 1. **《創業與企業財務策略》官方教材對接**：
-   - 📖 **Class 4 講義** ➔ [[04_主題選修/10_創業與企業財務策略/02_模組筆記/Module_1_創新思維與商業模式/M1-9_商業模式畫布架構與價值主張設計\|M1-9 商業模式畫布架構與價值主張設計]]：
+   - 📖 **Class 4 講義** ➔ [[04_主題選修/10_創業與企業財務策略/02_模組筆記/Module_1_創新思維與商業模式/M1-9_商業模式畫布架構與價值主張設計|M1-9 商業模式畫布架構與價值主張設計]]：
      - 解構白板推導專題：**「顧客感知價值方程式（總價值 vs. 總成本）」**，釐清 $V$ 的貨幣與非貨幣構成要素。
-   - 📖 **Class 4 講義** ➔ [[04_主題選修/10_創業與企業財務策略/02_模組筆記/Module_1_創新思維與商業模式/M1-10_七大市場力量與商業戰略價值公式\|M1-10 七大市場力量與商業戰略價值公式]]：
+   - 📖 **Class 4 講義** ➔ [[04_主題選修/10_創業與企業財務策略/02_模組筆記/Module_1_創新思維與商業模式/M1-10_七大市場力量與商業戰略價值公式|M1-10 七大市場力量與商業戰略價值公式]]：
      - 白板推導公式：$\text{Value} = \text{市場規模} \times \text{市場力量}$；其中「超額差額利潤率 $m$」的本質，即為企業透過七大市場力量防禦並鎖定 VPC 中 $(P - C)$ 利潤空間的具體表現。
-   - 📖 **Class 1~7 全域講義** ➔ [[04_主題選修/10_創業與企業財務策略/02_模組筆記/Module_1_創新思維與商業模式/M1-2_白板決策鏈與財務價值三角\|M1-2 白板決策鏈與財務價值三角]]：
+   - 📖 **Class 1~7 全域講義** ➔ [[04_主題選修/10_創業與企業財務策略/02_模組筆記/Module_1_創新思維與商業模式/M1-2_白板決策鏈與財務價值三角|M1-2 白板決策鏈與財務價值三角]]：
      - 「商業決策四階躍遷（Good Idea $\rightarrow$ Good Business $\rightarrow$ Good Company $\rightarrow$ Good Investment）」：從商業模式的 VPC 設計跨越至資本市場的 $\text{ROIC} > \text{WACC}$ 企業價值創造。
 
 2. **《產業分析與投資策略》官方教材對接**：
-   - 📖 **Class 1 講義** ➔ [[04_主題選修/12_產業分析與投資策略/02_模組筆記/Module_1_總論與架構/M1-3_產業獲利結構差異與十大經典理論\|M1-3 產業獲利結構差異與十大經典理論]]：
+   - 📖 **Class 1 講義** ➔ [[04_主題選修/12_產業分析與投資策略/02_模組筆記/Module_1_總論與架構/M1-3_產業獲利結構差異與十大經典理論|M1-3 產業獲利結構差異與十大經典理論]]：
      - 標竿獲利驅動模型：鴻海（低毛利高週轉、靠規模採購控管 $C$）vs. 台積電（技術寡占高定價、拉大 $P - C$），本質為 VPC 空間的不同切分途徑。
-   - 📖 **Class 2 講義** ➔ [[04_主題選修/12_產業分析與投資策略/02_模組筆記/Module_1_總論與架構/M1-5_波特五力分析與量化架構\|M1-5 波特五力分析與量化架構]]：
+   - 📖 **Class 2 講義** ➔ [[04_主題選修/12_產業分析與投資策略/02_模組筆記/Module_1_總論與架構/M1-5_波特五力分析與量化架構|M1-5 波特五力分析與量化架構]]：
      - 五力對 VPC 邊界的結構性壓迫：買方壓低 $P$、供應商抬高 $C$、替代品限制 $V$、同業競爭與新進者同時壓縮 $V - P$ 與 $P - C$。
-   - 📖 **Class 3 講義** ➔ [[04_主題選修/12_產業分析與投資策略/02_模組筆記/Module_1_總論與架構/M1-6_產業分析模式與九大分析工具矩陣\|M1-6 產業分析模式與九大分析工具矩陣]]：
+   - 📖 **Class 3 講義** ➔ [[04_主題選修/12_產業分析與投資策略/02_模組筆記/Module_1_總論與架構/M1-6_產業分析模式與九大分析工具矩陣|M1-6 產業分析模式與九大分析工具矩陣]]：
      - 價值鏈利潤池（Profit Pool）拆解，分析產業鏈各環節廠商所創造與捕獲的 VPC 差額。
-   - 📖 **Class 4 講義** ➔ [[04_主題選修/12_產業分析與投資策略/02_模組筆記/Module_1_總論與架構/M1-7_產業市場空間與策略群組\|M1-7 產業市場空間與策略群組]]：
+   - 📖 **Class 4 講義** ➔ [[04_主題選修/12_產業分析與投資策略/02_模組筆記/Module_1_總論與架構/M1-7_產業市場空間與策略群組|M1-7 產業市場空間與策略群組]]：
      - 需求三維空間（價值要素、產品要素、市場規模）與發掘未被滿足的「競爭空白區（White Space）」。
 
 ---
@@ -307,14 +307,14 @@ flowchart TD
 ### 🔗 核心概念原子卡片雙向鏈結
 
 - **策略與競爭優勢體系**：
-  - [[98_商業概念庫/competitive-advantage_競爭優勢\|competitive-advantage_競爭優勢]]（超額經濟租金、Wedge 價值楔子模型、持續競爭優勢 SCA）
-  - [[98_商業概念庫/competitive-matrix_競爭矩陣\|competitive-matrix_競爭矩陣]]（二維定位圖、特徵網格、CPM 態勢矩陣、ROIC 競爭矩陣）
-  - [[98_商業概念庫/cost-leadership-strategy_成本領導策略\|cost-leadership-strategy_成本領導策略]] ｜ [[98_商業概念庫/differentiation-strategy_差異化策略\|differentiation-strategy_差異化策略]] ｜ [[98_商業概念庫/focused-strategy_集中化策略\|focused-strategy_集中化策略]]
-  - [[98_商業概念庫/differentiation-advantage_差異化優勢\|differentiation-advantage_差異化優勢]] ｜ [[98_商業概念庫/product-differentiation_產品差異化\|product-differentiation_產品差異化]]
+  - [[competitive-advantage_競爭優勢]]（超額經濟租金、Wedge 價值楔子模型、持續競爭優勢 SCA）
+  - [[competitive-matrix_競爭矩陣]]（二維定位圖、特徵網格、CPM 態勢矩陣、ROIC 競爭矩陣）
+  - [[cost-leadership-strategy_成本領導策略]] ｜ [[differentiation-strategy_差異化策略]] ｜ [[focused-strategy_集中化策略]]
+  - [[differentiation-advantage_差異化優勢]] ｜ [[product-differentiation_產品差異化]]
 - **價值主張與商業模式體系**：
-  - [[98_商業概念庫/value-proposition_價值主張\|value-proposition_價值主張]] ｜ [[98_商業概念庫/value-curve_價值曲線\|value-curve_價值曲線]] ｜ [[98_商業概念庫/value-chain_價值鏈\|value-chain_價值鏈]] ｜ [[98_商業概念庫/value-net_價值網\|value-net_價值網]]
-  - [[98_商業概念庫/economic-moat_經濟護城河\|economic-moat_經濟護城河]] ｜ [[98_商業概念庫/switching-costs_轉換成本\|switching-costs_轉換成本]] ｜ [[98_商業概念庫/economies-of-scale_規模經濟\|economies-of-scale_規模經濟]] ｜ [[98_商業概念庫/dfm-design-for-manufacturability_可製造性設計\|DFM 可製造性設計]]
+  - [[value-proposition_價值主張]] ｜ [[value-curve_價值曲線]] ｜ [[value-chain_價值鏈]] ｜ [[value-net_價值網]]
+  - [[economic-moat_經濟護城河]] ｜ [[switching-costs_轉換成本]] ｜ [[economies-of-scale_規模經濟]] ｜ [[dfm-design-for-manufacturability_可製造性設計|DFM 可製造性設計]]
 - **財務績效與資本評價體系**：
-  - [[98_商業概念庫/return-on-invested-capital_資本投入報酬率\|return-on-invested-capital_資本投入報酬率]]（ROIC 杜邦拆解：Margin $\times$ Turnover）
-  - [[98_商業概念庫/total-asset-turnover-ratio_總資產週轉率\|total-asset-turnover-ratio_總資產週轉率]] ｜ [[98_商業概念庫/dupont-analysis_杜邦分析法\|dupont-analysis_杜邦分析法]]
-  - [[98_商業概念庫/cash-switching-cycle_現金轉換週期\|cash-switching-cycle_現金轉換週期]]（CCC 營運資金真空期與浮存金優勢）
+  - [[return-on-invested-capital_資本投入報酬率]]（ROIC 杜邦拆解：Margin $\times$ Turnover）
+  - [[total-asset-turnover-ratio_總資產週轉率]] ｜ [[dupont-analysis_杜邦分析法]]
+  - [[cash-switching-cycle_現金轉換週期]]（CCC 營運資金真空期與浮存金優勢）

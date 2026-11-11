@@ -10,11 +10,8 @@
 
 ```mermaid
 flowchart LR
-    S["市場結構 (Structure)
-集中度 / 進入障礙 / 差異化"] --> C["企業行為 (Conduct)
-定價 / R&D / 併購 / 廣告"]
-    C --> P["市場績效 (Performance)
-獲利能力 / 資源配置 / 創新效率"]
+    S["市場結構 (Structure)<br>集中度 / 進入障礙 / 差異化"] --> C["企業行為 (Conduct)<br>定價 / R&D / 併購 / 廣告"]
+    C --> P["市場績效 (Performance)<br>獲利能力 / 資源配置 / 創新效率"]
     P -.->|長期反饋| S
 ```
 
@@ -23,8 +20,8 @@ flowchart LR
 ## 💡 三大核心要素
 
 ### 1. 市場結構 (Market Structure)
-* **產業集中度**：如 [[98_商業概念庫/index-hhi_赫芬達爾指數 HHI\|he-fen-da-er-zhi-shu-hhi_赫芬達爾指數 HHI]]、[[98_商業概念庫/industry-concentration_產業集中度\|CR4 / CR8]]。
-* **[[98_商業概念庫/barriers-to-entry_進入障礙\|barriers-to-entry_進入障礙]]與[[98_商業概念庫/exit-barriers_退出障礙\|exit-barriers_退出障礙]]**：規模經濟、資本門檻、法規管制。
+* **產業集中度**：如 [[index-hhi_赫芬達爾指數 HHI|he-fen-da-er-zhi-shu-hhi_赫芬達爾指數 HHI]]、[[industry-concentration_產業集中度|CR4 / CR8]]。
+* **[[barriers-to-entry_進入障礙]]與[[exit-barriers_退出障礙]]**：規模經濟、資本門檻、法規管制。
 * **產品差異化與成本結構**：固定成本佔比與產品替代性。
 
 ### 2. 企業行為 (Market Conduct)
@@ -33,14 +30,14 @@ flowchart LR
 * **組織與併購**：垂直整合與橫向併購。
 
 ### 3. 市場績效 (Market Performance)
-* **經濟效率**：產能利用率與[[98_商業概念庫/economies-of-scale_規模經濟\|economies-of-scale_規模經濟]]實現程度。
-* **獲利能力**：[[98_商業概念庫/valuation-indicator-valuation-metrics_產業評價與估值指標 Valuation Metrics\|ROIC]]、ROE 與利潤率。
+* **經濟效率**：產能利用率與[[economies-of-scale_規模經濟]]實現程度。
+* **獲利能力**：[[valuation-indicator-valuation-metrics_產業評價與估值指標 Valuation Metrics|ROIC]]、ROE 與利潤率。
 * **技術進步**：產業創新速度與專利產出。
 
 ---
 
 ## 🔗 相關概念
-* [[98_商業概念庫/Porter's Five Forces Analysis_波特五力分析\|Porter's Five Forces Analysis_波特五力分析]]
-* [[98_商業概念庫/industry-concentration_產業集中度\|industry-concentration_產業集中度]]
-* [[98_商業概念庫/index-hhi_赫芬達爾指數 HHI\|he-fen-da-er-zhi-shu-hhi_赫芬達爾指數 HHI]]
-* [[98_商業概念庫/barriers-mobility-barriers_移動障礙 Mobility Barriers\|yi-dong-zhang-ai-mobility-barriers_移動障礙 Mobility Barriers]]
+* [[Porter's Five Forces Analysis_波特五力分析]]
+* [[industry-concentration_產業集中度]]
+* [[index-hhi_赫芬達爾指數 HHI|he-fen-da-er-zhi-shu-hhi_赫芬達爾指數 HHI]]
+* [[barriers-mobility-barriers_移動障礙 Mobility Barriers|yi-dong-zhang-ai-mobility-barriers_移動障礙 Mobility Barriers]]

@@ -1,27 +1,26 @@
 ---
-{"dg-publish":true,"permalink":"/98/payable-days-turnover/","tags":["商業概念","策略管理","PMBA"],"dg-note-properties":{"aliases":["應付帳款週轉天數"],"tags":["商業概念","策略管理","PMBA"]}}
+{"dg-publish":true,"permalink":"/98/payable-days-turnover/","tags":["商業概念","供應鏈","營運資金","現金轉換週期","PMBA"],"dg-note-properties":{"aliases":["應付帳款週轉天數","Days Payable Outstanding","DPO","應付帳款付現天數"],"tags":["商業概念","供應鏈","營運資金","現金轉換週期","PMBA"]}}
 ---
 
 
-# 應付帳款週轉天數
+# 應付帳款週轉天數 (Days Payable Outstanding, DPO)
 
-## 一、 核心定義與本質
-- **應付帳款週轉天數** 是管理學、產業分析與企業策略決策中的重要核心概念。
-- 其本質在於幫助企業經理人分析[[98_商業概念庫/market-structure_市場結構\|市場結構]]、[[98_商業概念庫/competitive-advantage_競爭優勢\|competition-you-shi_競爭優勢]]、資源配置與動態轉型方向，確保企業在競爭環境中建立永續營運壁壘。
+> **【核心導流與概念摘要】**
+> **應付帳款週轉天數（Days Payable Outstanding, DPO）** 衡量企業**從向供應商購入原物料或存貨起算，平均經過多少天數才真正撥款支付貨款**。
+>
+> 完整深入的應付帳款與周轉率體系，請直接參閱：
+> 🔗 **[[98_商業概念庫/payable-2_應付帳款周轉率\|應付帳款周轉率 (Accounts Payable Turnover)]]**
 
-## 二、 計算公式與關鍵指標（若為財務/量化概念）
-- **衡量維度與指標架構**：
-  - 量化指標：結合[[98_商業概念庫/industry-concentration_產業集中度\|industry-concentration_產業集中度]]、[[98_商業概念庫/economies-of-scale_規模經濟\|economies-of-scale_規模經濟]]效益與[[98_商業概念庫/return-on-invested-capital_資本投入報酬率\|資本回報率]]等維度綜合衡量。
-  - 質化評估：檢視企業在[[98_商業概念庫/barriers-to-entry_進入障礙\|barriers-to-entry_進入障礙]]、[[98_商業概念庫/switching-costs_轉換成本\|switching-costs_轉換成本]]與品牌資產上的護城河強度。
+---
 
-## 三、 產業意涵與策略判讀
-- **市場結構視角**：在寡占或高度集中市場中，應付帳款週轉天數 決定了龍頭企業與追隨者的戰略互動與利基定位。
-- **動態轉型視角**：面臨技術[[98_商業概念庫/technology-s-curve-technology-s-curve_技術 S 曲線 Technology S-Curve\|S曲線]]轉折與破壞式創新時，企業需運用 應付帳款週轉天數 評估資產重組與[[98_商業概念庫/dual-transformation-dual-transformation_雙軌轉型 Dual Transformation\|雙軌轉型]]路徑。
-- **營運實踐**：經理人需將此概念落實於產品藍圖、供應鏈協同與商業模式設計中。
+## 核心計算公式
+$$\text{DPO (Days)} = \frac{365}{\text{應付帳款周轉率 (PTR)}} = \frac{\text{平均應付帳款}}{\text{銷貨成本 (COGS)}} \times 365$$
 
-## 四、 關聯主題與模組
-* [[04_主題選修/12_產業分析與投資策略/00_課程導航與進度/mindmap_產業分析與投資策略_心智圖導航\|產業分析與投資策略 心智圖導航]]
-* [[04_主題選修/12_產業分析與投資策略/02_模組筆記/Module_1_總論與架構/M1-3_產業獲利結構差異與十大經典理論\|M1-3 產業獲利結構差異與十大經典理論]]
-* [[04_主題選修/12_產業分析與投資策略/02_模組筆記/Module_1_總論與架構/M1-6_產業分析模式與九大分析工具矩陣\|M1-6 產業分析模式與九大分析工具矩陣]]
-* [[98_商業概念庫/Porter's Five Forces Analysis_波特五力分析\|Porter's Five Forces Analysis_波特五力分析]]
-* [[98_商業概念庫/SCP模型\|SCP模型]]
+- **DPO 的槓桿力量**：如 Apple、戴爾（Dell）與沃爾瑪（Walmart），憑藉強大的產業壟斷地位將 DPO 延長至 90~120 天，而其存貨天數 DSI 與收現天數 DSO 極短，創造出**負現金轉換週期（Negative CCC）**，達成「拿供應商的錢做自己生意」的極致境界。
+
+---
+
+## 關聯概念
+- [[98_商業概念庫/payable-2_應付帳款周轉率\|payable-2_應付帳款周轉率]]：DPO 之母體比率。
+- [[98_商業概念庫/cash-switching-cycle_現金轉換週期\|cash-switching-cycle_現金轉換週期]]：負 CCC 的核心推動力。
+- [[home\|home]]：PMBA 知識庫首頁與模組導航。

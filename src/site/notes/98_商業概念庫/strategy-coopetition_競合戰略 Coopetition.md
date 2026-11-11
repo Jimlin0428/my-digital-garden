@@ -83,10 +83,10 @@ flowchart TD
    - **顧客（Customers）**：以金錢換取產品，追求顧客剩餘極大化；
    - **供應商（Suppliers）**：以資源換取貨款，追求供應商剩餘極大化。
 2. **水平軸（外部影響對稱）**：
-   - **[[98_商業概念庫/existing-competitors_現有競爭者\|競爭者 (Competitors)]]**：
+   - **[[existing-competitors_現有競爭者|競爭者 (Competitors)]]**：
      - *顧客端定義*：當顧客擁有對手的產品時，會**降低**對本公司產品的願付價格（如 Apple iOS vs. Google Android）；
      - *供給端定義*：當供應商服務對手時，向本公司供貨的意願或資源投入會降低。
-   - **[[98_商業概念庫/complementary-goods_互補品\|互補者 (Complementors)]]**：
+   - **[[complementary-goods_互補品|互補者 (Complementors)]]**：
      - *顧客端定義*：當顧客擁有對手的產品時，會**顯著提升**對本公司產品的願付價格（如 Intel CPU ＋ Microsoft Windows；AI GPU ＋ 水冷散熱模組；電動車 ＋ 超級充電站）；
      - *供給端定義*：當供應商同時服務互補者時，能因規模效應使本公司的零組件採購成本下降。
 
@@ -106,11 +106,11 @@ flowchart LR
     R --> T["T - 戰術與認知<br>(Tactics)"]
     T --> S["S - 遊戲範疇<br>(Scope)"]
 
-    style P fill:#e0f2fe,stroke:#0284c7,stroke-width:2px
-    style A fill:#fef9c3,stroke:#ca8a04,stroke-width:2px
-    style R fill:#dcfce7,stroke:#16a34a,stroke-width:2px
-    style T fill:#fce7f3,stroke:#db2777,stroke-width:2px
-    style S fill:#f3e8ff,stroke:#9333ea,stroke-width:2px
+    style P fill:#e0f2fe,stroke:#0284c7,stroke-width:2px,color:#075985
+    style A fill:#fef9c3,stroke:#ca8a04,stroke-width:2px,color:#713f12
+    style R fill:#dcfce7,stroke:#16a34a,stroke-width:2px,color:#14532d
+    style T fill:#fce7f3,stroke:#db2777,stroke-width:2px,color:#831843
+    style S fill:#f3e8ff,stroke:#9333ea,stroke-width:2px,color:#581c87
 ```
 
 ### 1. P（Players 參與者）：重塑賽局玩家
@@ -196,14 +196,14 @@ flowchart TD
     Pitfall3["❌ 陷阱三：過早暴露底牌引發防備<br>(Premature Exposure Trap)"] --> Fix3["✅ 防範：善用 PARTS 戰術訊號與合約條款，鎖定合作邊界"]
     Pitfall4["❌ 陷阱四：共謀定價觸犯反壟斷法<br>(Antitrust Violation Trap)"] --> Fix4["✅ 防範：嚴格遵守法律紅線，競合聚焦於規格標準與研發，非聯合哄抬價格"]
 
-    style Pitfall1 fill:#fee2e2,stroke:#ef4444,stroke-width:1px
-    style Pitfall2 fill:#fee2e2,stroke:#ef4444,stroke-width:1px
-    style Pitfall3 fill:#fee2e2,stroke:#ef4444,stroke-width:1px
-    style Pitfall4 fill:#fee2e2,stroke:#ef4444,stroke-width:1px
-    style Fix1 fill:#f0fdf4,stroke:#22c55e,stroke-width:1px
-    style Fix2 fill:#f0fdf4,stroke:#22c55e,stroke-width:1px
-    style Fix3 fill:#f0fdf4,stroke:#22c55e,stroke-width:1px
-    style Fix4 fill:#f0fdf4,stroke:#22c55e,stroke-width:1px
+    style Pitfall1 fill:#fee2e2,stroke:#ef4444,stroke-width:1px,color:#7f1d1d
+    style Pitfall2 fill:#fee2e2,stroke:#ef4444,stroke-width:1px,color:#7f1d1d
+    style Pitfall3 fill:#fee2e2,stroke:#ef4444,stroke-width:1px,color:#7f1d1d
+    style Pitfall4 fill:#fee2e2,stroke:#ef4444,stroke-width:1px,color:#7f1d1d
+    style Fix1 fill:#f0fdf4,stroke:#22c55e,stroke-width:1px,color:#14532d
+    style Fix2 fill:#f0fdf4,stroke:#22c55e,stroke-width:1px,color:#14532d
+    style Fix3 fill:#f0fdf4,stroke:#22c55e,stroke-width:1px,color:#14532d
+    style Fix4 fill:#f0fdf4,stroke:#22c55e,stroke-width:1px,color:#14532d
 ```
 
 ### 1. 死板零和鬥爭思維（Zero-Sum War Mentality）
@@ -223,19 +223,19 @@ flowchart TD
 ### 📚 官方教材與模組講義深度對接
 
 1. **《產業分析與投資策略》官方教材對接**：
-   - 📖 **Class 3 講義** ➔ [[04_主題選修/12_產業分析與投資策略/02_模組筆記/Module_1_總論與架構/M1-6_產業分析模式與九大分析工具矩陣\|M1-6 產業分析模式與九大分析工具矩陣]]：
+   - 📖 **Class 3 講義** ➔ [[04_主題選修/12_產業分析與投資策略/02_模組筆記/Module_1_總論與架構/M1-6_產業分析模式與九大分析工具矩陣|M1-6 產業分析模式與九大分析工具矩陣]]：
      - 深度解構模式六：**「價值網分析（Value Net Framework）」**四大角色（顧客、供應商、競爭者、互補品）與 PARTS 賽局戰略工具箱。
-   - 📖 **Class 1 講義** ➔ [[04_主題選修/12_產業分析與投資策略/02_模組筆記/Module_1_總論與架構/M1-3_產業獲利結構差異與十大經典理論\|M1-3 產業獲利結構差異與十大經典理論]]：
+   - 📖 **Class 1 講義** ➔ [[04_主題選修/12_產業分析與投資策略/02_模組筆記/Module_1_總論與架構/M1-3_產業獲利結構差異與十大經典理論|M1-3 產業獲利結構差異與十大經典理論]]：
      - 十大經典理論之**「賽局理論（Game Theory）」**——分析寡占市場中的策略互賴與正和競合。
-   - 📖 **Class 2 講義** ➔ [[04_主題選修/12_產業分析與投資策略/02_模組筆記/Module_1_總論與架構/M1-5_波特五力分析與量化架構\|M1-5 波特五力分析與量化架構]]：
+   - 📖 **Class 2 講義** ➔ [[04_主題選修/12_產業分析與投資策略/02_模組筆記/Module_1_總論與架構/M1-5_波特五力分析與量化架構|M1-5 波特五力分析與量化架構]]：
      - 批判波特五力之「靜態零和博弈偏誤」，確立互補品生產者在打破利潤天花板上的戰略樞紐地位。
 
 2. **《創業與企業財務策略》官方教材對接**：
-   - 📖 **Class 4 講義** ➔ [[04_主題選修/10_創業與企業財務策略/02_模組筆記/Module_1_創新思維與商業模式/M1-9_商業模式畫布架構與價值主張設計\|M1-9 商業模式畫布架構與價值主張設計]]：
+   - 📖 **Class 4 講義** ➔ [[04_主題選修/10_創業與企業財務策略/02_模組筆記/Module_1_創新思維與商業模式/M1-9_商業模式畫布架構與價值主張設計|M1-9 商業模式畫布架構與價值主張設計]]：
      - 商業模式畫布九大模組之**「關鍵合作夥伴（Key Partnerships）」**——透過策略聯盟、非競爭者合資與競合共生降低新創不確定性。
-   - 📖 **Class 4 講義** ➔ [[04_主題選修/10_創業與企業財務策略/02_模組筆記/Module_1_創新思維與商業模式/M1-10_七大市場力量與商業戰略價值公式\|M1-10 七大市場力量與商業戰略價值公式]]：
+   - 📖 **Class 4 講義** ➔ [[04_主題選修/10_創業與企業財務策略/02_模組筆記/Module_1_創新思維與商業模式/M1-10_七大市場力量與商業戰略價值公式|M1-10 七大市場力量與商業戰略價值公式]]：
      - 七大市場力量之「網絡效益（Network Economies）」——雙邊平台網絡夥伴的競合飛輪。
-   - 📖 **Class 2 講義** ➔ [[04_主題選修/10_創業與企業財務策略/02_模組筆記/Module_1_創新思維與商業模式/M1-4_創意思考工具與設計思考方法\|M1-4 創意思考工具與設計思考方法]]：
+   - 📖 **Class 2 講義** ➔ [[04_主題選修/10_創業與企業財務策略/02_模組筆記/Module_1_創新思維與商業模式/M1-4_創意思考工具與設計思考方法|M1-4 創意思考工具與設計思考方法]]：
      - **「兩全思維（Trade-On Thinking）」**——破除競爭與合作非黑即白的傳統對立二分法。
 
 ---
@@ -243,14 +243,14 @@ flowchart TD
 ### 🔗 核心概念原子卡片雙向鏈結
 
 - **價值創造與博弈體系**：
-  - [[98_商業概念庫/value-net_價值網\|value-net_價值網]]（顧客、供應商、競爭者、互補品四大角色對稱網絡）
-  - [[98_商業概念庫/complementary-goods_互補品\|complementary-goods_互補品]]（提升顧客對主產品願付價格 WTP 的共創夥伴）
-  - [[98_商業概念庫/competitive-advantage_競爭優勢\|competitive-advantage_競爭優勢]]（以獨特活動配適與附加價值拉開超額經濟租金）
-  - [[98_商業概念庫/vpc-value-price-cost_價值價格成本分析\|vpc-value-price-cost_價值價格成本分析]]（在做大 $V - C$ 的同時，精準防禦並切分 $P - C$）
+  - [[value-net_價值網]]（顧客、供應商、競爭者、互補品四大角色對稱網絡）
+  - [[complementary-goods_互補品]]（提升顧客對主產品願付價格 WTP 的共創夥伴）
+  - [[competitive-advantage_競爭優勢]]（以獨特活動配適與附加價值拉開超額經濟租金）
+  - [[vpc-value-price-cost_價值價格成本分析]]（在做大 $V - C$ 的同時，精準防禦並切分 $P - C$）
 - **競爭與策略分析體系**：
-  - [[98_商業概念庫/competitive-matrix_競爭矩陣\|competitive-matrix_競爭矩陣]]（多維動態競爭定位與空白區發掘）
-  - [[98_商業概念庫/differentiation-strategy_差異化策略\|differentiation-strategy_差異化策略]] ｜ [[98_商業概念庫/cost-leadership-strategy_成本領導策略\|cost-leadership-strategy_成本領導策略]]
-  - [[98_商業概念庫/economic-moat_經濟護城河\|economic-moat_經濟護城河]] ｜ [[98_商業概念庫/switching-costs_轉換成本\|switching-costs_轉換成本]]
+  - [[competitive-matrix_競爭矩陣]]（多維動態競爭定位與空白區發掘）
+  - [[differentiation-strategy_差異化策略]] ｜ [[cost-leadership-strategy_成本領導策略]]
+  - [[economic-moat_經濟護城河]] ｜ [[switching-costs_轉換成本]]
 - **財務績效與資本評價體系**：
-  - [[98_商業概念庫/return-on-invested-capital_資本投入報酬率\|return-on-invested-capital_資本投入報酬率]]（透過生態圈協同降低 CapEx 投資，推升 ROIC）
-  - [[98_商業概念庫/cash-switching-cycle_現金轉換週期\|cash-switching-cycle_現金轉換週期]] ｜ [[98_商業概念庫/total-asset-turnover-ratio_總資產週轉率\|total-asset-turnover-ratio_總資產週轉率]]
+  - [[return-on-invested-capital_資本投入報酬率]]（透過生態圈協同降低 CapEx 投資，推升 ROIC）
+  - [[cash-switching-cycle_現金轉換週期]] ｜ [[total-asset-turnover-ratio_總資產週轉率]]

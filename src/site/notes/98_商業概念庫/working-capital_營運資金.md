@@ -1,28 +1,21 @@
 ---
-{"dg-publish":true,"permalink":"/98/working-capital/","tags":["商業概念","財務分析","PMBA"],"dg-note-properties":{"aliases":["營運資金"],"tags":["商業概念","財務分析","PMBA"]}}
+{"dg-publish":true,"permalink":"/98/working-capital/","tags":["商業概念","財務管理","PMBA"],"dg-note-properties":{"aliases":["營運資金","Working Capital"],"tags":["商業概念","財務管理","PMBA"]}}
 ---
 
 
-# 營運資金
+# 營運資金 (Working Capital)
 
-## 一、 核心定義與本質
-- **營運資金** 是企業財務分析與商業評估中的關鍵量化指標。
-- 企業維持每日正常營運所需運用的日常資金邊際。
+> **【概念導航與對齊】**
+> **營運資金（Working Capital）** 是企業維持日常營業運作所需的短期流動性血液。在現代公司理財與企業估值中，經理人嚴格區分**會計營運資金（Accounting NWC）** 與 **非現金營業淨營運資金（Operating NWC）**，以透視供應鏈上下游的資金佔用與釋放效率。
 
-## 二、 計算公式與關鍵指標
-- **標準計算公式**：
-  $$\text{營運資金} = 流動資產 - 流動負債$$
-- **衡量維度**：
-  - 高指標：代表企業具備較強的市場訂價權、成本控管能力或資金營運效率。
-  - 低指標：代表產業競爭加劇、成本受擠壓或資產閒置與營運流轉過慢。
+---
 
-## 三、 產業意涵與策略判讀
-- **製造業與重資產產業**：需特別關注折舊與產能利用率對此指標的固定成本分攤影響。
-- **IC 設計與軟體平台**：多呈現高指標特徵，優勢來自無形資產與[[98_商業概念庫/network-effects_網絡效應\|network-effects_網絡效應]]，但需關注銷售與研發費用控管。
-- **零售通路與電商**：指標與流轉速度（如[[98_商業概念庫/inventory-turnover-ratio_存貨週轉率\|inventory-turnover-ratio_存貨週轉率]]）高度相關，需結合[[98_商業概念庫/cash-switching-cycle_現金轉換週期\|cash-zhuan-huan-cycle_現金轉換週期]]判讀真實營運健康度。
+## 核心主篇指引
+詳細的營業營運資金推導公式、短期償債指標分析、資本沉澱成本解析與企業標竿案例，請參閱主篇：
+👉 **[[98_商業概念庫/net-working-capital_淨營運資金\|net-working-capital_淨營運資金]]**
 
-## 四、 關聯主題與模組
-* [[04_主題選修/12_產業分析與投資策略/02_模組筆記/Module_1_總論與架構/M1-2_三大景氣循環與資本評價邏輯\|M1-2 三大景氣循環與資本評價邏輯]]
-* [[04_主題選修/12_產業分析與投資策略/02_模組筆記/Module_1_總論與架構/M1-4_台灣產業發展歷程與決策工具箱\|M1-4 台灣產業發展歷程與決策工具箱]]
-* [[98_商業概念庫/valuation-indicator-valuation-metrics_產業評價與估值指標 Valuation Metrics\|industry-ping-jia-yu-valuation-indicator-valuation-metrics_產業評價與估值指標 Valuation Metrics]]
-* [[98_商業概念庫/dupont-analysis_杜邦分析法\|du-bang-analysis-fa_杜邦分析法]]
+## 相關延伸閱讀
+- [[98_商業概念庫/working-capital-management_營運資金管理\|working-capital-management_營運資金管理]] · 配合型、激進型與保守型融資政策
+- [[98_商業概念庫/changes-in-net-working-capital_淨營運資金變動\|changes-in-net-working-capital_淨營運資金變動]] · 營運資金變動額對 FCFF 與 OCF 的調節機制
+- [[98_商業概念庫/CCC_現金循環週期 Cash Conversion Cycle\|CCC_現金循環週期 Cash Conversion Cycle]] · 應收、存貨與應付帳款天數核心量尺
+- [[home\|home]] · 全球 PMBA 知識庫總導航主頁面

@@ -10,13 +10,9 @@
 
 ```mermaid
 flowchart LR
-    A["胚胎期 (Embryonic)
-研發投入高 / 效能突破慢"] --> B["成長期 (Growth)
-關鍵突破 / 效能快速陡升"]
-    B --> C["成熟期 (Mature)
-物理極限 / 邊際收益遞減"]
-    C -.->|[[dual-transformation-dual-transformation_雙軌轉型 Dual Transformation|shuang-gui-zhuan-xing-dual-transformation_雙軌轉型 Dual Transformation]]| D["新 S 曲線 (Discontinuity)
-破壞式創新交替"]
+    A["胚胎期 (Embryonic)<br>研發投入高 / 效能突破慢"] --> B["成長期 (Growth)<br>關鍵突破 / 效能快速陡升"]
+    B --> C["成熟期 (Mature)<br>物理極限 / 邊際收益遞減"]
+    C -.->|"雙軌轉型 (Dual Transformation)"| D["新 S 曲線 (Discontinuity)<br>破壞式創新交替"]
 ```
 
 ---

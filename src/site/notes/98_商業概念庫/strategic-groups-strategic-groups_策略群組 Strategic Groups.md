@@ -148,6 +148,6 @@ Step 4: 空間剖析 ──▶ 測算各群組間的「策略距離 (Strategic D
   - [[04_主題選修/12_產業分析與投資策略/02_模組筆記/Module_1_總論與架構/M1-6_產業分析模式與九大分析工具矩陣\|M1-6 產業分析模式與九大分析工具矩陣]]（SGM 在產業九大分析工具鏈中的定位）
   - [[04_主題選修/12_產業分析與投資策略/00_課程導航與進度/mindmap_產業分析與投資策略_心智圖導航\|產業分析與投資策略 心智圖導航]]
 - 🔗 **核心概念原子卡片**：
-  - [[98_商業概念庫/Porter's Five Forces Analysis_波特五力分析\|Porter's Five Forces Analysis_波特五力分析]] ｜ [[98_商業概念庫/barriers-to-entry_進入障礙\|barriers-to-entry_進入障礙]] ｜ [[98_商業概念庫/exit-barriers_退出障礙\|exit-barriers_退出障礙]]
+  - [[98_商業概念庫/Porter's Five Forces Analysis_波特五力分析\|Porter's Five Forces Analysis_波特五力分析]] ｜ [[98_商業概念庫/barriers-to-entry_進入障礙\|barriers-to-entry_進入障礙]] ｜ [[98_商業概念庫/_待改寫草稿庫/exit-barriers_退出障礙\|exit-barriers_退出障礙]]
   - [[98_商業概念庫/value-curve_價值曲線\|value-curve_價值曲線]] ｜ [[98_商業概念庫/switching-costs_轉換成本\|switching-costs_轉換成本]] ｜ [[98_商業概念庫/economies-of-scale_規模經濟\|economies-of-scale_規模經濟]]
   - [[98_商業概念庫/product-differentiation_產品差異化\|product-differentiation_產品差異化]] ｜ [[98_商業概念庫/economic-moat_經濟護城河\|economic-moat_經濟護城河]] ｜ [[98_商業概念庫/SCP模型\|SCP模型]]

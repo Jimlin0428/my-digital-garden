@@ -263,10 +263,10 @@ graph TD
     Trap3["陷阱三：以工作擴大化充當豐富化<br/>（加量不加價）"] --> E3["後果：把離職同事的行政雜碎全甩給績優員工，美其名曰『器重你』"]
     Trap4["陷阱四：將認可公式化、形式化<br/>（廉價的獎狀）"] --> E4["後果：每月輪流頒發『優秀員工』，缺乏具體事蹟，淪為形式主義笑話"]
 
-    style Trap1 fill:#ffebee,stroke:#c62828,stroke-width:2px;
-    style Trap2 fill:#ffebee,stroke:#c62828,stroke-width:2px;
-    style Trap3 fill:#ffebee,stroke:#c62828,stroke-width:2px;
-    style Trap4 fill:#ffebee,stroke:#c62828,stroke-width:2px;
+    style Trap1 fill:#ffebee,stroke:#c62828,stroke-width:2px,color:#7f1d1d
+    style Trap2 fill:#ffebee,stroke:#c62828,stroke-width:2px,color:#7f1d1d
+    style Trap3 fill:#ffebee,stroke:#c62828,stroke-width:2px,color:#7f1d1d
+    style Trap4 fill:#ffebee,stroke:#c62828,stroke-width:2px,color:#7f1d1d
 ```
 
 ---
@@ -307,14 +307,14 @@ graph TD
 ## 八、 PMBA 模組與知識網絡鏈結
 
 ### 8.1 官方課程與模組雙向鏈結
-- [[04_主題選修/10_創業與企業財務策略/02_模組筆記/Module_1_創新思維與商業模式/M1-9_商業模式畫布架構與價值主張設計\|M1-9 商業模式畫布架構與價值主張設計]]：在「關鍵資源（Key Resources）」與「關鍵活動（Key Activities）」中，人力資本的激勵機制是維持營運飛輪運轉的核心底層。
-- [[04_主題選修/10_創業與企業財務策略/02_模組筆記/Module_1_創新思維與商業模式/M1-10_七大市場力量與商業戰略價值公式\|M1-10 七大市場力量與商業戰略價值公式]]：剖析「流程力量（Process Power）」與頂尖研發團隊的留存機制，卓越工程文化正是高保健與高激勵的結晶。
-- [[04_主題選修/12_產業分析與投資策略/02_模組筆記/Module_1_總論與架構/M1-3_產業獲利結構差異與十大經典理論\|M1-3 產業獲利結構差異與十大經典理論]]：組織能力（RBV 資源基礎觀點）視角下，無法被競爭對手輕易複製的默會知識與高敬業度團隊。
+- [[04_主題選修/10_創業與企業財務策略/02_模組筆記/Module_1_創新思維與商業模式/M1-9_商業模式畫布架構與價值主張設計|M1-9 商業模式畫布架構與價值主張設計]]：在「關鍵資源（Key Resources）」與「關鍵活動（Key Activities）」中，人力資本的激勵機制是維持營運飛輪運轉的核心底層。
+- [[04_主題選修/10_創業與企業財務策略/02_模組筆記/Module_1_創新思維與商業模式/M1-10_七大市場力量與商業戰略價值公式|M1-10 七大市場力量與商業戰略價值公式]]：剖析「流程力量（Process Power）」與頂尖研發團隊的留存機制，卓越工程文化正是高保健與高激勵的結晶。
+- [[04_主題選修/12_產業分析與投資策略/02_模組筆記/Module_1_總論與架構/M1-3_產業獲利結構差異與十大經典理論|M1-3 產業獲利結構差異與十大經典理論]]：組織能力（RBV 資源基礎觀點）視角下，無法被競爭對手輕易複製的默會知識與高敬業度團隊。
 
 ### 8.2 商業概念庫相關卡片
-- [[maslow-hierarchy-of-needs_馬斯洛需求層次理論\|maslow-hierarchy-of-needs_馬斯洛需求層次理論]]（高階與低階需求的理論對位）
-- [[self-determination-theory_自我決定理論\|self-determination-theory_自我決定理論]]（自主、勝任、關聯三大核心動機驅動力）
-- [[kano-model_卡諾模型\|kano-model_卡諾模型]]（產品滿意度中的必要品質 vs. 魅力品質）
-- [[okr-objectives-and-key-results_目標與關鍵成果\|okr-objectives-and-key-results_目標與關鍵成果]]（藉由野心目標激發內在工作成就）
-- [[98_商業概念庫/competitive-advantage_競爭優勢\|competitive-advantage_競爭優勢]]（組織執行力作為可持續競爭優勢的來源）
-- [[98_商業概念庫/dfm-design-for-manufacturability_可製造性設計\|dfm-design-for-manufacturability_可製造性設計]]（跨部門協同中的責任賦能與動機設計）
+- [[maslow-hierarchy-of-needs_馬斯洛需求層次理論|maslow-hierarchy-of-needs_馬斯洛需求層次理論]]（高階與低階需求的理論對位）
+- [[self-determination-theory_自我決定理論|self-determination-theory_自我決定理論]]（自主、勝任、關聯三大核心動機驅動力）
+- [[kano-model_卡諾模型|kano-model_卡諾模型]]（產品滿意度中的必要品質 vs. 魅力品質）
+- [[okr-objectives-and-key-results_目標與關鍵成果|okr-objectives-and-key-results_目標與關鍵成果]]（藉由野心目標激發內在工作成就）
+- [[competitive-advantage_競爭優勢|competitive-advantage_競爭優勢]]（組織執行力作為可持續競爭優勢的來源）
+- [[dfm-design-for-manufacturability_可製造性設計|dfm-design-for-manufacturability_可製造性設計]]（跨部門協同中的責任賦能與動機設計）

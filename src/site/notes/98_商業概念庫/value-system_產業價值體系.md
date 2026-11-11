@@ -62,7 +62,7 @@
 | **利潤衡量** | 企業營收 (Revenue) 扣除 內部九大活動總成本 (Internal Cost) | **產業利潤池 (Profit Pool)** 在不同垂直產業節點間的流動與瓜分 |
 | **競爭優勢來源** | 活動執行的卓越性 (Operational Effectiveness)、成本動因與差異化動因控制 | **結構性位置 (Positioning)**、對「利潤咽喉 (Chokepoint)」的掌控力、跨組織連結協同 |
 | **企業邊界考量** | 如何優化組織內部流程資源配置 | **自製或外購 (Make or Buy)**、垂直整合或垂直解構、專業分工邊界 |
-| **主要理論工具** | [[98_商業概念庫/Firm_Value_Chain_企業價值鏈\|Firm_Value_Chain_企業價值鏈]]、VRIO 分析、杜邦分析 | [[04_主題選修/12_產業分析與投資策略/99_歷史舊版備份/M2-1_產業垂直價值體系\|M2-1_產業垂直價值體系]]、[[98_商業概念庫/Smile_Curve_微笑曲線\|Smile_Curve_微笑曲線]]、[[98_商業概念庫/value-chokepoint_價值咽喉\|value-chokepoint_價值咽喉]]、TCE 交易成本理論 |
+| **主要理論工具** | [[Firm_Value_Chain_企業價值鏈]]、VRIO 分析、杜邦分析 | [[M2-1_產業垂直價值體系]]、[[Smile_Curve_微笑曲線]]、[[value-chokepoint_價值咽喉]]、TCE 交易成本理論 |
 
 ---
 
@@ -110,10 +110,10 @@ flowchart TD
     FocalFirm == "【下游連結：品牌拉力/通路激勵/配銷】" ==> Channels
     Channels == "【最終體驗：知覺價值/售後服務】" ==> Buyers
 
-    style Upstream fill:#eff6ff,stroke:#1d4ed8,stroke-width:2px
-    style FocalFirm fill:#fefce8,stroke:#a16207,stroke-width:2px
-    style Channels fill:#f0fdf4,stroke:#15803d,stroke-width:2px
-    style Buyers fill:#faf5ff,stroke:#7e22ce,stroke-width:2px
+    style Upstream fill:#eff6ff,stroke:#1d4ed8,stroke-width:2px,color:#1e3a8a
+    style FocalFirm fill:#fefce8,stroke:#a16207,stroke-width:2px,color:#713f12
+    style Channels fill:#f0fdf4,stroke:#15803d,stroke-width:2px,color:#14532d
+    style Buyers fill:#faf5ff,stroke:#7e22ce,stroke-width:2px,color:#581c87
 ```
 
 ---
@@ -134,7 +134,7 @@ flowchart TD
 ---
 
 ### 2.3 跨組織價值鏈協同的「五大連結條件 (Linkage Criteria)」
-在台大 PMBA《[[04_主題選修/12_產業分析與投資策略/_產業分析與投資策略 MOC\|產業分析與投資策略]]》M2-1 模組中，深入推導了決定上下游企業價值鏈能否完美咬合、甚至激發出超額綜效的**五大連結條件**：
+在台大 PMBA《[[_產業分析與投資策略 MOC|產業分析與投資策略]]》M2-1 模組中，深入推導了決定上下游企業價值鏈能否完美咬合、甚至激發出超額綜效的**五大連結條件**：
 
 ```
                     ┌─────────────────────────┐
@@ -208,7 +208,7 @@ flowchart TD
 ---
 
 ### 3.3 利潤咽喉 (Value Chokepoint) 的量化評估與掌控力
-在價值體系中，並非所有高毛利環節都具備長久統治力，唯有形成**「[[98_商業概念庫/value-chokepoint_價值咽喉\|價值咽喉 (Value Chokepoint)]]」**的節點，才能擁有持續向整條產業鏈徵收「過路費」的特權：
+在價值體系中，並非所有高毛利環節都具備長久統治力，唯有形成**「[[value-chokepoint_價值咽喉|價值咽喉 (Value Chokepoint)]]」**的節點，才能擁有持續向整條產業鏈徵收「過路費」的特權：
 
 $$	ext{價值咽喉指數 (VCI)} = f\left( 	ext{供需緊俏係數 (Tightness)}, rac{	ext{技術與物理壁壘 (Technical Barrier)}}{	ext{替代方案可得性 (Substitutes)}}, 	ext{下游產業轉換成本 (Switching Cost)} 
 ight)$$
@@ -293,7 +293,7 @@ $$\min_{	ext{邊界決策}} \Big( 	ext{生產製造成本 } C_p + 	ext{交易/�
 ## 五、 跨產業協同機制與二維網絡躍遷 (Cross-Industry Synergies & Value Net)
 
 ### 5.1 跨產業價值鏈的三大協同關聯 (Synergy Linkages)
-在《[[04_主題選修/12_產業分析與投資策略/_產業分析與投資策略 MOC\|產業分析與投資策略]]》M2-1 模組中，波特的價值體系進一步跨越了單一產業範疇，演繹出跨產業擴張的三大核心協同機制：
+在《[[_產業分析與投資策略 MOC|產業分析與投資策略]]》M2-1 模組中，波特的價值體系進一步跨越了單一產業範疇，演繹出跨產業擴張的三大核心協同機制：
 
 ```mermaid
 flowchart LR
@@ -312,9 +312,9 @@ flowchart LR
         F3["例：鴻海精密模具/機構件<br/>填補至電動車 MIH 平臺"]
     end
 
-    style Reinforcement fill:#f0f9ff,stroke:#0369a1,stroke-width:2px
-    style Sharing fill:#fefce8,stroke:#a16207,stroke-width:2px
-    style Filling fill:#f0fdf4,stroke:#15803d,stroke-width:2px
+    style Reinforcement fill:#f0f9ff,stroke:#0369a1,stroke-width:2px,color:#075985
+    style Sharing fill:#fefce8,stroke:#a16207,stroke-width:2px,color:#713f12
+    style Filling fill:#f0fdf4,stroke:#15803d,stroke-width:2px,color:#14532d
 ```
 
 1. **強化 (Reinforcement)**：
@@ -380,8 +380,8 @@ flowchart TD
 
     TraditionalIDM -. "產業典範轉移：價值體系垂直解構" .-> DisintegratedValueSystem
 
-    style TSMC fill:#fee2e2,stroke:#b91c1c,stroke-width:3px
-    style Equipment fill:#fef3c7,stroke:#d97706,stroke-width:2px
+    style TSMC fill:#fee2e2,stroke:#b91c1c,stroke-width:3px,color:#7f1d1d
+    style Equipment fill:#fef3c7,stroke:#d97706,stroke-width:2px,color:#78350f
 ```
 
 1. **商業模式創新解構一體化**：
@@ -444,9 +444,9 @@ flowchart TD
 
     UpstreamMFR ==> LogisticsThroat ==> RetailChannel
 
-    style UpstreamMFR fill:#fef3c7,stroke:#d97706,stroke-width:2px
-    style LogisticsThroat fill:#e0f2fe,stroke:#0284c7,stroke-width:2px
-    style RetailChannel fill:#dcfce7,stroke:#16a34a,stroke-width:2px
+    style UpstreamMFR fill:#fef3c7,stroke:#d97706,stroke-width:2px,color:#78350f
+    style LogisticsThroat fill:#e0f2fe,stroke:#0284c7,stroke-width:2px,color:#075985
+    style RetailChannel fill:#dcfce7,stroke:#16a34a,stroke-width:2px,color:#14532d
 ```
 
 1. **跨產業強化（Reinforcement）**：
@@ -496,21 +496,21 @@ flowchart TD
 
 ### 8.1 課程模組筆記導航
 - **對應模組精讀**：
-  - [[04_主題選修/12_產業分析與投資策略/99_歷史舊版備份/M2-1_產業垂直價值體系\|M2-1_產業垂直價值體系]] · 產業間分析起始站、跨產業三大協同與五大連結條件推導
-  - [[04_主題選修/12_產業分析與投資策略/99_歷史舊版備份/M1-5_波特五力分析與量化架構\|M1-5_波特五力分析與量化架構]] · 供應商與買方議價能力之深層驅動因子
-  - [[04_主題選修/12_產業分析與投資策略/99_歷史舊版備份/M2-3_產業價值網與競合分析\|M2-3_產業價值網與競合分析]] · 從垂直鏈條躍遷至二維價值網 (PARTS 模型與競合博弈)
-  - [[04_主題選修/12_產業分析與投資策略/02_模組筆記/Module_1_總論與架構/M1-4_台灣產業發展歷程與決策工具箱\|M1-4_台灣產業發展歷程與決策工具箱]] · 台灣代工王國之價值體系升級轉型之路
+  - [[M2-1_產業垂直價值體系]] · 產業間分析起始站、跨產業三大協同與五大連結條件推導
+  - [[M1-5_波特五力分析與量化架構]] · 供應商與買方議價能力之深層驅動因子
+  - [[M2-3_產業價值網與競合分析]] · 從垂直鏈條躍遷至二維價值網 (PARTS 模型與競合博弈)
+  - [[M1-4_台灣產業發展歷程與決策工具箱]] · 台灣代工王國之價值體系升級轉型之路
 - **課程總覽地圖**：
-  - [[04_主題選修/12_產業分析與投資策略/_產業分析與投資策略 MOC\|_產業分析與投資策略 MOC]] · 全課導航總地圖與知識體系索引
-  - [[04_主題選修/12_產業分析與投資策略/00_課程導航與進度/mindmap_產業分析與投資策略_心智圖導航\|mindmap_產業分析與投資策略_心智圖導航]] · 產業分析心智圖動態視角
+  - [[_產業分析與投資策略 MOC]] · 全課導航總地圖與知識體系索引
+  - [[mindmap_產業分析與投資策略_心智圖導航]] · 產業分析心智圖動態視角
 
 ### 8.2 核心商業概念底座
-- [[98_商業概念庫/Firm_Value_Chain_企業價值鏈\|Firm_Value_Chain_企業價值鏈]] · 企業內部九大價值活動、成本動因與差異化動因
-- [[98_商業概念庫/value-chokepoint_價值咽喉\|value-chokepoint_價值咽喉]] · 產業鏈關鍵瓶頸、定價特權與超額利潤抽取機制
-- [[98_商業概念庫/Smile_Curve_微笑曲線\|Smile_Curve_微笑曲線]] · 研發製造與通路兩端之附加價值分佈與商品化陷阱
-- [[98_商業概念庫/Added_Value_附加價值與定價權\|Added_Value_附加價值與定價權]] · 合作賽局理論下的價值創造與價值捕獲
-- [[98_商業概念庫/business-ecosystem_商業生態系\|business-ecosystem_商業生態系]] · 樞紐主導者 (Keystone) 與利基者之生態系共生架構
-- [[04_主題選修/12_產業分析與投資策略/01_總體與個案/cases_企業與產業案例庫\|cases_企業與產業案例庫]] · 台積電先進封裝、ASML EUV 與 Apple 供應鏈實戰案例集
+- [[Firm_Value_Chain_企業價值鏈]] · 企業內部九大價值活動、成本動因與差異化動因
+- [[value-chokepoint_價值咽喉]] · 產業鏈關鍵瓶頸、定價特權與超額利潤抽取機制
+- [[Smile_Curve_微笑曲線]] · 研發製造與通路兩端之附加價值分佈與商品化陷阱
+- [[Added_Value_附加價值與定價權]] · 合作賽局理論下的價值創造與價值捕獲
+- [[business-ecosystem_商業生態系]] · 樞紐主導者 (Keystone) 與利基者之生態系共生架構
+- [[cases_企業與產業案例庫]] · 台積電先進封裝、ASML EUV 與 Apple 供應鏈實戰案例集
 
 ### 8.3 知識回流主控台
-- [[home\|home]] · 全球 PMBA 知識庫總導航主頁面
+- [[home]] · 全球 PMBA 知識庫總導航主頁面

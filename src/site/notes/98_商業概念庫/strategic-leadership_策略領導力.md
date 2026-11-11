@@ -1,27 +1,28 @@
 ---
-{"dg-publish":true,"permalink":"/98/strategic-leadership/","tags":["商業概念","策略管理","PMBA"],"dg-note-properties":{"aliases":["策略領導力"],"tags":["商業概念","策略管理","PMBA"]}}
+{"dg-publish":true,"permalink":"/98/strategic-leadership/","tags":["商業概念","策略管理","高階治理","領導力","PMBA"],"dg-note-properties":{"aliases":["策略領導力","Strategic Leadership","高階梯隊理論","Upper Echelons Theory"],"tags":["商業概念","策略管理","高階治理","領導力","PMBA"]}}
 ---
 
 
-# 策略領導力
+# 策略領導力 (Strategic Leadership & Upper Echelons Architecture)
 
-## 一、 核心定義與本質
-- **策略領導力** 是管理學、產業分析與企業策略決策中的重要核心概念。
-- 其本質在於幫助企業經理人分析[[98_商業概念庫/market-structure_市場結構\|市場結構]]、[[98_商業概念庫/competitive-advantage_競爭優勢\|competition-you-shi_競爭優勢]]、資源配置與動態轉型方向，確保企業在競爭環境中建立永續營運壁壘。
+> **【核心決策摘要】**
+> **策略領導力（Strategic Leadership）** 是指高階經營團隊（TMT）與執行長**預測未來趨勢、維持戰略靈活性、賦予組織成員權力，並發起能夠為企業創造永續競爭優勢之重大戰略決策的綜合能耐**。策略領導力的理論基石奠基於漢布里克與梅森（Hambrick & Mason, 1984）的**高階梯隊理論（Upper Echelons Theory）**，該理論指出：**企業的戰略選擇與最終經營績效，本質上是高階經理人個人價值觀、認知基模、教育背景與職涯經驗的投射**。卓越策略領導者必須兼顧「當前現金流營運（Exploitation）」與「未來顛覆性創新探索（Exploration）」，展現雙元領導力（Ambidextrous Leadership）。
 
-## 二、 計算公式與關鍵指標（若為財務/量化概念）
-- **衡量維度與指標架構**：
-  - 量化指標：結合[[98_商業概念庫/industry-concentration_產業集中度\|industry-concentration_產業集中度]]、[[98_商業概念庫/economies-of-scale_規模經濟\|economies-of-scale_規模經濟]]效益與[[98_商業概念庫/return-on-invested-capital_資本投入報酬率\|資本回報率]]等維度綜合衡量。
-  - 質化評估：檢視企業在[[98_商業概念庫/barriers-to-entry_進入障礙\|barriers-to-entry_進入障礙]]、[[98_商業概念庫/switching-costs_轉換成本\|switching-costs_轉換成本]]與品牌資產上的護城河強度。
+---
 
-## 三、 產業意涵與策略判讀
-- **市場結構視角**：在寡占或高度集中市場中，策略領導力 決定了龍頭企業與追隨者的戰略互動與利基定位。
-- **動態轉型視角**：面臨技術[[98_商業概念庫/technology-s-curve-technology-s-curve_技術 S 曲線 Technology S-Curve\|S曲線]]轉折與破壞式創新時，企業需運用 策略領導力 評估資產重組與[[98_商業概念庫/dual-transformation-dual-transformation_雙軌轉型 Dual Transformation\|雙軌轉型]]路徑。
-- **營運實踐**：經理人需將此概念落實於產品藍圖、供應鏈協同與商業模式設計中。
+## 1. 高階梯隊理論模型 (Upper Echelons Perspective)
 
-## 四、 關聯主題與模組
-* [[04_主題選修/12_產業分析與投資策略/00_課程導航與進度/mindmap_產業分析與投資策略_心智圖導航\|產業分析與投資策略 心智圖導航]]
-* [[04_主題選修/12_產業分析與投資策略/02_模組筆記/Module_1_總論與架構/M1-3_產業獲利結構差異與十大經典理論\|M1-3 產業獲利結構差異與十大經典理論]]
-* [[04_主題選修/12_產業分析與投資策略/02_模組筆記/Module_1_總論與架構/M1-6_產業分析模式與九大分析工具矩陣\|M1-6 產業分析模式與九大分析工具矩陣]]
-* [[98_商業概念庫/Porter's Five Forces Analysis_波特五力分析\|Porter's Five Forces Analysis_波特五力分析]]
-* [[98_商業概念庫/SCP模型\|SCP模型]]
+```
+外部環境刺激 ──▶ 高階經理人心理認知濾鏡 ──▶ 戰略選擇 (Strategic Choices) ──▶ 組織最終績效
+(複雜性/不確定性)  • 價值觀與人生信念       • 多角化與 M&A 併購           • ROIC / 營收增長
+                   • 人格特質 (大五/冒險偏好) • R&D 投資與創新強度          • 股價表現與生存率
+                   • 功能背景 (財務/工程/行銷)• 財務槓桿配置
+```
+
+---
+
+## 2. 關聯概念與延伸閱讀 (Cross References)
+
+- [[corporate-governance_公司治理]]：董事會對高階策略領導團隊的激勵與制衡。
+- [[core-competence_核心能力]]：策略領導力在培育與保護組織核心能耐之應用。
+- [[home]]：PMBA 知識庫首頁與模組導航。
