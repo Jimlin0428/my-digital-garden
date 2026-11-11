@@ -5,7 +5,7 @@
 
 # 投入資本報酬率 (Return on Invested Capital, ROIC)
 
-> 💡 **導航與索引**：本篇為衡量企業經營「真實資本運用效率」與檢驗經濟護城河（Economic Moat）之最核心財務指標。探討企業每投入 1 塊錢營運資本能創造多少稅後核心營業利潤，以及價值創造利差（ROIC vs. WACC）。亦可參閱折現資本成本 [[98_商業概念庫/wacc_加權平均資本成本\|加權平均資本成本 (WACC)]]、股東回報拆解工具 [[98_商業概念庫/dupont-analysis_杜邦分析法\|杜邦分析法 (DuPont)]]、淨營運資金工具 [[98_商業概念庫/NWC_淨營運資本 Net Working Capital\|淨營運資本 (NWC)]]、總體資本結構 [[98_商業概念庫/capital-structure_資本結構\|資本結構 (Capital Structure)]]，以及企業內在價值評估 [[98_商業概念庫/_待改寫草稿庫/company-value_公司內在價值\|公司內在價值 (Company Value)]]。
+> 💡 **導航與索引**：本篇為衡量企業經營「真實資本運用效率」與檢驗經濟護城河（Economic Moat）之最核心財務指標。探討企業每投入 1 塊錢營運資本能創造多少稅後核心營業利潤，以及價值創造利差（ROIC vs. WACC）。亦可參閱折現資本成本 [[98_商業概念庫/wacc_加權平均資本成本\|加權平均資本成本 (WACC)]]、股東回報拆解工具 [[98_商業概念庫/dupont-analysis_杜邦分析法\|杜邦分析法 (DuPont)]]、淨營運資金工具 [[98_商業概念庫/NWC_淨營運資本 Net Working Capital\|淨營運資本 (NWC)]]、總體資本結構 [[98_商業概念庫/capital-structure_資本結構\|資本結構 (Capital Structure)]]，以及企業內在價值評估 [[98_商業概念庫/company-value_公司內在價值\|公司內在價值 (Company Value)]]。
 
 ---
 
@@ -144,4 +144,4 @@ flowchart TD
   - [[98_商業概念庫/dupont-analysis_杜邦分析法\|杜邦分析法 (DuPont)]]（權益報酬率 ROE 與 ROIC 之映射互補）
   - [[98_商業概念庫/NWC_淨營運資本 Net Working Capital\|淨營運資本 (NWC)]]（投入資本 IC 之核心流動資產構成要件）
   - [[98_商業概念庫/capital-structure_資本結構\|資本結構 (Capital Structure)]]（融資端 IC 組合與資金成本極小化）
-  - [[98_商業概念庫/_待改寫草稿庫/company-value_公司內在價值\|公司內在價值 (Company Value)]]（高 ROIC 護城河對公司內在價值之乘數效應）
+  - [[98_商業概念庫/company-value_公司內在價值\|公司內在價值 (Company Value)]]（高 ROIC 護城河對公司內在價值之乘數效應）

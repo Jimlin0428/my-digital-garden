@@ -8,7 +8,7 @@
 > **商管核心價值**：[[98_商業概念庫/industry-analysis_產業分析\|industry-analysis_產業分析]]是介於總體宏觀 (Macro) 與[[98_商業概念庫/_待改寫草稿庫/enterprise_企業\|enterprise_企業]]微觀 (Micro) 之間的中層分析 (Meso)。總體利率、通膨與地緣政治是所有產業獲利天花板與資本折現的源頭。  
 > **關聯看板**：[[05_AI選修/10_AiX/00_課程導航與進度/progress_📊 課程與筆記進度追蹤\|progress_📊 課程與筆記進度追蹤]] ｜ [[04_主題選修/12_產業分析與投資策略/01_總體與個案/cases_企業與產業案例庫\|企業與產業案例庫]]## 📖 總經時事記錄規範與傳導分析框架
 
-每週課前時事應遵循 **「總經事件 → 傳導路徑 → [[98_商業概念庫/industry-structure_產業結構\|industry-structure_產業結構]]衝擊 → [[98_商業概念庫/_待改寫草稿庫/capital-market_資本市場\|capital-market_資本市場]]與投資評價」** 之四階因果傳導模型：
+每週課前時事應遵循 **「總經事件 → 傳導路徑 → [[98_商業概念庫/industry-structure_產業結構\|industry-structure_產業結構]]衝擊 → [[98_商業概念庫/capital-market_資本市場\|capital-market_資本市場]]與投資評價」** 之四階因果傳導模型：
 
 > ### 💡 總經傳導四層因果鏈 (Macro Transmission Framework)
 > 
@@ -21,7 +21,7 @@
 > **Step 3. 實體產業營運衝擊 (Industry)**
 > └─ 例：高 CapEx 擴產計畫遞延、供應鏈去庫存壓力、產能過剩風險
 > 
-> **Step 4. [[98_商業概念庫/_待改寫草稿庫/capital-market_資本市場\|capital-market_資本市場]]估值與決策 (Valuation & Strategy)**
+> **Step 4. [[98_商業概念庫/capital-market_資本市場\|capital-market_資本市場]]估值與決策 (Valuation & Strategy)**
 > └─ 例：資產折現估值倍數承壓、投資門檻收益率 (Hurdle Rate) 抬升、防禦型資產配置
 
 ---
@@ -40,7 +40,7 @@
 - **對實體產業的結構性衝擊**：
   - [受惠產業（受刺激或利差擴大）]：
   - [受害產業（成本轉嫁困難或[[98_商業概念庫/capital-expenditure_資本支出\|capital-zhi-chu_資本支出]]受抑）]：
-- **對[[98_商業概念庫/_待改寫草稿庫/capital-market_資本市場\|capital-market_資本市場]]與投資評價的傳導路徑**：
+- **對[[98_商業概念庫/capital-market_資本市場\|capital-market_資本市場]]與投資評價的傳導路徑**：
   - [無風險利率與折現率 r 變化對資產估值 (Valuation Compression/Expansion) 的影響]：
   - [企業加權平均資本成本 (WACC) 與專案門檻收益率 (Hurdle Rate) 變化]：
 - **高階經理人與投資人策略啟發 (Actionable Insights)**：
@@ -62,8 +62,8 @@
   - **美國國債增速 vs 名目 GDP 增速**：國債年化增長 7.5% vs 名目 GDP 4.3%（債務增長為 GDP 之 1.7 倍），國債利息年增 7%~8%。
 - **對實體產業的結構性衝擊**：
   - 長端美債出現「買方罷工 (Buyer Strike)」，長天期無風險公債殖利率居高不下。
-  - 重資產基礎設施型產業（高 CapEx ＋ 高負債比）之融資借貸成本劇增，新增[[98_商業概念庫/_待改寫草稿庫/capacity-expansion_產能擴張\|chan-neng-kuo-zhang_產能擴張]]受限。
-- **對[[98_商業概念庫/_待改寫草稿庫/capital-market_資本市場\|capital-market_資本市場]]與投資評價的傳導路徑**：
+  - 重資產基礎設施型產業（高 CapEx ＋ 高負債比）之融資借貸成本劇增，新增[[98_商業概念庫/capacity-expansion_產能擴張\|chan-neng-kuo-zhang_產能擴張]]受限。
+- **對[[98_商業概念庫/capital-market_資本市場\|capital-market_資本市場]]與投資評價的傳導路徑**：
   - 依資產折現公式 $V_0 = \sum \frac{CF_t}{(1 + r)^t}$，折現率 $r$ 高懸必然引發估值乘數壓縮 (Valuation Compression)。
   - [[98_商業概念庫/_待改寫草稿庫/enterprise_企業\|enterprise_企業]] WACC 居高不下，提高[[98_商業概念庫/capital-budgeting_資本預算\|capital-yu-suan_資本預算]]門檻收益率（$\text{Hurdle Rate} = \text{WACC} + \alpha$），壓抑投資專案通過率。
 - **高階經理人與投資人策略啟發**：
@@ -176,7 +176,7 @@
 - **關聯週次 / 模組**：W03 ｜ Module 1：產業內分析（[[98_商業概念庫/industry-analysis_產業分析\|industry-analysis_產業分析]]模式）
 - **討論背景與核心事件**：
   - 課堂開場透過 Trading Economics 實時數據平台，深度檢視美國與全球總體經濟指標。
-  - 揭示[[98_商業概念庫/_待改寫草稿庫/capital-market_資本市場\|capital-market_資本市場]]中極為關鍵的深刻矛盾：**「實體經濟（Real Economy）與金融經濟（Financial Economy）的短期背離」**——好消息在金融市場反成利空！
+  - 揭示[[98_商業概念庫/capital-market_資本市場\|capital-market_資本市場]]中極為關鍵的深刻矛盾：**「實體經濟（Real Economy）與金融經濟（Financial Economy）的短期背離」**——好消息在金融市場反成利空！
 - **核心觀察指標 (Key Indicators)**：
   1. **美國關鍵總經數據**：
      - **官方失業率 (Unemployment Rate)**：4.1%，展現就業市場強烈韌性。
@@ -191,7 +191,7 @@
   - **好消息為何變成壞消息？**
     - 實體經濟層面：PMI 指數飆升至 57 與 58，代表工廠訂單與服務消費旺盛，實體經濟蓬勃。
     - 金融經濟層面：金融市場看的是「未來預期與[[98_商業概念庫/cost-of-capital_資金成本\|zi-jin-cost_資金成本]]折現」。強勁的經濟數據意味著通膨降溫阻力加大，市場對 10 月 FOMC 升息機率之預期大幅拉升（原本預期僅 4 成，數據發布後顯著攀升）。
-    - [[98_商業概念庫/_待改寫草稿庫/capital-market_資本市場\|capital-market_資本市場]]反應：十年期公債殖利率應聲衝破 5.0%，無風險折現率暴增導致美股三大指數全面下挫。
+    - [[98_商業概念庫/capital-market_資本市場\|capital-market_資本市場]]反應：十年期公債殖利率應聲衝破 5.0%，無風險折現率暴增導致美股三大指數全面下挫。
 - **AI 帶來全要素生產力（Total Factor Productivity, TFP）之結構性躍升**：
   - **裁員但利潤創高的背後邏輯**：2026 年初美股大型科技權值股（如微軟、Google、Meta）紛紛發動裁員，但營收與利潤卻持續創歷史新高。
   - **經濟學解釋**：在資本與勞動力投入不變（甚至勞動投入減少）的情況下，產出規模卻顯著放大，這在經濟學上稱為**「全要素生產力（TFP）」**的躍升，核心驅動力即為生成式 AI 在軟體工程、客服與營運自動化上的效率爆發。

@@ -113,4 +113,4 @@ $$\text{經濟增加值 (EVA)} = (\text{ROIC} - \text{WACC}) \times \text{投入
   - [[98_商業概念庫/return-on-invested-capital_資本投入報酬率\|return-on-invested-capital_資本投入報酬率]] ｜ [[98_商業概念庫/pvgo_成長機會現值\|pvgo_成長機會現值]]
   - [[98_商業概念庫/NPV_淨現值法 _Net Present Value\|淨現值法 (NPV)]] ｜ [[98_商業概念庫/_待改寫草稿庫/equity-cost_權益成本\|equity-cost_權益成本]]
   - [[98_商業概念庫/capital-structure_資本結構\|capital-structure_資本結構]] ｜ [[98_商業概念庫/capital-structure-2_最佳資本結構\|capital-structure-2_最佳資本結構]]
-  - [[98_商業概念庫/_待改寫草稿庫/enterprise-value-evaluation_企業價值評估\|enterprise-value-evaluation_企業價值評估]] ｜ [[98_商業概念庫/sva_股東價值增加\|股東價值增加 (SVA)]] ｜ [[98_商業概念庫/dcf_現金流量折現法\|現金流量折現法 (DCF)]] ｜ [[98_商業概念庫/capm_資本資產定價模型\|資本資產定價模型 (CAPM)]]
+  - [[98_商業概念庫/enterprise-value-evaluation_企業價值評估\|enterprise-value-evaluation_企業價值評估]] ｜ [[98_商業概念庫/sva_股東價值增加\|股東價值增加 (SVA)]] ｜ [[98_商業概念庫/dcf_現金流量折現法\|現金流量折現法 (DCF)]] ｜ [[98_商業概念庫/capm_資本資產定價模型\|資本資產定價模型 (CAPM)]]

@@ -13,7 +13,7 @@
 
 ### 2. 商業本質與底層邏輯
 - **獲利不等於現金（盈利品質的試金石）**：
-  - 依據[[98_商業概念庫/accrual-accounting_權責發生制\|權責發生制]]編製的[[98_商業概念庫/_待改寫草稿庫/income-statement_損益表\|income-statement_損益表]]中，帳面淨利（Net Income）極易受到收入認列時點、折舊年限攤提與存貨計價等人為會計政策的調節；
+  - 依據[[98_商業概念庫/accrual-accounting_權責發生制\|權責發生制]]編製的[[98_商業概念庫/income-statement_損益表\|income-statement_損益表]]中，帳面淨利（Net Income）極易受到收入認列時點、折舊年限攤提與存貨計價等人為會計政策的調節；
   - 帳面獲利再高，若充斥著未收現的[[98_商業概念庫/receivable_應收帳款\|應收帳款]]或滯銷的[[98_商業概念庫/inventory_存貨\|存貨]]，企業仍會面臨資金鏈斷裂的[[98_商業概念庫/insolvency-with-profit_黑字倒閉\|insolvency-with-profit_黑字倒閉]]風險。**自由現金流量是檢驗企業真實造血能力的硬通貨**。
 - **企業內在價值的唯一真實源泉**：
   - 在現代金融評價體系（如[[98_商業概念庫/dcf_現金流量折現法\|現金流量折現法 DCF]]）中，企業的實質內在價值絕非取決於短期每股盈餘（EPS）或本益比（P/E）倍數，而是等於其未來全生命週期所能創造的自由現金流量之折現值總和。
@@ -62,7 +62,7 @@ $$\text{FCFF} = \text{CFO} + \text{稅後利息費用} - \text{CapEx}$$
 | 變數符號 | 完整財務名稱 | 計算公式 / 定義 | 財務與決策意涵 |
 | :--- | :--- | :--- | :--- |
 | **NOPAT** | 稅後營業淨利 | $\text{EBIT} \times (1 - t)$ | 假設企業無任何負債時的純營業利潤（排除融資結構影響）。 |
-| **D&A** | 折舊與攤銷 | 損益表中的非現金成本 | 雖屬營業費用但並未實際流出現金，且能創造[[98_商業概念庫/_待改寫草稿庫/depreciation-tax-shield_折舊稅盾\|depreciation-tax-shield_折舊稅盾]]效益，故需全額加回。 |
+| **D&A** | 折舊與攤銷 | 損益表中的非現金成本 | 雖屬營業費用但並未實際流出現金，且能創造[[98_商業概念庫/depreciation-tax-shield_折舊稅盾\|depreciation-tax-shield_折舊稅盾]]效益，故需全額加回。 |
 | **CapEx** | 資本支出 | 期末固定資產 $-$ 期初固定資產 $+$ 當期折舊 | 企業維持現有產能與構築競爭護城河所必需投入的固定資本。 |
 | **$\Delta\text{NWC}$** | [[98_商業概念庫/changes-in-net-working-capital_淨營運資金變動\|changes-in-net-working-capital_淨營運資金變動]] | 期末 NWC $-$ 期初 NWC | 產銷規模擴張時被應收帳款與存貨積壓的現金（若為正代表資金被咬住，為現金流扣項）。 |
 
@@ -127,7 +127,7 @@ $$\text{FCFE} = \text{稅後淨利 (NI)} + \text{D\&A} - \text{CapEx} - \Delta\t
 * [[98_商業概念庫/capital-expenditure_資本支出\|capital-expenditure_資本支出]]
 * [[98_商業概念庫/net-working-capital_淨營運資金\|net-working-capital_淨營運資金]]
 * [[98_商業概念庫/changes-in-net-working-capital_淨營運資金變動\|changes-in-net-working-capital_淨營運資金變動]]
-* [[98_商業概念庫/_待改寫草稿庫/depreciation-tax-shield_折舊稅盾\|depreciation-tax-shield_折舊稅盾]]
+* [[98_商業概念庫/depreciation-tax-shield_折舊稅盾\|depreciation-tax-shield_折舊稅盾]]
 * [[98_商業概念庫/dcf_現金流量折現法\|dcf_現金流量折現法]]
 * [[98_商業概念庫/wacc_加權平均資本成本\|wacc_加權平均資本成本]]
 * [[98_商業概念庫/capm_資本資產定價模型\|capm_資本資產定價模型]]
