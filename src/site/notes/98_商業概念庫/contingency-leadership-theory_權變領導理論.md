@@ -1,27 +1,33 @@
 ---
-{"dg-publish":true,"permalink":"/98/contingency-leadership-theory/","tags":["商業概念","策略管理","PMBA"],"dg-note-properties":{"aliases":["權變領導理論"],"tags":["商業概念","策略管理","PMBA"]}}
+{"dg-publish":true,"permalink":"/98/contingency-leadership-theory/","tags":["商業概念","領導力","組織行為學","權變學派","PMBA"],"dg-note-properties":{"aliases":["權變領導理論","Contingency Leadership Theory","費德勒權變模型","Fiedler Contingency Model"],"tags":["商業概念","領導力","組織行為學","權變學派","PMBA"]}}
 ---
 
 
-# 權變領導理論
+# 權變領導理論 (Fiedler's Contingency Model of Leadership)
 
-## 一、 核心定義與本質
-- **權變領導理論** 是管理學、產業分析與企業策略決策中的重要核心概念。
-- 其本質在於幫助企業經理人分析[[98_商業概念庫/market-structure_市場結構\|市場結構]]、[[98_商業概念庫/competitive-advantage_競爭優勢\|competition-you-shi_競爭優勢]]、資源配置與動態轉型方向，確保企業在競爭環境中建立永續營運壁壘。
+> **【核心決策摘要】**
+> **權變領導理論（Contingency Leadership Theory）** 由弗雷德·費德勒（Fred Fiedler, 1967）開創，是組織管理中**徹底打破「普遍適用之單一最佳領導特質」迷思的里程碑框架**。費德勒主張：**領導效能並非單純取決於領導者的人格特質，而是取決於「領導者天生的人格傾向」與「領導情境對領導者的有利程度（Situational Favorableness）」兩者間的相互匹配**。費德勒採用**最不受歡迎工作夥伴量表（LPC）** 評估領導者本質為「**任務導向（Low LPC）**」抑或「**關係導向（High LPC）**」。研究證實：**在極端有利與極端不利的情境下，任務導向領導者效能最高；在中間適度有利情境下，關係導向領導者效能最優**。
 
-## 二、 計算公式與關鍵指標（若為財務/量化概念）
-- **衡量維度與指標架構**：
-  - 量化指標：結合[[98_商業概念庫/industry-concentration_產業集中度\|industry-concentration_產業集中度]]、[[98_商業概念庫/economies-of-scale_規模經濟\|economies-of-scale_規模經濟]]效益與[[98_商業概念庫/return-on-invested-capital_資本投入報酬率\|資本回報率]]等維度綜合衡量。
-  - 質化評估：檢視企業在[[98_商業概念庫/barriers-to-entry_進入障礙\|barriers-to-entry_進入障礙]]、[[98_商業概念庫/switching-costs_轉換成本\|switching-costs_轉換成本]]與品牌資產上的護城河強度。
+---
 
-## 三、 產業意涵與策略判讀
-- **市場結構視角**：在寡占或高度集中市場中，權變領導理論 決定了龍頭企業與追隨者的戰略互動與利基定位。
-- **動態轉型視角**：面臨技術[[98_商業概念庫/technology-s-curve-technology-s-curve_技術 S 曲線 Technology S-Curve\|S曲線]]轉折與破壞式創新時，企業需運用 權變領導理論 評估資產重組與[[98_商業概念庫/dual-transformation-dual-transformation_雙軌轉型 Dual Transformation\|雙軌轉型]]路徑。
-- **營運實踐**：經理人需將此概念落實於產品藍圖、供應鏈協同與商業模式設計中。
+## 1. 費德勒權變模型核心構架 (The 3 Situational Variables)
 
-## 四、 關聯主題與模組
-* [[04_主題選修/12_產業分析與投資策略/00_課程導航與進度/mindmap_產業分析與投資策略_心智圖導航\|產業分析與投資策略 心智圖導航]]
-* [[04_主題選修/12_產業分析與投資策略/02_模組筆記/Module_1_總論與架構/M1-3_產業獲利結構差異與十大經典理論\|M1-3 產業獲利結構差異與十大經典理論]]
-* [[04_主題選修/12_產業分析與投資策略/02_模組筆記/Module_1_總論與架構/M1-6_產業分析模式與九大分析工具矩陣\|M1-6 產業分析模式與九大分析工具矩陣]]
-* [[98_商業概念庫/Porter's Five Forces Analysis_波特五力分析\|Porter's Five Forces Analysis_波特五力分析]]
-* [[98_商業概念庫/SCP模型\|SCP模型]]
+費德勒將領導情境的有利程度拆解為三大維度（由強至弱）：
+1. **領導者-成員關係（Leader-Member Relations）**：部屬對領導者的信任、尊敬與喜愛程度（好 / 差）。
+2. **任務結構（Task Structure）**：工作目標與執行步驟的標準化與清晰度（高度結構化 / 低度結構化）。
+3. **職位權力（Position Power）**：組織賦予領導者的法定任免、獎懲與調薪實權（強 / 弱）。
+
+```
+情境有利度: 【極端有利 (Octants 1~3)】 ──▶ 【中度有利 (Octants 4~7)】 ──▶ 【極端不利 (Octant 8)】
+最佳風格:   🌟 【任務導向 Low LPC】         🌟 【關係導向 High LPC】        🌟 【任務導向 Low LPC】
+理由:       地位穩固、架構清晰,            情境充滿模糊與衝突,            混亂失控、權威蕩然無存,
+            領導者直接下令即可達成最高產出  唯有靠人際溝通建立共識         唯有強硬下令整頓方有一線生機
+```
+
+---
+
+## 2. 關聯概念與延伸閱讀 (Cross References)
+
+- [[situational-leadership-theory_情境領導理論]]：強調動態改變領導行為，與費德勒「改變情境而非改變個性」形成互補。
+- [[leadership-traits_領導特質論]]：特質學派向權變學派演進的起點。
+- [[home]]：PMBA 知識庫首頁與模組導航。

@@ -1,27 +1,23 @@
 ---
-{"dg-publish":true,"permalink":"/98/payable-2/","tags":["商業概念","策略管理","PMBA"],"dg-note-properties":{"aliases":["應付帳款周轉率"],"tags":["商業概念","策略管理","PMBA"]}}
+{"dg-publish":true,"permalink":"/98/payable-2/","tags":["商業概念","財務比率","供應商議價","營運資金","PMBA"],"dg-note-properties":{"aliases":["應付帳款周轉率","Accounts Payable Turnover","應付帳款週轉率","PTR"],"tags":["商業概念","財務比率","供應商議價","營運資金","PMBA"]}}
 ---
 
 
-# 應付帳款周轉率
+# 應付帳款周轉率 (Accounts Payable Turnover Ratio & Supplier Leverage)
 
-## 一、 核心定義與本質
-- **應付帳款周轉率** 是管理學、產業分析與企業策略決策中的重要核心概念。
-- 其本質在於幫助企業經理人分析[[98_商業概念庫/market-structure_市場結構\|市場結構]]、[[98_商業概念庫/competitive-advantage_競爭優勢\|competition-you-shi_競爭優勢]]、資源配置與動態轉型方向，確保企業在競爭環境中建立永續營運壁壘。
+> **【核心決策摘要】**
+> **應付帳款周轉率（Accounts Payable Turnover Ratio, PTR）** 衡量企業在特定期間內，**向供應商清償採購賒帳貨款的頻率與速度**。其計算方式為以**營業成本（COGS / 賒購總額）除以平均應付帳款餘額**。應付帳款周轉率與其對應的「應付帳款週轉天數（DPO）」反映了企業**對上游供應鏈的議價主導權與利用供應商無息商業信用（Interest-Free Trade Credit）的能力**。周轉天數越長，代表企業能越長時間佔用供應商資金作為自身的流動營運資金；然而若周轉過慢拖欠貨款，可能引發供應商斷供或拒絕給予批量優惠的嚴重信任危機。
 
-## 二、 計算公式與關鍵指標（若為財務/量化概念）
-- **衡量維度與指標架構**：
-  - 量化指標：結合[[98_商業概念庫/industry-concentration_產業集中度\|industry-concentration_產業集中度]]、[[98_商業概念庫/economies-of-scale_規模經濟\|economies-of-scale_規模經濟]]效益與[[98_商業概念庫/return-on-invested-capital_資本投入報酬率\|資本回報率]]等維度綜合衡量。
-  - 質化評估：檢視企業在[[98_商業概念庫/barriers-to-entry_進入障礙\|barriers-to-entry_進入障礙]]、[[98_商業概念庫/switching-costs_轉換成本\|switching-costs_轉換成本]]與品牌資產上的護城河強度。
+---
 
-## 三、 產業意涵與策略判讀
-- **市場結構視角**：在寡占或高度集中市場中，應付帳款周轉率 決定了龍頭企業與追隨者的戰略互動與利基定位。
-- **動態轉型視角**：面臨技術[[98_商業概念庫/technology-s-curve-technology-s-curve_技術 S 曲線 Technology S-Curve\|S曲線]]轉折與破壞式創新時，企業需運用 應付帳款周轉率 評估資產重組與[[98_商業概念庫/dual-transformation-dual-transformation_雙軌轉型 Dual Transformation\|雙軌轉型]]路徑。
-- **營運實踐**：經理人需將此概念落實於產品藍圖、供應鏈協同與商業模式設計中。
+## 核心公式
+$$\text{Payable Turnover (PTR)} = \frac{\text{銷貨成本 (COGS)}}{\text{平均應付帳款 (Average AP)}} = \frac{\text{COGS}}{\frac{\text{期初 AP} + \text{期末 AP}}{2}}$$
 
-## 四、 關聯主題與模組
-* [[04_主題選修/12_產業分析與投資策略/00_課程導航與進度/mindmap_產業分析與投資策略_心智圖導航\|產業分析與投資策略 心智圖導航]]
-* [[04_主題選修/12_產業分析與投資策略/02_模組筆記/Module_1_總論與架構/M1-3_產業獲利結構差異與十大經典理論\|M1-3 產業獲利結構差異與十大經典理論]]
-* [[04_主題選修/12_產業分析與投資策略/02_模組筆記/Module_1_總論與架構/M1-6_產業分析模式與九大分析工具矩陣\|M1-6 產業分析模式與九大分析工具矩陣]]
-* [[98_商業概念庫/Porter's Five Forces Analysis_波特五力分析\|Porter's Five Forces Analysis_波特五力分析]]
-* [[98_商業概念庫/SCP模型\|SCP模型]]
+$$\text{應付帳款週轉天數 (DPO)} = \frac{365}{\text{Payable Turnover}} = \frac{\text{平均應付帳款}}{\text{COGS}} \times 365$$
+
+---
+
+## 關聯概念
+- [[98_商業概念庫/payable-days-turnover_應付帳款週轉天數\|payable-days-turnover_應付帳款週轉天數]]：DPO 核心指標。
+- [[98_商業概念庫/cash-switching-cycle_現金轉換週期\|cash-switching-cycle_現金轉換週期]]：DPO 在現金轉換週期中之負向抵減項。
+- [[home\|home]]：PMBA 知識庫首頁與模組導航。

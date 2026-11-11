@@ -1,27 +1,29 @@
 ---
-{"dg-publish":true,"permalink":"/98/introduction-stage/","tags":["商業概念","策略管理","PMBA"],"dg-note-properties":{"aliases":["導入期"],"tags":["商業概念","策略管理","PMBA"]}}
+{"dg-publish":true,"permalink":"/98/introduction-stage/","tags":["商業概念","行銷策略","產品生命週期","定價策略","PMBA"],"dg-note-properties":{"aliases":["導入期","Introduction Stage","產品導入期","市場萌芽期"],"tags":["商業概念","行銷策略","產品生命週期","定價策略","PMBA"]}}
 ---
 
 
-# 導入期
+# 導入期 (Introduction Stage & Market Seeding)
 
-## 一、 核心定義與本質
-- **導入期** 是管理學、產業分析與企業策略決策中的重要核心概念。
-- 其本質在於幫助企業經理人分析[[98_商業概念庫/market-structure_市場結構\|市場結構]]、[[98_商業概念庫/competitive-advantage_競爭優勢\|competition-you-shi_競爭優勢]]、資源配置與動態轉型方向，確保企業在競爭環境中建立永續營運壁壘。
+> **【核心導流與概念摘要】**
+> **導入期（Introduction Stage）** 是[[98_商業概念庫/product-life-cycle_產品生命週期\|產品生命週期（PLC）]]的第一階段，指全新產品完成研發測試、正式投放市場並開展商業化推廣的初始時期。
+>
+> 完整深入的 PLC 理論架構、創新擴散曲線與跨越鴻溝策略，請直接參閱旗艦核心卡片：
+> 🔗 **[[98_商業概念庫/product-life-cycle_產品生命週期\|產品生命週期 (Product Life Cycle & Market Dynamics)]]**
 
-## 二、 計算公式與關鍵指標（若為財務/量化概念）
-- **衡量維度與指標架構**：
-  - 量化指標：結合[[98_商業概念庫/industry-concentration_產業集中度\|industry-concentration_產業集中度]]、[[98_商業概念庫/economies-of-scale_規模經濟\|economies-of-scale_規模經濟]]效益與[[98_商業概念庫/return-on-invested-capital_資本投入報酬率\|資本回報率]]等維度綜合衡量。
-  - 質化評估：檢視企業在[[98_商業概念庫/barriers-to-entry_進入障礙\|barriers-to-entry_進入障礙]]、[[98_商業概念庫/switching-costs_轉換成本\|switching-costs_轉換成本]]與品牌資產上的護城河強度。
+---
 
-## 三、 產業意涵與策略判讀
-- **市場結構視角**：在寡占或高度集中市場中，導入期 決定了龍頭企業與追隨者的戰略互動與利基定位。
-- **動態轉型視角**：面臨技術[[98_商業概念庫/technology-s-curve-technology-s-curve_技術 S 曲線 Technology S-Curve\|S曲線]]轉折與破壞式創新時，企業需運用 導入期 評估資產重組與[[98_商業概念庫/dual-transformation-dual-transformation_雙軌轉型 Dual Transformation\|雙軌轉型]]路徑。
-- **營運實踐**：經理人需將此概念落實於產品藍圖、供應鏈協同與商業模式設計中。
+## 核心特徵與策略基石
+- **市場特徵**：銷量低且增長緩慢，消費者對新產品缺乏認知，替代方案根深蒂固。
+- **財務特徵**：前期研發（R&D）費用與市場推廣行銷費用龐大，本業現金流呈現**顯著負值（$OCF < 0$）**，企業深陷「死亡之谷（Valley of Death）」。
+- **核心策略**：
+  1. **價格抉擇**：高研發專利產品採用[[98_商業概念庫/pricing_撇脂定價法\|撇脂定價（Price Skimming）]]快速回收投資；具備強大網絡效應之平台產品採用[[98_商業概念庫/penetration-pricing_市場滲透定價\|滲透定價（Penetration Pricing）]]搶佔先機。
+  2. **行銷重點**：重在「教育市場與品類認知建立」，而非強調單一品牌競爭。
 
-## 四、 關聯主題與模組
-* [[04_主題選修/12_產業分析與投資策略/00_課程導航與進度/mindmap_產業分析與投資策略_心智圖導航\|產業分析與投資策略 心智圖導航]]
-* [[04_主題選修/12_產業分析與投資策略/02_模組筆記/Module_1_總論與架構/M1-3_產業獲利結構差異與十大經典理論\|M1-3 產業獲利結構差異與十大經典理論]]
-* [[04_主題選修/12_產業分析與投資策略/02_模組筆記/Module_1_總論與架構/M1-6_產業分析模式與九大分析工具矩陣\|M1-6 產業分析模式與九大分析工具矩陣]]
-* [[98_商業概念庫/Porter's Five Forces Analysis_波特五力分析\|Porter's Five Forces Analysis_波特五力分析]]
-* [[98_商業概念庫/SCP模型\|SCP模型]]
+---
+
+## 關聯概念
+- [[98_商業概念庫/product-life-cycle_產品生命週期\|product-life-cycle_產品生命週期]]：完整 PLC 四階段矩陣。
+- [[98_商業概念庫/growth-stage_成長期\|growth-stage_成長期]]：導入期成功跨越鴻溝後的下一站。
+- [[98_商業概念庫/pricing_撇脂定價法\|pricing_撇脂定價法]]：導入期常用的溢價回收策略。
+- [[home\|home]]：PMBA 知識庫首頁與模組導航。

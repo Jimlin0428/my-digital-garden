@@ -93,7 +93,7 @@ flowchart TB
 2. **反映顧客真實購買決策（Key Buying Factors, KBF）**：
    - 座標軸必須來自消費者心中真實衡量價值的主觀尺度（如效率、安全、地位聲譽、總體持有成本 TCO），而非內部研發人員自造的生僻工程名詞。
 3. **具備可持續的策略位移可能性**：
-   - 企業可以透過研發創新、併購或行銷投入，在座標軸上實現主動位移，跨越[[98_商業概念庫/barriers-mobility-barriers_移動障礙 Mobility Barriers\|移動障礙]]。
+   - 企業可以透過研發創新、併購或行銷投入，在座標軸上實現主動位移，跨越[[barriers-mobility-barriers_移動障礙 Mobility Barriers|移動障礙]]。
 
 #### (3) 核心戰略產出：辨識「競爭空白區 (White Space)」
 在定位圖中，當某一象限或區域呈現「完全無廠商盤踞」或「僅有衰退老舊品牌」時，即形成**競爭空白區（White Space）**。經理人需進一步辨識：
@@ -135,7 +135,7 @@ flowchart TB
 $$\text{CPM 加權總分} = \sum_{i=1}^{n} (W_i \times R_{ij})$$
 
 其中：
-- $W_i$：第 $i$ 項[[98_商業概念庫/key-success-factors-ksf_關鍵成功因素\|關鍵成功因素 (Critical Success Factors, CSF / KSF)]]之權重，介於 $0.0 \sim 1.0$ 之間，且嚴格滿足：
+- $W_i$：第 $i$ 項[[key-success-factors-ksf_關鍵成功因素|關鍵成功因素 (Critical Success Factors, CSF / KSF)]]之權重，介於 $0.0 \sim 1.0$ 之間，且嚴格滿足：
   $$\sum_{i=1}^{n} W_i = 1.0$$
   權重高低由產業經濟特性決定，代表該因素對贏得市場份額與創造超額利潤的重要性。
 - $R_{ij}$：企業 $j$ 在第 $i$ 項關鍵成功因素上的客觀評分（Rating），標準商管評分尺度為 1~4 分：
@@ -194,9 +194,9 @@ $$\text{ROIC} \approx \frac{\text{NOPAT}}{\text{營收}} \times \frac{\text{營�
 | 競爭象限 | 財務特徵結構 | 核心策略與護城河來源 | 代表性標竿企業 | 經理人管理挑戰 |
 | :--- | :--- | :--- | :--- | :--- |
 | **高利潤 ✕ 低中週轉<br>(極致差異化象限)** | 毛利率 > 50%<br>營業利益率高<br>資產龐大但回報豐厚 | 專利池、壟斷技術工藝、無形資產、頂級品牌黏著度。 | **台積電**、**聯發科**、**大立光**、**晶華酒店** | 持續高額研發 CapEx 壓力；防範替代技術顛覆。 |
-| **中低利潤 ✕ 極高週轉<br>(規模營運效率象限)** | 毛利率微薄 (3~8%)<br>資產週轉極快<br>[[98_商業概念庫/cash-switching-cycle_現金轉換週期\|現金循環週期 (CCC)]] 接近或小於 0 | 供應鏈整合、規模採購成本、排程自動化、佔用上下游無息資金（Float）。 | **鴻海 (Foxconn)**、**廣達 (Quanta)**、**統一超 (7-11)**、**Costco** | 原物料通膨敏感；稍有呆料或呆帳即侵蝕全年生產利潤。 |
+| **中低利潤 ✕ 極高週轉<br>(規模營運效率象限)** | 毛利率微薄 (3~8%)<br>資產週轉極快<br>[[cash-switching-cycle_現金轉換週期|現金循環週期 (CCC)]] 接近或小於 0 | 供應鏈整合、規模採購成本、排程自動化、佔用上下游無息資金（Float）。 | **鴻海 (Foxconn)**、**廣達 (Quanta)**、**統一超 (7-11)**、**Costco** | 原物料通膨敏感；稍有呆料或呆帳即侵蝕全年生產利潤。 |
 | **兼具利潤與週轉<br>(超級平台象限)** | 超高毛利且輕資產運作<br>自由現金流充沛 | 雙邊平台網絡效應、生態系標準主導權、幾乎為零的邊際生產成本。 | **微軟**、**Meta**、**Alphabet** | 反壟斷監管審查；平台生態夥伴反叛。 |
-| **低利潤 ✕ 低週轉<br>(價值毀滅陷阱)** | 營益率跌破損益平衡點<br>存貨跌價損失沉重<br>ROIC < WACC | 無差異化紅海廝殺，高固定成本折舊卡死，缺乏定價權。 | 產能過剩的成熟製程二線晶圓廠、傳統夕陽重工組裝 | 必須果斷關廠、出售非核心資產、進行[[98_商業概念庫/dual-transformation-dual-transformation_雙軌轉型 Dual Transformation\|雙軌轉型]]。 |
+| **低利潤 ✕ 低週轉<br>(價值毀滅陷阱)** | 營益率跌破損益平衡點<br>存貨跌價損失沉重<br>ROIC < WACC | 無差異化紅海廝殺，高固定成本折舊卡死，缺乏定價權。 | 產能過剩的成熟製程二線晶圓廠、傳統夕陽重工組裝 | 必須果斷關廠、出售非核心資產、進行[[dual-transformation-dual-transformation_雙軌轉型 Dual Transformation|雙軌轉型]]。 |
 
 ---
 
@@ -211,11 +211,11 @@ flowchart LR
     Step3 --> Step4["Step 4<br>視覺化繪圖與驗證<br>(Mapping & Cross-Check)"]
     Step4 --> Step5["Step 5<br>制定非對稱行動戰略<br>(Asymmetric Counter-Strategy)"]
 
-    style Step1 fill:#f8fafc,stroke:#64748b,stroke-width:2px
-    style Step2 fill:#e0f2fe,stroke:#0284c7,stroke-width:2px
-    style Step3 fill:#fef9c3,stroke:#ca8a04,stroke-width:2px
-    style Step4 fill:#dcfce7,stroke:#16a34a,stroke-width:2px
-    style Step5 fill:#fce7f3,stroke:#db2777,stroke-width:2px
+    style Step1 fill:#f8fafc,stroke:#64748b,stroke-width:2px,color:#0f172a
+    style Step2 fill:#e0f2fe,stroke:#0284c7,stroke-width:2px,color:#075985
+    style Step3 fill:#fef9c3,stroke:#ca8a04,stroke-width:2px,color:#713f12
+    style Step4 fill:#dcfce7,stroke:#16a34a,stroke-width:2px,color:#14532d
+    style Step5 fill:#fce7f3,stroke:#db2777,stroke-width:2px,color:#831843
 ```
 
 ### Step 1：界定三層次競爭範疇 (Define Competitive Boundary)
@@ -226,7 +226,7 @@ flowchart LR
 
 ### Step 2：萃取正交關鍵維度與 KSF (Extract Orthogonal Dimensions)
 - **需求端（顧客視角）**：檢視顧客決策的八大基本價值向度（Holbrook 價值模型）：效率（省時省力）、卓越（性能品質）、地位（社交認同）、美感（設計外觀）等。
-- **供給端（廠商視角）**：檢視自身的[[98_商業概念庫/core-competence_核心能力\|核心能耐]]與經濟護城河：專利智財、高[[98_商業概念庫/switching-costs_轉換成本\|轉換成本]]、網絡效應、規模經濟。
+- **供給端（廠商視角）**：檢視自身的[[core-competence_核心能力|核心能耐]]與經濟護城河：專利智財、高[[switching-costs_轉換成本|轉換成本]]、網絡效應、規模經濟。
 - **維度篩選檢驗**：使用統計或邏輯驗證，確保所挑選之座標維度或評估指標彼此相關係數極低（$r < 0.3$），達成維度正交。
 
 ### Step 3：多源情報蒐集與三角驗證 (Triangulation & Benchmarking)
@@ -242,7 +242,7 @@ flowchart LR
 
 ### Step 5：制定非對稱行動戰略 (Formulate Asymmetric Strategy)
 根據矩陣落點，擬定具體反制行動：
-1. **利基據守**：若處於特定優勢空白區，立即建立技術專利池或客戶長期合約，加高[[98_商業概念庫/barriers-mobility-barriers_移動障礙 Mobility Barriers\|移動障礙]]防範後續追趕者。
+1. **利基據守**：若處於特定優勢空白區，立即建立技術專利池或客戶長期合約，加高[[barriers-mobility-barriers_移動障礙 Mobility Barriers|移動障礙]]防範後續追趕者。
 2. **非對稱打擊**：避開巨頭最強的維度（如不與龍頭比拼品牌廣告與通用功能），在巨頭結構性忽視的邊緣維度（如特定客製化、在地化法規支援、超高響應速度）發動致命一擊。
 3. **重新定義標準**：當自身陷入競爭劣勢時，打破既有遊戲規則，主動宣傳引導顧客重視新維度（如在晶片算力落後時，轉而教育市場關注「每瓦算力能耗比」與「全端軟體易用性」）。
 
@@ -280,7 +280,7 @@ flowchart TD
 | 5. 跨雲端與本地端泛用部署自由度 | 0.15 | **4 (0.60)** | 3 (0.45) | 1 (0.15) |
 | **加權總得分合計** | **1.00** | **3.80** | **2.95** | **2.65** |
 
-- **策略判讀**：NVIDIA 藉由軟體 CUDA 建立極深的顧客[[98_商業概念庫/switching-costs_轉換成本\|轉換成本]]，在通用 AI 訓練市場享有高達 70%~80% 的毛利率；雲端巨頭（CSP）難以在通用市場擊敗 NVIDIA，因此採取後向整合策略，自研特定 ASIC 來消化自家內部常態性推論流量，降低被單一供應商「卡脖子」的利潤剝削。
+- **策略判讀**：NVIDIA 藉由軟體 CUDA 建立極深的顧客[[switching-costs_轉換成本|轉換成本]]，在通用 AI 訓練市場享有高達 70%~80% 的毛利率；雲端巨頭（CSP）難以在通用市場擊敗 NVIDIA，因此採取後向整合策略，自研特定 ASIC 來消化自家內部常態性推論流量，降低被單一供應商「卡脖子」的利潤剝削。
 
 ---
 
@@ -323,7 +323,7 @@ flowchart TD
 
 | 零售型態 | 代表業者 | 象限特徵 | 核心客群痛點與價值主張 | 財務特徵 |
 | :--- | :--- | :--- | :--- | :--- |
-| **超小型極致便利** | **統一超 (7-Eleven)** | 高密集度 ✕ 小坪數 (30~50 坪) | 24 小時營業、下樓即達、代收水電、微波即食鮮食。 | 超高客流量、高坪效、[[98_商業概念庫/cash-switching-cycle_現金轉換週期\|負現金循環週期 (CCC < 0)]]。 |
+| **超小型極致便利** | **統一超 (7-Eleven)** | 高密集度 ✕ 小坪數 (30~50 坪) | 24 小時營業、下樓即達、代收水電、微波即食鮮食。 | 超高客流量、高坪效、[[cash-switching-cycle_現金轉換週期|負現金循環週期 (CCC < 0)]]。 |
 | **社區生鮮大冰箱** | **全聯福利中心** | 中高密集度 ✕ 中坪數 (150~300 坪) | 步行/騎車可達，提供平價生鮮蔬果、乾貨日用品一站購足。 | 高存貨週轉率、極強生鮮供應鏈冷鏈議價權。 |
 | **美妝生活休閒專門** | **寶雅 (POYA)** | **中密集度 ✕ 大坪數 (300~500 坪)<br>【完美競爭空白區】** | 明亮寬敞、女性美妝/襪品/生活雜貨一應俱全，滿足「悠閒逛街挖寶」體驗。 | **高毛利率 (> 43%)**、高顧客客單價、高門市留客時間。 |
 | **量販倉儲批量採購** | **Costco (好市多)** | 低密集度 ✕ 超大坪數 (數千坪) | 郊區開車採購、大包裝批量批發價、會員費訂閱制模式。 | 極低毛利率 (10~14%)，全靠高週轉率與會員費貢獻純益。 |
@@ -344,14 +344,14 @@ flowchart TD
     Pitfall3["❌ 陷阱三：靜態快照盲點<br>(Static Snapshot Trap)"] --> Sol3["✅ 防範：繪製 3 年演化向量軌跡，預判對手動態報復"]
     Pitfall4["❌ 陷阱四：行銷近視症<br>(Marketing Myopia)"] --> Sol4["✅ 防範：強制納入跨界科技巨頭與新技術替代品"]
 
-    style Pitfall1 fill:#fee2e2,stroke:#ef4444,stroke-width:1px
-    style Pitfall2 fill:#fee2e2,stroke:#ef4444,stroke-width:1px
-    style Pitfall3 fill:#fee2e2,stroke:#ef4444,stroke-width:1px
-    style Pitfall4 fill:#fee2e2,stroke:#ef4444,stroke-width:1px
-    style Sol1 fill:#f0fdf4,stroke:#22c55e,stroke-width:1px
-    style Sol2 fill:#f0fdf4,stroke:#22c55e,stroke-width:1px
-    style Sol3 fill:#f0fdf4,stroke:#22c55e,stroke-width:1px
-    style Sol4 fill:#f0fdf4,stroke:#22c55e,stroke-width:1px
+    style Pitfall1 fill:#fee2e2,stroke:#ef4444,stroke-width:1px,color:#7f1d1d
+    style Pitfall2 fill:#fee2e2,stroke:#ef4444,stroke-width:1px,color:#7f1d1d
+    style Pitfall3 fill:#fee2e2,stroke:#ef4444,stroke-width:1px,color:#7f1d1d
+    style Pitfall4 fill:#fee2e2,stroke:#ef4444,stroke-width:1px,color:#7f1d1d
+    style Sol1 fill:#f0fdf4,stroke:#22c55e,stroke-width:1px,color:#14532d
+    style Sol2 fill:#f0fdf4,stroke:#22c55e,stroke-width:1px,color:#14532d
+    style Sol3 fill:#f0fdf4,stroke:#22c55e,stroke-width:1px,color:#14532d
+    style Sol4 fill:#f0fdf4,stroke:#22c55e,stroke-width:1px,color:#14532d
 ```
 
 ### 1. 「Pitch Deck 自嗨偏誤」（Confirmation Bias & Feature Fallacy）
@@ -375,18 +375,18 @@ flowchart TD
 ## 六、 關聯主題與模組網絡
 
 - 🧭 **課程核心模組對接**：
-  - [[04_主題選修/12_產業分析與投資策略/02_模組筆記/Module_1_總論與架構/M1-6_產業分析模式與九大分析工具矩陣\|M1-6 產業分析模式與九大分析工具矩陣]]（產業結構層至企業層分析工具鏈、GE矩陣、BCG矩陣）
-  - [[04_主題選修/12_產業分析與投資策略/02_模組筆記/Module_1_總論與架構/M1-7_產業市場空間與策略群組\|M1-7 產業市場空間與策略群組]]（策略群組地圖 SGM 構建、七大移動障礙、發掘競爭空白區 White Space）
-  - [[04_主題選修/12_產業分析與投資策略/02_模組筆記/Module_1_總論與架構/M1-5_波特五力分析與量化架構\|M1-5 波特五力分析與量化架構]]（五力雷達圖、產業獲利天花板與結構量化模型）
-  - [[04_主題選修/10_創業與企業財務策略/02_模組筆記/Module_2_產品創新與精實驗證/M2-1_精實產品開發與服務創新驗證\|M2-1 精實產品開發與服務創新驗證]]（ROIC 競爭矩陣推導、資產週轉率 vs. 營業利益率、CCC 資金真空期）
-  - [[04_主題選修/12_產業分析與投資策略/02_模組筆記/Module_1_總論與架構/M1-3_產業獲利結構差異與十大經典理論\|M1-3 產業獲利結構差異與十大經典理論]]（哈佛學派 SCP 典範由上而下決定論）
-  - [[04_主題選修/12_產業分析與投資策略/00_課程導航與進度/mindmap_產業分析與投資策略_心智圖導航\|產業分析與投資策略 心智圖導航]]
+  - [[04_主題選修/12_產業分析與投資策略/02_模組筆記/Module_1_總論與架構/M1-6_產業分析模式與九大分析工具矩陣|M1-6 產業分析模式與九大分析工具矩陣]]（產業結構層至企業層分析工具鏈、GE矩陣、BCG矩陣）
+  - [[04_主題選修/12_產業分析與投資策略/02_模組筆記/Module_1_總論與架構/M1-7_產業市場空間與策略群組|M1-7 產業市場空間與策略群組]]（策略群組地圖 SGM 構建、七大移動障礙、發掘競爭空白區 White Space）
+  - [[04_主題選修/12_產業分析與投資策略/02_模組筆記/Module_1_總論與架構/M1-5_波特五力分析與量化架構|M1-5 波特五力分析與量化架構]]（五力雷達圖、產業獲利天花板與結構量化模型）
+  - [[04_主題選修/10_創業與企業財務策略/02_模組筆記/Module_2_產品創新與精實驗證/M2-1_精實產品開發與服務創新驗證|M2-1 精實產品開發與服務創新驗證]]（ROIC 競爭矩陣推導、資產週轉率 vs. 營業利益率、CCC 資金真空期）
+  - [[04_主題選修/12_產業分析與投資策略/02_模組筆記/Module_1_總論與架構/M1-3_產業獲利結構差異與十大經典理論|M1-3 產業獲利結構差異與十大經典理論]]（哈佛學派 SCP 典範由上而下決定論）
+  - [[mindmap_產業分析與投資策略_心智圖導航|產業分析與投資策略 心智圖導航]]
 - 🔗 **核心概念原子卡片**：
-  - [[98_商業概念庫/competitive-advantage_競爭優勢\|competitive-advantage_競爭優勢]] ｜ [[98_商業概念庫/competition-strategy_競爭策略\|competition-strategy_競爭策略]] ｜ [[98_商業概念庫/positioning-strategy_定位策略\|positioning-strategy_定位策略]]
-  - [[98_商業概念庫/strategic-groups-strategic-groups_策略群組 Strategic Groups\|策略群組 (Strategic Groups)]] ｜ [[98_商業概念庫/barriers-mobility-barriers_移動障礙 Mobility Barriers\|移動障礙 (Mobility Barriers)]]
-  - [[98_商業概念庫/value-proposition_價值主張\|value-proposition_價值主張]] ｜ [[98_商業概念庫/value-curve_價值曲線\|value-curve_價值曲線]] ｜ [[98_商業概念庫/economic-moat_經濟護城河\|economic-moat_經濟護城河]]
-  - [[98_商業概念庫/cost-leadership-strategy_成本領導策略\|cost-leadership-strategy_成本領導策略]] ｜ [[98_商業概念庫/differentiation-strategy_差異化策略\|differentiation-strategy_差異化策略]] ｜ [[98_商業概念庫/focused-strategy_集中化策略\|focused-strategy_集中化策略]]
-  - [[98_商業概念庫/product-differentiation_產品差異化\|product-differentiation_產品差異化]] ｜ [[98_商業概念庫/barriers-to-entry_進入障礙\|barriers-to-entry_進入障礙]] ｜ [[98_商業概念庫/switching-costs_轉換成本\|switching-costs_轉換成本]]
-  - [[98_商業概念庫/economies-of-scale_規模經濟\|economies-of-scale_規模經濟]] ｜ [[98_商業概念庫/return-on-invested-capital_資本投入報酬率\|return-on-invested-capital_資本投入報酬率]] ｜ [[98_商業概念庫/total-asset-turnover-ratio_總資產週轉率\|total-asset-turnover-ratio_總資產週轉率]]
-  - [[98_商業概念庫/cash-switching-cycle_現金轉換週期\|cash-switching-cycle_現金轉換週期]] ｜ [[98_商業概念庫/dupont-analysis_杜邦分析法\|dupont-analysis_杜邦分析法]] ｜ [[98_商業概念庫/strategy-coopetition_競合戰略 Coopetition\|strategy-coopetition_競合戰略 Coopetition]]
-  - [[98_商業概念庫/value-net_價值網\|value-net_價值網]] ｜ [[98_商業概念庫/BCG矩陣\|BCG矩陣]] ｜ [[98_商業概念庫/SWOT分析\|SWOT分析]] ｜ [[98_商業概念庫/nine-box-matrix_九宮格法\|nine-box-matrix_九宮格法]] ｜ [[98_商業概念庫/vpc-value-price-cost_價值價格成本分析\|VPC 價值價格成本分析]]
+  - [[competitive-advantage_競爭優勢]] ｜ [[competition-strategy_競爭策略]] ｜ [[positioning-strategy_定位策略]]
+  - [[strategic-groups-strategic-groups_策略群組 Strategic Groups|策略群組 (Strategic Groups)]] ｜ [[barriers-mobility-barriers_移動障礙 Mobility Barriers|移動障礙 (Mobility Barriers)]]
+  - [[value-proposition_價值主張]] ｜ [[value-curve_價值曲線]] ｜ [[economic-moat_經濟護城河]]
+  - [[cost-leadership-strategy_成本領導策略]] ｜ [[differentiation-strategy_差異化策略]] ｜ [[focused-strategy_集中化策略]]
+  - [[product-differentiation_產品差異化]] ｜ [[barriers-to-entry_進入障礙]] ｜ [[switching-costs_轉換成本]]
+  - [[economies-of-scale_規模經濟]] ｜ [[return-on-invested-capital_資本投入報酬率]] ｜ [[total-asset-turnover-ratio_總資產週轉率]]
+  - [[cash-switching-cycle_現金轉換週期]] ｜ [[dupont-analysis_杜邦分析法]] ｜ [[strategy-coopetition_競合戰略 Coopetition]]
+  - [[value-net_價值網]] ｜ [[BCG矩陣]] ｜ [[SWOT分析]] ｜ [[nine-box-matrix_九宮格法]] ｜ [[vpc-value-price-cost_價值價格成本分析|VPC 價值價格成本分析]]

@@ -1,27 +1,48 @@
 ---
-{"dg-publish":true,"permalink":"/98/inventory-3/","tags":["商業概念","策略管理","PMBA"],"dg-note-properties":{"aliases":["存貨周轉率"],"tags":["商業概念","策略管理","PMBA"]}}
+{"dg-publish":true,"permalink":"/98/inventory-3/","tags":["商業概念","財務比率","營運資金","供應鏈管理","杜邦分析","PMBA"],"dg-note-properties":{"aliases":["存貨周轉率","Inventory Turnover","存貨週轉率","ITR","Inventory Turnover Ratio"],"tags":["商業概念","財務比率","營運資金","供應鏈管理","杜邦分析","PMBA"]}}
 ---
 
 
-# 存貨周轉率
+# 存貨周轉率 (Inventory Turnover Ratio & Working Capital Velocity)
 
-## 一、 核心定義與本質
-- **存貨周轉率** 是管理學、產業分析與企業策略決策中的重要核心概念。
-- 其本質在於幫助企業經理人分析[[98_商業概念庫/market-structure_市場結構\|市場結構]]、[[98_商業概念庫/competitive-advantage_競爭優勢\|competition-you-shi_競爭優勢]]、資源配置與動態轉型方向，確保企業在競爭環境中建立永續營運壁壘。
+> **【核心決策摘要】**
+> **存貨周轉率（Inventory Turnover Ratio, ITR）** 是衡量企業在特定會計期間內，**存貨轉化為銷售收入的循環頻率與庫存去化速度**的最核心營運效率指標。其以**銷貨成本（COGS）除以平均存貨餘額**。存貨周轉率高，代表產品暢銷、資金佔用少、存貨跌價與報廢風險低；周轉率低，則警示企業可能面臨**產品滯銷、存貨跌價損失積累、以及營運資金被庫存吞噬的流動性危機**。存貨周轉率直接決定了[[98_商業概念庫/cash-switching-cycle_現金轉換週期\|現金轉換週期（CCC）]]中的「存貨周轉天數（DSI）」，更是[[98_商業概念庫/dupont-analysis_杜邦分析法\|杜邦分析法]]中「總資產周轉率」的最關鍵驅動因子之一。
 
-## 二、 計算公式與關鍵指標（若為財務/量化概念）
-- **衡量維度與指標架構**：
-  - 量化指標：結合[[98_商業概念庫/industry-concentration_產業集中度\|industry-concentration_產業集中度]]、[[98_商業概念庫/economies-of-scale_規模經濟\|economies-of-scale_規模經濟]]效益與[[98_商業概念庫/return-on-invested-capital_資本投入報酬率\|資本回報率]]等維度綜合衡量。
-  - 質化評估：檢視企業在[[98_商業概念庫/barriers-to-entry_進入障礙\|barriers-to-entry_進入障礙]]、[[98_商業概念庫/switching-costs_轉換成本\|switching-costs_轉換成本]]與品牌資產上的護城河強度。
+---
 
-## 三、 產業意涵與策略判讀
-- **市場結構視角**：在寡占或高度集中市場中，存貨周轉率 決定了龍頭企業與追隨者的戰略互動與利基定位。
-- **動態轉型視角**：面臨技術[[98_商業概念庫/technology-s-curve-technology-s-curve_技術 S 曲線 Technology S-Curve\|S曲線]]轉折與破壞式創新時，企業需運用 存貨周轉率 評估資產重組與[[98_商業概念庫/dual-transformation-dual-transformation_雙軌轉型 Dual Transformation\|雙軌轉型]]路徑。
-- **營運實踐**：經理人需將此概念落實於產品藍圖、供應鏈協同與商業模式設計中。
+## 1. 核心公式與計算防呆規範 (Formula & Calculation Rules)
 
-## 四、 關聯主題與模組
-* [[04_主題選修/12_產業分析與投資策略/00_課程導航與進度/mindmap_產業分析與投資策略_心智圖導航\|產業分析與投資策略 心智圖導航]]
-* [[04_主題選修/12_產業分析與投資策略/02_模組筆記/Module_1_總論與架構/M1-3_產業獲利結構差異與十大經典理論\|M1-3 產業獲利結構差異與十大經典理論]]
-* [[04_主題選修/12_產業分析與投資策略/02_模組筆記/Module_1_總論與架構/M1-6_產業分析模式與九大分析工具矩陣\|M1-6 產業分析模式與九大分析工具矩陣]]
-* [[98_商業概念庫/Porter's Five Forces Analysis_波特五力分析\|Porter's Five Forces Analysis_波特五力分析]]
-* [[98_商業概念庫/SCP模型\|SCP模型]]
+$$\text{Inventory Turnover} = \frac{\text{銷貨成本 (Cost of Goods Sold, COGS)}}{\text{平均存貨 (Average Inventory)}} = \frac{\text{COGS}}{\frac{\text{期初存貨} + \text{期末存貨}}{2}}$$
+
+$$\text{存貨週轉天數 (DSI)} = \frac{365}{\text{Inventory Turnover}} = \frac{\text{平均存貨}}{\text{COGS}} \times 365$$
+
+```
+                   ┌─────────────────────────────────────────────────────────┐
+                   │             存貨周轉率分子分母正確性對照                │
+                   └────────────────────────────┬────────────────────────────┘
+                                                ▼
+       ┌────────────────────────────────────────┴────────────────────────────────────────┐
+       ▼ 正確規範：採用【銷貨成本 (COGS)】     ▼ 常見錯誤：採用【營業收入 (Revenue)】    │
+    • 存貨按歷史成本 (Cost) 計價入帳          • 營業收入包含銷售毛利加價 (Mark-up)       │
+    • 分子分母計價基礎一致 (Cost-to-Cost)     • 虛增分子，人為誇大周轉率 20%~50%         │
+    • 真實反映存貨被實體銷耗的速度            • 扭曲跨產業庫存管理效率比較               │
+```
+
+---
+
+## 2. 存貨周轉率高低的雙刃劍權衡 (The Strategic Trade-Off)
+
+| 指標表現 | 戰略優勢 (Pros) | 潛在隱患與代價 (Cons) |
+| :--- | :--- | :--- |
+| **周轉率極高**<br>(DSI 極短) | • 資金佔用極小，[[net-working-capital_淨營運資金|淨營運資金（NWC）]]極度精簡<br>• 倉儲租金、保險與搬運成本最低<br>• 幾乎零[[inventory-2_存貨跌價損失|存貨跌價損失]]與過期報廢風險 | • 安全庫存不足，隨時面臨缺貨斷供（Stockout）<br>• 失去大批量採購折扣（Volume Discounts）<br>• 緊急追單與急件物流推升運輸成本 |
+| **周轉率過低**<br>(DSI 嚴重拉長) | • 現貨供應充足，隨時滿足客戶即時下單<br>• 批量生產壓低單件固定製造費用分攤<br>• 防禦上游原物料通膨漲價之囤貨效益 | • 巨額現金鎖死在倉庫，引發[[insolvency-with-profit_黑字倒閉|黑字倒閉]]<br>• 跌價減損提列重創毛利率<br>• 掩蓋生產排程混亂與品質良率缺陷 |
+
+---
+
+## 3. 關聯概念與延伸閱讀 (Cross References)
+
+- [[inventory-turnover-tian-shu_存貨週轉天數]]：存貨周轉率的天數轉譯指標（DSI）。
+- [[inventory-2_存貨跌價損失]]：庫存週轉不靈時之會計減損提列。
+- [[cash-switching-cycle_現金轉換週期]]：存貨天數、應收天數與應付天數的現金循環模型。
+- [[dupont-analysis_杜邦分析法]]：資產周轉率驅動 ROE 之分解。
+- [[home]]：PMBA 知識庫首頁與模組導航。

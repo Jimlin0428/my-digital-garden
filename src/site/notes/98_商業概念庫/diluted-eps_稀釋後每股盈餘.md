@@ -5,7 +5,7 @@
 
 # 稀釋後每股盈餘 (Diluted Earnings Per Share, Diluted EPS)
 
-> 💡 **導航與索引**：本篇為衡量股東權益獲利含金量與資本結構稀釋風險之核心指標，亦可參閱基礎指標 [[98_商業概念庫/earnings-per-share_每股盈餘\|每股盈餘 (Basic EPS)]]、市場評價指標 [[98_商業概念庫/EPS_本益比_Earnings Per Share\|本益比 (P/E Ratio)]]、獲利拆解工具 [[98_商業概念庫/dupont-analysis_杜邦分析法\|杜邦分析法 (DuPont)]]、股權結構防線 [[98_商業概念庫/equity-dilution_股權稀釋\|股權稀釋]] 與 [[98_商業概念庫/anti-dilution_反稀釋條款\|反稀釋條款]]，以及公司理財基準 [[98_商業概念庫/wacc_加權平均資本成本\|加權平均資本成本 (WACC)]]。
+> 💡 **導航與索引**：本篇為衡量股東權益獲利含金量與資本結構稀釋風險之核心指標，亦可參閱基礎指標 [[98_商業概念庫/_待改寫草稿庫/earnings-per-share_每股盈餘\|每股盈餘 (Basic EPS)]]、市場評價指標 [[98_商業概念庫/EPS_本益比_Earnings Per Share\|本益比 (P/E Ratio)]]、獲利拆解工具 [[98_商業概念庫/dupont-analysis_杜邦分析法\|杜邦分析法 (DuPont)]]、股權結構防線 [[98_商業概念庫/equity-dilution_股權稀釋\|股權稀釋]] 與 [[98_商業概念庫/anti-dilution_反稀釋條款\|反稀釋條款]]，以及公司理財基準 [[98_商業概念庫/wacc_加權平均資本成本\|加權平均資本成本 (WACC)]]。
 
 ## 一、 核心定義與財務學本質
 

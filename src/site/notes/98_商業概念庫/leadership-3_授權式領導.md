@@ -1,27 +1,26 @@
 ---
-{"dg-publish":true,"permalink":"/98/leadership-3/","tags":["商業概念","策略管理","PMBA"],"dg-note-properties":{"aliases":["授權式領導"],"tags":["商業概念","策略管理","PMBA"]}}
+{"dg-publish":true,"permalink":"/98/leadership-3/","tags":["商業概念","情境領導","組織授權","自主管理","PMBA"],"dg-note-properties":{"aliases":["授權式領導","Delegating Leadership Style","S4 風格","委派型領導"],"tags":["商業概念","情境領導","組織授權","自主管理","PMBA"]}}
 ---
 
 
-# 授權式領導
+# 授權式領導 (Delegating Leadership Style & High-Trust Empowerment)
 
-## 一、 核心定義與本質
-- **授權式領導** 是管理學、產業分析與企業策略決策中的重要核心概念。
-- 其本質在於幫助企業經理人分析[[98_商業概念庫/market-structure_市場結構\|市場結構]]、[[98_商業概念庫/competitive-advantage_競爭優勢\|competition-you-shi_競爭優勢]]、資源配置與動態轉型方向，確保企業在競爭環境中建立永續營運壁壘。
+> **【核心導流與概念摘要】**
+> **授權式領導（Delegating Style / S4）** 是[[98_商業概念庫/situational-leadership-theory_情境領導理論\|情境領導理論（SLT）]]中的終極成熟風格，特徵為**低任務行為（Low Task）與低關係行為（Low Relationship）**。
+>
+> 完整深入的情境領導動態矩陣，請直接參閱旗艦核心卡片：
+> 🔗 **[[98_商業概念庫/situational-leadership-theory_情境領導理論\|情境領導理論 (Situational Leadership Theory)]]**
 
-## 二、 計算公式與關鍵指標（若為財務/量化概念）
-- **衡量維度與指標架構**：
-  - 量化指標：結合[[98_商業概念庫/industry-concentration_產業集中度\|industry-concentration_產業集中度]]、[[98_商業概念庫/economies-of-scale_規模經濟\|economies-of-scale_規模經濟]]效益與[[98_商業概念庫/return-on-invested-capital_資本投入報酬率\|資本回報率]]等維度綜合衡量。
-  - 質化評估：檢視企業在[[98_商業概念庫/barriers-to-entry_進入障礙\|barriers-to-entry_進入障礙]]、[[98_商業概念庫/switching-costs_轉換成本\|switching-costs_轉換成本]]與品牌資產上的護城河強度。
+---
 
-## 三、 產業意涵與策略判讀
-- **市場結構視角**：在寡占或高度集中市場中，授權式領導 決定了龍頭企業與追隨者的戰略互動與利基定位。
-- **動態轉型視角**：面臨技術[[98_商業概念庫/technology-s-curve-technology-s-curve_技術 S 曲線 Technology S-Curve\|S曲線]]轉折與破壞式創新時，企業需運用 授權式領導 評估資產重組與[[98_商業概念庫/dual-transformation-dual-transformation_雙軌轉型 Dual Transformation\|雙軌轉型]]路徑。
-- **營運實踐**：經理人需將此概念落實於產品藍圖、供應鏈協同與商業模式設計中。
+## 核心特徵與授權界限
+- **適用對象**：**D4 獨立的高峰者（高能力、高意願）**。部屬是專業領域專家，具備高度自律與當責精神。
+- **管理行為**：給予最高自由度，僅設定最終產出標準與關鍵時間節點。不干預任何中間路徑，領導者主要負責跨部門資源協調與組織護航。
+- **防線機制**：授權不等於棄管，需建立「重大風險通報門檻（Escalation Thresholds）」，確保在發生系統性風險時領導者能及時知情。
 
-## 四、 關聯主題與模組
-* [[04_主題選修/12_產業分析與投資策略/00_課程導航與進度/mindmap_產業分析與投資策略_心智圖導航\|產業分析與投資策略 心智圖導航]]
-* [[04_主題選修/12_產業分析與投資策略/02_模組筆記/Module_1_總論與架構/M1-3_產業獲利結構差異與十大經典理論\|M1-3 產業獲利結構差異與十大經典理論]]
-* [[04_主題選修/12_產業分析與投資策略/02_模組筆記/Module_1_總論與架構/M1-6_產業分析模式與九大分析工具矩陣\|M1-6 產業分析模式與九大分析工具矩陣]]
-* [[98_商業概念庫/Porter's Five Forces Analysis_波特五力分析\|Porter's Five Forces Analysis_波特五力分析]]
-* [[98_商業概念庫/SCP模型\|SCP模型]]
+---
+
+## 關聯概念
+- [[98_商業概念庫/situational-leadership-theory_情境領導理論\|situational-leadership-theory_情境領導理論]]：情境領導總體架構。
+- [[98_商業概念庫/corporate-governance_公司治理\|corporate-governance_公司治理]]：董事會向 CEO 授權之治理對應。
+- [[home\|home]]：PMBA 知識庫首頁與模組導航。

@@ -1,27 +1,24 @@
 ---
-{"dg-publish":true,"permalink":"/98/core-competence/","tags":["商業概念","策略管理","PMBA"],"dg-note-properties":{"aliases":["核心能力"],"tags":["商業概念","策略管理","PMBA"]}}
+{"dg-publish":true,"permalink":"/98/core-competence/","tags":["商業概念","策略管理","資源基礎觀","PMBA"],"dg-note-properties":{"aliases":["核心能力","Core Competence","核心競爭力","組織核心專長"],"tags":["商業概念","策略管理","資源基礎觀","PMBA"]}}
 ---
 
 
-# 核心能力
+# 核心能力 (Core Competence)
 
-## 一、 核心定義與本質
-- **核心能力** 是管理學、產業分析與企業策略決策中的重要核心概念。
-- 其本質在於幫助企業經理人分析[[98_商業概念庫/market-structure_市場結構\|市場結構]]、[[98_商業概念庫/competitive-advantage_競爭優勢\|competition-you-shi_競爭優勢]]、資源配置與動態轉型方向，確保企業在競爭環境中建立永續營運壁壘。
+> **【核心定義與概念導航】**
+> **核心能力（Core Competence）** 是策略管理大師普哈拉（C.K. Prahalad）與蓋瑞·哈默爾（Gary Hamel）於 1990 年在《哈佛商業評論》提出的經典概念。它被定義為企業內部**跨越各項業務單元的集體學習（Collective Learning），特別是如何協調多種生產技能與整合多樣技術流派的綜合能力**。核心能力是企業開闢多角化業務、支撐核心產品並抵禦競爭風險的最底層組織根基。
 
-## 二、 計算公式與關鍵指標（若為財務/量化概念）
-- **衡量維度與指標架構**：
-  - 量化指標：結合[[98_商業概念庫/industry-concentration_產業集中度\|industry-concentration_產業集中度]]、[[98_商業概念庫/economies-of-scale_規模經濟\|economies-of-scale_規模經濟]]效益與[[98_商業概念庫/return-on-invested-capital_資本投入報酬率\|資本回報率]]等維度綜合衡量。
-  - 質化評估：檢視企業在[[98_商業概念庫/barriers-to-entry_進入障礙\|barriers-to-entry_進入障礙]]、[[98_商業概念庫/switching-costs_轉換成本\|switching-costs_轉換成本]]與品牌資產上的護城河強度。
+---
 
-## 三、 產業意涵與策略判讀
-- **市場結構視角**：在寡占或高度集中市場中，核心能力 決定了龍頭企業與追隨者的戰略互動與利基定位。
-- **動態轉型視角**：面臨技術[[98_商業概念庫/technology-s-curve-technology-s-curve_技術 S 曲線 Technology S-Curve\|S曲線]]轉折與破壞式創新時，企業需運用 核心能力 評估資產重組與[[98_商業概念庫/dual-transformation-dual-transformation_雙軌轉型 Dual Transformation\|雙軌轉型]]路徑。
-- **營運實踐**：經理人需將此概念落實於產品藍圖、供應鏈協同與商業模式設計中。
+## 1. 檢驗核心能力的三大經典標準 (Prahalad & Hamel)
+1. **市場切入能力（Potential Access to Markets）**：核心能力必須具備向多樣化全新市場延展的潛力（如佳能憑藉精準光學與微電子核心專長，同時稱霸相機、傳真機、雷射印表機與半導體步進機四大不同產業）。
+2. **顯著的最終顧客價值貢獻（Significant Customer Benefit）**：該項能力能為終端消費者帶來直接、不可或缺的價值增益與感知差異化（如本田的高可靠度內燃機引擎為機車、汽車與割草機提供卓越動力）。
+3. **難以被競爭對手模仿（Difficult to Imitate）**：核心能力並非單一孤立技術，而是由組織文化、專利體系、默會知識（Tacit Knowledge）與複雜活動協同構成的有機複合體（滿足 Barney 的 VRIO 架構：有價值、稀缺、不可模仿、組織整合）。
 
-## 四、 關聯主題與模組
-* [[04_主題選修/12_產業分析與投資策略/00_課程導航與進度/mindmap_產業分析與投資策略_心智圖導航\|產業分析與投資策略 心智圖導航]]
-* [[04_主題選修/12_產業分析與投資策略/02_模組筆記/Module_1_總論與架構/M1-3_產業獲利結構差異與十大經典理論\|M1-3 產業獲利結構差異與十大經典理論]]
-* [[04_主題選修/12_產業分析與投資策略/02_模組筆記/Module_1_總論與架構/M1-6_產業分析模式與九大分析工具矩陣\|M1-6 產業分析模式與九大分析工具矩陣]]
-* [[98_商業概念庫/Porter's Five Forces Analysis_波特五力分析\|Porter's Five Forces Analysis_波特五力分析]]
-* [[98_商業概念庫/SCP模型\|SCP模型]]
+---
+
+## 2. 核心概念關聯地圖
+- **核心主篇**：[[98_商業概念庫/competition-strategy_競爭策略\|competition-strategy_競爭策略]] · 核心能力作為支撐成本領導或差異化策略的底層組織基石
+- **競爭優勢**：[[98_商業概念庫/competitive-advantage_競爭優勢\|competitive-advantage_競爭優勢]] · 核心能力轉化為持續競爭優勢（SCA）之路徑
+- **跨界擴張**：[[98_商業概念庫/cross-industry-competition_跨界競爭\|cross-industry-competition_跨界競爭]] · 依託核心能力向鄰近市場發動降維打擊
+- **導航總覽**：[[home\|home]] · 全球 PMBA 知識庫總導航主頁面

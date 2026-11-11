@@ -69,5 +69,5 @@
 
 ## 六、 關聯概念與知識網絡
 - 上層概念：[[98_商業概念庫/industry-analysis_產業分析\|industry-analysis_產業分析]] · [[98_商業概念庫/competitive-advantage_競爭優勢\|competitive-advantage_競爭優勢]]
-- 核心模組：[[04_主題選修/12_產業分析與投資策略/03_產業演化與動態轉型/M3-2_產業發展轉型戰略與全球化動態\|M3-2_產業發展轉型戰略與全球化動態]] · [[04_主題選修/12_產業分析與投資策略/02_模組筆記/Module_1_總論與架構/M1-1_產業分析本質與中層定位\|M1-1_產業分析本質與中層定位]]
+- 核心模組：[[04_主題選修/12_產業分析與投資策略/02_模組筆記/Module_3_產業演化與動態轉型/M3-2_產業發展轉型戰略與全球化動態\|M3-2_產業發展轉型戰略與全球化動態]] · [[04_主題選修/12_產業分析與投資策略/02_模組筆記/Module_1_總論與架構/M1-1_產業分析本質與中層定位\|M1-1_產業分析本質與中層定位]]
 - 關聯卡片：[[98_商業概念庫/Industry_Structure_Strength_產業結構實力八要素\|Industry_Structure_Strength_產業結構實力八要素]] · [[98_商業概念庫/Vertical_Horizontal_Clustering_垂直與水平產業聚落理論\|Vertical_Horizontal_Clustering_垂直與水平產業聚落理論]] · [[98_商業概念庫/Divided_Government_Effect_分立政府制衡效應與財政政策\|Divided_Government_Effect_分立政府制衡效應與財政政策]] · [[98_商業概念庫/Institutional_Approval_Risk_州長水電審批權與地緣投資風險\|Institutional_Approval_Risk_州長水電審批權與地緣投資風險]]

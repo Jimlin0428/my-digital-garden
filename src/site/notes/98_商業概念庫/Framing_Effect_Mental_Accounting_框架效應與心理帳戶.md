@@ -61,4 +61,4 @@
 
 ## 六、 關聯概念與知識網絡
 - 核心模組：[[02_核心必修/03_組織行為/02_模組筆記/Module_1_個體行為與心理機制/M1-4_管理決策偏誤有限理性與卡特賽車實證\|M1-4_管理決策偏誤有限理性與卡特賽車實證]]
-- 關聯卡片：[[98_商業概念庫/Anchoring_and_Adjustment_錨定與調整效應\|Anchoring_and_Adjustment_錨定與調整效應]] · [[98_商業概念庫/Carter_Racing_NASA_Challenger_卡特賽車與挑戰者號決策個案\|Carter_Racing_NASA_Challenger_卡特賽車與挑戰者號決策個案]] · [[98_商業概念庫/bounded-rationality_有限理性\|bounded-rationality_有限理性]]
+- 關聯卡片：[[98_商業概念庫/Anchoring_and_Adjustment_錨定與調整效應\|Anchoring_and_Adjustment_錨定與調整效應]] · [[98_商業概念庫/Carter_Racing_NASA_Challenger_卡特賽車與挑戰者號決策個案\|Carter_Racing_NASA_Challenger_卡特賽車與挑戰者號決策個案]] · [[98_商業概念庫/_待改寫草稿庫/bounded-rationality_有限理性\|bounded-rationality_有限理性]]

@@ -38,8 +38,8 @@ flowchart LR
     S4 --> S5["5. 市場上市與售後召回<br>設計變更成本：$10,000+<br>商譽全毀、法規訴訟與召回"]
 
     style S1 fill:#dcfce7,stroke:#16a34a,stroke-width:2px,color:#14532d
-    style S2 fill:#eff6ff,stroke:#2563eb,stroke-width:1.5px
-    style S3 fill:#fef9c3,stroke:#ca8a04,stroke-width:1.5px
+    style S2 fill:#eff6ff,stroke:#2563eb,stroke-width:1.5px,color:#1e3a8a
+    style S3 fill:#fef9c3,stroke:#ca8a04,stroke-width:1.5px,color:#713f12
     style S4 fill:#fee2e2,stroke:#ef4444,stroke-width:2px,color:#991b1b
     style S5 fill:#7f1d1d,stroke:#ef4444,stroke-width:3px,color:#ffffff
 ```
@@ -68,11 +68,11 @@ flowchart TD
     Principles --> P5
 
     style Principles fill:#e0e7ff,stroke:#4338ca,stroke-width:2px,color:#1e1b4b
-    style P1 fill:#dbeafe,stroke:#2563eb,stroke-width:1.5px
-    style P2 fill:#dcfce7,stroke:#16a34a,stroke-width:1.5px
-    style P3 fill:#fef3c7,stroke:#d97706,stroke-width:1.5px
-    style P4 fill:#fee2e2,stroke:#dc2626,stroke-width:1.5px
-    style P5 fill:#f3e8ff,stroke:#9333ea,stroke-width:1.5px
+    style P1 fill:#dbeafe,stroke:#2563eb,stroke-width:1.5px,color:#1e40af
+    style P2 fill:#dcfce7,stroke:#16a34a,stroke-width:1.5px,color:#14532d
+    style P3 fill:#fef3c7,stroke:#d97706,stroke-width:1.5px,color:#78350f
+    style P4 fill:#fee2e2,stroke:#dc2626,stroke-width:1.5px,color:#7f1d1d
+    style P5 fill:#f3e8ff,stroke:#9333ea,stroke-width:1.5px,color:#581c87
 ```
 
 ### 1. 減少零件總數（Part Count Reduction）
@@ -142,9 +142,9 @@ flowchart TD
     F2 --> F4
     F3 --> F4
 
-    style DFM_Action fill:#e0f2fe,stroke:#0284c7,stroke-width:2px
-    style Manufacturing_Ops fill:#fef9c3,stroke:#ca8a04,stroke-width:2px
-    style Financial_Impact fill:#dcfce7,stroke:#16a34a,stroke-width:2px
+    style DFM_Action fill:#e0f2fe,stroke:#0284c7,stroke-width:2px,color:#075985
+    style Manufacturing_Ops fill:#fef9c3,stroke:#ca8a04,stroke-width:2px,color:#713f12
+    style Financial_Impact fill:#dcfce7,stroke:#16a34a,stroke-width:2px,color:#14532d
 ```
 
 ### 1. 壓低固定資產投資（CapEx）與開模風險（PPE）
@@ -198,14 +198,14 @@ flowchart TD
     Trap3["❌ 陷阱三：原型自滿陷阱<br>(Prototype-to-Production Trap)"] --> Fix3["✅ 防範：3D 列印能做出的原型，絕不代表開模能大量量產"]
     Trap4["❌ 陷阱四：單一功能至上忽視供應鏈<br>(Ignoring DFSC)"] --> Fix4["✅ 防範：將標準件與多源供應料件 (Second Source) 納入 DFM 審查標準"]
 
-    style Trap1 fill:#fee2e2,stroke:#ef4444,stroke-width:1px
-    style Trap2 fill:#fee2e2,stroke:#ef4444,stroke-width:1px
-    style Trap3 fill:#fee2e2,stroke:#ef4444,stroke-width:1px
-    style Trap4 fill:#fee2e2,stroke:#ef4444,stroke-width:1px
-    style Fix1 fill:#f0fdf4,stroke:#22c55e,stroke-width:1px
-    style Fix2 fill:#f0fdf4,stroke:#22c55e,stroke-width:1px
-    style Fix3 fill:#f0fdf4,stroke:#22c55e,stroke-width:1px
-    style Fix4 fill:#f0fdf4,stroke:#22c55e,stroke-width:1px
+    style Trap1 fill:#fee2e2,stroke:#ef4444,stroke-width:1px,color:#7f1d1d
+    style Trap2 fill:#fee2e2,stroke:#ef4444,stroke-width:1px,color:#7f1d1d
+    style Trap3 fill:#fee2e2,stroke:#ef4444,stroke-width:1px,color:#7f1d1d
+    style Trap4 fill:#fee2e2,stroke:#ef4444,stroke-width:1px,color:#7f1d1d
+    style Fix1 fill:#f0fdf4,stroke:#22c55e,stroke-width:1px,color:#14532d
+    style Fix2 fill:#f0fdf4,stroke:#22c55e,stroke-width:1px,color:#14532d
+    style Fix3 fill:#f0fdf4,stroke:#22c55e,stroke-width:1px,color:#14532d
+    style Fix4 fill:#f0fdf4,stroke:#22c55e,stroke-width:1px,color:#14532d
 ```
 
 ### 1. 隔牆扔圖紙偏誤（Over-the-Wall Syndrome）
@@ -225,18 +225,18 @@ flowchart TD
 ### 📚 官方教材與模組講義深度對接
 
 1. **《創業與企業財務策略》官方教材對接**：
-   - 📖 **Class 5 講義** ➔ [[04_主題選修/10_創業與企業財務策略/02_模組筆記/Module_2_產品創新與精實驗證/M2-1_精實產品開發與服務創新驗證\|M2-1 精實產品開發與服務創新驗證]]：
+   - 📖 **Class 5 講義** ➔ [[04_主題選修/10_創業與企業財務策略/02_模組筆記/Module_2_產品創新與精實驗證/M2-1_精實產品開發與服務創新驗證|M2-1 精實產品開發與服務創新驗證]]：
      - 解構白板推導專題：**「投入資本結構（PPE + NWC + 無形資產）」**，揭示 DFM 如何直接降低模具固定資產（PPE）沉沒資本與存貨現金卡死（CCC 資金真空期）。
      - Dan Olsen PMF 金字塔產品端（Feature Set ➔ UX）向市場端（Underserved Needs）收斂落地之工程物理基礎。
-   - 📖 **Class 2 講義** ➔ [[04_主題選修/10_創業與企業財務策略/02_模組筆記/Module_1_創新思維與商業模式/M1-4_創意思考工具與設計思考方法\|M1-4 創意思考工具與設計思考方法]]：
+   - 📖 **Class 2 講義** ➔ [[04_主題選修/10_創業與企業財務策略/02_模組筆記/Module_1_創新思維與商業模式/M1-4_創意思考工具與設計思考方法|M1-4 創意思考工具與設計思考方法]]：
      - 設計思考（Design Thinking）使用者中心體驗與製造可行性之間的「兩全思維（Trade-On Thinking）」。
-   - 📖 **Class 4 講義** ➔ [[04_主題選修/10_創業與企業財務策略/02_模組筆記/Module_1_創新思維與商業模式/M1-10_七大市場力量與商業戰略價值公式\|M1-10 七大市場力量與商業戰略價值公式]]：
+   - 📖 **Class 4 講義** ➔ [[04_主題選修/10_創業與企業財務策略/02_模組筆記/Module_1_創新思維與商業模式/M1-10_七大市場力量與商業戰略價值公式|M1-10 七大市場力量與商業戰略價值公式]]：
      - 七大市場力量之「流程效能（Process Power）」——深植於組織內部難以被對手模仿的極致 DFM 製造裝配體系。
 
 2. **《產業分析與投資策略》官方教材對接**：
-   - 📖 **Class 1 講義** ➔ [[04_主題選修/12_產業分析與投資策略/02_模組筆記/Module_1_總論與架構/M1-3_產業獲利結構差異與十大經典理論\|M1-3 產業獲利結構差異與十大經典理論]]：
+   - 📖 **Class 1 講義** ➔ [[04_主題選修/12_產業分析與投資策略/02_模組筆記/Module_1_總論與架構/M1-3_產業獲利結構差異與十大經典理論|M1-3 產業獲利結構差異與十大經典理論]]：
      - 代工六哥與鴻海（低毛利、靠極致規模採購與組裝 DFM 勝出）vs. 台積電（先進製程 DFM 規則庫與 OIP 開放平台技術壟斷）。
-   - 📖 **Class 3 講義** ➔ [[04_主題選修/12_產業分析與投資策略/02_模組筆記/Module_1_總論與架構/M1-6_產業分析模式與九大分析工具矩陣\|M1-6 產業分析模式與九大分析工具矩陣]]：
+   - 📖 **Class 3 講義** ➔ [[04_主題選修/12_產業分析與投資策略/02_模組筆記/Module_1_總論與架構/M1-6_產業分析模式與九大分析工具矩陣|M1-6 產業分析模式與九大分析工具矩陣]]：
      - 價值鏈活動配置（研發設計與生產作業的深度互補協同，達成活動體系高階配適 Fit）。
 
 ---
@@ -244,13 +244,13 @@ flowchart TD
 ### 🔗 核心概念原子卡片雙向鏈結
 
 - **商業模式與價值創造體系**：
-  - [[98_商業概念庫/vpc-value-price-cost_價值價格成本分析\|vpc-value-price-cost_價值價格成本分析]]（DFM 在不犧牲顧客價值 $V$ 的前提下大幅壓低生產成本 $C$，拉大 $(P - C)$ 毛利空間）
-  - [[98_商業概念庫/competitive-advantage_競爭優勢\|competitive-advantage_競爭優勢]]（以獨特工藝與活動體系配適構建不可複製的流程護城河）
-  - [[98_商業概念庫/competitive-matrix_競爭矩陣\|competitive-matrix_競爭矩陣]]（ROIC vs. 資產週轉率矩陣中，推動營運效率之底層武器）
+  - [[vpc-value-price-cost_價值價格成本分析]]（DFM 在不犧牲顧客價值 $V$ 的前提下大幅壓低生產成本 $C$，拉大 $(P - C)$ 毛利空間）
+  - [[competitive-advantage_競爭優勢]]（以獨特工藝與活動體系配適構建不可複製的流程護城河）
+  - [[competitive-matrix_競爭矩陣]]（ROIC vs. 資產週轉率矩陣中，推動營運效率之底層武器）
 - **成本、規模與運營體系**：
-  - [[98_商業概念庫/cost-leadership-strategy_成本領導策略\|cost-leadership-strategy_成本領導策略]] ｜ [[98_商業概念庫/economies-of-scale_規模經濟\|economies-of-scale_規模經濟]]
-  - [[98_商業概念庫/switching-costs_轉換成本\|switching-costs_轉換成本]] ｜ [[98_商業概念庫/economic-moat_經濟護城河\|economic-moat_經濟護城河]]
+  - [[cost-leadership-strategy_成本領導策略]] ｜ [[economies-of-scale_規模經濟]]
+  - [[switching-costs_轉換成本]] ｜ [[economic-moat_經濟護城河]]
 - **財務與資本評價體系**：
-  - [[98_商業概念庫/return-on-invested-capital_資本投入報酬率\|return-on-invested-capital_資本投入報酬率]]（透過提升 Margin 與週轉率極大化 ROIC）
-  - [[98_商業概念庫/cash-switching-cycle_現金轉換週期\|cash-switching-cycle_現金轉換週期]]（降低原物料與 WIP 在途存貨天數 DSI）
-  - [[98_商業概念庫/total-asset-turnover-ratio_總資產週轉率\|total-asset-turnover-ratio_總資產週轉率]] ｜ [[98_商業概念庫/dupont-analysis_杜邦分析法\|dupont-analysis_杜邦分析法]]
+  - [[return-on-invested-capital_資本投入報酬率]]（透過提升 Margin 與週轉率極大化 ROIC）
+  - [[cash-switching-cycle_現金轉換週期]]（降低原物料與 WIP 在途存貨天數 DSI）
+  - [[total-asset-turnover-ratio_總資產週轉率]] ｜ [[dupont-analysis_杜邦分析法]]

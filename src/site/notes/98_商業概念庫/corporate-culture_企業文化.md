@@ -62,4 +62,4 @@ flowchart TD
 
 - **組織與領導**：[[02_核心必修/03_組織行為/_組織行為 MOC\|_組織行為 MOC]] · [[98_商業概念庫/transformational-leadership_轉換型領導\|transformational-leadership_轉換型領導]] · [[98_商業概念庫/two-factor-theory_雙因素理論\|two-factor-theory_雙因素理論]]
 - **變革與整合**：[[98_商業概念庫/change-management_變革管理\|change-management_變革管理]] · [[98_商業概念庫/merger-acquisition_併購綜效\|merger-acquisition_併購綜效]] · [[98_商業概念庫/enterprise-m-and-a_企業併購\|enterprise-m-and-a_企業併購]]
-- **跨國環境**：[[98_商業概念庫/culture_高低語境文化\|culture_高低語境文化]] · [[98_商業概念庫/culture-dimension_霍夫斯泰德文化維度\|culture-dimension_霍夫斯泰德文化維度]] · [[98_商業概念庫/culture-2_文化智商\|culture-2_文化智商]]
+- **跨國環境**：[[98_商業概念庫/_待改寫草稿庫/culture_高低語境文化\|culture_高低語境文化]] · [[98_商業概念庫/_待改寫草稿庫/culture-dimension_霍夫斯泰德文化維度\|culture-dimension_霍夫斯泰德文化維度]] · [[98_商業概念庫/_待改寫草稿庫/culture-2_文化智商\|culture-2_文化智商]]

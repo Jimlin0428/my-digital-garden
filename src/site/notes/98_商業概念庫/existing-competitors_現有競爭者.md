@@ -1,27 +1,27 @@
 ---
-{"dg-publish":true,"permalink":"/98/existing-competitors/","tags":["商業概念","策略管理","PMBA"],"dg-note-properties":{"aliases":["現有競爭者"],"tags":["商業概念","策略管理","PMBA"]}}
+{"dg-publish":true,"permalink":"/98/existing-competitors/","tags":["商業概念","策略管理","波特五力","PMBA"],"dg-note-properties":{"aliases":["現有競爭者","Rivalry Among Existing Competitors","同業競爭強度"],"tags":["商業概念","策略管理","波特五力","PMBA"]}}
 ---
 
 
-# 現有競爭者
+# 現有競爭者 (Rivalry Among Existing Competitors)
 
-## 一、 核心定義與本質
-- **現有競爭者** 是管理學、產業分析與企業策略決策中的重要核心概念。
-- 其本質在於幫助企業經理人分析[[98_商業概念庫/market-structure_市場結構\|市場結構]]、[[98_商業概念庫/competitive-advantage_競爭優勢\|competition-you-shi_競爭優勢]]、資源配置與動態轉型方向，確保企業在競爭環境中建立永續營運壁壘。
+> **【核心定義與概念導航】**
+> **現有競爭者（Rivalry Among Existing Competitors）** 是麥可·波特（Michael Porter）五力分析模型（[[98_商業概念庫/Porter's Five Forces Analysis_波特五力分析\|Porter's Five Forces Analysis_波特五力分析]]）的幾何中心與競爭壓力聚合樞紐。它衡量特定產業內部既有同業之間，透過降價促銷、廣告宣傳戰、新產品導入及售後服務升級等手段，爭奪市場份額與客戶群體的激烈程度。
 
-## 二、 計算公式與關鍵指標（若為財務/量化概念）
-- **衡量維度與指標架構**：
-  - 量化指標：結合[[98_商業概念庫/industry-concentration_產業集中度\|industry-concentration_產業集中度]]、[[98_商業概念庫/economies-of-scale_規模經濟\|economies-of-scale_規模經濟]]效益與[[98_商業概念庫/return-on-invested-capital_資本投入報酬率\|資本回報率]]等維度綜合衡量。
-  - 質化評估：檢視企業在[[98_商業概念庫/barriers-to-entry_進入障礙\|barriers-to-entry_進入障礙]]、[[98_商業概念庫/switching-costs_轉換成本\|switching-costs_轉換成本]]與品牌資產上的護城河強度。
+---
 
-## 三、 產業意涵與策略判讀
-- **市場結構視角**：在寡占或高度集中市場中，現有競爭者 決定了龍頭企業與追隨者的戰略互動與利基定位。
-- **動態轉型視角**：面臨技術[[98_商業概念庫/technology-s-curve-technology-s-curve_技術 S 曲線 Technology S-Curve\|S曲線]]轉折與破壞式創新時，企業需運用 現有競爭者 評估資產重組與[[98_商業概念庫/dual-transformation-dual-transformation_雙軌轉型 Dual Transformation\|雙軌轉型]]路徑。
-- **營運實踐**：經理人需將此概念落實於產品藍圖、供應鏈協同與商業模式設計中。
+## 1. 決定現有競爭強度的五大結構驅動因素
+1. **眾多勢均力敵的競爭對手**：缺乏壓倒性統治地位的領頭羊，任何一家發動進攻皆會引發全面報復。
+2. **產業增長緩慢（Slow Industry Growth）**：市場總體餅不再擴大，企業只能透過「虎口奪食」從對手手中硬搶份額，引發殘酷零和博弈。
+3. **高固定成本或高庫存成本**：強大的產能攤銷壓力迫使企業在淡季削價競爭以填補產能（如航空業、鋼鐵業、晶圓代工）。
+4. **缺乏產品差異化與低轉換成本**：產品被視為無差別的大宗物資（Commodity），價格成為唯一的決策維度（參見 [[98_商業概念庫/switching-costs_轉換成本\|switching-costs_轉換成本]]）。
+5. **高退出障礙（High Exit Barriers）**：專用性資產難以轉售、員工高額資遣費、社會責任與政府管制，迫使虧損企業即使血流不止也無法退場，導致過剩產能長期折磨全產業。
 
-## 四、 關聯主題與模組
-* [[04_主題選修/12_產業分析與投資策略/00_課程導航與進度/mindmap_產業分析與投資策略_心智圖導航\|產業分析與投資策略 心智圖導航]]
-* [[04_主題選修/12_產業分析與投資策略/02_模組筆記/Module_1_總論與架構/M1-3_產業獲利結構差異與十大經典理論\|M1-3 產業獲利結構差異與十大經典理論]]
-* [[04_主題選修/12_產業分析與投資策略/02_模組筆記/Module_1_總論與架構/M1-6_產業分析模式與九大分析工具矩陣\|M1-6 產業分析模式與九大分析工具矩陣]]
-* [[98_商業概念庫/Porter's Five Forces Analysis_波特五力分析\|Porter's Five Forces Analysis_波特五力分析]]
-* [[98_商業概念庫/SCP模型\|SCP模型]]
+---
+
+## 2. 核心概念關聯地圖
+- **核心主篇**：[[98_商業概念庫/competition-strategy_競爭策略\|competition-strategy_競爭策略]] · 抵禦同業競爭並建立超額利潤之三大通用策略
+- **風險分析**：[[98_商業概念庫/competition-risk_競爭風險\|competition-risk_競爭風險]] · 現有競爭引發之價格戰囚徒困境與紅皇后效應
+- **分析架構**：[[98_商業概念庫/Porter's Five Forces Analysis_波特五力分析\|Porter's Five Forces Analysis_波特五力分析]] · 波特產業結構五力全景分析模型
+- **動態競爭**：[[98_商業概念庫/Hypercompetition_動態超競爭理論\|Hypercompetition_動態超競爭理論]] · 動態超競爭環境下的同業高頻互動
+- **導航總覽**：[[home\|home]] · 全球 PMBA 知識庫總導航主頁面

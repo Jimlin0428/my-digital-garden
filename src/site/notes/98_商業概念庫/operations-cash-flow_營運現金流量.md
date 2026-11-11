@@ -1,27 +1,21 @@
 ---
-{"dg-publish":true,"permalink":"/98/operations-cash-flow/","tags":["商業概念","策略管理","PMBA"],"dg-note-properties":{"aliases":["營運現金流量"],"tags":["商業概念","策略管理","PMBA"]}}
+{"dg-publish":true,"permalink":"/98/operations-cash-flow/","tags":["商業概念","財務管理","PMBA"],"dg-note-properties":{"aliases":["營運現金流量","Operations Cash Flow"],"tags":["商業概念","財務管理","PMBA"]}}
 ---
 
 
-# 營運現金流量
+# 營運現金流量 (Operations Cash Flow)
 
-## 一、 核心定義與本質
-- **營運現金流量** 是管理學、產業分析與企業策略決策中的重要核心概念。
-- 其本質在於幫助企業經理人分析[[98_商業概念庫/market-structure_市場結構\|市場結構]]、[[98_商業概念庫/competitive-advantage_競爭優勢\|competition-you-shi_競爭優勢]]、資源配置與動態轉型方向，確保企業在競爭環境中建立永續營運壁壘。
+> **【概念導航與對齊】**
+> **營運現金流量（Operations Cash Flow）** 是企業在日常營業週期中所產生的核心現金流，在現代財務報表分析與公司理財中，通常即指現金流量表上的**營業活動現金流量（Cash Flow from Operations, CFO / Operating Cash Flow, OCF）**。
 
-## 二、 計算公式與關鍵指標（若為財務/量化概念）
-- **衡量維度與指標架構**：
-  - 量化指標：結合[[98_商業概念庫/industry-concentration_產業集中度\|industry-concentration_產業集中度]]、[[98_商業概念庫/economies-of-scale_規模經濟\|economies-of-scale_規模經濟]]效益與[[98_商業概念庫/return-on-invested-capital_資本投入報酬率\|資本回報率]]等維度綜合衡量。
-  - 質化評估：檢視企業在[[98_商業概念庫/barriers-to-entry_進入障礙\|barriers-to-entry_進入障礙]]、[[98_商業概念庫/switching-costs_轉換成本\|switching-costs_轉換成本]]與品牌資產上的護城河強度。
+---
 
-## 三、 產業意涵與策略判讀
-- **市場結構視角**：在寡占或高度集中市場中，營運現金流量 決定了龍頭企業與追隨者的戰略互動與利基定位。
-- **動態轉型視角**：面臨技術[[98_商業概念庫/technology-s-curve-technology-s-curve_技術 S 曲線 Technology S-Curve\|S曲線]]轉折與破壞式創新時，企業需運用 營運現金流量 評估資產重組與[[98_商業概念庫/dual-transformation-dual-transformation_雙軌轉型 Dual Transformation\|雙軌轉型]]路徑。
-- **營運實踐**：經理人需將此概念落實於產品藍圖、供應鏈協同與商業模式設計中。
+## 核心主篇指引
+詳細的間接法會計調和公式、權責發生制剪刀差解析、盈餘品質檢核清單與企業案例，請參閱主篇：
+👉 **[[98_商業概念庫/operating-cash-flow-statement_營業活動現金流量\|operating-cash-flow-statement_營業活動現金流量]]**
 
-## 四、 關聯主題與模組
-* [[04_主題選修/12_產業分析與投資策略/00_課程導航與進度/mindmap_產業分析與投資策略_心智圖導航\|產業分析與投資策略 心智圖導航]]
-* [[04_主題選修/12_產業分析與投資策略/02_模組筆記/Module_1_總論與架構/M1-3_產業獲利結構差異與十大經典理論\|M1-3 產業獲利結構差異與十大經典理論]]
-* [[04_主題選修/12_產業分析與投資策略/02_模組筆記/Module_1_總論與架構/M1-6_產業分析模式與九大分析工具矩陣\|M1-6 產業分析模式與九大分析工具矩陣]]
-* [[98_商業概念庫/Porter's Five Forces Analysis_波特五力分析\|Porter's Five Forces Analysis_波特五力分析]]
-* [[98_商業概念庫/SCP模型\|SCP模型]]
+## 相關延伸閱讀
+- [[98_商業概念庫/enterprise-free-cash-flow-liang_企業自由現金流量\|enterprise-free-cash-flow-liang_企業自由現金流量]] · 扣除資本支出後的無槓桿自由現金流
+- [[98_商業概念庫/equity-free-cash-flow_股權自由現金流量\|equity-free-cash-flow_股權自由現金流量]] · 扣除還本付息後的股東自由現金流
+- [[98_商業概念庫/CCC_現金循環週期 Cash Conversion Cycle\|CCC_現金循環週期 Cash Conversion Cycle]] · 營運現金流周轉效率核心指標
+- [[home\|home]] · 全球 PMBA 知識庫總導航主頁面

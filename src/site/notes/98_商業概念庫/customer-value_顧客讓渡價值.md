@@ -1,27 +1,43 @@
 ---
-{"dg-publish":true,"permalink":"/98/customer-value/","tags":["商業概念","策略管理","PMBA"],"dg-note-properties":{"aliases":["顧客讓渡價值"],"tags":["商業概念","策略管理","PMBA"]}}
+{"dg-publish":true,"permalink":"/98/customer-value/","tags":["商業概念","行銷管理","策略管理","PMBA"],"dg-note-properties":{"aliases":["顧客讓渡價值","Customer Delivered Value","顧客感知價值"],"tags":["商業概念","行銷管理","策略管理","PMBA"]}}
 ---
 
 
-# 顧客讓渡價值
+# 顧客讓渡價值 (Customer Delivered Value)
 
-## 一、 核心定義與本質
-- **顧客讓渡價值** 是管理學、產業分析與企業策略決策中的重要核心概念。
-- 其本質在於幫助企業經理人分析[[98_商業概念庫/market-structure_市場結構\|市場結構]]、[[98_商業概念庫/competitive-advantage_競爭優勢\|competition-you-shi_競爭優勢]]、資源配置與動態轉型方向，確保企業在競爭環境中建立永續營運壁壘。
+> **【核心定義與概念導航】**
+> **顧客讓渡價值（Customer Delivered Value）** 是行銷大師菲利普·科特勒（Philip Kotler）提出的核心分析框架，定義為**整體顧客價值（Total Customer Value）** 與 **整體顧客成本（Total Customer Cost）** 之間的差額。它是顧客做出購買決策的最終經濟與心理動因。
 
-## 二、 計算公式與關鍵指標（若為財務/量化概念）
-- **衡量維度與指標架構**：
-  - 量化指標：結合[[98_商業概念庫/industry-concentration_產業集中度\|industry-concentration_產業集中度]]、[[98_商業概念庫/economies-of-scale_規模經濟\|economies-of-scale_規模經濟]]效益與[[98_商業概念庫/return-on-invested-capital_資本投入報酬率\|資本回報率]]等維度綜合衡量。
-  - 質化評估：檢視企業在[[98_商業概念庫/barriers-to-entry_進入障礙\|barriers-to-entry_進入障礙]]、[[98_商業概念庫/switching-costs_轉換成本\|switching-costs_轉換成本]]與品牌資產上的護城河強度。
+---
 
-## 三、 產業意涵與策略判讀
-- **市場結構視角**：在寡占或高度集中市場中，顧客讓渡價值 決定了龍頭企業與追隨者的戰略互動與利基定位。
-- **動態轉型視角**：面臨技術[[98_商業概念庫/technology-s-curve-technology-s-curve_技術 S 曲線 Technology S-Curve\|S曲線]]轉折與破壞式創新時，企業需運用 顧客讓渡價值 評估資產重組與[[98_商業概念庫/dual-transformation-dual-transformation_雙軌轉型 Dual Transformation\|雙軌轉型]]路徑。
-- **營運實踐**：經理人需將此概念落實於產品藍圖、供應鏈協同與商業模式設計中。
+## 1. 核心結構模型
 
-## 四、 關聯主題與模組
-* [[04_主題選修/12_產業分析與投資策略/00_課程導航與進度/mindmap_產業分析與投資策略_心智圖導航\|產業分析與投資策略 心智圖導航]]
-* [[04_主題選修/12_產業分析與投資策略/02_模組筆記/Module_1_總論與架構/M1-3_產業獲利結構差異與十大經典理論\|M1-3 產業獲利結構差異與十大經典理論]]
-* [[04_主題選修/12_產業分析與投資策略/02_模組筆記/Module_1_總論與架構/M1-6_產業分析模式與九大分析工具矩陣\|M1-6 產業分析模式與九大分析工具矩陣]]
-* [[98_商業概念庫/Porter's Five Forces Analysis_波特五力分析\|Porter's Five Forces Analysis_波特五力分析]]
-* [[98_商業概念庫/SCP模型\|SCP模型]]
+$$\text{顧客讓渡價值} = \text{整體顧客價值} - \text{整體顧客成本}$$
+
+```
+整體顧客價值 (Total Customer Value)
+  ├── 產品價值 (功能、性能、可靠度)
+  ├── 服務價值 (交付速度、售後支援)
+  ├── 人員價值 (專業素養、溝通效率)
+  └── 形象價值 (品牌象徵、社會地位認同)
+
+整體顧客成本 (Total Customer Cost)
+  ├── 貨幣成本 (產品售價、附加手續費)
+  ├── 時間成本 (搜尋、下單等待時間)
+  ├── 精力成本 (學習使用、流程複雜度)
+  └── 心理成本 (決策風險、隱私焦慮)
+```
+
+---
+
+## 2. 策略意涵與單位經濟連結
+1. **提升讓渡價值的雙軸驅動**：企業可透過增加產品與服務溢價（提高分子），或消除客戶的時間與學習負擔（降低分母，如提供無摩擦 UI/UX）來擴大讓渡價值。
+2. **高讓渡價值轉化為定價權與留存率**：極高的讓渡價值能顯著降低客戶對價格變動的敏感度，直接支撐優良的 [[unit-economics-model_單位經濟模型|單位經濟模型]] 並最大化 [[clv-customer-lifetime-value_顧客終身價值|顧客終身價值]]。
+
+---
+
+## 3. 核心概念關聯地圖
+- **核心主篇**：[[unit-economics-model_單位經濟模型]] · 單位價值與邊際收益配比分析
+- **終身價值**：[[clv-customer-lifetime-value_顧客終身價值]] · 讓渡價值所轉化之長期毛利折現
+- **策略定位**：[[positioning-strategy_定位策略]] · 讓渡價值的獨特競爭優勢塑造
+- **導航總覽**：[[home]] · 全球 PMBA 知識庫總導航主頁面

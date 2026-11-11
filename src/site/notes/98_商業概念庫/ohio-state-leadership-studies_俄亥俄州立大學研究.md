@@ -1,27 +1,36 @@
 ---
-{"dg-publish":true,"permalink":"/98/ohio-state-leadership-studies/","tags":["商業概念","策略管理","PMBA"],"dg-note-properties":{"aliases":["俄亥俄州立大學研究"],"tags":["商業概念","策略管理","PMBA"]}}
+{"dg-publish":true,"permalink":"/98/ohio-state-leadership-studies/","tags":["商業概念","領導力","組織行為學","行為學派","PMBA"],"dg-note-properties":{"aliases":["俄亥俄州立大學研究","Ohio State Leadership Studies","定規與關懷維度","領導行為兩維模型"],"tags":["商業概念","領導力","組織行為學","行為學派","PMBA"]}}
 ---
 
 
-# 俄亥俄州立大學研究
+# 俄亥俄州立大學領導研究 (Ohio State Studies: Initiating Structure vs. Consideration)
 
-## 一、 核心定義與本質
-- **俄亥俄州立大學研究** 是管理學、產業分析與企業策略決策中的重要核心概念。
-- 其本質在於幫助企業經理人分析[[98_商業概念庫/market-structure_市場結構\|市場結構]]、[[98_商業概念庫/competitive-advantage_競爭優勢\|competition-you-shi_競爭優勢]]、資源配置與動態轉型方向，確保企業在競爭環境中建立永續營運壁壘。
+> **【核心決策摘要】**
+> 1940 年代末期由斯托格迪爾（Ralph Stogdill）等人啟動的**俄亥俄州立大學領導研究（Ohio State Leadership Studies）**，是管理學史上從「尋找靜態偉人特質」轉向「分析動態行為模式」的最偉大里程碑。該研究透過「領導行為描述問卷（LBDQ）」，從上千種領導行為中提煉出彼此獨立的兩大核心維度：**定規維度（Initiating Structure，任務導向）** 與 **關懷維度（Consideration，人際導向）**。研究打破了非此即彼的線性思維，證實**定規與關懷並非互斥的單一光譜兩極，而是可以同時並存的獨立坐標**。「**高定規、高關懷（High Structure - High Consideration）**」領導者通常能促成最高水準的部屬績效與工作滿意度。
 
-## 二、 計算公式與關鍵指標（若為財務/量化概念）
-- **衡量維度與指標架構**：
-  - 量化指標：結合[[98_商業概念庫/industry-concentration_產業集中度\|industry-concentration_產業集中度]]、[[98_商業概念庫/economies-of-scale_規模經濟\|economies-of-scale_規模經濟]]效益與[[98_商業概念庫/return-on-invested-capital_資本投入報酬率\|資本回報率]]等維度綜合衡量。
-  - 質化評估：檢視企業在[[98_商業概念庫/barriers-to-entry_進入障礙\|barriers-to-entry_進入障礙]]、[[98_商業概念庫/switching-costs_轉換成本\|switching-costs_轉換成本]]與品牌資產上的護城河強度。
+---
 
-## 三、 產業意涵與策略判讀
-- **市場結構視角**：在寡占或高度集中市場中，俄亥俄州立大學研究 決定了龍頭企業與追隨者的戰略互動與利基定位。
-- **動態轉型視角**：面臨技術[[98_商業概念庫/technology-s-curve-technology-s-curve_技術 S 曲線 Technology S-Curve\|S曲線]]轉折與破壞式創新時，企業需運用 俄亥俄州立大學研究 評估資產重組與[[98_商業概念庫/dual-transformation-dual-transformation_雙軌轉型 Dual Transformation\|雙軌轉型]]路徑。
-- **營運實踐**：經理人需將此概念落實於產品藍圖、供應鏈協同與商業模式設計中。
+## 1. 兩大行為維度坐標與管理矩陣
 
-## 四、 關聯主題與模組
-* [[04_主題選修/12_產業分析與投資策略/00_課程導航與進度/mindmap_產業分析與投資策略_心智圖導航\|產業分析與投資策略 心智圖導航]]
-* [[04_主題選修/12_產業分析與投資策略/02_模組筆記/Module_1_總論與架構/M1-3_產業獲利結構差異與十大經典理論\|M1-3 產業獲利結構差異與十大經典理論]]
-* [[04_主題選修/12_產業分析與投資策略/02_模組筆記/Module_1_總論與架構/M1-6_產業分析模式與九大分析工具矩陣\|M1-6 產業分析模式與九大分析工具矩陣]]
-* [[98_商業概念庫/Porter's Five Forces Analysis_波特五力分析\|Porter's Five Forces Analysis_波特五力分析]]
-* [[98_商業概念庫/SCP模型\|SCP模型]]
+```
+  關懷維度 (Consideration)
+  高 ▲ ──────────────────────────────────────────┐
+     │ 【高關懷、低定規】       │ 【高定規、高關懷】 🌟       │
+     │ • 重視人際和諧與福祉     │ • 明確績效目標, 嚴密組織分工│
+     │ • 部屬滿意度高, 績效中等 │ • 營造信任文化, 高績效高滿意│
+     ├──────────────────────────┼─────────────────────────────┤
+     │ 【低定規、低關懷】       │ 【高定規、低關懷】           │
+     │ • 放任自流, 缺乏方向     │ • 專注任務規章, 忽視部屬感受│
+     │ • 績效低落, 團隊士氣瓦解 │ • 短期具產出, 長期爆發離職潮│
+  低 └──────────────────────────┴─────────────────────────────▶
+     低                                          高
+                    定規維度 (Initiating Structure)
+```
+
+---
+
+## 2. 關聯概念與延伸閱讀 (Cross References)
+
+- [[situational-leadership-theory_情境領導理論]]：俄亥俄兩維模型在情境學派中的深化延伸。
+- [[transactional-leadership_交易型領導]]：定規維度與條件式酬賞之對接。
+- [[home]]：PMBA 知識庫首頁與模組導航。

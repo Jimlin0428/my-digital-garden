@@ -1,27 +1,25 @@
 ---
-{"dg-publish":true,"permalink":"/98/inventory-2/","tags":["商業概念","策略管理","PMBA"],"dg-note-properties":{"aliases":["存貨跌價損失"],"tags":["商業概念","策略管理","PMBA"]}}
+{"dg-publish":true,"permalink":"/98/inventory-2/","tags":["商業概念","會計準則","存貨管理","財務報表","PMBA"],"dg-note-properties":{"aliases":["存貨跌價損失","Allowance for Inventory Valuation Loss","存貨跌價與呆滯損失","LCNRV"],"tags":["商業概念","會計準則","存貨管理","財務報表","PMBA"]}}
 ---
 
 
-# 存貨跌價損失
+# 存貨跌價損失 (Inventory Valuation Loss & LCM/LCNRV Rules)
 
-## 一、 核心定義與本質
-- **存貨跌價損失** 是管理學、產業分析與企業策略決策中的重要核心概念。
-- 其本質在於幫助企業經理人分析[[98_商業概念庫/market-structure_市場結構\|市場結構]]、[[98_商業概念庫/competitive-advantage_競爭優勢\|competition-you-shi_競爭優勢]]、資源配置與動態轉型方向，確保企業在競爭環境中建立永續營運壁壘。
+> **【核心決策摘要】**
+> **存貨跌價損失（Inventory Valuation Loss）** 是企業會計依據「穩健保守原則（Conservatism）」與 IFRS / US GAAP 規定，在資產負債表日針對存貨帳面價值所進行的強制減損評估。依據**成本與淨變現價值孰低法（Lower of Cost or Net Realizable Value, LCNRV）**，當存貨因市場需求衰退、技術過時（Obsolescence）、實體損壞或競品殺價，導致其預估扣除銷售費用後的淨變現價值低於歷史取得成本時，差額必須在當期全額認列為**「存貨跌價損失」並作為銷貨成本（COGS）之加項**，直接重創毛利率與營業淨利。
 
-## 二、 計算公式與關鍵指標（若為財務/量化概念）
-- **衡量維度與指標架構**：
-  - 量化指標：結合[[98_商業概念庫/industry-concentration_產業集中度\|industry-concentration_產業集中度]]、[[98_商業概念庫/economies-of-scale_規模經濟\|economies-of-scale_規模經濟]]效益與[[98_商業概念庫/return-on-invested-capital_資本投入報酬率\|資本回報率]]等維度綜合衡量。
-  - 質化評估：檢視企業在[[98_商業概念庫/barriers-to-entry_進入障礙\|barriers-to-entry_進入障礙]]、[[98_商業概念庫/switching-costs_轉換成本\|switching-costs_轉換成本]]與品牌資產上的護城河強度。
+---
 
-## 三、 產業意涵與策略判讀
-- **市場結構視角**：在寡占或高度集中市場中，存貨跌價損失 決定了龍頭企業與追隨者的戰略互動與利基定位。
-- **動態轉型視角**：面臨技術[[98_商業概念庫/technology-s-curve-technology-s-curve_技術 S 曲線 Technology S-Curve\|S曲線]]轉折與破壞式創新時，企業需運用 存貨跌價損失 評估資產重組與[[98_商業概念庫/dual-transformation-dual-transformation_雙軌轉型 Dual Transformation\|雙軌轉型]]路徑。
-- **營運實踐**：經理人需將此概念落實於產品藍圖、供應鏈協同與商業模式設計中。
+## 核心會計評價準則
+1. **淨變現價值（Net Realizable Value, NRV）**：
+   $$\text{NRV} = \text{預估正常售價} - \text{至完工尚需投入之成本} - \text{銷售相關之推銷費用}$$
+2. **會計認列規則**：
+   $$\text{當期跌價損失} = \max(0, \text{存貨歷史成本} - \text{NRV})$$
+   - 跌價損失直接列為損益表銷貨成本的增加項，並在資產負債表以「備抵存貨跌價」作為存貨帳面價值的抵減項。
 
-## 四、 關聯主題與模組
-* [[04_主題選修/12_產業分析與投資策略/00_課程導航與進度/mindmap_產業分析與投資策略_心智圖導航\|產業分析與投資策略 心智圖導航]]
-* [[04_主題選修/12_產業分析與投資策略/02_模組筆記/Module_1_總論與架構/M1-3_產業獲利結構差異與十大經典理論\|M1-3 產業獲利結構差異與十大經典理論]]
-* [[04_主題選修/12_產業分析與投資策略/02_模組筆記/Module_1_總論與架構/M1-6_產業分析模式與九大分析工具矩陣\|M1-6 產業分析模式與九大分析工具矩陣]]
-* [[98_商業概念庫/Porter's Five Forces Analysis_波特五力分析\|Porter's Five Forces Analysis_波特五力分析]]
-* [[98_商業概念庫/SCP模型\|SCP模型]]
+---
+
+## 關聯概念
+- [[98_商業概念庫/inventory-3_存貨周轉率\|inventory-3_存貨周轉率]]：低周轉率直接催生高額跌價損失。
+- [[98_商業概念庫/insolvency-with-profit_黑字倒閉\|insolvency-with-profit_黑字倒閉]]：存貨跌價導致資產實質縮水與流動性凍結。
+- [[home\|home]]：PMBA 知識庫首頁與模組導航。

@@ -229,7 +229,7 @@ sequenceDiagram
 ### 6.2 商業概念庫相關卡片
 - [[prospect-theory_展望理論\|prospect-theory_展望理論]]（框架效應的數學與理論母體）
 - [[loss-aversion_損失厭惡\|loss-aversion_損失厭惡]]（框架效應產生強大非對稱影響力的底層發動機）
-- [[98_商業概念庫/anchoring-effect_錨定效應\|anchoring-effect_錨定效應]]（數值維度的框架鎖定機制）
+- [[98_商業概念庫/_待改寫草稿庫/anchoring-effect_錨定效應\|anchoring-effect_錨定效應]]（數值維度的框架鎖定機制）
 - [[mental-accounting_心智帳戶\|mental-accounting_心智帳戶]]（金錢在不同心理框架下的非理性分流）
 - [[98_商業概念庫/two-factor-theory_雙因素理論\|two-factor-theory_雙因素理論]]（管理溝通中保健維度的痛點消除與激勵維度的願景塑造）
 - [[98_商業概念庫/vpc-value-price-cost_價值價格成本分析\|vpc-value-price-cost_價值價格成本分析]]（透過屬性框架提升顧客願付價格 WTP）

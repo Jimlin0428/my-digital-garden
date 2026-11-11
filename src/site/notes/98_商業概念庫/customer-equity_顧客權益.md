@@ -1,27 +1,36 @@
 ---
-{"dg-publish":true,"permalink":"/98/customer-equity/","tags":["商業概念","策略管理","PMBA"],"dg-note-properties":{"aliases":["顧客權益"],"tags":["商業概念","策略管理","PMBA"]}}
+{"dg-publish":true,"permalink":"/98/customer-equity/","tags":["商業概念","創業管理","行銷管理","PMBA"],"dg-note-properties":{"aliases":["顧客權益","Customer Equity"],"tags":["商業概念","創業管理","行銷管理","PMBA"]}}
 ---
 
 
-# 顧客權益
+# 顧客權益 (Customer Equity)
 
-## 一、 核心定義與本質
-- **顧客權益** 是管理學、產業分析與企業策略決策中的重要核心概念。
-- 其本質在於幫助企業經理人分析[[98_商業概念庫/market-structure_市場結構\|市場結構]]、[[98_商業概念庫/competitive-advantage_競爭優勢\|competition-you-shi_競爭優勢]]、資源配置與動態轉型方向，確保企業在競爭環境中建立永續營運壁壘。
+> **【核心定義與概念導航】**
+> **顧客權益（Customer Equity）** 是指企業當前與未來所有客戶在完整生命週期中所產生的**顧客終身價值（CLV）之貼現加總**。在現代企業策略與行銷財務學中，顧客權益被視為衡量企業真實內在價值（Intangible Asset Value）的最純粹標尺，反映了企業長期獲利能力的綜合上限。
 
-## 二、 計算公式與關鍵指標（若為財務/量化概念）
-- **衡量維度與指標架構**：
-  - 量化指標：結合[[98_商業概念庫/industry-concentration_產業集中度\|industry-concentration_產業集中度]]、[[98_商業概念庫/economies-of-scale_規模經濟\|economies-of-scale_規模經濟]]效益與[[98_商業概念庫/return-on-invested-capital_資本投入報酬率\|資本回報率]]等維度綜合衡量。
-  - 質化評估：檢視企業在[[98_商業概念庫/barriers-to-entry_進入障礙\|barriers-to-entry_進入障礙]]、[[98_商業概念庫/switching-costs_轉換成本\|switching-costs_轉換成本]]與品牌資產上的護城河強度。
+---
 
-## 三、 產業意涵與策略判讀
-- **市場結構視角**：在寡占或高度集中市場中，顧客權益 決定了龍頭企業與追隨者的戰略互動與利基定位。
-- **動態轉型視角**：面臨技術[[98_商業概念庫/technology-s-curve-technology-s-curve_技術 S 曲線 Technology S-Curve\|S曲線]]轉折與破壞式創新時，企業需運用 顧客權益 評估資產重組與[[98_商業概念庫/dual-transformation-dual-transformation_雙軌轉型 Dual Transformation\|雙軌轉型]]路徑。
-- **營運實踐**：經理人需將此概念落實於產品藍圖、供應鏈協同與商業模式設計中。
+## 1. 核心數理模型
 
-## 四、 關聯主題與模組
-* [[04_主題選修/12_產業分析與投資策略/00_課程導航與進度/mindmap_產業分析與投資策略_心智圖導航\|產業分析與投資策略 心智圖導航]]
-* [[04_主題選修/12_產業分析與投資策略/02_模組筆記/Module_1_總論與架構/M1-3_產業獲利結構差異與十大經典理論\|M1-3 產業獲利結構差異與十大經典理論]]
-* [[04_主題選修/12_產業分析與投資策略/02_模組筆記/Module_1_總論與架構/M1-6_產業分析模式與九大分析工具矩陣\|M1-6 產業分析模式與九大分析工具矩陣]]
-* [[98_商業概念庫/Porter's Five Forces Analysis_波特五力分析\|Porter's Five Forces Analysis_波特五力分析]]
-* [[98_商業概念庫/SCP模型\|SCP模型]]
+$$\text{Customer Equity} = \sum_{j=1}^{N} \text{CLV}_j = \sum_{j=1}^{N} \sum_{t=1}^{\infty} \frac{M_{jt} \cdot r_{jt}^{t-1}}{(1 + WACC)^t}$$
+
+其中：
+- $N$：企業現有與預期獲取之客戶總數。
+- $M_{jt}$：第 $j$ 位客戶在第 $t$ 期貢獻的邊際毛利。
+- $r$：顧客留存率。
+- $WACC$：企業加權平均資本成本。
+
+---
+
+## 2. 驅動顧客權益的三大支柱 (The Three Equity Drivers)
+1. **價值權益（Value Equity）**：顧客對產品性價比、便利性與功能質量的客觀評估，直接影響初次轉化與基礎 [[98_商業概念庫/cac-customer-acquisition-cost_獲客成本\|獲客成本]]。
+2. **品牌權益（Brand Equity）**：超越功能性特徵的主觀心理溢價與品牌認同，有助於降低行銷敏感度並提升定價能力（參見 [[98_商業概念庫/brand-equity_品牌權益\|brand-equity_品牌權益]]）。
+3. **關係權益（Relationship Equity）**：透過忠誠度計畫、社群黏性與客製化服務建立的長期情感綁定，實質大幅築高 [[98_商業概念庫/switching-costs_轉換成本\|轉換成本]] 並延長客戶生命週期。
+
+---
+
+## 3. 核心概念關聯地圖
+- **核心主篇**：[[98_商業概念庫/clv-customer-lifetime-value_顧客終身價值\|clv-customer-lifetime-value_顧客終身價值]] · 顧客終身價值的精準計量與折現推導
+- **單位模型**：[[98_商業概念庫/unit-economics-model_單位經濟模型\|unit-economics-model_單位經濟模型]] · 單位客戶經濟效益評估
+- **獲客指標**：[[98_商業概念庫/cac-customer-acquisition-cost_獲客成本\|cac-customer-acquisition-cost_獲客成本]] · 客戶獲取成本與全漏斗轉換
+- **導航總覽**：[[home\|home]] · 全球 PMBA 知識庫總導航主頁面

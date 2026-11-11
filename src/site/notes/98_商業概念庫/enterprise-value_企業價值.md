@@ -1,27 +1,31 @@
 ---
-{"dg-publish":true,"permalink":"/98/enterprise-value/","tags":["商業概念","策略管理","PMBA"],"dg-note-properties":{"aliases":["企業價值"],"tags":["商業概念","策略管理","PMBA"]}}
+{"dg-publish":true,"permalink":"/98/enterprise-value/","tags":["商業概念","企業評價","財務管理","資本市場","PMBA"],"dg-note-properties":{"aliases":["企業價值","Enterprise Value","EV","企業整體價值"],"tags":["商業概念","企業評價","財務管理","資本市場","PMBA"]}}
 ---
 
 
-# 企業價值
+# 企業價值 (Enterprise Value, EV)
 
-## 一、 核心定義與本質
-- **企業價值** 是管理學、產業分析與企業策略決策中的重要核心概念。
-- 其本質在於幫助企業經理人分析[[98_商業概念庫/market-structure_市場結構\|市場結構]]、[[98_商業概念庫/competitive-advantage_競爭優勢\|competition-you-shi_競爭優勢]]、資源配置與動態轉型方向，確保企業在競爭環境中建立永續營運壁壘。
+> **【核心定義與概念導航】**
+> **企業價值（Enterprise Value, EV，又稱企業實體價值）** 衡量的是企業**整體核心經營性資產（Operating Assets）的總市場價值**，代表收購整家公司（包含清償其所有債務並接管其現金儲備）所需的理論理論總收購代價。EV 獨立於資本結構之外，由全體資本提供者（普通股股東、特別股股東及有息債權人）共同享有。
 
-## 二、 計算公式與關鍵指標（若為財務/量化概念）
-- **衡量維度與指標架構**：
-  - 量化指標：結合[[98_商業概念庫/industry-concentration_產業集中度\|industry-concentration_產業集中度]]、[[98_商業概念庫/economies-of-scale_規模經濟\|economies-of-scale_規模經濟]]效益與[[98_商業概念庫/return-on-invested-capital_資本投入報酬率\|資本回報率]]等維度綜合衡量。
-  - 質化評估：檢視企業在[[98_商業概念庫/barriers-to-entry_進入障礙\|barriers-to-entry_進入障礙]]、[[98_商業概念庫/switching-costs_轉換成本\|switching-costs_轉換成本]]與品牌資產上的護城河強度。
+---
 
-## 三、 產業意涵與策略判讀
-- **市場結構視角**：在寡占或高度集中市場中，企業價值 決定了龍頭企業與追隨者的戰略互動與利基定位。
-- **動態轉型視角**：面臨技術[[98_商業概念庫/technology-s-curve-technology-s-curve_技術 S 曲線 Technology S-Curve\|S曲線]]轉折與破壞式創新時，企業需運用 企業價值 評估資產重組與[[98_商業概念庫/dual-transformation-dual-transformation_雙軌轉型 Dual Transformation\|雙軌轉型]]路徑。
-- **營運實踐**：經理人需將此概念落實於產品藍圖、供應鏈協同與商業模式設計中。
+## 1. 核心數理結構模型
 
-## 四、 關聯主題與模組
-* [[04_主題選修/12_產業分析與投資策略/00_課程導航與進度/mindmap_產業分析與投資策略_心智圖導航\|產業分析與投資策略 心智圖導航]]
-* [[04_主題選修/12_產業分析與投資策略/02_模組筆記/Module_1_總論與架構/M1-3_產業獲利結構差異與十大經典理論\|M1-3 產業獲利結構差異與十大經典理論]]
-* [[04_主題選修/12_產業分析與投資策略/02_模組筆記/Module_1_總論與架構/M1-6_產業分析模式與九大分析工具矩陣\|M1-6 產業分析模式與九大分析工具矩陣]]
-* [[98_商業概念庫/Porter's Five Forces Analysis_波特五力分析\|Porter's Five Forces Analysis_波特五力分析]]
-* [[98_商業概念庫/SCP模型\|SCP模型]]
+$$\text{Enterprise Value (EV)} = \text{Equity Value} + \text{Total Debt} + \text{Preferred Stock} + \text{Minority Interest} - \text{Cash \& Cash Equivalents}$$
+
+$$\text{EV} = \text{股權市值} + \text{淨有息負債 (Net Debt)} + \text{少數股東權益}$$
+
+在折現現金流量模型（DCF）中，EV 直接等於未來**企業自由現金流量（FCFF）** 經加權平均資本成本（WACC）折現的現值總和：
+
+$$\text{EV} = \sum_{t=1}^{\infty} \frac{\text{FCFF}_t}{(1 + \text{WACC})^t}$$
+
+---
+
+## 2. 核心概念關聯地圖
+- **核心評價**：[[98_商業概念庫/enterprise-free-cash-flow-liang_企業自由現金流量\|enterprise-free-cash-flow-liang_企業自由現金流量]] · 計算 EV 的核心輸入無槓桿自由現金流
+- **股權價值**：[[98_商業概念庫/equity-free-cash-flow_股權自由現金流量\|equity-free-cash-flow_股權自由現金流量]] · 股權所有者專屬現金流與股權估值
+- **估值模型**：[[98_商業概念庫/dcf_現金流量折現法\|dcf_現金流量折現法]] · 現金流量折現估值模型
+- **資本成本**：[[98_商業概念庫/wacc_加權平均資本成本\|wacc_加權平均資本成本]] · 企業價值折現對應之加權平均資本成本
+- **內在價值**：[[98_商業概念庫/_待改寫草稿庫/company-value_公司內在價值\|company-value_公司內在價值]] · 公司內在價值評估架構
+- **導航總覽**：[[home\|home]] · 全球 PMBA 知識庫總導航主頁面

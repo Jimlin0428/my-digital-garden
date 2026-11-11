@@ -1,27 +1,24 @@
 ---
-{"dg-publish":true,"permalink":"/98/equity-ratio/","tags":["商業概念","策略管理","PMBA"],"dg-note-properties":{"aliases":["權益比率"],"tags":["商業概念","策略管理","PMBA"]}}
+{"dg-publish":true,"permalink":"/98/equity-ratio/","tags":["商業概念","財務比率","資本結構","償債能力","PMBA"],"dg-note-properties":{"aliases":["權益比率","Equity Ratio","股東權益比率","自有資本比率"],"tags":["商業概念","財務比率","資本結構","償債能力","PMBA"]}}
 ---
 
 
-# 權益比率
+# 權益比率 (Equity Ratio & Financial Solvency Base)
 
-## 一、 核心定義與本質
-- **權益比率** 是管理學、產業分析與企業策略決策中的重要核心概念。
-- 其本質在於幫助企業經理人分析[[98_商業概念庫/market-structure_市場結構\|市場結構]]、[[98_商業概念庫/competitive-advantage_競爭優勢\|competition-you-shi_競爭優勢]]、資源配置與動態轉型方向，確保企業在競爭環境中建立永續營運壁壘。
+> **【核心決策摘要】**
+> **權益比率（Equity Ratio）**，亦稱**自有資本比率**，是衡量企業**總資產中有多少比例是由股東出資（權益資本）所支撐的核心財務結構指標**。其計算方式為以**股東權益總額除以資產總額**。權益比率與負債比率（Debt Ratio）互為互補（$\text{Equity Ratio} + \text{Debt Ratio} = 100\%$）。權益比率高，代表企業**自有資本雄厚、財務槓桿低、抵禦破產風險與景氣寒冬的安全墊厚實**；然而若權益比率過高，亦可能反映管理層過度保守、未充分利用財務槓桿稅盾效應以提升股東權益報酬率（ROE）。
 
-## 二、 計算公式與關鍵指標（若為財務/量化概念）
-- **衡量維度與指標架構**：
-  - 量化指標：結合[[98_商業概念庫/industry-concentration_產業集中度\|industry-concentration_產業集中度]]、[[98_商業概念庫/economies-of-scale_規模經濟\|economies-of-scale_規模經濟]]效益與[[98_商業概念庫/return-on-invested-capital_資本投入報酬率\|資本回報率]]等維度綜合衡量。
-  - 質化評估：檢視企業在[[98_商業概念庫/barriers-to-entry_進入障礙\|barriers-to-entry_進入障礙]]、[[98_商業概念庫/switching-costs_轉換成本\|switching-costs_轉換成本]]與品牌資產上的護城河強度。
+---
 
-## 三、 產業意涵與策略判讀
-- **市場結構視角**：在寡占或高度集中市場中，權益比率 決定了龍頭企業與追隨者的戰略互動與利基定位。
-- **動態轉型視角**：面臨技術[[98_商業概念庫/technology-s-curve-technology-s-curve_技術 S 曲線 Technology S-Curve\|S曲線]]轉折與破壞式創新時，企業需運用 權益比率 評估資產重組與[[98_商業概念庫/dual-transformation-dual-transformation_雙軌轉型 Dual Transformation\|雙軌轉型]]路徑。
-- **營運實踐**：經理人需將此概念落實於產品藍圖、供應鏈協同與商業模式設計中。
+## 核心公式
+$$\text{Equity Ratio} = \frac{\text{股東權益總額 (Total Equity)}}{\text{資產總額 (Total Assets)}} \times 100\% = 1 - \text{負債比率 (Debt Ratio)}$$
 
-## 四、 關聯主題與模組
-* [[04_主題選修/12_產業分析與投資策略/00_課程導航與進度/mindmap_產業分析與投資策略_心智圖導航\|產業分析與投資策略 心智圖導航]]
-* [[04_主題選修/12_產業分析與投資策略/02_模組筆記/Module_1_總論與架構/M1-3_產業獲利結構差異與十大經典理論\|M1-3 產業獲利結構差異與十大經典理論]]
-* [[04_主題選修/12_產業分析與投資策略/02_模組筆記/Module_1_總論與架構/M1-6_產業分析模式與九大分析工具矩陣\|M1-6 產業分析模式與九大分析工具矩陣]]
-* [[98_商業概念庫/Porter's Five Forces Analysis_波特五力分析\|Porter's Five Forces Analysis_波特五力分析]]
-* [[98_商業概念庫/SCP模型\|SCP模型]]
+$$\text{權益乘數 (Equity Multiplier)} = \frac{1}{\text{Equity Ratio}} = \frac{\text{Total Assets}}{\text{Total Equity}}$$
+
+---
+
+## 關聯概念
+- [[98_商業概念庫/long-term-solvency_長期償債能力\|long-term-solvency_長期償債能力]]：資本結構抗風險指標。
+- [[98_商業概念庫/capital-structure_資本結構\|capital-structure_資本結構]]：負債與權益動態平衡模型。
+- [[98_商業概念庫/dupont-analysis_杜邦分析法\|dupont-analysis_杜邦分析法]]：權益乘數對 ROE 之槓桿放大效應。
+- [[home\|home]]：PMBA 知識庫首頁與模組導航。

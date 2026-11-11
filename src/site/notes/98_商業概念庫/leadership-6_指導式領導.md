@@ -1,27 +1,26 @@
 ---
-{"dg-publish":true,"permalink":"/98/leadership-6/","tags":["商業概念","策略管理","PMBA"],"dg-note-properties":{"aliases":["指導式領導"],"tags":["商業概念","策略管理","PMBA"]}}
+{"dg-publish":true,"permalink":"/98/leadership-6/","tags":["商業概念","情境領導","任務導向","危機管理","PMBA"],"dg-note-properties":{"aliases":["指導式領導","Directing Leadership Style","命令型領導","S1 風格","告知型領導"],"tags":["商業概念","情境領導","任務導向","危機管理","PMBA"]}}
 ---
 
 
-# 指導式領導
+# 指導式領導 (Directing Leadership Style & S1 Crisis Protocol)
 
-## 一、 核心定義與本質
-- **指導式領導** 是管理學、產業分析與企業策略決策中的重要核心概念。
-- 其本質在於幫助企業經理人分析[[98_商業概念庫/market-structure_市場結構\|市場結構]]、[[98_商業概念庫/competitive-advantage_競爭優勢\|competition-you-shi_競爭優勢]]、資源配置與動態轉型方向，確保企業在競爭環境中建立永續營運壁壘。
+> **【核心導流與概念摘要】**
+> **指導式領導（Directing Style / Telling / S1）** 是[[98_商業概念庫/situational-leadership-theory_情境領導理論\|情境領導理論（SLT）]]中的第一種核心風格，其特徵為**高任務行為（High Task）與低關係行為（Low Relationship）**。
+>
+> 完整深入的情境領導動態矩陣，請直接參閱旗艦核心卡片：
+> 🔗 **[[98_商業概念庫/situational-leadership-theory_情境領導理論\|情境領導理論 (Situational Leadership Theory)]]**
 
-## 二、 計算公式與關鍵指標（若為財務/量化概念）
-- **衡量維度與指標架構**：
-  - 量化指標：結合[[98_商業概念庫/industry-concentration_產業集中度\|industry-concentration_產業集中度]]、[[98_商業概念庫/economies-of-scale_規模經濟\|economies-of-scale_規模經濟]]效益與[[98_商業概念庫/return-on-invested-capital_資本投入報酬率\|資本回報率]]等維度綜合衡量。
-  - 質化評估：檢視企業在[[98_商業概念庫/barriers-to-entry_進入障礙\|barriers-to-entry_進入障礙]]、[[98_商業概念庫/switching-costs_轉換成本\|switching-costs_轉換成本]]與品牌資產上的護城河強度。
+---
 
-## 三、 產業意涵與策略判讀
-- **市場結構視角**：在寡占或高度集中市場中，指導式領導 決定了龍頭企業與追隨者的戰略互動與利基定位。
-- **動態轉型視角**：面臨技術[[98_商業概念庫/technology-s-curve-technology-s-curve_技術 S 曲線 Technology S-Curve\|S曲線]]轉折與破壞式創新時，企業需運用 指導式領導 評估資產重組與[[98_商業概念庫/dual-transformation-dual-transformation_雙軌轉型 Dual Transformation\|雙軌轉型]]路徑。
-- **營運實踐**：經理人需將此概念落實於產品藍圖、供應鏈協同與商業模式設計中。
+## 核心特徵與實踐要領
+- **適用對象**：**D1 熱情的初學者（低能力、高意願）**，或處於突發安全危機、產線停擺與緊急救援時刻。
+- **管理行為**：單向溝通（Top-down）、明確界定「人事時地物（Who, What, When, Where, How）」、拆解標準步驟並進行密集的即時進度覆盤。
+- **高階警訊**：切忌長期停留在 S1 風格，否則會扼殺團隊自主性，將部屬退化為不會思考的指令執行機器。
 
-## 四、 關聯主題與模組
-* [[04_主題選修/12_產業分析與投資策略/00_課程導航與進度/mindmap_產業分析與投資策略_心智圖導航\|產業分析與投資策略 心智圖導航]]
-* [[04_主題選修/12_產業分析與投資策略/02_模組筆記/Module_1_總論與架構/M1-3_產業獲利結構差異與十大經典理論\|M1-3 產業獲利結構差異與十大經典理論]]
-* [[04_主題選修/12_產業分析與投資策略/02_模組筆記/Module_1_總論與架構/M1-6_產業分析模式與九大分析工具矩陣\|M1-6 產業分析模式與九大分析工具矩陣]]
-* [[98_商業概念庫/Porter's Five Forces Analysis_波特五力分析\|Porter's Five Forces Analysis_波特五力分析]]
-* [[98_商業概念庫/SCP模型\|SCP模型]]
+---
+
+## 關聯概念
+- [[98_商業概念庫/situational-leadership-theory_情境領導理論\|situational-leadership-theory_情境領導理論]]：情境領導總體架構。
+- [[98_商業概念庫/leadership-5_教練式領導\|leadership-5_教練式領導]]：部屬受挫進入 D2 時需切換之 S2 風格。
+- [[home\|home]]：PMBA 知識庫首頁與模組導航。

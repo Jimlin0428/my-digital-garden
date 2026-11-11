@@ -1,27 +1,23 @@
 ---
-{"dg-publish":true,"permalink":"/98/high-growth-stage/","tags":["商業概念","策略管理","PMBA"],"dg-note-properties":{"aliases":["高速成長期"],"tags":["商業概念","策略管理","PMBA"]}}
+{"dg-publish":true,"permalink":"/98/high-growth-stage/","tags":["商業概念","新創成長","閃電擴張","網絡效應","PMBA"],"dg-note-properties":{"aliases":["高速成長期","High Growth Stage","閃電擴張期","超高速增長期"],"tags":["商業概念","新創成長","閃電擴張","網絡效應","PMBA"]}}
 ---
 
 
-# 高速成長期
+# 高速成長期 (High Growth Stage & Blitzscaling)
 
-## 一、 核心定義與本質
-- **高速成長期** 是管理學、產業分析與企業策略決策中的重要核心概念。
-- 其本質在於幫助企業經理人分析[[98_商業概念庫/market-structure_市場結構\|市場結構]]、[[98_商業概念庫/competitive-advantage_競爭優勢\|competition-you-shi_競爭優勢]]、資源配置與動態轉型方向，確保企業在競爭環境中建立永續營運壁壘。
+> **【核心決策摘要】**
+> **高速成長期（High Growth Stage）** 是企業在驗證了「產品市場契合度（PMF）」之後，以數倍於行業平均水準的極速擴張市場份額的特殊階段。在此階段，企業的核心哲學由「追求效率與成本控制」讓位於「**速度優先於效率（Speed over Efficiency - 閃電擴張 Blitzscaling）**」。高階管理層必須全力拉動**網絡效應（Network Effects）**，利用大額融資進行市場圈地，快速構建規模壁壘，在潛在競爭者覺醒前確立市場事實標準。
 
-## 二、 計算公式與關鍵指標（若為財務/量化概念）
-- **衡量維度與指標架構**：
-  - 量化指標：結合[[98_商業概念庫/industry-concentration_產業集中度\|industry-concentration_產業集中度]]、[[98_商業概念庫/economies-of-scale_規模經濟\|economies-of-scale_規模經濟]]效益與[[98_商業概念庫/return-on-invested-capital_資本投入報酬率\|資本回報率]]等維度綜合衡量。
-  - 質化評估：檢視企業在[[98_商業概念庫/barriers-to-entry_進入障礙\|barriers-to-entry_進入障礙]]、[[98_商業概念庫/switching-costs_轉換成本\|switching-costs_轉換成本]]與品牌資產上的護城河強度。
+---
 
-## 三、 產業意涵與策略判讀
-- **市場結構視角**：在寡占或高度集中市場中，高速成長期 決定了龍頭企業與追隨者的戰略互動與利基定位。
-- **動態轉型視角**：面臨技術[[98_商業概念庫/technology-s-curve-technology-s-curve_技術 S 曲線 Technology S-Curve\|S曲線]]轉折與破壞式創新時，企業需運用 高速成長期 評估資產重組與[[98_商業概念庫/dual-transformation-dual-transformation_雙軌轉型 Dual Transformation\|雙軌轉型]]路徑。
-- **營運實踐**：經理人需將此概念落實於產品藍圖、供應鏈協同與商業模式設計中。
+## 核心特徵與治理挑戰
+1. **資本與現金流動態**：營收年增長率通常突破 50%~100%，因營運資金 $\Delta NWC$ 與行銷補貼劇烈吸水，經營現金流仍可能為負，必須仰賴資本市場持續大額輸血。
+2. **組織稀釋風險**：員工規模短時間內翻倍，組織文化被快速稀釋，溝通成本幾何級數攀升。
 
-## 四、 關聯主題與模組
-* [[04_主題選修/12_產業分析與投資策略/00_課程導航與進度/mindmap_產業分析與投資策略_心智圖導航\|產業分析與投資策略 心智圖導航]]
-* [[04_主題選修/12_產業分析與投資策略/02_模組筆記/Module_1_總論與架構/M1-3_產業獲利結構差異與十大經典理論\|M1-3 產業獲利結構差異與十大經典理論]]
-* [[04_主題選修/12_產業分析與投資策略/02_模組筆記/Module_1_總論與架構/M1-6_產業分析模式與九大分析工具矩陣\|M1-6 產業分析模式與九大分析工具矩陣]]
-* [[98_商業概念庫/Porter's Five Forces Analysis_波特五力分析\|Porter's Five Forces Analysis_波特五力分析]]
-* [[98_商業概念庫/SCP模型\|SCP模型]]
+---
+
+## 關聯概念
+- [[98_商業概念庫/growth-stage_成長期\|growth-stage_成長期]]：標準生命週期成長階段。
+- [[98_商業概念庫/steady-growth-stage_穩健成長期\|steady-growth-stage_穩健成長期]]：高速成長後的回歸理性階段。
+- [[98_商業概念庫/sustainable-growth-rate_永續成長率\|sustainable-growth-rate_永續成長率]]：高速增長對財務平衡的約束。
+- [[home\|home]]：PMBA 知識庫首頁與模組導航。
