@@ -10,7 +10,7 @@
 - **本質與意涵**：
   - 企業從「**實際向供應商支付現金購料**」開始，經歷生產製造、庫存倉儲、商品銷售，直到「**從客戶端全數收回銷售現金**」為止的**淨時間差（天數）**。
   - 它衡量了企業的**真金白銀被完全卡死在產銷營運鏈中的真空天數**。
-  - 在此期間內，企業必須自行籌措[[98_商業概念庫/net-working-capital_淨營運資金\|net-working-capital_淨營運資金]]或仰賴短期融資（如[[98_商業概念庫/_待改寫草稿庫/revolving-credit_循環信用貸款\|revolving-credit_循環信用貸款]]）來支應日常開銷。週期越長，企業的[[98_商業概念庫/liquidity_流動性\|liquidity_流動性]]壓力與利息負擔越大，甚至可能引發[[98_商業概念庫/insolvency-with-profit_黑字倒閉\|insolvency-with-profit_黑字倒閉]]。
+  - 在此期間內，企業必須自行籌措[[98_商業概念庫/net-working-capital_淨營運資金\|net-working-capital_淨營運資金]]或仰賴短期融資（如[[98_商業概念庫/revolving-credit_循環信用貸款\|revolving-credit_循環信用貸款]]）來支應日常開銷。週期越長，企業的[[98_商業概念庫/liquidity_流動性\|liquidity_流動性]]壓力與利息負擔越大，甚至可能引發[[98_商業概念庫/insolvency-with-profit_黑字倒閉\|insolvency-with-profit_黑字倒閉]]。
 
 ---
 

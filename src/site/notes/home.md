@@ -204,6 +204,26 @@ flowchart LR
 - 🏛️ **資本市場結構、金融定價理論與股利學派**：
   - [[capital-market_資本市場|資本市場架構與長期資產配置功能]] ｜ [[market-3_初級市場|初級市場承銷機制與資本形成 (IPO/SPO/競價拍賣)]] ｜ [[market-5_次級市場|次級市場微觀結構與流動性定價 (訂單驅動 vs 報價驅動)]] ｜ [[market-4_貨幣市場|貨幣市場工具運作與流動性調度 (T-Bills/CP/Repo)]] ｜ [[wan-mei-capital-market_完美資本市場|完美資本市場假說與金融基準參照系 (PCM/MM基準)]] ｜ [[convertible-corporate-bonds_可轉換公司債|可轉換公司債評價架構與發行策略 (債底+買權)]] ｜ [[capital-3_資本公積|資本公積會計本質與權益重組限制 (資本維持原則)]] ｜ [[capital_資本利得|資本利得定價機制與股東總報酬拆解 (TSR/戈登模型)]] ｜ [[theory-6_啄食順序理論|啄食順序理論與資訊不對稱融資階梯 (內部>負債>股權)]] ｜ [[theory-4_鳥在手理論|鳥在手理論與股利確定性溢價 (林中二鳥 vs 手中一鳥)]] ｜ [[theory-5_稅差理論|稅差理論與股東客戶群效應 (資本利得避稅優勢)]] ｜ [[theory-3_買賣權平價理論|買賣權平價理論與無套利合成定價 (Put-Call Parity)]] ｜ [[stock-split_股票分割|股票分割機制與微觀流動性信號 (拆股/反向分割)]] ｜ [[treasury-stock_庫藏股票|庫藏股票會計本質與資本回購策略 (股東權益抵銷)]] ｜ [[company-value_公司內在價值|公司內在價值定價邏輯與安全邊際框架 (DCF/巴菲特估值)]] ｜ [[ex-dividend-date_除息交易日|除息交易日機制與稅務除權除息定價 (填息 vs 貼息)]]
 
+
+- 🛡️ **波特競爭博弈、價值鏈重構與資源基礎理論 (RBV)**：
+  - [[value-chain_價值鏈|波特價值鏈架構與活動邊際解構 (主要活動 vs 支援活動)]] ｜ [[value-chain-2_價值鏈佈局|全球價值鏈配置與協調戰略 (微笑曲線與GVC)]] ｜ [[industrial-organization-theory_產業組織理論|產業組織理論與 SCP 典範 (結構-行為-績效)]] ｜ [[competence_議價能力|商業談判議價能力與剩餘索取權博弈 (BATNA)]] ｜ [[bargaining-power-of-buyers_買方議價能力|買方議價能力分析與顧客鎖定防衛 (五力分析第二力)]] ｜ [[bargaining-power-of-suppliers_供應商議價能力|供應商議價能力分析與關鍵資源瓶頸制衡 (五力分析第三力)]] ｜ [[potential-entrants_潛在進入者|潛在進入者威脅與結構性進入障礙防禦 (五力分析第一力)]] ｜ [[resource-based-view-rbv_資源基礎理論|資源基礎理論與 VRIO 能耐護城河 (Barney能耐學派)]] ｜ [[resource-allocation_資源配置|策略性資源配置程序與資本配給博弈 (Bower-Burgelman)]] ｜ [[asset-specificity_專用性資產|資產專用性理論與套牢問題治理 (TCE準租與整合)]] ｜ [[company-2_可比公司法|可比公司法評價乘數與同業相對估值 (EV/EBITDA/市銷率)]] ｜ [[strategy-4_毒藥丸策略|毒藥丸反收購防禦與股權稀釋機制 (股東權益計畫)]] ｜ [[strategy-5_戰略思維|高階戰略思維架構與非對稱競爭演化 (明茨伯格戰略)]] ｜ [[strategy-6_多國化策略|多國化策略與在地響應矩陣 (Bartlett & Ghoshal IR網格)]]
+
+- 🧠 **消費者購買決策歷程、涉入度與跨文化組織行為**：
+  - [[decision_消費者購買決策歷程|消費者購買決策歷程五階段模型 (CDP/EKB模型)]] ｜ [[behavior-4_複雜購買行為|複雜購買行為與認知失調防衛 (高涉入顯著差異)]] ｜ [[behavior-2_習慣性購買行為|習慣性購買行為與品牌穿透路徑 (低涉入微小差異)]] ｜ [[behavior-3_尋求多樣化行為|尋求多樣化購買行為與市場動態防禦 (低涉入顯著差異)]] ｜ [[theory-2_涉入度理論|涉入度理論與 FCB 傳播方格矩陣 (Vaughn矩陣)]] ｜ [[buyer-remorse_買家懊悔|買家懊悔與購後認知失調化解機制 (Festinger理論)]] ｜ [[organizational-buying-behavior_組織購買行為|B2B 組織購買行為與採購決策單位 (DMU採購中心)]] ｜ [[culture-dimension_霍夫斯泰德文化維度|霍夫斯泰德文化維度理論與跨國組織管理 (Hofstede六維度)]] ｜ [[culture-2_文化智商|文化智商四維模型與跨文化領導力 (Earley & Ang CQ)]] ｜ [[culture_高低語境文化|高語境與低語境文化理論及跨國商務溝通 (Edward T. Hall)]] ｜ [[gui-yin-theory_歸因理論|歸因理論、共變模型與組織認知偏誤 (Kelley共變與FAE)]] ｜ [[contingency-theory_權變理論|組織管理權變理論與環境動態適配 (Burns & Stalker)]] ｜ [[intuitive-decision-making_直覺決策|直覺決策模型與識別啟發決策 (RPD與快思慢想)]] ｜ [[decision-analysis_決策直覺與分析|決策直覺與分析之動態平衡及決策衛生 (康納曼雜訊治理)]]
+
+
+- 💳 **企業融資策略、以長支長與營運資金匹配**：
+  - [[financial-forecast_財務預測|財務預測模型與銷售百分比法 (AFN/外部融資需求)]] ｜ [[gross-profit_營業毛利|營業毛利結構與毛利率動態分析 (VPCM四大因數)]] ｜ [[financing-activities_籌資活動|籌資活動現金流與資本籌措架構 (CFF生命週期)]] ｜ [[financing_債券融資|公司債融資架構與債務限制條款 (Debt Covenants)]] ｜ [[financing-strategy_保守型融資策略|保守型營運資金融資策略與流動性緩衝 (低風險防禦)]] ｜ [[financing-strategy-2_激進型融資策略|激進型營運資金融資策略與槓桿風險 (短債長用套利)]] ｜ [[strategy-3_到期配合策略|到期配合與自償性融資策略 (Hedging Principle)]] ｜ [[matched-funding_以長支長|以長支長財務原則與流動性安全邊際 (長期資金覆蓋)]] ｜ [[maturity-mismatch_以短支長|以短支長期限錯配風險與流動性危機 (流動性踩踏)]] ｜ [[revolving-credit_循環信用貸款|循環信用貸款與企業備用流動性管理 (Revolver保險箱)]] ｜ [[capital-2_資本限額|資本限額決策與獲利指數資本配給 (PI專案優化)]] ｜ [[equity-cost_權益成本|權益資本成本估算與資產定價模型 (CAPM與機會成本)]] ｜ [[retained-earnings_保留盈餘|保留盈餘本質、內部融資策略與股利權衡 (巴菲特一美元)]] ｜ [[credit-policy_信用政策|企業信用政策架構、應收帳款管理與五C原則 (賒銷風控)]]
+
+
+- 🤝 **併購攻防、善意與敵意收購及退場機制**：
+  - [[acquisition_公開收購|公開收購機制與標購溢價定價博弈 (Tender Offer)]] ｜ [[acquisition-2_善意收購|善意收購程序與併購協議條款談判 (Merger Agreement)]] ｜ [[merger-acquisition-2_敵意併購|敵意併購戰術與公司控制權爭奪 (Hostile Takeover)]] ｜ [[merger-acquisition-3_多角化併購|多角化併購理論與多元化折價陷阱 (Conglomerate Discount)]] ｜ [[financial_財務綜效|財務綜效評估與稅盾融資槓桿 (Coinsurance Effect)]] ｜ [[operating_營運綜效|營運綜效與規模經濟範疇整合 (Cost & Revenue Synergies)]] ｜ [[winners-curse_勝者詛咒|勝者詛咒與併購溢價價值破壞 (Hubris Hypothesis)]] ｜ [[proxy-fight_委託書爭奪|委託書爭奪戰與股東治理博弈 (Proxy Contest/UPC)]] ｜ [[white-knight_白衣騎士|白衣騎士與白衣護衛反收購防禦 (White Knight & Squire)]] ｜ [[greenmail_綠色郵件|綠色郵件勒索防禦與目標股份溢價買回 (Greenmail)]] ｜ [[golden-parachute_黃金降落傘|黃金降落傘高管離職補償與代理成本 (Double-Trigger)]] ｜ [[scorched-earth-defense_焦土政策|焦土政策防禦與皇冠明珠資產剝離 (Crown Jewels/Unocal)]] ｜ [[exit-mechanism_退場機制|投資退場機制與資本回收路徑 (IPO/Trade Sale/MBO)]] ｜ [[exit-barriers_退出障礙|產業退出障礙與沉沒專用性資產 (波特五力退出壁壘)]]
+
+
+- 🌍 **跨國企業導向、全球整合與在地回應策略**：
+  - [[strategy-7_全球化策略|全球化標準策略與規模經濟優勢 (Global Strategy/MES)]] ｜ [[strategy-8_跨國化策略|跨國型策略與全球整合網絡模型 (Transnational/CoE)]] ｜ [[integration_全球整合與在地回應|全球整合與在地回應的雙重張力動態平衡 (I-R架構)]] ｜ [[orientation-5_母國中心導向|母國中心導向與跨國組織集權管控 (Ethnocentric/PCN)]] ｜ [[orientation-4_多中心導向|多中心導向與海外子公司高度自治 (Polycentric/HCN)]] ｜ [[orientation-3_全球中心導向|全球中心導向與無國界協同網絡 (Geocentric/TCN)]] ｜ [[kua-guo-enterprise_跨國企業|跨國企業本質、治理結構與組織演化 (Dunning OLI典範)]] ｜ [[licensing-and-franchising_授權與特許加盟|國際授權與特許加盟模式 (輕資產擴張與風控)]] ｜ [[purchasing-power-parity-ppp_購買力平價|購買力平價理論與跨國定價機制 (PPP/大麥克指數)]] ｜ [[lv-di-investment_綠地投資|綠地投資與海外全新設廠決策 (Greenfield vs M&A)]] ｜ [[corporate-3_合資企業|跨國合資企業治理與控制權博弈 (IJV/學習競賽)]] ｜ [[company-3_獨資子公司|全資海外子公司策略與實體控制 (WOS/絕對控制權)]]
+
+
 ---
 
 ## 🏷️ 知識庫標籤與導航索引
