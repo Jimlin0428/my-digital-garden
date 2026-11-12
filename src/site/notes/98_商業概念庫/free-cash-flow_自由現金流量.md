@@ -133,4 +133,4 @@ $$\text{FCFE} = \text{稅後淨利 (NI)} + \text{D\&A} - \text{CapEx} - \Delta\t
 * [[98_商業概念庫/capm_資本資產定價模型\|capm_資本資產定價模型]]
 * [[98_商業概念庫/cycle_淨營業循環週期\|cycle_淨營業循環週期]]
 * [[98_商業概念庫/insolvency-with-profit_黑字倒閉\|insolvency-with-profit_黑字倒閉]]
-* [[98_商業概念庫/_待改寫草稿庫/time-value-2_貨幣時間價值\|time-value-2_貨幣時間價值]]
+* [[98_商業概念庫/time-value-2_貨幣時間價值\|time-value-2_貨幣時間價值]]

@@ -7,10 +7,10 @@
 
 ## 💡 核心摘要
 
-- **從戰術執行者向戰略全局觀躍遷**：高階管理教育的本質不是傳授單一功能的操作技巧，而是推動[[98_商業概念庫/_待改寫草稿庫/managerial-mindset-shift_經理人思維轉型\|jing-li-ren-si-wei-zhuan-xing_經理人思維轉型]]。經理人必須擺脫「只盯著自己部門一畝三分地」的局限視角，培養點線面體的[[98_商業概念庫/_待改寫草稿庫/system_系統思考\|xi-tong-si-kao_系統思考]]與全局[[98_商業概念庫/strategy-5_戰略思維\|zhan-lve-si-wei_戰略思維]]。
+- **從戰術執行者向戰略全局觀躍遷**：高階管理教育的本質不是傳授單一功能的操作技巧，而是推動[[98_商業概念庫/managerial-mindset-shift_經理人思維轉型\|jing-li-ren-si-wei-zhuan-xing_經理人思維轉型]]。經理人必須擺脫「只盯著自己部門一畝三分地」的局限視角，培養點線面體的[[98_商業概念庫/system_系統思考\|xi-tong-si-kao_系統思考]]與全局[[98_商業概念庫/strategy-5_戰略思維\|zhan-lve-si-wei_戰略思維]]。
 - **管理概論是後續五管與高階策略的整合基座**：本課程所建立的 POLC（規劃、組織、領導、控制）橫向管理程序，與縱向的五大企業功能（產銷人發財）構成嚴密的二維管理矩陣，並最終向上匯聚至「合頂石課程（Capstone Course）」——[[98_商業概念庫/strategic-management_策略管理\|strategic-management_策略管理]]，奠定全方位[[98_商業概念庫/_待改寫草稿庫/knowledge-integration_知識整合\|zhi-shi-zheng-he_知識整合]]的基石。
-- **[[98_商業概念庫/_待改寫草稿庫/case-method-teaching_個案教學法\|ge-an-jiao-xue-fa_個案教學法]]不是背誦標準答案，而是鍛鍊決策肌肉**：透過哈佛[[98_商業概念庫/_待改寫草稿庫/case-method-teaching_個案教學法\|ge-an-jiao-xue-fa_個案教學法]]的情境代入與動態辯證，高階經理人學習在資訊不完備與高度不確定的情境下拍板抉擇，並透過[[98_商業概念庫/_待改寫草稿庫/learning-learning_單環學習與雙環學習\|dan-huan-xue-xi-yu-shuang-huan-xue-xi_單環學習與雙環學習]]檢視底層假設，深化[[98_商業概念庫/_待改寫草稿庫/decision-competence_模糊決策能力\|mo-hu-jue-ce-neng-li_模糊決策能力]]。
-- **紅皇后賽跑與終身學習心態**：「你必須拼命奔跑才能維持在原地；若想去別的地方，至少得跑得比現在快兩倍（Red Queen's Race）。」在變幻莫測的商業世界中，過往經驗可能成為阻礙變革的包袱，經理人唯有建立[[98_商業概念庫/_待改寫草稿庫/reflective-practice_反思實踐\|fan-si-shi-jian_反思實踐]]與[[98_商業概念庫/learning-organization_學習型組織\|xue-xi-xing-organization_學習型組織]]機制，方能持續引領企業穿越週期。
+- **[[98_商業概念庫/_待改寫草稿庫/case-method-teaching_個案教學法\|ge-an-jiao-xue-fa_個案教學法]]不是背誦標準答案，而是鍛鍊決策肌肉**：透過哈佛[[98_商業概念庫/_待改寫草稿庫/case-method-teaching_個案教學法\|ge-an-jiao-xue-fa_個案教學法]]的情境代入與動態辯證，高階經理人學習在資訊不完備與高度不確定的情境下拍板抉擇，並透過[[98_商業概念庫/learning-learning_單環學習與雙環學習\|dan-huan-xue-xi-yu-shuang-huan-xue-xi_單環學習與雙環學習]]檢視底層假設，深化[[98_商業概念庫/decision-competence_模糊決策能力\|mo-hu-jue-ce-neng-li_模糊決策能力]]。
+- **紅皇后賽跑與終身學習心態**：「你必須拼命奔跑才能維持在原地；若想去別的地方，至少得跑得比現在快兩倍（Red Queen's Race）。」在變幻莫測的商業世界中，過往經驗可能成為阻礙變革的包袱，經理人唯有建立[[98_商業概念庫/reflective-practice_反思實踐\|fan-si-shi-jian_反思實踐]]與[[98_商業概念庫/learning-organization_學習型組織\|xue-xi-xing-organization_學習型組織]]機制，方能持續引領企業穿越週期。
 
 ---
 

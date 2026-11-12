@@ -17,4 +17,4 @@
 - 主流企業應採取[[98_商業概念庫/dual-transformation-dual-transformation_雙軌轉型 Dual Transformation\|雙軌轉型]]，將核心成熟業務與敏捷破壞式創新團隊在組織上實體隔離運作。
 
 ## 四、 關聯索引
-- 核心關聯：[[98_商業概念庫/_待改寫草稿庫/innovation_創新\|innovation_創新]] ｜ [[98_商業概念庫/technology-s-curve-technology-s-curve_技術 S 曲線 Technology S-Curve\|ji-shu-s-qu-xian-technology-s-curve_技術 S 曲線 Technology S-Curve]] ｜ [[98_商業概念庫/_待改寫草稿庫/business-model_商業模式\|business-model_商業模式]]
+- 核心關聯：[[98_商業概念庫/innovation_創新\|innovation_創新]] ｜ [[98_商業概念庫/technology-s-curve-technology-s-curve_技術 S 曲線 Technology S-Curve\|ji-shu-s-qu-xian-technology-s-curve_技術 S 曲線 Technology S-Curve]] ｜ [[98_商業概念庫/business-model_商業模式\|business-model_商業模式]]

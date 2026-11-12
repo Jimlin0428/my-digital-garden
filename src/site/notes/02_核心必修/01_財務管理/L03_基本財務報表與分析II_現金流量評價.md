@@ -8,9 +8,9 @@
 ## 💡 核心摘要
 
 - **獲利不等於現金，現金流是企業生存的硬通貨**：[[98_商業概念庫/accounting-profit-cash-flow-differentiation_會計利潤與現金流差異\|accounting-profit-yu-cash-liu-cha-yi_會計利潤與現金流差異]]是商業運作中最常被誤解的盲點。[[98_商業概念庫/income-statement_損益表\|income-statement_損益表]]採[[98_商業概念庫/accrual-accounting_權責發生制\|quan-ze-fa-sheng-zhi_權責發生制]]，帳面獲利可能充斥未收現的[[98_商業概念庫/receivable_應收帳款\|ying-shou-zhang-kuan_應收帳款]]或堆積如山的[[98_商業概念庫/inventory_存貨\|cun-huo_存貨]]；唯有實質流入銀行的現金流，才能用於發放薪資、償還債務與擴充投資，防範致命的[[98_商業概念庫/insolvency-with-profit_黑字倒閉\|hei-zi-dao-bi_黑字倒閉]]。
-- **會計利潤可以被操縱，但現金流不能**：[[98_商業概念庫/_待改寫草稿庫/zhe-jiu_折舊\|zhe-jiu_折舊]]攤銷年限、[[98_商業概念庫/inventory-method_存貨計價方法\|cun-huo-ji-jia-fang-fa_存貨計價方法]]與收入認列時點均存在人為調節與[[98_商業概念庫/_待改寫草稿庫/management-2_盈餘管理\|ying-yu-management_盈餘管理]]的空間；然而，[[98_商業概念庫/cash-flow-statement_現金流量表\|cash-flow-statement_現金流量表]]記錄的是真實貨幣的收付軌跡，是穿透會計迷霧、檢驗企業獲利品質的最客觀試金石。
+- **會計利潤可以被操縱，但現金流不能**：[[98_商業概念庫/zhe-jiu_折舊\|zhe-jiu_折舊]]攤銷年限、[[98_商業概念庫/inventory-method_存貨計價方法\|cun-huo-ji-jia-fang-fa_存貨計價方法]]與收入認列時點均存在人為調節與[[98_商業概念庫/management-2_盈餘管理\|ying-yu-management_盈餘管理]]的空間；然而，[[98_商業概念庫/cash-flow-statement_現金流量表\|cash-flow-statement_現金流量表]]記錄的是真實貨幣的收付軌跡，是穿透會計迷霧、檢驗企業獲利品質的最客觀試金石。
 - **自由現金流（FCF）是企業價值的真實源泉**：在金融估值理論中，[[98_商業概念庫/enterprise-value-evaluation_企業價值評估\|enterprise-value-evaluation_企業價值評估]]絕非看帳面淨利或[[98_商業概念庫/EPS_本益比_Earnings Per Share\|ben-yi-bi_本益比]]倍數，企業的內在價值本質上等於其未來全生命週期所能產生的[[98_商業概念庫/enterprise-free-cash-flow-liang_企業自由現金流量\|enterprise-free-cash-flow-liang_企業自由現金流量]]（FCFF）以反映風險的折現率折現後的現值總和。
-- **折舊稅盾的實質價值創造**：折舊費用雖非現金流出，但屬於合法的稅前可扣除項目；透過[[98_商業概念庫/depreciation-tax-shield_折舊稅盾\|zhe-jiu-shui-dun_折舊稅盾]]（$D \times t$），企業得以實質減少現金所得稅支出。採用加速折舊可在專案初期放大稅盾效益，依據[[98_商業概念庫/_待改寫草稿庫/time-value-2_貨幣時間價值\|huo-bi-shi-jian-value_貨幣時間價值]]原理顯著推升專案淨現值（NPV）。
+- **折舊稅盾的實質價值創造**：折舊費用雖非現金流出，但屬於合法的稅前可扣除項目；透過[[98_商業概念庫/depreciation-tax-shield_折舊稅盾\|zhe-jiu-shui-dun_折舊稅盾]]（$D \times t$），企業得以實質減少現金所得稅支出。採用加速折舊可在專案初期放大稅盾效益，依據[[98_商業概念庫/time-value-2_貨幣時間價值\|huo-bi-shi-jian-value_貨幣時間價值]]原理顯著推升專案淨現值（NPV）。
 - **警惕人為美化現金流的營運盲點**：經理人若為達成當期 KPI，透過砍停必要維護型[[98_商業概念庫/capital-expenditure_資本支出\|capital-zhi-chu_資本支出]]（CapEx）或惡意拖延供應商[[98_商業概念庫/payable_應付帳款\|ying-fu-zhang-kuan_應付帳款]]貨款來短期美化[[98_商業概念庫/free-cash-flow_自由現金流量\|free-cash-flow_自由現金流量]]，實質上是在透支企業長期生產力並摧毀供應鏈信任，屬於嚴重的短視治理危機。
 
 ---
@@ -40,7 +40,7 @@ flowchart TD
 
 #### (1) 現金流量表三大支柱之財務意涵
 1. **[[98_商業概念庫/operating-cash-flow-statement_營業活動現金流量\|營業活動現金流]]（CFO）**：企業最根本的內部造血機能。長期穩健的企業必須具備持續為正且高於淨利的 CFO。
-2. **[[98_商業概念庫/investing-cash-flow-statement_投資活動現金流量\|投資活動現金流]]（CFI）**：衡量企業是否持續投資未來。處於成長期的健全企業，其 CFI 通常為「負值」，代表積極進行[[98_商業概念庫/capital-expenditure_資本支出\|capital-zhi-chu_資本支出]]以構築技術護城河與累積[[98_商業概念庫/_待改寫草稿庫/asset-2_無形資產\|wu-xing-asset_無形資產]]。
+2. **[[98_商業概念庫/investing-cash-flow-statement_投資活動現金流量\|投資活動現金流]]（CFI）**：衡量企業是否持續投資未來。處於成長期的健全企業，其 CFI 通常為「負值」，代表積極進行[[98_商業概念庫/capital-expenditure_資本支出\|capital-zhi-chu_資本支出]]以構築技術護城河與累積[[98_商業概念庫/asset-2_無形資產\|wu-xing-asset_無形資產]]。
 3. **[[98_商業概念庫/financing-activities-cash-flow_籌資活動現金流量\|chou-zi-huo-dong-cash-liu_籌資活動現金流]]（CFF）**：反映企業與外部[[98_商業概念庫/capital-market_資本市場\|capital-market_資本市場]]（股東與債權人）的互動，調配[[98_商業概念庫/capital-structure_資本結構\|capital-structure_資本結構]]。新創與擴張期通常為正（對外籌資），成熟期則為負（還債、分紅）。
 
 #### (2) 八大生命週期現金流組合矩陣（8-Pattern Matrix）
@@ -90,7 +90,7 @@ $$\text{OCF} = (\text{S} - \text{C}) \times (1 - t) + \text{D} \times t$$
 
 #### (4) 折舊稅盾的時間價值效益
 - **總額相同，時間不同**：固定資產在其使用壽命內所能產生的總折舊金額是固定的（即資產原始成本減去殘值）。
-- **加速折舊的價值創造**：若法規允許採用加速折舊法（如雙倍餘額遞減法或定率遞減法），企業在專案投資初期能夠提列更多折舊，將稅盾利益大幅提前。依據[[98_商業概念庫/_待改寫草稿庫/time-value-2_貨幣時間價值\|huo-bi-shi-jian-value_貨幣時間價值]]原理，前期的現金流現值遠高於後期，能實質提升專案的淨現值（NPV）。
+- **加速折舊的價值創造**：若法規允許採用加速折舊法（如雙倍餘額遞減法或定率遞減法），企業在專案投資初期能夠提列更多折舊，將稅盾利益大幅提前。依據[[98_商業概念庫/time-value-2_貨幣時間價值\|huo-bi-shi-jian-value_貨幣時間價值]]原理，前期的現金流現值遠高於後期，能實質提升專案的淨現值（NPV）。
 
 ---
 
@@ -117,7 +117,7 @@ $$\text{FCFF} = \text{營運現金流量 (OCF)} - \text{資本支出 (CapEx)} - 
 
 - **各項變數之精準定義**：
   - **$\text{EBIT} \times (1 - t)$**：稅後營業淨利（NOPAT），排除不同[[98_商業概念庫/capital-structure_資本結構\|capital-structure_資本結構]]舉債利息的干擾。
-  - **$\text{CapEx}$**：當期購買不動產、廠房及設備與[[98_商業概念庫/_待改寫草稿庫/asset-2_無形資產\|wu-xing-asset_無形資產]]的實質現金流出（維護型 + 成長型）。
+  - **$\text{CapEx}$**：當期購買不動產、廠房及設備與[[98_商業概念庫/asset-2_無形資產\|wu-xing-asset_無形資產]]的實質現金流出（維護型 + 成長型）。
   - **$\Delta\text{NWC}$**：[[98_商業概念庫/changes-in-net-working-capital_淨營運資金變動\|changes-in-net-working-capital_淨營運資金變動]]（期末 NWC $-$ 期初 NWC）。若營收擴張導致[[98_商業概念庫/receivable_應收帳款\|ying-shou-zhang-kuan_應收帳款]]與[[98_商業概念庫/inventory_存貨\|cun-huo_存貨]]增加，$\Delta\text{NWC} > 0$，代表資金被營運積壓，為現金流之**扣項**。
 
 #### (2) 股權自由現金流量（FCFE）推導公式

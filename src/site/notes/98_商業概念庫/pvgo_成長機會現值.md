@@ -72,6 +72,6 @@ $$\frac{P_0}{\text{EPS}_1} = \frac{1}{r_e} + \frac{\text{PVGO}}{\text{EPS}_1}$$
   - [[98_商業概念庫/sustainable-growth-rate_永續成長率\|永續成長率 (SGR)]]
   - [[98_商業概念庫/return-on-invested-capital_資本投入報酬率\|資本投入報酬率 (ROIC)]]
   - [[98_商業概念庫/economic-moat_經濟護城河\|經濟護城河 (Economic Moat)]]
-  - [[98_商業概念庫/_待改寫草稿庫/earnings-per-share_每股盈餘\|每股盈餘 (EPS)]]
+  - [[98_商業概念庫/earnings-per-share_每股盈餘\|每股盈餘 (EPS)]]
   - [[98_商業概念庫/capm_資本資產定價模型\|資本資產定價模型 (CAPM)]]
   - [[98_商業概念庫/davis-double-whammy_戴維斯雙殺效應\|戴維斯雙殺與雙擊效應 (Davis Double Whammy)]]
