@@ -67,4 +67,4 @@ flowchart TD
 - 概念卡片雙向鏈結：
   - [[98_商業概念庫/two-sided-market_雙邊市場\|two-sided-market_雙邊市場]]
   - [[98_商業概念庫/platform-envelopment_平台包夾\|platform-envelopment_平台包夾]]
-  - [[04_主題選修/12_產業分析與投資策略/01_總體與個案/cases_企業與產業案例庫\|cases_企業與產業案例庫]]（台積電 OIP 生態、蘋果 iOS vs Android）
+  - [[04_主題選修/12_產業分析與投資策略/99_歷史舊版備份/cases_企業與產業案例庫\|cases_企業與產業案例庫]]（台積電 OIP 生態、蘋果 iOS vs Android）

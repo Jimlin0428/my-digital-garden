@@ -62,4 +62,4 @@
 - 概念卡片雙向鏈結：
   - [[98_商業概念庫/business-ecosystem_商業生態系\|business-ecosystem_商業生態系]]
   - [[98_商業概念庫/platform-envelopment_平台包夾\|platform-envelopment_平台包夾]]
-  - [[04_主題選修/12_產業分析與投資策略/01_總體與個案/cases_企業與產業案例庫\|cases_企業與產業案例庫]]（蘋果 App Store、Uber、亞馬遜電商市場）
+  - [[04_主題選修/12_產業分析與投資策略/99_歷史舊版備份/cases_企業與產業案例庫\|cases_企業與產業案例庫]]（蘋果 App Store、Uber、亞馬遜電商市場）

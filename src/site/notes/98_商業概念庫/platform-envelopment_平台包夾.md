@@ -64,4 +64,4 @@
 - 概念卡片雙向鏈結：
   - [[98_商業概念庫/business-ecosystem_商業生態系\|business-ecosystem_商業生態系]]
   - [[98_商業概念庫/two-sided-market_雙邊市場\|two-sided-market_雙邊市場]]
-  - [[04_主題選修/12_產業分析與投資策略/01_總體與個案/cases_企業與產業案例庫\|cases_企業與產業案例庫]]（微軟 Teams vs Slack、蘋果 Apple Pay 包夾獨立錢包）
+  - [[04_主題選修/12_產業分析與投資策略/99_歷史舊版備份/cases_企業與產業案例庫\|cases_企業與產業案例庫]]（微軟 Teams vs Slack、蘋果 Apple Pay 包夾獨立錢包）
