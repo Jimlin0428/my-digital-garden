@@ -180,11 +180,11 @@ $$	ext{PVGO} \propto (	ext{ROE} - r_e)$$
 
 ## 🔗 模組導航與延伸閱讀
 
-- ⬅️ **前置模組回顧**：[[02_模組筆記/Module_2_產品創新與精實驗證/M2-5_創業投資與私募股權運作機制|M2-5 創業投資與私募股權運作機制]]
-- ➡️ **下一章節預覽**：[[M3-2_企業營運資金管理與現金轉換週期|M3-2 企業營運資金管理與現金轉換週期]]
+- ⬅️ **前置模組回顧**：[[04_主題選修/10_創業與企業財務策略/02_模組筆記/Module_2_產品創新與精實驗證/M2-5_創業投資與私募股權運作機制\|M2-5 創業投資與私募股權運作機制]]
+- ➡️ **下一章節預覽**：[[M3-2_企業營運資金管理與現金轉換週期\|M3-2 企業營運資金管理與現金轉換週期]]
 - 💎 **本章關聯概念卡片**：
-  - [[Shareholder_Value_Added_SVA_股東價值增加法]]
-  - [[Good_Product_Business_Company_好產品好事業好公司模型]]
-  - [[Present_Value_of_Growth_Opportunities_PVGO_成長機會現值]]
-  - [[Agency_Theory_Corporate_Governance_代理理論與公司治理]]
-  - [[Investor_vs_Corporate_Value_投資者價值與公司價值]]
+  - [[98_商業概念庫/Shareholder_Value_Added_SVA_股東價值增加法\|Shareholder_Value_Added_SVA_股東價值增加法]]
+  - [[98_商業概念庫/Good_Product_Business_Company_好產品好事業好公司模型\|Good_Product_Business_Company_好產品好事業好公司模型]]
+  - [[98_商業概念庫/Present_Value_of_Growth_Opportunities_PVGO_成長機會現值\|Present_Value_of_Growth_Opportunities_PVGO_成長機會現值]]
+  - [[98_商業概念庫/Agency_Theory_Corporate_Governance_代理理論與公司治理\|Agency_Theory_Corporate_Governance_代理理論與公司治理]]
+  - [[98_商業概念庫/Investor_vs_Corporate_Value_投資者價值與公司價值\|Investor_vs_Corporate_Value_投資者價值與公司價值]]
