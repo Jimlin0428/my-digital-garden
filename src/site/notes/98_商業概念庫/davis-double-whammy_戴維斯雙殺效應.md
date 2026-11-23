@@ -26,7 +26,7 @@
 ```mermaid
 flowchart TD
     subgraph Factors ["股價決定雙引擎：P = EPS × (P/E)"]
-        EPS_Node["【基本面引擎：每股盈餘 EPS】<br>驅動因子：營收增長、毛利率定價權、<br>[[DOL_營運槓桿|營運槓桿 (DOL)]]、ROIC、股份回購/稀釋"]
+        EPS_Node["【基本面引擎：每股盈餘 EPS】<br>驅動因子：營收增長、毛利率定價權、<br>營運槓桿（DOL）、ROIC、股份回購/稀釋"]
         PE_Node["【估值面引擎：本益比倍數 P/E】<br>驅動因子：未來成長預期 (g / PVGO)、<br>無風險利率 (Rf)、股權資金成本 (re)、市場情緒"]
     end
 

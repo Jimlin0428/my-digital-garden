@@ -18,7 +18,7 @@
 flowchart TD
     subgraph 輝達全端運算三位一體架構 ["NVIDIA Full-Stack Architecture"]
         L3["軟體與演算法層 (Software & Algorithms)<br>• CUDA 統一運算架構 • cuDNN • TensorRT<br>• 全球 500 萬開發者生態 • 數百個領域專用加速函式庫"]
-        L2["系統與網路互聯層 (Systems & Networking)<br>• [[DGX|DGX 超級電腦]] • NVLink / NVSwitch 高速互聯<br>• Mellanox InfiniBand 超低延遲高速網路"]
+        L2["系統與網路互聯層 (Systems & Networking)<br>• DGX 超級電腦 • NVLink / NVSwitch 高速互聯<br>• Mellanox InfiniBand 超低延遲高速網路"]
         L1["矽晶片硬體層 (Silicon Hardware)<br>• GPU (Hopper / Blackwell) • Grace CPU • BlueField DPU<br>• 依託台積電先進製程與 CoWoS 封裝"]
     end
 

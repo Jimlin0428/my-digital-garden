@@ -55,7 +55,7 @@ $$\text{成熟總週期} = 4 \text{ 年 (48 個月)}, \quad \text{懸崖期 (Cli
 
 ```mermaid
 flowchart LR
-    Start["【0 個月：起算日】<br/>簽署股權協議<br/>(成熟 0%)"] -->|未滿 1 年離職<br/>股權 0% 歸零| Cliff["【12 個月：懸崖期 (Cliff)】<br/>滿 1 年當天瞬間一次性<br/>解鎖 25% (1/4) 股權"]
+    Start["【0 個月：起算日】<br/>簽署股權協議<br/>(成熟 0%)"] -->|"未滿 1 年離職<br/>股權 0% 歸零"| Cliff["【12 個月：懸崖期 (Cliff)】<br/>滿 1 年當天瞬間一次性<br/>解鎖 25% (1/4) 股權"]
     Cliff -->|"第 13~48 個月<br/>每月線性解鎖 1/48（約 2.08%）"| Month48["【48 個月：完全成熟】<br/>達到 100% 股份完全擁有"]
 
     style Start fill:#5c1d24,stroke:#f87171,stroke-width:2px,color:#ffffff

@@ -14,8 +14,8 @@
 
 ```mermaid
 flowchart TD
-    A["產業外部企業"] -->|突破[[barriers-to-entry_進入障礙]]| B["產業內一般策略群組"]
-    B -->|突破[[barriers-mobility-barriers_移動障礙 Mobility Barriers|yi-dong-zhang-ai-mobility-barriers_移動障礙 Mobility Barriers]]| C["產業內高利基/高獲利策略群組"]
+    A["產業外部企業"] -->|"突破『進入障礙（Entry Barriers）』"| B["產業內一般策略群組"]
+    B -->|"突破『移動障礙（Mobility Barriers）』"| C["產業內高利基/高獲利策略群組"]
 ```
 
 * **[[barriers-to-entry_進入障礙]]**：阻礙產業外部新進者進入本產業的門檻。
