@@ -60,10 +60,10 @@ flowchart TD
         WACC_Node -->|"FCFF / NPV 折現基準"| CorpValuation
     end
 
-    style SML fill:#fef3c7,stroke:#f59e0b,stroke-width:3px,color:#92400e
-    style CostOfEquity fill:#dbeafe,stroke:#3b82f6,stroke-width:2px,color:#1e40af
-    style CorpValuation fill:#dcfce7,stroke:#22c55e,stroke-width:2px,color:#166534
-    style MarketPort fill:#f1f5f9,stroke:#64748b,stroke-width:1px,color:#334155
+    style SML fill:#3d2806,stroke:#fbbf24,stroke-width:3px,color:#ffffff
+    style CostOfEquity fill:#1e3a5f,stroke:#60a5fa,stroke-width:2px,color:#ffffff
+    style CorpValuation fill:#143823,stroke:#4ade80,stroke-width:2px,color:#ffffff
+    style MarketPort fill:#1e293b,stroke:#94a3b8,stroke-width:1px,color:#ffffff
 ```
 
 ---

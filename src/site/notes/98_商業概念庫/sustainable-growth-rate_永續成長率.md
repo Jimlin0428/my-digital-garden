@@ -48,8 +48,8 @@ $$\text{SGR} = \underbrace{\frac{\text{Net Income}}{\text{Sales}}}_{\text{淨利
 ```mermaid
 flowchart TD
     A["實際銷售成長率 (Actual Growth, g) vs. 永續成長率 (SGR)"] --> B{"對比診斷結果"}
-    B -->|實際成長 g >> SGR (高速失血過熱)| C["【現金赤字危機：Overtrading】<br>營運資金追加與固定資產投資耗盡現金"]
-    B -->|實際成長 g << SGR (增長遲緩滯脹)| D["【資本過剩危機：Cash Trapped】<br>大量充沛現金無處可去，拖累 ROE"]
+    B -->|"實際成長 g >> SGR（高速失血過熱）"| C["【現金赤字危機：Overtrading】<br>營運資金追加與固定資產投資耗盡現金"]
+    B -->|"實際成長 g << SGR（增長遲緩滯脹）"| D["【資本過剩危機：Cash Trapped】<br>大量充沛現金無處可去，拖累 ROE"]
 
     C --> E["管理對策：<br>1. 降低配息率 (提高盈餘留存 b)<br>2. 提高定價以擴大利潤率<br>3. 外包非核心製造以加速資產周轉<br>4. 增發新股或提高負債槓桿"]
     D --> F["管理對策：<br>1. 大幅提高股息發放率或庫藏股買回<br>2. 尋找高潛力正 NPV 併購標的<br>3. 償還昂貴債務優化資本結構"]

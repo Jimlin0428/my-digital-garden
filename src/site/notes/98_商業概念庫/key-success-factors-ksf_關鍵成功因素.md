@@ -30,10 +30,10 @@ flowchart TD
     
     KSF --> Strategy["落地指導：企業內部價值鏈重塑與資本預算配置 (VRIO / SWOT / CPM)"]
 
-    style Demand fill:#dbeafe,stroke:#3b82f6,stroke-width:2px,color:#1e40af
-    style Competition fill:#fef3c7,stroke:#f59e0b,stroke-width:2px,color:#92400e
-    style KSF fill:#dcfce7,stroke:#22c55e,stroke-width:3px,color:#166534
-    style Strategy fill:#ede9fe,stroke:#8b5cf6,stroke-width:2px,color:#5b21b6
+    style Demand fill:#1e3a5f,stroke:#60a5fa,stroke-width:2px,color:#ffffff
+    style Competition fill:#3d2806,stroke:#fbbf24,stroke-width:2px,color:#ffffff
+    style KSF fill:#143823,stroke:#4ade80,stroke-width:3px,color:#ffffff
+    style Strategy fill:#3b1d54,stroke:#c084fc,stroke-width:2px,color:#ffffff
 ```
 
 ---

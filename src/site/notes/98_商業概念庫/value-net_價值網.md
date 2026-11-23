@@ -56,11 +56,11 @@ flowchart TD
     Supplier -.->|"產能排擠"| Competitor
     Supplier -.->|"規模採購降本"| Complementor
 
-    style Company fill:#1e3a8a,stroke:#3b82f6,stroke-width:3px,color:#ffffff
-    style Complementor fill:#dcfce7,stroke:#16a34a,stroke-width:2px,color:#14532d
-    style Competitor fill:#fee2e2,stroke:#dc2626,stroke-width:2px,color:#7f1d1d
-    style Customer fill:#dbeafe,stroke:#2563eb,stroke-width:2px,color:#1e3a8a
-    style Supplier fill:#fef3c7,stroke:#d97706,stroke-width:2px,color:#78350f
+    style Company fill:#0f172a,stroke:#94a3b8,stroke-width:3px,color:#ffffff
+    style Complementor fill:#143823,stroke:#4ade80,stroke-width:2px,color:#ffffff
+    style Competitor fill:#5c1d24,stroke:#f87171,stroke-width:2px,color:#ffffff
+    style Customer fill:#1e3a5f,stroke:#60a5fa,stroke-width:2px,color:#ffffff
+    style Supplier fill:#3d2806,stroke:#fbbf24,stroke-width:2px,color:#ffffff
 ```
 
 ---
@@ -103,8 +103,8 @@ flowchart LR
         C1["終端智慧手機戰場<br>【極致競爭對手】<br>專利訴訟、爭奪市占、廣告互諷"]
         C2["面板與零件供應鏈<br>【關鍵互補夥伴】<br>三星提供頂級 OLED 螢幕，蘋果提供百億營收分攤產線折舊"]
     end
-    style C1 fill:#fee2e2,stroke:#dc2626,stroke-width:1.5px,color:#7f1d1d
-    style C2 fill:#dcfce7,stroke:#16a34a,stroke-width:1.5px,color:#14532d
+    style C1 fill:#5c1d24,stroke:#f87171,stroke-width:1.5px,color:#ffffff
+    style C2 fill:#143823,stroke:#4ade80,stroke-width:1.5px,color:#ffffff
 ```
 
 - **其他經典範例**：
@@ -160,12 +160,12 @@ flowchart TD
     PARTS --> T
     PARTS --> S
 
-    style PARTS fill:#e0e7ff,stroke:#4338ca,stroke-width:2px,color:#1e1b4b
-    style P fill:#dbeafe,stroke:#2563eb,stroke-width:1.5px,color:#1e40af
-    style A fill:#dcfce7,stroke:#16a34a,stroke-width:1.5px,color:#14532d
-    style R fill:#fef3c7,stroke:#d97706,stroke-width:1.5px,color:#78350f
-    style T fill:#fee2e2,stroke:#dc2626,stroke-width:1.5px,color:#7f1d1d
-    style S fill:#f3e8ff,stroke:#9333ea,stroke-width:1.5px,color:#581c87
+    style PARTS fill:#0f172a,stroke:#94a3b8,stroke-width:2px,color:#ffffff
+    style P fill:#1e3a5f,stroke:#60a5fa,stroke-width:1.5px,color:#ffffff
+    style A fill:#143823,stroke:#4ade80,stroke-width:1.5px,color:#ffffff
+    style R fill:#3d2806,stroke:#fbbf24,stroke-width:1.5px,color:#ffffff
+    style T fill:#5c1d24,stroke:#f87171,stroke-width:1.5px,color:#ffffff
+    style S fill:#3b1d54,stroke:#c084fc,stroke-width:1.5px,color:#ffffff
 ```
 
 ---
@@ -210,14 +210,14 @@ flowchart TD
     Trap3["❌ 陷阱三：盲目讓利喪失定價特權<br>(Free Rider Trap)"] --> Fix3["✅ 防範：以專利保護與核心 API 掌握分成定價閥門"]
     Trap4["❌ 陷阱四：忽略負向互補效應<br>(Negative Complementarity)"] --> Fix4["✅ 防範：嚴格審核第三方外掛與合作夥伴品質，維護品牌聲譽"]
 
-    style Trap1 fill:#fee2e2,stroke:#ef4444,stroke-width:1px,color:#7f1d1d
-    style Trap2 fill:#fee2e2,stroke:#ef4444,stroke-width:1px,color:#7f1d1d
-    style Trap3 fill:#fee2e2,stroke:#ef4444,stroke-width:1px,color:#7f1d1d
-    style Trap4 fill:#fee2e2,stroke:#ef4444,stroke-width:1px,color:#7f1d1d
-    style Fix1 fill:#f0fdf4,stroke:#22c55e,stroke-width:1px,color:#14532d
-    style Fix2 fill:#f0fdf4,stroke:#22c55e,stroke-width:1px,color:#14532d
-    style Fix3 fill:#f0fdf4,stroke:#22c55e,stroke-width:1px,color:#14532d
-    style Fix4 fill:#f0fdf4,stroke:#22c55e,stroke-width:1px,color:#14532d
+    style Trap1 fill:#5c1d24,stroke:#f87171,stroke-width:1.5px,color:#ffffff
+    style Trap2 fill:#5c1d24,stroke:#f87171,stroke-width:1.5px,color:#ffffff
+    style Trap3 fill:#5c1d24,stroke:#f87171,stroke-width:1.5px,color:#ffffff
+    style Trap4 fill:#5c1d24,stroke:#f87171,stroke-width:1.5px,color:#ffffff
+    style Fix1 fill:#143823,stroke:#4ade80,stroke-width:1.5px,color:#ffffff
+    style Fix2 fill:#143823,stroke:#4ade80,stroke-width:1.5px,color:#ffffff
+    style Fix3 fill:#143823,stroke:#4ade80,stroke-width:1.5px,color:#ffffff
+    style Fix4 fill:#143823,stroke:#4ade80,stroke-width:1.5px,color:#ffffff
 ```
 
 ### 1. 單打獨鬥孤島偏誤（Solo Island Trap）

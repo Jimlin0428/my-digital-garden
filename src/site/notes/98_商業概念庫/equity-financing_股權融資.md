@@ -56,11 +56,11 @@ flowchart TD
 
     R1 --> R2 --> R3 --> R4 --> R5
 
-    style R1 fill:#eff6ff,stroke:#1d4ed8,stroke-width:2px
-    style R2 fill:#fefce8,stroke:#a16207,stroke-width:2px
-    style R3 fill:#f0fdf4,stroke:#15803d,stroke-width:2px
-    style R4 fill:#faf5ff,stroke:#7e22ce,stroke-width:2px
-    style R5 fill:#fee2e2,stroke:#b91c1c,stroke-width:3px
+    style R1 fill:#1e3a5f,stroke:#60a5fa,stroke-width:2px,color:#ffffff
+    style R2 fill:#3d2806,stroke:#fbbf24,stroke-width:2px,color:#ffffff
+    style R3 fill:#143823,stroke:#4ade80,stroke-width:2px,color:#ffffff
+    style R4 fill:#3b1d54,stroke:#c084fc,stroke-width:2px,color:#ffffff
+    style R5 fill:#5c1d24,stroke:#f87171,stroke-width:3px,color:#ffffff
 ```
 
 ### 2.1 早期極速融資工具：SAFE vs. 可轉換公司債 (Convertible Note)

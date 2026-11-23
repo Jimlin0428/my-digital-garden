@@ -20,23 +20,21 @@
 3. **內部流程構面 (Internal Business Processes)**：「為了滿足客戶與股東，我們必須在哪些核心業務流程上做到極致卓越？」
 4. **學習與成長構面 (Learning and Growth)**：「我們如何培育核心人才、組織文化與資訊基礎架構，以維持持續改進與創造價值的能耐？」
 
-```
-【平衡計分卡四大構面動態因果鏈 (策略地圖)】
-┌────────────────────────────────────────────────────────┐
-│ 1. 財務構面 (Financial)                                │ ── 追求長期股東價值與獲利成長 (ROIC, EVA)
-└──────────────────────────▲─────────────────────────────┘
-                           │ (驅動驅動)
-┌──────────────────────────┴─────────────────────────────┐
-│ 2. 顧客構面 (Customer)                                 │ ── 達成目標客群滿意度、獲客與留存 (NPS, Share of Wallet)
-└──────────────────────────▲─────────────────────────────┘
-                           │ (驅動驅動)
-┌──────────────────────────┴─────────────────────────────┐
-│ 3. 內部流程構面 (Internal Process)                     │ ── 卓越創新流程、營運交付與法規合規 (Cycle Time, Quality)
-└──────────────────────────▲─────────────────────────────┘
-                           │ (驅動驅動)
-┌──────────────────────────┴─────────────────────────────┐
-│ 4. 學習與成長構面 (Learning & Growth)                  │ ── 投資人力資本、資訊架構與組織文化 (Talent, IT, Culture)
-└────────────────────────────────────────────────────────┘
+```mermaid
+flowchart BT
+    classDef fin fill:#143823,stroke:#4ade80,stroke-width:2px,color:#ffffff;
+    classDef cust fill:#1e3a5f,stroke:#60a5fa,stroke-width:2px,color:#ffffff;
+    classDef proc fill:#3d2806,stroke:#fbbf24,stroke-width:2px,color:#ffffff;
+    classDef learn fill:#3b1d54,stroke:#c084fc,stroke-width:2px,color:#ffffff;
+
+    L["4. 學習與成長構面（Learning & Growth）<br/>• 投資人力資本、資訊架構與組織文化（Talent, IT, Culture）"]:::learn
+    P["3. 內部流程構面（Internal Process）<br/>• 卓越創新流程、營運交付與法規合規（Cycle Time, Quality）"]:::proc
+    C["2. 顧客構面（Customer）<br/>• 達成目標客群滿意度、獲客與留存（NPS, Share of Wallet）"]:::cust
+    F["1. 財務構面（Financial）<br/>• 追求長期股東價值與獲利成長（ROIC, EVA）"]:::fin
+
+    L -->|"驅動流程卓越"| P
+    P -->|"驅動顧客價值"| C
+    C -->|"驅動財務回報"| F
 ```
 
 ---
@@ -87,12 +85,15 @@ $$\text{If } \Delta \text{培訓到位 (學習)} \implies \text{Then } \Delta \t
 
 ## 四、 經理人反思與行動檢核清單
 
-```
-                               平衡計分卡健全度五維審核
-┌─────────────────────────┬─────────────────────────┬─────────────────────────┐
-│     1. 指標精簡度 (15~20)│     2. 因果邏輯鏈檢驗   │     3. 預算與獎酬掛鉤   │
-│ 拒絕指標臃腫，聚焦核心戰略│ 每個流程指標必須連回財務│ 避免指標與年終獎金兩張皮│
-└─────────────────────────┴─────────────────────────┴─────────────────────────┘
+```mermaid
+flowchart LR
+    classDef root fill:#0f172a,stroke:#94a3b8,stroke-width:2px,color:#ffffff;
+    classDef item fill:#1e3a5f,stroke:#60a5fa,stroke-width:2px,color:#ffffff;
+
+    Audit["平衡計分卡健全度核心審核"]:::root
+    Audit --> A1["1. 指標精簡度（15～20 項）<br/>拒絕指標臃腫，聚焦核心戰略"]:::item
+    Audit --> A2["2. 因果邏輯鏈檢驗<br/>每個流程指標必須連回財務成果"]:::item
+    Audit --> A3["3. 預算與獎酬掛鉤<br/>避免指標與年終獎金兩張皮"]:::item
 ```
 
 ### Executive Decision Checklist
@@ -106,7 +107,7 @@ $$\text{If } \Delta \text{培訓到位 (學習)} \implies \text{Then } \Delta \t
 
 ## 五、 關聯概念與延伸閱讀
 
-- 核心架構：[[key-performance-indicator-kpi_關鍵績效指標]] ｜ [[strategic-planning_策略規劃]]
+- 核心架構：[[key-performance-indicator-kpi_關鍵績效指標]] ｜ [[strategic-planning_策略規劃]] ｜ [[smart-principle_SMART原則]] ｜ [[okr-objectives-and-key-results_目標與關鍵成果]]
 - 控制與預算：[[budget-control_預算控制]] ｜ [[monitoring-and-measurement_監控衡量]] ｜ [[management-6_管理修正行動]]
 - 人力與學習：[[human-resources-management_人力資源管理]] ｜ [[learning-organization_學習型組織]] ｜ [[organizational-commitment_組織承諾]]
 - 財務與價值衡量：[[return-on-invested-capital_資本投入報酬率]] ｜ [[free-cash-flow_自由現金流量]] ｜ [[wacc_加權平均資本成本]]

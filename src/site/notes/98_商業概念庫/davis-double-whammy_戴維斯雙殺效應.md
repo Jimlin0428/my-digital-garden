@@ -47,10 +47,10 @@ flowchart TD
     EPS_Node --> Double_Whammy
     PE_Node --> Double_Whammy
 
-    style DP_Result fill:#dcfce7,stroke:#22c55e,stroke-width:3px,color:#166534
-    style DW_Result fill:#fee2e2,stroke:#ef4444,stroke-width:3px,color:#991b1b
-    style EPS_Node fill:#dbeafe,stroke:#3b82f6,stroke-width:2px,color:#1e40af
-    style PE_Node fill:#fef3c7,stroke:#f59e0b,stroke-width:2px,color:#92400e
+    style DP_Result fill:#143823,stroke:#4ade80,stroke-width:3px,color:#ffffff
+    style DW_Result fill:#5c1d24,stroke:#f87171,stroke-width:3px,color:#ffffff
+    style EPS_Node fill:#1e3a5f,stroke:#60a5fa,stroke-width:2px,color:#ffffff
+    style PE_Node fill:#3d2806,stroke:#fbbf24,stroke-width:2px,color:#ffffff
 ```
 
 ### 1. 離散變動與交叉乘積項推導

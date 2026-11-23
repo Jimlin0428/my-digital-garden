@@ -24,28 +24,21 @@
   3. **下游通路商價值鏈 (Channel Value Chains)**：執行經銷代理、批發配送、實體/電商零售、物流倉儲與現場展示；
   4. **最終買方價值鏈 (Buyer Value Chains)**：B2B 企業客戶之生產與運營流程，或 B2C 最終家庭與個人之消費與使用歷程。
 
-```
-【波特產業價值體系之垂直傳導架構】
+```mermaid
+flowchart TD
+    classDef sup fill:#3d2806,stroke:#fbbf24,stroke-width:2px,color:#ffffff;
+    classDef firm fill:#1e3a5f,stroke:#60a5fa,stroke-width:2px,color:#ffffff;
+    classDef chan fill:#3b1d54,stroke:#c084fc,stroke-width:2px,color:#ffffff;
+    classDef buy fill:#143823,stroke:#4ade80,stroke-width:2px,color:#ffffff;
 
-  ┌─────────────────────────┐
-  │ 上游供應商價值鏈        │ ── 原物料、關鍵零組件、設備、專利授權
-  │ (Supplier Value Chains) │
-  └───────────┬─────────────┘
-              ▼ 【上游連結 (Upstream Linkages)】
-  ┌─────────────────────────┐
-  │ 焦點企業內部價值鏈      │ ── 產品設計、核心製造、系統整合、品質控管
-  │ (Firm Value Chain)      │
-  └───────────┬─────────────┘
-              ▼ 【下游連結 (Downstream Linkages)】
-  ┌─────────────────────────┐
-  │ 通路商價值鏈            │ ── 經銷網絡、物流倉儲、實體/數位門市、陳列銷售
-  │ (Channel Value Chains)  │
-  └───────────┬─────────────┘
-              ▼ 【最終交付 (Buyer Integration)】
-  ┌─────────────────────────┐
-  │ 最終買方價值鏈          │ ── B2B 買方生產活動投入 / B2C 消費者生活體驗
-  │ (Buyer Value Chains)    │
-  └─────────────────────────┘
+    S["1. 上游供應商價值鏈（Supplier Value Chains）<br/>• 原物料、關鍵零組件、設備、專利授權"]:::sup
+    F["2. 焦點企業內部價值鏈（Firm Value Chain）<br/>• 產品設計、核心製造、系統整合、品質控管"]:::firm
+    C["3. 通路商價值鏈（Channel Value Chains）<br/>• 經銷網絡、物流倉儲、實體/數位門市、陳列銷售"]:::chan
+    B["4. 最終買方價值鏈（Buyer Value Chains）<br/>• B2B 買方生產活動投入 / B2C 消費者生活體驗"]:::buy
+
+    S -->|"上游連結（Upstream Linkages）"| F
+    F -->|"下游連結（Downstream Linkages）"| C
+    C -->|"最終交付（Buyer Integration）"| B
 ```
 
 ---
@@ -110,10 +103,10 @@ flowchart TD
     FocalFirm == "【下游連結：品牌拉力/通路激勵/配銷】" ==> Channels
     Channels == "【最終體驗：知覺價值/售後服務】" ==> Buyers
 
-    style Upstream fill:#eff6ff,stroke:#1d4ed8,stroke-width:2px,color:#1e3a8a
-    style FocalFirm fill:#fefce8,stroke:#a16207,stroke-width:2px,color:#713f12
-    style Channels fill:#f0fdf4,stroke:#15803d,stroke-width:2px,color:#14532d
-    style Buyers fill:#faf5ff,stroke:#7e22ce,stroke-width:2px,color:#581c87
+    style Upstream fill:#1e3a5f,stroke:#60a5fa,stroke-width:2px,color:#ffffff
+    style FocalFirm fill:#3d2806,stroke:#fbbf24,stroke-width:2px,color:#ffffff
+    style Channels fill:#143823,stroke:#4ade80,stroke-width:2px,color:#ffffff
+    style Buyers fill:#3b1d54,stroke:#c084fc,stroke-width:2px,color:#ffffff
 ```
 
 ---
@@ -136,16 +129,17 @@ flowchart TD
 ### 2.3 跨組織價值鏈協同的「五大連結條件 (Linkage Criteria)」
 在台大 PMBA《[[_產業分析與投資策略 MOC|產業分析與投資策略]]》M2-1 模組中，深入推導了決定上下游企業價值鏈能否完美咬合、甚至激發出超額綜效的**五大連結條件**：
 
-```
-                    ┌─────────────────────────┐
-                    │  1. 策略符合性          │ (Strategic Fit)
-                    ├─────────────────────────┤
-                    │  2. 產出投入匹配        │ (Input-Output Match)
-  價值鏈間五大連結條件  │  3. 資訊條件連結        │ (Information Linkage)
-  (Linkage Criteria)│  4. 人際關係協調        │ (Interpersonal Coordination)
-                    ├─────────────────────────┤
-                    │  5. 技術規格相容        │ (Compatibility & Standards)
-                    └─────────────────────────┘
+```mermaid
+flowchart LR
+    classDef root fill:#0f172a,stroke:#94a3b8,stroke-width:2px,color:#ffffff;
+    classDef crit fill:#1e3a5f,stroke:#60a5fa,stroke-width:2px,color:#ffffff;
+
+    Root["價值鏈間五大連結條件<br/>（Linkage Criteria）"]:::root
+    Root --> L1["1. 策略符合性（Strategic Fit）"]:::crit
+    Root --> L2["2. 產出投入匹配（Input-Output Match）"]:::crit
+    Root --> L3["3. 資訊條件連結（Information Linkage）"]:::crit
+    Root --> L4["4. 人際關係協調（Interpersonal Coordination）"]:::crit
+    Root --> L5["5. 技術規格相容（Compatibility & Standards）"]:::crit
 ```
 
 1. **策略符合性 (Strategic Fit)**：
@@ -312,9 +306,9 @@ flowchart LR
         F3["例：鴻海精密模具/機構件<br/>填補至電動車 MIH 平臺"]
     end
 
-    style Reinforcement fill:#f0f9ff,stroke:#0369a1,stroke-width:2px,color:#075985
-    style Sharing fill:#fefce8,stroke:#a16207,stroke-width:2px,color:#713f12
-    style Filling fill:#f0fdf4,stroke:#15803d,stroke-width:2px,color:#14532d
+    style Reinforcement fill:#1e3a5f,stroke:#60a5fa,stroke-width:2px,color:#ffffff
+    style Sharing fill:#3d2806,stroke:#fbbf24,stroke-width:2px,color:#ffffff
+    style Filling fill:#143823,stroke:#4ade80,stroke-width:2px,color:#ffffff
 ```
 
 1. **強化 (Reinforcement)**：
@@ -380,8 +374,8 @@ flowchart TD
 
     TraditionalIDM -. "產業典範轉移：價值體系垂直解構" .-> DisintegratedValueSystem
 
-    style TSMC fill:#fee2e2,stroke:#b91c1c,stroke-width:3px,color:#7f1d1d
-    style Equipment fill:#fef3c7,stroke:#d97706,stroke-width:2px,color:#78350f
+    style TSMC fill:#5c1d24,stroke:#f87171,stroke-width:3px,color:#ffffff
+    style Equipment fill:#3d2806,stroke:#fbbf24,stroke-width:2px,color:#ffffff
 ```
 
 1. **商業模式創新解構一體化**：
@@ -444,9 +438,9 @@ flowchart TD
 
     UpstreamMFR ==> LogisticsThroat ==> RetailChannel
 
-    style UpstreamMFR fill:#fef3c7,stroke:#d97706,stroke-width:2px,color:#78350f
-    style LogisticsThroat fill:#e0f2fe,stroke:#0284c7,stroke-width:2px,color:#075985
-    style RetailChannel fill:#dcfce7,stroke:#16a34a,stroke-width:2px,color:#14532d
+    style UpstreamMFR fill:#3d2806,stroke:#fbbf24,stroke-width:2px,color:#ffffff
+    style LogisticsThroat fill:#1e3a5f,stroke:#60a5fa,stroke-width:2px,color:#ffffff
+    style RetailChannel fill:#143823,stroke:#4ade80,stroke-width:2px,color:#ffffff
 ```
 
 1. **跨產業強化（Reinforcement）**：
@@ -462,33 +456,25 @@ flowchart TD
 
 對於身處激烈產業競爭中的企業領導者與策略長，可依照下列檢核清單對自身在價值體系中的定位進行全方位戰略體檢：
 
-```
-┌────────────────────────────────────────────────────────────────────────────┐
-│              高階經理人「產業價值體系」戰略體檢與躍遷五步法                  │
-├────────────────────────────────────────────────────────────────────────────┤
-│ ☐ Step 1. 繪製全產業利潤池地圖 (Map the Profit Pool)                        │
-│    • 沿著原料、零件、代工、軟體、通路到服務，逐一推估各環節的營收與利益率。│
-│    • 辨識當前產業利潤究竟聚集在何處？未來三年利潤池將向哪裡轉移？          │
-├────────────────────────────────────────────────────────────────────────────┤
-│ ☐ Step 2. 檢驗上下游五大連結條件 (Audit Linkage Criteria)                   │
-│    • 逐項審查：策略符合性、產出投入匹配、資訊聯網、人際協調、技術規格相容。│
-│    • 任一連結條件薄弱處，即為供應鏈未來潛在斷裂點，需優先建立冗餘備援。     │
-├────────────────────────────────────────────────────────────────────────────┤
-│ ☐ Step 3. 評估資產專屬性與防範敲竹槓 (TCE Boundary Audit)                   │
-│    • 盤點企業對特定大客戶或大供應商是否投入了高度專屬性設備或團隊？         │
-│    • 若專屬性極高且缺乏合約保護，應評估：向前/向後整合、或推行雙供應源策略。│
-├────────────────────────────────────────────────────────────────────────────┤
-│ ☐ Step 4. 偵測並卡位價值咽喉點 (Identify & Capture the Chokepoint)          │
-│    • 檢驗整條產業鏈中，是否有哪一個關鍵環節是「所有同業都繞不開的不可替代點」？│
-│    • 企業自身是否具備技術、專利、規模或網絡效應，足以將該節點封鎖為自身咽喉？│
-├────────────────────────────────────────────────────────────────────────────┤
-│ ☐ Step 5. 規劃跨越微笑曲線底部的躍遷路徑 (Smile Curve Elevation)            │
-│    • 若企業深陷中段代工製造紅海，應擬定三條突圍路徑：                      │
-│      路徑 A（向左跨越）：向上游掌控核心晶片 IP、特殊材料或專利演算法；       │
-│      路徑 B（向右跨越）：向下游直建品牌、D2C 通路、訂閱服務與數位會員生態； │
-│      路徑 C（原點極致）：如台積電，將製造推向極限技術與良率寡占，重構微笑曲線！│
-└────────────────────────────────────────────────────────────────────────────┘
-```
+### 📋 高階經理人「產業價值體系」戰略體檢與躍遷五步法
+
+- [ ] **Step 1. 繪製全產業利潤池地圖（Map the Profit Pool）**：
+  - 沿著原料、零件、代工、軟體、通路到服務，逐一推估各環節的營收與利益率。
+  - 辨識當前產業利潤究竟聚集在何處？未來三年利潤池將向哪裡轉移？
+- [ ] **Step 2. 檢驗上下游五大連結條件（Audit Linkage Criteria）**：
+  - 逐項審查：策略符合性、產出投入匹配、資訊聯網、人際協調、技術規格相容。
+  - 任一連結條件薄弱處，即為供應鏈未來潛在斷裂點，需優先建立冗餘備援。
+- [ ] **Step 3. 評估資產專屬性與防範敲竹槓（TCE Boundary Audit）**：
+  - 盤點企業對特定大客戶或大供應商是否投入了高度專屬性設備或團隊？
+  - 若專屬性極高且缺乏合約保護，應評估：向前／向後整合、或推行雙供應源策略（參見 [[tce-transaction-cost-economics_交易成本理論|TCE 交易成本理論]]）。
+- [ ] **Step 4. 偵測並卡位價值咽喉點（Identify & Capture the Chokepoint）**：
+  - 檢驗整條產業鏈中，是否有哪一個關鍵環節是「所有同業都繞不開的不可替代點」？
+  - 企業自身是否具備技術、專利、規模或網絡效應，足以將該節點封鎖為自身咽喉？
+- [ ] **Step 5. 規劃跨越微笑曲線底部的躍遷路徑（Smile Curve Elevation）**：
+  - 若企業深陷中段代工製造紅海，應擬定三條突圍路徑：
+    - **路徑 A（向左跨越）**：向上游掌控核心晶片 IP、特殊材料或專利演算法；
+    - **路徑 B（向右跨越）**：向下游直建品牌、D2C 通路、訂閱服務與數位會員生態；
+    - **路徑 C（原點極致）**：如台積電，將製造推向極限技術與良率寡占，重構微笑曲線！
 
 ---
 

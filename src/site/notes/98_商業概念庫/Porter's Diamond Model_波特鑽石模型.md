@@ -37,31 +37,28 @@
 ### 1.2 鑽石體系的系統性本質 (Systemic Nature)
 波特指出，一國特定產業的競爭力，是由**四大相互關聯的內生構面（Determinants）**以及**兩大外部環境變數（Exogenous Variables）**共同交織構成的動態網絡：
 
-```
-                           ┌─────────────────────────┐
-                           │      機會事件 (Chance)   │
-                           └────────────┬────────────┘
-                                        │ (外部衝擊)
-                                        ▼
-                           ┌─────────────────────────┐
-                           │ 企業策略、結構與競爭態勢 │
-                           │  (Firm Strategy & Rivalry)│
-                           └──────▲───────────▲──────┘
-                                  │           │
-                 ┌────────────────┴─┐       ┌─┴────────────────┐
-                 │ 生產要素條件      │ ◄───► │ 國內需求條件     │
-                 │(Factor Conditions)│       │(Demand Conditions│
-                 └────────────────┬─┘       └─┬────────────────┘
-                                  │           │
-                                  ▼           ▼
-                           ┌─────────────────────────┐
-                           │ 相關與支援產業          │
-                           │(Related & Supporting)   │
-                           └────────────▲────────────┘
-                                        │ (催化與法規)
-                           ┌────────────┴────────────┐
-                           │      政府角色 (Govt)    │
-                           └─────────────────────────┘
+```mermaid
+flowchart TD
+    classDef exo fill:#3d2806,stroke:#fbbf24,stroke-width:2px,color:#ffffff;
+    classDef top fill:#5c1d24,stroke:#f87171,stroke-width:2px,color:#ffffff;
+    classDef left fill:#1e3a5f,stroke:#60a5fa,stroke-width:2px,color:#ffffff;
+    classDef right fill:#143823,stroke:#4ade80,stroke-width:2px,color:#ffffff;
+    classDef bottom fill:#3b1d54,stroke:#c084fc,stroke-width:2px,color:#ffffff;
+
+    Chance["外生變數：機會事件（Chance）"]:::exo
+    Rivalry["企業策略、結構與競爭態勢（Firm Strategy & Rivalry）"]:::top
+    Factor["生產要素條件（Factor Conditions）"]:::left
+    Demand["國內需求條件（Demand Conditions）"]:::right
+    Related["相關與支援產業（Related & Supporting Industries）"]:::bottom
+    Govt["外生變數：政府角色（Government）"]:::exo
+
+    Chance -->|"外部衝擊"| Rivalry
+    Rivalry <--> Factor
+    Rivalry <--> Demand
+    Factor <--> Demand
+    Factor <--> Related
+    Demand <--> Related
+    Govt -->|"催化與法規"| Related
 ```
 
 > **鑽石體系的系統性本質**：  
@@ -88,11 +85,11 @@ flowchart TD
     F1 <--> F2
     F4 <--> F3
 
-    style Diamond fill:#f8fafc,stroke:#334155,stroke-width:2px,color:#0f172a
-    style F1 fill:#eff6ff,stroke:#1d4ed8,stroke-width:2px,color:#1e3a8a
-    style F2 fill:#fefce8,stroke:#a16207,stroke-width:2px,color:#713f12
-    style F3 fill:#f0fdf4,stroke:#15803d,stroke-width:2px,color:#14532d
-    style F4 fill:#fee2e2,stroke:#b91c1c,stroke-width:2px,color:#7f1d1d
+    style Diamond fill:#1e293b,stroke:#94a3b8,stroke-width:2px,color:#ffffff
+    style F1 fill:#1e3a5f,stroke:#60a5fa,stroke-width:2px,color:#ffffff
+    style F2 fill:#3d2806,stroke:#fbbf24,stroke-width:2px,color:#ffffff
+    style F3 fill:#143823,stroke:#4ade80,stroke-width:2px,color:#ffffff
+    style F4 fill:#5c1d24,stroke:#f87171,stroke-width:2px,color:#ffffff
 ```
 
 ---
@@ -100,20 +97,12 @@ flowchart TD
 ### 2.1 構面一：生產要素條件 (Factor Conditions)
 生產要素指一國在特定產業中進行競爭時所擁有的生產投入（如人力資源、天然資源、資本資源、技術基建）。波特將要素劃分為兩大維度進行精準解構：
 
-```
-【生產要素的二維矩陣】
+#### 【生產要素的二維矩陣】
 
-                     初級要素 (Basic Factors)          高級要素 (Advanced Factors)
-              ┌───────────────────────────────┬───────────────────────────────┐
-              │ • 氣候條件、天然礦產、港灣地理位置│ • 頂尖研究型大學與國家實驗室   │
- 通用要素     │ • 非技術勞動力、初級無擔保外債   │ • 現代化數位光纖網、超高壓穩定電網│
-(Generalized) │ ── 進入門檻極低，極易被全球複製 │ ── 需持續公共投資，具跨產業效益│
-              ├───────────────────────────────┼───────────────────────────────┤
-              │ • 專用農業土壤、特定原始礦脈   │ • 光電物理與半導體製程博士人才庫│
- 專屬要素     │                               │ • 特用半導體化學品保稅冷鏈物流 │
- (Specialized)│ ── 容易耗竭，無法支撐長期轉型 │ ── ★ 最具戰略價值，鑄造持久壁壘│
-              └───────────────────────────────┴───────────────────────────────┘
-```
+| 要素層級 \ 適用範圍 | 初級要素 (Basic Factors) | 高級要素 (Advanced Factors) |
+| :--- | :--- | :--- |
+| **通用要素 (Generalized)** | • 氣候條件、天然礦產、港灣地理位置<br>• 非技術勞動力、初級無擔保外債<br>➔ *進入門檻極低，極易被全球複製* | • 頂尖研究型大學與國家實驗室<br>• 現代化數位光纖網、超高壓穩定電網<br>➔ *需持續公共投資，具跨產業效益* |
+| **專屬要素 (Specialized)** | • 專用農業土壤、特定原始礦脈<br>➔ *容易耗竭，無法支撐長期轉型* | • 光電物理與半導體製程博士人才庫<br>• 特用半導體化學品保稅冷鏈物流<br>➔ ***★ 最具戰略價值，鑄造持久壁壘*** |
 
 1. **高級專屬要素（Advanced & Specialized Factors）是競爭力的核心**：
    - 國家競爭力絕非仰賴廉價勞工或天然石油（初級通用要素）；只有具備**高度專屬性、需要長年高額研發與專業教育積累的高級要素**，才能轉化為難以跨國轉移的持久競爭優勢。
@@ -174,26 +163,17 @@ flowchart TD
 
 波特強調，政府與機會事件**並非**鑽石體系的第五與第六個構面，因為它們本身無法直接創造競爭優勢；它們是作為**「外生影響變數（Exogenous Variables）」**，透過催化或扭曲四大內生構面來間接發揮作用。
 
-```text
-【兩大外部變數對鑽石體系的傳導路徑】
+```mermaid
+flowchart TD
+    classDef exo fill:#3d2806,stroke:#fbbf24,stroke-width:2px,color:#ffffff;
+    classDef core fill:#1e3a5f,stroke:#60a5fa,stroke-width:2px,color:#ffffff;
 
-    ┌─────────────────────────────────────────────────────────────┐
-    │                      外生變數：機會事件 (Chance)             │
-    │   • 重大技術突破 (AI / 網際網路)    • 全球地緣政治與戰爭斷鏈 │
-    │   • 原物料價格暴漲 / 金融危機       • 突發性全球傳染病大流行 │
-    └──────────────────────────────┬──────────────────────────────┘
-                                   │ (劇烈重組市場邊界)
-                                   ▼
-                   ┌───────────────────────────────┐
-                   │    鑽石體系四大核心內生構面   │
-                   └───────────────────────────────┘
-                                   ▲
-                                   │ (催化、激勵或扭曲)
-    ┌──────────────────────────────┴─────────────────────────────┐
-    │                      外生變數：政府角色 (Government)        │
-    │   • 建立嚴格環保與安全法規 (逼升)   • 採購前瞻技術規格 (拉動)│
-    │   • 投資高階基礎建設與專門人才培育   • 嚴格執行反壟斷法 (保競爭)│
-    └─────────────────────────────────────────────────────────────┘
+    Chance["外生變數：機會事件（Chance）<br/>• 重大技術突破（AI / 網際網路） • 全球地緣政治與戰爭斷鏈<br/>• 原物料價格暴漲 / 金融危機 • 突發性全球傳染病大流行"]:::exo
+    Diamond["鑽石體系四大核心內生構面"]:::core
+    Govt["外生變數：政府角色（Government）<br/>• 建立嚴格環保與安全法規（逼升） • 採購前瞻技術規格（拉動）<br/>• 投資高階基礎建設與專門人才培育 • 嚴格執行反壟斷法（保競爭）"]:::exo
+
+    Chance -->|"劇烈重組市場邊界"| Diamond
+    Govt -->|"催化、激勵或扭曲"| Diamond
 ```
 
 ### 3.1 政府的正確認知定位：催化者與挑戰者 (Catalyst & Challenger)
@@ -297,13 +277,13 @@ flowchart TD
 
     Chance["【機會事件 (Chance)】<br/>• 個人電腦 (PC) 與筆記型電腦爆發浪潮<br/>• 智慧型手機 (iPhone) 席捲全球與晶片自研浪潮<br/>• 2020s 生成式 AI 算力大爆炸與美中科技地緣政治脫鉤"] -. 歷史窗口 .-> TaiwanDiamond
 
-    style TaiwanDiamond fill:#f8fafc,stroke:#334155,stroke-width:2px,color:#0f172a
-    style F1 fill:#eff6ff,stroke:#1d4ed8,stroke-width:2px,color:#1e3a8a
-    style F2 fill:#fefce8,stroke:#a16207,stroke-width:2px,color:#713f12
-    style F3 fill:#f0fdf4,stroke:#15803d,stroke-width:2px,color:#14532d
-    style F4 fill:#fee2e2,stroke:#b91c1c,stroke-width:2px,color:#7f1d1d
-    style Gov fill:#f3e8ff,stroke:#7e22ce,stroke-width:2px,color:#581c87
-    style Chance fill:#fff7ed,stroke:#c2410c,stroke-width:2px,color:#7c2d12
+    style TaiwanDiamond fill:#1e293b,stroke:#94a3b8,stroke-width:2px,color:#ffffff
+    style F1 fill:#1e3a5f,stroke:#60a5fa,stroke-width:2px,color:#ffffff
+    style F2 fill:#3d2806,stroke:#fbbf24,stroke-width:2px,color:#ffffff
+    style F3 fill:#143823,stroke:#4ade80,stroke-width:2px,color:#ffffff
+    style F4 fill:#5c1d24,stroke:#f87171,stroke-width:2px,color:#ffffff
+    style Gov fill:#3b1d54,stroke:#c084fc,stroke-width:2px,color:#ffffff
+    style Chance fill:#3d2806,stroke:#fbbf24,stroke-width:2px,color:#ffffff
 ```
 
 ### 6.1 鑽石體系六大維度在台灣半導體的具體印證
@@ -328,31 +308,23 @@ flowchart TD
 
 對於跨國企業領導者、策略長（CSO）以及正在進行海外擴張設廠評估的高階經理人，可依照下列波特鑽石檢核表進行策略診斷：
 
-```
-┌────────────────────────────────────────────────────────────────────────────┐
-│              高階經理人「鑽石體系與海外選址」決策評估檢核表                  │
-├────────────────────────────────────────────────────────────────────────────┤
-│ ☐ Step 1. 檢驗目標市場的「高級專屬要素」(Advanced Factor Audit)             │
-│    • 當地是否具備特定產業所需的專業頂尖人才庫與科研機構？                   │
-│    • 基礎設施（水、電、綠能、數位專線、清關物流）是否能確保零斷鏈？         │
-├────────────────────────────────────────────────────────────────────────────┤
-│ ☐ Step 2. 評估當地「買方挑剔度與市場前導性」(Demand Sophistication Audit)   │
-│    • 當地顧客是否足夠挑剔？能否迫使我方團隊在產品功能與品質上更上一層樓？   │
-│    • 該市場是否代表全球未來 3～5 年的法規或消費演化趨勢？                   │
-├────────────────────────────────────────────────────────────────────────────┤
-│ ☐ Step 3. 掃描當地「供應鏈與支援產業完整度」(Supply Ecosystem Audit)         │
-│    • 車程 1 小時範圍內是否有充足的世界級零組件、模具與後勤維修配套？        │
-│    • 若核心零組件仍需仰賴遠距跨國進口，是否有緩衝庫存或備援方案？           │
-├────────────────────────────────────────────────────────────────────────────┤
-│ ☐ Step 4. 審視當地「同業競爭態勢與組織適配性」(Rivalry & Culture Audit)      │
-│    • 當地是否存在具備活力的本地競爭對手促使團隊持續創新，而非依賴壟斷獲利？ │
-│    • 企業母國管理體制與目標國當地的勞動文化、法規制度是否具備高度相容性？   │
-├────────────────────────────────────────────────────────────────────────────┤
-│ ☐ Step 5. 辨識政府角色是「催化賦能」還是「行政勒索」(Government Lens)       │
-│    • 政府是否提供穩定透明的法治環境與智慧財產權保護？                       │
-│    • 政府補貼是否附帶過多不合理的政治指導或強迫技術轉移條款？               │
-└────────────────────────────────────────────────────────────────────────────┘
-```
+### 📋 高階經理人「鑽石體系與海外選址」決策評估檢核表
+
+- [ ] **Step 1. 檢驗目標市場的「高級專屬要素」（Advanced Factor Audit）**：
+  - 當地是否具備特定產業所需的專業頂尖人才庫與科研機構？
+  - 基礎設施（水、電、綠能、數位專線、清關物流）是否能確保零斷鏈？
+- [ ] **Step 2. 評估當地「買方挑剔度與市場前導性」（Demand Sophistication Audit）**：
+  - 當地顧客是否足夠挑剔？能否迫使我方團隊在產品功能與品質上更上一層樓？
+  - 該市場是否代表全球未來 3～5 年的法規或消費演化趨勢？
+- [ ] **Step 3. 掃描當地「供應鏈與支援產業完整度」（Supply Ecosystem Audit）**：
+  - 車程 1 小時範圍內是否有充足的世界級零組件、模具與後勤維修配套？
+  - 若核心零組件仍需仰賴遠距跨國進口，是否有緩衝庫存或備援方案？
+- [ ] **Step 4. 審視當地「同業競爭態勢與組織適配性」（Rivalry & Culture Audit）**：
+  - 當地是否存在具備活力的本地競爭對手促使團隊持續創新，而非依賴壟斷獲利？
+  - 企業母國管理體制與目標國當地的勞動文化、法規制度是否具備高度相容性？
+- [ ] **Step 5. 辨識政府角色是「催化賦能」還是「行政勒索」（Government Lens）**：
+  - 政府是否提供穩定透明的法治環境與智慧財產權保護？
+  - 政府補貼是否附帶過多不合理的政治指導或強迫技術轉移條款？
 
 ---
 

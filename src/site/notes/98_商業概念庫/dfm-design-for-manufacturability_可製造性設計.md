@@ -37,10 +37,10 @@ flowchart LR
     S3 --> S4["4. 量產前夕 (PVT/MP)<br>設計變更成本：$1,000<br>產線停擺、原物料報廢積壓"]
     S4 --> S5["5. 市場上市與售後召回<br>設計變更成本：$10,000+<br>商譽全毀、法規訴訟與召回"]
 
-    style S1 fill:#dcfce7,stroke:#16a34a,stroke-width:2px,color:#14532d
-    style S2 fill:#eff6ff,stroke:#2563eb,stroke-width:1.5px,color:#1e3a8a
-    style S3 fill:#fef9c3,stroke:#ca8a04,stroke-width:1.5px,color:#713f12
-    style S4 fill:#fee2e2,stroke:#ef4444,stroke-width:2px,color:#991b1b
+    style S1 fill:#143823,stroke:#4ade80,stroke-width:2px,color:#ffffff
+    style S2 fill:#1e3a5f,stroke:#60a5fa,stroke-width:1.5px,color:#ffffff
+    style S3 fill:#3d2806,stroke:#fbbf24,stroke-width:1.5px,color:#ffffff
+    style S4 fill:#5c1d24,stroke:#f87171,stroke-width:2px,color:#ffffff
     style S5 fill:#7f1d1d,stroke:#ef4444,stroke-width:3px,color:#ffffff
 ```
 
@@ -67,12 +67,12 @@ flowchart TD
     Principles --> P4
     Principles --> P5
 
-    style Principles fill:#e0e7ff,stroke:#4338ca,stroke-width:2px,color:#1e1b4b
-    style P1 fill:#dbeafe,stroke:#2563eb,stroke-width:1.5px,color:#1e40af
-    style P2 fill:#dcfce7,stroke:#16a34a,stroke-width:1.5px,color:#14532d
-    style P3 fill:#fef3c7,stroke:#d97706,stroke-width:1.5px,color:#78350f
-    style P4 fill:#fee2e2,stroke:#dc2626,stroke-width:1.5px,color:#7f1d1d
-    style P5 fill:#f3e8ff,stroke:#9333ea,stroke-width:1.5px,color:#581c87
+    style Principles fill:#1e3a5f,stroke:#60a5fa,stroke-width:2px,color:#ffffff
+    style P1 fill:#1e3a5f,stroke:#60a5fa,stroke-width:1.5px,color:#ffffff
+    style P2 fill:#143823,stroke:#4ade80,stroke-width:1.5px,color:#ffffff
+    style P3 fill:#3d2806,stroke:#fbbf24,stroke-width:1.5px,color:#ffffff
+    style P4 fill:#5c1d24,stroke:#f87171,stroke-width:1.5px,color:#ffffff
+    style P5 fill:#3b1d54,stroke:#c084fc,stroke-width:1.5px,color:#ffffff
 ```
 
 ### 1. 減少零件總數（Part Count Reduction）
@@ -142,9 +142,9 @@ flowchart TD
     F2 --> F4
     F3 --> F4
 
-    style DFM_Action fill:#e0f2fe,stroke:#0284c7,stroke-width:2px,color:#075985
-    style Manufacturing_Ops fill:#fef9c3,stroke:#ca8a04,stroke-width:2px,color:#713f12
-    style Financial_Impact fill:#dcfce7,stroke:#16a34a,stroke-width:2px,color:#14532d
+    style DFM_Action fill:#1e3a5f,stroke:#60a5fa,stroke-width:2px,color:#ffffff
+    style Manufacturing_Ops fill:#3d2806,stroke:#fbbf24,stroke-width:2px,color:#ffffff
+    style Financial_Impact fill:#143823,stroke:#4ade80,stroke-width:2px,color:#ffffff
 ```
 
 ### 1. 壓低固定資產投資（CapEx）與開模風險（PPE）
@@ -198,14 +198,14 @@ flowchart TD
     Trap3["❌ 陷阱三：原型自滿陷阱<br>(Prototype-to-Production Trap)"] --> Fix3["✅ 防範：3D 列印能做出的原型，絕不代表開模能大量量產"]
     Trap4["❌ 陷阱四：單一功能至上忽視供應鏈<br>(Ignoring DFSC)"] --> Fix4["✅ 防範：將標準件與多源供應料件 (Second Source) 納入 DFM 審查標準"]
 
-    style Trap1 fill:#fee2e2,stroke:#ef4444,stroke-width:1px,color:#7f1d1d
-    style Trap2 fill:#fee2e2,stroke:#ef4444,stroke-width:1px,color:#7f1d1d
-    style Trap3 fill:#fee2e2,stroke:#ef4444,stroke-width:1px,color:#7f1d1d
-    style Trap4 fill:#fee2e2,stroke:#ef4444,stroke-width:1px,color:#7f1d1d
-    style Fix1 fill:#f0fdf4,stroke:#22c55e,stroke-width:1px,color:#14532d
-    style Fix2 fill:#f0fdf4,stroke:#22c55e,stroke-width:1px,color:#14532d
-    style Fix3 fill:#f0fdf4,stroke:#22c55e,stroke-width:1px,color:#14532d
-    style Fix4 fill:#f0fdf4,stroke:#22c55e,stroke-width:1px,color:#14532d
+    style Trap1 fill:#5c1d24,stroke:#f87171,stroke-width:1px,color:#ffffff
+    style Trap2 fill:#5c1d24,stroke:#f87171,stroke-width:1px,color:#ffffff
+    style Trap3 fill:#5c1d24,stroke:#f87171,stroke-width:1px,color:#ffffff
+    style Trap4 fill:#5c1d24,stroke:#f87171,stroke-width:1px,color:#ffffff
+    style Fix1 fill:#143823,stroke:#4ade80,stroke-width:1px,color:#ffffff
+    style Fix2 fill:#143823,stroke:#4ade80,stroke-width:1px,color:#ffffff
+    style Fix3 fill:#143823,stroke:#4ade80,stroke-width:1px,color:#ffffff
+    style Fix4 fill:#143823,stroke:#4ade80,stroke-width:1px,color:#ffffff
 ```
 
 ### 1. 隔牆扔圖紙偏誤（Over-the-Wall Syndrome）

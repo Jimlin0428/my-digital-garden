@@ -32,11 +32,11 @@ flowchart TD
     TATO -.->|"營業收入 / 總資產"| TATO_Note["反映存貨去化速度、產能利用率與週轉效率"]
     EM -.->|"總資產 / 股東權益"| EM_Note["反映負債融資比率與利息負擔乘數"]
 
-    style ROE fill:#fef3c7,stroke:#f59e0b,stroke-width:3px,color:#92400e
-    style ROA fill:#dbeafe,stroke:#3b82f6,stroke-width:2px,color:#1e40af
-    style EM fill:#fee2e2,stroke:#ef4444,stroke-width:2px,color:#991b1b
-    style NPM fill:#dcfce7,stroke:#22c55e,stroke-width:2px,color:#166534
-    style TATO fill:#dcfce7,stroke:#22c55e,stroke-width:2px,color:#166534
+    style ROE fill:#3d2806,stroke:#fbbf24,stroke-width:3px,color:#ffffff
+    style ROA fill:#1e3a5f,stroke:#60a5fa,stroke-width:2px,color:#ffffff
+    style EM fill:#5c1d24,stroke:#f87171,stroke-width:2px,color:#ffffff
+    style NPM fill:#143823,stroke:#4ade80,stroke-width:2px,color:#ffffff
+    style TATO fill:#143823,stroke:#4ade80,stroke-width:2px,color:#ffffff
 ```
 
 ### 1. 經典杜邦三因子拆解 (3-Way DuPont Identity)
@@ -87,9 +87,9 @@ flowchart TD
     TR --> BR
     TR --> FR
 
-    style TR fill:#f1f5f9,stroke:#64748b,stroke-width:2px,color:#1e293b
-    style BR fill:#dbeafe,stroke:#3b82f6,stroke-width:2px,color:#1e40af
-    style FR fill:#fee2e2,stroke:#ef4444,stroke-width:2px,color:#991b1b
+    style TR fill:#1e293b,stroke:#94a3b8,stroke-width:2px,color:#ffffff
+    style BR fill:#1e3a5f,stroke:#60a5fa,stroke-width:2px,color:#ffffff
+    style FR fill:#5c1d24,stroke:#f87171,stroke-width:2px,color:#ffffff
 ```
 
 1. **經營風險（Business Risk，由 ROA 衡量）**：反映企業在不考慮資本結構舉債的情況下，純粹運用產業資產造血的實質能力。重資產製造業或高研發生技業本身承擔極高的經營風險。

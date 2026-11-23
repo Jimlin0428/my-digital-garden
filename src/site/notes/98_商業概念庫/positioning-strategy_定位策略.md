@@ -48,9 +48,9 @@ flowchart LR
     POP == "跨越入場門檻" ==> Entry["被納入考慮集 (Consideration Set)"]
     POD == "激發購買決策" ==> Choice["贏得最終首選 (Brand Choice)"]
 
-    style KellerModel fill:#f8fafc,stroke:#334155,stroke-width:2px
-    style POP fill:#eff6ff,stroke:#1d4ed8,stroke-width:2px
-    style POD fill:#fefce8,stroke:#a16207,stroke-width:2px
+    style KellerModel fill:#1e293b,stroke:#94a3b8,stroke-width:2px,color:#ffffff
+    style POP fill:#1e3a5f,stroke:#60a5fa,stroke-width:2px,color:#ffffff
+    style POD fill:#3d2806,stroke:#fbbf24,stroke-width:2px,color:#ffffff
 ```
 
 1. **共同點（Points-of-Parity, POP）—— 入場許可證**：

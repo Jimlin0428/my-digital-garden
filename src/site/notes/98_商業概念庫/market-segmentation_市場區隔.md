@@ -64,11 +64,11 @@ flowchart TD
         B4["4. 行為變數 (Behavioral) —— 最具實戰價值！<br/>使用時機 (Occasion)/尋求利益 (Benefits Sought)/使用率 (80/20法則)/忠誠度/轉換意向"]
     end
 
-    style Bases fill:#f8fafc,stroke:#334155,stroke-width:2px
-    style B1 fill:#eff6ff,stroke:#1d4ed8,stroke-width:2px
-    style B2 fill:#fefce8,stroke:#a16207,stroke-width:2px
-    style B3 fill:#f0fdf4,stroke:#15803d,stroke-width:2px
-    style B4 fill:#fee2e2,stroke:#b91c1c,stroke-width:2px
+    style Bases fill:#1e293b,stroke:#94a3b8,stroke-width:2px,color:#ffffff
+    style B1 fill:#1e3a5f,stroke:#60a5fa,stroke-width:2px,color:#ffffff
+    style B2 fill:#3d2806,stroke:#fbbf24,stroke-width:2px,color:#ffffff
+    style B3 fill:#143823,stroke:#4ade80,stroke-width:2px,color:#ffffff
+    style B4 fill:#5c1d24,stroke:#f87171,stroke-width:2px,color:#ffffff
 ```
 
 ### 2.1 四大變數深度解析與指標

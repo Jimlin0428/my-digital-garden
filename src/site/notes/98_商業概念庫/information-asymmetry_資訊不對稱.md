@@ -21,8 +21,8 @@ flowchart TD
     end
 
     subgraph 時間維度劃分 ["時間維度與衍生危害"]
-        IA -->|交易發生前 (Ex-ante)| AS["逆向選擇 (Adverse Selection)<br>• 隱蔽特徵 (Hidden Characteristics)<br>• 劣幣驅逐良幣，市場流動性萎縮"]
-        IA -->|交易發生後 (Ex-post)| MH["道德風險 (Moral Hazard)<br>• 隱蔽行動 (Hidden Actions)<br>• 誘發偷懶、冒險與資產掏空"]
+        IA -->|"交易發生前（Ex-ante）"| AS["逆向選擇 (Adverse Selection)<br>• 隱蔽特徵 (Hidden Characteristics)<br>• 劣幣驅逐良幣，市場流動性萎縮"]
+        IA -->|"交易發生後（Ex-post）"| MH["道德風險 (Moral Hazard)<br>• 隱蔽行動 (Hidden Actions)<br>• 誘發偷懶、冒險與資產掏空"]
     end
 
     subgraph 市場與機制防禦 ["經濟學解決方案"]

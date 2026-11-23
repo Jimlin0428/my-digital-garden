@@ -41,9 +41,9 @@ flowchart TD
 
     Securities --> Diluted_EPS_Framework
 
-    style DEPS fill:#fef3c7,stroke:#f59e0b,stroke-width:3px,color:#92400e
-    style Numerator fill:#dbeafe,stroke:#3b82f6,stroke-width:2px,color:#1e40af
-    style Denominator fill:#dcfce7,stroke:#22c55e,stroke-width:2px,color:#166534
+    style DEPS fill:#3d2806,stroke:#fbbf24,stroke-width:3px,color:#ffffff
+    style Numerator fill:#1e3a5f,stroke:#60a5fa,stroke-width:2px,color:#ffffff
+    style Denominator fill:#143823,stroke:#4ade80,stroke-width:2px,color:#ffffff
 ```
 
 ### 1. 綜合標準計算公式

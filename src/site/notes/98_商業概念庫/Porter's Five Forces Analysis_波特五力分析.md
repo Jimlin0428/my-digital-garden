@@ -40,11 +40,11 @@ flowchart TD
     SUP ==> RIV
     BUY ==> RIV
 
-    style RIV fill:#fee2e2,stroke:#ef4444,stroke-width:3px,color:#991b1b
-    style ENT fill:#fef3c7,stroke:#f59e0b,stroke-width:2px,color:#92400e
-    style SUB fill:#fef3c7,stroke:#f59e0b,stroke-width:2px,color:#92400e
-    style SUP fill:#dbeafe,stroke:#3b82f6,stroke-width:2px,color:#1e40af
-    style BUY fill:#dbeafe,stroke:#3b82f6,stroke-width:2px,color:#1e40af
+    style RIV fill:#5c1d24,stroke:#f87171,stroke-width:3px,color:#ffffff
+    style ENT fill:#3d2806,stroke:#fbbf24,stroke-width:2px,color:#ffffff
+    style SUB fill:#3d2806,stroke:#fbbf24,stroke-width:2px,color:#ffffff
+    style SUP fill:#1e3a5f,stroke:#60a5fa,stroke-width:2px,color:#ffffff
+    style BUY fill:#1e3a5f,stroke:#60a5fa,stroke-width:2px,color:#ffffff
 ```
 
 ### 1. [[potential-entrants_潛在進入者|潛在進入者的威脅]] (Threat of New Entrants)

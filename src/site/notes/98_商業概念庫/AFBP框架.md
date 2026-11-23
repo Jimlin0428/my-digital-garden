@@ -29,10 +29,10 @@ flowchart TD
     F -->|"轉化為個人福祉"| B
     B -->|"深化為情緒認同"| P
 
-    style A fill:#f9f9f9,stroke:#666
-    style F fill:#e1f5fe,stroke:#0288d1
-    style B fill:#e8f5e9,stroke:#388e3c
-    style P fill:#fff3e0,stroke:#f57c00
+    style A fill:#1e293b,stroke:#94a3b8,color:#ffffff
+    style F fill:#1e3a5f,stroke:#60a5fa,color:#ffffff
+    style B fill:#143823,stroke:#4ade80,color:#ffffff
+    style P fill:#3d2806,stroke:#fbbf24,color:#ffffff
 ```
 
 ---

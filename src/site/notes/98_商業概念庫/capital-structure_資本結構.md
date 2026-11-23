@@ -19,23 +19,18 @@
 
 ### 2. 資本結構 (Capital Structure) vs. 財務結構 (Financial Structure) 深度辨析
 
-```text
-【資產負債表右側：財務結構 vs. 資本結構範圍對照】
+```mermaid
+flowchart TD
+    classDef full fill:#0f172a,stroke:#94a3b8,stroke-width:2px,color:#ffffff;
+    classDef curr fill:#3d2806,stroke:#fbbf24,stroke-width:2px,color:#ffffff;
+    classDef cap fill:#1e3a5f,stroke:#60a5fa,stroke-width:2px,color:#ffffff;
 
-  ┌─────────────────────────────────────────────────────────┐
-  │                 【財務結構 (Financial Structure)】        │
-  │                 涵蓋右側所有負債與權益項目 (全集)          │
-  │  ┌───────────────────────────────────────────────────┐  │
-  │  │ 流動負債 (Current Liabilities)                     │  │ ◄── 僅屬財務結構
-  │  │ (應付帳款、短期借款、應付費用等短期營業與金融負債) │  │     (營運資本管理範疇)
-  │  ├───────────────────────────────────────────────────┤  │
-  │  │              【資本結構 (Capital Structure)】      │  │
-  │  │              特指永久性長期資金來源 (子集)         │  │ ◄── 同時屬於
-  │  │  • 非流動負債 (長期借款、應付公司債)               │  │     財務結構與資本結構
-  │  │  • 特別股股本                                      │  │     (公司理財核心範疇)
-  │  │  • 普通股權益 (股本、資本公積、保留盈餘)           │  │
-  │  └───────────────────────────────────────────────────┘  │
-  └─────────────────────────────────────────────────────────┘
+    FS["【財務結構（Financial Structure）】<br/>涵蓋資產負債表右側所有負債與權益項目（全集）"]:::full
+    CL["流動負債（Current Liabilities）<br/>• 應付帳款、短期借款、應付費用<br/>➔ 僅屬財務結構（營運資本管理範疇）"]:::curr
+    CS["【資本結構（Capital Structure）】<br/>特指永久性長期資金來源（子集，公司理財核心範疇）：<br/>• 非流動負債（長期借款、應付公司債）<br/>• 特別股股本<br/>• 普通股權益（股本、資本公積、保留盈餘）"]:::cap
+
+    FS --> CL
+    FS --> CS
 ```
 
 | 比較維度 | 資本結構 (Capital Structure) | 財務結構 (Financial Structure) |
@@ -64,12 +59,12 @@ flowchart TD
     
     Pecking --> MarketTiming["【市場擇時理論 (Market Timing, 2002)】<br>經理人利用股市非理性繁榮增發股票，低估時回購或舉債"]
 
-    style MM58 fill:#f1f5f9,stroke:#64748b,stroke-width:2px,color:#334155
-    style MM63 fill:#fef3c7,stroke:#f59e0b,stroke-width:2px,color:#92400e
-    style TradeOff fill:#dbeafe,stroke:#3b82f6,stroke-width:2px,color:#1e40af
-    style Pecking fill:#dcfce7,stroke:#22c55e,stroke-width:2px,color:#166534
-    style Agency fill:#ede9fe,stroke:#8b5cf6,stroke-width:2px,color:#5b21b6
-    style MarketTiming fill:#ffe4e6,stroke:#f43f5e,stroke-width:2px,color:#9f1239
+    style MM58 fill:#1e293b,stroke:#94a3b8,stroke-width:2px,color:#ffffff
+    style MM63 fill:#3d2806,stroke:#fbbf24,stroke-width:2px,color:#ffffff
+    style TradeOff fill:#1e3a5f,stroke:#60a5fa,stroke-width:2px,color:#ffffff
+    style Pecking fill:#143823,stroke:#4ade80,stroke-width:2px,color:#ffffff
+    style Agency fill:#3b1d54,stroke:#c084fc,stroke-width:2px,color:#ffffff
+    style MarketTiming fill:#5c1d24,stroke:#f87171,stroke-width:2px,color:#ffffff
 ```
 
 ### 1. 莫迪利安尼-米勒定理（MM 定理：無稅環境，1958）——資本結構無關論
@@ -180,10 +175,10 @@ flowchart TD
     
     Step3 --> Step4["【最後手段：外部發行新股 (Equity Issuance)】<br>普通股現增 (SPO / SEO)<br>致命缺陷：信號傳遞效應，市場判定股價被高估，引發股價重挫"]
 
-    style Step1 fill:#dcfce7,stroke:#22c55e,stroke-width:2px,color:#166534
-    style Step2 fill:#dbeafe,stroke:#3b82f6,stroke-width:2px,color:#1e40af
-    style Step3 fill:#fef3c7,stroke:#f59e0b,stroke-width:2px,color:#92400e
-    style Step4 fill:#fee2e2,stroke:#ef4444,stroke-width:2px,color:#991b1b
+    style Step1 fill:#143823,stroke:#4ade80,stroke-width:2px,color:#ffffff
+    style Step2 fill:#1e3a5f,stroke:#60a5fa,stroke-width:2px,color:#ffffff
+    style Step3 fill:#3d2806,stroke:#fbbf24,stroke-width:2px,color:#ffffff
+    style Step4 fill:#5c1d24,stroke:#f87171,stroke-width:2px,color:#ffffff
 ```
 
 - **信號傳遞與逆向選擇（Signaling & Adverse Selection）**：

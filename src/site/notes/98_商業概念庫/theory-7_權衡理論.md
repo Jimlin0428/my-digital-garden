@@ -55,9 +55,9 @@ flowchart TD
     TaxShieldSide <-->|"邊際效益 = 邊際成本"| DistressSide
     BalancingForces --> OptimalPoint["【黃金平衡：最佳資本結構 (D*/E*)】<br>★ 加權平均資本成本 WACC 最低<br>★ 企業總市場價值 VL 最大化"]
 
-    style TaxShieldSide fill:#dcfce7,stroke:#22c55e,stroke-width:2px,color:#166534
-    style DistressSide fill:#fee2e2,stroke:#ef4444,stroke-width:2px,color:#991b1b
-    style OptimalPoint fill:#dbeafe,stroke:#3b82f6,stroke-width:2px,color:#1e40af
+    style TaxShieldSide fill:#143823,stroke:#4ade80,stroke-width:2px,color:#ffffff
+    style DistressSide fill:#5c1d24,stroke:#f87171,stroke-width:2px,color:#ffffff
+    style OptimalPoint fill:#1e3a5f,stroke:#60a5fa,stroke-width:2px,color:#ffffff
 ```
 
 ### 1. 正面推升力量：利息稅盾（Interest Tax Shield）
@@ -156,9 +156,9 @@ flowchart LR
     Over -->|啟動去槓桿| Rebalance2["保留盈餘還債 / 現金增資<br>(修復財務結構至安全帶)"]
     Rebalance2 --> TargetZone
 
-    style TargetZone fill:#dcfce7,stroke:#22c55e,stroke-width:2px,color:#166534
-    style Over fill:#fee2e2,stroke:#ef4444,stroke-width:2px,color:#991b1b
-    style Under fill:#fef3c7,stroke:#f59e0b,stroke-width:2px,color:#92400e
+    style TargetZone fill:#143823,stroke:#4ade80,stroke-width:2px,color:#ffffff
+    style Over fill:#5c1d24,stroke:#f87171,stroke-width:2px,color:#ffffff
+    style Under fill:#3d2806,stroke:#fbbf24,stroke-width:2px,color:#ffffff
 ```
 
 ---

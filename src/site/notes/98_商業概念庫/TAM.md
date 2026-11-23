@@ -31,9 +31,9 @@ flowchart TD
     TAM -->|"過濾：產品規格 / 地理版圖 / 法規限制"| SAM
     SAM -->|"過濾：銷售產能 / 行銷資源 / 競爭壁壘"| SOM
 
-    style TAM fill:#dbeafe,stroke:#3b82f6,stroke-width:2px,color:#1e40af
-    style SAM fill:#fef3c7,stroke:#f59e0b,stroke-width:2px,color:#92400e
-    style SOM fill:#dcfce7,stroke:#22c55e,stroke-width:3px,color:#166534
+    style TAM fill:#1e3a5f,stroke:#60a5fa,stroke-width:2px,color:#ffffff
+    style SAM fill:#3d2806,stroke:#fbbf24,stroke-width:2px,color:#ffffff
+    style SOM fill:#143823,stroke:#4ade80,stroke-width:3px,color:#ffffff
 ```
 
 | 市場層級 | 英文全稱 | 核心問題與定義構面 | 決策意涵與用途 |
@@ -57,9 +57,9 @@ flowchart LR
     A --> C["【由下而上法 (Bottom-Up)】<br>微觀客戶數 × 每客年約價值 (ACV)<br>★ VC 最青睞之黃金標準"]
     A --> D["【價值理論法 (Value-Theory)】<br>客戶節省成本/新增利潤 × 分潤率<br>適用：破壞式創新、全新物種市場"]
 
-    style B fill:#f1f5f9,stroke:#64748b,stroke-width:2px,color:#334155
-    style C fill:#dcfce7,stroke:#22c55e,stroke-width:3px,color:#166534
-    style D fill:#ede9fe,stroke:#8b5cf6,stroke-width:2px,color:#5b21b6
+    style B fill:#1e293b,stroke:#94a3b8,stroke-width:2px,color:#ffffff
+    style C fill:#143823,stroke:#4ade80,stroke-width:3px,color:#ffffff
+    style D fill:#3b1d54,stroke:#c084fc,stroke-width:2px,color:#ffffff
 ```
 
 ### 1. 由下而上法 (Bottom-Up Approach) —— 創投最青睞的黃金標準
@@ -119,9 +119,9 @@ flowchart TD
     M1 -->|驗證 PMF，擴大產能| M2
     M2 -->|利用網絡效應，橫向包夾| M3
 
-    style M1 fill:#fef3c7,stroke:#f59e0b,stroke-width:2px,color:#92400e
-    style M2 fill:#dbeafe,stroke:#3b82f6,stroke-width:2px,color:#1e40af
-    style M3 fill:#dcfce7,stroke:#22c55e,stroke-width:3px,color:#166534
+    style M1 fill:#3d2806,stroke:#fbbf24,stroke-width:2px,color:#ffffff
+    style M2 fill:#1e3a5f,stroke:#60a5fa,stroke-width:2px,color:#ffffff
+    style M3 fill:#143823,stroke:#4ade80,stroke-width:3px,color:#ffffff
 ```
 
 1. **價格彈性解鎖新需求（The Elasticity Paradox）**：

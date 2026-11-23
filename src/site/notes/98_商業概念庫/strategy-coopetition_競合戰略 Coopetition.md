@@ -30,9 +30,9 @@ flowchart TD
     Coopetition --> C1
     Coopetition --> C2
 
-    style Coopetition fill:#e0e7ff,stroke:#4338ca,stroke-width:2px,color:#1e1b4b
-    style C1 fill:#dcfce7,stroke:#16a34a,stroke-width:1.5px,color:#14532d
-    style C2 fill:#fee2e2,stroke:#dc2626,stroke-width:1.5px,color:#7f1d1d
+    style Coopetition fill:#1e3a5f,stroke:#60a5fa,stroke-width:2px,color:#ffffff
+    style C1 fill:#143823,stroke:#4ade80,stroke-width:1.5px,color:#ffffff
+    style C2 fill:#5c1d24,stroke:#f87171,stroke-width:1.5px,color:#ffffff
 ```
 
 ---
@@ -71,10 +71,10 @@ flowchart TD
     Supplier -.-> Complementor
 
     style Company fill:#1e3a8a,stroke:#3b82f6,stroke-width:3px,color:#ffffff
-    style Complementor fill:#dcfce7,stroke:#16a34a,stroke-width:2px,color:#14532d
-    style Competitor fill:#fee2e2,stroke:#dc2626,stroke-width:2px,color:#7f1d1d
-    style Customer fill:#dbeafe,stroke:#2563eb,stroke-width:2px,color:#1e3a8a
-    style Supplier fill:#fef3c7,stroke:#d97706,stroke-width:2px,color:#78350f
+    style Complementor fill:#143823,stroke:#4ade80,stroke-width:2px,color:#ffffff
+    style Competitor fill:#5c1d24,stroke:#f87171,stroke-width:2px,color:#ffffff
+    style Customer fill:#1e3a5f,stroke:#60a5fa,stroke-width:2px,color:#ffffff
+    style Supplier fill:#3d2806,stroke:#fbbf24,stroke-width:2px,color:#ffffff
 ```
 
 ### 2.1 價值網四大節點與對稱性原理（Symmetry Principle）
@@ -106,11 +106,11 @@ flowchart LR
     R --> T["T - 戰術與認知<br>(Tactics)"]
     T --> S["S - 遊戲範疇<br>(Scope)"]
 
-    style P fill:#e0f2fe,stroke:#0284c7,stroke-width:2px,color:#075985
-    style A fill:#fef9c3,stroke:#ca8a04,stroke-width:2px,color:#713f12
-    style R fill:#dcfce7,stroke:#16a34a,stroke-width:2px,color:#14532d
-    style T fill:#fce7f3,stroke:#db2777,stroke-width:2px,color:#831843
-    style S fill:#f3e8ff,stroke:#9333ea,stroke-width:2px,color:#581c87
+    style P fill:#1e3a5f,stroke:#60a5fa,stroke-width:2px,color:#ffffff
+    style A fill:#3d2806,stroke:#fbbf24,stroke-width:2px,color:#ffffff
+    style R fill:#143823,stroke:#4ade80,stroke-width:2px,color:#ffffff
+    style T fill:#3b1d54,stroke:#c084fc,stroke-width:2px,color:#ffffff
+    style S fill:#3b1d54,stroke:#c084fc,stroke-width:2px,color:#ffffff
 ```
 
 ### 1. P（Players 參與者）：重塑賽局玩家
@@ -196,14 +196,14 @@ flowchart TD
     Pitfall3["❌ 陷阱三：過早暴露底牌引發防備<br>(Premature Exposure Trap)"] --> Fix3["✅ 防範：善用 PARTS 戰術訊號與合約條款，鎖定合作邊界"]
     Pitfall4["❌ 陷阱四：共謀定價觸犯反壟斷法<br>(Antitrust Violation Trap)"] --> Fix4["✅ 防範：嚴格遵守法律紅線，競合聚焦於規格標準與研發，非聯合哄抬價格"]
 
-    style Pitfall1 fill:#fee2e2,stroke:#ef4444,stroke-width:1px,color:#7f1d1d
-    style Pitfall2 fill:#fee2e2,stroke:#ef4444,stroke-width:1px,color:#7f1d1d
-    style Pitfall3 fill:#fee2e2,stroke:#ef4444,stroke-width:1px,color:#7f1d1d
-    style Pitfall4 fill:#fee2e2,stroke:#ef4444,stroke-width:1px,color:#7f1d1d
-    style Fix1 fill:#f0fdf4,stroke:#22c55e,stroke-width:1px,color:#14532d
-    style Fix2 fill:#f0fdf4,stroke:#22c55e,stroke-width:1px,color:#14532d
-    style Fix3 fill:#f0fdf4,stroke:#22c55e,stroke-width:1px,color:#14532d
-    style Fix4 fill:#f0fdf4,stroke:#22c55e,stroke-width:1px,color:#14532d
+    style Pitfall1 fill:#5c1d24,stroke:#f87171,stroke-width:1px,color:#ffffff
+    style Pitfall2 fill:#5c1d24,stroke:#f87171,stroke-width:1px,color:#ffffff
+    style Pitfall3 fill:#5c1d24,stroke:#f87171,stroke-width:1px,color:#ffffff
+    style Pitfall4 fill:#5c1d24,stroke:#f87171,stroke-width:1px,color:#ffffff
+    style Fix1 fill:#143823,stroke:#4ade80,stroke-width:1px,color:#ffffff
+    style Fix2 fill:#143823,stroke:#4ade80,stroke-width:1px,color:#ffffff
+    style Fix3 fill:#143823,stroke:#4ade80,stroke-width:1px,color:#ffffff
+    style Fix4 fill:#143823,stroke:#4ade80,stroke-width:1px,color:#ffffff
 ```
 
 ### 1. 死板零和鬥爭思維（Zero-Sum War Mentality）

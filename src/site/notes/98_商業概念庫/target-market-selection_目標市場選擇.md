@@ -56,10 +56,10 @@ flowchart TD
         P3["3. 企業目標與資源能耐契合度 (Company Fit)<br/>• VRIO 核心能耐是否具備對該客群的壓倒性優勢？<br/>• 是否契合公司的長期品牌願景與戰略定位？"]
     end
 
-    style ThreePillars fill:#f8fafc,stroke:#334155,stroke-width:2px
-    style P1 fill:#eff6ff,stroke:#1d4ed8,stroke-width:2px
-    style P2 fill:#fefce8,stroke:#a16207,stroke-width:2px
-    style P3 fill:#f0fdf4,stroke:#15803d,stroke-width:2px
+    style ThreePillars fill:#1e293b,stroke:#94a3b8,stroke-width:2px,color:#ffffff
+    style P1 fill:#1e3a5f,stroke:#60a5fa,stroke-width:2px,color:#ffffff
+    style P2 fill:#3d2806,stroke:#fbbf24,stroke-width:2px,color:#ffffff
+    style P3 fill:#143823,stroke:#4ade80,stroke-width:2px,color:#ffffff
 ```
 
 ### 2.1 三大評估維度之實戰指標

@@ -31,9 +31,9 @@ flowchart LR
         SpreadNeg["【價值毀滅區：ROIC ＜ WACC】<br>企業營運回報低於資本代價 (EVA ＜ 0)<br>🚨 規模越大，虧損越重，營收成長等同加速毀滅價值！<br>(例：無護城河之盲目擴產傳統代工廠)"]
     end
 
-    style SpreadPos fill:#dcfce7,stroke:#22c55e,stroke-width:2px,color:#166534
-    style SpreadZero fill:#fef3c7,stroke:#f59e0b,stroke-width:2px,color:#92400e
-    style SpreadNeg fill:#fee2e2,stroke:#ef4444,stroke-width:2px,color:#991b1b
+    style SpreadPos fill:#143823,stroke:#4ade80,stroke-width:2px,color:#ffffff
+    style SpreadZero fill:#3d2806,stroke:#fbbf24,stroke-width:2px,color:#ffffff
+    style SpreadNeg fill:#5c1d24,stroke:#f87171,stroke-width:2px,color:#ffffff
 ```
 
 - **價值創造鐵律**：
@@ -97,10 +97,10 @@ flowchart TD
         Q4["【象限 IV：夾在中間的價值毀滅區 (Stuck in the Middle)】<br>★ 典型企業：無技術壁壘之傳統組裝廠、二線代工廠<br>• 既無定價權 (低毛利)，又無規模優勢 (低週轉)<br>• ROIC ＜ WACC，陷入長期毀滅股東價值之重災區"]
     end
 
-    style Q1 fill:#dbeafe,stroke:#3b82f6,stroke-width:2px,color:#1e40af
-    style Q2 fill:#fef3c7,stroke:#f59e0b,stroke-width:2px,color:#92400e
-    style Q3 fill:#dcfce7,stroke:#22c55e,stroke-width:3px,color:#166534
-    style Q4 fill:#fee2e2,stroke:#ef4444,stroke-width:2px,color:#991b1b
+    style Q1 fill:#1e3a5f,stroke:#60a5fa,stroke-width:2px,color:#ffffff
+    style Q2 fill:#3d2806,stroke:#fbbf24,stroke-width:2px,color:#ffffff
+    style Q3 fill:#143823,stroke:#4ade80,stroke-width:3px,color:#ffffff
+    style Q4 fill:#5c1d24,stroke:#f87171,stroke-width:2px,color:#ffffff
 ```
 
 | 經營象限 | 代表標竿企業 | 營業淨利率 | 資本週轉率 | ROIC 表現 | 核心競爭優勢與商業模式 |

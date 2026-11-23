@@ -25,9 +25,9 @@ flowchart TD
         Dom -.->|"掠奪式包夾與替代"| Niche
     end
 
-    style KS fill:#fef3c7,stroke:#f59e0b,stroke-width:3px,color:#92400e
-    style Niche fill:#dcfce7,stroke:#22c55e,stroke-width:2px,color:#166534
-    style Dom fill:#fee2e2,stroke:#ef4444,stroke-width:2px,color:#991b1b
+    style KS fill:#3d2806,stroke:#fbbf24,stroke-width:3px,color:#ffffff
+    style Niche fill:#143823,stroke:#4ade80,stroke-width:2px,color:#ffffff
+    style Dom fill:#5c1d24,stroke:#f87171,stroke-width:2px,color:#ffffff
 ```
 
 ### 1. 三大核心成員角色

@@ -38,8 +38,8 @@ flowchart TD
 
     Macro ==> Group ==> Matrix ==> Action
 
-    style Matrix fill:#dbeafe,stroke:#2563eb,stroke-width:2px,color:#1e3a8a
-    style Action fill:#dcfce7,stroke:#16a34a,stroke-width:2px,color:#14532d
+    style Matrix fill:#1e3a5f,stroke:#60a5fa,stroke-width:2px,color:#ffffff
+    style Action fill:#143823,stroke:#4ade80,stroke-width:2px,color:#ffffff
 ```
 
 ---
@@ -60,11 +60,11 @@ flowchart TD
     CM --> P3
     CM --> P4
 
-    style CM fill:#e0e7ff,stroke:#4338ca,stroke-width:2px,color:#1e1b4b
-    style P1 fill:#dbeafe,stroke:#2563eb,stroke-width:2px,color:#1e3a8a
-    style P2 fill:#fef3c7,stroke:#d97706,stroke-width:2px,color:#78350f
-    style P3 fill:#dcfce7,stroke:#16a34a,stroke-width:2px,color:#14532d
-    style P4 fill:#fee2e2,stroke:#dc2626,stroke-width:2px,color:#7f1d1d
+    style CM fill:#1e3a5f,stroke:#60a5fa,stroke-width:2px,color:#ffffff
+    style P1 fill:#1e3a5f,stroke:#60a5fa,stroke-width:2px,color:#ffffff
+    style P2 fill:#3d2806,stroke:#fbbf24,stroke-width:2px,color:#ffffff
+    style P3 fill:#143823,stroke:#4ade80,stroke-width:2px,color:#ffffff
+    style P4 fill:#5c1d24,stroke:#f87171,stroke-width:2px,color:#ffffff
 ```
 
 ---
@@ -211,11 +211,11 @@ flowchart LR
     Step3 --> Step4["Step 4<br>視覺化繪圖與驗證<br>(Mapping & Cross-Check)"]
     Step4 --> Step5["Step 5<br>制定非對稱行動戰略<br>(Asymmetric Counter-Strategy)"]
 
-    style Step1 fill:#f8fafc,stroke:#64748b,stroke-width:2px,color:#0f172a
-    style Step2 fill:#e0f2fe,stroke:#0284c7,stroke-width:2px,color:#075985
-    style Step3 fill:#fef9c3,stroke:#ca8a04,stroke-width:2px,color:#713f12
-    style Step4 fill:#dcfce7,stroke:#16a34a,stroke-width:2px,color:#14532d
-    style Step5 fill:#fce7f3,stroke:#db2777,stroke-width:2px,color:#831843
+    style Step1 fill:#1e293b,stroke:#94a3b8,stroke-width:2px,color:#ffffff
+    style Step2 fill:#1e3a5f,stroke:#60a5fa,stroke-width:2px,color:#ffffff
+    style Step3 fill:#3d2806,stroke:#fbbf24,stroke-width:2px,color:#ffffff
+    style Step4 fill:#143823,stroke:#4ade80,stroke-width:2px,color:#ffffff
+    style Step5 fill:#3b1d54,stroke:#c084fc,stroke-width:2px,color:#ffffff
 ```
 
 ### Step 1：界定三層次競爭範疇 (Define Competitive Boundary)
@@ -344,14 +344,14 @@ flowchart TD
     Pitfall3["❌ 陷阱三：靜態快照盲點<br>(Static Snapshot Trap)"] --> Sol3["✅ 防範：繪製 3 年演化向量軌跡，預判對手動態報復"]
     Pitfall4["❌ 陷阱四：行銷近視症<br>(Marketing Myopia)"] --> Sol4["✅ 防範：強制納入跨界科技巨頭與新技術替代品"]
 
-    style Pitfall1 fill:#fee2e2,stroke:#ef4444,stroke-width:1px,color:#7f1d1d
-    style Pitfall2 fill:#fee2e2,stroke:#ef4444,stroke-width:1px,color:#7f1d1d
-    style Pitfall3 fill:#fee2e2,stroke:#ef4444,stroke-width:1px,color:#7f1d1d
-    style Pitfall4 fill:#fee2e2,stroke:#ef4444,stroke-width:1px,color:#7f1d1d
-    style Sol1 fill:#f0fdf4,stroke:#22c55e,stroke-width:1px,color:#14532d
-    style Sol2 fill:#f0fdf4,stroke:#22c55e,stroke-width:1px,color:#14532d
-    style Sol3 fill:#f0fdf4,stroke:#22c55e,stroke-width:1px,color:#14532d
-    style Sol4 fill:#f0fdf4,stroke:#22c55e,stroke-width:1px,color:#14532d
+    style Pitfall1 fill:#5c1d24,stroke:#f87171,stroke-width:1px,color:#ffffff
+    style Pitfall2 fill:#5c1d24,stroke:#f87171,stroke-width:1px,color:#ffffff
+    style Pitfall3 fill:#5c1d24,stroke:#f87171,stroke-width:1px,color:#ffffff
+    style Pitfall4 fill:#5c1d24,stroke:#f87171,stroke-width:1px,color:#ffffff
+    style Sol1 fill:#143823,stroke:#4ade80,stroke-width:1px,color:#ffffff
+    style Sol2 fill:#143823,stroke:#4ade80,stroke-width:1px,color:#ffffff
+    style Sol3 fill:#143823,stroke:#4ade80,stroke-width:1px,color:#ffffff
+    style Sol4 fill:#143823,stroke:#4ade80,stroke-width:1px,color:#ffffff
 ```
 
 ### 1. 「Pitch Deck 自嗨偏誤」（Confirmation Bias & Feature Fallacy）

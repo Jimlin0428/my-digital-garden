@@ -28,8 +28,8 @@ flowchart TD
     BE --> A4
     BE --> A5
 
-    style BE fill:#fef3c7,stroke:#d97706,stroke-width:2px,color:#92400e
-    style A4 fill:#fee2e2,stroke:#dc2626,stroke-width:2px,color:#7f1d1d
+    style BE fill:#3d2806,stroke:#fbbf24,stroke-width:2px,color:#ffffff
+    style A4 fill:#5c1d24,stroke:#f87171,stroke-width:2px,color:#ffffff
 ```
 
 ---

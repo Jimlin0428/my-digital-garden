@@ -60,7 +60,7 @@ flowchart TD
     A["獨立垂直市場領先者 (如 Slack 企業協同通訊)"] 
     B["跨界平臺巨頭 (如微軟 Office 365 辦公生態)"]
 
-    B -->|發動平臺包夾策略 (Platform Envelopment)| C["推出同捆功能模組 (Microsoft Teams)"]
+    B -->|"發動平臺包夾策略（Platform Envelopment）"| C["推出同捆功能模組 (Microsoft Teams)"]
     C -->|第一重打擊：邊際成本為零| D["將 Teams 免費包含於既有企業訂閱中"]
     C -->|第二重打擊：數據與流程互鎖| E["與 Word、Excel、Outlook 深層原生集成"]
     C -->|第三重打擊：IT 採購決策便利| F["企業 CIO 偏好單一供應商合約，規避多重採購"]

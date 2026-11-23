@@ -38,12 +38,12 @@ flowchart TD
     ENV --> Impact
     L --> Impact
 
-    style P fill:#fee2e2,stroke:#ef4444,stroke-width:2px,color:#991b1b
-    style E fill:#fef3c7,stroke:#f59e0b,stroke-width:2px,color:#92400e
-    style S fill:#ede9fe,stroke:#8b5cf6,stroke-width:2px,color:#5b21b6
-    style T fill:#dbeafe,stroke:#3b82f6,stroke-width:2px,color:#1e40af
-    style ENV fill:#dcfce7,stroke:#22c55e,stroke-width:2px,color:#166534
-    style L fill:#ffedd5,stroke:#f97316,stroke-width:2px,color:#c2410c
+    style P fill:#5c1d24,stroke:#f87171,stroke-width:2px,color:#ffffff
+    style E fill:#3d2806,stroke:#fbbf24,stroke-width:2px,color:#ffffff
+    style S fill:#3b1d54,stroke:#c084fc,stroke-width:2px,color:#ffffff
+    style T fill:#1e3a5f,stroke:#60a5fa,stroke-width:2px,color:#ffffff
+    style ENV fill:#143823,stroke:#4ade80,stroke-width:2px,color:#ffffff
+    style L fill:#3d2806,stroke:#fbbf24,stroke-width:2px,color:#ffffff
 ```
 
 ---

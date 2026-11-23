@@ -47,7 +47,7 @@ flowchart TD
     R2L & R2R --> R3L & R3R
     R3L & R3R --> R4
 
-    style R2R fill:#fef3c7,stroke:#f59e0b,stroke-width:2px,color:#92400e
+    style R2R fill:#3d2806,stroke:#fbbf24,stroke-width:2px,color:#ffffff
 ```
 
 ### 1. 成功品牌聯想的三大黃金維度

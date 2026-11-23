@@ -87,12 +87,12 @@ flowchart TD
     P --- FP --- C
     C --- SS --- SOC
 
-    style V fill:#dbeafe,stroke:#2563eb,stroke-width:2px,color:#1e3a8a
-    style P fill:#fef3c7,stroke:#d97706,stroke-width:2px,color:#78350f
-    style C fill:#fee2e2,stroke:#dc2626,stroke-width:2px,color:#7f1d1d
-    style CS fill:#dcfce7,stroke:#16a34a,stroke-width:2px,color:#14532d
-    style FP fill:#fef3c7,stroke:#d97706,stroke-width:2px,color:#78350f
-    style SS fill:#f3e8ff,stroke:#9333ea,stroke-width:2px,color:#581c87
+    style V fill:#1e3a5f,stroke:#60a5fa,stroke-width:2px,color:#ffffff
+    style P fill:#3d2806,stroke:#fbbf24,stroke-width:2px,color:#ffffff
+    style C fill:#5c1d24,stroke:#f87171,stroke-width:2px,color:#ffffff
+    style CS fill:#143823,stroke:#4ade80,stroke-width:2px,color:#ffffff
+    style FP fill:#3d2806,stroke:#fbbf24,stroke-width:2px,color:#ffffff
+    style SS fill:#3b1d54,stroke:#c084fc,stroke-width:2px,color:#ffffff
 ```
 
 ---
@@ -121,8 +121,8 @@ flowchart LR
     Parity ==> Diff
     Parity ==> CostLead
 
-    style Diff fill:#ecfdf5,stroke:#059669,stroke-width:2px,color:#064e3b
-    style CostLead fill:#eff6ff,stroke:#2563eb,stroke-width:2px,color:#1e3a8a
+    style Diff fill:#143823,stroke:#4ade80,stroke-width:2px,color:#ffffff
+    style CostLead fill:#1e3a5f,stroke:#60a5fa,stroke-width:2px,color:#ffffff
 ```
 
 ### 2.1 途徑一：差異化策略（Differentiation Strategy）
@@ -162,9 +162,9 @@ flowchart TD
     P_Method --> M2
     P_Method --> M3
 
-    style M3 fill:#dcfce7,stroke:#16a34a,stroke-width:2px,color:#14532d
-    style M1 fill:#fee2e2,stroke:#dc2626,stroke-width:1px,color:#7f1d1d
-    style M2 fill:#fef3c7,stroke:#d97706,stroke-width:1px,color:#78350f
+    style M3 fill:#143823,stroke:#4ade80,stroke-width:2px,color:#ffffff
+    style M1 fill:#5c1d24,stroke:#f87171,stroke-width:1px,color:#ffffff
+    style M2 fill:#3d2806,stroke:#fbbf24,stroke-width:1px,color:#ffffff
 ```
 
 ### 3.1 價值基礎定價之「經濟價值評估法（EVE, Economic Value Estimation）」
@@ -250,14 +250,14 @@ flowchart TD
     Pitfall3["❌ 陷阱三：替代品引發的天花板崩塌<br>(Ceiling Collapse Trap)"] --> Fix3["✅ 防範：全方位監控異業技術演進，及早佈局第二成長曲線"]
     Pitfall4["❌ 陷阱四：同質化競爭下的價值競底<br>(Commoditization Trap)"] --> Fix4["✅ 防範：建立高轉換成本、網絡效應或品牌無形資產"]
 
-    style Pitfall1 fill:#fee2e2,stroke:#ef4444,stroke-width:1px,color:#7f1d1d
-    style Pitfall2 fill:#fee2e2,stroke:#ef4444,stroke-width:1px,color:#7f1d1d
-    style Pitfall3 fill:#fee2e2,stroke:#ef4444,stroke-width:1px,color:#7f1d1d
-    style Pitfall4 fill:#fee2e2,stroke:#ef4444,stroke-width:1px,color:#7f1d1d
-    style Fix1 fill:#f0fdf4,stroke:#22c55e,stroke-width:1px,color:#14532d
-    style Fix2 fill:#f0fdf4,stroke:#22c55e,stroke-width:1px,color:#14532d
-    style Fix3 fill:#f0fdf4,stroke:#22c55e,stroke-width:1px,color:#14532d
-    style Fix4 fill:#f0fdf4,stroke:#22c55e,stroke-width:1px,color:#14532d
+    style Pitfall1 fill:#5c1d24,stroke:#f87171,stroke-width:1px,color:#ffffff
+    style Pitfall2 fill:#5c1d24,stroke:#f87171,stroke-width:1px,color:#ffffff
+    style Pitfall3 fill:#5c1d24,stroke:#f87171,stroke-width:1px,color:#ffffff
+    style Pitfall4 fill:#5c1d24,stroke:#f87171,stroke-width:1px,color:#ffffff
+    style Fix1 fill:#143823,stroke:#4ade80,stroke-width:1px,color:#ffffff
+    style Fix2 fill:#143823,stroke:#4ade80,stroke-width:1px,color:#ffffff
+    style Fix3 fill:#143823,stroke:#4ade80,stroke-width:1px,color:#ffffff
+    style Fix4 fill:#143823,stroke:#4ade80,stroke-width:1px,color:#ffffff
 ```
 
 ### 1. 內部自嗨偏誤（Cost-Value Fallacy）

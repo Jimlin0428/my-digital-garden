@@ -31,9 +31,9 @@ flowchart TD
     TAM -->|"【產品與戰略過濾】<br>地理 / 語言 / 法規牌照 / 技術規格"| SAM
     SAM -->|"【組織與執行力過濾】<br>銷售配額 (Quota) / 贏單率 / 轉換成本 / 交付產能"| SOM
 
-    style TAM fill:#dbeafe,stroke:#3b82f6,stroke-width:2px,color:#1e40af
-    style SAM fill:#fef3c7,stroke:#f59e0b,stroke-width:2px,color:#92400e
-    style SOM fill:#dcfce7,stroke:#22c55e,stroke-width:3px,color:#166534
+    style TAM fill:#1e3a5f,stroke:#60a5fa,stroke-width:2px,color:#ffffff
+    style SAM fill:#3d2806,stroke:#fbbf24,stroke-width:2px,color:#ffffff
+    style SOM fill:#143823,stroke:#4ade80,stroke-width:3px,color:#ffffff
 ```
 
 ### 2. CFO 與 COO 唯一承認的預算基準
@@ -157,10 +157,10 @@ flowchart LR
     Pin2 -->|標準化模組化| Pin3
     Pin3 -->|平台規模效應| Pin4
 
-    style Pin1 fill:#fee2e2,stroke:#ef4444,stroke-width:3px,color:#991b1b
-    style Pin2 fill:#fef3c7,stroke:#f59e0b,stroke-width:2px,color:#92400e
-    style Pin3 fill:#dbeafe,stroke:#3b82f6,stroke-width:2px,color:#1e40af
-    style Pin4 fill:#dcfce7,stroke:#22c55e,stroke-width:2px,color:#166534
+    style Pin1 fill:#5c1d24,stroke:#f87171,stroke-width:3px,color:#ffffff
+    style Pin2 fill:#3d2806,stroke:#fbbf24,stroke-width:2px,color:#ffffff
+    style Pin3 fill:#1e3a5f,stroke:#60a5fa,stroke-width:2px,color:#ffffff
+    style Pin4 fill:#143823,stroke:#4ade80,stroke-width:2px,color:#ffffff
 ```
 
 1. **集中兵力於第一球瓶（Beachhead SOM）**：

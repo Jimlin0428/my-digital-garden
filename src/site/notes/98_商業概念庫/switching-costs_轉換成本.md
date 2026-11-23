@@ -79,13 +79,13 @@ flowchart TD
         C6["6. 心理與認知現狀偏誤 (Psychological & Status-Quo Bias Costs)<br/>對未知的恐懼 (Loss Aversion)、面對轉移失敗承擔內部政治責任"]
     end
 
-    style SixCosts fill:#f8fafc,stroke:#334155,stroke-width:2px
-    style C1 fill:#eff6ff,stroke:#1d4ed8,stroke-width:2px
-    style C2 fill:#fefce8,stroke:#a16207,stroke-width:2px
-    style C3 fill:#f0fdf4,stroke:#15803d,stroke-width:2px
-    style C4 fill:#fee2e2,stroke:#b91c1c,stroke-width:2px
-    style C5 fill:#faf5ff,stroke:#7e22ce,stroke-width:2px
-    style C6 fill:#fff7ed,stroke:#c2410c,stroke-width:2px
+    style SixCosts fill:#1e293b,stroke:#94a3b8,stroke-width:2px,color:#ffffff
+    style C1 fill:#1e3a5f,stroke:#60a5fa,stroke-width:2px,color:#ffffff
+    style C2 fill:#3d2806,stroke:#fbbf24,stroke-width:2px,color:#ffffff
+    style C3 fill:#143823,stroke:#4ade80,stroke-width:2px,color:#ffffff
+    style C4 fill:#5c1d24,stroke:#f87171,stroke-width:2px,color:#ffffff
+    style C5 fill:#3b1d54,stroke:#c084fc,stroke-width:2px,color:#ffffff
+    style C6 fill:#3d2806,stroke:#fbbf24,stroke-width:2px,color:#ffffff
 ```
 
 ### 2.1 深度拆解六大轉換成本

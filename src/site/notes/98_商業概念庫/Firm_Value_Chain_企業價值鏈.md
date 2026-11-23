@@ -52,9 +52,9 @@ flowchart TB
     PrimaryActivities ==> MARGIN["利潤<br>(MARGIN)<br>超額價值產出"]
     SupportActivities ==> MARGIN
 
-    style MARGIN fill:#fef08a,stroke:#eab308,stroke-width:3px,color:#854d0e
-    style PrimaryActivities fill:#eff6ff,stroke:#3b82f6,stroke-width:2px,color:#1e3a8a
-    style SupportActivities fill:#f8fafc,stroke:#64748b,stroke-width:2px,color:#0f172a
+    style MARGIN fill:#3d2806,stroke:#fbbf24,stroke-width:3px,color:#ffffff
+    style PrimaryActivities fill:#1e3a5f,stroke:#60a5fa,stroke-width:2px,color:#ffffff
+    style SupportActivities fill:#1e293b,stroke:#94a3b8,stroke-width:2px,color:#ffffff
 ```
 
 ### 1. 主要活動（Primary Activities）—— 貫穿實體價值流

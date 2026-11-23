@@ -45,10 +45,10 @@ flowchart TD
     Rent --> R2
     Rent --> R3
 
-    style Rent fill:#e0e7ff,stroke:#4338ca,stroke-width:2px,color:#1e1b4b
-    style R1 fill:#dcfce7,stroke:#16a34a,stroke-width:2px,color:#14532d
-    style R2 fill:#fef3c7,stroke:#d97706,stroke-width:2px,color:#78350f
-    style R3 fill:#fee2e2,stroke:#dc2626,stroke-width:2px,color:#7f1d1d
+    style Rent fill:#1e3a5f,stroke:#60a5fa,stroke-width:2px,color:#ffffff
+    style R1 fill:#143823,stroke:#4ade80,stroke-width:2px,color:#ffffff
+    style R2 fill:#3d2806,stroke:#fbbf24,stroke-width:2px,color:#ffffff
+    style R3 fill:#5c1d24,stroke:#f87171,stroke-width:2px,color:#ffffff
 ```
 
 真正的競爭優勢，必須能為股東持續帶來高於「加權平均資本成本（WACC）」的「投入資本報酬率（ROIC）」，即創造持久的正向**經濟附加價值（Economic Value Added, EVA > 0）**。
@@ -90,12 +90,12 @@ flowchart TD
     Cost --> ROIC
     ROIC --> Moat
 
-    style Choice fill:#dbeafe,stroke:#2563eb,stroke-width:2px,color:#1e3a8a
-    style Activity fill:#dbeafe,stroke:#2563eb,stroke-width:2px,color:#1e3a8a
-    style WTP fill:#fef3c7,stroke:#d97706,stroke-width:2px,color:#78350f
-    style Cost fill:#fef3c7,stroke:#d97706,stroke-width:2px,color:#78350f
-    style ROIC fill:#dcfce7,stroke:#16a34a,stroke-width:2px,color:#14532d
-    style Moat fill:#fee2e2,stroke:#dc2626,stroke-width:2px,color:#7f1d1d
+    style Choice fill:#1e3a5f,stroke:#60a5fa,stroke-width:2px,color:#ffffff
+    style Activity fill:#1e3a5f,stroke:#60a5fa,stroke-width:2px,color:#ffffff
+    style WTP fill:#3d2806,stroke:#fbbf24,stroke-width:2px,color:#ffffff
+    style Cost fill:#3d2806,stroke:#fbbf24,stroke-width:2px,color:#ffffff
+    style ROIC fill:#143823,stroke:#4ade80,stroke-width:2px,color:#ffffff
+    style Moat fill:#5c1d24,stroke:#f87171,stroke-width:2px,color:#ffffff
 ```
 
 ---
@@ -120,7 +120,7 @@ flowchart TB
         F3["三階配適：活動體系最佳化 (Third-order Fit)<br>跨部門活動消除多餘環節，高度鎖定協同，形成整體防禦體系"]
         F1 --> F2 --> F3
     end
-    style F3 fill:#dcfce7,stroke:#16a34a,stroke-width:2px,color:#14532d
+    style F3 fill:#143823,stroke:#4ade80,stroke-width:2px,color:#ffffff
 ```
 
 - **波特的嚴肅警示：營運效益（OE）$\neq$ 競爭策略（Strategy）**：
@@ -160,9 +160,9 @@ flowchart LR
     Seizing --> Transforming["🔄 3. 轉型重構 (Transforming)<br>重整資產負債表、淘汰落後產能、重塑組織文化"]
     Transforming --> Sensing
 
-    style Sensing fill:#e0f2fe,stroke:#0284c7,stroke-width:2px,color:#075985
-    style Seizing fill:#fef9c3,stroke:#ca8a04,stroke-width:2px,color:#713f12
-    style Transforming fill:#fce7f3,stroke:#db2777,stroke-width:2px,color:#831843
+    style Sensing fill:#1e3a5f,stroke:#60a5fa,stroke-width:2px,color:#ffffff
+    style Seizing fill:#3d2806,stroke:#fbbf24,stroke-width:2px,color:#ffffff
+    style Transforming fill:#3b1d54,stroke:#c084fc,stroke-width:2px,color:#ffffff
 ```
 
 ---
@@ -239,9 +239,9 @@ flowchart TD
     ROIC_EVAL --> C2
     ROIC_EVAL --> C3
 
-    style C1 fill:#dcfce7,stroke:#16a34a,stroke-width:2px,color:#14532d
-    style C2 fill:#fef3c7,stroke:#d97706,stroke-width:2px,color:#78350f
-    style C3 fill:#fee2e2,stroke:#dc2626,stroke-width:2px,color:#7f1d1d
+    style C1 fill:#143823,stroke:#4ade80,stroke-width:2px,color:#ffffff
+    style C2 fill:#3d2806,stroke:#fbbf24,stroke-width:2px,color:#ffffff
+    style C3 fill:#5c1d24,stroke:#f87171,stroke-width:2px,color:#ffffff
 ```
 
 ---
@@ -274,12 +274,12 @@ flowchart TD
     Moats --> M4
     Moats --> M5
 
-    style Moats fill:#e0e7ff,stroke:#4338ca,stroke-width:2px,color:#1e1b4b
-    style M1 fill:#dbeafe,stroke:#2563eb,stroke-width:1.5px,color:#1e40af
-    style M2 fill:#fef3c7,stroke:#d97706,stroke-width:1.5px,color:#78350f
-    style M3 fill:#dcfce7,stroke:#16a34a,stroke-width:1.5px,color:#14532d
-    style M4 fill:#fee2e2,stroke:#dc2626,stroke-width:1.5px,color:#7f1d1d
-    style M5 fill:#f3e8ff,stroke:#9333ea,stroke-width:1.5px,color:#581c87
+    style Moats fill:#1e3a5f,stroke:#60a5fa,stroke-width:2px,color:#ffffff
+    style M1 fill:#1e3a5f,stroke:#60a5fa,stroke-width:1.5px,color:#ffffff
+    style M2 fill:#3d2806,stroke:#fbbf24,stroke-width:1.5px,color:#ffffff
+    style M3 fill:#143823,stroke:#4ade80,stroke-width:1.5px,color:#ffffff
+    style M4 fill:#5c1d24,stroke:#f87171,stroke-width:1.5px,color:#ffffff
+    style M5 fill:#3b1d54,stroke:#c084fc,stroke-width:1.5px,color:#ffffff
 ```
 
 ### 1. 網絡效應（Network Effects）
@@ -321,10 +321,10 @@ flowchart LR
     P2 --> P3["極致製造良率與學習曲線<br>(24小時三班制工程師文化)<br>單位晶圓缺陷率全球最低"]
     P3 --> P4["CoWoS 先進封裝 + OIP 生態<br>(串聯 EDA、IP、封測標準)<br>跨越晶圓製造邊界鎖死生態"]
 
-    style P1 fill:#e0f2fe,stroke:#0284c7,stroke-width:2px,color:#075985
-    style P2 fill:#fef9c3,stroke:#ca8a04,stroke-width:2px,color:#713f12
-    style P3 fill:#dcfce7,stroke:#16a34a,stroke-width:2px,color:#14532d
-    style P4 fill:#fee2e2,stroke:#dc2626,stroke-width:2px,color:#7f1d1d
+    style P1 fill:#1e3a5f,stroke:#60a5fa,stroke-width:2px,color:#ffffff
+    style P2 fill:#3d2806,stroke:#fbbf24,stroke-width:2px,color:#ffffff
+    style P3 fill:#143823,stroke:#4ade80,stroke-width:2px,color:#ffffff
+    style P4 fill:#5c1d24,stroke:#f87171,stroke-width:2px,color:#ffffff
 ```
 
 - **策略定位取捨**：創立之初堅決確立「Pure-play Foundry（純晶圓代工）」模式，絕不涉足自有 IC 設計，徹底消除客戶對「技術被剽竊」的疑慮，贏得全球晶片巨頭的底層信任。
@@ -379,14 +379,14 @@ flowchart TD
     Trap3["❌ 陷阱三：核心能耐退化為『核心僵局』<br>(Core Rigidities & Capability Trap)"] --> S3["✅ 防範：建立動態能力，定期重組資產，培育第二成長曲線"]
     Trap4["❌ 陷阱四：遭遇破壞式創新降維打擊<br>(Disruptive Innovation Blind Spot)"] --> S4["✅ 防範：設立獨立創新組織 (Skunk Works)，鎖定邊緣低端市場"]
 
-    style Trap1 fill:#fee2e2,stroke:#ef4444,stroke-width:1px,color:#7f1d1d
-    style Trap2 fill:#fee2e2,stroke:#ef4444,stroke-width:1px,color:#7f1d1d
-    style Trap3 fill:#fee2e2,stroke:#ef4444,stroke-width:1px,color:#7f1d1d
-    style Trap4 fill:#fee2e2,stroke:#ef4444,stroke-width:1px,color:#7f1d1d
-    style S1 fill:#f0fdf4,stroke:#22c55e,stroke-width:1px,color:#14532d
-    style S2 fill:#f0fdf4,stroke:#22c55e,stroke-width:1px,color:#14532d
-    style S3 fill:#f0fdf4,stroke:#22c55e,stroke-width:1px,color:#14532d
-    style S4 fill:#f0fdf4,stroke:#22c55e,stroke-width:1px,color:#14532d
+    style Trap1 fill:#5c1d24,stroke:#f87171,stroke-width:1px,color:#ffffff
+    style Trap2 fill:#5c1d24,stroke:#f87171,stroke-width:1px,color:#ffffff
+    style Trap3 fill:#5c1d24,stroke:#f87171,stroke-width:1px,color:#ffffff
+    style Trap4 fill:#5c1d24,stroke:#f87171,stroke-width:1px,color:#ffffff
+    style S1 fill:#143823,stroke:#4ade80,stroke-width:1px,color:#ffffff
+    style S2 fill:#143823,stroke:#4ade80,stroke-width:1px,color:#ffffff
+    style S3 fill:#143823,stroke:#4ade80,stroke-width:1px,color:#ffffff
+    style S4 fill:#143823,stroke:#4ade80,stroke-width:1px,color:#ffffff
 ```
 
 ### 1. 混淆「營運效益（OE）」與「競爭策略」

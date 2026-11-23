@@ -17,7 +17,7 @@
 ```mermaid
 flowchart TD
     SubA["Transformation A
-重塑核心本業 (Maximize A)"] <-->|能力資產共享 (Capabilities Link)| SubB["Transformation B
+重塑核心本業 (Maximize A)"] <-->|"能力資產共享（Capabilities Link）"| SubB["Transformation B
 打造第二曲線 (Create B)"]
 ```
 

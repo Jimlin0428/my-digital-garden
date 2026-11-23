@@ -47,11 +47,11 @@ flowchart TD
         FCFE -->|"以 re 逐期折現"| EqV2
     end
 
-    style EV fill:#fef3c7,stroke:#f59e0b,stroke-width:2px,color:#92400e
-    style EqV1 fill:#dcfce7,stroke:#22c55e,stroke-width:3px,color:#166534
-    style EqV2 fill:#dcfce7,stroke:#22c55e,stroke-width:3px,color:#166534
-    style WACC fill:#dbeafe,stroke:#3b82f6,stroke-width:2px,color:#1e40af
-    style Re fill:#dbeafe,stroke:#3b82f6,stroke-width:2px,color:#1e40af
+    style EV fill:#3d2806,stroke:#fbbf24,stroke-width:2px,color:#ffffff
+    style EqV1 fill:#143823,stroke:#4ade80,stroke-width:3px,color:#ffffff
+    style EqV2 fill:#143823,stroke:#4ade80,stroke-width:3px,color:#ffffff
+    style WACC fill:#1e3a5f,stroke:#60a5fa,stroke-width:2px,color:#ffffff
+    style Re fill:#1e3a5f,stroke:#60a5fa,stroke-width:2px,color:#ffffff
 ```
 
 ### 1. 實體價值法（Enterprise Valuation Approach / FCFF 模型，最主流首選）

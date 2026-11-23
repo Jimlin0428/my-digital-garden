@@ -214,19 +214,28 @@ flowchart TD
 
 ### 5.1 雙因素理論與馬斯洛需求層次理論（Maslow）之映射
 
-```
-【馬斯洛需求層次 (Maslow)】             【赫茲伯格雙因素 (Herzberg)】
-┌────────────────────────┐              ┌────────────────────────┐
-│  自我實現 (Self-Actualization)│ ◄───────────► │                        │
-├────────────────────────┤              │   激勵因素 (Motivator)  │
-│  尊重需求 (Esteem Needs)      │ ◄───────────► │  (內在成長、成就、責任) │
-├────────────────────────┤              ├────────────────────────┤
-│  社交歸屬 (Belongingness)    │ ◄───────────► │                        │
-├────────────────────────┤              │   保健因素 (Hygiene)    │
-│  安全需求 (Safety Needs)      │ ◄───────────► │  (外在環境、薪資、人際) │
-├────────────────────────┤              │                        │
-│  生理需求 (Physiological)    │ ◄───────────► │                        │
-└────────────────────────┘              └────────────────────────┘
+```mermaid
+flowchart LR
+    classDef maslowHigh fill:#1e3a5f,stroke:#60a5fa,stroke-width:2px,color:#ffffff;
+    classDef maslowLow fill:#1e293b,stroke:#94a3b8,stroke-width:2px,color:#ffffff;
+    classDef herzMot fill:#143823,stroke:#4ade80,stroke-width:2px,color:#ffffff;
+    classDef herzHyg fill:#3d2806,stroke:#fbbf24,stroke-width:2px,color:#ffffff;
+
+    subgraph Maslow["馬斯洛需求層次（Maslow）"]
+        M5["5. 自我實現需求（Self-Actualization）"]:::maslowHigh
+        M4["4. 尊重需求（Esteem Needs）"]:::maslowHigh
+        M3["3. 社交歸屬需求（Belongingness）"]:::maslowLow
+        M2["2. 安全需求（Safety Needs）"]:::maslowLow
+        M1["1. 生理需求（Physiological）"]:::maslowLow
+    end
+
+    subgraph Herzberg["赫茲伯格雙因素（Herzberg）"]
+        HM["激勵因素（Motivator）<br/>• 內在成長、工作成就、自主責任"]:::herzMot
+        HH["保健因素（Hygiene）<br/>• 外在環境、基礎薪資、人際關係"]:::herzHyg
+    end
+
+    M5 & M4 <-->|"高階成長對應"| HM
+    M3 & M2 & M1 <-->|"低階維持對應"| HH
 ```
 - **核心聯繫**：馬斯洛低階需求對應保健因素，高階需求對應激勵因素。
 - **維度差異**：馬斯洛假定需求是由下而上循序滿足（滿足階梯論）；赫茲伯格則強調低階（保健）與高階（激勵）在職場中是**並行不悖的雙軌運作**。即使薪資尚未達到極致滿意，富有挑戰性的工作依然能激發驚人創造力。
@@ -263,10 +272,10 @@ graph TD
     Trap3["陷阱三：以工作擴大化充當豐富化<br/>（加量不加價）"] --> E3["後果：把離職同事的行政雜碎全甩給績優員工，美其名曰『器重你』"]
     Trap4["陷阱四：將認可公式化、形式化<br/>（廉價的獎狀）"] --> E4["後果：每月輪流頒發『優秀員工』，缺乏具體事蹟，淪為形式主義笑話"]
 
-    style Trap1 fill:#ffebee,stroke:#c62828,stroke-width:2px,color:#7f1d1d
-    style Trap2 fill:#ffebee,stroke:#c62828,stroke-width:2px,color:#7f1d1d
-    style Trap3 fill:#ffebee,stroke:#c62828,stroke-width:2px,color:#7f1d1d
-    style Trap4 fill:#ffebee,stroke:#c62828,stroke-width:2px,color:#7f1d1d
+    style Trap1 fill:#5c1d24,stroke:#f87171,stroke-width:2px,color:#ffffff
+    style Trap2 fill:#5c1d24,stroke:#f87171,stroke-width:2px,color:#ffffff
+    style Trap3 fill:#5c1d24,stroke:#f87171,stroke-width:2px,color:#ffffff
+    style Trap4 fill:#5c1d24,stroke:#f87171,stroke-width:2px,color:#ffffff
 ```
 
 ---

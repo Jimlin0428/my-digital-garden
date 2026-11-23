@@ -67,12 +67,12 @@ flowchart TD
         RO6["【6. 分階段複合選擇權 (Staged / Compound)】<br>選擇權上的選擇權 ｜ 策略：VC 分輪注資、新藥研發 Phase I➔II➔III 階段把關"]
     end
 
-    style RO1 fill:#dbeafe,stroke:#3b82f6,stroke-width:2px,color:#1e40af
-    style RO2 fill:#fee2e2,stroke:#ef4444,stroke-width:2px,color:#991b1b
-    style RO3 fill:#fef3c7,stroke:#f59e0b,stroke-width:2px,color:#92400e
-    style RO4 fill:#ffedd5,stroke:#f97316,stroke-width:2px,color:#c2410c
-    style RO5 fill:#ede9fe,stroke:#8b5cf6,stroke-width:2px,color:#5b21b6
-    style RO6 fill:#dcfce7,stroke:#22c55e,stroke-width:2px,color:#166534
+    style RO1 fill:#1e3a5f,stroke:#60a5fa,stroke-width:2px,color:#ffffff
+    style RO2 fill:#5c1d24,stroke:#f87171,stroke-width:2px,color:#ffffff
+    style RO3 fill:#3d2806,stroke:#fbbf24,stroke-width:2px,color:#ffffff
+    style RO4 fill:#3d2806,stroke:#fbbf24,stroke-width:2px,color:#ffffff
+    style RO5 fill:#3b1d54,stroke:#c084fc,stroke-width:2px,color:#ffffff
+    style RO6 fill:#143823,stroke:#4ade80,stroke-width:2px,color:#ffffff
 ```
 
 ### 1. 擴張選擇權 (Option to Expand) —— 等價金融買權（Call Option）

@@ -32,9 +32,9 @@ flowchart TD
     
     SAM -->|"【執行力過濾】<br>業務團隊產能 / 行銷預算 / 品牌認知 / 同儕競爭"| SOM
 
-    style TAM fill:#dbeafe,stroke:#3b82f6,stroke-width:2px,color:#1e40af
-    style SAM fill:#fef3c7,stroke:#f59e0b,stroke-width:3px,color:#92400e
-    style SOM fill:#dcfce7,stroke:#22c55e,stroke-width:2px,color:#166534
+    style TAM fill:#1e3a5f,stroke:#60a5fa,stroke-width:2px,color:#ffffff
+    style SAM fill:#3d2806,stroke:#fbbf24,stroke-width:3px,color:#ffffff
+    style SOM fill:#143823,stroke:#4ade80,stroke-width:2px,color:#ffffff
 ```
 
 ### 2. SAM 在企業營運中的三大核心功能
@@ -159,9 +159,9 @@ flowchart TD
 
     ExpansionPaths --> NewSAM["【新維度擴張後之 SAM】<br>天花板擴大 3~5 倍，重塑全新成長跑道 (Runway)"]
 
-    style CurrentSAM fill:#fee2e2,stroke:#ef4444,stroke-width:2px,color:#991b1b
-    style ExpansionPaths fill:#fef3c7,stroke:#f59e0b,stroke-width:2px,color:#92400e
-    style NewSAM fill:#dcfce7,stroke:#22c55e,stroke-width:3px,color:#166534
+    style CurrentSAM fill:#5c1d24,stroke:#f87171,stroke-width:2px,color:#ffffff
+    style ExpansionPaths fill:#3d2806,stroke:#fbbf24,stroke-width:2px,color:#ffffff
+    style NewSAM fill:#143823,stroke:#4ade80,stroke-width:3px,color:#ffffff
 ```
 
 1. **地理跨國複製（Geographic Expansion）**：
