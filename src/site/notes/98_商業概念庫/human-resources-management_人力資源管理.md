@@ -83,12 +83,16 @@ $$
 
 ## 四、 經理人反思與行動檢核清單
 
-```
-                               策略性人力資本審計四維度
-┌─────────────────────────┬─────────────────────────┬─────────────────────────┐
-│     1. 人才密度盤點     │     2. 激勵對齊長期戰略 │     3. 破除虛榮考核指標 │
-│ 盤點 A 級員工在關鍵崗位比│ 考核是否獎勵了戰略目標  │ 杜絕形式主義，直擊真實產出│
-└─────────────────────────┴─────────────────────────┴─────────────────────────┘
+**策略性人力資本審計四維度**
+
+```mermaid
+flowchart TD
+    classDef c_blue fill:#1e3a5f,stroke:#60a5fa,stroke-width:2px,color:#ffffff;
+    classDef c_green fill:#143823,stroke:#4ade80,stroke-width:2px,color:#ffffff;
+    classDef c_amber fill:#3d2806,stroke:#fbbf24,stroke-width:2px,color:#ffffff;
+    classDef c_purple fill:#3b1d54,stroke:#c084fc,stroke-width:2px,color:#ffffff;
+    classDef c_red fill:#5c1d24,stroke:#f87171,stroke-width:2px,color:#ffffff;
+    N0_0["1. 人才密度盤點     │     2. 激勵對齊長期戰略 │     3. 破除虛榮考核指標<br/>盤點 A 級員工在關鍵崗位比│ 考核是否獎勵了戰略目標  │ 杜絕形式主義，直擊真實產出"]:::c_blue
 ```
 
 ### Executive Decision Checklist
@@ -102,7 +106,7 @@ $$
 
 ## 五、 關聯概念與延伸閱讀
 
-- 組織文化與承諾：[[organizational-commitment_組織承諾]] ｜ [[Quiet_Quitting_安靜離職與組織公民行為]] ｜ [[learning-organization_學習型組織]]
-- 績效與衡量：[[key-performance-indicator-kpi_關鍵績效指標]] ｜ [[balanced-scorecard-bsc_平衡計分卡]] ｜ [[monitoring-and-measurement_監控衡量]]
-- 組織架構與治理：[[organizational-structure_組織結構]] ｜ [[structure-follows-strategy_結構跟隨策略]] ｜ [[centralization-decentralization_集權與分權]]
-- 核心競爭優勢：[[VRIO架構]] ｜ [[core-competence_核心能力]] ｜ [[competitive-advantage_競爭優勢]]
+- 組織文化與承諾：[[98_商業概念庫/organizational-commitment_組織承諾\|organizational-commitment_組織承諾]] ｜ [[98_商業概念庫/Quiet_Quitting_安靜離職與組織公民行為\|Quiet_Quitting_安靜離職與組織公民行為]] ｜ [[98_商業概念庫/learning-organization_學習型組織\|learning-organization_學習型組織]]
+- 績效與衡量：[[98_商業概念庫/key-performance-indicator-kpi_關鍵績效指標\|key-performance-indicator-kpi_關鍵績效指標]] ｜ [[98_商業概念庫/balanced-scorecard-bsc_平衡計分卡\|balanced-scorecard-bsc_平衡計分卡]] ｜ [[98_商業概念庫/monitoring-and-measurement_監控衡量\|monitoring-and-measurement_監控衡量]]
+- 組織架構與治理：[[98_商業概念庫/organizational-structure_組織結構\|organizational-structure_組織結構]] ｜ [[98_商業概念庫/structure-follows-strategy_結構跟隨策略\|structure-follows-strategy_結構跟隨策略]] ｜ [[98_商業概念庫/centralization-decentralization_集權與分權\|centralization-decentralization_集權與分權]]
+- 核心競爭優勢：[[98_商業概念庫/VRIO架構\|VRIO架構]] ｜ [[98_商業概念庫/core-competence_核心能力\|core-competence_核心能力]] ｜ [[98_商業概念庫/competitive-advantage_競爭優勢\|competitive-advantage_競爭優勢]]

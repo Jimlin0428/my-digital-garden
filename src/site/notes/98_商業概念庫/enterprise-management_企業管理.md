@@ -15,19 +15,20 @@
 
 現代企業管理超越了傳統狹隘的車間流水線管理，演進為跨越**「戰略層、營運層、支撐層」**的三維立體架構。
 
-```
-【現代企業管理立體價值引擎架構】
-┌────────────────────────────────────────────────────────┐
-│ 頂層：戰略與治理層 (Strategic Governance)              │ ── 董事會、願景使命、資本配置、合規風控
-└──────────────────────────┬─────────────────────────────┘
-                           ▼ (向下貫徹導引)
-┌────────────────────────────────────────────────────────┐
-│ 中層：核心業務價值鏈 (Core Value Engine)               │ ── 研發創新 ──> 供應鏈採購 ──> 精實生產 ──> 行銷通路
-└──────────────────────────┬─────────────────────────────┘
-                           ▼ (底座賦能支撐)
-┌────────────────────────────────────────────────────────┐
-│ 底層：共享賦能支撐平台 (Enabling Infrastructure)       │ ── 財務管理、策略人資、法務智財、雲端IT與企業AI
-└────────────────────────────────────────────────────────┘
+**【現代企業管理立體價值引擎架構】**
+
+```mermaid
+flowchart TD
+    classDef c_blue fill:#1e3a5f,stroke:#60a5fa,stroke-width:2px,color:#ffffff;
+    classDef c_green fill:#143823,stroke:#4ade80,stroke-width:2px,color:#ffffff;
+    classDef c_amber fill:#3d2806,stroke:#fbbf24,stroke-width:2px,color:#ffffff;
+    classDef c_purple fill:#3b1d54,stroke:#c084fc,stroke-width:2px,color:#ffffff;
+    classDef c_red fill:#5c1d24,stroke:#f87171,stroke-width:2px,color:#ffffff;
+    N0_0["頂層：戰略與治理層 （Strategic Governance）"]:::c_blue
+    N1_0["中層：核心業務價值鏈 （Core Value Engine）"]:::c_green
+    N2_0["底層：共享賦能支撐平台 （Enabling Infrastructure）"]:::c_amber
+    N0_0 -->|"（向下貫徹導引）"| N1_0
+    N1_0 -->|"（底座賦能支撐）"| N2_0
 ```
 
 ---
@@ -35,19 +36,19 @@
 ## 二、 決策架構與數理機制
 
 ### 1. 現代企業管理的兩大平衡與雙巧性能耐
-現代管理學最重要的前沿理論為**組織雙巧性 (Organizational Ambidexterity，詳見 [[Organizational_Ambidexterity_組織雙巧性]])**。頂尖企業管理的核心藝術，在於維持兩大矛盾引擎的動態平衡：
+現代管理學最重要的前沿理論為**組織雙巧性 (Organizational Ambidexterity，詳見 [[98_商業概念庫/Organizational_Ambidexterity_組織雙巧性\|Organizational_Ambidexterity_組織雙巧性]])**。頂尖企業管理的核心藝術，在於維持兩大矛盾引擎的動態平衡：
 
 | 管理平衡維度 | 核心運作目標 | 適用管理工具與手法 | 失敗時的管理病理 |
 | :--- | :--- | :--- | :--- |
-| **利用型營運 (Exploitation)** | 對既有成熟業務追求極致的效率、低成本、零缺陷與可預測性。 | 六標準差、精益生產 (TPS)、[[budget-control_預算控制]]、SOP。 | 陷入官僚僵化，遭遇破壞性技術滅頂。 |
-| **探索型創新 (Exploration)** | 對未來未知賽道追求大膽試錯、突破性技術、敏捷迭代與商業模式開拓。 | 創投孵化、[[validated-learning_驗證式學習]]、[[MVP最小可行產品]]、敏捷團隊。 | 盲目燒錢無產出，現金流失血破產。 |
+| **利用型營運 (Exploitation)** | 對既有成熟業務追求極致的效率、低成本、零缺陷與可預測性。 | 六標準差、精益生產 (TPS)、[[98_商業概念庫/budget-control_預算控制\|budget-control_預算控制]]、SOP。 | 陷入官僚僵化，遭遇破壞性技術滅頂。 |
+| **探索型創新 (Exploration)** | 對未來未知賽道追求大膽試錯、突破性技術、敏捷迭代與商業模式開拓。 | 創投孵化、[[98_商業概念庫/validated-learning_驗證式學習\|validated-learning_驗證式學習]]、[[98_商業概念庫/MVP最小可行產品\|MVP最小可行產品]]、敏捷團隊。 | 盲目燒錢無產出，現金流失血破產。 |
 
 ### 2. 企業管理系統的熵增與負熵輸入方程式
-依據熱力學第二定律與[[systems-school_系統學派|系統學派理論]]，任何封閉的人類組織在自然狀態下必然走向混亂、內耗與官僚化（熵增 $\Delta S > 0$）：
+依據熱力學第二定律與[[98_商業概念庫/systems-school_系統學派\|系統學派理論]]，任何封閉的人類組織在自然狀態下必然走向混亂、內耗與官僚化（熵增 $\Delta S > 0$）：
 $$\Delta S_{	ext{organization}} = S_{	ext{production}} - S_{	ext{input}}$$
 
 企業管理的本質職能，正是建立一個**開放系統**，持續自外部環境引入**「負熵 (Negentropy)」**以對抗組織衰老：
-- **引入新人才與新思維**：打破內部同溫層，避免[[groupthink_團體迷思|團體迷思]]。
+- **引入新人才與新思維**：打破內部同溫層，避免[[98_商業概念庫/groupthink_團體迷思\|團體迷思]]。
 - **引入客戶真實反饋與市場競爭壓力**：摧毀部門穀倉，迫使內部維持戰鬥狀態。
 - **引入資本紀律與績效末位流動**：維持健康代謝，防止平庸妥協。
 
@@ -58,7 +59,7 @@ $$\Delta S_{	ext{organization}} = S_{	ext{production}} - S_{	ext{input}}$$
 ### 1. 豐田汽車 (Toyota) 全球企業管理系統 (TMS / TPS)
 豐田汽車長達半個世紀跨越景氣循環稱霸全球汽車工業，源於其教科書級的整合企業管理體系：
 - **三位一體無縫齒輪**：
-  - **戰略層**：堅持長期主義與混合動力/氫能/純電多元避險佈局（[[strategy-2_避險策略]]）。
+  - **戰略層**：堅持長期主義與混合動力/氫能/純電多元避險佈局（[[98_商業概念庫/strategy-2_避險策略\|strategy-2_避險策略]]）。
   - **營運層**：豐田生產方式 (TPS)，將看板拉動、準時制 (JIT) 與自動化 (Jidoka) 貫徹至全球數萬家零部件供應商。
   - **文化支撐層**：持續改善 (Kaizen) 與尊重人性，賦予第一線普通工人拉動安燈繩停止整條生產線的權力。
 - **管理成果**：豐田的企業管理體系被全球製造業與科技業（包括精實創業、DevOps）奉為現代運營管理的聖經。
@@ -74,12 +75,16 @@ $$\Delta S_{	ext{organization}} = S_{	ext{production}} - S_{	ext{input}}$$
 
 ## 四、 經理人反思與行動檢核清單
 
-```
-                               卓越企業管理體系健康診斷
-┌─────────────────────────┬─────────────────────────┬─────────────────────────┐
-│     1. 戰略與營運對齊   │     2. 保持組織負熵代謝 │     3. 雙巧平衡推進     │
-│ 願景是否化為每月具體KPI │ 是否定期清理官僚脂肪流程│ 70%抓成熟，30%大膽探索  │
-└─────────────────────────┴─────────────────────────┴─────────────────────────┘
+**卓越企業管理體系健康診斷**
+
+```mermaid
+flowchart TD
+    classDef c_blue fill:#1e3a5f,stroke:#60a5fa,stroke-width:2px,color:#ffffff;
+    classDef c_green fill:#143823,stroke:#4ade80,stroke-width:2px,color:#ffffff;
+    classDef c_amber fill:#3d2806,stroke:#fbbf24,stroke-width:2px,color:#ffffff;
+    classDef c_purple fill:#3b1d54,stroke:#c084fc,stroke-width:2px,color:#ffffff;
+    classDef c_red fill:#5c1d24,stroke:#f87171,stroke-width:2px,color:#ffffff;
+    N0_0["1. 戰略與營運對齊   │     2. 保持組織負熵代謝 │     3. 雙巧平衡推進<br/>願景是否化為每月具體KPI │ 是否定期清理官僚脂肪流程│ 70%抓成熟，30%大膽探索"]:::c_blue
 ```
 
 ### Executive Decision Checklist
@@ -93,7 +98,7 @@ $$\Delta S_{	ext{organization}} = S_{	ext{production}} - S_{	ext{input}}$$
 
 ## 五、 關聯概念與延伸閱讀
 
-- 治理與頂層架構：[[company_公司]] ｜ [[corporate-governance_公司治理]] ｜ [[strategic-planning_策略規劃]]
-- 營運與控制核心：[[operating-management_生產與營運管理]] ｜ [[budget-control_預算控制]] ｜ [[balanced-scorecard-bsc_平衡計分卡]]
-- 人力與組織設計：[[human-resources-management_人力資源管理]] ｜ [[organizational-structure_組織結構]] ｜ [[Organizational_Ambidexterity_組織雙巧性]]
-- 系統與哲學思想：[[systems-school_系統學派]] ｜ [[system_系統思考]] ｜ [[efficiency-and-effectiveness_效率與效果]]
+- 治理與頂層架構：[[98_商業概念庫/company_公司\|company_公司]] ｜ [[98_商業概念庫/corporate-governance_公司治理\|corporate-governance_公司治理]] ｜ [[98_商業概念庫/strategic-planning_策略規劃\|strategic-planning_策略規劃]]
+- 營運與控制核心：[[98_商業概念庫/operating-management_生產與營運管理\|operating-management_生產與營運管理]] ｜ [[98_商業概念庫/budget-control_預算控制\|budget-control_預算控制]] ｜ [[98_商業概念庫/balanced-scorecard-bsc_平衡計分卡\|balanced-scorecard-bsc_平衡計分卡]]
+- 人力與組織設計：[[98_商業概念庫/human-resources-management_人力資源管理\|human-resources-management_人力資源管理]] ｜ [[98_商業概念庫/organizational-structure_組織結構\|organizational-structure_組織結構]] ｜ [[98_商業概念庫/Organizational_Ambidexterity_組織雙巧性\|Organizational_Ambidexterity_組織雙巧性]]
+- 系統與哲學思想：[[98_商業概念庫/systems-school_系統學派\|systems-school_系統學派]] ｜ [[98_商業概念庫/system_系統思考\|system_系統思考]] ｜ [[98_商業概念庫/efficiency-and-effectiveness_效率與效果\|efficiency-and-effectiveness_效率與效果]]

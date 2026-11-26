@@ -49,8 +49,8 @@
 | :--- | :--- | :--- | :--- |
 | **績效考核 (Performance Review)** | 將部門業績落後完全歸咎於部門主管領導不力 | 頻繁撤換主管，不解決核心產品與定價問題 | 治標不治本，組織動盪，核心人才流失 |
 | **品質與工安事故** | 事故發生後認定是「一線操作員粗心違規」 | 懲處個別員工，要求全員「加強注意」 | 忽視防呆機制 (Poka-Yoke) 與疲勞排班漏洞，事故必然重演 |
-| **研發創新專案受挫** | 認定專案負責人缺乏進取心與創業精神 | 扣減獎金，公開批評失敗者 | 摧毀組織創新文化，導致全員走向[[risk-return_風險與報酬權衡|風險厭惡]]與防禦性自保 |
-| **高管造神與偶像化** | 將企業短期牛市中的獲利暴增完全歸功於明星 CEO 天才 | 發放天價股票期權，解除董事會監管制衡 | 滋生執行長獨裁與[[self-serving-bias_自利偏誤|自利偏誤]]，最終釀成重大爆雷 |
+| **研發創新專案受挫** | 認定專案負責人缺乏進取心與創業精神 | 扣減獎金，公開批評失敗者 | 摧毀組織創新文化，導致全員走向[[98_商業概念庫/risk-return_風險與報酬權衡\|風險厭惡]]與防禦性自保 |
+| **高管造神與偶像化** | 將企業短期牛市中的獲利暴增完全歸功於明星 CEO 天才 | 發放天價股票期權，解除董事會監管制衡 | 滋生執行長獨裁與[[98_商業概念庫/self-serving-bias_自利偏誤\|自利偏誤]]，最終釀成重大爆雷 |
 
 ---
 
@@ -72,12 +72,16 @@
 
 ## 四、 經理人反思與行動檢核清單
 
-```
-                               對抗基本歸因謬誤：公正文化架構
-┌─────────────────────────┬─────────────────────────┬─────────────────────────┐
-│     1. 系統性五問 (5 Whys)│     2. 無指責覆盤 (Blameless)│     3. 考核共變比對     │
-│ 探究制度、流程與工具漏洞│ 將問題聚焦於「事」而非「人」│ 橫向檢視同行與跨組基準  │
-└─────────────────────────┴─────────────────────────┴─────────────────────────┘
+**對抗基本歸因謬誤：公正文化架構**
+
+```mermaid
+flowchart TD
+    classDef c_blue fill:#1e3a5f,stroke:#60a5fa,stroke-width:2px,color:#ffffff;
+    classDef c_green fill:#143823,stroke:#4ade80,stroke-width:2px,color:#ffffff;
+    classDef c_amber fill:#3d2806,stroke:#fbbf24,stroke-width:2px,color:#ffffff;
+    classDef c_purple fill:#3b1d54,stroke:#c084fc,stroke-width:2px,color:#ffffff;
+    classDef c_red fill:#5c1d24,stroke:#f87171,stroke-width:2px,color:#ffffff;
+    N0_0["1. 系統性五問 （5 Whys）│     2. 無指責覆盤 （Blameless）│     3. 考核共變比對<br/>探究制度、流程與工具漏洞│ 將問題聚焦於「事」而非「人」│ 橫向檢視同行與跨組基準"]:::c_blue
 ```
 
 ### Executive Decision Checklist
@@ -91,7 +95,7 @@
 
 ## 五、 關聯概念與延伸閱讀
 
-- 理論基石：[[cognitive-bias_認知偏誤]] ｜ [[bounded-rationality_有限理性]]
-- 互補偏誤：[[self-serving-bias_自利偏誤]] ｜ [[confirmation-bias_確認偏誤]] ｜ [[groupthink_團體迷思]]
-- 領導力與績效：[[situational-leadership-theory_情境領導理論]] ｜ [[key-performance-indicator-kpi_關鍵績效指標]] ｜ [[organization-review-mechanism_組織覆盤機制]]
-- 系統性防禦：[[system_系統思考]] ｜ [[systems-school_系統學派]] ｜ [[Carter_Racing_NASA_Challenger_卡特賽車與挑戰者號決策個案]]
+- 理論基石：[[98_商業概念庫/cognitive-bias_認知偏誤\|cognitive-bias_認知偏誤]] ｜ [[98_商業概念庫/bounded-rationality_有限理性\|bounded-rationality_有限理性]]
+- 互補偏誤：[[98_商業概念庫/self-serving-bias_自利偏誤\|self-serving-bias_自利偏誤]] ｜ [[98_商業概念庫/confirmation-bias_確認偏誤\|confirmation-bias_確認偏誤]] ｜ [[98_商業概念庫/groupthink_團體迷思\|groupthink_團體迷思]]
+- 領導力與績效：[[98_商業概念庫/situational-leadership-theory_情境領導理論\|situational-leadership-theory_情境領導理論]] ｜ [[98_商業概念庫/key-performance-indicator-kpi_關鍵績效指標\|key-performance-indicator-kpi_關鍵績效指標]] ｜ [[98_商業概念庫/organization-review-mechanism_組織覆盤機制\|organization-review-mechanism_組織覆盤機制]]
+- 系統性防禦：[[98_商業概念庫/system_系統思考\|system_系統思考]] ｜ [[98_商業概念庫/systems-school_系統學派\|systems-school_系統學派]] ｜ [[98_商業概念庫/Carter_Racing_NASA_Challenger_卡特賽車與挑戰者號決策個案\|Carter_Racing_NASA_Challenger_卡特賽車與挑戰者號決策個案]]

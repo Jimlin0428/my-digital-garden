@@ -17,17 +17,14 @@ $$\text{Cash Runway (Months)} = \frac{\text{現有可用現金及約當現金 (C
 其中：
 $$\text{Monthly Net Burn Rate} = \text{每月現金總支出 (Gross Burn)} - \text{每月現金總收入 (Cash Inflows)}$$
 
-```
-                    ┌─────────────────────────────────────────────────────────┐
-                    │               現金跑道生存光譜與預警線                  │
-                    └────────────────────────────┬────────────────────────────┘
-                                                 ▼
-   18 個月+              12 個月               6 個月                0 個月
-   ────────────────────────┼─────────────────────┼─────────────────────▶
-   [高度安全區]           [融資啟動窗口]        [破產警戒線]          [停業清算]
-   • 專注產品研發與增長   • 準備商業計劃書(BP)   • 陷入被動挨打與折價  • 現金徹底耗盡
-   • 試驗新商業模式       • 接洽 VC/PE 投資人   • 投資人趁火打劫苛刻  • 員工離職公司解散
-   • 組織招聘擴張         • 預留 4~6 個月交割期 • 啟動緊急裁員自救    • 跳票倒閉
+```mermaid
+flowchart TD
+    classDef c_blue fill:#1e3a5f,stroke:#60a5fa,stroke-width:2px,color:#ffffff;
+    classDef c_green fill:#143823,stroke:#4ade80,stroke-width:2px,color:#ffffff;
+    classDef c_amber fill:#3d2806,stroke:#fbbf24,stroke-width:2px,color:#ffffff;
+    classDef c_purple fill:#3b1d54,stroke:#c084fc,stroke-width:2px,color:#ffffff;
+    classDef c_red fill:#5c1d24,stroke:#f87171,stroke-width:2px,color:#ffffff;
+    N0_0["現金跑道生存光譜與預警線"]:::c_blue
 ```
 
 ---
@@ -49,9 +46,9 @@ $$\text{Monthly Net Burn Rate} = \text{每月現金總支出 (Gross Burn)} - \te
 
 ## 3. 關聯概念與延伸閱讀 (Cross References)
 
-- [[insolvency-with-profit_黑字倒閉]]：跑道斷裂引發的致命流動性休克。
-- [[cash-flow-statement_現金流量表]]：新創生命週期中 OCF 為負、仰賴 FCF 續命的特徵。
-- [[cash-budget_現金預算]]：每月與每週滾動監控現金燃燒與跑道精確度的工具。
-- [[cash-ratio_現金比率]]：極限抗風險的現金儲備比例。
-- [[sustainable-growth-rate_永續成長率]]：新創高速擴張超越自身造血能力的約束模型。
-- [[home]]：PMBA 知識庫首頁與模組導航。
+- [[98_商業概念庫/insolvency-with-profit_黑字倒閉\|insolvency-with-profit_黑字倒閉]]：跑道斷裂引發的致命流動性休克。
+- [[98_商業概念庫/cash-flow-statement_現金流量表\|cash-flow-statement_現金流量表]]：新創生命週期中 OCF 為負、仰賴 FCF 續命的特徵。
+- [[98_商業概念庫/cash-budget_現金預算\|cash-budget_現金預算]]：每月與每週滾動監控現金燃燒與跑道精確度的工具。
+- [[98_商業概念庫/cash-ratio_現金比率\|cash-ratio_現金比率]]：極限抗風險的現金儲備比例。
+- [[98_商業概念庫/sustainable-growth-rate_永續成長率\|sustainable-growth-rate_永續成長率]]：新創高速擴張超越自身造血能力的約束模型。
+- [[home\|home]]：PMBA 知識庫首頁與模組導航。

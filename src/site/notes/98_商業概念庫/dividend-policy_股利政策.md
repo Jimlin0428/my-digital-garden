@@ -15,17 +15,14 @@
 ### 1.1 核心定義
 股利政策在公司理財中被嚴格定義為：**在權衡企業內部再投資報酬率（ROIC）、外部股權與債務融資成本、股東稅負摩擦以及資本市場信號效應的前提下，決定留存收益與現金分紅比例的動態權衡機制**。
 
-```
-                  ┌─────────────────────────────────────────┐
-                  │      股利政策四大經典模式對照圖譜       │
-                  └────────────────────┬────────────────────┘
-                                       ▼
-       ┌───────────────────────────────┼───────────────────────────────┐
-       ▼                               ▼                               ▼
-【1. 剩餘股利政策 (Residual)】   【2. 穩定平滑股利 (Stable)】    【3. 低常規加額外 (Extra)】
- • 資本預算正 NPV 投資絕對優先   • 股息金額平滑，穩步微幅調升    • 承諾極低常規股息確保安全
- • 股利 = 淨利 - 自有出資 CapEx  • 絕不輕易削減，極端抗波動      • 豐收年或處分資產發特別股息
- • 適合：高成長期、高研發投入    • 適合：公用事業、成熟藍籌股    • 適合：大宗商品、高週期性行業
+```mermaid
+flowchart TD
+    classDef c_blue fill:#1e3a5f,stroke:#60a5fa,stroke-width:2px,color:#ffffff;
+    classDef c_green fill:#143823,stroke:#4ade80,stroke-width:2px,color:#ffffff;
+    classDef c_amber fill:#3d2806,stroke:#fbbf24,stroke-width:2px,color:#ffffff;
+    classDef c_purple fill:#3b1d54,stroke:#c084fc,stroke-width:2px,color:#ffffff;
+    classDef c_red fill:#5c1d24,stroke:#f87171,stroke-width:2px,color:#ffffff;
+    N0_0["股利政策四大經典模式對照圖譜"]:::c_blue
 ```
 
 ### 1.2 四大股利政策深度對比
@@ -136,7 +133,7 @@ graph TD
 ```
 
 ### 6.2 董事會股利政策三大審查紅線
-- [ ] **紅線 1：發放的現金股利是否被「真實 FCFE」充分覆蓋？**（若 $\text{Dividends} > \text{FCFE}$，表明公司正在掏空資本儲備或借債分紅，不可持續！參見 [[equity-free-cash-flow_股權自由現金流量]]）。
+- [ ] **紅線 1：發放的現金股利是否被「真實 FCFE」充分覆蓋？**（若 $\text{Dividends} > \text{FCFE}$，表明公司正在掏空資本儲備或借債分紅，不可持續！參見 [[98_商業概念庫/equity-free-cash-flow_股權自由現金流量\|equity-free-cash-flow_股權自由現金流量]]）。
 - [ ] **紅線 2：配息決策是否侵蝕了企業的正 NPV 資本支出計畫？**（若為了維持高股息而取消高回報研發專案，實質是在犧牲未來以迎合當下）。
 - [ ] **紅線 3：在宣布調升常態股利前，是否經受了景氣下行 30% 的壓力測試？**（調升容易降息難，切忌在景氣週期頂峰將景氣紅利固化為常規配息）。
 
@@ -145,18 +142,18 @@ graph TD
 ## 7. 關聯知識網絡與導航地圖 (Knowledge Network & Cross-References)
 
 ### 7.1 本主題核心三部曲
-- **[[dividend-policy_股利政策]]** · 資本配置四大實踐模式、林特納平滑模型與現金股利 vs. 庫藏股回購（本篇）
-- **[[dividend-irrelevance-theory_股利無關論]]** · 莫迪利安尼-米勒（MM）完美市場基準、自製股利定理與四重現實摩擦
-- **[[dividend-payout-ratio_股利發放率]]** · 配息率對永續成長率（SGR）之剛性約束、昂貴信號傳遞與股利驚喜
+- **[[98_商業概念庫/dividend-policy_股利政策\|dividend-policy_股利政策]]** · 資本配置四大實踐模式、林特納平滑模型與現金股利 vs. 庫藏股回購（本篇）
+- **[[98_商業概念庫/dividend-irrelevance-theory_股利無關論\|dividend-irrelevance-theory_股利無關論]]** · 莫迪利安尼-米勒（MM）完美市場基準、自製股利定理與四重現實摩擦
+- **[[98_商業概念庫/dividend-payout-ratio_股利發放率\|dividend-payout-ratio_股利發放率]]** · 配息率對永續成長率（SGR）之剛性約束、昂貴信號傳遞與股利驚喜
 
 ### 7.2 跨領域財務與策略鏈結
-- [[sustainable-growth-rate_永續成長率]] · 股利發放率互補項（保留盈餘率）對企業內生增長極限之約束
-- [[equity-free-cash-flow_股權自由現金流量]] · 股權自由現金流作為現金股利與股票回購的最大安全上限
-- [[capital-structure_資本結構]] · 股利政策與負債槓桿在資本配置中的動態協同
-- [[agency-costs_代理成本]] · 詹森自由現金流假說：配息與回購強制經理人吐出現金以降低代理成本
-- [[dividend-policy-3_剩餘股利政策]] · 資本預算正 NPV 優先之純粹剩餘股利機制
+- [[98_商業概念庫/sustainable-growth-rate_永續成長率\|sustainable-growth-rate_永續成長率]] · 股利發放率互補項（保留盈餘率）對企業內生增長極限之約束
+- [[98_商業概念庫/equity-free-cash-flow_股權自由現金流量\|equity-free-cash-flow_股權自由現金流量]] · 股權自由現金流作為現金股利與股票回購的最大安全上限
+- [[98_商業概念庫/capital-structure_資本結構\|capital-structure_資本結構]] · 股利政策與負債槓桿在資本配置中的動態協同
+- [[98_商業概念庫/agency-costs_代理成本\|agency-costs_代理成本]] · 詹森自由現金流假說：配息與回購強制經理人吐出現金以降低代理成本
+- [[98_商業概念庫/dividend-policy-3_剩餘股利政策\|dividend-policy-3_剩餘股利政策]] · 資本預算正 NPV 優先之純粹剩餘股利機制
 
 ### 7.3 課程筆記與導航主頁
-- [[L09_資本結構理論與決策]] · 財務策略模組九：資本結構、股利政策與公司理財決策
-- [[_創業與企業財務策略 MOC]] · 企業財務策略與資本市場運作全景地圖
-- [[home]] · 全球 PMBA 知識庫總導航主頁面
+- [[02_核心必修/01_財務管理/L09_資本結構理論與決策\|L09_資本結構理論與決策]] · 財務策略模組九：資本結構、股利政策與公司理財決策
+- [[04_主題選修/10_創業與企業財務策略/_歷史版本封存/_創業與企業財務策略 MOC\|_創業與企業財務策略 MOC]] · 企業財務策略與資本市場運作全景地圖
+- [[home\|home]] · 全球 PMBA 知識庫總導航主頁面

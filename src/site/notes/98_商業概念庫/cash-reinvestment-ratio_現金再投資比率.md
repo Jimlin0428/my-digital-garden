@@ -14,16 +14,14 @@
 
 $$\text{Cash Reinvestment Ratio} = \frac{\text{營業活動現金流量 (OCF)} - \text{現金股利 (Cash Dividends)}}{\text{不動產廠房及設備毛額} + \text{長期投資} + \text{其他資產} + \text{淨營運資金 (NWC)}} \times 100\%$$
 
-```
-                   ┌─────────────────────────────────────────────────────────┐
-                   │             現金再投資比率分子與分母結構圖              │
-                   └────────────────────────────┬────────────────────────────┘
-                                                ▼
-       ┌────────────────────────────────────────┴────────────────────────────────────────┐
-       ▼ 分子：企業可動用的「內生保留現金」   ▼ 分母：企業運轉所需的「資產總基礎」     │
-    • 營業活動現金流量 (OCF)                 • 不動產、廠房及設備毛額 (Gross PP&E)    │
-    • 減去：當期發放之現金股利               • 長期股權投資與各類戰略金融資產         │
-    • ＝ 保留在公司內部的真實營運資金累積    • 淨營運資金 (流動資產 - 流動負債)       │
+```mermaid
+flowchart TD
+    classDef c_blue fill:#1e3a5f,stroke:#60a5fa,stroke-width:2px,color:#ffffff;
+    classDef c_green fill:#143823,stroke:#4ade80,stroke-width:2px,color:#ffffff;
+    classDef c_amber fill:#3d2806,stroke:#fbbf24,stroke-width:2px,color:#ffffff;
+    classDef c_purple fill:#3b1d54,stroke:#c084fc,stroke-width:2px,color:#ffffff;
+    classDef c_red fill:#5c1d24,stroke:#f87171,stroke-width:2px,color:#ffffff;
+    N0_0["現金再投資比率分子與分母結構圖"]:::c_blue
 ```
 
 ---
@@ -41,9 +39,9 @@ $$\text{Cash Reinvestment Ratio} = \frac{\text{營業活動現金流量 (OCF)} -
 
 ## 3. 關聯概念與延伸閱讀 (Cross References)
 
-- [[cash-flow-statement_現金流量表]]：現金流量表全貌與三大現金流八大矩陣。
-- [[cash-flow-adequacy-ratio_現金流量允當比率]]：五年長期資本自給自足分析。
-- [[cash-flow-ratio_現金流量比率]]：短期流動負債償還能力檢驗。
-- [[capital-expenditure_資本支出]]：再投資資金轉化為固定資產的具體形態。
-- [[sustainable-growth-rate_永續成長率]]：再投資率如何決定企業不發行新股下的內生增長極限。
-- [[home]]：PMBA 知識庫首頁與模組導航。
+- [[98_商業概念庫/cash-flow-statement_現金流量表\|cash-flow-statement_現金流量表]]：現金流量表全貌與三大現金流八大矩陣。
+- [[98_商業概念庫/cash-flow-adequacy-ratio_現金流量允當比率\|cash-flow-adequacy-ratio_現金流量允當比率]]：五年長期資本自給自足分析。
+- [[98_商業概念庫/cash-flow-ratio_現金流量比率\|cash-flow-ratio_現金流量比率]]：短期流動負債償還能力檢驗。
+- [[98_商業概念庫/capital-expenditure_資本支出\|capital-expenditure_資本支出]]：再投資資金轉化為固定資產的具體形態。
+- [[98_商業概念庫/sustainable-growth-rate_永續成長率\|sustainable-growth-rate_永續成長率]]：再投資率如何決定企業不發行新股下的內生增長極限。
+- [[home\|home]]：PMBA 知識庫首頁與模組導航。

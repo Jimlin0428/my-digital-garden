@@ -27,7 +27,7 @@
 ## 二、 決策架構與數理機制
 
 ### 1. 淨增額經濟效益判定模型 (Net Incremental Margin Model)
-在資本預算與行銷決策中，經理人評估一項新產品是否值得推出，必須納入**[[effect_侵蝕效應|侵蝕效應 (Erosion Effect)]]** 的嚴格量化推導：
+在資本預算與行銷決策中，經理人評估一項新產品是否值得推出，必須納入**[[98_商業概念庫/effect_侵蝕效應\|侵蝕效應 (Erosion Effect)]]** 的嚴格量化推導：
 
 設舊產品原本銷量為 $Q_{\text{old}}$，單價為 $P_{\text{old}}$，單位邊際貢獻為 $m_{\text{old}}$。  
 新產品預估銷量為 $Q_{\text{new}}$，單價為 $P_{\text{new}}$，單位邊際貢獻為 $m_{\text{new}}$。  
@@ -67,12 +67,16 @@ $$
 
 ## 四、 經理人反思與行動檢核清單
 
-```
-                               自我蠶食決策與治理防線
-┌─────────────────────────┬─────────────────────────┬─────────────────────────┐
-│     1. 辨識假性保護陷阱 │     2. 組織結構實體隔離 │     3. 考核激勵徹底鬆綁 │
-│ 不自我蠶食是否能阻止對手│ 創新業務團隊不受舊部管轄│ 禁止按舊利潤考核新產品主管│
-└─────────────────────────┴─────────────────────────┴─────────────────────────┘
+**自我蠶食決策與治理防線**
+
+```mermaid
+flowchart TD
+    classDef c_blue fill:#1e3a5f,stroke:#60a5fa,stroke-width:2px,color:#ffffff;
+    classDef c_green fill:#143823,stroke:#4ade80,stroke-width:2px,color:#ffffff;
+    classDef c_amber fill:#3d2806,stroke:#fbbf24,stroke-width:2px,color:#ffffff;
+    classDef c_purple fill:#3b1d54,stroke:#c084fc,stroke-width:2px,color:#ffffff;
+    classDef c_red fill:#5c1d24,stroke:#f87171,stroke-width:2px,color:#ffffff;
+    N0_0["1. 辨識假性保護陷阱 │     2. 組織結構實體隔離 │     3. 考核激勵徹底鬆綁<br/>不自我蠶食是否能阻止對手│ 創新業務團隊不受舊部管轄│ 禁止按舊利潤考核新產品主管"]:::c_blue
 ```
 
 ### Executive Decision Checklist
@@ -86,7 +90,7 @@ $$
 
 ## 五、 關聯概念與延伸閱讀
 
-- 財務現金流判定：[[effect_侵蝕效應]] ｜ [[sunk-cost_沉沒成本]] ｜ [[opportunity-cost_機會成本]]
-- 破壞性創新理論：[[creative-destruction_創造性破壞]] ｜ [[Performance_Oversupply_性能過剩與破壞性創新]] ｜ [[innovation_創新]]
-- 競爭與轉折：[[strategic-inflection-point_關鍵轉折]] ｜ [[flank-defense_側翼防禦]] ｜ [[crossing-the-chasm_跨越鴻溝]]
-- 組織結構適配：[[structure-follows-strategy_結構跟隨策略]] ｜ [[silo-effect_穀倉效應]] ｜ [[Organizational_Ambidexterity_組織雙巧性]]
+- 財務現金流判定：[[98_商業概念庫/effect_侵蝕效應\|effect_侵蝕效應]] ｜ [[98_商業概念庫/sunk-cost_沉沒成本\|sunk-cost_沉沒成本]] ｜ [[98_商業概念庫/opportunity-cost_機會成本\|opportunity-cost_機會成本]]
+- 破壞性創新理論：[[98_商業概念庫/creative-destruction_創造性破壞\|creative-destruction_創造性破壞]] ｜ [[98_商業概念庫/Performance_Oversupply_性能過剩與破壞性創新\|Performance_Oversupply_性能過剩與破壞性創新]] ｜ [[98_商業概念庫/innovation_創新\|innovation_創新]]
+- 競爭與轉折：[[98_商業概念庫/strategic-inflection-point_關鍵轉折\|strategic-inflection-point_關鍵轉折]] ｜ [[98_商業概念庫/flank-defense_側翼防禦\|flank-defense_側翼防禦]] ｜ [[98_商業概念庫/crossing-the-chasm_跨越鴻溝\|crossing-the-chasm_跨越鴻溝]]
+- 組織結構適配：[[98_商業概念庫/structure-follows-strategy_結構跟隨策略\|structure-follows-strategy_結構跟隨策略]] ｜ [[98_商業概念庫/silo-effect_穀倉效應\|silo-effect_穀倉效應]] ｜ [[98_商業概念庫/Organizational_Ambidexterity_組織雙巧性\|Organizational_Ambidexterity_組織雙巧性]]

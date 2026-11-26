@@ -19,21 +19,16 @@
 
 一份符合機構投資人標準的完整商業計畫書，通常包含以下十大核心模組：
 
-```
-                    【商業計畫書標準結構模組】
-┌─────────────────────────────────────────────────────────────┐
-│ 01. 執行摘要 (Executive Summary) ◄── (決定生死的第一道關卡) │
-├─────────────────────────────────────────────────────────────┤
-│ 02. 公司願景與核心使命 (Company Description & Mission)      │
-│ 03. 市場機會與痛點分析 (Market Opportunity & Industry)     │
-│ 04. 產品、服務與智慧財產 (Product/Service Offering & IP)    │
-│ 05. 目標客群與競爭格局分析 (Customer Segments & Competitive)│
-│ 06. 進入市場戰略與銷售通路 (GTM Strategy & Marketing)       │
-│ 07. 生產、交付與營運規劃 (Operations & Milestone Roadmap)   │
-│ 08. 組織架構與關鍵團隊 (Management Team & Governance)       │
-│ 09. 財務預測與損益平衡分析 (Financial Model & Projections)  │
-│ 10. 融資需求與資金用途規劃 (Funding Request & Exit Strategy)│
-└─────────────────────────────────────────────────────────────┘
+**【商業計畫書標準結構模組】**
+
+```mermaid
+flowchart TD
+    classDef c_blue fill:#1e3a5f,stroke:#60a5fa,stroke-width:2px,color:#ffffff;
+    classDef c_green fill:#143823,stroke:#4ade80,stroke-width:2px,color:#ffffff;
+    classDef c_amber fill:#3d2806,stroke:#fbbf24,stroke-width:2px,color:#ffffff;
+    classDef c_purple fill:#3b1d54,stroke:#c084fc,stroke-width:2px,color:#ffffff;
+    classDef c_red fill:#5c1d24,stroke:#f87171,stroke-width:2px,color:#ffffff;
+    N0_0["01. 執行摘要 （Executive Summary） ◄── （決定生死的第一道關卡）<br/>02. 公司願景與核心使命 （Company Description & Mission）<br/>03. 市場機會與痛點分析 （Market Opportunity & Industry）<br/>04. 產品、服務與智慧財產 （Product/Service Offering & IP）<br/>05. 目標客群與競爭格局分析 （Customer Segments & Competitive）<br/>06. 進入市場戰略與銷售通路 （GTM Strategy & Marketing）<br/>07. 生產、交付與營運規劃 （Operations & Milestone Roadmap）<br/>08. 組織架構與關鍵團隊 （Management Team & Governance）<br/>09. 財務預測與損益平衡分析 （Financial Model & Projections）<br/>10. 融資需求與資金用途規劃 （Funding Request & Exit Strategy）"]:::c_blue
 ```
 
 ### 1. 執行摘要 (Executive Summary)：決定命運的 3 分鐘

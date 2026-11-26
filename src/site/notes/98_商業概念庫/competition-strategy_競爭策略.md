@@ -15,17 +15,14 @@
 ### 1.1 核心定義：運營效益 vs. 策略定位
 波特在《策略是什麼？》（*What is Strategy?*）中指出經理人最容易混淆的根本觀念：
 
-```
-                    ┌─────────────────────────────────────────┐
-                    │      運營效益 vs. 策略定位之本質差異     │
-                    └────────────────────┬────────────────────┘
-                                         ▼
-         ┌───────────────────────────────┴───────────────────────────────┐
-         ▼                                                               ▼
-【運營效益 (Operational Effectiveness)】                        【策略定位 (Strategic Positioning)】
- • 定義：在相同活動上比對手執行得更好 (如 TQM、精益生產)         • 定義：執行「不同於對手的活動」或以「不同方式執行」
- • 結果：推動生產力前緣向外擴展，但引發同質化軍備競賽           • 結果：建立獨一無二的客製化活動鏈，創造結構性護城河
- • 終局：好處全被客戶與供應商拿走，企業陷入零和利潤侵蝕         • 終局：擁有持久的定價溢價或成本結構優勢，享有超額利潤
+```mermaid
+flowchart TD
+    classDef c_blue fill:#1e3a5f,stroke:#60a5fa,stroke-width:2px,color:#ffffff;
+    classDef c_green fill:#143823,stroke:#4ade80,stroke-width:2px,color:#ffffff;
+    classDef c_amber fill:#3d2806,stroke:#fbbf24,stroke-width:2px,color:#ffffff;
+    classDef c_purple fill:#3b1d54,stroke:#c084fc,stroke-width:2px,color:#ffffff;
+    classDef c_red fill:#5c1d24,stroke:#f87171,stroke-width:2px,color:#ffffff;
+    N0_0["運營效益 vs. 策略定位之本質差異"]:::c_blue
 ```
 
 ### 1.2 波特三大通用競爭策略矩陣 (Porter's Generic Strategies Matrix)
@@ -43,8 +40,8 @@
                         • 宜家特定族群      │    • 法拉利 (Ferrari)
 ```
 
-1. **全面成本領導策略（Cost Leadership）**：以產業內最低的總體成本結構提供標準化產品，依靠無情壓縮採購、製造與營運費用，即便在激烈價格戰中仍能維持全產業最高利潤率（參見 [[economies-of-scale_規模經濟]]）。
-2. **全面差異化策略（Differentiation）**：在全產業範圍內創造被客戶認知為「獨一無二」的產品特性、卓越品質、尊榮品牌或生態黏性，使顧客產生低價格敏感度，進而獲取超額定價溢價（參見 [[pricing-power_溢價能力]] 與 [[brand-equity_品牌權益]]）。
+1. **全面成本領導策略（Cost Leadership）**：以產業內最低的總體成本結構提供標準化產品，依靠無情壓縮採購、製造與營運費用，即便在激烈價格戰中仍能維持全產業最高利潤率（參見 [[98_商業概念庫/economies-of-scale_規模經濟\|economies-of-scale_規模經濟]]）。
+2. **全面差異化策略（Differentiation）**：在全產業範圍內創造被客戶認知為「獨一無二」的產品特性、卓越品質、尊榮品牌或生態黏性，使顧客產生低價格敏感度，進而獲取超額定價溢價（參見 [[98_商業概念庫/pricing-power_溢價能力\|pricing-power_溢價能力]] 與 [[98_商業概念庫/brand-equity_品牌權益\|brand-equity_品牌權益]]）。
 3. **集中化策略（Focus Strategy）**：放棄廣大主流市場，全力聚焦於特定地理區域、特殊買方群體或狹窄產品線（利基市場 Niche Market），在該垂直領域建立極致的成本或差異化統治力。
 4. **「卡在中間（Stuck in the Middle）」的致命陷阱**：企業試圖討好所有人，既缺乏成本領導所需的極致規模與採購議價權，又缺乏支撐高溢價的獨特品牌與技術壁壘。其利潤率必然遠低於產業均值，最終被低價與高端兩頭夾擊而淘汰。
 
@@ -168,18 +165,18 @@ flowchart TD
 ## 7. 關聯知識網絡與導航地圖 (Knowledge Network & Cross-References)
 
 ### 7.1 本主題核心三部曲
-- **[[competition-strategy_競爭策略]]** · 波特三大通用策略、活動系統互鎖咬合與策略定位本質（本篇）
-- **[[cross-industry-competition_跨界競爭]]** · 跨界降維打擊、平臺包夾（Platform Envelopment）與非對稱生態博弈
-- **[[competition-risk_競爭風險]]** · 超競爭環境中的紅皇后效應、破壞性創新突襲與價格戰囚徒困境
+- **[[98_商業概念庫/competition-strategy_競爭策略\|competition-strategy_競爭策略]]** · 波特三大通用策略、活動系統互鎖咬合與策略定位本質（本篇）
+- **[[98_商業概念庫/cross-industry-competition_跨界競爭\|cross-industry-competition_跨界競爭]]** · 跨界降維打擊、平臺包夾（Platform Envelopment）與非對稱生態博弈
+- **[[98_商業概念庫/competition-risk_競爭風險\|competition-risk_競爭風險]]** · 超競爭環境中的紅皇后效應、破壞性創新突襲與價格戰囚徒困境
 
 ### 7.2 跨領域策略與行銷鏈結
-- [[competitive-advantage_競爭優勢]] · 競爭策略所追求之終極超額利潤源泉（SCA）
-- [[Porter's Five Forces Analysis_波特五力分析]] · 制定競爭策略必備之產業五力結構診斷
-- [[barriers-to-entry_進入障礙]] · 維持競爭策略成果不被模仿者迅速瓦解的防禦護城河
-- [[pricing-power_溢價能力]] · 差異化策略成功實施後所展現之定價權指標
-- [[core-competence_核心能力]] · 支撐企業競爭策略底層運作之組織難模仿核心資源
+- [[98_商業概念庫/competitive-advantage_競爭優勢\|competitive-advantage_競爭優勢]] · 競爭策略所追求之終極超額利潤源泉（SCA）
+- [[98_商業概念庫/Porter's Five Forces Analysis_波特五力分析\|Porter's Five Forces Analysis_波特五力分析]] · 制定競爭策略必備之產業五力結構診斷
+- [[98_商業概念庫/barriers-to-entry_進入障礙\|barriers-to-entry_進入障礙]] · 維持競爭策略成果不被模仿者迅速瓦解的防禦護城河
+- [[98_商業概念庫/pricing-power_溢價能力\|pricing-power_溢價能力]] · 差異化策略成功實施後所展現之定價權指標
+- [[98_商業概念庫/core-competence_核心能力\|core-competence_核心能力]] · 支撐企業競爭策略底層運作之組織難模仿核心資源
 
 ### 7.3 課程筆記與導航主頁
-- [[M1-4_台灣產業發展歷程與決策工具箱]] · 台灣代工產業競爭策略轉型與彈性網絡護城河
-- [[_創業與企業財務策略 MOC]] · 企業營運策略與獲利模型全景地圖
-- [[home]] · 全球 PMBA 知識庫總導航主頁面
+- [[04_主題選修/12_產業分析與投資策略/02_模組筆記/Module_1_總論與架構/M1-4_台灣產業發展歷程與決策工具箱\|M1-4_台灣產業發展歷程與決策工具箱]] · 台灣代工產業競爭策略轉型與彈性網絡護城河
+- [[04_主題選修/10_創業與企業財務策略/_歷史版本封存/_創業與企業財務策略 MOC\|_創業與企業財務策略 MOC]] · 企業營運策略與獲利模型全景地圖
+- [[home\|home]] · 全球 PMBA 知識庫總導航主頁面

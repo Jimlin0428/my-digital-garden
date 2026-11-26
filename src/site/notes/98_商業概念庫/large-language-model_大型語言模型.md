@@ -11,24 +11,16 @@
 
 大型語言模型的誕生被學術界與產業界面泛公認為第四次工業革命的核心通用技術 (General Purpose Technology, GPT)。其根本性突破在於打破了以往 AI 只能在「特定單一狹窄任務（如人臉識別或下圍棋）」中運作的局限，展現出前所未見的**通用語意理解、抽象邏輯推理、多語言翻譯、代碼編寫以及在上下文情境學習 (In-Context Learning)** 能力，成為當代企業構建智慧應用、自動化工作流與重塑生產力範式的全新運算基石。
 
-```
-                    【企業生成式 AI 價值架構棧】
-┌─────────────────────────────────────────────────────────────┐
-│ 【第四層：垂直產業終端應用 (Enterprise Applications)】      │
-│  • 智慧客服、代碼輔助 (Copilot)、自動契約審查、投研分析     │
-├─────────────────────────────────────────────────────────────┤
-│ 【第三層：框架工程與代理協同 (Orchestration & Agents)】     │
-│  • 檢索增強生成 (RAG) & 向量資料庫 (Vector DB)              │
-│  • 自主代理工作流 ([[Agentic_Workflow_自主代理工作流]])      │
-├─────────────────────────────────────────────────────────────┤
-│ 【第二層：基礎大語言模型 (Foundation LLMs)】                │
-│  • 開源巨頭 (Llama, Mistral) vs. 閉源領先 (GPT-4, Claude)   │
-│  • 對齊技術 (RLHF / DPO) 與領域微調 (Fine-tuning)           │
-├─────────────────────────────────────────────────────────────┤
-│ 【第一層：底層算力與平行編程 (Accelerated Compute)】        │
-│  • GPU 算力叢集 (NVIDIA H100/B200)                          │
-│  • 平行運算生態庫 ([[CUDA]])                                 │
-└─────────────────────────────────────────────────────────────┘
+**【企業生成式 AI 價值架構棧】**
+
+```mermaid
+flowchart TD
+    classDef c_blue fill:#1e3a5f,stroke:#60a5fa,stroke-width:2px,color:#ffffff;
+    classDef c_green fill:#143823,stroke:#4ade80,stroke-width:2px,color:#ffffff;
+    classDef c_amber fill:#3d2806,stroke:#fbbf24,stroke-width:2px,color:#ffffff;
+    classDef c_purple fill:#3b1d54,stroke:#c084fc,stroke-width:2px,color:#ffffff;
+    classDef c_red fill:#5c1d24,stroke:#f87171,stroke-width:2px,color:#ffffff;
+    N0_0["【第四層：垂直產業終端應用 （Enterprise Applications）】<br/>• 智慧客服、代碼輔助 （Copilot）、自動契約審查、投研分析<br/>【第三層：框架工程與代理協同 （Orchestration & Agents）】<br/>• 檢索增強生成 （RAG） & 向量資料庫 （Vector DB）<br/>• 自主代理工作流 （Agentic_Workflow_自主代理工作流）<br/>【第二層：基礎大語言模型 （Foundation LLMs）】<br/>• 開源巨頭 （Llama, Mistral） vs. 閉源領先 （GPT-4, Claude）<br/>• 對齊技術 （RLHF / DPO） 與領域微調 （Fine-tuning）<br/>【第一層：底層算力與平行編程 （Accelerated Compute）】<br/>• GPU 算力叢集 （NVIDIA H100/B200）<br/>• 平行運算生態庫 （CUDA）"]:::c_blue
 ```
 
 ---

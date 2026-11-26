@@ -11,21 +11,21 @@
 
 ## 一、 核心定義與五層架構
 
-```text
-               ┌────────────────────────────────────────────────────────┐
-               │ 5. 潛在產品 (Potential Product)：未來的轉型與新可能     │
-               │  ┌──────────────────────────────────────────────────┐  │
-               │  │ 4. 擴增產品 (Augmented Product)：超越期望的附加服務│  │
-               │  │  ┌────────────────────────────────────────────┐  │  │
-               │  │  │ 3. 期望產品 (Expected Product)：起碼認定具備 │  │  │
-               │  │  │  ┌──────────────────────────────────────┐  │  │  │
-               │  │  │  │ 2. 基本產品 (Basic Product)：有形實體 │  │  │  │
-               │  │  │  │  ┌────────────────────────────────┐ │  │  │  │
-               │  │  │  │  │ 1. 核心產品 (Core Benefit)：利益│ │  │  │  │
-               │  │  │  │  └────────────────────────────────┘ │  │  │  │
-               │  │  │  └──────────────────────────────────────┘  │  │  │
-               │  └──────────────────────────────────────────────────┘  │
-               └────────────────────────────────────────────────────────┘
+```mermaid
+flowchart BT
+    classDef l1 fill:#5c1d24,stroke:#f87171,stroke-width:2px,color:#ffffff;
+    classDef l2 fill:#3d2806,stroke:#fbbf24,stroke-width:2px,color:#ffffff;
+    classDef l3 fill:#1e293b,stroke:#94a3b8,stroke-width:2px,color:#ffffff;
+    classDef l4 fill:#1e3a5f,stroke:#60a5fa,stroke-width:2px,color:#ffffff;
+    classDef l5 fill:#143823,stroke:#4ade80,stroke-width:2px,color:#ffffff;
+
+    L1["1. 核心產品（Core Benefit）：滿足最根本利益"]:::l1
+    L2["2. 基本產品（Basic Product）：具象化有形實體與基本規格"]:::l2
+    L3["3. 期望產品（Expected Product）：購買時理所當然的基礎條件"]:::l3
+    L4["4. 擴增產品（Augmented Product）：超越期望的附加服務（★ 溢價核心）"]:::l4
+    L5["5. 潛在產品（Potential Product）：未來的轉型演化與全新可能"]:::l5
+
+    L1 --> L2 --> L3 --> L4 --> L5
 ```
 
 1. **核心產品 (Core Benefit)**：顧客購買該產品所追求的最根本利益或想要解決的終極問題（如化妝品追求「美麗與自信」；口紅不是買化學物質）。

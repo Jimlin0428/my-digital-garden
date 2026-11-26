@@ -64,7 +64,7 @@
 ### 1. 荷蘭皇家殼牌 (Royal Dutch Shell) 透過情境規劃粉碎心智模式
 在 1970 年代初，全球石油巨頭普遍抱持一個堅不可摧的心智模式——「全球石油供應將永遠平穩充裕，油價將長期穩定在每桶 2 至 3 美元」：
 - **殼牌的雙環反思**：殼牌企劃團隊負責人皮耶·瓦克 (Pierre Wack) 意識到，若不能打破管理層這種直線思維的心智模式，任何預測都毫無意義。
-- **情境規劃打破認知**：瓦克團隊設計了名為「情境規劃 ([[scenario-planning_情境規劃]])」的工具，構思了阿拉伯產油國因中東地緣政治結盟發動石油禁運的極端劇本，逼迫高層預演「若油價一夜暴漲四倍，殼牌如何生存？」。
+- **情境規劃打破認知**：瓦克團隊設計了名為「情境規劃 ([[98_商業概念庫/scenario-planning_情境規劃\|scenario-planning_情境規劃]])」的工具，構思了阿拉伯產油國因中東地緣政治結盟發動石油禁運的極端劇本，逼迫高層預演「若油價一夜暴漲四倍，殼牌如何生存？」。
 - **決策成效**：當 1973 年第四次以阿戰爭爆發引發第一次石油危機時，其他同業手足無措陷入巨額虧損，而殼牌因預先打破了舊有心智模式，早已調整船隊與精煉配置，從全球第七大油企一躍成為第二大能源巨擘。
 
 ### 2. 拍立得 (Polaroid) 沉溺「刀片與刀架」心智模式的殞落
@@ -77,12 +77,16 @@
 
 ## 四、 經理人反思與行動檢核清單
 
-```
-                               改善心智模式之領導實踐路徑
-┌─────────────────────────┬─────────────────────────┬─────────────────────────┐
-│     1. 懸掛假設 (Suspension)│     2. 探詢與主張平衡   │     3. 開展雙環學習     │
-│ 暫停評判，檢視自己的推論階梯│ 多問「你是如何得出該結論」│ 審查戰略背後的根本前提  │
-└─────────────────────────┴─────────────────────────┴─────────────────────────┘
+**改善心智模式之領導實踐路徑**
+
+```mermaid
+flowchart TD
+    classDef c_blue fill:#1e3a5f,stroke:#60a5fa,stroke-width:2px,color:#ffffff;
+    classDef c_green fill:#143823,stroke:#4ade80,stroke-width:2px,color:#ffffff;
+    classDef c_amber fill:#3d2806,stroke:#fbbf24,stroke-width:2px,color:#ffffff;
+    classDef c_purple fill:#3b1d54,stroke:#c084fc,stroke-width:2px,color:#ffffff;
+    classDef c_red fill:#5c1d24,stroke:#f87171,stroke-width:2px,color:#ffffff;
+    N0_0["1. 懸掛假設 （Suspension）│     2. 探詢與主張平衡   │     3. 開展雙環學習<br/>暫停評判，檢視自己的推論階梯│ 多問「你是如何得出該結論」│ 審查戰略背後的根本前提"]:::c_blue
 ```
 
 ### Executive Decision Checklist
@@ -96,7 +100,7 @@
 
 ## 五、 關聯概念與延伸閱讀
 
-- 系統理論架構：[[system_系統思考]] ｜ [[systems-school_系統學派]] ｜ [[learning-organization_學習型組織]]
-- 認知偏差：[[confirmation-bias_確認偏誤]] ｜ [[anchoring-effect_錨定效應]] ｜ [[bounded-rationality_有限理性]]
-- 決策與變革：[[scenario-planning_情境規劃]] ｜ [[organization-review-mechanism_組織覆盤機制]] ｜ [[organizational-change_組織變革]]
-- 領導力修練：[[strategic-leadership_策略領導力]] ｜ [[Mintzberg管理者角色]] ｜ [[decision-competence_模糊決策能力]]
+- 系統理論架構：[[98_商業概念庫/system_系統思考\|system_系統思考]] ｜ [[98_商業概念庫/systems-school_系統學派\|systems-school_系統學派]] ｜ [[98_商業概念庫/learning-organization_學習型組織\|learning-organization_學習型組織]]
+- 認知偏差：[[98_商業概念庫/confirmation-bias_確認偏誤\|confirmation-bias_確認偏誤]] ｜ [[98_商業概念庫/anchoring-effect_錨定效應\|anchoring-effect_錨定效應]] ｜ [[98_商業概念庫/bounded-rationality_有限理性\|bounded-rationality_有限理性]]
+- 決策與變革：[[98_商業概念庫/scenario-planning_情境規劃\|scenario-planning_情境規劃]] ｜ [[98_商業概念庫/organization-review-mechanism_組織覆盤機制\|organization-review-mechanism_組織覆盤機制]] ｜ [[98_商業概念庫/organizational-change_組織變革\|organizational-change_組織變革]]
+- 領導力修練：[[98_商業概念庫/strategic-leadership_策略領導力\|strategic-leadership_策略領導力]] ｜ [[98_商業概念庫/Mintzberg管理者角色\|Mintzberg管理者角色]] ｜ [[98_商業概念庫/decision-competence_模糊決策能力\|decision-competence_模糊決策能力]]

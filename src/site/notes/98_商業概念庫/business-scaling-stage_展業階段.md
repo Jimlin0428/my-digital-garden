@@ -11,21 +11,16 @@
 
 在矽谷思想領袖雷德·霍夫曼 (Reid Hoffman) 的《閃電擴張 (Blitzscaling)》理論中，展業階段的核心法則是一場驚心動魄的豪賭：**「在面對極端不確定性時，主動犧牲短期營運效率 (Efficiency)，以極限速度 (Speed) 追求規模化，搶先奪得『勝者全拿 (Winner-Take-Most)』的市場制高點！」**
 
-```
-                   【展業階段的典範大轉移】
-┌─────────────────────────────────────────────────────────────┐
-│ 【探索期 (Discovery: 種子輪至 A 輪)】                       │
-│  • 核心任務：尋找商業模式、驗證 PMF、極限節儉節省資金      │
-│  • 組織型態：10人小扁平特遣隊、全員多功能、即興決策         │
-├─────────────────────────────────────────────────────────────┤
-│                              │                              │
-│                              ▼ (典範大轉變 Paradigm Shift)  │
-│                              │                              │
-├─────────────────────────────────────────────────────────────┤
-│ 【展業期 (Scaling: B 輪至 C 輪以上)】                       │
-│  • 核心任務：複製商業模式、瘋狂搶佔市佔、建構防禦護城河     │
-│  • 組織型態：百人以上正規軍、專業經理人分層治理、SOP 流程化 │
-└─────────────────────────────────────────────────────────────┘
+**【展業階段的典範大轉移】**
+
+```mermaid
+flowchart TD
+    classDef c_blue fill:#1e3a5f,stroke:#60a5fa,stroke-width:2px,color:#ffffff;
+    classDef c_green fill:#143823,stroke:#4ade80,stroke-width:2px,color:#ffffff;
+    classDef c_amber fill:#3d2806,stroke:#fbbf24,stroke-width:2px,color:#ffffff;
+    classDef c_purple fill:#3b1d54,stroke:#c084fc,stroke-width:2px,color:#ffffff;
+    classDef c_red fill:#5c1d24,stroke:#f87171,stroke-width:2px,color:#ffffff;
+    N0_0["【探索期 （Discovery: 種子輪至 A 輪）】<br/>• 核心任務：尋找商業模式、驗證 PMF、極限節儉節省資金<br/>• 組織型態：10人小扁平特遣隊、全員多功能、即興決策<br/>│<br/>▼ （典範大轉變 Paradigm Shift）<br/>│<br/>【展業期 （Scaling: B 輪至 C 輪以上）】<br/>• 核心任務：複製商業模式、瘋狂搶佔市佔、建構防禦護城河<br/>• 組織型態：百人以上正規軍、專業經理人分層治理、SOP 流程化"]:::c_blue
 ```
 
 ---

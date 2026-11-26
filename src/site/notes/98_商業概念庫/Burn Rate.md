@@ -11,28 +11,20 @@
 
 燒錢率直接決定了企業的生命長度——**現金跑道 (Cash Runway)**。對於高成長企業而言，創立初期本質上就是一場「現金消耗速度與價值創造速度的極限賽跑」：企業必須在現金跑道消耗殆盡、撞上「歸零死線 (Zero Cash Date, ZCD)」之前，成功跑通獲利的商業模式，或達成能夠說服下一輪投資人進場注資的關鍵業務里程碑。
 
-```
-           【現金存量與燒錢率水箱模型】
-┌──────────────────────────────────────────────┐
-│  銀行現金儲備 (Cash Reserves)                 │
-│  (例: $3,000,000 USD)                        │
-└──────────────────────┬───────────────────────┘
-                       │
-       毛支出流量      │  銷貨收現流入 (Inflow)
-      (Gross Burn)     ▼  (例: $50,000 / 月)
-      ($200,000 / 月)  │
-                       │
-                       ▼ 淨流出差額
-┌──────────────────────────────────────────────┐
-│  【淨燒錢率 (Net Burn Rate)】                 │
-│  = $200,000 - $50,000 = $150,000 / 月        │
-└──────────────────────┬───────────────────────┘
-                       │
-                       ▼ 決定生存極限
-┌──────────────────────────────────────────────┐
-│  【現金跑道 (Cash Runway)】                   │
-│  = $3,000,000 / $150,000 = 20 個月           │
-└──────────────────────────────────────────────┘
+**【現金存量與燒錢率水箱模型】**
+
+```mermaid
+flowchart TD
+    classDef c_blue fill:#1e3a5f,stroke:#60a5fa,stroke-width:2px,color:#ffffff;
+    classDef c_green fill:#143823,stroke:#4ade80,stroke-width:2px,color:#ffffff;
+    classDef c_amber fill:#3d2806,stroke:#fbbf24,stroke-width:2px,color:#ffffff;
+    classDef c_purple fill:#3b1d54,stroke:#c084fc,stroke-width:2px,color:#ffffff;
+    classDef c_red fill:#5c1d24,stroke:#f87171,stroke-width:2px,color:#ffffff;
+    N0_0["銀行現金儲備 （Cash Reserves）<br/>（例: $3,000,000 USD）"]:::c_blue
+    N1_0["【淨燒錢率 （Net Burn Rate）】<br/>= $200,000 - $50,000 = $150,000 / 月"]:::c_green
+    N2_0["【現金跑道 （Cash Runway）】<br/>= $3,000,000 / $150,000 = 20 個月"]:::c_amber
+    N0_0 -->|"毛支出流量        銷貨收現流入 （Inflow） （Gross Burn）       （例: $50,000 / 月） （$200,000 / 月） 淨流出差額"| N1_0
+    N1_0 -->|"決定生存極限"| N2_0
 ```
 
 ---

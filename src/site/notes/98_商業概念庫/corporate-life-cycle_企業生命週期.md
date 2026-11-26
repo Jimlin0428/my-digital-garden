@@ -51,21 +51,14 @@
 
 愛迪思指出，卓越組織需要四種互斥的管理角色協同，任何單一領導人都無法具備全部四項：
 
-```
-                ┌─────────────────────────────────────────┐
-                │          PAEI 四維管理基因架構          │
-                └────────────────────┬────────────────────┘
-                                     ▼
-        ┌────────────────────────────┼────────────────────────────┐
-        ▼                            ▼                            ▼
- 【P: Producer 生產者】       【A: Administrator 管理者】  【E: Entrepreneur 創業家】
-  • 追求成果, 專注當下獲利     • 追求秩序, 建立流程制度     • 追求願景, 承擔風險創新
-  • 回答: 做「什麼」(What)     • 回答: 如何做「標準」(How)  • 回答: 為何與何時 (Why/When)
-                                     │
-                                     ▼
-                              【I: Integrator 整合者】
-                               • 追求和諧, 凝聚企業文化
-                               • 建立認同, 化解組織衝突
+```mermaid
+flowchart TD
+    classDef c_blue fill:#1e3a5f,stroke:#60a5fa,stroke-width:2px,color:#ffffff;
+    classDef c_green fill:#143823,stroke:#4ade80,stroke-width:2px,color:#ffffff;
+    classDef c_amber fill:#3d2806,stroke:#fbbf24,stroke-width:2px,color:#ffffff;
+    classDef c_purple fill:#3b1d54,stroke:#c084fc,stroke-width:2px,color:#ffffff;
+    classDef c_red fill:#5c1d24,stroke:#f87171,stroke-width:2px,color:#ffffff;
+    N0_0["PAEI 四維管理基因架構"]:::c_blue
 ```
 
 ### 各階段的 PAEI 基因密碼對照表
@@ -102,9 +95,9 @@
 
 ## 4. 關聯概念與延伸閱讀 (Cross References)
 
-- [[corporate-governance_公司治理]]：青春期向盛年期過渡中董事會與所有權治理架構。
-- [[agency-problem_代理人問題]]：老化階段貴族期管理層在職消費與不願承擔風險的代理成本。
-- [[sustainable-growth-rate_永續成長率]]：Go-Go 學步期過度擴張導致現金枯竭的財務約束。
-- [[insolvency-with-profit_黑字倒閉]]：成長期與學步期盲目擴張引發的流動性休克。
-- [[industry-life-cycle_產業生命週期]]：宏觀產業演進對微觀企業生命週期的牽引。
-- [[home]]：PMBA 知識庫首頁與模組導航。
+- [[98_商業概念庫/corporate-governance_公司治理\|corporate-governance_公司治理]]：青春期向盛年期過渡中董事會與所有權治理架構。
+- [[98_商業概念庫/agency-problem_代理人問題\|agency-problem_代理人問題]]：老化階段貴族期管理層在職消費與不願承擔風險的代理成本。
+- [[98_商業概念庫/sustainable-growth-rate_永續成長率\|sustainable-growth-rate_永續成長率]]：Go-Go 學步期過度擴張導致現金枯竭的財務約束。
+- [[98_商業概念庫/insolvency-with-profit_黑字倒閉\|insolvency-with-profit_黑字倒閉]]：成長期與學步期盲目擴張引發的流動性休克。
+- [[98_商業概念庫/industry-life-cycle_產業生命週期\|industry-life-cycle_產業生命週期]]：宏觀產業演進對微觀企業生命週期的牽引。
+- [[home\|home]]：PMBA 知識庫首頁與模組導航。

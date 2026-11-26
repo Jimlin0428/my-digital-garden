@@ -22,16 +22,16 @@ $$\text{Innovation (創新)} = \text{Invention (發明)} \times \text{Commercial
 
 麻省理工學院學者 Rebecca Henderson 與 Kim Clark 依據「核心設計概念 (Core Concepts)」與「組件間關聯架構 (Linkages / Architecture)」的變革程度，提出了著名的四分法創新矩陣：
 
-```
-                      【組件間的架構關聯 (Linkages)】
-                             未改變             改變
-                     ┌──────────────────┬──────────────────┐
-              未改變 │  【漸進式創新】   │  【架構性創新】   │
-【核心概念】         │ (Incremental)    │ (Architectural)  │
-(Core Concepts)      ├──────────────────┼──────────────────┤
-               改變  │  【模組化創新】   │  【激進式創新】   │
-                     │  (Modular)       │  (Radical)       │
-                     └──────────────────┴──────────────────┘
+**【組件間的架構關聯 (Linkages)】**
+
+```mermaid
+flowchart TD
+    classDef c_blue fill:#1e3a5f,stroke:#60a5fa,stroke-width:2px,color:#ffffff;
+    classDef c_green fill:#143823,stroke:#4ade80,stroke-width:2px,color:#ffffff;
+    classDef c_amber fill:#3d2806,stroke:#fbbf24,stroke-width:2px,color:#ffffff;
+    classDef c_purple fill:#3b1d54,stroke:#c084fc,stroke-width:2px,color:#ffffff;
+    classDef c_red fill:#5c1d24,stroke:#f87171,stroke-width:2px,color:#ffffff;
+    N0_0["【漸進式創新】   │  【架構性創新】<br/>（Incremental）    │ （Architectural）<br/>【模組化創新】   │  【激進式創新】<br/>（Modular）       │  （Radical）"]:::c_blue
 ```
 
 1. **漸進式創新 (Incremental Innovation)**：核心概念與系統架構均未改變，僅在現有軌道上進行漸進式改良（如：手機鏡頭畫素由 4,800 萬升級至 1 億）。

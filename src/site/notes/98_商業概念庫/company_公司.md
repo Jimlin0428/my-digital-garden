@@ -15,21 +15,20 @@
 - **經營權專業化 (Professional Control)**：公司實際控制權轉移至專業職業經理人（CEO、管理層）手中。
 - **代理衝突的誕生**：兩權分離直接孕育了現代金融與管理學的核心基石——**[[98_商業概念庫/agency-problem_代理人問題\|代理人問題 (Agency Problem)]]**。股東（委託人）追求長期股東價值最大化，而管理層（代理人）則具備追求個人權力膨脹、短期獎金、奢華在職消費與在位鞏固的自利傾向。
 
-```
-【現代股份公司治理金字塔架構】
-                    ┌─────────────────────────┐
-                    │  股東大會 (Shareholders) │ ── 最高權力機構 (所有權代表)
-                    └────────────┬────────────┘
-                                 │ (選舉與委任)
-                                 ▼
-                    ┌─────────────────────────┐
-                    │   董事會 (Board/BOD)    │ ── 決策與監督中樞 (信義義務 Fiduciary Duty)
-                    └────────────┬────────────┘
-                                 │ (聘任與考核)
-                                 ▼
-                    ┌─────────────────────────┐
-                    │  專業經理人 (Management)│ ── 執行日常營運 (經營權掌握者)
-                    └─────────────────────────┘
+**【現代股份公司治理金字塔架構】**
+
+```mermaid
+flowchart TD
+    classDef c_blue fill:#1e3a5f,stroke:#60a5fa,stroke-width:2px,color:#ffffff;
+    classDef c_green fill:#143823,stroke:#4ade80,stroke-width:2px,color:#ffffff;
+    classDef c_amber fill:#3d2806,stroke:#fbbf24,stroke-width:2px,color:#ffffff;
+    classDef c_purple fill:#3b1d54,stroke:#c084fc,stroke-width:2px,color:#ffffff;
+    classDef c_red fill:#5c1d24,stroke:#f87171,stroke-width:2px,color:#ffffff;
+    N0_0["股東大會 （Shareholders）"]:::c_blue
+    N1_0["董事會 （Board/BOD）"]:::c_green
+    N2_0["專業經理人 （Management）"]:::c_amber
+    N0_0 -->|"（選舉與委任）"| N1_0
+    N1_0 -->|"（聘任與考核）"| N2_0
 ```
 
 ---
@@ -43,13 +42,13 @@
 | 特徵維度 | 制度核心內涵 | 經濟學功能與市場效益 | 潛在治理風險 |
 | :--- | :--- | :--- | :--- |
 | **1. 獨立法人資格 (Legal Personhood)** | 公司具有獨立於股東個人的法律主體地位，能以自身名義簽約、持有資產、起訴與應訴。 | 資產分割 (Asset Partitioning)，隔絕個人債務穿透，確保企業永續存續。 | 經理人利用法人外衣隱匿不法侵害。 |
-| **2. 股東有限責任 ([[limited-liability_有限責任]])** | 股東對公司債務的清償責任，僅以其認購之出資額或股份為限。 | 降低投資人分散投資風險的搜尋成本，促成資本大規模匯聚。 | 外部性轉嫁，激發高風險道德危機。 |
+| **2. 股東有限責任 ([[98_商業概念庫/limited-liability_有限責任\|limited-liability_有限責任]])** | 股東對公司債務的清償責任，僅以其認購之出資額或股份為限。 | 降低投資人分散投資風險的搜尋成本，促成資本大規模匯聚。 | 外部性轉嫁，激發高風險道德危機。 |
 | **3. 可轉讓股權 (Transferable Shares)** | 股份可在資本市場自由買賣與轉讓，無需經其他股東全體同意。 | 提供極致的流動性，形成市場化公司控制權爭奪機制 (Hostile Takeover)。 | 投機風氣滋生，導致經理人陷入短期主義。 |
 | **4. 授權式集中管理 (Delegated Management)** | 經營權集中於由董事會聘任的高級管理團隊。 | 提升決策效率與專業化分工，擺脫多數股東協調癱瘓。 | 形成內部人控制與高管掠奪。 |
 | **5. 投資人所有權 (Investor Ownership)** | 剩餘索取權 (Residual Claim) 與最終控制權按出資比例分配。 | 確保資本承擔最終風險並享有剩餘利潤，最大化資本配置效率。 | 忽視員工、客戶、社區等利益相關者權益。 |
 
 ### 2. 委託代理成本模型 (Jensen & Meckling, 1976)
-邁克爾·詹森與威廉·麥克林 (Jensen & Meckling) 證明，公司的本質是一組**「契約聯結 (Nexus of Contracts)」**。在所有權與經營權分離下，公司必然產生[[agency-costs_代理成本|代理成本 (Agency Costs)]]：
+邁克爾·詹森與威廉·麥克林 (Jensen & Meckling) 證明，公司的本質是一組**「契約聯結 (Nexus of Contracts)」**。在所有權與經營權分離下，公司必然產生[[98_商業概念庫/agency-costs_代理成本\|代理成本 (Agency Costs)]]：
 
 $$
 \text{Total Agency Costs} = \text{Monitoring Expenditures} + \text{Bonding Expenditures} + \text{Residual Loss}
@@ -80,12 +79,16 @@ $$
 
 ## 四、 經理人反思與行動檢核清單
 
-```
-                               現代公司治理健全度檢核
-┌─────────────────────────┬─────────────────────────┬─────────────────────────┐
-│     1. 兩權邊界清晰度   │     2. 信義義務踐行     │     3. 代理成本最小化   │
-│ 董事會監督與高管執行脫鉤│ 高管決策嚴格遵循忠實義務│ 激勵機制是否對齊長期股東│
-└─────────────────────────┴─────────────────────────┴─────────────────────────┘
+**現代公司治理健全度檢核**
+
+```mermaid
+flowchart TD
+    classDef c_blue fill:#1e3a5f,stroke:#60a5fa,stroke-width:2px,color:#ffffff;
+    classDef c_green fill:#143823,stroke:#4ade80,stroke-width:2px,color:#ffffff;
+    classDef c_amber fill:#3d2806,stroke:#fbbf24,stroke-width:2px,color:#ffffff;
+    classDef c_purple fill:#3b1d54,stroke:#c084fc,stroke-width:2px,color:#ffffff;
+    classDef c_red fill:#5c1d24,stroke:#f87171,stroke-width:2px,color:#ffffff;
+    N0_0["1. 兩權邊界清晰度   │     2. 信義義務踐行     │     3. 代理成本最小化<br/>董事會監督與高管執行脫鉤│ 高管決策嚴格遵循忠實義務│ 激勵機制是否對齊長期股東"]:::c_blue
 ```
 
 ### Executive Decision Checklist
@@ -99,7 +102,7 @@ $$
 
 ## 五、 關聯概念與延伸閱讀
 
-- 核心支柱：[[limited-liability_有限責任]] ｜ [[close-corporation_閉鎖性股份有限公司]]
-- 代理理論：[[agency-problem_代理人問題]] ｜ [[agency-costs_代理成本]] ｜ [[Agency_Theory_Corporate_Governance_代理理論與公司治理]]
-- 治理機制：[[corporate-governance_公司治理]] ｜ [[internal-control_內部人控制]] ｜ [[internal-control-2_內部控制]]
-- 資本與控制：[[cap-table_股權結構表 Cap Table]] ｜ [[term-sheet_投資意向書 Term Sheet]] ｜ [[return-on-invested-capital_資本投入報酬率]]
+- 核心支柱：[[98_商業概念庫/limited-liability_有限責任\|limited-liability_有限責任]] ｜ [[98_商業概念庫/close-corporation_閉鎖性股份有限公司\|close-corporation_閉鎖性股份有限公司]]
+- 代理理論：[[98_商業概念庫/agency-problem_代理人問題\|agency-problem_代理人問題]] ｜ [[98_商業概念庫/agency-costs_代理成本\|agency-costs_代理成本]] ｜ [[98_商業概念庫/Agency_Theory_Corporate_Governance_代理理論與公司治理\|Agency_Theory_Corporate_Governance_代理理論與公司治理]]
+- 治理機制：[[98_商業概念庫/corporate-governance_公司治理\|corporate-governance_公司治理]] ｜ [[98_商業概念庫/internal-control_內部人控制\|internal-control_內部人控制]] ｜ [[98_商業概念庫/internal-control-2_內部控制\|internal-control-2_內部控制]]
+- 資本與控制：[[98_商業概念庫/cap-table_股權結構表 Cap Table\|cap-table_股權結構表 Cap Table]] ｜ [[98_商業概念庫/term-sheet_投資意向書 Term Sheet\|term-sheet_投資意向書 Term Sheet]] ｜ [[98_商業概念庫/return-on-invested-capital_資本投入報酬率\|return-on-invested-capital_資本投入報酬率]]

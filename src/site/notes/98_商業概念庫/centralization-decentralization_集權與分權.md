@@ -72,12 +72,16 @@ $$
 
 ## 四、 經理人反思與行動檢核清單
 
-```
-                               集權與分權授權設計檢核
-┌─────────────────────────┬─────────────────────────┬─────────────────────────┐
-│     1. 權限邊界明確化   │     2. 設立自動警戒底線 │     3. 授權與賦能匹配   │
-│ 制定清楚的 DACI 決策矩陣│ 觸碰特定虧損門檻自動收回│ 授權同時必須給予充足資源│
-└─────────────────────────┴─────────────────────────┴─────────────────────────┘
+**集權與分權授權設計檢核**
+
+```mermaid
+flowchart TD
+    classDef c_blue fill:#1e3a5f,stroke:#60a5fa,stroke-width:2px,color:#ffffff;
+    classDef c_green fill:#143823,stroke:#4ade80,stroke-width:2px,color:#ffffff;
+    classDef c_amber fill:#3d2806,stroke:#fbbf24,stroke-width:2px,color:#ffffff;
+    classDef c_purple fill:#3b1d54,stroke:#c084fc,stroke-width:2px,color:#ffffff;
+    classDef c_red fill:#5c1d24,stroke:#f87171,stroke-width:2px,color:#ffffff;
+    N0_0["1. 權限邊界明確化   │     2. 設立自動警戒底線 │     3. 授權與賦能匹配<br/>制定清楚的 DACI 決策矩陣│ 觸碰特定虧損門檻自動收回│ 授權同時必須給予充足資源"]:::c_blue
 ```
 
 ### Executive Decision Checklist
@@ -91,7 +95,7 @@ $$
 
 ## 五、 關聯概念與延伸閱讀
 
-- 組織架構維度：[[control-2_控制幅度]] ｜ [[organizational-structure_組織結構]] ｜ [[matrix-organization_矩陣型組織]]
-- 官僚與科層：[[bureaucratic-system_官僚體制]] ｜ [[organization_有機式組織]] ｜ [[organization-3_機械式組織]]
-- 策略與結構適配：[[structure-follows-strategy_結構跟隨策略]] ｜ [[silo-effect_穀倉效應]] ｜ [[corporate-governance_公司治理]]
-- 領導力與授權：[[transformational-leadership_轉換型領導]] ｜ [[situational-leadership-theory_情境領導理論]] ｜ [[Mintzberg管理者角色]]
+- 組織架構維度：[[98_商業概念庫/control-2_控制幅度\|control-2_控制幅度]] ｜ [[98_商業概念庫/organizational-structure_組織結構\|organizational-structure_組織結構]] ｜ [[98_商業概念庫/matrix-organization_矩陣型組織\|matrix-organization_矩陣型組織]]
+- 官僚與科層：[[98_商業概念庫/bureaucratic-system_官僚體制\|bureaucratic-system_官僚體制]] ｜ [[98_商業概念庫/organization_有機式組織\|organization_有機式組織]] ｜ [[98_商業概念庫/organization-3_機械式組織\|organization-3_機械式組織]]
+- 策略與結構適配：[[98_商業概念庫/structure-follows-strategy_結構跟隨策略\|structure-follows-strategy_結構跟隨策略]] ｜ [[98_商業概念庫/silo-effect_穀倉效應\|silo-effect_穀倉效應]] ｜ [[98_商業概念庫/corporate-governance_公司治理\|corporate-governance_公司治理]]
+- 領導力與授權：[[98_商業概念庫/transformational-leadership_轉換型領導\|transformational-leadership_轉換型領導]] ｜ [[98_商業概念庫/situational-leadership-theory_情境領導理論\|situational-leadership-theory_情境領導理論]] ｜ [[98_商業概念庫/Mintzberg管理者角色\|Mintzberg管理者角色]]

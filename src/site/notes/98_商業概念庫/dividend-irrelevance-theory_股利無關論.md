@@ -15,17 +15,14 @@
 ### 1.1 核心定義
 股利無關論主張：**在給定企業投資決策與資本預算的前提下，改變股利發放政策僅僅是改變了「股東報酬以現金股息形式實現、抑或以股票資本利得（Capital Gains）形式實現」的組合標籤，企業的總價值既不增加也不減少**。
 
-```
-                    ┌─────────────────────────────────────────┐
-                    │      MM 股利無關論四大完美假設前提      │
-                    └────────────────────┬────────────────────┘
-                                         ▼
-         ┌───────────────────────────────┴───────────────────────────────┐
-         ▼                                                               ▼
-【1. 無摩擦稅負 (Zero Taxes)】                                  【2. 零交易與發行成本 (Zero Friction)】
- • 資本利得稅率 = 股利所得稅率 = 0%                              • 投資人買賣股票無手續費、企業增發新股無承銷折價
-【3. 投資政策固定 (Fixed Investment)】                          【4. 資訊完全對稱 (Symmetric Information)】
- • 企業未來的 CapEx 與正 NPV 專案完全給定，不因分紅而變更        • 外部投資人與內部管理層掌握完全相同資訊，股息無信號功能
+```mermaid
+flowchart TD
+    classDef c_blue fill:#1e3a5f,stroke:#60a5fa,stroke-width:2px,color:#ffffff;
+    classDef c_green fill:#143823,stroke:#4ade80,stroke-width:2px,color:#ffffff;
+    classDef c_amber fill:#3d2806,stroke:#fbbf24,stroke-width:2px,color:#ffffff;
+    classDef c_purple fill:#3b1d54,stroke:#c084fc,stroke-width:2px,color:#ffffff;
+    classDef c_red fill:#5c1d24,stroke:#f87171,stroke-width:2px,color:#ffffff;
+    N0_0["MM 股利無關論四大完美假設前提"]:::c_blue
 ```
 
 ---
@@ -101,7 +98,7 @@ graph TD
 1. **稅差理論（Tax-Preference Theory，Farrar & Selwyn, 1967；Litzenberger & Ramaswamy, 1979）**：在多數國家，現金股利直接計入個人綜合所得課徵高額累進稅率；而資本利得享有較低稅率，且只要「不賣出就不用繳稅（延期納稅福利）」。因此，高稅負投資人偏好低股利或庫藏股。
 2. **信號傳遞假說（Dividend Signaling，Bhattacharya, 1979；John & Williams, 1985）**：外部投資人無法完全看清企業真實前景。調升股息是管理層以真金白銀發出的高昂承諾，宣示未來利潤強勁；削減股利則是經營惡化的求救信號。
 3. **顧客群效應（Clientele Effect，Black & Scholes, 1974）**：不同類型的投資人群體因稅負與流動性需求不同，自發聚集於特定股利政策的企業（退休族偏好公用事業高息股，年輕創業投資人偏好不分紅科技股）。
-4. **代理成本假說（Agency Cost Theory，Jensen, 1986）**：股利迫使經理人將自由現金流吐給股東，阻斷其揮霍在職消費的衝動（參見 [[agency-costs_代理成本]]）。
+4. **代理成本假說（Agency Cost Theory，Jensen, 1986）**：股利迫使經理人將自由現金流吐給股東，阻斷其揮霍在職消費的衝動（參見 [[98_商業概念庫/agency-costs_代理成本\|agency-costs_代理成本]]）。
 
 ---
 
@@ -129,17 +126,17 @@ graph TD
 ## 7. 關聯知識網絡與導航地圖 (Knowledge Network & Cross-References)
 
 ### 7.1 本主題核心三部曲
-- **[[dividend-policy_股利政策]]** · 資本配置四大實踐模式、林特納平滑模型與現金股利 vs. 庫藏股回購
-- **[[dividend-irrelevance-theory_股利無關論]]** · 莫迪利安尼-米勒（MM）完美市場基準、自製股利定理與四重現實摩擦（本篇）
-- **[[dividend-payout-ratio_股利發放率]]** · 配息率對永續成長率（SGR）之剛性約束、昂貴信號傳遞與股利驚喜
+- **[[98_商業概念庫/dividend-policy_股利政策\|dividend-policy_股利政策]]** · 資本配置四大實踐模式、林特納平滑模型與現金股利 vs. 庫藏股回購
+- **[[98_商業概念庫/dividend-irrelevance-theory_股利無關論\|dividend-irrelevance-theory_股利無關論]]** · 莫迪利安尼-米勒（MM）完美市場基準、自製股利定理與四重現實摩擦（本篇）
+- **[[98_商業概念庫/dividend-payout-ratio_股利發放率\|dividend-payout-ratio_股利發放率]]** · 配息率對永續成長率（SGR）之剛性約束、昂貴信號傳遞與股利驚喜
 
 ### 7.2 跨領域財務與策略鏈結
-- [[homemade-dividends_自製股利]] · MM 股利無關論核心推導工具與股東現金流守恆
-- [[sustainable-growth-rate_永續成長率]] · 保留盈餘率對企業自體增長極限之約束
-- [[capital-structure_資本結構]] · MM 定理第一與第二命題（資本結構無關論與稅盾效應）
-- [[agency-costs_代理成本]] · 詹森自由現金流假說對 MM 無摩擦假設的現實修正
+- [[98_商業概念庫/homemade-dividends_自製股利\|homemade-dividends_自製股利]] · MM 股利無關論核心推導工具與股東現金流守恆
+- [[98_商業概念庫/sustainable-growth-rate_永續成長率\|sustainable-growth-rate_永續成長率]] · 保留盈餘率對企業自體增長極限之約束
+- [[98_商業概念庫/capital-structure_資本結構\|capital-structure_資本結構]] · MM 定理第一與第二命題（資本結構無關論與稅盾效應）
+- [[98_商業概念庫/agency-costs_代理成本\|agency-costs_代理成本]] · 詹森自由現金流假說對 MM 無摩擦假設的現實修正
 
 ### 7.3 課程筆記與導航主頁
-- [[L09_資本結構理論與決策]] · 財務策略模組九：MM 理論體系、股利政策與公司理財決策
-- [[_創業與企業財務策略 MOC]] · 企業財務策略與資本市場運作全景地圖
-- [[home]] · 全球 PMBA 知識庫總導航主頁面
+- [[02_核心必修/01_財務管理/L09_資本結構理論與決策\|L09_資本結構理論與決策]] · 財務策略模組九：MM 理論體系、股利政策與公司理財決策
+- [[04_主題選修/10_創業與企業財務策略/_歷史版本封存/_創業與企業財務策略 MOC\|_創業與企業財務策略 MOC]] · 企業財務策略與資本市場運作全景地圖
+- [[home\|home]] · 全球 PMBA 知識庫總導航主頁面

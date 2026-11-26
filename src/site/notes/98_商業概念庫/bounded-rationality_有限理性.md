@@ -54,7 +54,7 @@ $$
 | :--- | :--- | :--- |
 | **決策主體假設** | 經濟人 (Economic Man) | 行政人 (Administrative Man) |
 | **資訊結構** | 完全資訊、對稱透明、零搜尋成本 | 不完全資訊、不對稱、顯著搜尋成本 |
-| **認知計算能力** | 無限計算能力、精準貝氏機率推演 | 認知頻寬有限、依賴[[cognitive-bias_認知偏誤|啟發式捷徑 (Heuristics)]] |
+| **認知計算能力** | 無限計算能力、精準貝氏機率推演 | 認知頻寬有限、依賴[[98_商業概念庫/cognitive-bias_認知偏誤\|啟發式捷徑 (Heuristics)]] |
 | **目標函數** | 全局最佳化 (Maximization / Optimization) | 達到抱負水準的滿意化 (Satisficing) |
 | **方案評估方式** | 同步窮舉所有可能替代方案並比較 | 循序評估 (Sequential Search)，發現滿意解即停止 |
 | **環境適應機制** | 靜態均衡分析 | 動態學習、心智模式調整與組織程序 (SOP) |
@@ -85,12 +85,16 @@ $$
 
 ## 四、 經理人反思與行動檢核清單
 
-```
-                               經理人有限理性防禦架構
-┌─────────────────────────┬─────────────────────────┬─────────────────────────┐
-│     1. 資訊邊界審查     │     2. 認知偏差警訊     │     3. 組織治理糾偏     │
-│ 評估資訊完備度與搜尋邊際│ 識別注意力窄化與慣性解  │ 建立紅隊反思與決策分類  │
-└─────────────────────────┴─────────────────────────┴─────────────────────────┘
+**經理人有限理性防禦架構**
+
+```mermaid
+flowchart TD
+    classDef c_blue fill:#1e3a5f,stroke:#60a5fa,stroke-width:2px,color:#ffffff;
+    classDef c_green fill:#143823,stroke:#4ade80,stroke-width:2px,color:#ffffff;
+    classDef c_amber fill:#3d2806,stroke:#fbbf24,stroke-width:2px,color:#ffffff;
+    classDef c_purple fill:#3b1d54,stroke:#c084fc,stroke-width:2px,color:#ffffff;
+    classDef c_red fill:#5c1d24,stroke:#f87171,stroke-width:2px,color:#ffffff;
+    N0_0["1. 資訊邊界審查     │     2. 認知偏差警訊     │     3. 組織治理糾偏<br/>評估資訊完備度與搜尋邊際│ 識別注意力窄化與慣性解  │ 建立紅隊反思與決策分類"]:::c_blue
 ```
 
 ### Executive Decision Checklist
@@ -104,7 +108,7 @@ $$
 
 ## 五、 關聯概念與延伸閱讀
 
-- 核心上游：[[rational-decision-model_理性決策模型]] ｜ [[cognitive-bias_認知偏誤]]
-- 決策機制：[[satisficing-decision_滿意決策]] ｜ [[intuitive-decision-making_直覺決策]] ｜ [[decision-analysis_決策直覺與分析]]
-- 組織結構與演進：[[learning-organization_學習型組織]] ｜ [[organization-review-mechanism_組織覆盤機制]] ｜ [[Mintzberg管理者角色]]
-- 實務陷阱防範：[[groupthink_團體迷思]] ｜ [[confirmation-bias_確認偏誤]] ｜ [[Carter_Racing_NASA_Challenger_卡特賽車與挑戰者號決策個案]]
+- 核心上游：[[98_商業概念庫/rational-decision-model_理性決策模型\|rational-decision-model_理性決策模型]] ｜ [[98_商業概念庫/cognitive-bias_認知偏誤\|cognitive-bias_認知偏誤]]
+- 決策機制：[[98_商業概念庫/satisficing-decision_滿意決策\|satisficing-decision_滿意決策]] ｜ [[98_商業概念庫/intuitive-decision-making_直覺決策\|intuitive-decision-making_直覺決策]] ｜ [[98_商業概念庫/decision-analysis_決策直覺與分析\|decision-analysis_決策直覺與分析]]
+- 組織結構與演進：[[98_商業概念庫/learning-organization_學習型組織\|learning-organization_學習型組織]] ｜ [[98_商業概念庫/organization-review-mechanism_組織覆盤機制\|organization-review-mechanism_組織覆盤機制]] ｜ [[98_商業概念庫/Mintzberg管理者角色\|Mintzberg管理者角色]]
+- 實務陷阱防範：[[98_商業概念庫/groupthink_團體迷思\|groupthink_團體迷思]] ｜ [[98_商業概念庫/confirmation-bias_確認偏誤\|confirmation-bias_確認偏誤]] ｜ [[98_商業概念庫/Carter_Racing_NASA_Challenger_卡特賽車與挑戰者號決策個案\|Carter_Racing_NASA_Challenger_卡特賽車與挑戰者號決策個案]]

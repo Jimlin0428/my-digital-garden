@@ -13,20 +13,18 @@
 
 ## 二、 運作機制：表層演出 vs. 深層演出
 
-```
-                    ┌───────────────────────────────┐
-                    │      情緒失調之兩大調控策略   │
-                    └───────────────┬───────────────┘
-                                    │
-        ┌───────────────────────────┴───────────────────────────┐
-        ▼                                                       ▼
-┌───────────────────────────────┐                       ┌───────────────────────────────┐
-│   【表層演出】 (Surface Acting)│                       │    【深層演出】 (Deep Acting) │
-├───────────────────────────────┤                       ├───────────────────────────────┤
-│• 單純偽裝：靠面部肌肉擠出假笑 │                       │• 認知重塑：主動調適內在感受   │
-│• 內心痛苦未變，壓抑真實情感   │                       │• 努力讓真實感受與展示規則一致 │
-│• 心理代價極高：工作倦怠元兇   │                       │• 心理代價較低：減緩情緒內耗   │
-└───────────────────────────────┘                       └───────────────────────────────┘
+```mermaid
+flowchart TD
+    classDef c_blue fill:#1e3a5f,stroke:#60a5fa,stroke-width:2px,color:#ffffff;
+    classDef c_green fill:#143823,stroke:#4ade80,stroke-width:2px,color:#ffffff;
+    classDef c_amber fill:#3d2806,stroke:#fbbf24,stroke-width:2px,color:#ffffff;
+    classDef c_purple fill:#3b1d54,stroke:#c084fc,stroke-width:2px,color:#ffffff;
+    classDef c_red fill:#5c1d24,stroke:#f87171,stroke-width:2px,color:#ffffff;
+    N0_0["情緒失調之兩大調控策略"]:::c_blue
+    N1_0["【表層演出】 （Surface Acting）<br/>• 單純偽裝：靠面部肌肉擠出假笑<br/>• 內心痛苦未變，壓抑真實情感<br/>• 心理代價極高：工作倦怠元兇"]:::c_green
+    N1_1["【深層演出】 （Deep Acting）<br/>• 認知重塑：主動調適內在感受<br/>• 努力讓真實感受與展示規則一致<br/>• 心理代價較低：減緩情緒內耗"]:::c_amber
+    N0_0 --> N1_0
+    N0_0 --> N1_1
 ```
 
 ### 表層與深層演出管理維度對照

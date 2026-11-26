@@ -79,26 +79,30 @@ $$
 
 ## 四、 經理人反思與行動檢核清單
 
-```
-                               正面進攻可行性五維審查模型
-┌─────────────────────────┬─────────────────────────┬─────────────────────────┐
-│     1. 資源倍數審查     │     2. 成本結構不對稱性 │     3. 領導者報復意願   │
-│ 資源儲備是否達到 3:1 門檻│ 是否具備不可複製的低成本│ 評估領導者是否會血拼到底│
-└─────────────────────────┴─────────────────────────┴─────────────────────────┘
+**正面進攻可行性五維審查模型**
+
+```mermaid
+flowchart TD
+    classDef c_blue fill:#1e3a5f,stroke:#60a5fa,stroke-width:2px,color:#ffffff;
+    classDef c_green fill:#143823,stroke:#4ade80,stroke-width:2px,color:#ffffff;
+    classDef c_amber fill:#3d2806,stroke:#fbbf24,stroke-width:2px,color:#ffffff;
+    classDef c_purple fill:#3b1d54,stroke:#c084fc,stroke-width:2px,color:#ffffff;
+    classDef c_red fill:#5c1d24,stroke:#f87171,stroke-width:2px,color:#ffffff;
+    N0_0["1. 資源倍數審查     │     2. 成本結構不對稱性 │     3. 領導者報復意願<br/>資源儲備是否達到 3:1 門檻│ 是否具備不可複製的低成本│ 評估領導者是否會血拼到底"]:::c_blue
 ```
 
 ### Executive Decision Checklist
 - [ ] **三倍資源評估**：我方在發動全面正面價格戰或通路爭奪戰時，現金儲備與融資能力是否至少達到市場領導者的 3 倍以上？
 - [ ] **成本結構底牌**：我們的單位變動成本是否顯著低於領導者？若領導者將價格降至保本點，我方是否依然能產生正向現金流？
 - [ ] **核心強項重疊度**：我們進攻的是領導者的「核心命脈業務」還是「邊緣邊角料」？（若直擊其核心利潤池，領導者必然動用全部資源進行焦土反擊）
-- [ ] **客戶轉換成本衡量**：目標客戶從領導者陣營轉移至我方產品的[[switching-costs_轉換成本|轉換成本]]為何？是否有足夠的經濟誘因克服心理慣性？
-- [ ] **替代路徑評估**：除了代價極高的正面進攻，我們是否評估過[[flank-defense_側翼防禦|側翼切入]]或[[strategy_游擊戰策略|游擊利基戰術]]？
+- [ ] **客戶轉換成本衡量**：目標客戶從領導者陣營轉移至我方產品的[[98_商業概念庫/switching-costs_轉換成本\|轉換成本]]為何？是否有足夠的經濟誘因克服心理慣性？
+- [ ] **替代路徑評估**：除了代價極高的正面進攻，我們是否評估過[[98_商業概念庫/flank-defense_側翼防禦\|側翼切入]]或[[98_商業概念庫/strategy_游擊戰策略\|游擊利基戰術]]？
 
 ---
 
 ## 五、 關聯概念與延伸閱讀
 
-- 角色定位：[[market_市場挑戰者]] ｜ [[market-leadership-zhe_市場領導者]] ｜ [[market-2_市場跟隨者]]
-- 攻防戰術：[[flank-defense_側翼防禦]] ｜ [[strategy_游擊戰策略]] ｜ [[cannibalization_自我蠶食]]
-- 競爭戰略基礎：[[cost-leadership-strategy_成本領導策略]] ｜ [[differentiation-strategy_差異化策略]] ｜ [[competitive-advantage_競爭優勢]]
-- 產業結構分析：[[Porter's Five Forces Analysis_波特五力分析]] ｜ [[Hypercompetition_動態超競爭理論]] ｜ [[switching-costs_轉換成本]]
+- 角色定位：[[98_商業概念庫/market_市場挑戰者\|market_市場挑戰者]] ｜ [[98_商業概念庫/market-leadership-zhe_市場領導者\|market-leadership-zhe_市場領導者]] ｜ [[98_商業概念庫/market-2_市場跟隨者\|market-2_市場跟隨者]]
+- 攻防戰術：[[98_商業概念庫/flank-defense_側翼防禦\|flank-defense_側翼防禦]] ｜ [[98_商業概念庫/strategy_游擊戰策略\|strategy_游擊戰策略]] ｜ [[98_商業概念庫/cannibalization_自我蠶食\|cannibalization_自我蠶食]]
+- 競爭戰略基礎：[[98_商業概念庫/cost-leadership-strategy_成本領導策略\|cost-leadership-strategy_成本領導策略]] ｜ [[98_商業概念庫/differentiation-strategy_差異化策略\|differentiation-strategy_差異化策略]] ｜ [[98_商業概念庫/competitive-advantage_競爭優勢\|competitive-advantage_競爭優勢]]
+- 產業結構分析：[[98_商業概念庫/Porter's Five Forces Analysis_波特五力分析\|Porter's Five Forces Analysis_波特五力分析]] ｜ [[98_商業概念庫/Hypercompetition_動態超競爭理論\|Hypercompetition_動態超競爭理論]] ｜ [[98_商業概念庫/switching-costs_轉換成本\|switching-costs_轉換成本]]

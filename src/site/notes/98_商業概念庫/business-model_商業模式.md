@@ -11,25 +11,20 @@
 
 著名的管理學大師彼得·杜拉克 (Peter Drucker) 曾用四個根本問題定義商業模式：「誰是你的客戶？客戶認知的價值是什麼？你在這項業務中如何賺錢？你以什麼經濟邏輯向客戶交付價值？」商業模式並非單純的「獲利方法」，它是將技術創新轉化為商業價值的轉換器。一項平庸的技術配上卓越的商業模式，往往遠比一項卓越的技術配上平庸的商業模式更具爆發力與可持續性。
 
-```
-【商業模式價值閉環 (The Value Triad)】
+**【商業模式價值閉環 (The Value Triad)】**
 
-       ┌────────────────────────────────────────────────────────┐
-       │               1. 創造價值 (Value Creation)             │
-       │   針對目標客群的深層痛點，提供具備差異化的獨特價值主張  │
-       └───────────────────────────┬────────────────────────────┘
-                                   │
-                                   ▼
-       ┌────────────────────────────────────────────────────────┐
-       │               2. 交付價值 (Value Delivery)             │
-       │   透過關鍵資源、核心活動與通路體系，將價值無縫送達客戶  │
-       └───────────────────────────┬────────────────────────────┘
-                                   │
-                                   ▼
-       ┌────────────────────────────────────────────────────────┐
-       │               3. 獲取價值 (Value Capture)              │
-       │   設計健康的營收模型與成本結構，沉澱可持續的經營利潤    │
-       └────────────────────────────────────────────────────────┘
+```mermaid
+flowchart TD
+    classDef c_blue fill:#1e3a5f,stroke:#60a5fa,stroke-width:2px,color:#ffffff;
+    classDef c_green fill:#143823,stroke:#4ade80,stroke-width:2px,color:#ffffff;
+    classDef c_amber fill:#3d2806,stroke:#fbbf24,stroke-width:2px,color:#ffffff;
+    classDef c_purple fill:#3b1d54,stroke:#c084fc,stroke-width:2px,color:#ffffff;
+    classDef c_red fill:#5c1d24,stroke:#f87171,stroke-width:2px,color:#ffffff;
+    N0_0["1. 創造價值 （Value Creation）<br/>針對目標客群的深層痛點，提供具備差異化的獨特價值主張"]:::c_blue
+    N1_0["2. 交付價值 （Value Delivery）<br/>透過關鍵資源、核心活動與通路體系，將價值無縫送達客戶"]:::c_green
+    N2_0["3. 獲取價值 （Value Capture）<br/>設計健康的營收模型與成本結構，沉澱可持續的經營利潤"]:::c_amber
+    N0_0 --> N1_0
+    N1_0 --> N2_0
 ```
 
 ---
@@ -38,20 +33,9 @@
 
 瑞士學者亞歷山大·奧斯瓦爾德 (Alexander Osterwalder) 與伊夫·皮紐 (Yves Pigneur) 在《獲利世代》中提出了享譽全球的「商業模式畫布 (Business Model Canvas, BMC)」，將複雜的企業運作提煉為相互咬合的九大模組：
 
-```
-┌─────────────────┬─────────────────┬─────────────────┬─────────────────┬─────────────────┐
-│                 │                 │                 │                 │                 │
-│  關鍵合作夥伴    │    關鍵活動     │    價值主張     │    顧客關係     │    目標客群     │
-│ (Key Partners)  │(Key Activities) │     (Value      │  (Customer      │    (Customer    │
-│                 ├─────────────────┤  Propositions)  │ Relationships)  │   Segments)     │
-│                 │    關鍵資源     │                 ├─────────────────┤                 │
-│                 │ (Key Resources) │                 │    通路管道     │                 │
-│                 │                 │                 │   (Channels)    │                 │
-├─────────────────┴─────────────────┴─────────────────┼─────────────────┴─────────────────┤
-│                  成本結構                           │                  收益流           │
-│              (Cost Structure)                       │             (Revenue Streams)     │
-└─────────────────────────────────────────────────────┴───────────────────────────────────┘
-```
+| 關鍵合作夥伴<br>(Key Partners)<br>├─────────────────┤  Propositions) | 關鍵活動<br>(Key Activities)<br>Relationships)<br>關鍵資源<br>(Key Resources) | 價值主張<br>(Value<br>Segments)<br>├─────────────────┤ | 顧客關係<br>(Customer<br>通路管道<br>(Channels) | 目標客群<br>(Customer |
+| :--- | :--- | :--- | :--- | :--- |
+| 成本結構<br>(Cost Structure) | 收益流<br>(Revenue Streams) |   |   |   |
 
 ### 1. 右半部（價值與市場側 - 情感與創造營收）
 - **目標客群 (Customer Segments)**：企業為誰創造價值？大眾市場、利基市場還是雙邊多邊平台？

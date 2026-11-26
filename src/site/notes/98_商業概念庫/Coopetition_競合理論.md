@@ -16,19 +16,16 @@
 
 ## 二、 雙重策略任務架構
 
-```text
-【競合理論的雙重策略任務】
+**【競合理論的雙重策略任務】**
 
-                  ┌──────────────────────────────────────────────┐
-                  │          企業利益極大化 (Profit Max)         │
-                  └──────────────────────┬───────────────────────┘
-                                         │
-         ┌───────────────────────────────┴───────────────────────────────┐
-         ▼                                                               ▼
-【任務一：合作做大餅 (Grow the Pie)】                          【任務二：競爭搶大塊 (Claim the Slice)】
-• 賽局性質：正和賽局 (Positive-Sum / Non-Zero-Sum)             • 賽局性質：分配性博弈 (Distributive Bargaining)
-• 策略手段：技術聯盟、規格統一、共同教育消費者                 • 策略手段：提升附加價值 (Added Value)、品牌溢價
-• 核心思維：雙贏 (Win-Win)，即使分配比率不變，實質利益亦增加   • 核心思維：強化不可替代性，爭取更有利的契約條件
+```mermaid
+flowchart TD
+    classDef c_blue fill:#1e3a5f,stroke:#60a5fa,stroke-width:2px,color:#ffffff;
+    classDef c_green fill:#143823,stroke:#4ade80,stroke-width:2px,color:#ffffff;
+    classDef c_amber fill:#3d2806,stroke:#fbbf24,stroke-width:2px,color:#ffffff;
+    classDef c_purple fill:#3b1d54,stroke:#c084fc,stroke-width:2px,color:#ffffff;
+    classDef c_red fill:#5c1d24,stroke:#f87171,stroke-width:2px,color:#ffffff;
+    N0_0["企業利益極大化 （Profit Max）"]:::c_blue
 ```
 
 ---
@@ -47,5 +44,5 @@
 ---
 
 ## 五、 關聯筆記與概念地圖
-- **核心關聯模組**：[[M2-3_產業價值網與競合分析]] ｜ [[M1-5_波特五力分析與量化架構]]
-- **概念地圖對接**：[[value-net-model_價值網絡模型|Value_Net_價值網絡模型]] ｜ [[Complementor_互補者策略]] ｜ [[industry-alliance_同業合作三大動機|Industry_Alliance_同業合作三大動機]]
+- **核心關聯模組**：[[04_主題選修/12_產業分析與投資策略/99_歷史舊版備份/M2-3_產業價值網與競合分析\|M2-3_產業價值網與競合分析]] ｜ [[04_主題選修/12_產業分析與投資策略/99_歷史舊版備份/M1-5_波特五力分析與量化架構\|M1-5_波特五力分析與量化架構]]
+- **概念地圖對接**：[[98_商業概念庫/value-net-model_價值網絡模型\|Value_Net_價值網絡模型]] ｜ [[98_商業概念庫/Complementor_互補者策略\|Complementor_互補者策略]] ｜ [[98_商業概念庫/industry-alliance_同業合作三大動機\|Industry_Alliance_同業合作三大動機]]

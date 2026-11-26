@@ -13,14 +13,14 @@
 
 ## 二、 創業資金三層防禦結構與公式
 
-```text
-┌────────────────────────────────────────────────────────┐
-│ 1. 開辦資金 (CapEx)：裝潢、押金、設備採購 (一次性支出)   │
-├────────────────────────────────────────────────────────┤
-│ 2. 營運資金 (Working Capital)：固定月開銷 + 變動墊款     │
-├────────────────────────────────────────────────────────┤
-│ 3. 備用週轉金 (Safety Reserve)：黑天鵝極限生存防禦儲備   │
-└────────────────────────────────────────────────────────┘
+```mermaid
+flowchart TD
+    classDef c_blue fill:#1e3a5f,stroke:#60a5fa,stroke-width:2px,color:#ffffff;
+    classDef c_green fill:#143823,stroke:#4ade80,stroke-width:2px,color:#ffffff;
+    classDef c_amber fill:#3d2806,stroke:#fbbf24,stroke-width:2px,color:#ffffff;
+    classDef c_purple fill:#3b1d54,stroke:#c084fc,stroke-width:2px,color:#ffffff;
+    classDef c_red fill:#5c1d24,stroke:#f87171,stroke-width:2px,color:#ffffff;
+    N0_0["1. 開辦資金 （CapEx）：裝潢、押金、設備採購 （一次性支出）<br/>2. 營運資金 （Working Capital）：固定月開銷 + 變動墊款<br/>3. 備用週轉金 （Safety Reserve）：黑天鵝極限生存防禦儲備"]:::c_blue
 ```
 
 ### 白板安全防禦公式：
@@ -48,5 +48,5 @@ $$\text{Cash Runway (月數)} = \frac{\text{可用現金與約當現金}}{\text{
 ---
 
 ## 五、 關聯筆記與概念地圖
-- **核心關聯模組**：[[M2-4_新創財務預測與外部融資需求模型]] ｜ [[M2-1_精實產品開發與服務創新驗證]]
-- **概念地圖對接**：[[AFN_外部融資需求模型 Additional Funds Needed]] ｜ [[BEP_三大損益兩平點分析 Breakeven Analysis]] ｜ [[Duration_Mismatch_算力資產負債天期錯配]]
+- **核心關聯模組**：[[04_主題選修/10_創業與企業財務策略/02_模組筆記/Module_2_產品創新與精實驗證/M2-4_新創財務預測與外部融資需求模型\|M2-4_新創財務預測與外部融資需求模型]] ｜ [[04_主題選修/10_創業與企業財務策略/02_模組筆記/Module_2_產品創新與精實驗證/M2-1_精實產品開發與服務創新驗證\|M2-1_精實產品開發與服務創新驗證]]
+- **概念地圖對接**：[[98_商業概念庫/AFN_外部融資需求模型 Additional Funds Needed\|AFN_外部融資需求模型 Additional Funds Needed]] ｜ [[98_商業概念庫/BEP_三大損益兩平點分析 Breakeven Analysis\|BEP_三大損益兩平點分析 Breakeven Analysis]] ｜ [[98_商業概念庫/Duration_Mismatch_算力資產負債天期錯配\|Duration_Mismatch_算力資產負債天期錯配]]

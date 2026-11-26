@@ -13,19 +13,18 @@
 在健全的公司治理模型中，董事會代表股東利益，對管理團隊行使監督、審計、激勵與撤換職權。然而：
 > **「內部人控制」是指在公司所有權高度分散（或委託人嚴重缺位）的情境下，以執行長 (CEO) 與資深高管為首的「內部人 (Insiders)」，利用資訊壟斷、人事任免特權與日常行政主導權，反客為主實質架空了董事會與外部股東（外部人 Outsiders），使公司實質上淪為管理團隊追求個人權力膨脹、在職消費、利益輸送與在位鞏固的工具。**
 
-```
-【內部人控制架空治理結構模型】
-[全體分散股東 (外部人 Outsiders)] ──> 委託人缺位、搭便車心態、資訊高度不對稱
-                │
-                ▼ (監督徹底失靈)
-┌───────────────────────────────┐
-│       董事會 (虛設橡皮圖章)    │ ── 董事多由內部高管親信擔任，無實質獨立性
-└───────────────┬───────────────┘
-                │ (完全反客為主)
-                ▼
-┌───────────────────────────────┐
-│     內部人控制 (CEO & 高管)   │ ── 操控人事、隱匿虧損、自定天價薪酬、利益輸送
-└───────────────────────────────┘
+**【內部人控制架空治理結構模型】**
+
+```mermaid
+flowchart TD
+    classDef c_blue fill:#1e3a5f,stroke:#60a5fa,stroke-width:2px,color:#ffffff;
+    classDef c_green fill:#143823,stroke:#4ade80,stroke-width:2px,color:#ffffff;
+    classDef c_amber fill:#3d2806,stroke:#fbbf24,stroke-width:2px,color:#ffffff;
+    classDef c_purple fill:#3b1d54,stroke:#c084fc,stroke-width:2px,color:#ffffff;
+    classDef c_red fill:#5c1d24,stroke:#f87171,stroke-width:2px,color:#ffffff;
+    N0_0["董事會 （虛設橡皮圖章）"]:::c_blue
+    N1_0["內部人控制 （CEO & 高管）"]:::c_green
+    N0_0 -->|"（完全反客為主）"| N1_0
 ```
 
 ---
@@ -43,7 +42,7 @@
 | :--- | :--- | :--- |
 | **1. 董事會橡皮圖章化** | CEO 兼任董事長（董事長與總經理二合一），主導提名親信擔任獨董 | 強制落實董事長與 CEO 分離；獨立董事過半數且建立獨立審計委員會 |
 | **2. 在職消費與過度帝國建造** | 購買私人飛機、斥巨資興建奢華總部大樓、盲目追求非理性併購擴張 | 設立嚴格的資本支出審批門檻；自由現金流強制以股利發還股東 |
-| **3. 會計資訊隱匿與財報粉飾** | 利用表外實體 (SPE)、激進收入認列掩蓋虧損，在關鍵任期創造虛假牛市 | 實施薩班斯-奧克斯利法案 (SOX 404)，會計師對[[internal-control-2_內部控制|內部控制]]出具獨立查核報告 |
+| **3. 會計資訊隱匿與財報粉飾** | 利用表外實體 (SPE)、激進收入認列掩蓋虧損，在關鍵任期創造虛假牛市 | 實施薩班斯-奧克斯利法案 (SOX 404)，會計師對[[98_商業概念庫/internal-control-2_內部控制\|內部控制]]出具獨立查核報告 |
 | **4. 毒藥丸與反收購防護過度** | 制定黃金降落傘 (Golden Parachute) 與交錯董事會，阻止外部掠奪者收購 | 賦予機構投資人收購表決權，降低毒藥丸觸發條件的濫用空間 |
 
 ---
@@ -66,12 +65,16 @@
 
 ## 四、 經理人反思與行動檢核清單
 
-```
-                               對抗內部人控制之公司治理防禦
-┌─────────────────────────┬─────────────────────────┬─────────────────────────┐
-│     1. 權力分立制衡     │     2. 審計完全獨立性   │     3. 吹哨者安全通道   │
-│ 董事長與 CEO 職權徹底分離│ 外部審計師直通獨董委員會│ 建立不被高管攔截的密報箱│
-└─────────────────────────┴─────────────────────────┴─────────────────────────┘
+**對抗內部人控制之公司治理防禦**
+
+```mermaid
+flowchart TD
+    classDef c_blue fill:#1e3a5f,stroke:#60a5fa,stroke-width:2px,color:#ffffff;
+    classDef c_green fill:#143823,stroke:#4ade80,stroke-width:2px,color:#ffffff;
+    classDef c_amber fill:#3d2806,stroke:#fbbf24,stroke-width:2px,color:#ffffff;
+    classDef c_purple fill:#3b1d54,stroke:#c084fc,stroke-width:2px,color:#ffffff;
+    classDef c_red fill:#5c1d24,stroke:#f87171,stroke-width:2px,color:#ffffff;
+    N0_0["1. 權力分立制衡     │     2. 審計完全獨立性   │     3. 吹哨者安全通道<br/>董事長與 CEO 職權徹底分離│ 外部審計師直通獨董委員會│ 建立不被高管攔截的密報箱"]:::c_blue
 ```
 
 ### Executive Decision Checklist
@@ -85,7 +88,7 @@
 
 ## 五、 關聯概念與延伸閱讀
 
-- 理論基石：[[agency-problem_代理人問題]] ｜ [[agency-costs_代理成本]] ｜ [[Agency_Theory_Corporate_Governance_代理理論與公司治理]]
-- 制度防禦：[[corporate-governance_公司治理]] ｜ [[internal-control-2_內部控制]] ｜ [[risk-governance_風險控管]]
-- 控制與審計：[[monitoring-and-measurement_監控衡量]] ｜ [[control-process_控制流程]] ｜ [[accounting-principles_會計保守原則]]
-- 組織架構與病理：[[company_公司]] ｜ [[bureaucratic-system_官僚體制]] ｜ [[silo-effect_穀倉效應]]
+- 理論基石：[[98_商業概念庫/agency-problem_代理人問題\|agency-problem_代理人問題]] ｜ [[98_商業概念庫/agency-costs_代理成本\|agency-costs_代理成本]] ｜ [[98_商業概念庫/Agency_Theory_Corporate_Governance_代理理論與公司治理\|Agency_Theory_Corporate_Governance_代理理論與公司治理]]
+- 制度防禦：[[98_商業概念庫/corporate-governance_公司治理\|corporate-governance_公司治理]] ｜ [[98_商業概念庫/internal-control-2_內部控制\|internal-control-2_內部控制]] ｜ [[98_商業概念庫/risk-governance_風險控管\|risk-governance_風險控管]]
+- 控制與審計：[[98_商業概念庫/monitoring-and-measurement_監控衡量\|monitoring-and-measurement_監控衡量]] ｜ [[98_商業概念庫/control-process_控制流程\|control-process_控制流程]] ｜ [[98_商業概念庫/accounting-principles_會計保守原則\|accounting-principles_會計保守原則]]
+- 組織架構與病理：[[98_商業概念庫/company_公司\|company_公司]] ｜ [[98_商業概念庫/bureaucratic-system_官僚體制\|bureaucratic-system_官僚體制]] ｜ [[98_商業概念庫/silo-effect_穀倉效應\|silo-effect_穀倉效應]]

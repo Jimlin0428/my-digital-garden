@@ -11,24 +11,16 @@
 
 超自動化打破了以往僅將自動化局限於「單一部門、孤立任務或機械式複製點擊 (RPA)」的狹隘視角。其核心精髓在於**「認知決策賦能」**——透過生成式 AI 與自主代理 ([[98_商業概念庫/ai-agent_自主代理架構與運作機制\|ai-agent_自主代理架構與運作機制]])，讓自動化系統從過往僵化的「規則執行者 (Rule-based Executors)」，躍升為能夠理解非結構化資料、動態推理、自我修正並協同決策的「數位智慧神經網絡」。
 
-```
-                 【超自動化技術全景架構】
-┌─────────────────────────────────────────────────────────────┐
-│ 【認知與智能決策層 (Cognitive & Decision Layer)】           │
-│  • 大型語言模型 (LLMs) & 語意理解                           │
-│  • 自主代理工作流 ([[Agentic_Workflow_自主代理工作流]])      │
-│  • 預測性機器學習 (ML) 演算法                               │
-├─────────────────────────────────────────────────────────────┤
-│ 【洞察與流程探勘層 (Discovery & Mining Layer)】             │
-│  • 流程探勘 (Process Mining) 與任務探勘 (Task Mining)        │
-│  • 系統瓶頸識別與自動化機會評估                             │
-├─────────────────────────────────────────────────────────────┤
-│ 【執行與整合連接層 (Execution & Orchestration Layer)】       │
-│  • 機器人流程自動化 (RPA Bots)                              │
-│  • 智慧文件處理 (IDP) & OCR                                 │
-│  • 企業 API 閘道器 & iPaaS 跨系統中介軟體                    │
-│  • 低代碼/無代碼快速應用構建 (LCAP)                         │
-└─────────────────────────────────────────────────────────────┘
+**【超自動化技術全景架構】**
+
+```mermaid
+flowchart TD
+    classDef c_blue fill:#1e3a5f,stroke:#60a5fa,stroke-width:2px,color:#ffffff;
+    classDef c_green fill:#143823,stroke:#4ade80,stroke-width:2px,color:#ffffff;
+    classDef c_amber fill:#3d2806,stroke:#fbbf24,stroke-width:2px,color:#ffffff;
+    classDef c_purple fill:#3b1d54,stroke:#c084fc,stroke-width:2px,color:#ffffff;
+    classDef c_red fill:#5c1d24,stroke:#f87171,stroke-width:2px,color:#ffffff;
+    N0_0["【認知與智能決策層 （Cognitive & Decision Layer）】<br/>• 大型語言模型 （LLMs） & 語意理解<br/>• 自主代理工作流 （Agentic_Workflow_自主代理工作流）<br/>• 預測性機器學習 （ML） 演算法<br/>【洞察與流程探勘層 （Discovery & Mining Layer）】<br/>• 流程探勘 （Process Mining） 與任務探勘 （Task Mining）<br/>• 系統瓶頸識別與自動化機會評估<br/>【執行與整合連接層 （Execution & Orchestration Layer）】<br/>• 機器人流程自動化 （RPA Bots）<br/>• 智慧文件處理 （IDP） & OCR<br/>• 企業 API 閘道器 & iPaaS 跨系統中介軟體<br/>• 低代碼/無代碼快速應用構建 （LCAP）"]:::c_blue
 ```
 
 ---

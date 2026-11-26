@@ -45,7 +45,7 @@
 
 核心制約因素包括：
 1. **噪音交易者風險 (Noise Trader Risk)**：凱因斯名言：**「市場維持非理性的時間，往往比你維持不破產的時間更長 (The market can stay irrational longer than you can stay solvent).」** 即使資產已被嚴重低估，非理性散戶可能繼續恐慌拋售，使價差進一步拉大。
-2. **保證金追繳與強制平倉螺旋 ([[margin-system_保證金制度|保證金追繳]])**：套利者多依賴高槓桿。當價差短期擴大時，經理人面臨保證金追加通知 (Margin Call)，若流動性不足將被迫在最底部斬倉認賠。
+2. **保證金追繳與強制平倉螺旋 ([[98_商業概念庫/margin-system_保證金制度\|保證金追繳]])**：套利者多依賴高槓桿。當價差短期擴大時，經理人面臨保證金追加通知 (Margin Call)，若流動性不足將被迫在最底部斬倉認賠。
 3. **委託代理與資本抽離**：套利者管理的不是自己的錢。當短期出現帳面浮虧時，恐慌的投資人 (LPs) 會要求贖回撤資，迫使基金在黎明到來前清盤。
 
 ---
@@ -67,12 +67,16 @@
 
 ## 四、 經理人反思與行動檢核清單
 
-```
-                               套利交易風險壓力測試模型
-┌─────────────────────────┬─────────────────────────┬─────────────────────────┐
-│     1. 流動性跑道檢驗   │     2. 極端價差擴大測試 │     3. 交易對手履約審查 │
-│ 確保能承受 6 個月帳面浮虧│ 模擬價差在收斂前擴大 3 倍│ 評估經紀商是否會臨時拔網線│
-└─────────────────────────┴─────────────────────────┴─────────────────────────┘
+**套利交易風險壓力測試模型**
+
+```mermaid
+flowchart TD
+    classDef c_blue fill:#1e3a5f,stroke:#60a5fa,stroke-width:2px,color:#ffffff;
+    classDef c_green fill:#143823,stroke:#4ade80,stroke-width:2px,color:#ffffff;
+    classDef c_amber fill:#3d2806,stroke:#fbbf24,stroke-width:2px,color:#ffffff;
+    classDef c_purple fill:#3b1d54,stroke:#c084fc,stroke-width:2px,color:#ffffff;
+    classDef c_red fill:#5c1d24,stroke:#f87171,stroke-width:2px,color:#ffffff;
+    N0_0["1. 流動性跑道檢驗   │     2. 極端價差擴大測試 │     3. 交易對手履約審查<br/>確保能承受 6 個月帳面浮虧│ 模擬價差在收斂前擴大 3 倍│ 評估經紀商是否會臨時拔網線"]:::c_blue
 ```
 
 ### Executive Decision Checklist
@@ -86,7 +90,7 @@
 
 ## 五、 關聯概念與延伸閱讀
 
-- 定價與均衡理論：[[no-arbitrage-equilibrium_無套利均衡]] ｜ [[wan-mei-capital-market_完美資本市場]] ｜ [[modigliani-miller-theorem_莫迪利安尼米勒定理]]
-- 衍生品與交易機制：[[financial-derivatives_衍生性金融商品]] ｜ [[margin-system_保證金制度]] ｜ [[settlement_每日結算制度]]
-- 避險與合約工藝：[[interest-rate-swap_利率交換]] ｜ [[currency-swap_貨幣交換]] ｜ [[strategy-2_避險策略]]
-- 風險與失衡防禦：[[investment-risk_投資風險]] ｜ [[value-trap_價值陷阱]] ｜ [[davis-double-whammy_戴維斯雙殺效應]]
+- 定價與均衡理論：[[98_商業概念庫/no-arbitrage-equilibrium_無套利均衡\|no-arbitrage-equilibrium_無套利均衡]] ｜ [[98_商業概念庫/wan-mei-capital-market_完美資本市場\|wan-mei-capital-market_完美資本市場]] ｜ [[98_商業概念庫/modigliani-miller-theorem_莫迪利安尼米勒定理\|modigliani-miller-theorem_莫迪利安尼米勒定理]]
+- 衍生品與交易機制：[[98_商業概念庫/financial-derivatives_衍生性金融商品\|financial-derivatives_衍生性金融商品]] ｜ [[98_商業概念庫/margin-system_保證金制度\|margin-system_保證金制度]] ｜ [[98_商業概念庫/settlement_每日結算制度\|settlement_每日結算制度]]
+- 避險與合約工藝：[[98_商業概念庫/interest-rate-swap_利率交換\|interest-rate-swap_利率交換]] ｜ [[98_商業概念庫/currency-swap_貨幣交換\|currency-swap_貨幣交換]] ｜ [[98_商業概念庫/strategy-2_避險策略\|strategy-2_避險策略]]
+- 風險與失衡防禦：[[98_商業概念庫/investment-risk_投資風險\|investment-risk_投資風險]] ｜ [[98_商業概念庫/value-trap_價值陷阱\|value-trap_價值陷阱]] ｜ [[98_商業概念庫/davis-double-whammy_戴維斯雙殺效應\|davis-double-whammy_戴維斯雙殺效應]]

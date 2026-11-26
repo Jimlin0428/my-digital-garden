@@ -11,15 +11,16 @@
 
 羅傑斯透過跨越農業、醫藥、消費品與資訊科技等數千項實證研究發現：**決定一項創新在市場中擴散速度與最終採納率的，高達 49% 至 87% 取決於潛在用戶對這五大知覺特質的評價，而非客觀工程規格上的優劣！** 理解這五大特質，能讓高階經營團隊在產品研發階段就預先「設計」產品的擴散基因，並在行銷推廣中精準拆除用戶的心理防線。
 
-```
-              【潛在用戶主觀評估】                      【市場擴散結果】
-            ┌────────────────────────┐
-            │ 1. 相對優勢 (正相關)   │
-            │ 2. 相容性   (正相關)   │
-創新產品 ──►│ 3. 複雜性   (負相關)   │ ──────► 擴散速度 (Adoption Rate)
-            │ 4. 可試用性 (正相關)   │         與市場飽和規模
-            │ 5. 可觀察性 (正相關)   │
-            └────────────────────────┘
+**【潛在用戶主觀評估】                      【市場擴散結果】**
+
+```mermaid
+flowchart TD
+    classDef c_blue fill:#1e3a5f,stroke:#60a5fa,stroke-width:2px,color:#ffffff;
+    classDef c_green fill:#143823,stroke:#4ade80,stroke-width:2px,color:#ffffff;
+    classDef c_amber fill:#3d2806,stroke:#fbbf24,stroke-width:2px,color:#ffffff;
+    classDef c_purple fill:#3b1d54,stroke:#c084fc,stroke-width:2px,color:#ffffff;
+    classDef c_red fill:#5c1d24,stroke:#f87171,stroke-width:2px,color:#ffffff;
+    N0_0["1. 相對優勢 （正相關）<br/>2. 相容性   （正相關）<br/>3. 複雜性   （負相關）<br/>4. 可試用性 （正相關）<br/>5. 可觀察性 （正相關）"]:::c_blue
 ```
 
 ---

@@ -15,18 +15,14 @@
 ### 1.1 核心定義
 在公司理財中，企業併購定義為：**買方企業透過現金、發行新股或債務工具，取得目標企業的控制性股權（Equity Acquisition）或核心實體資產（Asset Acquisition），藉以重塑企業組織邊界與競爭優勢之法律與財務程序**。
 
-```
-                    ┌─────────────────────────────────────────────────────────┐
-                    │               企業併購三大維度分類架構                  │
-                    └────────────────────────────┬────────────────────────────┘
-                                                 ▼
-        ┌───────────────────────────────┬───────────────────────────────┐
-        ▼                               ▼                               ▼
-【1. 按產業關聯度分類】          【2. 按交易意願分類】           【3. 按法律交易架構分類】
- • [[horizontal-merger-acquisition_水平併購|水平併購 (同業橫向)]]   • 善意收購 (Friendly)          • 吸收合併 (Merger by Absorption)
- • [[vertical-merger-acquisition_垂直併購|垂直併購 (上下游縱向)]] • 敵意併購 (Hostile Takeover)  • 新設合併 (Consolidation)
- • 多角化併購 (Conglomerate)     • 委託書爭奪戰 (Proxy Fight)   • 股權收購 (Stock Purchase)
-                                                                 • 資產收購 (Asset Purchase)
+```mermaid
+flowchart TD
+    classDef c_blue fill:#1e3a5f,stroke:#60a5fa,stroke-width:2px,color:#ffffff;
+    classDef c_green fill:#143823,stroke:#4ade80,stroke-width:2px,color:#ffffff;
+    classDef c_amber fill:#3d2806,stroke:#fbbf24,stroke-width:2px,color:#ffffff;
+    classDef c_purple fill:#3b1d54,stroke:#c084fc,stroke-width:2px,color:#ffffff;
+    classDef c_red fill:#5c1d24,stroke:#f87171,stroke-width:2px,color:#ffffff;
+    N0_0["企業併購三大維度分類架構"]:::c_blue
 ```
 
 ---
@@ -59,11 +55,11 @@ Phase 1: 戰略定錨與篩選 ──▶ Phase 2: 深入盡調與估值 ──�
 
 ## 4. 關聯概念與延伸閱讀 (Cross References)
 
-- [[acquisition-premium_收購溢價]]：買方支付超出目標公司市場行情的超額對價分析。
-- [[merger-acquisition_併購綜效]]：併購能否創造價值的數學與財務模型。
-- [[merger-acquisition-integration_併購後整合]]：併購案最核心的落地成敗關鍵。
-- [[horizontal-merger-acquisition_水平併購]]：同業併購與反壟斷 HHI 指數審查。
-- [[vertical-merger-acquisition_垂直併購]]：價值鏈上下游整合的垂直併購。
-- [[LBO_槓桿收購與併購基金機制]]：以高槓桿債務工具進行併購的私募股權模式。
-- [[corporate-governance_公司治理]]：防止經理人推動毀滅性自利併購的董事會把關機制。
-- [[home]]：PMBA 知識庫首頁與模組導航。
+- [[98_商業概念庫/acquisition-premium_收購溢價\|acquisition-premium_收購溢價]]：買方支付超出目標公司市場行情的超額對價分析。
+- [[98_商業概念庫/merger-acquisition_併購綜效\|merger-acquisition_併購綜效]]：併購能否創造價值的數學與財務模型。
+- [[98_商業概念庫/merger-acquisition-integration_併購後整合\|merger-acquisition-integration_併購後整合]]：併購案最核心的落地成敗關鍵。
+- [[98_商業概念庫/horizontal-merger-acquisition_水平併購\|horizontal-merger-acquisition_水平併購]]：同業併購與反壟斷 HHI 指數審查。
+- [[98_商業概念庫/vertical-merger-acquisition_垂直併購\|vertical-merger-acquisition_垂直併購]]：價值鏈上下游整合的垂直併購。
+- [[98_商業概念庫/LBO_槓桿收購與併購基金機制\|LBO_槓桿收購與併購基金機制]]：以高槓桿債務工具進行併購的私募股權模式。
+- [[98_商業概念庫/corporate-governance_公司治理\|corporate-governance_公司治理]]：防止經理人推動毀滅性自利併購的董事會把關機制。
+- [[home\|home]]：PMBA 知識庫首頁與模組導航。

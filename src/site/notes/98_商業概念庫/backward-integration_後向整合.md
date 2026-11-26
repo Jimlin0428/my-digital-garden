@@ -15,22 +15,20 @@
 ### 1.1 核心定義
 在企業戰略與供應鏈架構中，後向整合定義為：**企業將採購輸入端（Inputs）的生產流程納入自身產權與管理控制之下，直接掌控產品製造所需的核心要素與技術堆疊**。
 
-```
-                    ┌─────────────────────────────────────────────────────────┐
-                    │               後向整合與企業邊界擴張圖譜                │
-                    └────────────────────────────┬────────────────────────────┘
-                                                 ▼
-        ┌───────────────────┐        ┌───────────────────┐        ┌───────────────────┐
-        │  上游：原物料/零組件  │ ──────▶ │   中游：核心製造商   │ ──────▶ │  下游：分銷/零售/客戶  │
-        └─────────▲─────────┘        └───────────────────┘        └───────────────────┘
-                  │
-                  │ <=== 後向整合 (Backward Integration) ───
-                  │
-        ┌─────────┴─────────┐
-        │ 自建晶片設計/晶圓廠 │
-        │ 掌握特用化學品/鋰礦 │
-        │ 自主研發製造母機設備 │
-        └───────────────────┘
+```mermaid
+flowchart TD
+    classDef c_blue fill:#1e3a5f,stroke:#60a5fa,stroke-width:2px,color:#ffffff;
+    classDef c_green fill:#143823,stroke:#4ade80,stroke-width:2px,color:#ffffff;
+    classDef c_amber fill:#3d2806,stroke:#fbbf24,stroke-width:2px,color:#ffffff;
+    classDef c_purple fill:#3b1d54,stroke:#c084fc,stroke-width:2px,color:#ffffff;
+    classDef c_red fill:#5c1d24,stroke:#f87171,stroke-width:2px,color:#ffffff;
+    N0_0["後向整合與企業邊界擴張圖譜"]:::c_blue
+    N1_0["上游：原物料/零組件"]:::c_green
+    N1_1["中游：核心製造商"]:::c_amber
+    N1_2["下游：分銷/零售/客戶"]:::c_purple
+    N0_0 --> N1_0
+    N0_0 --> N1_1
+    N0_0 --> N1_2
 ```
 
 ### 1.2 經典經濟學基石：交易成本理論（TCE - Coase & Williamson）
@@ -101,7 +99,7 @@ graph TD
 2. **規模不經濟（Dis-economies of Scale & MES Mismatch）**：
    上游資本密集型產業往往具備極高的**最小效率規模（Minimum Efficient Scale, MES）**。例如，一座現代先進半導體晶圓廠需每月數萬片晶圓投片量方能攤提折舊。若企業自身需求無法填滿產能，單位成本將顯著高於台積電等專業代工廠。
 3. **垂直鎖定效應（Vertical Lock-in & Flexibility Loss）**：
-   當新興技術或替代材料出現時，已完成後向整合的企業往往因不願報廢既有工廠資產，產生[[sunk-cost_沉沒成本|沉沒成本謬誤]]，遲遲不肯轉向新技術，形成戰略包袱。
+   當新興技術或替代材料出現時，已完成後向整合的企業往往因不願報廢既有工廠資產，產生[[98_商業概念庫/sunk-cost_沉沒成本\|沉沒成本謬誤]]，遲遲不肯轉向新技術，形成戰略包袱。
 
 ---
 
@@ -155,10 +153,10 @@ graph TD
 
 ## 6. 關聯概念與延伸閱讀 (Cross References)
 
-- [[forward-integration_前向整合]]：企業向價值鏈下游的通路與客戶服務端延伸。
-- [[TCE_Transaction_Cost_Economics_交易成本理論]]：資產專屬性、有限理性與伺機主義對企業邊界的嚴密推導。
-- [[Virtual_Integration_虛擬整合與資源槓桿]]：戴爾（Dell）等企業利用資訊透明度取代產權實體擁有的混合治理機制。
-- [[vertical-merger-acquisition_垂直併購]]：以收購上游供應商為手段的法律反壟斷審查與投入封鎖爭議。
-- [[Firm_Value_Chain_企業價值鏈]]：波特價值鏈內部物流與生產作業分析。
-- [[merger-acquisition-integration_併購後整合]]：收購上游零組件廠後的跨文化與系統整合要務。
-- [[home]]：PMBA 知識庫首頁與模組導航。
+- [[98_商業概念庫/forward-integration_前向整合\|forward-integration_前向整合]]：企業向價值鏈下游的通路與客戶服務端延伸。
+- [[98_商業概念庫/TCE_Transaction_Cost_Economics_交易成本理論\|TCE_Transaction_Cost_Economics_交易成本理論]]：資產專屬性、有限理性與伺機主義對企業邊界的嚴密推導。
+- [[98_商業概念庫/Virtual_Integration_虛擬整合與資源槓桿\|Virtual_Integration_虛擬整合與資源槓桿]]：戴爾（Dell）等企業利用資訊透明度取代產權實體擁有的混合治理機制。
+- [[98_商業概念庫/vertical-merger-acquisition_垂直併購\|vertical-merger-acquisition_垂直併購]]：以收購上游供應商為手段的法律反壟斷審查與投入封鎖爭議。
+- [[98_商業概念庫/Firm_Value_Chain_企業價值鏈\|Firm_Value_Chain_企業價值鏈]]：波特價值鏈內部物流與生產作業分析。
+- [[98_商業概念庫/merger-acquisition-integration_併購後整合\|merger-acquisition-integration_併購後整合]]：收購上游零組件廠後的跨文化與系統整合要務。
+- [[home\|home]]：PMBA 知識庫首頁與模組導航。

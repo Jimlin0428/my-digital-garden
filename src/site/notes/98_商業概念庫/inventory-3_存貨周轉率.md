@@ -16,16 +16,14 @@ $$\text{Inventory Turnover} = \frac{\text{銷貨成本 (Cost of Goods Sold, COGS
 
 $$\text{存貨週轉天數 (DSI)} = \frac{365}{\text{Inventory Turnover}} = \frac{\text{平均存貨}}{\text{COGS}} \times 365$$
 
-```
-                   ┌─────────────────────────────────────────────────────────┐
-                   │             存貨周轉率分子分母正確性對照                │
-                   └────────────────────────────┬────────────────────────────┘
-                                                ▼
-       ┌────────────────────────────────────────┴────────────────────────────────────────┐
-       ▼ 正確規範：採用【銷貨成本 (COGS)】     ▼ 常見錯誤：採用【營業收入 (Revenue)】    │
-    • 存貨按歷史成本 (Cost) 計價入帳          • 營業收入包含銷售毛利加價 (Mark-up)       │
-    • 分子分母計價基礎一致 (Cost-to-Cost)     • 虛增分子，人為誇大周轉率 20%~50%         │
-    • 真實反映存貨被實體銷耗的速度            • 扭曲跨產業庫存管理效率比較               │
+```mermaid
+flowchart TD
+    classDef c_blue fill:#1e3a5f,stroke:#60a5fa,stroke-width:2px,color:#ffffff;
+    classDef c_green fill:#143823,stroke:#4ade80,stroke-width:2px,color:#ffffff;
+    classDef c_amber fill:#3d2806,stroke:#fbbf24,stroke-width:2px,color:#ffffff;
+    classDef c_purple fill:#3b1d54,stroke:#c084fc,stroke-width:2px,color:#ffffff;
+    classDef c_red fill:#5c1d24,stroke:#f87171,stroke-width:2px,color:#ffffff;
+    N0_0["存貨周轉率分子分母正確性對照"]:::c_blue
 ```
 
 ---
@@ -34,15 +32,15 @@ $$\text{存貨週轉天數 (DSI)} = \frac{365}{\text{Inventory Turnover}} = \fra
 
 | 指標表現 | 戰略優勢 (Pros) | 潛在隱患與代價 (Cons) |
 | :--- | :--- | :--- |
-| **周轉率極高**<br>(DSI 極短) | • 資金佔用極小，[[net-working-capital_淨營運資金|淨營運資金（NWC）]]極度精簡<br>• 倉儲租金、保險與搬運成本最低<br>• 幾乎零[[inventory-2_存貨跌價損失|存貨跌價損失]]與過期報廢風險 | • 安全庫存不足，隨時面臨缺貨斷供（Stockout）<br>• 失去大批量採購折扣（Volume Discounts）<br>• 緊急追單與急件物流推升運輸成本 |
-| **周轉率過低**<br>(DSI 嚴重拉長) | • 現貨供應充足，隨時滿足客戶即時下單<br>• 批量生產壓低單件固定製造費用分攤<br>• 防禦上游原物料通膨漲價之囤貨效益 | • 巨額現金鎖死在倉庫，引發[[insolvency-with-profit_黑字倒閉|黑字倒閉]]<br>• 跌價減損提列重創毛利率<br>• 掩蓋生產排程混亂與品質良率缺陷 |
+| **周轉率極高**<br>(DSI 極短) | • 資金佔用極小，[[98_商業概念庫/net-working-capital_淨營運資金\|淨營運資金（NWC）]]極度精簡<br>• 倉儲租金、保險與搬運成本最低<br>• 幾乎零[[98_商業概念庫/inventory-2_存貨跌價損失\|存貨跌價損失]]與過期報廢風險 | • 安全庫存不足，隨時面臨缺貨斷供（Stockout）<br>• 失去大批量採購折扣（Volume Discounts）<br>• 緊急追單與急件物流推升運輸成本 |
+| **周轉率過低**<br>(DSI 嚴重拉長) | • 現貨供應充足，隨時滿足客戶即時下單<br>• 批量生產壓低單件固定製造費用分攤<br>• 防禦上游原物料通膨漲價之囤貨效益 | • 巨額現金鎖死在倉庫，引發[[98_商業概念庫/insolvency-with-profit_黑字倒閉\|黑字倒閉]]<br>• 跌價減損提列重創毛利率<br>• 掩蓋生產排程混亂與品質良率缺陷 |
 
 ---
 
 ## 3. 關聯概念與延伸閱讀 (Cross References)
 
-- [[inventory-turnover-tian-shu_存貨週轉天數]]：存貨周轉率的天數轉譯指標（DSI）。
-- [[inventory-2_存貨跌價損失]]：庫存週轉不靈時之會計減損提列。
-- [[cash-switching-cycle_現金轉換週期]]：存貨天數、應收天數與應付天數的現金循環模型。
-- [[dupont-analysis_杜邦分析法]]：資產周轉率驅動 ROE 之分解。
-- [[home]]：PMBA 知識庫首頁與模組導航。
+- [[98_商業概念庫/inventory-turnover-tian-shu_存貨週轉天數\|inventory-turnover-tian-shu_存貨週轉天數]]：存貨周轉率的天數轉譯指標（DSI）。
+- [[98_商業概念庫/inventory-2_存貨跌價損失\|inventory-2_存貨跌價損失]]：庫存週轉不靈時之會計減損提列。
+- [[98_商業概念庫/cash-switching-cycle_現金轉換週期\|cash-switching-cycle_現金轉換週期]]：存貨天數、應收天數與應付天數的現金循環模型。
+- [[98_商業概念庫/dupont-analysis_杜邦分析法\|dupont-analysis_杜邦分析法]]：資產周轉率驅動 ROE 之分解。
+- [[home\|home]]：PMBA 知識庫首頁與模組導航。

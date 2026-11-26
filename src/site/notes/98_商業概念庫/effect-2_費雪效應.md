@@ -54,21 +54,16 @@ $$\frac{S_1 - S_0}{S_0} \approx i_A - i_B$$
 
 在建立長期專案折現模型 (DCF) 時，費雪效應要求財務團隊嚴格遵守**「同頻匹配鐵律」**：
 
-```
-                      【資本預算通膨折現配對矩陣】
-┌─────────────────────────────────────────────────────────────┐
-│ 模式一：名目分析架構 (Nominal Approach) ◄── (全球最通用標準) │
-│                                                             │
-│       名目預期現金流量 (含未來預期每年物價與薪資調漲)        │
-│ NPV ＝ ∑ ──────────────────────────────────────────────     │
-│             (1 ＋ 名目資本成本 WACC_nominal)^t              │
-├─────────────────────────────────────────────────────────────┤
-│ 模式二：實質分析架構 (Real Approach)                        │
-│                                                             │
-│       實質預期現金流量 (剔除通膨，以當期恆定購買力計價)     │
-│ NPV ＝ ∑ ──────────────────────────────────────────────     │
-│             (1 ＋ 實質資本成本 WACC_real)^t                 │
-└─────────────────────────────────────────────────────────────┘
+**【資本預算通膨折現配對矩陣】**
+
+```mermaid
+flowchart TD
+    classDef c_blue fill:#1e3a5f,stroke:#60a5fa,stroke-width:2px,color:#ffffff;
+    classDef c_green fill:#143823,stroke:#4ade80,stroke-width:2px,color:#ffffff;
+    classDef c_amber fill:#3d2806,stroke:#fbbf24,stroke-width:2px,color:#ffffff;
+    classDef c_purple fill:#3b1d54,stroke:#c084fc,stroke-width:2px,color:#ffffff;
+    classDef c_red fill:#5c1d24,stroke:#f87171,stroke-width:2px,color:#ffffff;
+    N0_0["模式一：名目分析架構 （Nominal Approach） ◄── （全球最通用標準）<br/>名目預期現金流量 （含未來預期每年物價與薪資調漲）<br/>NPV ＝ ∑ ──────────────────────────────────────────────<br/>（1 ＋ 名目資本成本 WACC_nominal）^t<br/>模式二：實質分析架構 （Real Approach）<br/>實質預期現金流量 （剔除通膨，以當期恆定購買力計價）<br/>NPV ＝ ∑ ──────────────────────────────────────────────<br/>（1 ＋ 實質資本成本 WACC_real）^t"]:::c_blue
 ```
 
 - **等價定理**：若利率轉換嚴格遵循費雪精確方程式，**模式一與模式二計算出的專案淨現值 ($NPV$) 在數學上百分之百完全相等！**
@@ -103,7 +98,7 @@ $$\frac{S_1 - S_0}{S_0} \approx i_A - i_B$$
 
 1. **「負實質利率」下的資產負債管理失誤**：當名目利率低於通貨膨脹率時（即 $i < \pi$，實質利率為負），銀行存款的真實購買力正在被通膨悄悄洗劫。經理人若盲目囤積巨額現金存量而不進行實體產能投資或償還高息債務，將產生巨大的隱性股東價值侵蝕。
 2. **忽視各項成本「非均勻通膨 (Non-uniform Inflation)」**：在預測名目現金流時，粗暴地對所有項目乘以單一的 CPI 通膨率。事實上，在通膨期間，原物料、工資與產品終端售價的漲幅往往極度分化（成本漲 10%，售價因競爭只能漲 3%），引發毛利率嚴重擠壓。
-3. **混淆「費雪交叉點」與「費雪效應」**：兩者皆由歐文·費雪命名，但**費雪交叉點 ([[fisher-intersection_費雪交叉點]])** 探討的是兩互斥專案 NPV 相等的折現率；而**費雪效應**探討的是名目與實質利率之宏觀通膨定價機制，不可張冠李戴。
+3. **混淆「費雪交叉點」與「費雪效應」**：兩者皆由歐文·費雪命名，但**費雪交叉點 ([[98_商業概念庫/fisher-intersection_費雪交叉點\|fisher-intersection_費雪交叉點]])** 探討的是兩互斥專案 NPV 相等的折現率；而**費雪效應**探討的是名目與實質利率之宏觀通膨定價機制，不可張冠李戴。
 
 ---
 
@@ -119,5 +114,5 @@ $$\frac{S_1 - S_0}{S_0} \approx i_A - i_B$$
 
 ## 🔗 延伸閱讀與深度雙向維基連結
 
-- 關聯概念：[[time-value-2_貨幣時間價值]] ｜ [[double-counting-fallacy_雙重計算陷阱]] ｜ [[fisher-intersection_費雪交叉點]] ｜ [[wacc_加權平均資本成本]] ｜ [[NPV_淨現值法 _Net Present Value]]
-- 延伸課題：[[free-cash-flow_自由現金流量]] ｜ [[investment-risk_投資風險]] ｜ [[operating-cycle_營業週期]] ｜ [[bep-break-even-point_損益平衡點]]
+- 關聯概念：[[98_商業概念庫/time-value-2_貨幣時間價值\|time-value-2_貨幣時間價值]] ｜ [[98_商業概念庫/double-counting-fallacy_雙重計算陷阱\|double-counting-fallacy_雙重計算陷阱]] ｜ [[98_商業概念庫/fisher-intersection_費雪交叉點\|fisher-intersection_費雪交叉點]] ｜ [[98_商業概念庫/wacc_加權平均資本成本\|wacc_加權平均資本成本]] ｜ [[98_商業概念庫/NPV_淨現值法 _Net Present Value\|NPV_淨現值法 _Net Present Value]]
+- 延伸課題：[[98_商業概念庫/free-cash-flow_自由現金流量\|free-cash-flow_自由現金流量]] ｜ [[98_商業概念庫/investment-risk_投資風險\|investment-risk_投資風險]] ｜ [[98_商業概念庫/operating-cycle_營業週期\|operating-cycle_營業週期]] ｜ [[98_商業概念庫/bep-break-even-point_損益平衡點\|bep-break-even-point_損益平衡點]]

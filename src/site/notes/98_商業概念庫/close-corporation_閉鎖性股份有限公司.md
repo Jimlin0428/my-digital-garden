@@ -37,7 +37,7 @@
 | **1. 股份轉讓限制條款 (Transfer Restrictions)** | 股東欲出售股份時，必須獲得董事會同意，或給予其他股東**優先購買權 (Right of First Refusal, ROFR)**。 | 防止離職員工將股權賣給惡意競爭對手，維持內部成員人合性純潔。 |
 | **2. 複數表決權特別股 (Super-Voting Shares)** | 發行 1 股享有 10 票或 20 票表決權的特別股（即雙層股權結構 Dual-Class）。 | 創辦人即使股權被稀釋至 10%，仍能牢牢掌控 50% 以上表決權（如 Google、Meta）。 |
 | **3. 特定事項否決權特別股 (Golden Shares)** | 針對重大資產出售、公司解散、CEO 人選變更等特定議案，享有單獨一票否決權。 | 賦予領投 VC 或核心靈魂創辦人對關鍵戰略的最後煞車權。 |
-| **4. 非比例分紅與清算優先權** | 特別股股東可享有優先於普通股的分紅權利，或破產時按投資額 $1\times$ 至 $2\times$ 優先取回本金。 | 滿足創投機構在[[term-sheet_投資意向書 Term Sheet]]中的下行風險保護訴求。 |
+| **4. 非比例分紅與清算優先權** | 特別股股東可享有優先於普通股的分紅權利，或破產時按投資額 $1\times$ 至 $2\times$ 優先取回本金。 | 滿足創投機構在[[98_商業概念庫/term-sheet_投資意向書 Term Sheet\|term-sheet_投資意向書 Term Sheet]]中的下行風險保護訴求。 |
 | **5. 表決權拘束契約與表決權信託** | 股東之間簽署合約，承諾在股東會上就特定議案採取一致行動；或將表決權委託單一受託人。 | 團結少數創始股東投票部隊，形成堅不可摧的投票一致行動同盟。 |
 | **6. 無面額股制度 (No-Par Value Stock)** | 股票不再標註新台幣 10 元面額，出資額可自由定價為 0.01 元或 100 元。 | 創辦團隊可以超低資金成本換取大量原始股數，杜絕折價發行法規障礙。 |
 
@@ -79,12 +79,16 @@ OpenAI 在其發展初期為了確保人工通用智慧 (AGI) 的安全與自主
 
 ## 四、 經理人反思與行動檢核清單
 
-```
-                               閉鎖性股權架構設計檢核
-┌─────────────────────────┬─────────────────────────┬─────────────────────────┐
-│     1. 轉讓限制明確化   │     2. 控制權工具多元化 │     3. 轉換與出場通道預留│
-│ 章程明訂優先購買與審批權│ 依創始人特長配置否決權  │ 預約未來 IPO 轉換為一般股│
-└─────────────────────────┴─────────────────────────┴─────────────────────────┘
+**閉鎖性股權架構設計檢核**
+
+```mermaid
+flowchart TD
+    classDef c_blue fill:#1e3a5f,stroke:#60a5fa,stroke-width:2px,color:#ffffff;
+    classDef c_green fill:#143823,stroke:#4ade80,stroke-width:2px,color:#ffffff;
+    classDef c_amber fill:#3d2806,stroke:#fbbf24,stroke-width:2px,color:#ffffff;
+    classDef c_purple fill:#3b1d54,stroke:#c084fc,stroke-width:2px,color:#ffffff;
+    classDef c_red fill:#5c1d24,stroke:#f87171,stroke-width:2px,color:#ffffff;
+    N0_0["1. 轉讓限制明確化   │     2. 控制權工具多元化 │     3. 轉換與出場通道預留<br/>章程明訂優先購買與審批權│ 依創始人特長配置否決權  │ 預約未來 IPO 轉換為一般股"]:::c_blue
 ```
 
 ### Executive Decision Checklist
@@ -98,7 +102,7 @@ OpenAI 在其發展初期為了確保人工通用智慧 (AGI) 的安全與自主
 
 ## 五、 關聯概念與延伸閱讀
 
-- 核心公司法理論：[[company_公司]] ｜ [[limited-liability_有限責任]]
-- 股權與募資實務：[[cap-table_股權結構表 Cap Table]] ｜ [[term-sheet_投資意向書 Term Sheet]] ｜ [[seed-stage_種子初創期]]
-- 治理與控制：[[corporate-governance_公司治理]] ｜ [[internal-control_內部人控制]] ｜ [[agency-costs_代理成本]]
-- 資本退場與融資：[[VC]] ｜ [[exit-strategy_出場機制 Exit Strategy]] ｜ [[bootstrapping-finance_自籌資金]]
+- 核心公司法理論：[[98_商業概念庫/company_公司\|company_公司]] ｜ [[98_商業概念庫/limited-liability_有限責任\|limited-liability_有限責任]]
+- 股權與募資實務：[[98_商業概念庫/cap-table_股權結構表 Cap Table\|cap-table_股權結構表 Cap Table]] ｜ [[98_商業概念庫/term-sheet_投資意向書 Term Sheet\|term-sheet_投資意向書 Term Sheet]] ｜ [[98_商業概念庫/seed-stage_種子初創期\|seed-stage_種子初創期]]
+- 治理與控制：[[98_商業概念庫/corporate-governance_公司治理\|corporate-governance_公司治理]] ｜ [[98_商業概念庫/internal-control_內部人控制\|internal-control_內部人控制]] ｜ [[98_商業概念庫/agency-costs_代理成本\|agency-costs_代理成本]]
+- 資本退場與融資：[[98_商業概念庫/VC\|VC]] ｜ [[98_商業概念庫/exit-strategy_出場機制 Exit Strategy\|exit-strategy_出場機制 Exit Strategy]] ｜ [[98_商業概念庫/bootstrapping-finance_自籌資金\|bootstrapping-finance_自籌資金]]

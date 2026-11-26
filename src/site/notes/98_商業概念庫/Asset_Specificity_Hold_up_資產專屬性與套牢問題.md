@@ -13,21 +13,22 @@
 
 ## 二、 資產專屬性四大類型矩陣
 
-```
-                    ┌──────────────────────────────────────────────┐
-                    │          資產專屬性 (Asset Specificity)      │
-                    └──────────────────────┬───────────────────────┘
-                                           │
-        ┌───────────────────┬──────────────┴──────┬───────────────────┐
-        ▼                   ▼                     ▼                   ▼
-┌───────────────┐   ┌───────────────┐     ┌───────────────┐   ┌───────────────┐
-│ 1. 地點專屬性 │   │ 2. 實體專屬性 │     │ 3. 人力專屬性 │   │ 4. 專用資產   │
-│(Site Specific)│   │  (Physical)   │     │    (Human)    │   │  (Dedicated)  │
-├───────────────┤   ├───────────────┤     ├───────────────┤   ├───────────────┤
-│• 緊鄰客戶設廠 │   │• 專用模具機台 │     │• 專屬企業常規 │   │• 為單一客戶擴 │
-│• 節省長途運費 │   │• 無法改做它用 │     │• 離職後價值減 │   │  建超額產能   │
-│• 搬遷成本毀滅 │   │• 殘值低如廢鐵 │     │• 專門組織技能 │   │• 抽單即面臨閒 │
-└───────────────┘   └───────────────┘     └───────────────┘   └───────────────┘
+```mermaid
+flowchart TD
+    classDef c_blue fill:#1e3a5f,stroke:#60a5fa,stroke-width:2px,color:#ffffff;
+    classDef c_green fill:#143823,stroke:#4ade80,stroke-width:2px,color:#ffffff;
+    classDef c_amber fill:#3d2806,stroke:#fbbf24,stroke-width:2px,color:#ffffff;
+    classDef c_purple fill:#3b1d54,stroke:#c084fc,stroke-width:2px,color:#ffffff;
+    classDef c_red fill:#5c1d24,stroke:#f87171,stroke-width:2px,color:#ffffff;
+    N0_0["資產專屬性 （Asset Specificity）"]:::c_blue
+    N1_0["1. 地點專屬性<br/>（Site Specific）<br/>• 緊鄰客戶設廠<br/>• 節省長途運費<br/>• 搬遷成本毀滅"]:::c_green
+    N1_1["2. 實體專屬性<br/>（Physical）<br/>• 專用模具機台<br/>• 無法改做它用<br/>• 殘值低如廢鐵"]:::c_amber
+    N1_2["3. 人力專屬性<br/>（Human）<br/>• 專屬企業常規<br/>• 離職後價值減<br/>• 專門組織技能"]:::c_purple
+    N1_3["4. 專用資產<br/>（Dedicated）<br/>• 為單一客戶擴<br/>建超額產能<br/>• 抽單即面臨閒"]:::c_red
+    N0_0 --> N1_0
+    N0_0 --> N1_1
+    N0_0 --> N1_2
+    N0_0 --> N1_3
 ```
 
 ---

@@ -13,22 +13,18 @@
 
 ## 二、 總部治理之兩難與病理學
 
-```
-                    ┌──────────────────────────────────────────────┐
-                    │          企業總部治理的兩大病態端點          │
-                    └──────────────────────┬───────────────────────┘
-                                           │
-        ┌──────────────────────────────────┴──────────────────────────────────┐
-        ▼                                                                     ▼
-┌──────────────────────────┐                               ┌──────────────────────────┐
-│  【病態端點一：頭重腳輕】 │                               │  【病態端點二：頭輕腳重】 │
-│  (Top-heavy Bureaucracy) │                               │  (Bottom-heavy Anarchy)  │
-├──────────────────────────┤                               ├──────────────────────────┤
-│• 總部編制臃腫、養大批閒官│                               │• 總部功能極度缺位弱化    │
-│• 淪為「犯錯老臣之冷宮」  │                               │• 重兵部署 BU，各自為政   │
-│• 只會設計空白表格催交報告│                               │• 無人負責看第二成長曲線  │
-│• 阻礙第一線前線業務靈活性│                               │• 各 BU 產品重疊、內部互撕│
-└──────────────────────────┘                               └──────────────────────────┘
+```mermaid
+flowchart TD
+    classDef c_blue fill:#1e3a5f,stroke:#60a5fa,stroke-width:2px,color:#ffffff;
+    classDef c_green fill:#143823,stroke:#4ade80,stroke-width:2px,color:#ffffff;
+    classDef c_amber fill:#3d2806,stroke:#fbbf24,stroke-width:2px,color:#ffffff;
+    classDef c_purple fill:#3b1d54,stroke:#c084fc,stroke-width:2px,color:#ffffff;
+    classDef c_red fill:#5c1d24,stroke:#f87171,stroke-width:2px,color:#ffffff;
+    N0_0["企業總部治理的兩大病態端點"]:::c_blue
+    N1_0["【病態端點一：頭重腳輕】<br/>（Top-heavy Bureaucracy）<br/>• 總部編制臃腫、養大批閒官<br/>• 淪為「犯錯老臣之冷宮」<br/>• 只會設計空白表格催交報告<br/>• 阻礙第一線前線業務靈活性"]:::c_green
+    N1_1["【病態端點二：頭輕腳重】<br/>（Bottom-heavy Anarchy）<br/>• 總部功能極度缺位弱化<br/>• 重兵部署 BU，各自為政<br/>• 無人負責看第二成長曲線<br/>• 各 BU 產品重疊、內部互撕"]:::c_amber
+    N0_0 --> N1_0
+    N0_0 --> N1_1
 ```
 
 ---

@@ -21,17 +21,14 @@ $$\Delta\text{NWC}_t = \text{Operating NWC}_t - \text{Operating NWC}_{t-1}$$
 
 $$\Delta\text{NWC} = (\Delta\text{應收帳款} + \Delta\text{存貨} + \Delta\text{預付款}) - (\Delta\text{應付帳款} + \Delta\text{應計未付費用} + \Delta\text{合約負債/預收款})$$
 
-```
-                   ┌────────────────────────────────────────┐
-                   │    淨營運資金變動對現金流的調節機制    │
-                   └───────────────────┬────────────────────┘
-                                       ▼
-       ┌───────────────────────────────┴───────────────────────────────┐
-       ▼                                                               ▼
-【$\Delta\text{NWC} > 0$：營運資金追加 (Cash Outflow)】         【$\Delta\text{NWC} < 0$：營運資金釋放 (Cash Inflow)】
- • 應收帳款增加 / 存貨大量積壓                                  • 加速催收應收帳款 / 庫存精確出清
- • 現金被鎖死在供應鏈中                                         • 供應商帳期拉長 / 預收訂單款增加
- • 扣減當期現金流：FCFF 與 CFO 減少                             • 增加當期現金流：FCFF 與 CFO 增加
+```mermaid
+flowchart TD
+    classDef c_blue fill:#1e3a5f,stroke:#60a5fa,stroke-width:2px,color:#ffffff;
+    classDef c_green fill:#143823,stroke:#4ade80,stroke-width:2px,color:#ffffff;
+    classDef c_amber fill:#3d2806,stroke:#fbbf24,stroke-width:2px,color:#ffffff;
+    classDef c_purple fill:#3b1d54,stroke:#c084fc,stroke-width:2px,color:#ffffff;
+    classDef c_red fill:#5c1d24,stroke:#f87171,stroke-width:2px,color:#ffffff;
+    N0_0["淨營運資金變動對現金流的調節機制"]:::c_blue
 ```
 
 ### 1.2 本質解析：成長型企業的「現金失血黑洞 (Overtrading)」
@@ -148,18 +145,18 @@ gantt
 ## 7. 關聯知識網絡與導航地圖 (Knowledge Network & Cross-References)
 
 ### 7.1 本主題核心三部曲
-- **[[net-working-capital_淨營運資金]]** · 營業 NWC 與會計 NWC 辨析、短期償債三道防線與資本沉澱成本
-- **[[working-capital-management_營運資金管理]]** · 配合型、激進型與保守型三大資產融資政策博弈
-- **[[changes-in-net-working-capital_淨營運資金變動]]** · 現金流量調節閥、CCC 現金循環週期聯動與「無獲利成長」陷阱（本篇）
+- **[[98_商業概念庫/net-working-capital_淨營運資金\|net-working-capital_淨營運資金]]** · 營業 NWC 與會計 NWC 辨析、短期償債三道防線與資本沉澱成本
+- **[[98_商業概念庫/working-capital-management_營運資金管理\|working-capital-management_營運資金管理]]** · 配合型、激進型與保守型三大資產融資政策博弈
+- **[[98_商業概念庫/changes-in-net-working-capital_淨營運資金變動\|changes-in-net-working-capital_淨營運資金變動]]** · 現金流量調節閥、CCC 現金循環週期聯動與「無獲利成長」陷阱（本篇）
 
 ### 7.2 跨領域財務與策略鏈結
-- [[enterprise-free-cash-flow-liang_企業自由現金流量]] · $\Delta\text{NWC}$ 作為計算 FCFF 與企業價值的核心扣除項
-- [[operating-cash-flow-statement_營業活動現金流量]] · 間接法調和中流動資產負債科目增減的現金流映射
-- [[CCC_現金循環週期 Cash Conversion Cycle]] · 決定 $\Delta\text{NWC}$ 敏感度與資金周轉效率的最底層量化指標
-- [[unit-economics-model_單位經濟模型]] · 警惕單元微觀毛利被宏觀營運資金追加侵蝕之擴張陷阱
-- [[net-working-capital-2_淨營運資金回收]] · 資本預算專案終期之營運資金回流機制
+- [[98_商業概念庫/enterprise-free-cash-flow-liang_企業自由現金流量\|enterprise-free-cash-flow-liang_企業自由現金流量]] · $\Delta\text{NWC}$ 作為計算 FCFF 與企業價值的核心扣除項
+- [[98_商業概念庫/operating-cash-flow-statement_營業活動現金流量\|operating-cash-flow-statement_營業活動現金流量]] · 間接法調和中流動資產負債科目增減的現金流映射
+- [[98_商業概念庫/CCC_現金循環週期 Cash Conversion Cycle\|CCC_現金循環週期 Cash Conversion Cycle]] · 決定 $\Delta\text{NWC}$ 敏感度與資金周轉效率的最底層量化指標
+- [[98_商業概念庫/unit-economics-model_單位經濟模型\|unit-economics-model_單位經濟模型]] · 警惕單元微觀毛利被宏觀營運資金追加侵蝕之擴張陷阱
+- [[98_商業概念庫/net-working-capital-2_淨營運資金回收\|net-working-capital-2_淨營運資金回收]] · 資本預算專案終期之營運資金回流機制
 
 ### 7.3 課程筆記與導航主頁
-- [[L09_資本結構理論與決策]] · 財務策略模組九：現金流預測與營運資本動態管理
-- [[_創業與企業財務策略 MOC]] · 企業財務策略與資本市場運作全景地圖
-- [[home]] · 全球 PMBA 知識庫總導航主頁面
+- [[02_核心必修/01_財務管理/L09_資本結構理論與決策\|L09_資本結構理論與決策]] · 財務策略模組九：現金流預測與營運資本動態管理
+- [[04_主題選修/10_創業與企業財務策略/_歷史版本封存/_創業與企業財務策略 MOC\|_創業與企業財務策略 MOC]] · 企業財務策略與資本市場運作全景地圖
+- [[home\|home]] · 全球 PMBA 知識庫總導航主頁面

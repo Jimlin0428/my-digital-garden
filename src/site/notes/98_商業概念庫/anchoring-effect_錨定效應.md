@@ -74,18 +74,22 @@ $$
 
 ## 四、 經理人反思與行動檢核清單
 
-```
-                               經理人去錨定 (De-anchoring) 防禦框架
-┌─────────────────────────┬─────────────────────────┬─────────────────────────┐
-│     1. 識別隱性錨點     │     2. 反向思考重構     │     3. 制度隔離程序     │
-│ 標記首個報價與歷史數據  │ 強制尋找支持相反結論證據│ 採用盲審與零基預算機制  │
-└─────────────────────────┴─────────────────────────┴─────────────────────────┘
+**經理人去錨定 (De-anchoring) 防禦框架**
+
+```mermaid
+flowchart TD
+    classDef c_blue fill:#1e3a5f,stroke:#60a5fa,stroke-width:2px,color:#ffffff;
+    classDef c_green fill:#143823,stroke:#4ade80,stroke-width:2px,color:#ffffff;
+    classDef c_amber fill:#3d2806,stroke:#fbbf24,stroke-width:2px,color:#ffffff;
+    classDef c_purple fill:#3b1d54,stroke:#c084fc,stroke-width:2px,color:#ffffff;
+    classDef c_red fill:#5c1d24,stroke:#f87171,stroke-width:2px,color:#ffffff;
+    N0_0["1. 識別隱性錨點     │     2. 反向思考重構     │     3. 制度隔離程序<br/>標記首個報價與歷史數據  │ 強制尋找支持相反結論證據│ 採用盲審與零基預算機制"]:::c_blue
 ```
 
 ### Executive Decision Checklist
 - [ ] **談判主動出擊**：在具備充分估值基礎的商務談判中，我們是否敢於「先發制人提出第一個合理且雄心勃勃的報價」，將談判錨定在對我方有利的區間？
 - [ ] **警惕對手先發定錨**：當對方提出極端報價時，我們是否立即要求對方撤回報價或重置談判基準，堅決避免在對方的錨點基礎上進行微調？
-- [ ] **零基預算檢驗**：年度預算編列時，部門是否習慣性將「去年預算」作為自動錨點？是否針對重大專案推行「[[capital-budgeting_資本預算|零基資本預算 (Zero-Based Budgeting)]]」？
+- [ ] **零基預算檢驗**：年度預算編列時，部門是否習慣性將「去年預算」作為自動錨點？是否針對重大專案推行「[[98_商業概念庫/capital-budgeting_資本預算\|零基資本預算 (Zero-Based Budgeting)]]」？
 - [ ] **反向情境構思 (Consider the Opposite)**：在重大投資審查前，團隊是否刻意提出「若市場規模僅有預期的一半，真實估值是多少？」以打破樂觀財務模型錨點？
 - [ ] **盲審機制落實**：在評估關鍵供應商技術方案或高階人才招募時，是否隱去品牌名稱與過往薪資歷史，使評審委員基於客觀客製化指標給分？
 
@@ -93,7 +97,7 @@ $$
 
 ## 五、 關聯概念與延伸閱讀
 
-- 理論基石：[[bounded-rationality_有限理性]] ｜ [[cognitive-bias_認知偏誤]]
-- 決策與判斷：[[satisficing-decision_滿意決策]] ｜ [[rational-decision-model_理性決策模型]] ｜ [[Prospect_Theory_Executive_Risk_展望理論與高管風險決策]]
-- 偏誤連鎖效應：[[confirmation-bias_確認偏誤]] ｜ [[groupthink_團體迷思]] ｜ [[cognitive-dissonance_認知失調]]
-- 戰略定價與談判：[[pricing_撇脂定價法]] ｜ [[price-sensitivity_價格敏感度]] ｜ [[pricing-power_溢價能力]] ｜ [[sunk-cost_沉沒成本]]
+- 理論基石：[[98_商業概念庫/bounded-rationality_有限理性\|bounded-rationality_有限理性]] ｜ [[98_商業概念庫/cognitive-bias_認知偏誤\|cognitive-bias_認知偏誤]]
+- 決策與判斷：[[98_商業概念庫/satisficing-decision_滿意決策\|satisficing-decision_滿意決策]] ｜ [[98_商業概念庫/rational-decision-model_理性決策模型\|rational-decision-model_理性決策模型]] ｜ [[98_商業概念庫/Prospect_Theory_Executive_Risk_展望理論與高管風險決策\|Prospect_Theory_Executive_Risk_展望理論與高管風險決策]]
+- 偏誤連鎖效應：[[98_商業概念庫/confirmation-bias_確認偏誤\|confirmation-bias_確認偏誤]] ｜ [[98_商業概念庫/groupthink_團體迷思\|groupthink_團體迷思]] ｜ [[98_商業概念庫/cognitive-dissonance_認知失調\|cognitive-dissonance_認知失調]]
+- 戰略定價與談判：[[98_商業概念庫/pricing_撇脂定價法\|pricing_撇脂定價法]] ｜ [[98_商業概念庫/price-sensitivity_價格敏感度\|price-sensitivity_價格敏感度]] ｜ [[98_商業概念庫/pricing-power_溢價能力\|pricing-power_溢價能力]] ｜ [[98_商業概念庫/sunk-cost_沉沒成本\|sunk-cost_沉沒成本]]

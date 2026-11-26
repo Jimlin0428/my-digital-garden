@@ -15,18 +15,14 @@
 ### 1.1 兩大治理哲學的根本思潮對決
 現代商業社會對「企業究竟為誰而存在」存在兩大經典哲學分野：
 
-```
-                    ┌─────────────────────────────────────────┐
-                    │      公司治理兩大哲學典範之深度對抗     │
-                    └────────────────────┬────────────────────┘
-                                         ▼
-         ┌───────────────────────────────┴───────────────────────────────┐
-         ▼                                                               ▼
-【股東至上主義 (Shareholder Primacy)】                          【利害關係人理論 (Stakeholder Theory)】
- • 代表人物：米爾頓·弗里德曼 (Milton Friedman, 1970)             • 代表人物：愛德華·弗里曼 (R. Edward Freeman, 1984)
- • 核心主張：企業的唯一社會責任，就是在法律框架下極大化股東財富 • 核心主張：企業是多方契約聯結體，必須兼顧員工、顧客、
- • 衡量標竿：淨現值 (NPV)、每股盈餘 (EPS)、股價與市值           供應商、在地社群與生態環境的長遠平衡
- • 制度優勢：目標單純清晰，經理人受託責任明確，避免卸責藉口     • 制度優勢：現代 ESG 與永續治理基石，防範外部性成本轉嫁
+```mermaid
+flowchart TD
+    classDef c_blue fill:#1e3a5f,stroke:#60a5fa,stroke-width:2px,color:#ffffff;
+    classDef c_green fill:#143823,stroke:#4ade80,stroke-width:2px,color:#ffffff;
+    classDef c_amber fill:#3d2806,stroke:#fbbf24,stroke-width:2px,color:#ffffff;
+    classDef c_purple fill:#3b1d54,stroke:#c084fc,stroke-width:2px,color:#ffffff;
+    classDef c_red fill:#5c1d24,stroke:#f87171,stroke-width:2px,color:#ffffff;
+    N0_0["公司治理兩大哲學典範之深度對抗"]:::c_blue
 ```
 
 ### 1.2 全球兩大主流治理體系架構
@@ -68,7 +64,7 @@ flowchart TD
 ### 2.1 內部治理四大核心要件
 1. **董事長與執行長（CEO）雙職分離（Duality Separation）**：若同一人身兼董事長（監督者）與 CEO（執行者），等同於「自己監督自己」，監督機制必然名存實亡。
 2. **獨立董事實質實權化（Independent Directors）**：獨立董事席次應達到至少三分之一以上（標竿企業如台積電過半），且必須嚴格審查其與控股股東間的無利益關聯性。
-3. **高階經理人薪酬契約與追回條款（Clawback Provisions）**：薪酬結構應大幅降低固定薪資比例，綁定 3~5 年以上的長期股權（參見 [[equity-vesting_股權成熟機制]]）；並明訂若日後發生財報重編或舞弊，公司有權追回全額已發放獎金。
+3. **高階經理人薪酬契約與追回條款（Clawback Provisions）**：薪酬結構應大幅降低固定薪資比例，綁定 3~5 年以上的長期股權（參見 [[98_商業概念庫/equity-vesting_股權成熟機制\|equity-vesting_股權成熟機制]]）；並明訂若日後發生財報重編或舞弊，公司有權追回全額已發放獎金。
 4. **關聯交易嚴格防火牆**：控股股東與關聯企業之資產買賣、借貸擔保必須經無利害關係之獨立審計委員會事前審查並提交股東會表決。
 
 ---
@@ -132,18 +128,18 @@ $$\text{WACC}_{\text{gov}} = w_d K_d(1-t) + w_e (K_e - \Delta_{\text{gov}})$$
 ## 7. 關聯知識網絡與導航地圖 (Knowledge Network & Cross-References)
 
 ### 7.1 本主題核心三部曲
-- **[[corporate-governance_公司治理]]** · 內部制度與外部市場制衡體系、兩大治理哲學與董事會獨立性（本篇）
-- **[[agency-problem_代理人問題]]** · 所有權與經營權分離、三大維度代理衝突與隧道效應
-- **[[agency-costs_代理成本]]** · 詹森-麥克林福利損失模型、監督成本、保證成本與剩餘損失極小化
+- **[[98_商業概念庫/corporate-governance_公司治理\|corporate-governance_公司治理]]** · 內部制度與外部市場制衡體系、兩大治理哲學與董事會獨立性（本篇）
+- **[[98_商業概念庫/agency-problem_代理人問題\|agency-problem_代理人問題]]** · 所有權與經營權分離、三大維度代理衝突與隧道效應
+- **[[98_商業概念庫/agency-costs_代理成本\|agency-costs_代理成本]]** · 詹森-麥克林福利損失模型、監督成本、保證成本與剩餘損失極小化
 
 ### 7.2 跨領域財務與策略鏈結
-- [[equity-vesting_股權成熟機制]] · 解決第一類代理問題、實現股東與經理人利益綁定之核心契約工具
-- [[capital-structure_資本結構]] · 詹森自由現金流假說：負債融資作為約束經理人代理成本之紀律工具
-- [[shareholder-wealth-maximization_股東財富極大化]] · 股東至上主義哲學與現代 ESG 利害關係人思潮
-- [[second-generation-succession_二代接班]] · 家族企業傳承、所有權經營權重構與治理機制進化
-- [[risk-governance_風險控管]] · 董事會層級之全面風險管理（ERM）與合規內控
+- [[98_商業概念庫/equity-vesting_股權成熟機制\|equity-vesting_股權成熟機制]] · 解決第一類代理問題、實現股東與經理人利益綁定之核心契約工具
+- [[98_商業概念庫/capital-structure_資本結構\|capital-structure_資本結構]] · 詹森自由現金流假說：負債融資作為約束經理人代理成本之紀律工具
+- [[98_商業概念庫/shareholder-wealth-maximization_股東財富極大化\|shareholder-wealth-maximization_股東財富極大化]] · 股東至上主義哲學與現代 ESG 利害關係人思潮
+- [[98_商業概念庫/second-generation-succession_二代接班\|second-generation-succession_二代接班]] · 家族企業傳承、所有權經營權重構與治理機制進化
+- [[98_商業概念庫/risk-governance_風險控管\|risk-governance_風險控管]] · 董事會層級之全面風險管理（ERM）與合規內控
 
 ### 7.3 課程筆記與導航主頁
-- [[L09_資本結構理論與決策]] · 財務策略模組九：公司治理、資本結構與代理成本
-- [[_創業與企業財務策略 MOC]] · 企業財務策略與資本市場運作全景地圖
-- [[home]] · 全球 PMBA 知識庫總導航主頁面
+- [[02_核心必修/01_財務管理/L09_資本結構理論與決策\|L09_資本結構理論與決策]] · 財務策略模組九：公司治理、資本結構與代理成本
+- [[04_主題選修/10_創業與企業財務策略/_歷史版本封存/_創業與企業財務策略 MOC\|_創業與企業財務策略 MOC]] · 企業財務策略與資本市場運作全景地圖
+- [[home\|home]] · 全球 PMBA 知識庫總導航主頁面

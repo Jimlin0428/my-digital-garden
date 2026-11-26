@@ -17,24 +17,16 @@
 
 在現代公司理財理論中，單一投資專案的風險必須依據「誰來承擔風險」嚴格劃分為三大維度：
 
-```
-                    【專案投資風險的三層同心圓】
-┌─────────────────────────────────────────────────────────────┐
-│ 【第三層：市場系統性風險 (Market / Beta Risk)】              │
-│  站在「充分分散投資的外部股東」視角！                       │
-│  • 無法透過資產多元化消除，由宏觀經濟 (利率/通膨/景氣) 主導  │
-│  • 以專案貝他值 (Project Beta β) 衡量，唯一決定專案資本成本  │
-├─────────────────────────────────────────────────────────────┤
-│ 【第二層：企業內部組合風險 (Corporate / Within-Firm Risk)】 │
-│  站在「企業全體員工、供應商與債權人」視角！                 │
-│  • 考量該專案與公司其他既有業務的相關性 (Correlation ρ)    │
-│  • 決定企業整體破產倒閉機率與債務信用評等                   │
-├─────────────────────────────────────────────────────────────┤
-│ 【第一層：專案獨立風險 (Stand-Alone Risk)】                 │
-│  將該專案視為「全天下唯一的孤立資產」！                     │
-│  • 不考慮任何分散化，純粹衡量該專案自身現金流的波動幅度     │
-│  • 透過標準差 (σ) 與變異係數 (CV) 衡量                      │
-└─────────────────────────────────────────────────────────────┘
+**【專案投資風險的三層同心圓】**
+
+```mermaid
+flowchart TD
+    classDef c_blue fill:#1e3a5f,stroke:#60a5fa,stroke-width:2px,color:#ffffff;
+    classDef c_green fill:#143823,stroke:#4ade80,stroke-width:2px,color:#ffffff;
+    classDef c_amber fill:#3d2806,stroke:#fbbf24,stroke-width:2px,color:#ffffff;
+    classDef c_purple fill:#3b1d54,stroke:#c084fc,stroke-width:2px,color:#ffffff;
+    classDef c_red fill:#5c1d24,stroke:#f87171,stroke-width:2px,color:#ffffff;
+    N0_0["【第三層：市場系統性風險 （Market / Beta Risk）】<br/>站在「充分分散投資的外部股東」視角！<br/>• 無法透過資產多元化消除，由宏觀經濟 （利率/通膨/景氣） 主導<br/>• 以專案貝他值 （Project Beta β） 衡量，唯一決定專案資本成本<br/>【第二層：企業內部組合風險 （Corporate / Within-Firm Risk）】<br/>站在「企業全體員工、供應商與債權人」視角！<br/>• 考量該專案與公司其他既有業務的相關性 （Correlation ρ）<br/>• 決定企業整體破產倒閉機率與債務信用評等<br/>【第一層：專案獨立風險 （Stand-Alone Risk）】<br/>將該專案視為「全天下唯一的孤立資產」！<br/>• 不考慮任何分散化，純粹衡量該專案自身現金流的波動幅度<br/>• 透過標準差 （σ） 與變異係數 （CV） 衡量"]:::c_blue
 ```
 
 ### 1. 風險調整折現率法 (Risk-Adjusted Discount Rate, RADR)
@@ -51,7 +43,7 @@ $$r_{\text{project}} = R_f + \beta_{\text{project}} \times [E(R_m) - R_f]$$
 
 | 風險評估工具 | 核心運作機制 | 產出成果與優勢 | 局限性與治理盲區 |
 | :--- | :--- | :--- | :--- |
-| **[[analysis-2_敏感度分析]]**<br>*(Sensitivity Analysis)* | 每次僅變動一個關鍵變數（如售價 $\pm 10\%$），其餘變數保持不變。 | 產出蜘蛛圖與龍捲風圖，快速識別**最敏感的致命變數**。 | 忽略變數之間的內在關聯性（如售價上漲通常伴隨銷量下跌）。 |
+| **[[98_商業概念庫/analysis-2_敏感度分析\|analysis-2_敏感度分析]]**<br>*(Sensitivity Analysis)* | 每次僅變動一個關鍵變數（如售價 $\pm 10\%$），其餘變數保持不變。 | 產出蜘蛛圖與龍捲風圖，快速識別**最敏感的致命變數**。 | 忽略變數之間的內在關聯性（如售價上漲通常伴隨銷量下跌）。 |
 | **情境分析**<br>*(Scenario Analysis)* | 同時改變多個變數，設定「悲觀 (Bear)、基準 (Base)、樂觀 (Bull)」三大情境。 | 計算預期 NPV 與標準差，評估極端悲觀情境下的虧損底線。 | 僅考慮離散的三種情境，現實世界是連續變動的。 |
 | **蒙地卡羅模擬**<br>*(Monte Carlo Simulation)* | 為所有不確定變數設定機率分佈，由電腦進行 10,000 次隨機抽樣計算。 | 產出完整的 **NPV 連續機率分佈圖**，精準得出「專案虧損機率為 14.2%」。 | 垃圾進、垃圾出 (GIGO)，高度依賴對底層機率分佈與相關係數的主觀假設。 |
 
@@ -92,5 +84,5 @@ $$r_{\text{project}} = R_f + \beta_{\text{project}} \times [E(R_m) - R_f]$$
 
 ## 🔗 延伸閱讀與深度雙向維基連結
 
-- 關聯概念：[[analysis-2_敏感度分析]] ｜ [[wacc_加權平均資本成本]] ｜ [[NPV_淨現值法 _Net Present Value]] ｜ [[investing-activities_投資活動]] ｜ [[decision-2_設備重置決策]]
-- 延伸課題：[[mutually-exclusive-projects_互斥專案]] ｜ [[double-counting-fallacy_雙重計算陷阱]] ｜ [[free-cash-flow_自由現金流量]] ｜ [[time-value-2_貨幣時間價值]]
+- 關聯概念：[[98_商業概念庫/analysis-2_敏感度分析\|analysis-2_敏感度分析]] ｜ [[98_商業概念庫/wacc_加權平均資本成本\|wacc_加權平均資本成本]] ｜ [[98_商業概念庫/NPV_淨現值法 _Net Present Value\|NPV_淨現值法 _Net Present Value]] ｜ [[98_商業概念庫/investing-activities_投資活動\|investing-activities_投資活動]] ｜ [[98_商業概念庫/decision-2_設備重置決策\|decision-2_設備重置決策]]
+- 延伸課題：[[98_商業概念庫/mutually-exclusive-projects_互斥專案\|mutually-exclusive-projects_互斥專案]] ｜ [[98_商業概念庫/double-counting-fallacy_雙重計算陷阱\|double-counting-fallacy_雙重計算陷阱]] ｜ [[98_商業概念庫/free-cash-flow_自由現金流量\|free-cash-flow_自由現金流量]] ｜ [[98_商業概念庫/time-value-2_貨幣時間價值\|time-value-2_貨幣時間價值]]

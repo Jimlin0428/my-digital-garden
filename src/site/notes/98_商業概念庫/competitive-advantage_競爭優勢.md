@@ -108,9 +108,9 @@ flowchart TD
 
 - **核心哲學**：**外部決定論**。企業獲利結構首先取決於所處產業的吸引力（五力分析），其次取決於企業在該產業中的相對定位（Positioning）。
 - **三大通用競爭策略（Generic Strategies）**：
-  1. **[[cost-leadership-strategy_成本領導策略|成本領導策略 (Cost Leadership)]]**：以全產業為目標，將單位總成本降至業界最低，以規模經濟、製程革新、採購議價權抵抗價格戰。
-  2. **[[differentiation-strategy_差異化策略|差異化策略 (Differentiation)]]**：提供全產業顧客認定具獨特性、不可替代的價值（品質、設計、品牌、服務），從而獲取定價特權與忠誠度。
-  3. **[[focused-strategy_集中化策略|集中化策略 (Focus Strategy)]]**：聚焦於特定細分客群、地理區域或特殊品類（成本集中或差異化集中），避開全能巨頭鋒芒。
+  1. **[[98_商業概念庫/cost-leadership-strategy_成本領導策略\|成本領導策略 (Cost Leadership)]]**：以全產業為目標，將單位總成本降至業界最低，以規模經濟、製程革新、採購議價權抵抗價格戰。
+  2. **[[98_商業概念庫/differentiation-strategy_差異化策略\|差異化策略 (Differentiation)]]**：提供全產業顧客認定具獨特性、不可替代的價值（品質、設計、品牌、服務），從而獲取定價特權與忠誠度。
+  3. **[[98_商業概念庫/focused-strategy_集中化策略\|集中化策略 (Focus Strategy)]]**：聚焦於特定細分客群、地理區域或特殊品類（成本集中或差異化集中），避開全能巨頭鋒芒。
 
 ```mermaid
 flowchart TB
@@ -302,7 +302,7 @@ flowchart TD
 
 ### 4. 成本與規模優勢（Cost Advantages）
 - **製程專有技術（Proprietary Process）**：歷經長年摸索累積的工藝配方與隱性知識。
-- **[[economies-of-scale_規模經濟|規模經濟 (Economies of Scale)]]**：高固定成本被巨大產能分攤，使單位成本隨產量上升而持續下降，迫使新進者面臨規模劣勢。
+- **[[98_商業概念庫/economies-of-scale_規模經濟\|規模經濟 (Economies of Scale)]]**：高固定成本被巨大產能分攤，使單位成本隨產量上升而持續下降，迫使新進者面臨規模劣勢。
 - **獨家地理位置**：如近港口的重工業水泥廠、鄰近水力發電廠的低電價資料中心。
 
 ### 5. 有效規模（Efficient Scale）
@@ -410,19 +410,19 @@ flowchart TD
 ## 七、 關聯主題與模組網絡
 
 - 🧭 **課程核心模組對接**：
-  - [[04_主題選修/12_產業分析與投資策略/02_模組筆記/Module_1_總論與架構/M1-3_產業獲利結構差異與十大經典理論|M1-3 產業獲利結構差異與十大經典理論]]（SCP 典範、RBV 資源基礎觀點、四大獲利驅動模型）
-  - [[04_主題選修/12_產業分析與投資策略/02_模組筆記/Module_1_總論與架構/M1-5_波特五力分析與量化架構|M1-5 波特五力分析與量化架構]]（五力雷達圖、產業獲利天花板與結構決定論）
-  - [[04_主題選修/12_產業分析與投資策略/02_模組筆記/Module_1_總論與架構/M1-6_產業分析模式與九大分析工具矩陣|M1-6 產業分析模式與九大分析工具矩陣]]（PESTEL、PLC、VRIO、BCG、GE 矩陣工具鏈）
-  - [[04_主題選修/12_產業分析與投資策略/02_模組筆記/Module_1_總論與架構/M1-7_產業市場空間與策略群組|M1-7 產業市場空間與策略群組]]（策略群組地圖 SGM、七大移動障礙、競爭空白區）
-  - [[04_主題選修/10_創業與企業財務策略/02_模組筆記/Module_2_產品創新與精實驗證/M2-1_精實產品開發與服務創新驗證|M2-1 精實產品開發與服務創新驗證]]（投入資本 Invested Capital、NWC 營運資金、ROIC 競爭矩陣推導）
-  - [[mindmap_產業分析與投資策略_心智圖導航|產業分析與投資策略 心智圖導航]]
+  - [[04_主題選修/12_產業分析與投資策略/02_模組筆記/Module_1_總論與架構/M1-3_產業獲利結構差異與十大經典理論\|M1-3 產業獲利結構差異與十大經典理論]]（SCP 典範、RBV 資源基礎觀點、四大獲利驅動模型）
+  - [[04_主題選修/12_產業分析與投資策略/02_模組筆記/Module_1_總論與架構/M1-5_波特五力分析與量化架構\|M1-5 波特五力分析與量化架構]]（五力雷達圖、產業獲利天花板與結構決定論）
+  - [[04_主題選修/12_產業分析與投資策略/02_模組筆記/Module_1_總論與架構/M1-6_產業分析模式與九大分析工具矩陣\|M1-6 產業分析模式與九大分析工具矩陣]]（PESTEL、PLC、VRIO、BCG、GE 矩陣工具鏈）
+  - [[04_主題選修/12_產業分析與投資策略/02_模組筆記/Module_1_總論與架構/M1-7_產業市場空間與策略群組\|M1-7 產業市場空間與策略群組]]（策略群組地圖 SGM、七大移動障礙、競爭空白區）
+  - [[04_主題選修/10_創業與企業財務策略/02_模組筆記/Module_2_產品創新與精實驗證/M2-1_精實產品開發與服務創新驗證\|M2-1 精實產品開發與服務創新驗證]]（投入資本 Invested Capital、NWC 營運資金、ROIC 競爭矩陣推導）
+  - [[04_主題選修/12_產業分析與投資策略/00_課程導航與進度/mindmap_產業分析與投資策略_心智圖導航\|產業分析與投資策略 心智圖導航]]
 - 🔗 **核心概念原子卡片雙向鏈結**：
-  - [[competitive-matrix_競爭矩陣]] ｜ [[competition-strategy_競爭策略]] ｜ [[positioning-strategy_定位策略]]
-  - [[cost-leadership-strategy_成本領導策略]] ｜ [[differentiation-strategy_差異化策略]] ｜ [[focused-strategy_集中化策略]]
-  - [[differentiation-advantage_差異化優勢]] ｜ [[product-differentiation_產品差異化]]
-  - [[economic-moat_經濟護城河]] ｜ [[barriers-to-entry_進入障礙]] ｜ [[barriers-mobility-barriers_移動障礙 Mobility Barriers|移動障礙 (Mobility Barriers)]]
-  - [[switching-costs_轉換成本]] ｜ [[economies-of-scale_規模經濟]] ｜ [[value-chain_價值鏈]]
-  - [[value-proposition_價值主張]] ｜ [[value-net_價值網]] ｜ [[value-curve_價值曲線]] ｜ [[vpc-value-price-cost_價值價格成本分析|VPC 價值價格成本分析]]
-  - [[return-on-invested-capital_資本投入報酬率]] ｜ [[total-asset-turnover-ratio_總資產週轉率]] ｜ [[dupont-analysis_杜邦分析法]]
-  - [[cash-switching-cycle_現金轉換週期]] ｜ [[strategic-groups-strategic-groups_策略群組 Strategic Groups|策略群組 (Strategic Groups)]]
-  - [[strategy-coopetition_競合戰略 Coopetition]] ｜ [[SWOT分析]] ｜ [[BCG矩陣]]
+  - [[98_商業概念庫/competitive-matrix_競爭矩陣\|competitive-matrix_競爭矩陣]] ｜ [[98_商業概念庫/competition-strategy_競爭策略\|competition-strategy_競爭策略]] ｜ [[98_商業概念庫/positioning-strategy_定位策略\|positioning-strategy_定位策略]]
+  - [[98_商業概念庫/cost-leadership-strategy_成本領導策略\|cost-leadership-strategy_成本領導策略]] ｜ [[98_商業概念庫/differentiation-strategy_差異化策略\|differentiation-strategy_差異化策略]] ｜ [[98_商業概念庫/focused-strategy_集中化策略\|focused-strategy_集中化策略]]
+  - [[98_商業概念庫/differentiation-advantage_差異化優勢\|differentiation-advantage_差異化優勢]] ｜ [[98_商業概念庫/product-differentiation_產品差異化\|product-differentiation_產品差異化]]
+  - [[98_商業概念庫/economic-moat_經濟護城河\|economic-moat_經濟護城河]] ｜ [[98_商業概念庫/barriers-to-entry_進入障礙\|barriers-to-entry_進入障礙]] ｜ [[98_商業概念庫/barriers-mobility-barriers_移動障礙 Mobility Barriers\|移動障礙 (Mobility Barriers)]]
+  - [[98_商業概念庫/switching-costs_轉換成本\|switching-costs_轉換成本]] ｜ [[98_商業概念庫/economies-of-scale_規模經濟\|economies-of-scale_規模經濟]] ｜ [[98_商業概念庫/value-chain_價值鏈\|value-chain_價值鏈]]
+  - [[98_商業概念庫/value-proposition_價值主張\|value-proposition_價值主張]] ｜ [[98_商業概念庫/value-net_價值網\|value-net_價值網]] ｜ [[98_商業概念庫/value-curve_價值曲線\|value-curve_價值曲線]] ｜ [[98_商業概念庫/vpc-value-price-cost_價值價格成本分析\|VPC 價值價格成本分析]]
+  - [[98_商業概念庫/return-on-invested-capital_資本投入報酬率\|return-on-invested-capital_資本投入報酬率]] ｜ [[98_商業概念庫/total-asset-turnover-ratio_總資產週轉率\|total-asset-turnover-ratio_總資產週轉率]] ｜ [[98_商業概念庫/dupont-analysis_杜邦分析法\|dupont-analysis_杜邦分析法]]
+  - [[98_商業概念庫/cash-switching-cycle_現金轉換週期\|cash-switching-cycle_現金轉換週期]] ｜ [[98_商業概念庫/strategic-groups-strategic-groups_策略群組 Strategic Groups\|策略群組 (Strategic Groups)]]
+  - [[98_商業概念庫/strategy-coopetition_競合戰略 Coopetition\|strategy-coopetition_競合戰略 Coopetition]] ｜ [[98_商業概念庫/SWOT分析\|SWOT分析]] ｜ [[BCG矩陣\|BCG矩陣]]

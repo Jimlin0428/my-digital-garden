@@ -55,7 +55,7 @@
 ### 1. 美國太空總署 (NASA) 官僚體制的輝煌與墜落
 NASA 的歷史是官僚體制雙刃劍最深刻的寫照：
 - **阿波羅時代的理性科層典範**：在 1960 年代阿波羅登月計畫中，韋伯式的嚴格分工、圖紙簽核、冗餘審查與標準化測試程序，協調了全美 40 萬名科學家與數千家承包商，實現了人類登月的奇蹟。
-- **挑戰者號與哥倫比亞號的官僚僵化**：到了 1980 至 2000 年代，NASA 演變為典型的政治化官僚深潭。層層向上匯報的公文體系扣押了基層工程師對隔熱瓦與橡膠圈的警告，管理層為了維持排定日程強推發射（詳見 [[Carter_Racing_NASA_Challenger_卡特賽車與挑戰者號決策個案]]），最終釀成太空梭解體的悲劇。
+- **挑戰者號與哥倫比亞號的官僚僵化**：到了 1980 至 2000 年代，NASA 演變為典型的政治化官僚深潭。層層向上匯報的公文體系扣押了基層工程師對隔熱瓦與橡膠圈的警告，管理層為了維持排定日程強推發射（詳見 [[98_商業概念庫/Carter_Racing_NASA_Challenger_卡特賽車與挑戰者號決策個案\|Carter_Racing_NASA_Challenger_卡特賽車與挑戰者號決策個案]]），最終釀成太空梭解體的悲劇。
 
 ### 2. 通用電氣 (GE) 傑克·威爾許的「無邊界組織」抗官僚革命
 在傑克·威爾許 (Jack Welch) 1981 年接掌 GE 時，GE 擁有 40 萬員工、25,000 名經理人，以及厚達數百頁的《戰略規劃手冊》：
@@ -67,12 +67,16 @@ NASA 的歷史是官僚體制雙刃劍最深刻的寫照：
 
 ## 四、 經理人反思與行動檢核清單
 
-```
-                               官僚熵增自我診斷架構
-┌─────────────────────────┬─────────────────────────┬─────────────────────────┐
-│     1. 審批層級減脂     │     2. 手段與目的對齊   │     3. 破除繁文縟節日   │
-│ 任何流程不超過 3 層簽核 │ 檢視報表是否創造客戶價值│ 每年定期清理 20% 冗餘SOP │
-└─────────────────────────┴─────────────────────────┴─────────────────────────┘
+**官僚熵增自我診斷架構**
+
+```mermaid
+flowchart TD
+    classDef c_blue fill:#1e3a5f,stroke:#60a5fa,stroke-width:2px,color:#ffffff;
+    classDef c_green fill:#143823,stroke:#4ade80,stroke-width:2px,color:#ffffff;
+    classDef c_amber fill:#3d2806,stroke:#fbbf24,stroke-width:2px,color:#ffffff;
+    classDef c_purple fill:#3b1d54,stroke:#c084fc,stroke-width:2px,color:#ffffff;
+    classDef c_red fill:#5c1d24,stroke:#f87171,stroke-width:2px,color:#ffffff;
+    N0_0["1. 審批層級減脂     │     2. 手段與目的對齊   │     3. 破除繁文縟節日<br/>任何流程不超過 3 層簽核 │ 檢視報表是否創造客戶價值│ 每年定期清理 20% 冗餘SOP"]:::c_blue
 ```
 
 ### Executive Decision Checklist
@@ -86,7 +90,7 @@ NASA 的歷史是官僚體制雙刃劍最深刻的寫照：
 
 ## 五、 關聯概念與延伸閱讀
 
-- 控制理論基礎：[[control-4_官僚控制]] ｜ [[control-2_控制幅度]] ｜ [[control-process_控制流程]]
-- 組織結構形態：[[organization-3_機械式組織]] ｜ [[organization_有機式組織]] ｜ [[structure-follows-strategy_結構跟隨策略]]
-- 組織病理與盲區：[[silo-effect_穀倉效應]] ｜ [[groupthink_團體迷思]] ｜ [[Carter_Racing_NASA_Challenger_卡特賽車與挑戰者號決策個案]]
-- 敏捷變革實踐：[[centralization-decentralization_集權與分權]] ｜ [[change-management_變革管理]] ｜ [[learning-organization_學習型組織]]
+- 控制理論基礎：[[98_商業概念庫/control-4_官僚控制\|control-4_官僚控制]] ｜ [[98_商業概念庫/control-2_控制幅度\|control-2_控制幅度]] ｜ [[98_商業概念庫/control-process_控制流程\|control-process_控制流程]]
+- 組織結構形態：[[98_商業概念庫/organization-3_機械式組織\|organization-3_機械式組織]] ｜ [[98_商業概念庫/organization_有機式組織\|organization_有機式組織]] ｜ [[98_商業概念庫/structure-follows-strategy_結構跟隨策略\|structure-follows-strategy_結構跟隨策略]]
+- 組織病理與盲區：[[98_商業概念庫/silo-effect_穀倉效應\|silo-effect_穀倉效應]] ｜ [[98_商業概念庫/groupthink_團體迷思\|groupthink_團體迷思]] ｜ [[98_商業概念庫/Carter_Racing_NASA_Challenger_卡特賽車與挑戰者號決策個案\|Carter_Racing_NASA_Challenger_卡特賽車與挑戰者號決策個案]]
+- 敏捷變革實踐：[[98_商業概念庫/centralization-decentralization_集權與分權\|centralization-decentralization_集權與分權]] ｜ [[98_商業概念庫/change-management_變革管理\|change-management_變革管理]] ｜ [[98_商業概念庫/learning-organization_學習型組織\|learning-organization_學習型組織]]

@@ -20,23 +20,20 @@ $$\text{Premium } (\%) = \left( \frac{P_{\text{Offer}} - P_{\text{Undisturbed}}}
 - **$P_{\text{Offer}}$（每股收購對價）**：買方提出的每股現金、股票或混合支付對價。
 - **$P_{\text{Undisturbed}}$（不受干擾股價）**：通常選取**併購意向書簽署、市場傳聞洩漏或正式公告日前 20 至 30 個交易日的成交量加權平均價（VWAP）**，以完全濾除內線交易與市場投機拉抬的水分。
 
-```
-                ┌─────────────────────────────────────────────────────────┐
-                │               收購對價結構與溢價解構圖譜                │
-                └────────────────────────────┬────────────────────────────┘
-                                             ▼
-   ┌──────────────────────────────────────────────────────────────────────────┐
-   │ 最終每股收購出價 (Offer Price: P_Offer)                                   │
-   └─────────────────────────────────────┬────────────────────────────────────┘
-                                         │
-                 ┌───────────────────────┴───────────────────────┐
-                 ▼                                               ▼
-   ┌───────────────────────────┐                   ┌───────────────────────────┐
-   │ 目標公司獨立市價           │                   │ 收購溢價 (Premium: 20%~40%)│
-   │ (Undisturbed Share Price) │                   ├───────────────────────────┤
-   │ • 反映當前公開市場定價     │                   │ 1. 控制權移轉補償溢價     │
-   │ • 當前經營團隊之現狀價值   │                   │ 2. 預期綜效現值轉移給被併方│
-   └───────────────────────────┘                   └───────────────────────────┘
+```mermaid
+flowchart TD
+    classDef c_blue fill:#1e3a5f,stroke:#60a5fa,stroke-width:2px,color:#ffffff;
+    classDef c_green fill:#143823,stroke:#4ade80,stroke-width:2px,color:#ffffff;
+    classDef c_amber fill:#3d2806,stroke:#fbbf24,stroke-width:2px,color:#ffffff;
+    classDef c_purple fill:#3b1d54,stroke:#c084fc,stroke-width:2px,color:#ffffff;
+    classDef c_red fill:#5c1d24,stroke:#f87171,stroke-width:2px,color:#ffffff;
+    N0_0["收購對價結構與溢價解構圖譜"]:::c_blue
+    N1_0["最終每股收購出價 （Offer Price: P_Offer）"]:::c_green
+    N2_0["目標公司獨立市價<br/>（Undisturbed Share Price）<br/>• 反映當前公開市場定價<br/>• 當前經營團隊之現狀價值"]:::c_amber
+    N2_1["收購溢價 （Premium: 20%~40%）<br/>1. 控制權移轉補償溢價<br/>2. 預期綜效現值轉移給被併方"]:::c_purple
+    N0_0 --> N1_0
+    N1_0 --> N2_0
+    N1_0 --> N2_1
 ```
 
 ---
@@ -81,10 +78,10 @@ graph TD
 
 ## 4. 關聯概念與延伸閱讀 (Cross References)
 
-- [[enterprise-m-and-a_企業併購]]：企業併購動機、估值與全流程架構。
-- [[merger-acquisition_併購綜效]]：溢價上限的理論決定因子。
-- [[merger-acquisition-integration_併購後整合]]：若無法落實 PMI，溢價即成為純粹的價值毀滅。
-- [[horizontal-merger-acquisition_水平併購]]：同業併購中溢價對定價權與市佔率的敏感度。
-- [[vertical-merger-acquisition_垂直併購]]：上下游整合中的控制權溢價評估。
-- [[agency-problem_代理人問題]]：經理人因帝國建造慾望而不惜支付超額溢價的代理成本。
-- [[home]]：PMBA 知識庫首頁與模組導航。
+- [[98_商業概念庫/enterprise-m-and-a_企業併購\|enterprise-m-and-a_企業併購]]：企業併購動機、估值與全流程架構。
+- [[98_商業概念庫/merger-acquisition_併購綜效\|merger-acquisition_併購綜效]]：溢價上限的理論決定因子。
+- [[98_商業概念庫/merger-acquisition-integration_併購後整合\|merger-acquisition-integration_併購後整合]]：若無法落實 PMI，溢價即成為純粹的價值毀滅。
+- [[98_商業概念庫/horizontal-merger-acquisition_水平併購\|horizontal-merger-acquisition_水平併購]]：同業併購中溢價對定價權與市佔率的敏感度。
+- [[98_商業概念庫/vertical-merger-acquisition_垂直併購\|vertical-merger-acquisition_垂直併購]]：上下游整合中的控制權溢價評估。
+- [[98_商業概念庫/agency-problem_代理人問題\|agency-problem_代理人問題]]：經理人因帝國建造慾望而不惜支付超額溢價的代理成本。
+- [[home\|home]]：PMBA 知識庫首頁與模組導航。

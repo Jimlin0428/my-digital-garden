@@ -11,21 +11,16 @@
 
 投資活動所產生的淨現金流——**投資活動現金流量 (Cash Flow from Investing Activities, 簡稱 CFI)**，是透視企業管理階層「對未來的野心與戰略佈局」的最關鍵窗口。與營業活動 (CFO) 追求維持充沛的正向現金流入不同，對於處於高速成長期與轉型期的企業而言，**CFI 長期維持巨額「負數 (淨流出)」往往是強烈看好未來、大舉進行資本支出 (CapEx) 與技術卡位的健康訊號**；反之，若一家非金融企業的 CFI 轉為大幅正數，往往意味著其正在變賣核心資產祖產、縮編產能或缺乏未來成長投資機會。
 
-```
-                 【投資活動現金流量 (CFI) 核心構成】
-┌─────────────────────────────────────────────────────────────┐
-│ 【主要的現金流出項目 (-)：重金押注未來】                   │
-│  • 資本支出 (CapEx)：購買新廠房、機台設備、擴充產能          │
-│  • 無形資產研發資本化：軟體開發、購買專利技術與特許權       │
-│  • 企業併購 (M&A)：收購子公司股權或業務資產之現金對價       │
-│  • 金融投資買入：購入長期持有至到期之公司債或策略性持股     │
-├─────────────────────────────────────────────────────────────┤
-│ 【主要的現金流入項目 (+)：資產退場回收】                   │
-│  • 處分不動產、廠房及設備所收回之淨變現現金                 │
-│  • 出售無形資產或專利技術之對價收現                         │
-│  • 出售轉投資子公司股權或金融資產到期收回本金               │
-│  • 收回對外部關聯企業之長期貸款本金                         │
-└─────────────────────────────────────────────────────────────┘
+**【投資活動現金流量 (CFI) 核心構成】**
+
+```mermaid
+flowchart TD
+    classDef c_blue fill:#1e3a5f,stroke:#60a5fa,stroke-width:2px,color:#ffffff;
+    classDef c_green fill:#143823,stroke:#4ade80,stroke-width:2px,color:#ffffff;
+    classDef c_amber fill:#3d2806,stroke:#fbbf24,stroke-width:2px,color:#ffffff;
+    classDef c_purple fill:#3b1d54,stroke:#c084fc,stroke-width:2px,color:#ffffff;
+    classDef c_red fill:#5c1d24,stroke:#f87171,stroke-width:2px,color:#ffffff;
+    N0_0["【主要的現金流出項目 （-）：重金押注未來】<br/>• 資本支出 （CapEx）：購買新廠房、機台設備、擴充產能<br/>• 無形資產研發資本化：軟體開發、購買專利技術與特許權<br/>• 企業併購 （M&A）：收購子公司股權或業務資產之現金對價<br/>• 金融投資買入：購入長期持有至到期之公司債或策略性持股<br/>【主要的現金流入項目 （+）：資產退場回收】<br/>• 處分不動產、廠房及設備所收回之淨變現現金<br/>• 出售無形資產或專利技術之對價收現<br/>• 出售轉投資子公司股權或金融資產到期收回本金<br/>• 收回對外部關聯企業之長期貸款本金"]:::c_blue
 ```
 
 ---
@@ -95,5 +90,5 @@ $$\text{Reinvestment Rate} = \frac{\text{淨資本支出 (CapEx} - \text{Depreci
 
 ## 🔗 延伸閱讀與深度雙向維基連結
 
-- 關聯概念：[[operating-activities_營業活動]] ｜ [[cash-flow-statement_現金流量表]] ｜ [[free-cash-flow_自由現金流量]] ｜ [[decision-2_設備重置決策]] ｜ [[NPV_淨現值法 _Net Present Value]]
-- 延伸課題：[[investment-risk_投資風險]] ｜ [[capital-structure_資本結構]] ｜ [[ROIC_投入資本報酬率 Return on Invested Capital]] ｜ [[zhe-jiu_折舊]]
+- 關聯概念：[[98_商業概念庫/operating-activities_營業活動\|operating-activities_營業活動]] ｜ [[98_商業概念庫/cash-flow-statement_現金流量表\|cash-flow-statement_現金流量表]] ｜ [[98_商業概念庫/free-cash-flow_自由現金流量\|free-cash-flow_自由現金流量]] ｜ [[98_商業概念庫/decision-2_設備重置決策\|decision-2_設備重置決策]] ｜ [[98_商業概念庫/NPV_淨現值法 _Net Present Value\|NPV_淨現值法 _Net Present Value]]
+- 延伸課題：[[98_商業概念庫/investment-risk_投資風險\|investment-risk_投資風險]] ｜ [[98_商業概念庫/capital-structure_資本結構\|capital-structure_資本結構]] ｜ [[98_商業概念庫/ROIC_投入資本報酬率 Return on Invested Capital\|ROIC_投入資本報酬率 Return on Invested Capital]] ｜ [[98_商業概念庫/zhe-jiu_折舊\|zhe-jiu_折舊]]

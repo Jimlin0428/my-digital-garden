@@ -15,16 +15,14 @@
 ### 1.1 核心定義
 競爭風險在企業風險管理（ERM）與策略學中被嚴格定義為：**外部競爭對手的戰略行動與反應，使得企業當前競爭優勢被削弱、資本回報率跌破資本成本（ROIC < WACC），進而摧毀企業經濟價值的或然性與潛在衝擊程度**。
 
-```
-                  ┌─────────────────────────────────────────┐
-                  │        競爭風險的四維立體威脅圖譜       │
-                  └────────────────────┬────────────────────┘
-                                       ▼
-       ┌───────────────────────────────┼───────────────────────────────┐
-       ▼                               ▼                               ▼
-【1. 價格戰毀滅性內捲】         【2. 破壞性技術代差突襲】       【3. 紅皇后進化軍備競賽】
- • 產能過剩引發惡性競價          • 低階顛覆者性能持續爬坡        • 研發與行銷投入暴增
- • 全產業毛利率集體塌陷          • 既有巨頭的核心資產變負債      • 全體對手的相對份額均未改善
+```mermaid
+flowchart TD
+    classDef c_blue fill:#1e3a5f,stroke:#60a5fa,stroke-width:2px,color:#ffffff;
+    classDef c_green fill:#143823,stroke:#4ade80,stroke-width:2px,color:#ffffff;
+    classDef c_amber fill:#3d2806,stroke:#fbbf24,stroke-width:2px,color:#ffffff;
+    classDef c_purple fill:#3b1d54,stroke:#c084fc,stroke-width:2px,color:#ffffff;
+    classDef c_red fill:#5c1d24,stroke:#f87171,stroke-width:2px,color:#ffffff;
+    N0_0["競爭風險的四維立體威脅圖譜"]:::c_blue
 ```
 
 ### 1.2 本質解析：紅皇后進化競爭悖論 (The Red Queen Paradox)
@@ -121,17 +119,14 @@
 
 ### 6.1 競爭風險情境壓力測試矩陣 (Scenario Stress Testing)
 
-```
-                    ┌────────────────────────────────────────┐
-                    │      競爭風險四維壓力測試實戰工具      │
-                    └───────────────────┬────────────────────┘
-                                        ▼
-    ┌───────────────────┬───────────────┴───────────────┬───────────────────┐
-    ▼                   ▼                               ▼                   ▼
-【情境 1：極限價格戰】  【情境 2：破壞性技術誕生】       【情境 3：跨界巨頭入侵】 【情境 4：關鍵供應鏈被卡】
-• 假設同業降價 30%    • 假設競品推出革命性技術         • 假設科技巨頭免費同捆   • 假設關鍵零組件被獨家
-• 測算自身的毛利底線   • 評估自身資產是否淪為負債       • 測算核心客戶流失速率   • 買斷或禁止出口
-• 檢驗現金能支撐多久   • 啟動內部「藍軍/臭鼬工廠」研發   • 建立防禦同盟或反包夾   • 啟動二供備用方案驗證
+```mermaid
+flowchart TD
+    classDef c_blue fill:#1e3a5f,stroke:#60a5fa,stroke-width:2px,color:#ffffff;
+    classDef c_green fill:#143823,stroke:#4ade80,stroke-width:2px,color:#ffffff;
+    classDef c_amber fill:#3d2806,stroke:#fbbf24,stroke-width:2px,color:#ffffff;
+    classDef c_purple fill:#3b1d54,stroke:#c084fc,stroke-width:2px,color:#ffffff;
+    classDef c_red fill:#5c1d24,stroke:#f87171,stroke-width:2px,color:#ffffff;
+    N0_0["競爭風險四維壓力測試實戰工具"]:::c_blue
 ```
 
 ### 6.2 經理人打破惡性競爭囚徒困境的三大戰術
@@ -144,18 +139,18 @@
 ## 7. 關聯知識網絡與導航地圖 (Knowledge Network & Cross-References)
 
 ### 7.1 本主題核心三部曲
-- **[[competition-strategy_競爭策略]]** · 波特三大通用策略、活動系統互鎖咬合與策略定位本質
-- **[[cross-industry-competition_跨界競爭]]** · 跨界降維打擊、平臺包夾（Platform Envelopment）與非對稱生態博弈
-- **[[competition-risk_競爭風險]]** · 超競爭環境中的紅皇后效應、破壞性創新突襲與價格戰囚徒困境（本篇）
+- **[[98_商業概念庫/competition-strategy_競爭策略\|competition-strategy_競爭策略]]** · 波特三大通用策略、活動系統互鎖咬合與策略定位本質
+- **[[98_商業概念庫/cross-industry-competition_跨界競爭\|cross-industry-competition_跨界競爭]]** · 跨界降維打擊、平臺包夾（Platform Envelopment）與非對稱生態博弈
+- **[[98_商業概念庫/competition-risk_競爭風險\|competition-risk_競爭風險]]** · 超競爭環境中的紅皇后效應、破壞性創新突襲與價格戰囚徒困境（本篇）
 
 ### 7.2 跨領域策略與行銷鏈結
-- [[Hypercompetition_動態超競爭理論]] · 理查·達凡尼（Richard D'Aveni）超競爭動態互動分析
-- [[Chicken_Game_膽小鬼賽局]] · 價格戰與產能擴張博弈中的極限膽小鬼博弈模型
-- [[Three_Player_Game_三方競合賽局模型]] · 複雜多方市場中的動態博弈與結盟策略
-- [[switching-costs_轉換成本]] · 抵禦競爭對手挖角客戶的最根本防禦護城河
-- [[barriers-to-entry_進入障礙]] · 降低新進入者競爭風險之結構性產業屏障
+- [[98_商業概念庫/Hypercompetition_動態超競爭理論\|Hypercompetition_動態超競爭理論]] · 理查·達凡尼（Richard D'Aveni）超競爭動態互動分析
+- [[98_商業概念庫/Chicken_Game_膽小鬼賽局\|Chicken_Game_膽小鬼賽局]] · 價格戰與產能擴張博弈中的極限膽小鬼博弈模型
+- [[98_商業概念庫/Three_Player_Game_三方競合賽局模型\|Three_Player_Game_三方競合賽局模型]] · 複雜多方市場中的動態博弈與結盟策略
+- [[98_商業概念庫/switching-costs_轉換成本\|switching-costs_轉換成本]] · 抵禦競爭對手挖角客戶的最根本防禦護城河
+- [[98_商業概念庫/barriers-to-entry_進入障礙\|barriers-to-entry_進入障礙]] · 降低新進入者競爭風險之結構性產業屏障
 
 ### 7.3 課程筆記與導航主頁
-- [[M1-4_台灣產業發展歷程與決策工具箱]] · 產業週期變遷下的競爭風險識別與轉型工具箱
-- [[_創業與企業財務策略 MOC]] · 企業營運策略與獲利模型全景地圖
-- [[home]] · 全球 PMBA 知識庫總導航主頁面
+- [[04_主題選修/12_產業分析與投資策略/02_模組筆記/Module_1_總論與架構/M1-4_台灣產業發展歷程與決策工具箱\|M1-4_台灣產業發展歷程與決策工具箱]] · 產業週期變遷下的競爭風險識別與轉型工具箱
+- [[04_主題選修/10_創業與企業財務策略/_歷史版本封存/_創業與企業財務策略 MOC\|_創業與企業財務策略 MOC]] · 企業營運策略與獲利模型全景地圖
+- [[home\|home]] · 全球 PMBA 知識庫總導航主頁面

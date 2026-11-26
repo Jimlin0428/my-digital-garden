@@ -14,38 +14,24 @@
 
 現金預算按標準四個連續模組推進：
 
-```
-                    ┌─────────────────────────────────────────────────────────┐
-                    │               現金預算標準編製架構                      │
-                    └────────────────────────────┬────────────────────────────┘
-                                                 ▼
-        ┌────────────────────────────────────────────────────────────────────────┐
-        │ 1. 現金收現預測 (Cash Receipts)                                        │
-        │    • 當期現銷收入 + 前期賒銷在當期之應收帳款回收                       │
-        │    • 其他業外現金收入 (投資收益、處分資產)                             │
-        ├────────────────────────────────────────────────────────────────────────┤
-        │ 2. 現金支出預測 (Cash Disbursements)                                   │
-        │    • 支付原物料採購款 (應付帳款兌現)                                   │
-        │    • 支付直接人工薪資、水電租金與營業費用                              │
-        │    • 支付資本支出 (CapEx)、償還利息本金、所得稅與現金股利              │
-        ├────────────────────────────────────────────────────────────────────────┤
-        │ 3. 淨現金收支 (Net Cash Flow)                                          │
-        │    • 當期淨現金流量 = 現金收現總額 - 現金支出總額                      │
-        │    • 未融資之期末現金 = 期初現金餘額 + 當期淨現金流量                  │
-        ├────────────────────────────────────────────────────────────────────────┤
-        │ 4. 資金調度與融資融通 (Financing & Investment Planning)                │
-        │    • 設定「最低目標現金餘額 (Minimum Target Balance)」                 │
-        │    • 若期末現金 < 最低目標 ──▶ 啟動短期借款或動用循環信貸 (Revolver)   │
-        │    • 若期末現金 > 最低目標 ──▶ 償還舊債或買入國庫券等短期貨幣市場工具  │
-        └────────────────────────────────────────────────────────────────────────┘
+```mermaid
+flowchart TD
+    classDef c_blue fill:#1e3a5f,stroke:#60a5fa,stroke-width:2px,color:#ffffff;
+    classDef c_green fill:#143823,stroke:#4ade80,stroke-width:2px,color:#ffffff;
+    classDef c_amber fill:#3d2806,stroke:#fbbf24,stroke-width:2px,color:#ffffff;
+    classDef c_purple fill:#3b1d54,stroke:#c084fc,stroke-width:2px,color:#ffffff;
+    classDef c_red fill:#5c1d24,stroke:#f87171,stroke-width:2px,color:#ffffff;
+    N0_0["現金預算標準編製架構"]:::c_blue
+    N1_0["1. 現金收現預測 （Cash Receipts）<br/>• 當期現銷收入 + 前期賒銷在當期之應收帳款回收<br/>• 其他業外現金收入 （投資收益、處分資產）<br/>2. 現金支出預測 （Cash Disbursements）<br/>• 支付原物料採購款 （應付帳款兌現）<br/>• 支付直接人工薪資、水電租金與營業費用<br/>• 支付資本支出 （CapEx）、償還利息本金、所得稅與現金股利<br/>3. 淨現金收支 （Net Cash Flow）<br/>• 當期淨現金流量 = 現金收現總額 - 現金支出總額<br/>• 未融資之期末現金 = 期初現金餘額 + 當期淨現金流量<br/>4. 資金調度與融資融通 （Financing & Investment Planning）<br/>• 設定「最低目標現金餘額 （Minimum Target Balance）」<br/>• 若期末現金 < 最低目標 ──▶ 啟動短期借款或動用循環信貸 （Revolver）<br/>• 若期末現金 > 最低目標 ──▶ 償還舊債或買入國庫券等短期貨幣市場工具"]:::c_green
+    N0_0 --> N1_0
 ```
 
 ---
 
 ## 2. 關聯概念與延伸閱讀 (Cross References)
 
-- [[cash-flow-statement_現金流量表]]：現金預算的歷史事後總結體系。
-- [[cash-pao-dao_現金跑道]]：以現金預算為輸入計算之新創生存天數。
-- [[insolvency-with-profit_黑字倒閉]]：未編製現金預算導致突發性票據跳票之災難。
-- [[working-capital-management_營運資金管理]]：日常流動性與短期資產負債管理。
-- [[home]]：PMBA 知識庫首頁與模組導航。
+- [[98_商業概念庫/cash-flow-statement_現金流量表\|cash-flow-statement_現金流量表]]：現金預算的歷史事後總結體系。
+- [[98_商業概念庫/cash-pao-dao_現金跑道\|cash-pao-dao_現金跑道]]：以現金預算為輸入計算之新創生存天數。
+- [[98_商業概念庫/insolvency-with-profit_黑字倒閉\|insolvency-with-profit_黑字倒閉]]：未編製現金預算導致突發性票據跳票之災難。
+- [[98_商業概念庫/working-capital-management_營運資金管理\|working-capital-management_營運資金管理]]：日常流動性與短期資產負債管理。
+- [[home\|home]]：PMBA 知識庫首頁與模組導航。

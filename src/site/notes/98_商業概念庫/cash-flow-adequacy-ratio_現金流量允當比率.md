@@ -14,16 +14,14 @@
 
 $$\text{Cash Flow Adequacy Ratio} = \frac{\sum_{t=1}^5 \text{營業活動現金流量}_t}{\sum_{t=1}^5 (\text{資本支出}_t + \text{存貨增加額}_t + \text{現金股利}_t)} \times 100\%$$
 
-```
-                   ┌─────────────────────────────────────────────────────────┐
-                   │             現金流量允當比率三大資本需求分母            │
-                   └────────────────────────────┬────────────────────────────┘
-                                                ▼
-       ┌───────────────────────────────┬───────────────────────────────┐
-       ▼                               ▼                               ▼
-【1. 資本支出 (CapEx)】         【2. 存貨增加額 (ΔInv)】        【3. 現金股利 (Dividends)】
- • 維持與擴大產能之必要廠房設備  • 伴隨營收規模成長所必須追加之  • 維繫資本市場信譽與股東回報
- • 構築實體護城河之硬資產開銷    營運資金沉澱                    之核心股東價值返還
+```mermaid
+flowchart TD
+    classDef c_blue fill:#1e3a5f,stroke:#60a5fa,stroke-width:2px,color:#ffffff;
+    classDef c_green fill:#143823,stroke:#4ade80,stroke-width:2px,color:#ffffff;
+    classDef c_amber fill:#3d2806,stroke:#fbbf24,stroke-width:2px,color:#ffffff;
+    classDef c_purple fill:#3b1d54,stroke:#c084fc,stroke-width:2px,color:#ffffff;
+    classDef c_red fill:#5c1d24,stroke:#f87171,stroke-width:2px,color:#ffffff;
+    N0_0["現金流量允當比率三大資本需求分母"]:::c_blue
 ```
 
 > **為何採用五年滾動期？**
@@ -43,9 +41,9 @@ $$\text{Cash Flow Adequacy Ratio} = \frac{\sum_{t=1}^5 \text{營業活動現金�
 
 ## 3. 關聯概念與延伸閱讀 (Cross References)
 
-- [[cash-flow-statement_現金流量表]]：現金流量表全貌與三大現金流八大矩陣。
-- [[cash-flow-ratio_現金流量比率]]：短期一年內流動負債覆蓋能力指標。
-- [[cash-reinvestment-ratio_現金再投資比率]]：資產再投資動能分析。
-- [[capital-expenditure_資本支出]]：資本支出在允當比率中的重要分母角色。
-- [[dividend-policy_股利政策]]：現金股利支出對允當比率之約束。
-- [[home]]：PMBA 知識庫首頁與模組導航。
+- [[98_商業概念庫/cash-flow-statement_現金流量表\|cash-flow-statement_現金流量表]]：現金流量表全貌與三大現金流八大矩陣。
+- [[98_商業概念庫/cash-flow-ratio_現金流量比率\|cash-flow-ratio_現金流量比率]]：短期一年內流動負債覆蓋能力指標。
+- [[98_商業概念庫/cash-reinvestment-ratio_現金再投資比率\|cash-reinvestment-ratio_現金再投資比率]]：資產再投資動能分析。
+- [[98_商業概念庫/capital-expenditure_資本支出\|capital-expenditure_資本支出]]：資本支出在允當比率中的重要分母角色。
+- [[98_商業概念庫/dividend-policy_股利政策\|dividend-policy_股利政策]]：現金股利支出對允當比率之約束。
+- [[home\|home]]：PMBA 知識庫首頁與模組導航。

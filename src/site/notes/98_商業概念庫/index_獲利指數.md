@@ -27,14 +27,14 @@ $$PI = \frac{NPV + I_0}{I_0} = 1 + \frac{NPV}{I_0}$$
 
 由此公式可推導出絕對的決策邊界準則：
 
-```
-┌─────────────────────────────────────────────────────────────┐
-│ 【獲利指數 (PI) 核心決策判準】                              │
-│                                                             │
-│  • PI > 1.0  ⟺  NPV > 0  ──► 接受專案 (創造超額股東財富)    │
-│  • PI = 1.0  ⟺  NPV = 0  ──► 損益打平 (剛好覆蓋資本成本)    │
-│  • PI < 1.0  ⟺  NPV < 0  ──► 拒絕專案 (摧毀資本價值)        │
-└─────────────────────────────────────────────────────────────┘
+```mermaid
+flowchart TD
+    classDef c_blue fill:#1e3a5f,stroke:#60a5fa,stroke-width:2px,color:#ffffff;
+    classDef c_green fill:#143823,stroke:#4ade80,stroke-width:2px,color:#ffffff;
+    classDef c_amber fill:#3d2806,stroke:#fbbf24,stroke-width:2px,color:#ffffff;
+    classDef c_purple fill:#3b1d54,stroke:#c084fc,stroke-width:2px,color:#ffffff;
+    classDef c_red fill:#5c1d24,stroke:#f87171,stroke-width:2px,color:#ffffff;
+    N0_0["【獲利指數 （PI） 核心決策判準】<br/>• PI > 1.0  ⟺  NPV > 0  ──► 接受專案 （創造超額股東財富）<br/>• PI = 1.0  ⟺  NPV = 0  ──► 損益打平 （剛好覆蓋資本成本）<br/>• PI < 1.0  ⟺  NPV < 0  ──► 拒絕專案 （摧毀資本價值）"]:::c_blue
 ```
 
 > [!NOTE]
@@ -96,5 +96,5 @@ $$PI = \frac{NPV + I_0}{I_0} = 1 + \frac{NPV}{I_0}$$
 
 ## 🔗 延伸閱讀與深度雙向維基連結
 
-- 關聯概念：[[independent-projects_獨立專案]] ｜ [[mutually-exclusive-projects_互斥專案]] ｜ [[NPV_淨現值法 _Net Present Value]] ｜ [[capital-pool_資金池與備用週轉金模型]] ｜ [[wacc_加權平均資本成本]]
-- 延伸課題：[[internal-rate-of-return_內部報酬率]] ｜ [[fisher-intersection_費雪交叉點]] ｜ [[decision-2_設備重置決策]] ｜ [[investing-activities_投資活動]]
+- 關聯概念：[[98_商業概念庫/independent-projects_獨立專案\|independent-projects_獨立專案]] ｜ [[98_商業概念庫/mutually-exclusive-projects_互斥專案\|mutually-exclusive-projects_互斥專案]] ｜ [[98_商業概念庫/NPV_淨現值法 _Net Present Value\|NPV_淨現值法 _Net Present Value]] ｜ [[98_商業概念庫/capital-pool_資金池與備用週轉金模型\|capital-pool_資金池與備用週轉金模型]] ｜ [[98_商業概念庫/wacc_加權平均資本成本\|wacc_加權平均資本成本]]
+- 延伸課題：[[98_商業概念庫/internal-rate-of-return_內部報酬率\|internal-rate-of-return_內部報酬率]] ｜ [[98_商業概念庫/fisher-intersection_費雪交叉點\|fisher-intersection_費雪交叉點]] ｜ [[98_商業概念庫/decision-2_設備重置決策\|decision-2_設備重置決策]] ｜ [[98_商業概念庫/investing-activities_投資活動\|investing-activities_投資活動]]

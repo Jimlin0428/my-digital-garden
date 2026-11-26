@@ -15,24 +15,16 @@
 
 ## 🔬 增額現金流三階段數理架構
 
-```
-                       【設備重置增額現金流模型】
-┌─────────────────────────────────────────────────────────────┐
-│ 1. 期初淨資本流出 (t = 0)                                   │
-│    新設備採購與安裝成本 (含運費/關稅)                      (-) │
-│    減：出售舊設備之當期實際變現淨收入 (Net Salvage Value)    (+) │
-│    加減：出售舊設備之處分資產損益稅務影響 (Tax on Sale)     (±) │
-│    加減：伴隨新設備所需額外墊付之淨營運資金 (ΔNWC)          (-) │
-├─────────────────────────────────────────────────────────────┤
-│ 2. 營運期增額營業現金流 (t = 1 to n)                        │
-│    ΔOCF = (營運成本節省額 ΔCost Savings) × (1 - t)          │
-│           + (新舊折舊差額 ΔDepreciation) × t                │
-├─────────────────────────────────────────────────────────────┤
-│ 3. 期末殘值與營運資金回收 (t = n)                           │
-│    新設備預期期末殘值 (稅後淨額)                            (+) │
-│    減：舊設備若保留至期末原本可獲得之殘值 (稅後淨額)        (-) │
-│    加：期初墊付之淨營運資金全額收回 (Recapture of ΔNWC)     (+) │
-└─────────────────────────────────────────────────────────────┘
+**【設備重置增額現金流模型】**
+
+```mermaid
+flowchart TD
+    classDef c_blue fill:#1e3a5f,stroke:#60a5fa,stroke-width:2px,color:#ffffff;
+    classDef c_green fill:#143823,stroke:#4ade80,stroke-width:2px,color:#ffffff;
+    classDef c_amber fill:#3d2806,stroke:#fbbf24,stroke-width:2px,color:#ffffff;
+    classDef c_purple fill:#3b1d54,stroke:#c084fc,stroke-width:2px,color:#ffffff;
+    classDef c_red fill:#5c1d24,stroke:#f87171,stroke-width:2px,color:#ffffff;
+    N0_0["1. 期初淨資本流出 （t = 0）<br/>新設備採購與安裝成本 （含運費/關稅）                      （-）<br/>減：出售舊設備之當期實際變現淨收入 （Net Salvage Value）    （+）<br/>加減：出售舊設備之處分資產損益稅務影響 （Tax on Sale）     （±）<br/>加減：伴隨新設備所需額外墊付之淨營運資金 （ΔNWC）          （-）<br/>2. 營運期增額營業現金流 （t = 1 to n）<br/>ΔOCF = （營運成本節省額 ΔCost Savings） × （1 - t）<br/>+ （新舊折舊差額 ΔDepreciation） × t<br/>3. 期末殘值與營運資金回收 （t = n）<br/>新設備預期期末殘值 （稅後淨額）                            （+）<br/>減：舊設備若保留至期末原本可獲得之殘值 （稅後淨額）        （-）<br/>加：期初墊付之淨營運資金全額收回 （Recapture of ΔNWC）     （+）"]:::c_blue
 ```
 
 ### 1. 期初出售舊設備之稅務處理 (Tax on Sale of Old Asset)
@@ -90,7 +82,7 @@ $$\Delta \text{Depreciation Tax Shield} = (\text{Dep}_{\text{new}} - \text{Dep}_
 ## ⚠️ 經理人常見盲點與治理陷阱
 
 1. **「愛惜舊設備」的情感沉沒成本偏誤**：產線廠長對維護多年的舊機器充滿感情，以「設備性能依然良好」為由抗拒重置，完全忽視了新設備在能耗、良率與人力節省上的巨大差距。
-2. **忽略「新舊設備生命週期不對稱」**：舊設備預期還能運轉 3 年，而新設備預期壽命長達 8 年。若未採用**等額年金法 ([[equivalent-annual-annuity_等額年金法]])**，直接粗暴比對兩者的 8 年總折現現金流，將嚴重扭曲評估結果。
+2. **忽略「新舊設備生命週期不對稱」**：舊設備預期還能運轉 3 年，而新設備預期壽命長達 8 年。若未採用**等額年金法 ([[98_商業概念庫/equivalent-annual-annuity_等額年金法\|equivalent-annual-annuity_等額年金法]])**，直接粗暴比對兩者的 8 年總折現現金流，將嚴重扭曲評估結果。
 3. **低估新機導入期的「學習曲線與停工成本」**：在規劃期初現金流時，僅計算了設備購買發票金額，未計入產線停工換線的營收損失、作業員培訓費用以及初期試產的報廢品成本。
 
 ---
@@ -107,5 +99,5 @@ $$\Delta \text{Depreciation Tax Shield} = (\text{Dep}_{\text{new}} - \text{Dep}_
 
 ## 🔗 延伸閱讀與深度雙向維基連結
 
-- 關聯概念：[[equivalent-annual-annuity_等額年金法]] ｜ [[zhe-jiu_折舊]] ｜ [[NPV_淨現值法 _Net Present Value]] ｜ [[sunk-cost_沉沒成本]] ｜ [[opportunity-cost_機會成本]]
-- 延伸課題：[[mutually-exclusive-projects_互斥專案]] ｜ [[wacc_加權平均資本成本]] ｜ [[free-cash-flow_自由現金流量]] ｜ [[operating-management_生產與營運管理]]
+- 關聯概念：[[98_商業概念庫/equivalent-annual-annuity_等額年金法\|equivalent-annual-annuity_等額年金法]] ｜ [[98_商業概念庫/zhe-jiu_折舊\|zhe-jiu_折舊]] ｜ [[98_商業概念庫/NPV_淨現值法 _Net Present Value\|NPV_淨現值法 _Net Present Value]] ｜ [[98_商業概念庫/sunk-cost_沉沒成本\|sunk-cost_沉沒成本]] ｜ [[98_商業概念庫/opportunity-cost_機會成本\|opportunity-cost_機會成本]]
+- 延伸課題：[[98_商業概念庫/mutually-exclusive-projects_互斥專案\|mutually-exclusive-projects_互斥專案]] ｜ [[98_商業概念庫/wacc_加權平均資本成本\|wacc_加權平均資本成本]] ｜ [[98_商業概念庫/free-cash-flow_自由現金流量\|free-cash-flow_自由現金流量]] ｜ [[98_商業概念庫/operating-management_生產與營運管理\|operating-management_生產與營運管理]]

@@ -40,7 +40,7 @@ IAS 33 嚴格要求上市公司必須在綜合損益表上同時列報兩組 EPS
 | 指標維度 | 數學計算公式 | 核心分子與分母構成 | 經理人財務意涵 |
 | :--- | :--- | :--- | :--- |
 | **基本每股盈餘<br>(Basic EPS)** | $$\text{Basic EPS} = \frac{\text{Net Income} - \text{特別股股利}}{\text{加權平均流通在外面額股數 } (WASS)}$$ | - **分子**：歸屬於普通股之淨利（扣除累積特別股股利）。<br>- **分母**：當期實際流通在外的加權平均普通股股數。 | 反映現有股東在當前實際資本結構下的真實每股歷史獲利。 |
-| **稀釋每股盈餘<br>(Diluted EPS)** | $$\text{Diluted EPS} = \frac{\text{調整後淨利}}{\text{加權平均股數} + \text{所有潛在普通股轉換股數}}$$ | - **分子**：加回可轉債稅後利息支出。<br>- **分母**：假設所有可轉債、員工股票選擇權、認股權證全數行使轉換。 | **保守壓力測試**：向投資人揭露若未來潛在股權全數行使，現有股東權益將被稀釋至何種底線（詳見 [[diluted-eps_稀釋後每股盈餘]]）。 |
+| **稀釋每股盈餘<br>(Diluted EPS)** | $$\text{Diluted EPS} = \frac{\text{調整後淨利}}{\text{加權平均股數} + \text{所有潛在普通股轉換股數}}$$ | - **分子**：加回可轉債稅後利息支出。<br>- **分母**：假設所有可轉債、員工股票選擇權、認股權證全數行使轉換。 | **保守壓力測試**：向投資人揭露若未來潛在股權全數行使，現有股東權益將被稀釋至何種底線（詳見 [[98_商業概念庫/diluted-eps_稀釋後每股盈餘\|diluted-eps_稀釋後每股盈餘]]）。 |
 
 ### 2. 庫藏股法 (Treasury Stock Method) 稀釋股數計算
 在計算未行使的員工認股權與股票選擇權的稀釋效果時，會計準則採用「庫藏股法」假設：
@@ -54,7 +54,7 @@ $$
 唯有當選擇權處於「價內 (In-the-Money, $P > K$)」時，才會產生實質稀釋效果。
 
 ### 3. EBIT-EPS 籌資無差異分析 (Financial Break-Even)
-經理人在評估擴張專案究應採用「發行新股」還是「發行債券」籌資時，核心分析工具為 **EBIT-EPS 無差異點 (Indifference Point)**（詳見 [[financial-break-even_財務損益平衡點]]）：
+經理人在評估擴張專案究應採用「發行新股」還是「發行債券」籌資時，核心分析工具為 **EBIT-EPS 無差異點 (Indifference Point)**（詳見 [[98_商業概念庫/financial-break-even_財務損益平衡點\|financial-break-even_財務損益平衡點]]）：
 
 $$
 \frac{(\text{EBIT}^* - I_1)(1 - T_c)}{S_1} = \frac{(\text{EBIT}^* - I_2)(1 - T_c)}{S_2}
@@ -75,25 +75,29 @@ $$
 
 ### 2. 蘋果公司 (Apple) 透過股票買回創造的「EPS 增長奇蹟」
 在 2012 年至 2022 年間，蘋果公司的年度淨利從 417 億美元增長至 998 億美元（增長約 139%），但其 **EPS 卻暴增了近 300%**：
-- **分母大縮水魔法**：蘋果動用累計超過 5,000 億美元的自由現金流進行[[share-repurchase_股票買回|公開市場股票買回]]，使其流通在外股數從 260 億股劇減至 160 億股（減少近 40%）。
+- **分母大縮水魔法**：蘋果動用累計超過 5,000 億美元的自由現金流進行[[98_商業概念庫/share-repurchase_股票買回\|公開市場股票買回]]，使其流通在外股數從 260 億股劇減至 160 億股（減少近 40%）。
 - **資本工程效益**：即使淨利在某些年份因硬體週期陷入平緩，由於分母股數持續大幅收縮，每股盈餘依然保持亮眼增長，成為支撐蘋果股價十年間飆漲十餘倍的重要動力。
 
 ---
 
 ## 四、 經理人反思與行動檢核清單
 
-```
-                               每股盈餘品質健康度審查
-┌─────────────────────────┬─────────────────────────┬─────────────────────────┐
-│     1. 營收驅動 vs. 縮股│     2. 自由現金流匹配度 │     3. 稀釋覆蓋壓力測試 │
-│ 區分獲利實增還是買回縮分母│ EPS 是否有真實 CFO 支撐 │ 全額轉換後的稀釋底線在哪│
-└─────────────────────────┴─────────────────────────┴─────────────────────────┘
+**每股盈餘品質健康度審查**
+
+```mermaid
+flowchart TD
+    classDef c_blue fill:#1e3a5f,stroke:#60a5fa,stroke-width:2px,color:#ffffff;
+    classDef c_green fill:#143823,stroke:#4ade80,stroke-width:2px,color:#ffffff;
+    classDef c_amber fill:#3d2806,stroke:#fbbf24,stroke-width:2px,color:#ffffff;
+    classDef c_purple fill:#3b1d54,stroke:#c084fc,stroke-width:2px,color:#ffffff;
+    classDef c_red fill:#5c1d24,stroke:#f87171,stroke-width:2px,color:#ffffff;
+    N0_0["1. 營收驅動 vs. 縮股│     2. 自由現金流匹配度 │     3. 稀釋覆蓋壓力測試<br/>區分獲利實增還是買回縮分母│ EPS 是否有真實 CFO 支撐 │ 全額轉換後的稀釋底線在哪"]:::c_blue
 ```
 
 ### Executive Decision Checklist
 - [ ] **EPS 增長品質辨析**：本季度 EPS 的提升，究竟是來自於「核心本業營收與毛利的真實擴張」，還是單純依賴「股票買回減少分母股數」或「一次性非經常處分利益」？
 - [ ] **現金流背離檢驗**：每股盈餘 (EPS) 是否與每股營業活動現金流 (Cash Flow Per Share) 保持同步增長？若 EPS 連年攀升而營業現金流持續低迷，是否存在嚴重的應收帳款塞貨或存貨積壓？
-- [ ] **管理層激勵陷阱防範**：高管年度分紅考核是否過度單一掛鉤 EPS？是否已配對設置「資本投入報酬率 ([[return-on-invested-capital_資本投入報酬率|ROIC]])」與「經濟增加值 (EVA)」指標，防止經理人借款回購股票推高短期 EPS？
+- [ ] **管理層激勵陷阱防範**：高管年度分紅考核是否過度單一掛鉤 EPS？是否已配對設置「資本投入報酬率 ([[98_商業概念庫/return-on-invested-capital_資本投入報酬率\|ROIC]])」與「經濟增加值 (EVA)」指標，防止經理人借款回購股票推高短期 EPS？
 - [ ] **潛在稀釋風險透明化**：在規劃發行員工認股權 (ESOP) 或可轉換公司債前，是否已精確模擬其對現有股東未來 3 年稀釋每股盈餘 (Diluted EPS) 的衝擊幅度？
 - [ ] **EBIT 波動敏感度測試**：在當前的負債水平下，若宏觀經濟衰退導致 EBIT 下滑 30%，公司的 EPS 會被放大萎縮多少個百分點？
 
@@ -101,7 +105,7 @@ $$
 
 ## 五、 關聯概念與延伸閱讀
 
-- 盈餘結構核心：[[net-income_本期淨利]] ｜ [[diluted-eps_稀釋後每股盈餘]] ｜ [[income-loss-3_綜合損益表]]
-- 資本結構決策：[[modigliani-miller-theorem_莫迪利安尼米勒定理]] ｜ [[financial-break-even_財務損益平衡點]] ｜ [[share-repurchase_股票買回]]
-- 估值與市場評價：[[pb-ratio_股價淨值比]] ｜ [[value-trap_價值陷阱]] ｜ [[EPV_盈餘能力價值模型 Earnings Power Value]]
-- 營運與現金流校準：[[operating-activities_營業活動]] ｜ [[free-cash-flow_自由現金流量]] ｜ [[accounting-profit-cash-flow-differentiation_會計利潤與現金流差異]]
+- 盈餘結構核心：[[98_商業概念庫/net-income_本期淨利\|net-income_本期淨利]] ｜ [[98_商業概念庫/diluted-eps_稀釋後每股盈餘\|diluted-eps_稀釋後每股盈餘]] ｜ [[98_商業概念庫/income-loss-3_綜合損益表\|income-loss-3_綜合損益表]]
+- 資本結構決策：[[98_商業概念庫/modigliani-miller-theorem_莫迪利安尼米勒定理\|modigliani-miller-theorem_莫迪利安尼米勒定理]] ｜ [[98_商業概念庫/financial-break-even_財務損益平衡點\|financial-break-even_財務損益平衡點]] ｜ [[98_商業概念庫/share-repurchase_股票買回\|share-repurchase_股票買回]]
+- 估值與市場評價：[[98_商業概念庫/pb-ratio_股價淨值比\|pb-ratio_股價淨值比]] ｜ [[98_商業概念庫/value-trap_價值陷阱\|value-trap_價值陷阱]] ｜ [[98_商業概念庫/EPV_盈餘能力價值模型 Earnings Power Value\|EPV_盈餘能力價值模型 Earnings Power Value]]
+- 營運與現金流校準：[[98_商業概念庫/operating-activities_營業活動\|operating-activities_營業活動]] ｜ [[98_商業概念庫/free-cash-flow_自由現金流量\|free-cash-flow_自由現金流量]] ｜ [[98_商業概念庫/accounting-profit-cash-flow-differentiation_會計利潤與現金流差異\|accounting-profit-cash-flow-differentiation_會計利潤與現金流差異]]

@@ -21,18 +21,16 @@
 2. **選擇性詮釋 (Selective Interpretation)**：將模稜兩可、具有高度雜訊的市場訊號，全部自動解讀為對自身有利的「利多消息」。
 3. **選擇性記憶 (Selective Recall)**：選擇性記住過去支持自身決策成功的歷史案例，而自動遺忘或合理化反面警訊。
 
-```
-【確認偏誤心智過濾漏斗】
-全域客觀市場訊號 (客觀利多 + 客觀利空)
-                  │
-                  ▼
-┌──────────────────────────────────────────────┐
-│  1. 選擇性搜尋：主動規避刺耳雜音             │
-│  2. 選擇性詮釋：將模糊中性數據解讀為利多     │
-│  3. 選擇性記憶：淡化反面案例，強化成功幻覺   │
-└──────────────────────┬───────────────────────┘
-                       ▼
-         鞏固原有偏見，形成組織盲區
+**【確認偏誤心智過濾漏斗】**
+
+```mermaid
+flowchart TD
+    classDef c_blue fill:#1e3a5f,stroke:#60a5fa,stroke-width:2px,color:#ffffff;
+    classDef c_green fill:#143823,stroke:#4ade80,stroke-width:2px,color:#ffffff;
+    classDef c_amber fill:#3d2806,stroke:#fbbf24,stroke-width:2px,color:#ffffff;
+    classDef c_purple fill:#3b1d54,stroke:#c084fc,stroke-width:2px,color:#ffffff;
+    classDef c_red fill:#5c1d24,stroke:#f87171,stroke-width:2px,color:#ffffff;
+    N0_0["1. 選擇性搜尋：主動規避刺耳雜音<br/>2. 選擇性詮釋：將模糊中性數據解讀為利多<br/>3. 選擇性記憶：淡化反面案例，強化成功幻覺"]:::c_blue
 ```
 
 ---
@@ -56,9 +54,9 @@ $$
 | 決策階段 | 典型確認偏誤行為 | 典型藉口與管理話術 | 制度性解方 |
 | :--- | :--- | :--- | :--- |
 | **商機辨識** | 只訪談熱愛產品的早期狂熱者，忽視流失用戶 | 「那些流失的客戶本來就不是我們的目標受眾」 | 強制訪談 50% 以上流失客戶與退貨用戶 |
-| **併購盡職調查** | 聘用投資銀行時，要求投行證明收購價值，而非尋找交易破綻 | 「這項併購具備巨大的戰略綜效，短期虧損不重要」 | 指派獨立審查組執行「[[Carter_Racing_NASA_Challenger_卡特賽車與挑戰者號決策個案|魔鬼代言人 (Devil's Advocate)]]」審查 |
+| **併購盡職調查** | 聘用投資銀行時，要求投行證明收購價值，而非尋找交易破綻 | 「這項併購具備巨大的戰略綜效，短期虧損不重要」 | 指派獨立審查組執行「[[98_商業概念庫/Carter_Racing_NASA_Challenger_卡特賽車與挑戰者號決策個案\|魔鬼代言人 (Devil's Advocate)]]」審查 |
 | **產品研發投入** | 產品測試出現嚴重 Bug 時，歸咎於測試環境異常 | 「正式上線後使用者不會這樣操作」 | 建立客觀自動化質量紅線，未過門檻禁止發布 |
-| **重大虧損停損** | 持續注資已瀕臨失敗的專案，深陷[[sunk-cost_沉沒成本|沉沒成本]] | 「只要再熬過這一季，市場就會迎來拐點」 | 設立獨立於專案團隊之外的「第三方清算停損委員會」 |
+| **重大虧損停損** | 持續注資已瀕臨失敗的專案，深陷[[98_商業概念庫/sunk-cost_沉沒成本\|沉沒成本]] | 「只要再熬過這一季，市場就會迎來拐點」 | 設立獨立於專案團隊之外的「第三方清算停損委員會」 |
 
 ---
 
@@ -80,12 +78,16 @@ $$
 
 ## 四、 經理人反思與行動檢核清單
 
-```
-                               對抗確認偏誤的組織制度防線
-┌─────────────────────────┬─────────────────────────┬─────────────────────────┐
-│     1. 結構化證偽機制   │     2. 資訊多元獨立性   │     3. 決策事前驗屍法   │
-│ 強制尋求「不發射/不投資」│ 隔離提議團隊與數據搜集組│ 在專案啟動前假設其已慘敗│
-└─────────────────────────┴─────────────────────────┴─────────────────────────┘
+**對抗確認偏誤的組織制度防線**
+
+```mermaid
+flowchart TD
+    classDef c_blue fill:#1e3a5f,stroke:#60a5fa,stroke-width:2px,color:#ffffff;
+    classDef c_green fill:#143823,stroke:#4ade80,stroke-width:2px,color:#ffffff;
+    classDef c_amber fill:#3d2806,stroke:#fbbf24,stroke-width:2px,color:#ffffff;
+    classDef c_purple fill:#3b1d54,stroke:#c084fc,stroke-width:2px,color:#ffffff;
+    classDef c_red fill:#5c1d24,stroke:#f87171,stroke-width:2px,color:#ffffff;
+    N0_0["1. 結構化證偽機制   │     2. 資訊多元獨立性   │     3. 決策事前驗屍法<br/>強制尋求「不發射/不投資」│ 隔離提議團隊與數據搜集組│ 在專案啟動前假設其已慘敗"]:::c_blue
 ```
 
 ### Executive Decision Checklist
@@ -99,7 +101,7 @@ $$
 
 ## 五、 關聯概念與延伸閱讀
 
-- 理論基石：[[cognitive-bias_認知偏誤]] ｜ [[bounded-rationality_有限理性]]
-- 決策陷阱：[[groupthink_團體迷思]] ｜ [[cognitive-dissonance_認知失調]] ｜ [[anchoring-effect_錨定效應]]
-- 個案研究：[[Carter_Racing_NASA_Challenger_卡特賽車與挑戰者號決策個案]] ｜ [[Prospect_Theory_Executive_Risk_展望理論與高管風險決策]]
-- 糾偏工具：[[organization-review-mechanism_組織覆盤機制]] ｜ [[scenario-planning_情境規劃]] ｜ [[analysis-2_敏感度分析]]
+- 理論基石：[[98_商業概念庫/cognitive-bias_認知偏誤\|cognitive-bias_認知偏誤]] ｜ [[98_商業概念庫/bounded-rationality_有限理性\|bounded-rationality_有限理性]]
+- 決策陷阱：[[98_商業概念庫/groupthink_團體迷思\|groupthink_團體迷思]] ｜ [[98_商業概念庫/cognitive-dissonance_認知失調\|cognitive-dissonance_認知失調]] ｜ [[98_商業概念庫/anchoring-effect_錨定效應\|anchoring-effect_錨定效應]]
+- 個案研究：[[98_商業概念庫/Carter_Racing_NASA_Challenger_卡特賽車與挑戰者號決策個案\|Carter_Racing_NASA_Challenger_卡特賽車與挑戰者號決策個案]] ｜ [[98_商業概念庫/Prospect_Theory_Executive_Risk_展望理論與高管風險決策\|Prospect_Theory_Executive_Risk_展望理論與高管風險決策]]
+- 糾偏工具：[[98_商業概念庫/organization-review-mechanism_組織覆盤機制\|organization-review-mechanism_組織覆盤機制]] ｜ [[98_商業概念庫/scenario-planning_情境規劃\|scenario-planning_情境規劃]] ｜ [[98_商業概念庫/analysis-2_敏感度分析\|analysis-2_敏感度分析]]

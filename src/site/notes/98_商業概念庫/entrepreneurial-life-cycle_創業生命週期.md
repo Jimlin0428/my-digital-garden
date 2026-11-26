@@ -12,24 +12,21 @@
 
 ## 1. 創業生命週期五階段與融資輪次對接 (Venture Stages & Funding Rounds)
 
-```
-                    ┌─────────────────────────────────────────────────────────┐
-                    │               創業生命週期與融資漏斗圖譜                │
-                    └────────────────────────────┬────────────────────────────┘
-                                                 ▼
-   階段 1: 種子期 ──▶ 階段 2: 初創期 ──▶ 階段 3: 擴張期 ──▶ 階段 4: 擴展成熟 ──▶ 階段 5: 退出期
-   (Seed Stage)       (Startup PMF)       (Scale-up)         (Expansion)        (Exit / Harvest)
-   ─────────────────────────────────────────────────────────────────────────────────────────────
-   • 商業構想與概念驗證 • 最小可行產品(MVP) • 閃電擴張, 搶奪市佔  • 建立職業化制度   • 首次公開發行 (IPO)
-   • 天使投資人 (Angels)• 種子輪/A 輪融資   • B 輪 / C 輪成長融資  • 追求獲利與穩定現金• 策略性 M&A 收購退出
-   • 核心創始團隊組建   • 跨越死亡之谷      • 營運資金需求暴增    • 籌備上市合規審計 • 股東與創辦人套現
+```mermaid
+flowchart TD
+    classDef c_blue fill:#1e3a5f,stroke:#60a5fa,stroke-width:2px,color:#ffffff;
+    classDef c_green fill:#143823,stroke:#4ade80,stroke-width:2px,color:#ffffff;
+    classDef c_amber fill:#3d2806,stroke:#fbbf24,stroke-width:2px,color:#ffffff;
+    classDef c_purple fill:#3b1d54,stroke:#c084fc,stroke-width:2px,color:#ffffff;
+    classDef c_red fill:#5c1d24,stroke:#f87171,stroke-width:2px,color:#ffffff;
+    N0_0["創業生命週期與融資漏斗圖譜"]:::c_blue
 ```
 
 ---
 
 ## 2. 關聯概念與延伸閱讀 (Cross References)
 
-- [[corporate-life-cycle_企業生命週期]]：成熟企業的生命演進對比。
-- [[product-life-cycle_產品生命週期]]：微觀產品導入與擴散基礎。
-- [[cash-pao-dao_現金跑道]]：新創生命週期中最重要的生死監控指標。
-- [[home]]：PMBA 知識庫首頁與模組導航。
+- [[98_商業概念庫/corporate-life-cycle_企業生命週期\|corporate-life-cycle_企業生命週期]]：成熟企業的生命演進對比。
+- [[98_商業概念庫/product-life-cycle_產品生命週期\|product-life-cycle_產品生命週期]]：微觀產品導入與擴散基礎。
+- [[98_商業概念庫/cash-pao-dao_現金跑道\|cash-pao-dao_現金跑道]]：新創生命週期中最重要的生死監控指標。
+- [[home\|home]]：PMBA 知識庫首頁與模組導航。

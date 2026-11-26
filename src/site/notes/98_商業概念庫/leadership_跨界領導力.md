@@ -12,21 +12,20 @@
 
 ## 1. 跨界領導力六大核心能力階梯 (The 6 Practices)
 
-```
-                    ┌─────────────────────────────────────────────────────────┐
-                    │               CCL 跨界領導力六大實踐階梯                │
-                    └────────────────────────────┬────────────────────────────┘
-                                                 ▼
-   階段 1: 管理邊界 (Manage Boundaries) ──▶ 階段 2: 連結邊界 (Forge Common Ground) ──▶ 階段 3: 發現新前沿 (Discover Frontiers)
-   ───────────────────────────────────────────────────────────────────────────────────────────────────────────
-   • 【1. 緩衝 Buffering】: 定義群體安全邊界  • 【3. 連結 Connecting】: 搭建人際非正式接觸橋樑 • 【5. 交織 Weaving】: 混合職能交錯組裝
-   • 【2. 反映 Reflecting】: 照見彼此視角同理 • 【4. 動員 Mobilizing】: 凝聚跨部門共同願景目標 • 【6. 轉化 Transforming】: 重塑全新突破生態
+```mermaid
+flowchart TD
+    classDef c_blue fill:#1e3a5f,stroke:#60a5fa,stroke-width:2px,color:#ffffff;
+    classDef c_green fill:#143823,stroke:#4ade80,stroke-width:2px,color:#ffffff;
+    classDef c_amber fill:#3d2806,stroke:#fbbf24,stroke-width:2px,color:#ffffff;
+    classDef c_purple fill:#3b1d54,stroke:#c084fc,stroke-width:2px,color:#ffffff;
+    classDef c_red fill:#5c1d24,stroke:#f87171,stroke-width:2px,color:#ffffff;
+    N0_0["CCL 跨界領導力六大實踐階梯"]:::c_blue
 ```
 
 ---
 
 ## 2. 關聯概念與延伸閱讀 (Cross References)
 
-- [[transformational-leadership_轉換型領導]]：跨越邊界凝聚共同願景之核心動力。
-- [[situational-leadership-theory_情境領導理論]]：在跨界協同中因應多元團隊成熟度之調適。
-- [[home]]：PMBA 知識庫首頁與模組導航。
+- [[98_商業概念庫/transformational-leadership_轉換型領導\|transformational-leadership_轉換型領導]]：跨越邊界凝聚共同願景之核心動力。
+- [[98_商業概念庫/situational-leadership-theory_情境領導理論\|situational-leadership-theory_情境領導理論]]：在跨界協同中因應多元團隊成熟度之調適。
+- [[home\|home]]：PMBA 知識庫首頁與模組導航。

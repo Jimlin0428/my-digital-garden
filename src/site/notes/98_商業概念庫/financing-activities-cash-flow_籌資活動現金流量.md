@@ -12,17 +12,14 @@
 
 ## 1. 核心組成項目與流動架構 (Components & Mechanics)
 
-```
-                    ┌─────────────────────────────────────────────────────────┐
-                    │               籌資活動現金流量正負向組成                │
-                    └────────────────────────────┬────────────────────────────┘
-                                                 ▼
-        ┌───────────────────────────────────────┬───────────────────────────────────────┐
-        ▼ 現金流入 (Cash Inflows: +)            ▼ 現金流出 (Cash Outflows: -)           │
-    • 現金增資發行新普通股或特別股              • 支付現金股利 (Cash Dividends Paid)   │
-    • 發行公司債 (Corporate Bonds) 所得現金     • 執行庫藏股買回 (Share Repurchases)    │
-    • 向銀行借入長短期借款本金                  • 償還銀行長短期借款本金               │
-    • 行使員工認股權收到的現金股款              • 贖回公司債本金或支付融資租賃本金     │
+```mermaid
+flowchart TD
+    classDef c_blue fill:#1e3a5f,stroke:#60a5fa,stroke-width:2px,color:#ffffff;
+    classDef c_green fill:#143823,stroke:#4ade80,stroke-width:2px,color:#ffffff;
+    classDef c_amber fill:#3d2806,stroke:#fbbf24,stroke-width:2px,color:#ffffff;
+    classDef c_purple fill:#3b1d54,stroke:#c084fc,stroke-width:2px,color:#ffffff;
+    classDef c_red fill:#5c1d24,stroke:#f87171,stroke-width:2px,color:#ffffff;
+    N0_0["籌資活動現金流量正負向組成"]:::c_blue
 ```
 
 ---
@@ -40,10 +37,10 @@
 
 ## 3. 關聯概念與延伸閱讀 (Cross References)
 
-- [[cash-flow-statement_現金流量表]]：現金流量表全貌與三大現金流八大矩陣。
-- [[operating-cash-flow-statement_營業活動現金流量]]：本業實質營運現金流。
-- [[investing-cash-flow-statement_投資活動現金流量]]：資本支出與資產配置分析。
-- [[dividend-policy_股利政策]]：決定籌資現金流中股息發放額度的核心政策。
-- [[wacc_加權平均資本成本]]：籌資結構對加權平均資金成本的優化。
-- [[capital-structure_資本結構]]：負債與權益比重的動態權衡。
-- [[home]]：PMBA 知識庫首頁與模組導航。
+- [[98_商業概念庫/cash-flow-statement_現金流量表\|cash-flow-statement_現金流量表]]：現金流量表全貌與三大現金流八大矩陣。
+- [[98_商業概念庫/operating-cash-flow-statement_營業活動現金流量\|operating-cash-flow-statement_營業活動現金流量]]：本業實質營運現金流。
+- [[98_商業概念庫/investing-cash-flow-statement_投資活動現金流量\|investing-cash-flow-statement_投資活動現金流量]]：資本支出與資產配置分析。
+- [[98_商業概念庫/dividend-policy_股利政策\|dividend-policy_股利政策]]：決定籌資現金流中股息發放額度的核心政策。
+- [[98_商業概念庫/wacc_加權平均資本成本\|wacc_加權平均資本成本]]：籌資結構對加權平均資金成本的優化。
+- [[98_商業概念庫/capital-structure_資本結構\|capital-structure_資本結構]]：負債與權益比重的動態權衡。
+- [[home\|home]]：PMBA 知識庫首頁與模組導航。

@@ -78,12 +78,16 @@ $$
 
 ## 四、 經理人反思與行動檢核清單
 
-```
-                               有限責任合規與面紗穿透防護
-┌─────────────────────────┬─────────────────────────┬─────────────────────────┐
-│     1. 財務帳簿絕對獨立 │     2. 資本適足性評估   │     3. 關係人交易公允化 │
-│ 杜絕私人支出混入公司報銷│ 配置充足資本與商業責任險│ 關聯交易必須具備獨立估價│
-└─────────────────────────┴─────────────────────────┴─────────────────────────┘
+**有限責任合規與面紗穿透防護**
+
+```mermaid
+flowchart TD
+    classDef c_blue fill:#1e3a5f,stroke:#60a5fa,stroke-width:2px,color:#ffffff;
+    classDef c_green fill:#143823,stroke:#4ade80,stroke-width:2px,color:#ffffff;
+    classDef c_amber fill:#3d2806,stroke:#fbbf24,stroke-width:2px,color:#ffffff;
+    classDef c_purple fill:#3b1d54,stroke:#c084fc,stroke-width:2px,color:#ffffff;
+    classDef c_red fill:#5c1d24,stroke:#f87171,stroke-width:2px,color:#ffffff;
+    N0_0["1. 財務帳簿絕對獨立 │     2. 資本適足性評估   │     3. 關係人交易公允化<br/>杜絕私人支出混入公司報銷│ 配置充足資本與商業責任險│ 關聯交易必須具備獨立估價"]:::c_blue
 ```
 
 ### Executive Decision Checklist
@@ -97,7 +101,7 @@ $$
 
 ## 五、 關聯概念與延伸閱讀
 
-- 公司制度架構：[[company_公司]] ｜ [[close-corporation_閉鎖性股份有限公司]]
-- 治理與代理：[[corporate-governance_公司治理]] ｜ [[agency-problem_代理人問題]] ｜ [[agency-costs_代理成本]]
-- 控制與合規：[[internal-control_內部人控制]] ｜ [[internal-control-2_內部控制]] ｜ [[risk-control_風險控制]]
-- 資本結構與破產：[[cost-of-capital_資金成本]] ｜ [[direct-bankruptcy-cost_直接破產成本]] ｜ [[financial-cost_財務危機成本]]
+- 公司制度架構：[[98_商業概念庫/company_公司\|company_公司]] ｜ [[98_商業概念庫/close-corporation_閉鎖性股份有限公司\|close-corporation_閉鎖性股份有限公司]]
+- 治理與代理：[[98_商業概念庫/corporate-governance_公司治理\|corporate-governance_公司治理]] ｜ [[98_商業概念庫/agency-problem_代理人問題\|agency-problem_代理人問題]] ｜ [[98_商業概念庫/agency-costs_代理成本\|agency-costs_代理成本]]
+- 控制與合規：[[98_商業概念庫/internal-control_內部人控制\|internal-control_內部人控制]] ｜ [[98_商業概念庫/internal-control-2_內部控制\|internal-control-2_內部控制]] ｜ [[98_商業概念庫/risk-control_風險控制\|risk-control_風險控制]]
+- 資本結構與破產：[[98_商業概念庫/cost-of-capital_資金成本\|cost-of-capital_資金成本]] ｜ [[98_商業概念庫/direct-bankruptcy-cost_直接破產成本\|direct-bankruptcy-cost_直接破產成本]] ｜ [[98_商業概念庫/financial-cost_財務危機成本\|financial-cost_財務危機成本]]

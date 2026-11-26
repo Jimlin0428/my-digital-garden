@@ -14,28 +14,22 @@
 
 ## 二、 理論架構與動態互動矩陣
 
-```
-                    ┌───────────────────────────────┐
-                    │    【政府角色】 (Government)   │
-                    │ • 法規標準制定 • 基礎科研投入 │
-                    │ • 公用設施供給 • 避免扭曲補貼 │
-                    └───────────────┬───────────────┘
-                                    │
-                    ┌───────────────┴───────────────┐
-                    ▼                               ▼
-            ┌───────────────┐               ┌───────────────┐
-            │ 企業策略、結構│ 競  爭  環  境 │  國內需求條件 │
-            │   與同業競爭  ├───────────────┤ (Demand Cond) │
-            └───────┬───────┘               └───────┬───────┘
-                    │                               │
-                    │       【機會變數】 (Chance)   │
-                    │  • 技術典範躍遷 • 地緣政治衝擊│
-                    │  • 金融海嘯危機 • 匯率巨幅波動│
-                    ▼                               ▼
-            ┌───────────────┐               ┌───────────────┐
-            │  生產要素條件 │ 互  補  協  同 │ 相關與支援產業│
-            │ (Factor Cond) ├───────────────┤ (Cluster Dev) │
-            └───────────────┘               └───────────────┘
+```mermaid
+flowchart TD
+    classDef c_blue fill:#1e3a5f,stroke:#60a5fa,stroke-width:2px,color:#ffffff;
+    classDef c_green fill:#143823,stroke:#4ade80,stroke-width:2px,color:#ffffff;
+    classDef c_amber fill:#3d2806,stroke:#fbbf24,stroke-width:2px,color:#ffffff;
+    classDef c_purple fill:#3b1d54,stroke:#c084fc,stroke-width:2px,color:#ffffff;
+    classDef c_red fill:#5c1d24,stroke:#f87171,stroke-width:2px,color:#ffffff;
+    N0_0["【政府角色】 （Government）<br/>• 法規標準制定 • 基礎科研投入<br/>• 公用設施供給 • 避免扭曲補貼"]:::c_blue
+    N1_0["企業策略、結構<br/>與同業競爭  ├───────────────┤ （Demand Cond）"]:::c_green
+    N1_1["國內需求條件"]:::c_amber
+    N2_0["生產要素條件<br/>（Factor Cond） ├───────────────┤ （Cluster Dev）"]:::c_purple
+    N2_1["相關與支援產業"]:::c_red
+    N0_0 --> N1_0
+    N0_0 --> N1_1
+    N1_0 -->|"【機會變數】 （Chance） • 技術典範躍遷 • 地緣政治衝擊 • 金融海嘯危機 • 匯率巨幅波動"| N2_0
+    N1_1 -->|"【機會變數】 （Chance） • 技術典範躍遷 • 地緣政治衝擊 • 金融海嘯危機 • 匯率巨幅波動"| N2_1
 ```
 
 ### 核心維度與功能分工

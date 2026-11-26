@@ -51,7 +51,7 @@
 ## 三、 企業真實實務個案
 
 ### 1. NASA 挑戰者號太空梭發射悲劇（Morton Thiokol 閉門會議）
-1986 年 1 月 27 日，在挑戰者號發射前夕的電話會議中，固態火箭助推器製造商 Morton Thiokol 的工程師團隊明確指出：翌日清晨發射場溫度低達華氏 18 度，O-ring 橡膠密封環在低溫下將喪失彈性，極可能造成熱氣外洩引發爆炸（詳見 [[Carter_Racing_NASA_Challenger_卡特賽車與挑戰者號決策個案]]）：
+1986 年 1 月 27 日，在挑戰者號發射前夕的電話會議中，固態火箭助推器製造商 Morton Thiokol 的工程師團隊明確指出：翌日清晨發射場溫度低達華氏 18 度，O-ring 橡膠密封環在低溫下將喪失彈性，極可能造成熱氣外洩引發爆炸（詳見 [[98_商業概念庫/Carter_Racing_NASA_Challenger_卡特賽車與挑戰者號決策個案\|Carter_Racing_NASA_Challenger_卡特賽車與挑戰者號決策個案]]）：
 - **直接施壓**：NASA 發射指揮官在電話中厲聲斥責：「我的上帝，Thiokol，你們難道要我們等到四月才發射嗎？」
 - **管理層心智衛士反轉**：Thiokol 高級副總裁要求工程師離席，對總經理說出經典的管理黑話：「**摘下你的工程師帽子，戴上你的管理層帽子！**」
 - **自我審查與一致性幻覺**：工程師最終被邊緣化，Thiokol 四位高管在沒有技術支持下進行表決，將原先的反對意見逆轉為「建議發射」。次日挑戰者號升空 73 秒後解體爆炸，7 名太空人罹難。
@@ -66,12 +66,16 @@
 
 ## 四、 經理人反思與行動檢核清單
 
-```
-                               對抗團體迷思的制度治理防線
-┌─────────────────────────┬─────────────────────────┬─────────────────────────┐
-│     1. 領導者後置發言   │     2. 旋轉魔鬼代言人   │     3. 二次機會覆決會   │
-│ 領導隱藏立場，最後表態  │ 每場會議指派專人反方批判│ 拍板前給予 24 小時反思期│
-└─────────────────────────┴─────────────────────────┴─────────────────────────┘
+**對抗團體迷思的制度治理防線**
+
+```mermaid
+flowchart TD
+    classDef c_blue fill:#1e3a5f,stroke:#60a5fa,stroke-width:2px,color:#ffffff;
+    classDef c_green fill:#143823,stroke:#4ade80,stroke-width:2px,color:#ffffff;
+    classDef c_amber fill:#3d2806,stroke:#fbbf24,stroke-width:2px,color:#ffffff;
+    classDef c_purple fill:#3b1d54,stroke:#c084fc,stroke-width:2px,color:#ffffff;
+    classDef c_red fill:#5c1d24,stroke:#f87171,stroke-width:2px,color:#ffffff;
+    N0_0["1. 領導者後置發言   │     2. 旋轉魔鬼代言人   │     3. 二次機會覆決會<br/>領導隱藏立場，最後表態  │ 每場會議指派專人反方批判│ 拍板前給予 24 小時反思期"]:::c_blue
 ```
 
 ### Executive Decision Checklist
@@ -85,7 +89,7 @@
 
 ## 五、 關聯概念與延伸閱讀
 
-- 核心案例：[[Carter_Racing_NASA_Challenger_卡特賽車與挑戰者號決策個案]] ｜ [[In_Search_of_Excellence_Myth_追求卓越的迷思與成功學批判]]
-- 偏誤互鎖：[[confirmation-bias_確認偏誤]] ｜ [[cognitive-bias_認知偏誤]] ｜ [[cognitive-dissonance_認知失調]]
-- 理論基礎：[[bounded-rationality_有限理性]] ｜ [[rational-decision-model_理性決策模型]]
-- 公司治理與組織文化：[[corporate-governance_公司治理]] ｜ [[learning-organization_學習型組織]] ｜ [[organization-review-mechanism_組織覆盤機制]]
+- 核心案例：[[98_商業概念庫/Carter_Racing_NASA_Challenger_卡特賽車與挑戰者號決策個案\|Carter_Racing_NASA_Challenger_卡特賽車與挑戰者號決策個案]] ｜ [[98_商業概念庫/In_Search_of_Excellence_Myth_追求卓越的迷思與成功學批判\|In_Search_of_Excellence_Myth_追求卓越的迷思與成功學批判]]
+- 偏誤互鎖：[[98_商業概念庫/confirmation-bias_確認偏誤\|confirmation-bias_確認偏誤]] ｜ [[98_商業概念庫/cognitive-bias_認知偏誤\|cognitive-bias_認知偏誤]] ｜ [[98_商業概念庫/cognitive-dissonance_認知失調\|cognitive-dissonance_認知失調]]
+- 理論基礎：[[98_商業概念庫/bounded-rationality_有限理性\|bounded-rationality_有限理性]] ｜ [[98_商業概念庫/rational-decision-model_理性決策模型\|rational-decision-model_理性決策模型]]
+- 公司治理與組織文化：[[98_商業概念庫/corporate-governance_公司治理\|corporate-governance_公司治理]] ｜ [[98_商業概念庫/learning-organization_學習型組織\|learning-organization_學習型組織]] ｜ [[98_商業概念庫/organization-review-mechanism_組織覆盤機制\|organization-review-mechanism_組織覆盤機制]]

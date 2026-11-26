@@ -14,20 +14,10 @@
 - **縱軸：產業長期吸引力 (Industry Attractiveness)**：綜合評估市場規模、長期成長率、產業毛利率、波特五力結構、進入壁壘與法規環境；
 - **橫軸：企業競爭實力 (Business Unit Strength)**：綜合評估相對市占率、品牌權益、專利技術、通路控制力、研發能耐與成本優勢。
 
-```text
-               ┌───────────────────────┬───────────────────────┬───────────────────────┐
-               │  強 (High Strength)   │  中 (Medium Strength) │  弱 (Low Strength)    │
-┌──────────────┼───────────────────────┼───────────────────────┼───────────────────────┤
-│ 高吸引力     │  ★ 擴張與優先投資     │  ★ 選擇性大舉投資     │  ▲ 選擇性保護或專注利基│
-│ (High Attr)  │ (Invest / Grow)       │ (Selectivity / Grow)  │ (Protect / Refocus)   │
-├──────────────┼───────────────────────┼───────────────────────┼───────────────────────┤
-│ 中吸引力     │  ★ 選擇性投資鞏固     │  ▲ 維持現狀與賺取淨型 │  ▼ 收割與限縮投資     │
-│ (Medium Attr)│ (Selective Investment)│ (Maintain / Harvest)  │ (Harvest / Divest)    │
-├──────────────┼───────────────────────┼───────────────────────┼───────────────────────┤
-│ 低吸引力     │  ▲ 保護既有市占並收割 │  ▼ 逐步分階段撤退     │  ✖ 全面處分清算       │
-│ (Low Attr)   │ (Harvest for Cash)    │ (Phased Divestment)   │ (Divest / Liquidate)  │
-└──────────────┴───────────────────────┴───────────────────────┴───────────────────────┘
-```
+| 強 (High Strength)<br>高吸引力<br>(High Attr) | 中 (Medium Strength)<br>★ 擴張與優先投資<br>(Invest / Grow) | 弱 (Low Strength)<br>★ 選擇性大舉投資<br>(Selectivity / Grow) |   |
+| :--- | :--- | :--- | :--- |
+| 中吸引力<br>(Medium Attr) | ★ 選擇性投資鞏固<br>(Selective Investment) | ▲ 維持現狀與賺取淨型<br>(Maintain / Harvest) | ▼ 收割與限縮投資<br>(Harvest / Divest) |
+| 低吸引力<br>(Low Attr) | ▲ 保護既有市占並收割<br>(Harvest for Cash) | ▼ 逐步分階段撤退<br>(Phased Divestment) | ✖ 全面處分清算<br>(Divest / Liquidate) |
 
 ---
 
@@ -41,5 +31,5 @@
 
 ## 三、 跨模組雙向鏈結與延伸導航
 
-- **課程筆記**：[[04_主題選修/10_創業與企業財務策略/02_模組筆記/Module_1_創新思維與商業模式/M1-2_白板決策鏈與財務價值三角|M1-2 白板決策鏈與財務價值三角]]
-- **關聯概念**：[[BCG_Matrix_波士頓矩陣與動態現金流|BCG 波士頓矩陣]] ｜ [[SOTP_零件加總估值法 Sum of the Parts|SOTP 零件加總法]] ｜ [[product-mix_產品組合管理|Product Mix 產品組合管理]]
+- **課程筆記**：[[04_主題選修/10_創業與企業財務策略/02_模組筆記/Module_1_創新思維與商業模式/M1-2_白板決策鏈與財務價值三角\|M1-2 白板決策鏈與財務價值三角]]
+- **關聯概念**：[[98_商業概念庫/BCG_Matrix_波士頓矩陣與動態現金流\|BCG 波士頓矩陣]] ｜ [[98_商業概念庫/SOTP_零件加總估值法 Sum of the Parts\|SOTP 零件加總法]] ｜ [[98_商業概念庫/product-mix_產品組合管理\|Product Mix 產品組合管理]]

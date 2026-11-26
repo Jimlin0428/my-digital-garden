@@ -33,7 +33,7 @@
 ## 二、 決策架構與數理機制
 
 ### 1. 決策後失調 (Post-Decision Dissonance) 與承諾升級
-在商業決策中，認知失調是造成經理人深陷**[[sunk-cost_沉沒成本|沉沒成本謬誤]]**與**承諾升級 (Escalation of Commitment)** 的底層心理驅動力。
+在商業決策中，認知失調是造成經理人深陷**[[98_商業概念庫/sunk-cost_沉沒成本\|沉沒成本謬誤]]**與**承諾升級 (Escalation of Commitment)** 的底層心理驅動力。
 
 設決策者在兩個難分高下的方案 $X$ 與 $Y$ 中作出了不可逆的重大選擇（選 $X$ 棄 $Y$）：
 1. **失調量大小模型**：費斯汀格指出，決策後失調的總量 $D$ 與以下變數成正比：
@@ -51,7 +51,7 @@ $$
 | :--- | :--- | :--- | :--- |
 | **主動合理化 (Rationalization)** | 重新框架失敗的定義，將虧損美化為學費 | 「這不叫虧損，這叫為未來生態系繳交的戰略門票。」 | 專案無法停損，資源被持續黑洞式吞噬 |
 | **淡化與縮小 (Trivialization)** | 將關鍵危機指標貶低為微不足道的小事 | 「離職員工只是抗壓性不足，不影響大局。」 | 忽視核心人才大量流失的警訊 |
-| **反向尋求驗證 (Selective Reassurance)** | 主動尋找同溫層專家為自己背書 | 「某某大師在演講中也強調了長期主義的價值。」 | 與客觀市場數據徹底脫節，深陷[[confirmation-bias_確認偏誤|確認偏誤]] |
+| **反向尋求驗證 (Selective Reassurance)** | 主動尋找同溫層專家為自己背書 | 「某某大師在演講中也強調了長期主義的價值。」 | 與客觀市場數據徹底脫節，深陷[[98_商業概念庫/confirmation-bias_確認偏誤\|確認偏誤]] |
 | **自我肯定補償 (Self-Affirmation)** | 在其他無關領域炫耀成就以掩蓋失落 | 「雖然這個新產品沒賣好，但我們的 ESG 評級全美第一。」 | 模糊商業競爭的本質焦點 |
 
 ---
@@ -76,12 +76,16 @@ $$
 
 ## 四、 經理人反思與行動檢核清單
 
-```
-                               對抗認知失調的治理架構
-┌─────────────────────────┬─────────────────────────┬─────────────────────────┐
-│     1. 決策與覆盤分離   │     2. 預設停損安全閥   │     3. 擁抱心理安全感   │
-│ 審核者不得是當初立案者  │ 簽約時白紙黑字寫死停損點│ 鼓勵認錯，獎勵及時止血  │
-└─────────────────────────┴─────────────────────────┴─────────────────────────┘
+**對抗認知失調的治理架構**
+
+```mermaid
+flowchart TD
+    classDef c_blue fill:#1e3a5f,stroke:#60a5fa,stroke-width:2px,color:#ffffff;
+    classDef c_green fill:#143823,stroke:#4ade80,stroke-width:2px,color:#ffffff;
+    classDef c_amber fill:#3d2806,stroke:#fbbf24,stroke-width:2px,color:#ffffff;
+    classDef c_purple fill:#3b1d54,stroke:#c084fc,stroke-width:2px,color:#ffffff;
+    classDef c_red fill:#5c1d24,stroke:#f87171,stroke-width:2px,color:#ffffff;
+    N0_0["1. 決策與覆盤分離   │     2. 預設停損安全閥   │     3. 擁抱心理安全感<br/>審核者不得是當初立案者  │ 簽約時白紙黑字寫死停損點│ 鼓勵認錯，獎勵及時止血"]:::c_blue
 ```
 
 ### Executive Decision Checklist
@@ -95,7 +99,7 @@ $$
 
 ## 五、 關聯概念與延伸閱讀
 
-- 核心機制：[[sunk-cost_沉沒成本]] ｜ [[confirmation-bias_確認偏誤]] ｜ [[self-serving-bias_自利偏誤]]
-- 決策心理學：[[Prospect_Theory_Executive_Risk_展望理論與高管風險決策]] ｜ [[cognitive-bias_認知偏誤]] ｜ [[bounded-rationality_有限理性]]
-- 組織集體失靈：[[groupthink_團體迷思]] ｜ [[Carter_Racing_NASA_Challenger_卡特賽車與挑戰者號決策個案]]
-- 治理處方：[[organization-review-mechanism_組織覆盤機制]] ｜ [[corporate-governance_公司治理]] ｜ [[agency-costs_代理成本]]
+- 核心機制：[[98_商業概念庫/sunk-cost_沉沒成本\|sunk-cost_沉沒成本]] ｜ [[98_商業概念庫/confirmation-bias_確認偏誤\|confirmation-bias_確認偏誤]] ｜ [[98_商業概念庫/self-serving-bias_自利偏誤\|self-serving-bias_自利偏誤]]
+- 決策心理學：[[98_商業概念庫/Prospect_Theory_Executive_Risk_展望理論與高管風險決策\|Prospect_Theory_Executive_Risk_展望理論與高管風險決策]] ｜ [[98_商業概念庫/cognitive-bias_認知偏誤\|cognitive-bias_認知偏誤]] ｜ [[98_商業概念庫/bounded-rationality_有限理性\|bounded-rationality_有限理性]]
+- 組織集體失靈：[[98_商業概念庫/groupthink_團體迷思\|groupthink_團體迷思]] ｜ [[98_商業概念庫/Carter_Racing_NASA_Challenger_卡特賽車與挑戰者號決策個案\|Carter_Racing_NASA_Challenger_卡特賽車與挑戰者號決策個案]]
+- 治理處方：[[98_商業概念庫/organization-review-mechanism_組織覆盤機制\|organization-review-mechanism_組織覆盤機制]] ｜ [[98_商業概念庫/corporate-governance_公司治理\|corporate-governance_公司治理]] ｜ [[98_商業概念庫/agency-costs_代理成本\|agency-costs_代理成本]]

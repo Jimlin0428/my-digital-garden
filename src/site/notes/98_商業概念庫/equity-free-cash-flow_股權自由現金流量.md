@@ -15,22 +15,16 @@
 ### 1.1 核心定義
 股權自由現金流量（FCFE）在企業財務學中被定義為：**企業股東作為「剩餘索償權人（Residual Claimants）」，在企業履行所有法律、營運與債務契約性承諾之後，所能從企業抽離且不傷害現有營運生產力的淨現金總額**。
 
-```
-              ┌──────────────────────────────────────────────────┐
-              │           企業自由現金流量 (FCFF)                │
-              └────────────────────────┬─────────────────────────┘
-                                       │ 扣除債權人現金索償：
-                                       │ - 稅後利息費用 [Interest x (1-t)]
-                                       │ + 淨借入本金 (新增債務 - 償還本金)
-                                       ▼
-              ┌──────────────────────────────────────────────────┐
-              │           股權自由現金流量 (FCFE)                │
-              └────────────────────────┬─────────────────────────┘
-                                       │ 股東價值返還決策：
-                    ┌──────────────────┴──────────────────┐
-                    ▼                                     ▼
-           【現金股利 (Dividends)】              【庫藏股回購 (Repurchase)】
-           (直接返還現金給全體股東)              (增強每股 EPS，兼具稅務優勢)
+```mermaid
+flowchart TD
+    classDef c_blue fill:#1e3a5f,stroke:#60a5fa,stroke-width:2px,color:#ffffff;
+    classDef c_green fill:#143823,stroke:#4ade80,stroke-width:2px,color:#ffffff;
+    classDef c_amber fill:#3d2806,stroke:#fbbf24,stroke-width:2px,color:#ffffff;
+    classDef c_purple fill:#3b1d54,stroke:#c084fc,stroke-width:2px,color:#ffffff;
+    classDef c_red fill:#5c1d24,stroke:#f87171,stroke-width:2px,color:#ffffff;
+    N0_0["企業自由現金流量 （FCFF）"]:::c_blue
+    N1_0["股權自由現金流量 （FCFE）"]:::c_green
+    N0_0 -->|"扣除債權人現金索償： - 稅後利息費用 [Interest x （1-t）] + 淨借入本金 （新增債務 - 償還本金）"| N1_0
 ```
 
 ### 1.2 本質解析：FCFE 與現金股利（Dividends）的關鍵剪刀差
@@ -162,18 +156,18 @@ graph TD
 ## 7. 關聯知識網絡與導航地圖 (Knowledge Network & Cross-References)
 
 ### 7.1 本主題核心三部曲
-- **[[enterprise-free-cash-flow-liang_企業自由現金流量]]** · 全體出資人視角、無槓桿資產造血本質與 DCF 企業價值評估
-- **[[equity-free-cash-flow_股權自由現金流量]]** · 股東剩餘索償權、財務槓桿淨效應與股東分配上限（本篇）
-- **[[operating-cash-flow-statement_營業活動現金流量]]** · 本業營運現金造血能力、間接法調和與應計制盈餘品質檢驗
+- **[[98_商業概念庫/enterprise-free-cash-flow-liang_企業自由現金流量\|enterprise-free-cash-flow-liang_企業自由現金流量]]** · 全體出資人視角、無槓桿資產造血本質與 DCF 企業價值評估
+- **[[98_商業概念庫/equity-free-cash-flow_股權自由現金流量\|equity-free-cash-flow_股權自由現金流量]]** · 股東剩餘索償權、財務槓桿淨效應與股東分配上限（本篇）
+- **[[98_商業概念庫/operating-cash-flow-statement_營業活動現金流量\|operating-cash-flow-statement_營業活動現金流量]]** · 本業營運現金造血能力、間接法調和與應計制盈餘品質檢驗
 
 ### 7.2 跨領域財務與策略鏈結
-- [[capital-structure_資本結構]] · 負債融資比例與利息負擔對 FCFE 的結構性調控
-- [[dcf_現金流量折現法]] · FCFE 股權折現模型之數學架構
-- [[wacc_加權平均資本成本]] · 區分股權成本 $K_e$ 與全公司 WACC 之定價邊界
-- [[equity-financing_股權融資]] · 股權資本成本、稀釋效應與股東現金流分配
-- [[company-value_公司內在價值]] · FCFE 折現推導出之股東內在權益價值
+- [[98_商業概念庫/capital-structure_資本結構\|capital-structure_資本結構]] · 負債融資比例與利息負擔對 FCFE 的結構性調控
+- [[98_商業概念庫/dcf_現金流量折現法\|dcf_現金流量折現法]] · FCFE 股權折現模型之數學架構
+- [[98_商業概念庫/wacc_加權平均資本成本\|wacc_加權平均資本成本]] · 區分股權成本 $K_e$ 與全公司 WACC 之定價邊界
+- [[98_商業概念庫/equity-financing_股權融資\|equity-financing_股權融資]] · 股權資本成本、稀釋效應與股東現金流分配
+- [[98_商業概念庫/company-value_公司內在價值\|company-value_公司內在價值]] · FCFE 折現推導出之股東內在權益價值
 
 ### 7.3 課程筆記與導航主頁
-- [[L09_資本結構理論與決策]] · 財務策略模組九：資本結構、股利政策與公司理財決策
-- [[_創業與企業財務策略 MOC]] · 企業財務策略與資本市場運作全景地圖
-- [[home]] · 全球 PMBA 知識庫總導航主頁面
+- [[02_核心必修/01_財務管理/L09_資本結構理論與決策\|L09_資本結構理論與決策]] · 財務策略模組九：資本結構、股利政策與公司理財決策
+- [[04_主題選修/10_創業與企業財務策略/_歷史版本封存/_創業與企業財務策略 MOC\|_創業與企業財務策略 MOC]] · 企業財務策略與資本市場運作全景地圖
+- [[home\|home]] · 全球 PMBA 知識庫總導航主頁面

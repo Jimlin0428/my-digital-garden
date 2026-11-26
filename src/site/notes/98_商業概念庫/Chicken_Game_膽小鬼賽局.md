@@ -14,19 +14,16 @@
 
 ## 二、 報酬矩陣與均衡特徵
 
-```text
-【新進者嚇阻對決矩陣 (既有廠商 A, 潛在進入者 B)】
+**【新進者嚇阻對決矩陣 (既有廠商 A, 潛在進入者 B)】**
 
-                     潛在進入者 B
-                 煞車 (放棄進入)    直衝 (強行進入)
-      ┌──────────────┬──────────────┐
-  煞車│              │              │
- (妥協)│   ( 0,  0)   │   (-3,  3)   │
-既有  ├──────────────┼──────────────┤
-廠商  │              │              │
- A    │  ★ ( 3, -3)  │  💥 (-6, -6) │  <── 雙方皆硬碰硬之毀滅結局
- 直衝 │              │              │
- (反擊)└──────────────┴──────────────┘
+```mermaid
+flowchart TD
+    classDef c_blue fill:#1e3a5f,stroke:#60a5fa,stroke-width:2px,color:#ffffff;
+    classDef c_green fill:#143823,stroke:#4ade80,stroke-width:2px,color:#ffffff;
+    classDef c_amber fill:#3d2806,stroke:#fbbf24,stroke-width:2px,color:#ffffff;
+    classDef c_purple fill:#3b1d54,stroke:#c084fc,stroke-width:2px,color:#ffffff;
+    classDef c_red fill:#5c1d24,stroke:#f87171,stroke-width:2px,color:#ffffff;
+    N0_0["│<br/>（ 0,  0）   │   （-3,  3）<br/>│<br/>★ （ 3, -3）  │  💥 （-6, -6）<br/>│"]:::c_blue
 ```
 
 - **兩個納許均衡**：$(3, -3)$ 與 $(-3, 3)$；
@@ -46,5 +43,5 @@
 ---
 
 ## 四、 關聯筆記與概念地圖
-- **核心關聯模組**：[[M2-3_產業價值網與競合分析]] ｜ [[M1-5_波特五力分析與量化架構]]
-- **概念地圖對接**：[[Prisoners_Dilemma_囚犯困境賽局]] ｜ [[PARTS_賽局變革架構 PARTS Framework]] ｜ [[industry-alliance_同業合作三大動機|Industry_Alliance_同業合作三大動機]]
+- **核心關聯模組**：[[04_主題選修/12_產業分析與投資策略/99_歷史舊版備份/M2-3_產業價值網與競合分析\|M2-3_產業價值網與競合分析]] ｜ [[04_主題選修/12_產業分析與投資策略/99_歷史舊版備份/M1-5_波特五力分析與量化架構\|M1-5_波特五力分析與量化架構]]
+- **概念地圖對接**：[[98_商業概念庫/Prisoners_Dilemma_囚犯困境賽局\|Prisoners_Dilemma_囚犯困境賽局]] ｜ [[98_商業概念庫/PARTS_賽局變革架構 PARTS Framework\|PARTS_賽局變革架構 PARTS Framework]] ｜ [[98_商業概念庫/industry-alliance_同業合作三大動機\|Industry_Alliance_同業合作三大動機]]

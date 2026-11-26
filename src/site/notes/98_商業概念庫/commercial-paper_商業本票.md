@@ -74,26 +74,30 @@ $$
 
 ## 四、 經理人反思與行動檢核清單
 
-```
-                               商業本票短期融資風控矩陣
-┌─────────────────────────┬─────────────────────────┬─────────────────────────┐
-│     1. 備用額度百分百   │     2. 到期階梯分散化   │     3. 嚴禁短貸長投     │
-│ 銀行未動用承諾額度>CP總額│ 避免大額在同一週集中到期│ 資金僅限短期營運資本週轉│
-└─────────────────────────┴─────────────────────────┴─────────────────────────┘
+**商業本票短期融資風控矩陣**
+
+```mermaid
+flowchart TD
+    classDef c_blue fill:#1e3a5f,stroke:#60a5fa,stroke-width:2px,color:#ffffff;
+    classDef c_green fill:#143823,stroke:#4ade80,stroke-width:2px,color:#ffffff;
+    classDef c_amber fill:#3d2806,stroke:#fbbf24,stroke-width:2px,color:#ffffff;
+    classDef c_purple fill:#3b1d54,stroke:#c084fc,stroke-width:2px,color:#ffffff;
+    classDef c_red fill:#5c1d24,stroke:#f87171,stroke-width:2px,color:#ffffff;
+    N0_0["1. 備用額度百分百   │     2. 到期階梯分散化   │     3. 嚴禁短貸長投<br/>銀行未動用承諾額度>CP總額│ 避免大額在同一週集中到期│ 資金僅限短期營運資本週轉"]:::c_blue
 ```
 
 ### Executive Decision Checklist
 - [ ] **備用信用額度覆蓋率 (Backup Facility Check)**：公司流通在外的商業本票總餘額，是否由各大主要往來銀行簽署的「具有不可撤銷約束力之備用信貸額度 (Committed Revolving Credit Lines)」進行了 100% 的全額兜底？
 - [ ] **展期極端壓力測試**：假設突發全球流動性危機，貨幣市場連續 30 天完全拒絕為本公司的 CP 進行展期，我們賬面的自由現金儲備與備用信貸是否能從容支付所有到期票款？
 - [ ] **到期日梯次排布 (Maturity Laddering)**：商業本票的發行到期日是否均勻分散在各個月份？是否存在某一天或某一週到期額度佔比超過 25% 的流動性懸崖？
-- [ ] **資產負債期限嚴格匹配**：發行 CP 取得的低成本資金，是否嚴格限制僅用於資產負債表上的[[working-capital-management_營運資金管理|淨營運資金 (NWC)]]循環，堅決杜絕挪用於長期廠房建設或高風險股權投資？
+- [ ] **資產負債期限嚴格匹配**：發行 CP 取得的低成本資金，是否嚴格限制僅用於資產負債表上的[[98_商業概念庫/working-capital-management_營運資金管理\|淨營運資金 (NWC)]]循環，堅決杜絕挪用於長期廠房建設或高風險股權投資？
 - [ ] **信用評等監控預警**：公司的短期信用評等（如 S&P A-1 / Moody's P-1）是否穩固？是否設立了若遭降級至 A-2/P-2 時融資成本飆升與投資人抽資的應急預案？
 
 ---
 
 ## 五、 關聯概念與延伸閱讀
 
-- 貨幣市場體系：[[market-4_貨幣市場]] ｜ [[working-capital-management_營運資金管理]] ｜ [[cash-budget_現金預算]]
-- 資本結構與危機：[[modigliani-miller-theorem_莫迪利安尼米勒定理]] ｜ [[financial-cost_財務危機成本]] ｜ [[cost-of-capital_資金成本]]
-- 利率與避險：[[interest-rate-swap_利率交換]] ｜ [[currency-swap_貨幣交換]] ｜ [[strategy-2_避險策略]]
-- 交易與清算：[[settlement_每日結算制度]] ｜ [[margin-system_保證金制度]] ｜ [[arbitrage_套利]]
+- 貨幣市場體系：[[98_商業概念庫/market-4_貨幣市場\|market-4_貨幣市場]] ｜ [[98_商業概念庫/working-capital-management_營運資金管理\|working-capital-management_營運資金管理]] ｜ [[98_商業概念庫/cash-budget_現金預算\|cash-budget_現金預算]]
+- 資本結構與危機：[[98_商業概念庫/modigliani-miller-theorem_莫迪利安尼米勒定理\|modigliani-miller-theorem_莫迪利安尼米勒定理]] ｜ [[98_商業概念庫/financial-cost_財務危機成本\|financial-cost_財務危機成本]] ｜ [[98_商業概念庫/cost-of-capital_資金成本\|cost-of-capital_資金成本]]
+- 利率與避險：[[98_商業概念庫/interest-rate-swap_利率交換\|interest-rate-swap_利率交換]] ｜ [[98_商業概念庫/currency-swap_貨幣交換\|currency-swap_貨幣交換]] ｜ [[98_商業概念庫/strategy-2_避險策略\|strategy-2_避險策略]]
+- 交易與清算：[[98_商業概念庫/settlement_每日結算制度\|settlement_每日結算制度]] ｜ [[98_商業概念庫/margin-system_保證金制度\|margin-system_保證金制度]] ｜ [[98_商業概念庫/arbitrage_套利\|arbitrage_套利]]

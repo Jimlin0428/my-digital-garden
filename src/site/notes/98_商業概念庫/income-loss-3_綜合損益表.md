@@ -21,34 +21,14 @@
 
 $$\text{Total Comprehensive Income} = \text{本期淨利 (Net Income)} + \text{其他綜合損益 (OCI)}$$
 
-```
-┌──────────────────────────────────────────────────────────────┐
-│                  【綜合損益表架構】                          │
-│                                                              │
-│  【第一板塊：本期損益 (Profit or Loss / Net Income)】         │
-│    營業收入                                                  │
-│    減：營業成本                                              │
-│    ＝ 營業毛利                                               │
-│    減：營業費用                                              │
-│    ＝ 營業利益 (Operating Income)                            │
-│    加減：營業外收入及支出、財務成本                          │
-│    ＝ 稅前淨利                                               │
-│    減：所得稅費用                                            │
-│    ＝ 【本期淨利 (Net Income)】 ◄── (傳統損益表終點，計入 EPS) │
-│                                                              │
-│  ──────────────────────────────────────────────────────────  │
-│                                                              │
-│  【第二板塊：其他綜合損益 (Other Comprehensive Income, OCI)】│
-│    1. 後續可能重分類至損益之項目 (如國外營運匯兌差額)        │
-│    2. 後續不得重分類至損益之項目 (如確定福利計畫再衡量數)    │
-│    ＝ 【本期其他綜合損益淨額 (OCI)】                          │
-│                                                              │
-│  ──────────────────────────────────────────────────────────  │
-│                                                              │
-│  ＝ 【本期綜合損益總額 (Total Comprehensive Income)】        │
-│      ├─ 歸屬於母公司業主之綜合損益                           │
-│      └─ 歸屬於非控制權益之綜合損益                           │
-└──────────────────────────────────────────────────────────────┘
+```mermaid
+flowchart TD
+    classDef c_blue fill:#1e3a5f,stroke:#60a5fa,stroke-width:2px,color:#ffffff;
+    classDef c_green fill:#143823,stroke:#4ade80,stroke-width:2px,color:#ffffff;
+    classDef c_amber fill:#3d2806,stroke:#fbbf24,stroke-width:2px,color:#ffffff;
+    classDef c_purple fill:#3b1d54,stroke:#c084fc,stroke-width:2px,color:#ffffff;
+    classDef c_red fill:#5c1d24,stroke:#f87171,stroke-width:2px,color:#ffffff;
+    N0_0["【綜合損益表架構】<br/>【第一板塊：本期損益 （Profit or Loss / Net Income）】<br/>營業收入<br/>減：營業成本<br/>＝ 營業毛利<br/>減：營業費用<br/>＝ 營業利益 （Operating Income）<br/>加減：營業外收入及支出、財務成本<br/>＝ 稅前淨利<br/>減：所得稅費用<br/>＝ 【本期淨利 （Net Income）】 ◄── （傳統損益表終點，計入 EPS）<br/>【第二板塊：其他綜合損益 （Other Comprehensive Income, OCI）】<br/>1. 後續可能重分類至損益之項目 （如國外營運匯兌差額）<br/>2. 後續不得重分類至損益之項目 （如確定福利計畫再衡量數）<br/>＝ 【本期其他綜合損益淨額 （OCI）】<br/>＝ 【本期綜合損益總額 （Total Comprehensive Income）】<br/>├─ 歸屬於母公司業主之綜合損益<br/>└─ 歸屬於非控制權益之綜合損益"]:::c_blue
 ```
 
 ### 2. 列報模式之選擇 (IAS 1)

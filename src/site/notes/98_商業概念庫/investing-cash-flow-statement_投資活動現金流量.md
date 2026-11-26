@@ -15,18 +15,14 @@
 ### 1.1 核心定義
 投資活動現金流量是指：**企業在特定會計期間內，針對長期資產（Long-term Assets）及其他不包括在現金及約當現金範圍內的各類投資之取得與處分，所產生之現金流入與流出的代數和**。
 
-```
-                    ┌─────────────────────────────────────────────────────────┐
-                    │               投資活動現金流量正負向組成                │
-                    └────────────────────────────┬────────────────────────────┘
-                                                 ▼
-        ┌───────────────────────────────────────┬───────────────────────────────────────┐
-        ▼ 現金流出 (Cash Outflows: -)           ▼ 現金流入 (Cash Inflows: +)           │
-    • 購建不動產、廠房及設備支出 (CapEx)        • 處分不動產、廠房及設備之現金收入     │
-    • 取得專利權、軟體授權等無形資產            • 處分專利或無形資產之現金收入         │
-    • 取得子公司或業務單位股權之淨現金流出 (M&A)• 處分子公司或業務單位股權之淨現金流入 │
-    • 購買長期股權投資或債券金融資產            • 收回長期貸款本金或處分金融資產收入   │
-    • 對關聯企業發放長期貸款融資                • 收到被投資公司之現金股利 (依會計政策)│
+```mermaid
+flowchart TD
+    classDef c_blue fill:#1e3a5f,stroke:#60a5fa,stroke-width:2px,color:#ffffff;
+    classDef c_green fill:#143823,stroke:#4ade80,stroke-width:2px,color:#ffffff;
+    classDef c_amber fill:#3d2806,stroke:#fbbf24,stroke-width:2px,color:#ffffff;
+    classDef c_purple fill:#3b1d54,stroke:#c084fc,stroke-width:2px,color:#ffffff;
+    classDef c_red fill:#5c1d24,stroke:#f87171,stroke-width:2px,color:#ffffff;
+    N0_0["投資活動現金流量正負向組成"]:::c_blue
 ```
 
 ---
@@ -37,18 +33,14 @@
 
 $$\text{Total CapEx} = \text{Maintenance CapEx} + \text{Growth CapEx}$$
 
-```
-                          ┌───────────────────────────────┐
-                          │    資本支出 (CapEx) 二元結構  │
-                          └───────────────┬───────────────┘
-                                          ▼
-                ┌─────────────────────────┴─────────────────────────┐
-                ▼                                                   ▼
-   【維持性資本支出 (Maintenance)】                    【擴張性資本支出 (Growth)】
-    • 抵銷生產設備之實體磨損與技術老化                 • 新建晶圓廠、開拓新市場門市
-    • 維持當前產能與競爭地位之必要代價                 • 旨在驅動未來營收與市佔率增長
-    • 規模通常約等於當期「折舊與攤銷 (D&A)」           • 創造「成長機會現值 (PVGO)」
-    • 屬於「防守型」支出，不可刪減                     • 屬於「進攻型」支出，具備選擇權彈性
+```mermaid
+flowchart TD
+    classDef c_blue fill:#1e3a5f,stroke:#60a5fa,stroke-width:2px,color:#ffffff;
+    classDef c_green fill:#143823,stroke:#4ade80,stroke-width:2px,color:#ffffff;
+    classDef c_amber fill:#3d2806,stroke:#fbbf24,stroke-width:2px,color:#ffffff;
+    classDef c_purple fill:#3b1d54,stroke:#c084fc,stroke-width:2px,color:#ffffff;
+    classDef c_red fill:#5c1d24,stroke:#f87171,stroke-width:2px,color:#ffffff;
+    N0_0["資本支出 （CapEx） 二元結構"]:::c_blue
 ```
 
 > **高階估值洞見**：
@@ -72,7 +64,7 @@ graph TD
 ```
 
 1. **健康擴張期的負值信號（Negative CFI is Healthy）**：
-   成長型與成熟型企業若 $CFI < 0$，且該流出全數由穩健的本業 $OCF$ 支應（即 $OCF > |CFI|$），代表企業內部資本良性循環，具有充沛的[[enterprise-free-cash-flow-liang_企業自由現金流量|企業自由現金流量（FCFF）]]。
+   成長型與成熟型企業若 $CFI < 0$，且該流出全數由穩健的本業 $OCF$ 支應（即 $OCF > |CFI|$），代表企業內部資本良性循環，具有充沛的[[98_商業概念庫/enterprise-free-cash-flow-liang_企業自由現金流量\|企業自由現金流量（FCFF）]]。
 2. **大額正值的「賣祖產」警訊（The Positive CFI Trap）**：
    若企業本業虧損（$OCF < 0$），而整體現金流轉正全靠 $CFI > 0$（處分廠房、土地、高毛利轉投資公司），這是極度危險的**失血性處分**。這種業外收益是一次性的，非但無法持續，更會導致企業未來喪失核心生產工具，淪入惡性循環。
 3. **過度投資與週期頂部套牢（Over-investment Cycle）**：
@@ -92,10 +84,10 @@ graph TD
 
 ## 5. 關聯概念與延伸閱讀 (Cross References)
 
-- [[cash-flow-statement_現金流量表]]：現金流量表全貌與三大現金流八大矩陣。
-- [[operating-cash-flow-statement_營業活動現金流量]]：支應投資活動所需資金的本業造血來源。
-- [[capital-expenditure_資本支出]]：CapEx 的會計確認、估值模型與經濟意涵。
-- [[enterprise-free-cash-flow-liang_企業自由現金流量]]：$FCFF = OCF - CapEx$ 之核心扣除邏輯。
-- [[ROIC_投入資本報酬率 Return on Invested Capital]]：檢驗投資活動現金流出所創造的新增資本回報率。
-- [[insolvency-with-profit_黑字倒閉]]：因投資活動過度擴張、吸乾營運資金引發的流動性危機。
-- [[home]]：PMBA 知識庫首頁與模組導航。
+- [[98_商業概念庫/cash-flow-statement_現金流量表\|cash-flow-statement_現金流量表]]：現金流量表全貌與三大現金流八大矩陣。
+- [[98_商業概念庫/operating-cash-flow-statement_營業活動現金流量\|operating-cash-flow-statement_營業活動現金流量]]：支應投資活動所需資金的本業造血來源。
+- [[98_商業概念庫/capital-expenditure_資本支出\|capital-expenditure_資本支出]]：CapEx 的會計確認、估值模型與經濟意涵。
+- [[98_商業概念庫/enterprise-free-cash-flow-liang_企業自由現金流量\|enterprise-free-cash-flow-liang_企業自由現金流量]]：$FCFF = OCF - CapEx$ 之核心扣除邏輯。
+- [[98_商業概念庫/ROIC_投入資本報酬率 Return on Invested Capital\|ROIC_投入資本報酬率 Return on Invested Capital]]：檢驗投資活動現金流出所創造的新增資本回報率。
+- [[98_商業概念庫/insolvency-with-profit_黑字倒閉\|insolvency-with-profit_黑字倒閉]]：因投資活動過度擴張、吸乾營運資金引發的流動性危機。
+- [[home\|home]]：PMBA 知識庫首頁與模組導航。

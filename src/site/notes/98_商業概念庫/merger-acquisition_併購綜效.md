@@ -25,23 +25,20 @@ $$NPV_{M\&A} = \Delta V_{Total} - \text{Premium} - \text{Expenses}_{Transaction/
 - **收購溢價（Premium）**：買方支付給被併方股東超出其獨立市場價值的額外金額：
   $$\text{Premium} = \text{Purchase Price} - V_B$$
 
-```
-            ┌─────────────────────────────────────────────────────────┐
-            │               併購總體價值創造與分配光譜                │
-            └────────────────────────────┬────────────────────────────┘
-                                         ▼
-   ┌──────────────────────────────────────────────────────────────────────────┐
-   │ 總綜效價值池 (Total Synergy Value: ΔV = ΔV_Operating + ΔV_Financial)    │
-   └─────────────────────────────────────┬────────────────────────────────────┘
-                                         │
-                 ┌───────────────────────┴───────────────────────┐
-                 ▼                                               ▼
-   ┌───────────────────────────┐                   ┌───────────────────────────┐
-   │ 被併方股東拿走的收購溢價   │                   │ 買方股東真正保留的淨價值   │
-   │ (Acquisition Premium)     │                   │ (NPV for Acquirer)        │
-   │ • 50%~70% 的預期綜效現值  │                   │ • 若溢價過高, 該值轉為負數│
-   │ • 交易交割日即由被併方落袋│                   │ • 需經由 PMI 漫長執行兌現 │
-   └───────────────────────────┘                   └───────────────────────────┘
+```mermaid
+flowchart TD
+    classDef c_blue fill:#1e3a5f,stroke:#60a5fa,stroke-width:2px,color:#ffffff;
+    classDef c_green fill:#143823,stroke:#4ade80,stroke-width:2px,color:#ffffff;
+    classDef c_amber fill:#3d2806,stroke:#fbbf24,stroke-width:2px,color:#ffffff;
+    classDef c_purple fill:#3b1d54,stroke:#c084fc,stroke-width:2px,color:#ffffff;
+    classDef c_red fill:#5c1d24,stroke:#f87171,stroke-width:2px,color:#ffffff;
+    N0_0["併購總體價值創造與分配光譜"]:::c_blue
+    N1_0["總綜效價值池 （Total Synergy Value: ΔV = ΔV_Operating + ΔV_Financial）"]:::c_green
+    N2_0["被併方股東拿走的收購溢價<br/>（Acquisition Premium）<br/>• 50%~70% 的預期綜效現值<br/>• 交易交割日即由被併方落袋"]:::c_amber
+    N2_1["買方股東真正保留的淨價值<br/>（NPV for Acquirer）<br/>• 若溢價過高, 該值轉為負數<br/>• 需經由 PMI 漫長執行兌現"]:::c_purple
+    N0_0 --> N1_0
+    N1_0 --> N2_0
+    N1_0 --> N2_1
 ```
 
 > **高階決策鐵律**：只有當 **$\Delta V_{Total} > \text{Premium} + \text{Expenses}$** 時，這項併購案才為買方股東創造價值；反之，若支付溢價超過了綜效現值，買方即陷入了「**贏家的詛咒（Winner's Curse）**」。
@@ -69,7 +66,7 @@ graph TD
 
 1. **成本削減（Cost Synergies / 硬綜效）**：
    - **可預測性高（High Certainty）**：通常在交割後 12~24 個月內透過具體管理手段（裁員、關閉重疊辦公室、終止重複軟體授權）即可實現。
-   - **估值折現率**：由於確定性較高，財務分析師通常以買方的加權平均資本成本（[[wacc_加權平均資本成本|WACC]]）進行折現。
+   - **估值折現率**：由於確定性較高，財務分析師通常以買方的加權平均資本成本（[[98_商業概念庫/wacc_加權平均資本成本\|WACC]]）進行折現。
 2. **營收擴張（Revenue Synergies / 軟綜效）**：
    - **高度不確定性（Low Certainty）**：高度依賴市場客戶是否買單、銷售團隊是否具備交叉銷售能力。
    - **實務折價法則**：華爾街投資銀行在 M&A 估值模型中，通常會對承諾的營收軟綜效給予 **50%~70% 的保守折扣（Haircut）**。
@@ -103,10 +100,10 @@ $$\Delta \text{FCFF}_t = [\Delta \text{Revenue}_t - \Delta \text{Cost}_t](1 - T_
 
 ## 4. 關聯概念與延伸閱讀 (Cross References)
 
-- [[enterprise-m-and-a_企業併購]]：企業併購全流程生命週期與戰略動機。
-- [[acquisition-premium_收購溢價]]：收購溢價的計算基準與過度承諾綜效的陷阱。
-- [[merger-acquisition-integration_併購後整合]]：綜效能否在實務上兌現的關鍵執行架構。
-- [[horizontal-merger-acquisition_水平併購]]：同業併購規模經濟綜效的實現。
-- [[vertical-merger-acquisition_垂直併購]]：價值鏈上下游協同綜效的實現。
-- [[wacc_加權平均資本成本]]：併購綜效折現計算的核心基準折現率。
-- [[home]]：PMBA 知識庫首頁與模組導航。
+- [[98_商業概念庫/enterprise-m-and-a_企業併購\|enterprise-m-and-a_企業併購]]：企業併購全流程生命週期與戰略動機。
+- [[98_商業概念庫/acquisition-premium_收購溢價\|acquisition-premium_收購溢價]]：收購溢價的計算基準與過度承諾綜效的陷阱。
+- [[98_商業概念庫/merger-acquisition-integration_併購後整合\|merger-acquisition-integration_併購後整合]]：綜效能否在實務上兌現的關鍵執行架構。
+- [[98_商業概念庫/horizontal-merger-acquisition_水平併購\|horizontal-merger-acquisition_水平併購]]：同業併購規模經濟綜效的實現。
+- [[98_商業概念庫/vertical-merger-acquisition_垂直併購\|vertical-merger-acquisition_垂直併購]]：價值鏈上下游協同綜效的實現。
+- [[98_商業概念庫/wacc_加權平均資本成本\|wacc_加權平均資本成本]]：併購綜效折現計算的核心基準折現率。
+- [[home\|home]]：PMBA 知識庫首頁與模組導航。

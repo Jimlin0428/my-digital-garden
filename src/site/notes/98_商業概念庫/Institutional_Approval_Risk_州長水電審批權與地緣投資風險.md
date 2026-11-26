@@ -13,28 +13,18 @@
 
 ## 二、 制度權限傳導與風險因果圖
 
-```
-                 ┌──────────────────────────────────────────────┐
-                 │    跨國高科技製造赴美直接投資 (FDI) 決策     │
-                 └──────────────────────┬───────────────────────┘
-                                        │
-        ┌───────────────────────────────┴───────────────────────────────┐
-        ▼                                                               ▼
-┌───────────────────────────────┐               ┌───────────────────────────────┐
-│  【華府聯邦政府層級】         │               │  【各州次主權地方政府層級】   │
-│  (Federal Government)         │               │  (State Governor & Regulators)│
-├───────────────────────────────┤               ├───────────────────────────────┤
-│• 晶片法案補貼 (CHIPS Grants)  │               │• 工業用水水源專屬審批權       │
-│• 301/232 國安貿易關稅與出口禁令│               │• 輸電網絡併網與用電容量配額   │
-│• 外國投資委員會審查 (CFIUS)   │               │• 地方環評執照 (EPA State Level)│
-│• 聯邦層級反壟斷與國防採購要求 │               │• 地方財產稅減免與基礎建設承諾 │
-└───────────────────────────────┘               └───────────────┬───────────────┘
-                                                                │
-                                                ┌───────────────┴───────────────┐
-                                                ▼                               ▼
-                                        【州長政黨輪替風險】            【民意與環保阻力】
-                                        • 新官不理舊政合約              • 地方居民抗議耗水耗電
-                                        • 撤回地方補貼與配套            • 司法訴訟凍結工程施工
+```mermaid
+flowchart TD
+    classDef c_blue fill:#1e3a5f,stroke:#60a5fa,stroke-width:2px,color:#ffffff;
+    classDef c_green fill:#143823,stroke:#4ade80,stroke-width:2px,color:#ffffff;
+    classDef c_amber fill:#3d2806,stroke:#fbbf24,stroke-width:2px,color:#ffffff;
+    classDef c_purple fill:#3b1d54,stroke:#c084fc,stroke-width:2px,color:#ffffff;
+    classDef c_red fill:#5c1d24,stroke:#f87171,stroke-width:2px,color:#ffffff;
+    N0_0["跨國高科技製造赴美直接投資 （FDI） 決策"]:::c_blue
+    N1_0["【華府聯邦政府層級】<br/>（Federal Government）<br/>• 晶片法案補貼 （CHIPS Grants）<br/>• 301/232 國安貿易關稅與出口禁令<br/>• 外國投資委員會審查 （CFIUS）<br/>• 聯邦層級反壟斷與國防採購要求"]:::c_green
+    N1_1["【各州次主權地方政府層級】<br/>（State Governor & Regulators）<br/>• 工業用水水源專屬審批權<br/>• 輸電網絡併網與用電容量配額<br/>• 地方環評執照 （EPA State Level）<br/>• 地方財產稅減免與基礎建設承諾"]:::c_amber
+    N0_0 --> N1_0
+    N0_0 --> N1_1
 ```
 
 ---

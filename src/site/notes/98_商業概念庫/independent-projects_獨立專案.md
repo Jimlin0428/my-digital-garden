@@ -19,21 +19,16 @@
 
 在資金供給充足的條件下，針對獨立專案的評估，主流評價指標具備高度一致的收斂性：
 
-```
-                    【獨立專案決策檢驗體系】
-┌─────────────────────────────────────────────────────────────┐
-│ 1. 淨現值法 (NPV Rule) ◄── (理論最高準繩)                    │
-│    • 若 NPV > 0 ──► 接受 (Accept) ──► 增進股東財富          │
-│    • 若 NPV < 0 ──► 拒絕 (Reject) ──► 摧毀股東價值          │
-├─────────────────────────────────────────────────────────────┤
-│ 2. 內部報酬率法 (IRR Rule)                                  │
-│    • 若 IRR > WACC (資本成本) ──► 接受                      │
-│    • 若 IRR < WACC (資本成本) ──► 拒絕                      │
-├─────────────────────────────────────────────────────────────┤
-│ 3. 獲利指數法 (PI Rule)                                     │
-│    • 若 PI > 1.0 ──► 接受                                   │
-│    • 若 PI < 1.0 ──► 拒絕                                   │
-└─────────────────────────────────────────────────────────────┘
+**【獨立專案決策檢驗體系】**
+
+```mermaid
+flowchart TD
+    classDef c_blue fill:#1e3a5f,stroke:#60a5fa,stroke-width:2px,color:#ffffff;
+    classDef c_green fill:#143823,stroke:#4ade80,stroke-width:2px,color:#ffffff;
+    classDef c_amber fill:#3d2806,stroke:#fbbf24,stroke-width:2px,color:#ffffff;
+    classDef c_purple fill:#3b1d54,stroke:#c084fc,stroke-width:2px,color:#ffffff;
+    classDef c_red fill:#5c1d24,stroke:#f87171,stroke-width:2px,color:#ffffff;
+    N0_0["1. 淨現值法 （NPV Rule） ◄── （理論最高準繩）<br/>• 若 NPV > 0 ──► 接受 （Accept） ──► 增進股東財富<br/>• 若 NPV < 0 ──► 拒絕 （Reject） ──► 摧毀股東價值<br/>2. 內部報酬率法 （IRR Rule）<br/>• 若 IRR > WACC （資本成本） ──► 接受<br/>• 若 IRR < WACC （資本成本） ──► 拒絕<br/>3. 獲利指數法 （PI Rule）<br/>• 若 PI > 1.0 ──► 接受<br/>• 若 PI < 1.0 ──► 拒絕"]:::c_blue
 ```
 
 > [!IMPORTANT]
@@ -43,7 +38,7 @@
 
 在現實商業世界中，企業董事會往往設定年度資本支出上限 (CapEx Budget Ceiling)。此時，即便所有獨立專案的 $NPV > 0$，企業亦無法全數投資，獨立專案實質上轉化為**「有限資金池內的資源爭奪戰」**：
 - **錯誤作法**：依據 NPV 絕對金額直接挑選（容易被單一巨型專案吞噬全部預算，錯失多個高效率中小型專案）；
-- **正確作法**：依據**獲利指數 ([[index_獲利指數]])** 由高至低排序，或運用**整數線性規劃 (Integer Linear Programming)**，在預算約束內求解使得 $\sum NPV$ 最大化的專案組合：
+- **正確作法**：依據**獲利指數 ([[98_商業概念庫/index_獲利指數\|index_獲利指數]])** 由高至低排序，或運用**整數線性規劃 (Integer Linear Programming)**，在預算約束內求解使得 $\sum NPV$ 最大化的專案組合：
 
 $$\max \sum_{i=1}^{n} x_i \cdot NPV_i \quad \text{s.t.} \quad \sum_{i=1}^{n} x_i \cdot I_{0,i} \le \text{Capital Budget}, \quad x_i \in \{0, 1\}$$
 
@@ -51,7 +46,7 @@ $$\max \sum_{i=1}^{n} x_i \cdot NPV_i \quad \text{s.t.} \quad \sum_{i=1}^{n} x_i
 
 ## 📊 獨立專案 vs. 互斥專案之決策維度對照
 
-| 評估構面 | 獨立專案 (Independent Projects) | 互斥專案 ([[mutually-exclusive-projects_互斥專案]]) |
+| 評估構面 | 獨立專案 (Independent Projects) | 互斥專案 ([[98_商業概念庫/mutually-exclusive-projects_互斥專案\|mutually-exclusive-projects_互斥專案]]) |
 | :--- | :--- | :--- |
 | **決策性質** | **「通過/否決」決策 (Go / No-Go)**：各自獨立受審。 | **「比較排序」決策 (Ranking)**：二選一或多選一。 |
 | **現金流關聯** | 彼此無關（專案 A 的存在不影響專案 B 的回報）。 | 彼此替代或共用同一資產（採納 A 則 B 自動作廢）。 |
@@ -93,5 +88,5 @@ $$\max \sum_{i=1}^{n} x_i \cdot NPV_i \quad \text{s.t.} \quad \sum_{i=1}^{n} x_i
 
 ## 🔗 延伸閱讀與深度雙向維基連結
 
-- 關聯概念：[[mutually-exclusive-projects_互斥專案]] ｜ [[NPV_淨現值法 _Net Present Value]] ｜ [[internal-rate-of-return_內部報酬率]] ｜ [[index_獲利指數]] ｜ [[wacc_加權平均資本成本]]
-- 延伸課題：[[fisher-intersection_費雪交叉點]] ｜ [[decision-2_設備重置決策]] ｜ [[capital-pool_資金池與備用週轉金模型]] ｜ [[investing-activities_投資活動]]
+- 關聯概念：[[98_商業概念庫/mutually-exclusive-projects_互斥專案\|mutually-exclusive-projects_互斥專案]] ｜ [[98_商業概念庫/NPV_淨現值法 _Net Present Value\|NPV_淨現值法 _Net Present Value]] ｜ [[98_商業概念庫/internal-rate-of-return_內部報酬率\|internal-rate-of-return_內部報酬率]] ｜ [[98_商業概念庫/index_獲利指數\|index_獲利指數]] ｜ [[98_商業概念庫/wacc_加權平均資本成本\|wacc_加權平均資本成本]]
+- 延伸課題：[[98_商業概念庫/fisher-intersection_費雪交叉點\|fisher-intersection_費雪交叉點]] ｜ [[98_商業概念庫/decision-2_設備重置決策\|decision-2_設備重置決策]] ｜ [[98_商業概念庫/capital-pool_資金池與備用週轉金模型\|capital-pool_資金池與備用週轉金模型]] ｜ [[98_商業概念庫/investing-activities_投資活動\|investing-activities_投資活動]]

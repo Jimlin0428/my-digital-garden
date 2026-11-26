@@ -15,18 +15,14 @@
 ### 1.1 核心定義
 跨界競爭在產業組織理論與生態系策略學中被嚴格定義為：**具備不同資源稟賦、不同營收模式與不同價值鏈架構的外部實體，將其在原有產業所積累的技術、用戶基數或資金池，投射至目標產業，對目標市場既有同業發動的非對稱性替代競爭**。
 
-```
-                    ┌─────────────────────────────────────────┐
-                    │      傳統同業競爭 vs. 跨界非對稱競爭    │
-                    └────────────────────┬────────────────────┘
-                                         ▼
-         ┌───────────────────────────────┴───────────────────────────────┐
-         ▼                                                               ▼
-【傳統同質競爭 (Symmetric Rivalry)】                            【跨界非對稱競爭 (Asymmetric Rivalry)】
- • 戰場：同產業內部 (如可口可樂 vs. 百事可樂)                   • 戰場：跳脫產業分類邊界 (如智慧手機 vs. 導航儀/相機)
- • 模式：類似的成本結構、相同的價值鏈與定價邏輯                 • 模式：完全不同的商業模式 (羊毛出在狗身上，豬來買單)
- • 手法：產品性能微幅領先、廣告投放、通路爭奪                   • 手法：平臺包夾、免費補貼、生態系閉環碾壓
- • 威脅感：清晰可見、預警時間長                                 • 威脅感：不可預測、毫無防備的突襲（降維打擊）
+```mermaid
+flowchart TD
+    classDef c_blue fill:#1e3a5f,stroke:#60a5fa,stroke-width:2px,color:#ffffff;
+    classDef c_green fill:#143823,stroke:#4ade80,stroke-width:2px,color:#ffffff;
+    classDef c_amber fill:#3d2806,stroke:#fbbf24,stroke-width:2px,color:#ffffff;
+    classDef c_purple fill:#3b1d54,stroke:#c084fc,stroke-width:2px,color:#ffffff;
+    classDef c_red fill:#5c1d24,stroke:#f87171,stroke-width:2px,color:#ffffff;
+    N0_0["傳統同業競爭 vs. 跨界非對稱競爭"]:::c_blue
 ```
 
 ### 1.2 三大跨界進攻的核心驅動機制
@@ -132,18 +128,18 @@ flowchart TD
 ## 7. 關聯知識網絡與導航地圖 (Knowledge Network & Cross-References)
 
 ### 7.1 本主題核心三部曲
-- **[[competition-strategy_競爭策略]]** · 波特三大通用策略、活動系統互鎖咬合與策略定位本質
-- **[[cross-industry-competition_跨界競爭]]** · 跨界降維打擊、平臺包夾（Platform Envelopment）與非對稱生態博弈（本篇）
-- **[[competition-risk_競爭風險]]** · 超競爭環境中的紅皇后效應、破壞性創新突襲與價格戰囚徒困境
+- **[[98_商業概念庫/competition-strategy_競爭策略\|competition-strategy_競爭策略]]** · 波特三大通用策略、活動系統互鎖咬合與策略定位本質
+- **[[98_商業概念庫/cross-industry-competition_跨界競爭\|cross-industry-competition_跨界競爭]]** · 跨界降維打擊、平臺包夾（Platform Envelopment）與非對稱生態博弈（本篇）
+- **[[98_商業概念庫/competition-risk_競爭風險\|competition-risk_競爭風險]]** · 超競爭環境中的紅皇后效應、破壞性創新突襲與價格戰囚徒困境
 
 ### 7.2 跨領域策略與行銷鏈結
-- [[platform-envelopment_平台包夾]] · 平臺巨頭跨界封裝垂直軟體之核心理論依據
-- [[two-sided-market_雙邊市場]] · 跨界競爭中的多邊網絡效應與交叉補貼機制
-- [[business-ecosystem_商業生態系]] · 現代跨界博弈從單一企業競爭躍升為生態系群落競爭
-- [[switching-costs_轉換成本]] · 抵禦跨界者免費用戶掠奪的最強防禦工事
-- [[Hypercompetition_動態超競爭理論]] · 產業邊界模糊化後的高頻動態進攻理論
+- [[98_商業概念庫/platform-envelopment_平台包夾\|platform-envelopment_平台包夾]] · 平臺巨頭跨界封裝垂直軟體之核心理論依據
+- [[98_商業概念庫/two-sided-market_雙邊市場\|two-sided-market_雙邊市場]] · 跨界競爭中的多邊網絡效應與交叉補貼機制
+- [[98_商業概念庫/business-ecosystem_商業生態系\|business-ecosystem_商業生態系]] · 現代跨界博弈從單一企業競爭躍升為生態系群落競爭
+- [[98_商業概念庫/switching-costs_轉換成本\|switching-costs_轉換成本]] · 抵禦跨界者免費用戶掠奪的最強防禦工事
+- [[98_商業概念庫/Hypercompetition_動態超競爭理論\|Hypercompetition_動態超競爭理論]] · 產業邊界模糊化後的高頻動態進攻理論
 
 ### 7.3 課程筆記與導航主頁
-- [[M1-4_台灣產業發展歷程與決策工具箱]] · 互補性策略聯盟網絡與跨界升級轉型工具箱
-- [[_創業與企業財務策略 MOC]] · 企業營運策略與獲利模型全景地圖
-- [[home]] · 全球 PMBA 知識庫總導航主頁面
+- [[04_主題選修/12_產業分析與投資策略/02_模組筆記/Module_1_總論與架構/M1-4_台灣產業發展歷程與決策工具箱\|M1-4_台灣產業發展歷程與決策工具箱]] · 互補性策略聯盟網絡與跨界升級轉型工具箱
+- [[04_主題選修/10_創業與企業財務策略/_歷史版本封存/_創業與企業財務策略 MOC\|_創業與企業財務策略 MOC]] · 企業營運策略與獲利模型全景地圖
+- [[home\|home]] · 全球 PMBA 知識庫總導航主頁面

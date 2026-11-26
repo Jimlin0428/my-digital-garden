@@ -11,23 +11,16 @@
 
 在 CUDA 誕生之前，GPU 僅能被動地依照微軟 DirectX 或 OpenGL 等固定管線，處理 3D 電腦遊戲中的多邊形頂點與像素渲染；全球科學家與工程師即使想利用 GPU 龐大的晶片晶體管進行科學計算，也必須極度痛苦地將物理方程偽裝成「三角形與顏色貼圖」。CUDA 的革命性在於：**它在硬體底層與通用高階語言（如 C/C++、Python）之間鋪設了一座平坦的高速公路，讓全球數百萬程式設計師能直接將 GPU 當作擁有數千個平行運算核心的「超級矩陣計算機」**，直接催生了當代深度學習與生成式 AI 的全球大爆發。
 
-```
-                    【NVIDIA CUDA 軟硬體垂直整合護城河】
-┌─────────────────────────────────────────────────────────────┐
-│ 【頂層 AI 框架生態 (AI Ecosystem)】                         │
-│  • PyTorch, TensorFlow, JAX, TensorRT, vLLM                 │
-│  (全球 90%+ 前沿 AI 程式碼皆預設在 CUDA 上進行底層優化)      │
-├─────────────────────────────────────────────────────────────┤
-│ 【中層加速運算函式庫 (CUDA Accelerated Libraries)】         │
-│  • cuBLAS (密集線性代數)   • cuDNN (深度神經網絡加速)        │
-│  • cuFFT (快速傅立葉變換)   • NCCL (跨節點多 GPU 叢集通訊)    │
-├─────────────────────────────────────────────────────────────┤
-│ 【底層平行運算編程介面 (CUDA Driver & Runtime)】             │
-│  • 執行緒 (Threads) ➔ 執行緒區塊 (Blocks) ➔ 網格 (Grids)     │
-├─────────────────────────────────────────────────────────────┤
-│ 【實體平行晶片硬體層 (Silicon Hardware)】                   │
-│  • NVIDIA Hopper (H100), Blackwell (B200), Tensor Cores     │
-└─────────────────────────────────────────────────────────────┘
+**【NVIDIA CUDA 軟硬體垂直整合護城河】**
+
+```mermaid
+flowchart TD
+    classDef c_blue fill:#1e3a5f,stroke:#60a5fa,stroke-width:2px,color:#ffffff;
+    classDef c_green fill:#143823,stroke:#4ade80,stroke-width:2px,color:#ffffff;
+    classDef c_amber fill:#3d2806,stroke:#fbbf24,stroke-width:2px,color:#ffffff;
+    classDef c_purple fill:#3b1d54,stroke:#c084fc,stroke-width:2px,color:#ffffff;
+    classDef c_red fill:#5c1d24,stroke:#f87171,stroke-width:2px,color:#ffffff;
+    N0_0["【頂層 AI 框架生態 （AI Ecosystem）】<br/>• PyTorch, TensorFlow, JAX, TensorRT, vLLM<br/>（全球 90%+ 前沿 AI 程式碼皆預設在 CUDA 上進行底層優化）<br/>【中層加速運算函式庫 （CUDA Accelerated Libraries）】<br/>• cuBLAS （密集線性代數）   • cuDNN （深度神經網絡加速）<br/>• cuFFT （快速傅立葉變換）   • NCCL （跨節點多 GPU 叢集通訊）<br/>【底層平行運算編程介面 （CUDA Driver & Runtime）】<br/>• 執行緒 （Threads） ➔ 執行緒區塊 （Blocks） ➔ 網格 （Grids）<br/>【實體平行晶片硬體層 （Silicon Hardware）】<br/>• NVIDIA Hopper （H100）, Blackwell （B200）, Tensor Cores"]:::c_blue
 ```
 
 ---
@@ -36,17 +29,17 @@
 
 ### 1. CPU vs. GPU 架構哲學對比
 
-```
-       【CPU (中央處理器)】                         【GPU (圖形處理器)】
-   低延遲・複雜序列控制邏輯                  高吞吐量・大規模平行矩陣運算
-┌──────────────┬──────────────┐         ┌───┬───┬───┬───┬───┬───┬───┬───┐
-│     ALU      │     ALU      │         │ALU│ALU│ALU│ALU│ALU│ALU│ALU│ALU│
-├──────────────┴──────────────┤         ├───┼───┼───┼───┼───┼───┼───┼───┤
-│    巨型快取 (L1/L2/L3 Cache)│         │ALU│ALU│ALU│ALU│ALU│ALU│ALU│ALU│
-├─────────────────────────────┤         ├───┴───┴───┴───┴───┴───┴───┴───┤
-│    超複雜分支預測控制邏輯   │         │ 小型快取與控制 (Control/Cache)│
-└─────────────────────────────┘         └───────────────────────────────┘
-  (少數幾個極強大核心，擅長序列推導)        (數千個輕量運算核心，擅長矩陣狂轟)
+**【CPU (中央處理器)】                         【GPU (圖形處理器)】**
+
+```mermaid
+flowchart TD
+    classDef c_blue fill:#1e3a5f,stroke:#60a5fa,stroke-width:2px,color:#ffffff;
+    classDef c_green fill:#143823,stroke:#4ade80,stroke-width:2px,color:#ffffff;
+    classDef c_amber fill:#3d2806,stroke:#fbbf24,stroke-width:2px,color:#ffffff;
+    classDef c_purple fill:#3b1d54,stroke:#c084fc,stroke-width:2px,color:#ffffff;
+    classDef c_red fill:#5c1d24,stroke:#f87171,stroke-width:2px,color:#ffffff;
+    N0_0["ALU<br/>巨型快取 （L1/L2/L3 Cache）<br/>超複雜分支預測控制邏輯"]:::c_blue
+    N0_1["ALU<br/>小型快取與控制 （Control/Cache）"]:::c_green
 ```
 
 - **CPU (Latency-Oriented)**：設計目標是「極致降低單一指令的執行延遲」，配備龐大快取與複雜的分支預測器，擅長作業系統排程與序列邏輯。

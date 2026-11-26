@@ -12,18 +12,16 @@
 
 ## 1. Harrigan & Porter 衰退期四大終局戰略 (The 4 End-Game Strategies)
 
-```
-                       產業殘存需求結構
-                       有利 (仍有利基口袋)           不利 (全面斷崖式崩跌)
-                     ┌─────────────────────────────┬─────────────────────────────┐
-   企業在產業中      │ 【1. 領導策略 (Leadership)】│ 【3. 收割策略 (Harvesting)】│
-   擁有核心優勢      │ • 收購退出者的資產與客戶    │ • 停止一切 CapEx 與研發投入 │
-                     │ • 成為最後唯一寡占霸主      │ • 大幅提高毛利率, 榨乾現金  │
-                     ├─────────────────────────────┼─────────────────────────────┤
-   企業在產業中      │ 【2. 利基策略 (Niche)】     │ 【4. 迅速撤退 (Divest)】    │
-   缺乏競爭優勢      │ • 放棄主流大眾市場          │ • 在資產徹底一文不值前賤價賣│
-                     │ • 盤踞特定忠實死忠客群      │ • 將資本與人力轉移至新戰場  │
-                     └─────────────────────────────┴─────────────────────────────┘
+**產業殘存需求結構**
+
+```mermaid
+flowchart TD
+    classDef c_blue fill:#1e3a5f,stroke:#60a5fa,stroke-width:2px,color:#ffffff;
+    classDef c_green fill:#143823,stroke:#4ade80,stroke-width:2px,color:#ffffff;
+    classDef c_amber fill:#3d2806,stroke:#fbbf24,stroke-width:2px,color:#ffffff;
+    classDef c_purple fill:#3b1d54,stroke:#c084fc,stroke-width:2px,color:#ffffff;
+    classDef c_red fill:#5c1d24,stroke:#f87171,stroke-width:2px,color:#ffffff;
+    N0_0["【1. 領導策略 （Leadership）】│ 【3. 收割策略 （Harvesting）】<br/>• 收購退出者的資產與客戶    │ • 停止一切 CapEx 與研發投入<br/>• 成為最後唯一寡占霸主      │ • 大幅提高毛利率, 榨乾現金<br/>【2. 利基策略 （Niche）】     │ 【4. 迅速撤退 （Divest）】<br/>• 放棄主流大眾市場          │ • 在資產徹底一文不值前賤價賣<br/>• 盤踞特定忠實死忠客群      │ • 將資本與人力轉移至新戰場"]:::c_blue
 ```
 
 1. **領導策略（Leadership Strategy）**：
@@ -39,7 +37,7 @@
 
 ## 2. 關聯概念與延伸閱讀 (Cross References)
 
-- [[product-life-cycle_產品生命週期]]：PLC 完整演進體系。
-- [[industry-life-cycle_產業生命週期]]：產業結構衰亡規律。
-- [[sunk-cost_沉沒成本]]：防範在衰退期因「協和號效應」繼續盲目注資。
-- [[home]]：PMBA 知識庫首頁與模組導航。
+- [[98_商業概念庫/product-life-cycle_產品生命週期\|product-life-cycle_產品生命週期]]：PLC 完整演進體系。
+- [[98_商業概念庫/industry-life-cycle_產業生命週期\|industry-life-cycle_產業生命週期]]：產業結構衰亡規律。
+- [[98_商業概念庫/sunk-cost_沉沒成本\|sunk-cost_沉沒成本]]：防範在衰退期因「協和號效應」繼續盲目注資。
+- [[home\|home]]：PMBA 知識庫首頁與模組導航。

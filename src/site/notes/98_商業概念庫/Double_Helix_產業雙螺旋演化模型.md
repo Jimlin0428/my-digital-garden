@@ -14,17 +14,16 @@
 
 ## 二、 雙螺旋交替演化動力學
 
-```text
-【產業結構雙螺旋循環更迭】
+**【產業結構雙螺旋循環更迭】**
 
-        ┌────────────────────────────────────────────────────────┐
-        ▼                                                        │
-┌─────────────────────────┐                            ┌─────────────────────────┐
-│ 垂直整合型架構           │                            │ 水平模組化架構           │
-│ (Integrated / Closed)   │ ──▶ [性能過剩/標準確立] ──▶ │ (Modular / Open)        │
-│ • 專屬私有封閉系統      │                            │ • 標準介面水平分工      │
-│ • 極致性能優化 (如 IBM) │ ◀── [模組瓶頸/延遲過高] ─── │ • 價格戰與微利 (如 PC)  │
-└─────────────────────────┘                            └─────────────────────────┘
+```mermaid
+flowchart TD
+    classDef c_blue fill:#1e3a5f,stroke:#60a5fa,stroke-width:2px,color:#ffffff;
+    classDef c_green fill:#143823,stroke:#4ade80,stroke-width:2px,color:#ffffff;
+    classDef c_amber fill:#3d2806,stroke:#fbbf24,stroke-width:2px,color:#ffffff;
+    classDef c_purple fill:#3b1d54,stroke:#c084fc,stroke-width:2px,color:#ffffff;
+    classDef c_red fill:#5c1d24,stroke:#f87171,stroke-width:2px,color:#ffffff;
+    N0_0["垂直整合型架構           │                            │ 水平模組化架構<br/>（Integrated / Closed）   │ ──▶ [性能過剩/標準確立] ──▶ │ （Modular / Open）<br/>• 專屬私有封閉系統      │                            │ • 標準介面水平分工<br/>• 極致性能優化 （如 IBM） │ ◀── [模組瓶頸/延遲過高] ─── │ • 價格戰與微利 （如 PC）"]:::c_blue
 ```
 
 1. **整合 ➔ 模組化驅動力**：
@@ -41,5 +40,5 @@
 ---
 
 ## 四、 關聯筆記與概念地圖
-- **核心關聯模組**：[[M3-1_產業生命週期與技術S曲線]] ｜ [[M2-1_產業垂直價值體系]]
-- **概念地圖對接**：[[Performance_Oversupply_性能過剩與破壞性創新]] ｜ [[PLC_產業生命週期模型 Product Life Cycle]] ｜ [[strategic-groups-evolution_策略群組動態演化|Strategic_Groups_策略群組動態演化]]
+- **核心關聯模組**：[[04_主題選修/12_產業分析與投資策略/99_歷史舊版備份/M3-1_產業生命週期與技術S曲線\|M3-1_產業生命週期與技術S曲線]] ｜ [[04_主題選修/12_產業分析與投資策略/99_歷史舊版備份/M2-1_產業垂直價值體系\|M2-1_產業垂直價值體系]]
+- **概念地圖對接**：[[98_商業概念庫/Performance_Oversupply_性能過剩與破壞性創新\|Performance_Oversupply_性能過剩與破壞性創新]] ｜ [[98_商業概念庫/PLC_產業生命週期模型 Product Life Cycle\|PLC_產業生命週期模型 Product Life Cycle]] ｜ [[98_商業概念庫/strategic-groups-evolution_策略群組動態演化\|Strategic_Groups_策略群組動態演化]]

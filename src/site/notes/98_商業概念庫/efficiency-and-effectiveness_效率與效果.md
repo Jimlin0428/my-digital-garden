@@ -37,28 +37,24 @@
 
 企業在戰略定位與日常營運的交叉點上，呈現四種截然不同的命運象限：
 
-```
-                    【效果 / 戰略方向 (Effectiveness)】
-                           做錯的事                   做對的事
-                 ┌────────────────────────┬────────────────────────┐
-   以高效率運作   │ 象限 II：高效滅亡      │ 象限 I：卓越領先       │
-                 │ (Die Quickly)          │ (Thrive & Lead)        │
-                 │ • 以極快速度生產出無人 │ • 既選對了顛覆賽道，又 │
-                 │   需要的劣質產品       │   具備極致低成本高執行 │
-【效率 / 營運手段├────────────────────────┼────────────────────────┤
- (Efficiency)】  │ 象限 IV：必然消亡      │ 象限 III：動盪存活     │
-   以低效率運作   │ (Die Slowly)           │ (Survive with Friction)│
-                 │ • 方向徹底錯誤，且內部 │ • 方向完全正確，但內部 │
-                 │   管理極度混亂         │   流程混亂、成本高昂   │
-                 └────────────────────────┴────────────────────────┘
+**【效果 / 戰略方向 (Effectiveness)】**
+
+```mermaid
+flowchart TD
+    classDef c_blue fill:#1e3a5f,stroke:#60a5fa,stroke-width:2px,color:#ffffff;
+    classDef c_green fill:#143823,stroke:#4ade80,stroke-width:2px,color:#ffffff;
+    classDef c_amber fill:#3d2806,stroke:#fbbf24,stroke-width:2px,color:#ffffff;
+    classDef c_purple fill:#3b1d54,stroke:#c084fc,stroke-width:2px,color:#ffffff;
+    classDef c_red fill:#5c1d24,stroke:#f87171,stroke-width:2px,color:#ffffff;
+    N0_0["象限 II：高效滅亡      │ 象限 I：卓越領先<br/>（Die Quickly）          │ （Thrive & Lead）<br/>• 以極快速度生產出無人 │ • 既選對了顛覆賽道，又<br/>需要的劣質產品       │   具備極致低成本高執行<br/>象限 IV：必然消亡      │ 象限 III：動盪存活<br/>（Die Slowly）           │ （Survive with Friction）<br/>• 方向徹底錯誤，且內部 │ • 方向完全正確，但內部<br/>管理極度混亂         │   流程混亂、成本高昂"]:::c_blue
 ```
 
 | 象限分類 | 企業狀態特徵 | 典型企業案例 | 經理人關鍵解方 |
 | :--- | :--- | :--- | :--- |
-| **象限 I：卓越領先 (高效果 $\times$ 高效率)** | 戰略精準切中市場痛點，且內部具備極致供應鏈規模優勢。 | 蘋果 (iPhone + 庫克供應鏈)、台積電 (晶圓代工模式 + 極致良率)。 | 警惕自滿，防範[[strategic-inflection-point_關鍵轉折|策略轉折點]]與顛覆威脅。 |
+| **象限 I：卓越領先 (高效果 $\times$ 高效率)** | 戰略精準切中市場痛點，且內部具備極致供應鏈規模優勢。 | 蘋果 (iPhone + 庫克供應鏈)、台積電 (晶圓代工模式 + 極致良率)。 | 警惕自滿，防範[[98_商業概念庫/strategic-inflection-point_關鍵轉折\|策略轉折點]]與顛覆威脅。 |
 | **象限 II：高效滅亡 (低效果 $\times$ 高效率)** | 內部管理極度精實、KPI 達成率 100%，但產品所處的產業生態已徹底死亡。 | 諾基亞精雕細琢 Symbian 程式碼、柯達以極致成本生產傳統膠卷。 | 立即踩下煞車，啟動戰略重組與雙環學習。 |
 | **象限 III：動盪存活 (高效果 $\times$ 低效率)** | 處於巨大爆發風口的藍海市場，因需求極度飢渴，儘管內部混亂浪費依然大賺。 | 初期急速擴張期的 Uber、早期 ChatGPT (運算伺服器頻繁宕機)。 | 引進專業經理人，補齊 SOP 體系與財務內控。 |
-| **象限 IV：必然消亡 (低效果 $\times$ 低效率)** | 缺乏清晰策略方向，內部充滿官僚繁文縟節與互相推諉。 | 破產清算前夕的老舊國企、失控的傳統零售商。 | 啟動[[strategy-9_轉機型策略|轉機型策略]]或清算退出。 |
+| **象限 IV：必然消亡 (低效果 $\times$ 低效率)** | 缺乏清晰策略方向，內部充滿官僚繁文縟節與互相推諉。 | 破產清算前夕的老舊國企、失控的傳統零售商。 | 啟動[[98_商業概念庫/strategy-9_轉機型策略\|轉機型策略]]或清算退出。 |
 
 ---
 
@@ -80,12 +76,16 @@
 
 ## 四、 經理人反思與行動檢核清單
 
-```
-                               效果優先之高階領導自檢模型
-┌─────────────────────────┬─────────────────────────┬─────────────────────────┐
-│     1. 戰略先於營運     │     2. 建立「停止清單」 │     3. 警惕虛假勤奮     │
-│ 永遠先確認「方向對不對」│ 果斷砍除高效卻無效的專案│ 拒絕用戰術勤奮掩蓋戰略懶惰│
-└─────────────────────────┴─────────────────────────┴─────────────────────────┘
+**效果優先之高階領導自檢模型**
+
+```mermaid
+flowchart TD
+    classDef c_blue fill:#1e3a5f,stroke:#60a5fa,stroke-width:2px,color:#ffffff;
+    classDef c_green fill:#143823,stroke:#4ade80,stroke-width:2px,color:#ffffff;
+    classDef c_amber fill:#3d2806,stroke:#fbbf24,stroke-width:2px,color:#ffffff;
+    classDef c_purple fill:#3b1d54,stroke:#c084fc,stroke-width:2px,color:#ffffff;
+    classDef c_red fill:#5c1d24,stroke:#f87171,stroke-width:2px,color:#ffffff;
+    N0_0["1. 戰略先於營運     │     2. 建立「停止清單」 │     3. 警惕虛假勤奮<br/>永遠先確認「方向對不對」│ 果斷砍除高效卻無效的專案│ 拒絕用戰術勤奮掩蓋戰略懶惰"]:::c_blue
 ```
 
 ### Executive Decision Checklist
@@ -99,7 +99,7 @@
 
 ## 五、 關聯概念與延伸閱讀
 
-- 策略方向制定：[[strategic-planning_策略規劃]] ｜ [[rational-decision-model_理性決策模型]] ｜ [[balanced-scorecard-bsc_平衡計分卡]]
-- 營運與生產管理：[[operating-management_生產與營運管理]] ｜ [[bep-break-even-point_損益平衡點]] ｜ [[working-capital-management_營運資金管理]]
-- 競爭優勢來源：[[competitive-advantage_競爭優勢]] ｜ [[core-competence_核心能力]] ｜ [[cost-leadership-strategy_成本領導策略]]
-- 轉型與危機防禦：[[strategic-inflection-point_關鍵轉折]] ｜ [[creative-destruction_創造性破壞]] ｜ [[stuck-in-the-middle_卡在中間]]
+- 策略方向制定：[[98_商業概念庫/strategic-planning_策略規劃\|strategic-planning_策略規劃]] ｜ [[98_商業概念庫/rational-decision-model_理性決策模型\|rational-decision-model_理性決策模型]] ｜ [[98_商業概念庫/balanced-scorecard-bsc_平衡計分卡\|balanced-scorecard-bsc_平衡計分卡]]
+- 營運與生產管理：[[98_商業概念庫/operating-management_生產與營運管理\|operating-management_生產與營運管理]] ｜ [[98_商業概念庫/bep-break-even-point_損益平衡點\|bep-break-even-point_損益平衡點]] ｜ [[98_商業概念庫/working-capital-management_營運資金管理\|working-capital-management_營運資金管理]]
+- 競爭優勢來源：[[98_商業概念庫/competitive-advantage_競爭優勢\|competitive-advantage_競爭優勢]] ｜ [[98_商業概念庫/core-competence_核心能力\|core-competence_核心能力]] ｜ [[98_商業概念庫/cost-leadership-strategy_成本領導策略\|cost-leadership-strategy_成本領導策略]]
+- 轉型與危機防禦：[[98_商業概念庫/strategic-inflection-point_關鍵轉折\|strategic-inflection-point_關鍵轉折]] ｜ [[98_商業概念庫/creative-destruction_創造性破壞\|creative-destruction_創造性破壞]] ｜ [[98_商業概念庫/stuck-in-the-middle_卡在中間\|stuck-in-the-middle_卡在中間]]

@@ -35,7 +35,7 @@
 | :--- | :--- | :--- | :--- |
 | **1. 意義建構 (Sensemaking)** | 卡爾·威克 (Karl Weick) 組織意義建構理論 | 在混亂、破碎的雜訊中，提煉出具有戰略指向性的微弱訊號 (Weak Signals)。 | 繪製心智地圖、產業價值鏈重構 |
 | **2. 實質選擇權思維 (Real Options)** | 邁爾斯 (Stewart Myers) 實質選擇權 | 避免過早大舉押注單一路徑，透過分期里程碑投入，購買「未來調整或放棄的權利」。 | 研發階段門 (Stage-Gate)、小額創投股權 |
-| **3. 驗證式假說迭代 (Iterative Testing)** | 精實創業與敏捷決策 | 將未知的大賭局拆解為一組可被證偽的小假說，以最低成本進行探索。 | [[validated-learning_驗證式學習]]、[[MVP最小可行產品]] |
+| **3. 驗證式假說迭代 (Iterative Testing)** | 精實創業與敏捷決策 | 將未知的大賭局拆解為一組可被證偽的小假說，以最低成本進行探索。 | [[98_商業概念庫/validated-learning_驗證式學習\|validated-learning_驗證式學習]]、[[98_商業概念庫/MVP最小可行產品\|MVP最小可行產品]] |
 | **4. 消極感受力 (Negative Capability)** | 詩人濟慈提出，後被管理學家引申 | 能夠處於不確定、神秘與疑慮之中，而**不急躁於追求即刻的事實與答案**的心智定力。 | 延遲認知閉合、多元情境沙盤推演 |
 
 ### 2. 肯尼芬框架 (Cynefin Framework) 決策矩陣
@@ -74,12 +74,16 @@
 
 ## 四、 經理人反思與行動檢核清單
 
-```
-                               模糊決策執行落地四步法
-┌─────────────────────────┬─────────────────────────┬─────────────────────────┐
-│     1. 區分風險與模糊   │     2. 設計微型探索探針 │     3. 建立動態退場閥門 │
-│ 拒絕偽精確，擁抱定性情境│ 以最低成本發射探針試驗  │ 鎖定最大可承受損失 (Affordable Loss) │
-└─────────────────────────┴─────────────────────────┴─────────────────────────┘
+**模糊決策執行落地四步法**
+
+```mermaid
+flowchart TD
+    classDef c_blue fill:#1e3a5f,stroke:#60a5fa,stroke-width:2px,color:#ffffff;
+    classDef c_green fill:#143823,stroke:#4ade80,stroke-width:2px,color:#ffffff;
+    classDef c_amber fill:#3d2806,stroke:#fbbf24,stroke-width:2px,color:#ffffff;
+    classDef c_purple fill:#3b1d54,stroke:#c084fc,stroke-width:2px,color:#ffffff;
+    classDef c_red fill:#5c1d24,stroke:#f87171,stroke-width:2px,color:#ffffff;
+    N0_0["1. 區分風險與模糊   │     2. 設計微型探索探針 │     3. 建立動態退場閥門<br/>拒絕偽精確，擁抱定性情境│ 以最低成本發射探針試驗  │ 鎖定最大可承受損失 （Affordable Loss）"]:::c_blue
 ```
 
 ### Executive Decision Checklist
@@ -93,7 +97,7 @@
 
 ## 五、 關聯概念與延伸閱讀
 
-- 心智特質：[[tolerance-for-ambiguity_模糊容忍度]] ｜ [[intuitive-decision-making_直覺決策]] ｜ [[decision-analysis_決策直覺與分析]]
-- 決策工具：[[scenario-planning_情境規劃]] ｜ [[analysis-2_敏感度分析]] ｜ [[validated-learning_驗證式學習]] ｜ [[MVP最小可行產品]]
-- 理論源流：[[bounded-rationality_有限理性]] ｜ [[rational-decision-model_理性決策模型]] ｜ [[investment-risk_投資風險]]
-- 系統與領導力：[[strategic-leadership_策略領導力]] ｜ [[Mintzberg管理者角色]] ｜ [[learning-organization_學習型組織]]
+- 心智特質：[[98_商業概念庫/tolerance-for-ambiguity_模糊容忍度\|tolerance-for-ambiguity_模糊容忍度]] ｜ [[98_商業概念庫/intuitive-decision-making_直覺決策\|intuitive-decision-making_直覺決策]] ｜ [[98_商業概念庫/decision-analysis_決策直覺與分析\|decision-analysis_決策直覺與分析]]
+- 決策工具：[[98_商業概念庫/scenario-planning_情境規劃\|scenario-planning_情境規劃]] ｜ [[98_商業概念庫/analysis-2_敏感度分析\|analysis-2_敏感度分析]] ｜ [[98_商業概念庫/validated-learning_驗證式學習\|validated-learning_驗證式學習]] ｜ [[98_商業概念庫/MVP最小可行產品\|MVP最小可行產品]]
+- 理論源流：[[98_商業概念庫/bounded-rationality_有限理性\|bounded-rationality_有限理性]] ｜ [[98_商業概念庫/rational-decision-model_理性決策模型\|rational-decision-model_理性決策模型]] ｜ [[98_商業概念庫/investment-risk_投資風險\|investment-risk_投資風險]]
+- 系統與領導力：[[98_商業概念庫/strategic-leadership_策略領導力\|strategic-leadership_策略領導力]] ｜ [[98_商業概念庫/Mintzberg管理者角色\|Mintzberg管理者角色]] ｜ [[98_商業概念庫/learning-organization_學習型組織\|learning-organization_學習型組織]]

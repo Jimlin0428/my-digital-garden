@@ -39,9 +39,9 @@
 
 | 控制時態類型 | 介入時間點 | 核心機制與手法 | 成本與效益特徵 | 典型實務案例 |
 | :--- | :--- | :--- | :--- | :--- |
-| **前饋控制 ([[control-6_前饋控制]])** | **事前 (Feedforward)** | 在問題發生前預先預測潛在風險，設置防呆機制 (Poka-Yoke) 與准入門檻。 | 糾偏成本最低，防患於未然；需要極高預見力。 | 新進員工嚴格背景調查、航空器起飛前地勤核對清單 (Pre-flight Checklist)。 |
-| **即時控制 ([[control_即時控制]])** | **事中 (Concurrent)** | 在作業進行的當下實施實時監控，一旦出現異常立即叫停修正。 | 即時阻止瑕疵品流入下一道工序，避免損失擴大。 | 豐田生產線工人拉動「安燈 (Andon)」繩停線、外科手術即時生理監控。 |
-| **回饋控制 ([[control-5_回饋控制]])** | **事後 (Feedback)** | 在作業完成、財報出爐或產品送達客戶後，比對成果並覆盤追責。 | 糾偏成本最高（損失已發生），但能為下一個週期提供系統迭代依據。 | 每月預算差異分析、季度績效考核與獎懲、客戶投訴後召回修復。 |
+| **前饋控制 ([[98_商業概念庫/control-6_前饋控制\|control-6_前饋控制]])** | **事前 (Feedforward)** | 在問題發生前預先預測潛在風險，設置防呆機制 (Poka-Yoke) 與准入門檻。 | 糾偏成本最低，防患於未然；需要極高預見力。 | 新進員工嚴格背景調查、航空器起飛前地勤核對清單 (Pre-flight Checklist)。 |
+| **即時控制 ([[98_商業概念庫/control_即時控制\|control_即時控制]])** | **事中 (Concurrent)** | 在作業進行的當下實施實時監控，一旦出現異常立即叫停修正。 | 即時阻止瑕疵品流入下一道工序，避免損失擴大。 | 豐田生產線工人拉動「安燈 (Andon)」繩停線、外科手術即時生理監控。 |
+| **回饋控制 ([[98_商業概念庫/control-5_回饋控制\|control-5_回饋控制]])** | **事後 (Feedback)** | 在作業完成、財報出爐或產品送達客戶後，比對成果並覆盤追責。 | 糾偏成本最高（損失已發生），但能為下一個週期提供系統迭代依據。 | 每月預算差異分析、季度績效考核與獎懲、客戶投訴後召回修復。 |
 
 ### 2. 根因分析：豐田五問法 (5 Whys) 與戴明漏斗實驗
 修正行動的最高原則是**「治本而非治標」**。經理人最常犯的錯誤是針對表面症狀草率處分個人，而放過底層系統性缺陷：
@@ -68,12 +68,16 @@
 
 ## 四、 經理人反思與行動檢核清單
 
-```
-                               管理修正行動閉環檢核維度
-┌─────────────────────────┬─────────────────────────┬─────────────────────────┐
-│     1. 立即遏止止血     │     2. 穿透根本病因     │     3. 制度防呆固化     │
-│ 第一時間隔離受污染環節  │ 採用 5 Whys 探究制度漏洞│ 修改 SOP 與代碼，杜絕重演│
-└─────────────────────────┴─────────────────────────┴─────────────────────────┘
+**管理修正行動閉環檢核維度**
+
+```mermaid
+flowchart TD
+    classDef c_blue fill:#1e3a5f,stroke:#60a5fa,stroke-width:2px,color:#ffffff;
+    classDef c_green fill:#143823,stroke:#4ade80,stroke-width:2px,color:#ffffff;
+    classDef c_amber fill:#3d2806,stroke:#fbbf24,stroke-width:2px,color:#ffffff;
+    classDef c_purple fill:#3b1d54,stroke:#c084fc,stroke-width:2px,color:#ffffff;
+    classDef c_red fill:#5c1d24,stroke:#f87171,stroke-width:2px,color:#ffffff;
+    N0_0["1. 立即遏止止血     │     2. 穿透根本病因     │     3. 制度防呆固化<br/>第一時間隔離受污染環節  │ 採用 5 Whys 探究制度漏洞│ 修改 SOP 與代碼，杜絕重演"]:::c_blue
 ```
 
 ### Executive Decision Checklist
@@ -87,7 +91,7 @@
 
 ## 五、 關聯概念與延伸閱讀
 
-- 控制體系全景：[[control-process_控制流程]] ｜ [[control-6_前饋控制]] ｜ [[control_即時控制]] ｜ [[control-5_回饋控制]]
-- 監控與預算：[[monitoring-and-measurement_監控衡量]] ｜ [[budget-control_預算控制]] ｜ [[balanced-scorecard-bsc_平衡計分卡]]
-- 覆盤與學習：[[organization-review-mechanism_組織覆盤機制]] ｜ [[learning-organization_學習型組織]] ｜ [[internal-control-2_內部控制]]
-- 系統性思維：[[system_系統思考]] ｜ [[systems-school_系統學派]] ｜ [[rational-decision-model_理性決策模型]]
+- 控制體系全景：[[98_商業概念庫/control-process_控制流程\|control-process_控制流程]] ｜ [[98_商業概念庫/control-6_前饋控制\|control-6_前饋控制]] ｜ [[98_商業概念庫/control_即時控制\|control_即時控制]] ｜ [[98_商業概念庫/control-5_回饋控制\|control-5_回饋控制]]
+- 監控與預算：[[98_商業概念庫/monitoring-and-measurement_監控衡量\|monitoring-and-measurement_監控衡量]] ｜ [[98_商業概念庫/budget-control_預算控制\|budget-control_預算控制]] ｜ [[98_商業概念庫/balanced-scorecard-bsc_平衡計分卡\|balanced-scorecard-bsc_平衡計分卡]]
+- 覆盤與學習：[[98_商業概念庫/organization-review-mechanism_組織覆盤機制\|organization-review-mechanism_組織覆盤機制]] ｜ [[98_商業概念庫/learning-organization_學習型組織\|learning-organization_學習型組織]] ｜ [[98_商業概念庫/internal-control-2_內部控制\|internal-control-2_內部控制]]
+- 系統性思維：[[98_商業概念庫/system_系統思考\|system_系統思考]] ｜ [[98_商業概念庫/systems-school_系統學派\|systems-school_系統學派]] ｜ [[98_商業概念庫/rational-decision-model_理性決策模型\|rational-decision-model_理性決策模型]]

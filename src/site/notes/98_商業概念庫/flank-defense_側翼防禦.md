@@ -36,7 +36,7 @@
 1. **若領導者直接以降價反擊**：旗艦品牌全面降價至 $P_{\text{chall}}$，則整體營收將縮水 $(P_{\text{main}} - P_{\text{chall}}) \times Q_{\text{main}}$，引發嚴重的利潤池自毀。
 2. **若領導者採取戰鬥品牌進行側翼防禦**：推出專屬低階戰鬥品牌 $B_{\text{flank}}$，定價為 $P_{\text{flank}} \approx P_{\text{chall}}$。
    - 該戰鬥品牌允許較低的邊際毛利率 $m_{\text{flank}} = 15\%$，專門用來與挑戰者近身肉搏。
-   - 建立嚴密的品牌防火牆，防止旗艦品牌客戶產生嚴重的[[cannibalization_自我蠶食|自我蠶食]]。
+   - 建立嚴密的品牌防火牆，防止旗艦品牌客戶產生嚴重的[[98_商業概念庫/cannibalization_自我蠶食\|自我蠶食]]。
    - 封鎖挑戰者在低階市場獲取足夠現金流向上滲透的通道。
 
 ### 2. 側翼防禦策略矩陣
@@ -68,26 +68,30 @@
 
 ## 四、 經理人反思與行動檢核清單
 
-```
-                               側翼防禦健全度四步排查
-┌─────────────────────────┬─────────────────────────┬─────────────────────────┐
-│     1. 識別脆弱盲區     │     2. 計算自殘損益比   │     3. 嚴格隔離品牌認知 │
-│ 排查未被滿足的低階與利基│ 評估戰鬥品牌被反噬風險  │ 確保戰鬥品牌不損害主旗艦│
-└─────────────────────────┴─────────────────────────┴─────────────────────────┘
+**側翼防禦健全度四步排查**
+
+```mermaid
+flowchart TD
+    classDef c_blue fill:#1e3a5f,stroke:#60a5fa,stroke-width:2px,color:#ffffff;
+    classDef c_green fill:#143823,stroke:#4ade80,stroke-width:2px,color:#ffffff;
+    classDef c_amber fill:#3d2806,stroke:#fbbf24,stroke-width:2px,color:#ffffff;
+    classDef c_purple fill:#3b1d54,stroke:#c084fc,stroke-width:2px,color:#ffffff;
+    classDef c_red fill:#5c1d24,stroke:#f87171,stroke-width:2px,color:#ffffff;
+    N0_0["1. 識別脆弱盲區     │     2. 計算自殘損益比   │     3. 嚴格隔離品牌認知<br/>排查未被滿足的低階與利基│ 評估戰鬥品牌被反噬風險  │ 確保戰鬥品牌不損害主旗艦"]:::c_blue
 ```
 
 ### Executive Decision Checklist
 - [ ] **盲區排查 (Blind-Spot Audit)**：在我們的利潤池之外，是否存在成長率高達 30% 以上、但因毛利率偏低而被內部委員會忽視的邊緣市場？
 - [ ] **挑戰者動向預警**：新興競爭對手是否正從「我們看不上的低階客群」開始切入，並展現出沿著價值鏈向上遷移的技術軌跡？
 - [ ] **戰鬥品牌定位清晰度**：若推出防禦性側翼產品，我們是否設計了清晰的「功能隔離障礙」，防止現有高利潤旗艦客戶自發降級？
-- [ ] **投入成本上限鎖定**：側翼防禦的資源投入是否設定了硬性停損閥門？避免防禦部隊反客為主，拖垮整體的資本報酬率 ([[return-on-invested-capital_資本投入報酬率|ROIC]])。
-- [ ] **主動主動破壞準備**：當側翼遭受的威脅來自顛覆性新技術時，我們是否準備好以[[cannibalization_自我蠶食|自我蠶食]]的勇氣全面轉型，而非徒勞維護老舊防線？
+- [ ] **投入成本上限鎖定**：側翼防禦的資源投入是否設定了硬性停損閥門？避免防禦部隊反客為主，拖垮整體的資本報酬率 ([[98_商業概念庫/return-on-invested-capital_資本投入報酬率\|ROIC]])。
+- [ ] **主動主動破壞準備**：當側翼遭受的威脅來自顛覆性新技術時，我們是否準備好以[[98_商業概念庫/cannibalization_自我蠶食\|自我蠶食]]的勇氣全面轉型，而非徒勞維護老舊防線？
 
 ---
 
 ## 五、 關聯概念與延伸閱讀
 
-- 角色戰略：[[market-leadership-zhe_市場領導者]] ｜ [[market_市場挑戰者]] ｜ [[market-niche_市場利基者]]
-- 攻防機制：[[frontal-attack_正面進攻]] ｜ [[strategy_游擊戰策略]] ｜ [[cannibalization_自我蠶食]]
-- 競爭策略：[[competitive-advantage_競爭優勢]] ｜ [[differentiation-strategy_差異化策略]] ｜ [[cost-leadership-strategy_成本領導策略]]
-- 轉折與威脅：[[strategic-inflection-point_關鍵轉折]] ｜ [[Performance_Oversupply_性能過剩與破壞性創新]] ｜ [[silo-effect_穀倉效應]]
+- 角色戰略：[[98_商業概念庫/market-leadership-zhe_市場領導者\|market-leadership-zhe_市場領導者]] ｜ [[98_商業概念庫/market_市場挑戰者\|market_市場挑戰者]] ｜ [[98_商業概念庫/market-niche_市場利基者\|market-niche_市場利基者]]
+- 攻防機制：[[98_商業概念庫/frontal-attack_正面進攻\|frontal-attack_正面進攻]] ｜ [[98_商業概念庫/strategy_游擊戰策略\|strategy_游擊戰策略]] ｜ [[98_商業概念庫/cannibalization_自我蠶食\|cannibalization_自我蠶食]]
+- 競爭策略：[[98_商業概念庫/competitive-advantage_競爭優勢\|competitive-advantage_競爭優勢]] ｜ [[98_商業概念庫/differentiation-strategy_差異化策略\|differentiation-strategy_差異化策略]] ｜ [[98_商業概念庫/cost-leadership-strategy_成本領導策略\|cost-leadership-strategy_成本領導策略]]
+- 轉折與威脅：[[98_商業概念庫/strategic-inflection-point_關鍵轉折\|strategic-inflection-point_關鍵轉折]] ｜ [[98_商業概念庫/Performance_Oversupply_性能過剩與破壞性創新\|Performance_Oversupply_性能過剩與破壞性創新]] ｜ [[98_商業概念庫/silo-effect_穀倉效應\|silo-effect_穀倉效應]]

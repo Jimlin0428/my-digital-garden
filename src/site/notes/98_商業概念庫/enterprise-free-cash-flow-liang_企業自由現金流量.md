@@ -15,16 +15,14 @@
 ### 1.1 核心定義
 企業自由現金流量在現代公司理財與估值學中被嚴格定義為：**在不影響企業可持續經營與預期增長的前提下，企業資產組合在特定期間內所產生的營運現金毛流入，扣除再投資需求後，全體出資人所能提取的最大現金剩餘**。
 
-```
-                  ┌─────────────────────────────────────────┐
-                  │ 企業自由現金流量 (FCFF) 核心分配圖譜     │
-                  └────────────────────┬────────────────────┘
-                                       ▼
-       ┌───────────────────────────────┴───────────────────────────────┐
-       ▼                                                               ▼
-【債權人求償份額】                                             【股權持有人求償份額】
- • 支付契約利息 (稅後)                                          • 剩餘留存歸屬全體股東 (FCFE)
- • 償還到期借款本金淨額                                         • 現金股利發放 / 庫藏股買回
+```mermaid
+flowchart TD
+    classDef c_blue fill:#1e3a5f,stroke:#60a5fa,stroke-width:2px,color:#ffffff;
+    classDef c_green fill:#143823,stroke:#4ade80,stroke-width:2px,color:#ffffff;
+    classDef c_amber fill:#3d2806,stroke:#fbbf24,stroke-width:2px,color:#ffffff;
+    classDef c_purple fill:#3b1d54,stroke:#c084fc,stroke-width:2px,color:#ffffff;
+    classDef c_red fill:#5c1d24,stroke:#f87171,stroke-width:2px,color:#ffffff;
+    N0_0["企業自由現金流量 （FCFF） 核心分配圖譜"]:::c_blue
 ```
 
 ### 1.2 本質解析：超越會計利潤與 EBITDA 的三大真理
@@ -91,7 +89,7 @@ flowchart LR
     end
 ```
 
-- **導入期與成長初期**：由於需要大規模建廠、採購伺服器與研發投入，CapEx 與 $\Delta\text{NWC}$ 遠超營運毛利，FCFF 長期為負，高度依賴股權融資輸血（參見 [[equity-financing_股權融資]]）。
+- **導入期與成長初期**：由於需要大規模建廠、採購伺服器與研發投入，CapEx 與 $\Delta\text{NWC}$ 遠超營運毛利，FCFF 長期為負，高度依賴股權融資輸血（參見 [[98_商業概念庫/equity-financing_股權融資\|equity-financing_股權融資]]）。
 - **成熟期現金牛**：產能建設完成，維持性資本支出佔比下降，龐大的折舊加回使得 FCFF 遠高於會計淨利，成為發放股利或跨界併購的戰略彈藥。
 
 ### 3.2 維持性 CapEx vs. 成長性 CapEx 的關鍵拆分
@@ -164,18 +162,18 @@ flowchart LR
 ## 7. 關聯知識網絡與導航地圖 (Knowledge Network & Cross-References)
 
 ### 7.1 本主題核心三部曲
-- **[[enterprise-free-cash-flow-liang_企業自由現金流量]]** · 全體出資人視角、無槓桿資產造血本質與 DCF 企業價值評估（本篇）
-- **[[equity-free-cash-flow_股權自由現金流量]]** · 股東剩餘索償權、財務槓桿淨效應與股東分配上限
-- **[[operating-cash-flow-statement_營業活動現金流量]]** · 本業營運現金造血能力、間接法調和與應計制盈餘品質檢驗
+- **[[98_商業概念庫/enterprise-free-cash-flow-liang_企業自由現金流量\|enterprise-free-cash-flow-liang_企業自由現金流量]]** · 全體出資人視角、無槓桿資產造血本質與 DCF 企業價值評估（本篇）
+- **[[98_商業概念庫/equity-free-cash-flow_股權自由現金流量\|equity-free-cash-flow_股權自由現金流量]]** · 股東剩餘索償權、財務槓桿淨效應與股東分配上限
+- **[[98_商業概念庫/operating-cash-flow-statement_營業活動現金流量\|operating-cash-flow-statement_營業活動現金流量]]** · 本業營運現金造血能力、間接法調和與應計制盈餘品質檢驗
 
 ### 7.2 跨領域財務與策略鏈結
-- [[dcf_現金流量折現法]] · 以 FCFF 與 FCFE 為核心輸入變數的絕對估值模型
-- [[wacc_加權平均資本成本]] · FCFF 折現時必備之全企業加權平均資本成本
-- [[free-cash-flow_自由現金流量]] · 自由現金流家族總覽與概念框架
-- [[capital-structure_資本結構]] · 負債融資比例對 FCFF 到 FCFE 轉換之結構性槓桿影響
-- [[enterprise-value_企業價值]] · FCFF 折現所導出之全企業價值
+- [[98_商業概念庫/dcf_現金流量折現法\|dcf_現金流量折現法]] · 以 FCFF 與 FCFE 為核心輸入變數的絕對估值模型
+- [[98_商業概念庫/wacc_加權平均資本成本\|wacc_加權平均資本成本]] · FCFF 折現時必備之全企業加權平均資本成本
+- [[98_商業概念庫/free-cash-flow_自由現金流量\|free-cash-flow_自由現金流量]] · 自由現金流家族總覽與概念框架
+- [[98_商業概念庫/capital-structure_資本結構\|capital-structure_資本結構]] · 負債融資比例對 FCFF 到 FCFE 轉換之結構性槓桿影響
+- [[98_商業概念庫/enterprise-value_企業價值\|enterprise-value_企業價值]] · FCFF 折現所導出之全企業價值
 
 ### 7.3 課程筆記與導航主頁
-- [[L09_資本結構理論與決策]] · 財務策略模組九：資本結構與現金流分配決策
-- [[_創業與企業財務策略 MOC]] · 企業財務策略與資本市場運作全景地圖
-- [[home]] · 全球 PMBA 知識庫總導航主頁面
+- [[02_核心必修/01_財務管理/L09_資本結構理論與決策\|L09_資本結構理論與決策]] · 財務策略模組九：資本結構與現金流分配決策
+- [[04_主題選修/10_創業與企業財務策略/_歷史版本封存/_創業與企業財務策略 MOC\|_創業與企業財務策略 MOC]] · 企業財務策略與資本市場運作全景地圖
+- [[home\|home]] · 全球 PMBA 知識庫總導航主頁面
