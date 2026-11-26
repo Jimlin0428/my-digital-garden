@@ -11,25 +11,18 @@
 
 在實務中，非財務背景經理人最常產生的根本誤解，就是以為折舊「伴隨著現金流出」或「折舊提列代表企業正在存錢買新設備」。在現代公司理財與資本預算中，折舊的本質是一項**「純粹的非現金費用 (Non-Cash Expense)」**；其對企業最具爆發力的財務價值，在於其作為合法的稅前扣除項目，為企業帶來了龐大的**「折舊抵稅效應 (Depreciation Tax Shield)」**，直接增強了企業的營運活動現金流量 (CFO) 與專案淨現值 (NPV)。
 
-```
-【折舊的財務本質與現金流傳導機制】
+**【折舊的財務本質與現金流傳導機制】**
 
-             固定資產採購支出 (CapEx) ◄── (在 t=0 發生【唯一一次】真實現金流出！)
-                       │
-                       ▼ 資本化進入資產負債表
-             固定資產帳面原值 (PP&E)
-                       │
-                       ▼ 每年系統性攤提 (無任何現金流出！)
-┌─────────────────────────────────────────────────────────────┐
-│ 【每年損益表列報：折舊費用 (Depreciation)】                 │
-│  • 扣減當期營業利潤 (EBIT)                                   │
-│  • 使得應納所得稅減少：【折舊抵稅額 ＝ Dep × 所得稅率 t】    │
-└──────────────────────────────┬──────────────────────────────┘
-                               │
-                               ▼ 實體現金流增額
-┌─────────────────────────────────────────────────────────────┐
-│ 【實質營業現金流增加 (CFO Boost)】 ＝ ＋ (Depreciation × t) │
-└─────────────────────────────────────────────────────────────┘
+```mermaid
+flowchart TD
+    classDef c_blue fill:#1e3a5f,stroke:#60a5fa,stroke-width:2px,color:#ffffff;
+    classDef c_green fill:#143823,stroke:#4ade80,stroke-width:2px,color:#ffffff;
+    classDef c_amber fill:#3d2806,stroke:#fbbf24,stroke-width:2px,color:#ffffff;
+    classDef c_purple fill:#3b1d54,stroke:#c084fc,stroke-width:2px,color:#ffffff;
+    classDef c_red fill:#5c1d24,stroke:#f87171,stroke-width:2px,color:#ffffff;
+    N0_0["【每年損益表列報：折舊費用 （Depreciation）】<br/>• 扣減當期營業利潤 （EBIT）<br/>• 使得應納所得稅減少：【折舊抵稅額 ＝ Dep × 所得稅率 t】"]:::c_blue
+    N1_0["【實質營業現金流增加 （CFO Boost）】 ＝ ＋ （Depreciation × t）"]:::c_green
+    N0_0 -->|"實體現金流增額"| N1_0
 ```
 
 ---
@@ -60,7 +53,7 @@ $$\text{Annual Depreciation}_t = \text{期初帳面淨值}_t \times \left( \frac
 $$OCF = (\text{Revenue} - \text{Cash Expenses}) \times (1 - t) + \underbrace{\text{Depreciation} \times t}_{\text{折舊抵稅效應 (Tax Shield)}}$$
 
 > [!IMPORTANT]
-> **加速折舊的現值優勢定理**：雖然在資產的整個生命週期中，直線法與加速折舊法的「總折舊金額完全相同」；但由於**貨幣時間價值 ([[time-value-2_貨幣時間價值]])**，**加速折舊法將巨額抵稅現金流大幅提前至前幾年實現 (Front-loading)**，經折現後所創造的稅盾現值遠高於直線法，能實質顯著提升專案的淨現值 (NPV)！
+> **加速折舊的現值優勢定理**：雖然在資產的整個生命週期中，直線法與加速折舊法的「總折舊金額完全相同」；但由於**貨幣時間價值 ([[98_商業概念庫/time-value-2_貨幣時間價值\|time-value-2_貨幣時間價值]])**，**加速折舊法將巨額抵稅現金流大幅提前至前幾年實現 (Front-loading)**，經折現後所創造的稅盾現值遠高於直線法，能實質顯著提升專案的淨現值 (NPV)！
 
 ---
 
@@ -93,7 +86,7 @@ $$OCF = (\text{Revenue} - \text{Cash Expenses}) \times (1 - t) + \underbrace{\te
 ## ⚠️ 經理人常見盲點與治理陷阱
 
 1. **「延長折舊年限」操縱短期盈餘 (Earnings Manipulation)**：某些陷入虧損的企業經理人，透過更改會計估計，將原本 5 年折舊的機器強行延長為 10 年，使每年的折舊費用腰斬，人為粉飾帳面淨利。但這種把戲不產生任何一分實質現金流，反而遞延了稅盾效益。
-2. **在專案評估中將折舊「當作現金流出」扣除**：在估算專案未來現金流時，既扣除了期初的設備購買 CapEx，每年又把非現金折舊當作費用扣除，犯下致命的**雙重計算陷阱 ([[double-counting-fallacy_雙重計算陷阱]])**。
+2. **在專案評估中將折舊「當作現金流出」扣除**：在估算專案未來現金流時，既扣除了期初的設備購買 CapEx，每年又把非現金折舊當作費用扣除，犯下致命的**雙重計算陷阱 ([[98_商業概念庫/double-counting-fallacy_雙重計算陷阱\|double-counting-fallacy_雙重計算陷阱]])**。
 3. **忽視殘值與處分資產稅務的互鎖**：在折舊年限終了時，若設備實際出售價格高於帳面殘值，產生的處分利得必須補繳稅款，經理人若未預先計入期末稅負，將高估期末殘值現金流。
 
 ---
@@ -103,12 +96,12 @@ $$OCF = (\text{Revenue} - \text{Cash Expenses}) \times (1 - t) + \underbrace{\te
 - [ ] 公司的資本預算模型中，折舊是否嚴格作為「非現金費用」處理，並精確計算了其折舊抵稅額 ($Dep \times t$)？
 - [ ] 在符合各國稅法的前提下，我們是否盡最大可能採用了「加速折舊法」以最大化前期的現金流折現現值？
 - [ ] 財務團隊在對外財報與對內稅務申報時，是否清晰維護了「兩套帳簿折現差異（遞延所得稅資產/負債）」？
-- [ ] 面對折舊即將攤提完畢的老舊核心資產，我們是否已經啟動了[[decision-2_設備重置決策]]的推演？
+- [ ] 面對折舊即將攤提完畢的老舊核心資產，我們是否已經啟動了[[98_商業概念庫/decision-2_設備重置決策\|decision-2_設備重置決策]]的推演？
 - [ ] 審計委員會是否嚴格把關固定資產耐用年限的變更，防範經理人藉由延長折舊年限粉飾業績？
 
 ---
 
 ## 🔗 延伸閱讀與深度雙向維基連結
 
-- 關聯概念：[[decision-2_設備重置決策]] ｜ [[NPV_淨現值法 _Net Present Value]] ｜ [[free-cash-flow_自由現金流量]] ｜ [[operating-activities_營業活動]] ｜ [[matching-principle_配合原則]]
-- 延伸課題：[[double-counting-fallacy_雙重計算陷阱]] ｜ [[time-value-2_貨幣時間價值]] ｜ [[equivalent-annual-annuity_等額年金法]] ｜ [[investing-activities_投資活動]]
+- 關聯概念：[[98_商業概念庫/decision-2_設備重置決策\|decision-2_設備重置決策]] ｜ [[98_商業概念庫/NPV_淨現值法 _Net Present Value\|NPV_淨現值法 _Net Present Value]] ｜ [[98_商業概念庫/free-cash-flow_自由現金流量\|free-cash-flow_自由現金流量]] ｜ [[98_商業概念庫/operating-activities_營業活動\|operating-activities_營業活動]] ｜ [[98_商業概念庫/matching-principle_配合原則\|matching-principle_配合原則]]
+- 延伸課題：[[98_商業概念庫/double-counting-fallacy_雙重計算陷阱\|double-counting-fallacy_雙重計算陷阱]] ｜ [[98_商業概念庫/time-value-2_貨幣時間價值\|time-value-2_貨幣時間價值]] ｜ [[98_商業概念庫/equivalent-annual-annuity_等額年金法\|equivalent-annual-annuity_等額年金法]] ｜ [[98_商業概念庫/investing-activities_投資活動\|investing-activities_投資活動]]

@@ -38,26 +38,22 @@
 ## 二、 決策架構與數理機制
 
 ### 1. 本期淨利 (NI) vs. 營業活動現金流 (CFO) 盈餘品質矩陣
-衡量本期淨利真實含金量的核心工具是將「淨利潤」與「[[operating-activities_營業活動|營業活動現金流量 (CFO)]]」進行交叉比對：
+衡量本期淨利真實含金量的核心工具是將「淨利潤」與「[[98_商業概念庫/operating-activities_營業活動\|營業活動現金流量 (CFO)]]」進行交叉比對：
 
 $$
 \	ext{Accrual Anomaly (應計異象比率)} = \rac{\	ext{Net Income} - \	ext{CFO}}{\	ext{總資產}}
 $$
 
-```
-                                【營業活動現金流量 (CFO)】
-                                     低                     高
-                       ┌────────────────────────┬────────────────────────┐
-                  高   │  象限 II：紙上富貴型   │  象限 I：真金白銀型    │
-                       │  (危險警訊 / 虛假繁榮) │  (高品質 / 現金牛)     │
-                       │  • 營收多為應收帳款塞貨│  • 淨利完全轉化為現金  │
-                       │  • 存貨大量積壓未跌價  │  • 盈餘含金量高於 100% │
-【本期淨利 (Net Income)├────────────────────────┼────────────────────────┤
-                  低   │  象限 IV：衰退清算型   │  象限 III：黎明蓄勢型  │
-                       │  (經營惡化 / 失血中)   │  (過渡期 / 重資本投入) │
-                       │  • 帳面虧損且現金枯竭  │  • 大額折舊抵稅侵蝕淨利│
-                       │  • 面臨破產倒閉風險    │  • 實質造血能力強勁    │
-                       └────────────────────────┴────────────────────────┘
+**【營業活動現金流量 (CFO)】**
+
+```mermaid
+flowchart TD
+    classDef c_blue fill:#1e3a5f,stroke:#60a5fa,stroke-width:2px,color:#ffffff;
+    classDef c_green fill:#143823,stroke:#4ade80,stroke-width:2px,color:#ffffff;
+    classDef c_amber fill:#3d2806,stroke:#fbbf24,stroke-width:2px,color:#ffffff;
+    classDef c_purple fill:#3b1d54,stroke:#c084fc,stroke-width:2px,color:#ffffff;
+    classDef c_red fill:#5c1d24,stroke:#f87171,stroke-width:2px,color:#ffffff;
+    N0_0["象限 II：紙上富貴型   │  象限 I：真金白銀型<br/>（危險警訊 / 虛假繁榮） │  （高品質 / 現金牛）<br/>• 營收多為應收帳款塞貨│  • 淨利完全轉化為現金<br/>• 存貨大量積壓未跌價  │  • 盈餘含金量高於 100%<br/>象限 IV：衰退清算型   │  象限 III：黎明蓄勢型<br/>（經營惡化 / 失血中）   │  （過渡期 / 重資本投入）<br/>• 帳面虧損且現金枯竭  │  • 大額折舊抵稅侵蝕淨利<br/>• 面臨破產倒閉風險    │  • 實質造血能力強勁"]:::c_blue
 ```
 
 - **象限 I（真金白銀型）**：$\	ext{CFO} \ge \	ext{Net Income}$。企業獲利具備極高的變現效率，具備充足的內生資金進行擴張或分紅。
@@ -92,16 +88,20 @@ $$
 
 ## 四、 經理人反思與行動檢核清單
 
-```
-                               本期淨利真實含金量診斷
-┌─────────────────────────┬─────────────────────────┬─────────────────────────┐
-│     1. 剔除非經常性損益 │     2. 應計項異常檢驗   │     3. 檢視 OCI 隱藏炸彈 │
-│ 扣除賣地賣樓等一次性利益│ CFO/NI 比率是否小於 0.8 │ 審查是否有大額虧損被塞入OCI│
-└─────────────────────────┴─────────────────────────┴─────────────────────────┘
+**本期淨利真實含金量診斷**
+
+```mermaid
+flowchart TD
+    classDef c_blue fill:#1e3a5f,stroke:#60a5fa,stroke-width:2px,color:#ffffff;
+    classDef c_green fill:#143823,stroke:#4ade80,stroke-width:2px,color:#ffffff;
+    classDef c_amber fill:#3d2806,stroke:#fbbf24,stroke-width:2px,color:#ffffff;
+    classDef c_purple fill:#3b1d54,stroke:#c084fc,stroke-width:2px,color:#ffffff;
+    classDef c_red fill:#5c1d24,stroke:#f87171,stroke-width:2px,color:#ffffff;
+    N0_0["1. 剔除非經常性損益 │     2. 應計項異常檢驗   │     3. 檢視 OCI 隱藏炸彈<br/>扣除賣地賣樓等一次性利益│ CFO/NI 比率是否小於 0.8 │ 審查是否有大額虧損被塞入OCI"]:::c_blue
 ```
 
 ### Executive Decision Checklist
-- [ ] **核心本業獲利率純度**：本期淨利中，來自本業[[operating-income_營業利益|營業利益 (EBIT)]]的貢獻佔比是否超過 85%？是否有過多源於處分不動產、政府一次性補貼或金融評價利益？
+- [ ] **核心本業獲利率純度**：本期淨利中，來自本業[[98_商業概念庫/operating-income_營業利益\|營業利益 (EBIT)]]的貢獻佔比是否超過 85%？是否有過多源於處分不動產、政府一次性補貼或金融評價利益？
 - [ ] **現金轉換率指標 (Cash Conversion Rate)**：本年度的「$\	ext{CFO} / \	ext{Net Income}$」是否大於 1.0？若低於 0.7，財務部門是否深入調查應收帳款週轉天數 (DSO) 與存貨週轉天數 (DSI) 的惡化原因？
 - [ ] **會計政策激進度排查**：研發支出是否存在過度「資本化」以美化當期淨利的情形？固定資產折舊年限是否被蓄意延長以降低當期折舊費用？
 - [ ] **有效所得稅率真實性**：本期淨利所適用的所得稅費用是否異常偏低？是否存在尚未經國稅局最終核定的高風險避稅架構？
@@ -111,7 +111,7 @@ $$
 
 ## 五、 關聯概念與延伸閱讀
 
-- 損益結構體系：[[operating-income_營業利益]] ｜ [[income-loss-3_綜合損益表]] ｜ [[income-loss-2_其他綜合損益]]
-- 盈餘品質與現金流：[[operating-activities_營業活動]] ｜ [[cash-flow-statement_現金流量表]] ｜ [[free-cash-flow_自由現金流量]]
-- 每股獲利與評價：[[earnings-per-share_每股盈餘]] ｜ [[share-repurchase_股票買回]] ｜ [[pb-ratio_股價淨值比]]
-- 會計基礎與防禦：[[matching-principle_配合原則]] ｜ [[accounting-principles_會計保守原則]] ｜ [[accounting-profit-cash-flow-differentiation_會計利潤與現金流差異]]
+- 損益結構體系：[[98_商業概念庫/operating-income_營業利益\|operating-income_營業利益]] ｜ [[98_商業概念庫/income-loss-3_綜合損益表\|income-loss-3_綜合損益表]] ｜ [[98_商業概念庫/income-loss-2_其他綜合損益\|income-loss-2_其他綜合損益]]
+- 盈餘品質與現金流：[[98_商業概念庫/operating-activities_營業活動\|operating-activities_營業活動]] ｜ [[98_商業概念庫/cash-flow-statement_現金流量表\|cash-flow-statement_現金流量表]] ｜ [[98_商業概念庫/free-cash-flow_自由現金流量\|free-cash-flow_自由現金流量]]
+- 每股獲利與評價：[[98_商業概念庫/earnings-per-share_每股盈餘\|earnings-per-share_每股盈餘]] ｜ [[98_商業概念庫/share-repurchase_股票買回\|share-repurchase_股票買回]] ｜ [[98_商業概念庫/pb-ratio_股價淨值比\|pb-ratio_股價淨值比]]
+- 會計基礎與防禦：[[98_商業概念庫/matching-principle_配合原則\|matching-principle_配合原則]] ｜ [[98_商業概念庫/accounting-principles_會計保守原則\|accounting-principles_會計保守原則]] ｜ [[98_商業概念庫/accounting-profit-cash-flow-differentiation_會計利潤與現金流差異\|accounting-profit-cash-flow-differentiation_會計利潤與現金流差異]]

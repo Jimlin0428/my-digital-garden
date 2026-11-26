@@ -11,20 +11,20 @@
 
 驗證式學習徹底推翻了傳統企管「耗費一年閉門撰寫完美商業計畫書、隨後依照時程線性執行」的瀑布式幻想。它要求團隊以科學實驗的嚴謹態度，將商業構想拆解為可量化驗證的「假設 (Hypotheses)」，透過極速推出最小可行性產品 (MVP) 獲取第一手真實行為數據，進而做出**「堅持推進 (Persevere)」或「樞軸轉向 (Pivot)」**的關鍵決策。
 
-```
-                       【打造 (BUILD)】
-                      最小可行產品 (MVP)
-                          ┌────────┐
-                          │  產品  │
-                          └────────┘
-                     ▲                  │
-                    ╱                    ▼
-        【學習 (LEARN)】              【衡量 (MEASURE)】
-       樞軸轉向或堅持                 收集真實顧客行為數據
-              ┌──────┐                    ┌──────┐
-              │ 想法 │ ◄───────────────── │ 數據 │
-              └──────┘                    └──────┘
-                      極速回饋循環 (Cycle Time)
+**【打造 (BUILD)】**
+
+```mermaid
+flowchart TD
+    classDef c_blue fill:#1e3a5f,stroke:#60a5fa,stroke-width:2px,color:#ffffff;
+    classDef c_green fill:#143823,stroke:#4ade80,stroke-width:2px,color:#ffffff;
+    classDef c_amber fill:#3d2806,stroke:#fbbf24,stroke-width:2px,color:#ffffff;
+    classDef c_purple fill:#3b1d54,stroke:#c084fc,stroke-width:2px,color:#ffffff;
+    classDef c_red fill:#5c1d24,stroke:#f87171,stroke-width:2px,color:#ffffff;
+    N0_0["產品"]:::c_blue
+    N1_0["想法"]:::c_green
+    N1_1["數據"]:::c_amber
+    N0_0 -->|"╱ 【學習 （LEARN）】              【衡量 （MEASURE）】 樞軸轉向或堅持                 收集真實顧客行為數據"| N1_0
+    N0_0 -->|"╱ 【學習 （LEARN）】              【衡量 （MEASURE）】 樞軸轉向或堅持                 收集真實顧客行為數據"| N1_1
 ```
 
 ---

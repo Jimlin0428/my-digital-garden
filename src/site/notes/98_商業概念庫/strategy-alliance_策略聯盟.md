@@ -68,12 +68,16 @@ $$
 
 ## 四、 經理人反思與行動檢核清單
 
-```
-                               策略聯盟全生命週期治理四步法
-┌─────────────────────────┬─────────────────────────┬─────────────────────────┐
-│     1. 資源非對稱互補   │     2. 智財權防火牆架構 │     3. 預設體面退場機制 │
-│ 確保雙方各出核心王牌拼圖│ 嚴格劃分合作與專有技術邊界│ 協議白紙黑字寫明清算條款│
-└─────────────────────────┴─────────────────────────┴─────────────────────────┘
+**策略聯盟全生命週期治理四步法**
+
+```mermaid
+flowchart TD
+    classDef c_blue fill:#1e3a5f,stroke:#60a5fa,stroke-width:2px,color:#ffffff;
+    classDef c_green fill:#143823,stroke:#4ade80,stroke-width:2px,color:#ffffff;
+    classDef c_amber fill:#3d2806,stroke:#fbbf24,stroke-width:2px,color:#ffffff;
+    classDef c_purple fill:#3b1d54,stroke:#c084fc,stroke-width:2px,color:#ffffff;
+    classDef c_red fill:#5c1d24,stroke:#f87171,stroke-width:2px,color:#ffffff;
+    N0_0["1. 資源非對稱互補   │     2. 智財權防火牆架構 │     3. 預設體面退場機制<br/>確保雙方各出核心王牌拼圖│ 嚴格劃分合作與專有技術邊界│ 協議白紙黑字寫明清算條款"]:::c_blue
 ```
 
 ### Executive Decision Checklist
@@ -87,7 +91,7 @@ $$
 
 ## 五、 關聯概念與延伸閱讀
 
-- 組織邊界理論：[[TCE_Transaction_Cost_Economics_交易成本理論]] ｜ [[enterprise-m-and-a_企業併購]] ｜ [[merger-acquisition-integration_併購後整合]]
-- 資源與能力：[[VRIO架構]] ｜ [[core-competence_核心能力]] ｜ [[competitive-advantage_競爭優勢]]
-- 競合與生態：[[business-ecosystem_商業生態系]] ｜ [[platform-envelopment_平台包夾]] ｜ [[cross-industry-competition_跨界競爭]]
-- 治理與控制：[[corporate-governance_公司治理]] ｜ [[agency-costs_代理成本]] ｜ [[strategy-2_避險策略]]
+- 組織邊界理論：[[98_商業概念庫/TCE_Transaction_Cost_Economics_交易成本理論\|TCE_Transaction_Cost_Economics_交易成本理論]] ｜ [[98_商業概念庫/enterprise-m-and-a_企業併購\|enterprise-m-and-a_企業併購]] ｜ [[98_商業概念庫/merger-acquisition-integration_併購後整合\|merger-acquisition-integration_併購後整合]]
+- 資源與能力：[[98_商業概念庫/VRIO架構\|VRIO架構]] ｜ [[98_商業概念庫/core-competence_核心能力\|core-competence_核心能力]] ｜ [[98_商業概念庫/competitive-advantage_競爭優勢\|competitive-advantage_競爭優勢]]
+- 競合與生態：[[98_商業概念庫/business-ecosystem_商業生態系\|business-ecosystem_商業生態系]] ｜ [[98_商業概念庫/platform-envelopment_平台包夾\|platform-envelopment_平台包夾]] ｜ [[98_商業概念庫/cross-industry-competition_跨界競爭\|cross-industry-competition_跨界競爭]]
+- 治理與控制：[[98_商業概念庫/corporate-governance_公司治理\|corporate-governance_公司治理]] ｜ [[98_商業概念庫/agency-costs_代理成本\|agency-costs_代理成本]] ｜ [[98_商業概念庫/strategy-2_避險策略\|strategy-2_避險策略]]

@@ -15,16 +15,18 @@
 
 邰蒂指出，穀倉本身是現代工業社會「專業化分工 (Specialization)」的副產物。專業化分工原本旨在提高微觀效率，但當專業分類與部門邊界固化為心理與政治壁壘時，原本為了儲存價值的「穀倉」，便淪為窒息組織生機的「死亡牢籠」。
 
-```
-【傳統組織穀倉壁壘模型】
-┌────────────────┐     ┌────────────────┐     ┌────────────────┐
-│   研發部穀倉   │ ╳─╳ │   行銷部穀倉   │ ╳─╳ │   財務部穀倉   │
-│ (只顧技術完美) │ 資訊 │ (只顧衝短期業績│ 資訊 │ (只顧成本控制) │
-│ (對市場冷漠)   │ 阻斷 │ (不懂技術限制) │ 阻斷 │ (拒絕新研發預算│
-└────────────────┘     └────────────────┘     └────────────────┘
-        │                      │                      │
-        ▼                      ▼                      ▼
-  各部門各自最優化 ──> 引發全公司整體系統性內耗與盲區 (Sub-optimization)
+**【傳統組織穀倉壁壘模型】**
+
+```mermaid
+flowchart TD
+    classDef c_blue fill:#1e3a5f,stroke:#60a5fa,stroke-width:2px,color:#ffffff;
+    classDef c_green fill:#143823,stroke:#4ade80,stroke-width:2px,color:#ffffff;
+    classDef c_amber fill:#3d2806,stroke:#fbbf24,stroke-width:2px,color:#ffffff;
+    classDef c_purple fill:#3b1d54,stroke:#c084fc,stroke-width:2px,color:#ffffff;
+    classDef c_red fill:#5c1d24,stroke:#f87171,stroke-width:2px,color:#ffffff;
+    N0_0["研發部穀倉<br/>（只顧技術完美）<br/>（對市場冷漠）"]:::c_blue
+    N0_1["行銷部穀倉<br/>（只顧衝短期業績<br/>（不懂技術限制）"]:::c_green
+    N0_2["財務部穀倉<br/>（只顧成本控制）<br/>（拒絕新研發預算"]:::c_amber
 ```
 
 ---
@@ -38,7 +40,7 @@
 | 穀倉維度 | 組織病理特徵 | 日常管理中的典型症狀 | 系統性破壞後果 |
 | :--- | :--- | :--- | :--- |
 | **結構型穀倉 (Structural Silos)** | 組織圖按產品或職能垂直切分，缺乏跨部門平行協調管道 | 各部門擁有獨立的 IT 系統、獨立數據庫且格式互不相通 | 重複造輪子、資源嚴重浪費、客戶體驗破碎 |
-| **心理與文化穀倉 (Cultural Silos)** | 內部產生強烈的「部落主義 (Tribalism)」，將跨部門同儕視為競爭對手 | 會議中充斥著部門專屬黑話，鄙視其他部門的智力與貢獻 | 跨部門合作推諉扯皮，爆發[[fundamental-attribution-error_基本歸因謬誤|基本歸因謬誤]] |
+| **心理與文化穀倉 (Cultural Silos)** | 內部產生強烈的「部落主義 (Tribalism)」，將跨部門同儕視為競爭對手 | 會議中充斥著部門專屬黑話，鄙視其他部門的智力與貢獻 | 跨部門合作推諉扯皮，爆發[[98_商業概念庫/fundamental-attribution-error_基本歸因謬誤\|基本歸因謬誤]] |
 | **激勵型穀倉 (Incentive Silos)** | KPI 考核只綁定本部門業績，跨部門協同無獎勵甚至被扣分 | 業務部為了達標隨意向客戶開空頭支票，全推給售後維修 | 局部次佳化 (Sub-optimization) 摧毀整體 ROIC |
 
 ### 2. 局部次佳化與系統效能損耗數理推導
@@ -78,12 +80,16 @@ $$
 
 ## 四、 經理人反思與行動檢核清單
 
-```
-                               打破組織穀倉之四大手術刀
-┌─────────────────────────┬─────────────────────────┬─────────────────────────┐
-│     1. 統一客戶視角指標 │     2. 推動輪調破除部落 │     3. 打通跨部門數據池 │
-│ KPI 綁定端到端整體滿意度│ 高管與核心骨幹定期跨組輪調│ 消除私有系統，實施統一架構│
-└─────────────────────────┴─────────────────────────┴─────────────────────────┘
+**打破組織穀倉之四大手術刀**
+
+```mermaid
+flowchart TD
+    classDef c_blue fill:#1e3a5f,stroke:#60a5fa,stroke-width:2px,color:#ffffff;
+    classDef c_green fill:#143823,stroke:#4ade80,stroke-width:2px,color:#ffffff;
+    classDef c_amber fill:#3d2806,stroke:#fbbf24,stroke-width:2px,color:#ffffff;
+    classDef c_purple fill:#3b1d54,stroke:#c084fc,stroke-width:2px,color:#ffffff;
+    classDef c_red fill:#5c1d24,stroke:#f87171,stroke-width:2px,color:#ffffff;
+    N0_0["1. 統一客戶視角指標 │     2. 推動輪調破除部落 │     3. 打通跨部門數據池<br/>KPI 綁定端到端整體滿意度│ 高管與核心骨幹定期跨組輪調│ 消除私有系統，實施統一架構"]:::c_blue
 ```
 
 ### Executive Decision Checklist
@@ -97,7 +103,7 @@ $$
 
 ## 五、 關聯概念與延伸閱讀
 
-- 組織結構與演進：[[structure-follows-strategy_結構跟隨策略]] ｜ [[matrix-organization_矩陣型組織]] ｜ [[organization_有機式組織]] ｜ [[systems-school_系統學派]]
-- 決策與心理盲區：[[groupthink_團體迷思]] ｜ [[fundamental-attribution-error_基本歸因謬誤]] ｜ [[confirmation-bias_確認偏誤]]
-- 整合與系統思維：[[system_系統思考]] ｜ [[learning-organization_學習型組織]] ｜ [[merger-acquisition-integration_併購後整合]]
-- 競爭與自我顛覆：[[cannibalization_自我蠶食]] ｜ [[strategic-inflection-point_關鍵轉折]] ｜ [[competitive-advantage_競爭優勢]]
+- 組織結構與演進：[[98_商業概念庫/structure-follows-strategy_結構跟隨策略\|structure-follows-strategy_結構跟隨策略]] ｜ [[98_商業概念庫/matrix-organization_矩陣型組織\|matrix-organization_矩陣型組織]] ｜ [[98_商業概念庫/organization_有機式組織\|organization_有機式組織]] ｜ [[98_商業概念庫/systems-school_系統學派\|systems-school_系統學派]]
+- 決策與心理盲區：[[98_商業概念庫/groupthink_團體迷思\|groupthink_團體迷思]] ｜ [[98_商業概念庫/fundamental-attribution-error_基本歸因謬誤\|fundamental-attribution-error_基本歸因謬誤]] ｜ [[98_商業概念庫/confirmation-bias_確認偏誤\|confirmation-bias_確認偏誤]]
+- 整合與系統思維：[[98_商業概念庫/system_系統思考\|system_系統思考]] ｜ [[98_商業概念庫/learning-organization_學習型組織\|learning-organization_學習型組織]] ｜ [[98_商業概念庫/merger-acquisition-integration_併購後整合\|merger-acquisition-integration_併購後整合]]
+- 競爭與自我顛覆：[[98_商業概念庫/cannibalization_自我蠶食\|cannibalization_自我蠶食]] ｜ [[98_商業概念庫/strategic-inflection-point_關鍵轉折\|strategic-inflection-point_關鍵轉折]] ｜ [[98_商業概念庫/competitive-advantage_競爭優勢\|competitive-advantage_競爭優勢]]

@@ -35,7 +35,7 @@ $$\text{原因 } A \implies \text{結果 } B$$
 ## 二、 決策架構與數理機制
 
 ### 1. 系統基石三要素：存量、流量與回饋迴路
-系統思考將世界抽象為三個基本構件（詳見 [[stocks-and-flows_存量與流量]]）：
+系統思考將世界抽象為三個基本構件（詳見 [[98_商業概念庫/stocks-and-flows_存量與流量\|stocks-and-flows_存量與流量]]）：
 1. **存量 (Stocks, $S$)**：系統中隨時間累積的實體或無形資源（如銀行存款、庫存量、品牌信任度、員工士氣）。
 2. **流量 (Flows)**：改變存量的輸入速率 ($I$) 與輸出速率 ($O$)：
    
@@ -53,7 +53,7 @@ $$
 - **低槓桿（參數調整）**：調整稅率、補貼金額、產能參數（治標不治本，效果短暫）。
 - **中槓桿（系統結構）**：增減緩衝存量、重構物質與資訊流動網絡、增加負回饋調節迴路。
 - **高槓桿（規則與目標）**：改變系統權力架構、修改激勵制度、重新定義系統目標函數。
-- **極致最高槓桿（心智模式與典範）**：**改變造就該系統的底層[[mode_心智模式|心智模式與典範 (Paradigm)]]**，以及超越任何既定典範的認知自由度。
+- **極致最高槓桿（心智模式與典範）**：**改變造就該系統的底層[[98_商業概念庫/mode_心智模式\|心智模式與典範 (Paradigm)]]**，以及超越任何既定典範的認知自由度。
 
 ---
 
@@ -66,7 +66,7 @@ $$
   2. 客戶體驗帶動龐大的流量 (Traffic)；
   3. 龐大流量吸引大量第三方賣家入駐 (Sellers)；
   4. 賣家入駐帶來更多選品並透過手續費擴大亞馬遜營收規模；
-  5. 規模經濟 ([[economies-of-scale_規模經濟]]) 降低了每件商品的固定履約成本結構；
+  5. 規模經濟 ([[98_商業概念庫/economies-of-scale_規模經濟\|economies-of-scale_規模經濟]]) 降低了每件商品的固定履約成本結構；
   6. 成本結構下降使亞馬遜能夠進一步降低售價，回饋給客戶體驗。
 - **系統思考成果**：貝佐斯從不孤立看待各部門 KPI，而是將所有資源灌注於這條自我強化的正向增強迴路，推動亞馬遜成為萬億市值的超級巨頭。
 
@@ -85,12 +85,16 @@ $$
 
 ## 四、 經理人反思與行動檢核清單
 
-```
-                               系統思考高階干預四步法
-┌─────────────────────────┬─────────────────────────┬─────────────────────────┐
-│     1. 繪製因果迴路圖   │     2. 識別關鍵時間延遲 │     3. 尋找高槓桿解     │
-│ 標記正負回饋與非意圖後果│ 評估政策生效所需的滯後期│ 放棄局部微調，重構激勵規則│
-└─────────────────────────┴─────────────────────────┴─────────────────────────┘
+**系統思考高階干預四步法**
+
+```mermaid
+flowchart TD
+    classDef c_blue fill:#1e3a5f,stroke:#60a5fa,stroke-width:2px,color:#ffffff;
+    classDef c_green fill:#143823,stroke:#4ade80,stroke-width:2px,color:#ffffff;
+    classDef c_amber fill:#3d2806,stroke:#fbbf24,stroke-width:2px,color:#ffffff;
+    classDef c_purple fill:#3b1d54,stroke:#c084fc,stroke-width:2px,color:#ffffff;
+    classDef c_red fill:#5c1d24,stroke:#f87171,stroke-width:2px,color:#ffffff;
+    N0_0["1. 繪製因果迴路圖   │     2. 識別關鍵時間延遲 │     3. 尋找高槓桿解<br/>標記正負回饋與非意圖後果│ 評估政策生效所需的滯後期│ 放棄局部微調，重構激勵規則"]:::c_blue
 ```
 
 ### Executive Decision Checklist
@@ -104,7 +108,7 @@ $$
 
 ## 五、 關聯概念與延伸閱讀
 
-- 系統理論體系：[[systems-school_系統學派]] ｜ [[stocks-and-flows_存量與流量]] ｜ [[learning-organization_學習型組織]]
-- 認知與心智：[[mode_心智模式]] ｜ [[bounded-rationality_有限理性]] ｜ [[fundamental-attribution-error_基本歸因謬誤]]
-- 營運與戰略應用：[[operating-management_生產與營運管理]] ｜ [[business-ecosystem_商業生態系]] ｜ [[sustainable-supply-chain_永續供應鏈]]
-- 組織架構治理：[[matrix-organization_矩陣型組織]] ｜ [[organization_有機式組織]] ｜ [[organization-3_機械式組織]]
+- 系統理論體系：[[98_商業概念庫/systems-school_系統學派\|systems-school_系統學派]] ｜ [[98_商業概念庫/stocks-and-flows_存量與流量\|stocks-and-flows_存量與流量]] ｜ [[98_商業概念庫/learning-organization_學習型組織\|learning-organization_學習型組織]]
+- 認知與心智：[[98_商業概念庫/mode_心智模式\|mode_心智模式]] ｜ [[98_商業概念庫/bounded-rationality_有限理性\|bounded-rationality_有限理性]] ｜ [[98_商業概念庫/fundamental-attribution-error_基本歸因謬誤\|fundamental-attribution-error_基本歸因謬誤]]
+- 營運與戰略應用：[[98_商業概念庫/operating-management_生產與營運管理\|operating-management_生產與營運管理]] ｜ [[98_商業概念庫/business-ecosystem_商業生態系\|business-ecosystem_商業生態系]] ｜ [[98_商業概念庫/sustainable-supply-chain_永續供應鏈\|sustainable-supply-chain_永續供應鏈]]
+- 組織架構治理：[[98_商業概念庫/matrix-organization_矩陣型組織\|matrix-organization_矩陣型組織]] ｜ [[98_商業概念庫/organization_有機式組織\|organization_有機式組織]] ｜ [[98_商業概念庫/organization-3_機械式組織\|organization-3_機械式組織]]

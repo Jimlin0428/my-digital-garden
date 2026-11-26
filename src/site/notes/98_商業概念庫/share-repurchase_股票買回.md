@@ -69,17 +69,21 @@ $$
 
 ## 四、 經理人反思與行動檢核清單
 
-```
-                               股票買回資本配置三原則
-┌─────────────────────────┬─────────────────────────┬─────────────────────────┐
-│     1. 內在價值顯著低估 │     2. 研發與再投資充足 │     3. 嚴防高管掩護減持 │
-│ 僅在市價低於內在價值時買│ 確保核心 CapEx 未被排擠 │ 禁止高管趁回購拉高出脫股票│
-└─────────────────────────┴─────────────────────────┴─────────────────────────┘
+**股票買回資本配置三原則**
+
+```mermaid
+flowchart TD
+    classDef c_blue fill:#1e3a5f,stroke:#60a5fa,stroke-width:2px,color:#ffffff;
+    classDef c_green fill:#143823,stroke:#4ade80,stroke-width:2px,color:#ffffff;
+    classDef c_amber fill:#3d2806,stroke:#fbbf24,stroke-width:2px,color:#ffffff;
+    classDef c_purple fill:#3b1d54,stroke:#c084fc,stroke-width:2px,color:#ffffff;
+    classDef c_red fill:#5c1d24,stroke:#f87171,stroke-width:2px,color:#ffffff;
+    N0_0["1. 內在價值顯著低估 │     2. 研發與再投資充足 │     3. 嚴防高管掩護減持<br/>僅在市價低於內在價值時買│ 確保核心 CapEx 未被排擠 │ 禁止高管趁回購拉高出脫股票"]:::c_blue
 ```
 
 ### Executive Decision Checklist
 - [ ] **內在價值折扣檢定 (Margin of Safety)**：我們決定實施股票買回，究竟是因為「公司股價目前確實被市場非理性拋售、顯著低於保守折現現金流內在價值」，還是僅僅因為賬上有閒錢？
-- [ ] **資本再投資排擠審查**：本期規劃的回購資金，是否排擠了未來 3 至 5 年關鍵製程、研發創新或產能升級所需的戰略資本支出 ([[investing-activities_投資活動|CapEx]])？
+- [ ] **資本再投資排擠審查**：本期規劃的回購資金，是否排擠了未來 3 至 5 年關鍵製程、研發創新或產能升級所需的戰略資本支出 ([[98_商業概念庫/investing-activities_投資活動\|CapEx]])？
 - [ ] **對抗高管利益衝突 (No Golden Parachutes)**：公司是否存在高管在實施大規模股票買回推高當季股價的同時，自身大量行使認股權並在公開市場高階減持套現的道德風險？
 - [ ] **借債回購的風險敞口**：若採用舉債回購 (Debt-funded Buyback)，重組後的資產負債率與利息覆蓋倍數是否依然能維持投資級 (Investment Grade) 信用評級？
 - [ ] **買回 vs. 現金股利之稅賦比較**：針對本公司的核心股東結構（外資法人 vs. 本國自然人），股票買回所產生的資本利得稅負，是否確具備優於直接發放現金股利的稅務淨效益？
@@ -88,7 +92,7 @@ $$
 
 ## 五、 關聯概念與延伸閱讀
 
-- 資本結構決策：[[modigliani-miller-theorem_莫迪利安尼米勒定理]] ｜ [[cost-of-capital_資金成本]] ｜ [[wacc_加權平均資本成本]]
-- 每股獲利指標：[[earnings-per-share_每股盈餘]] ｜ [[net-income_本期淨利]] ｜ [[pb-ratio_股價淨值比]]
-- 信號傳遞理論：[[signaling-theory_信號傳遞理論]] ｜ [[agency-costs_代理成本]] ｜ [[corporate-governance_公司治理]]
-- 現金流與投資：[[free-cash-flow_自由現金流量]] ｜ [[investing-activities_投資活動]] ｜ [[capital-budgeting_資本預算]]
+- 資本結構決策：[[98_商業概念庫/modigliani-miller-theorem_莫迪利安尼米勒定理\|modigliani-miller-theorem_莫迪利安尼米勒定理]] ｜ [[98_商業概念庫/cost-of-capital_資金成本\|cost-of-capital_資金成本]] ｜ [[98_商業概念庫/wacc_加權平均資本成本\|wacc_加權平均資本成本]]
+- 每股獲利指標：[[98_商業概念庫/earnings-per-share_每股盈餘\|earnings-per-share_每股盈餘]] ｜ [[98_商業概念庫/net-income_本期淨利\|net-income_本期淨利]] ｜ [[98_商業概念庫/pb-ratio_股價淨值比\|pb-ratio_股價淨值比]]
+- 信號傳遞理論：[[98_商業概念庫/signaling-theory_信號傳遞理論\|signaling-theory_信號傳遞理論]] ｜ [[98_商業概念庫/agency-costs_代理成本\|agency-costs_代理成本]] ｜ [[98_商業概念庫/corporate-governance_公司治理\|corporate-governance_公司治理]]
+- 現金流與投資：[[98_商業概念庫/free-cash-flow_自由現金流量\|free-cash-flow_自由現金流量]] ｜ [[98_商業概念庫/investing-activities_投資活動\|investing-activities_投資活動]] ｜ [[98_商業概念庫/capital-budgeting_資本預算\|capital-budgeting_資本預算]]

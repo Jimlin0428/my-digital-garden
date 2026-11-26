@@ -12,17 +12,14 @@
 
 ## 1. 核心維度與運作機制 (The 3 Dimensions of Transactional Leadership)
 
-```
-                    ┌─────────────────────────────────────────────────────────┐
-                    │               交易型領導三大維度光譜                    │
-                    └────────────────────────────┬────────────────────────────┘
-                                                 ▼
-        ┌───────────────────────────────┬───────────────────────────────┐
-        ▼                               ▼                               ▼
- 【1. 條件式酬賞 (Contingent Reward)】 【2. 主動例外管理 (MBE-Active)】 【3. 被動例外管理 (MBE-Passive)】
-  • 明確 KPI 與對應之獎懲條款     • 預先建立即時監控儀表板        • 平時放任不管, 不干涉細節
-  • 部屬達標即刻給予獎金與肯定   • 隨時預警微小偏離, 主動糾偏    • 等到嚴重客訴或系統崩潰才介入
-  • 最具建設性與效能之交易行為   • 適用於高危險/高合規標準作業  • 效率極低, 容易激化勞資對立
+```mermaid
+flowchart TD
+    classDef c_blue fill:#1e3a5f,stroke:#60a5fa,stroke-width:2px,color:#ffffff;
+    classDef c_green fill:#143823,stroke:#4ade80,stroke-width:2px,color:#ffffff;
+    classDef c_amber fill:#3d2806,stroke:#fbbf24,stroke-width:2px,color:#ffffff;
+    classDef c_purple fill:#3b1d54,stroke:#c084fc,stroke-width:2px,color:#ffffff;
+    classDef c_red fill:#5c1d24,stroke:#f87171,stroke-width:2px,color:#ffffff;
+    N0_0["交易型領導三大維度光譜"]:::c_blue
 ```
 
 ---
@@ -45,8 +42,8 @@
 
 ## 3. 關聯概念與延伸閱讀 (Cross References)
 
-- [[transformational-leadership_轉換型領導]]：超越物質交換的高維度願景引領。
-- [[situational-leadership-theory_情境領導理論]]：任務導向 S1 與 S2 風格中的交易行為。
-- [[agency-problem_代理人問題]]：以契約設計降低經理人偷懶與道德風險之對接。
-- [[agency-costs_代理成本]]：監督與考核交易契約所需承擔的治理成本。
-- [[home]]：PMBA 知識庫首頁與模組導航。
+- [[98_商業概念庫/transformational-leadership_轉換型領導\|transformational-leadership_轉換型領導]]：超越物質交換的高維度願景引領。
+- [[98_商業概念庫/situational-leadership-theory_情境領導理論\|situational-leadership-theory_情境領導理論]]：任務導向 S1 與 S2 風格中的交易行為。
+- [[98_商業概念庫/agency-problem_代理人問題\|agency-problem_代理人問題]]：以契約設計降低經理人偷懶與道德風險之對接。
+- [[98_商業概念庫/agency-costs_代理成本\|agency-costs_代理成本]]：監督與考核交易契約所需承擔的治理成本。
+- [[home\|home]]：PMBA 知識庫首頁與模組導航。

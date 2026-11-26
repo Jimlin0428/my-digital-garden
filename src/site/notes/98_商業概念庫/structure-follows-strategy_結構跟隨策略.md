@@ -41,9 +41,9 @@
 
 | 組織架構形態 | 治理架構特徵 | 策略適配性 | 組織局限性 |
 | :--- | :--- | :--- | :--- |
-| **職能型結構 (U-form)** | 按專業職能（研發、製造、行銷、財務）垂直劃分，高度中央集權 | 單一產品線、標準化大規模生產、追求[[economies-of-scale_規模經濟|規模經濟]] | 難以應對產品多角化；跨部門協同摩擦極高，決策遲緩 |
+| **職能型結構 (U-form)** | 按專業職能（研發、製造、行銷、財務）垂直劃分，高度中央集權 | 單一產品線、標準化大規模生產、追求[[98_商業概念庫/economies-of-scale_規模經濟\|規模經濟]] | 難以應對產品多角化；跨部門協同摩擦極高，決策遲緩 |
 | **事業部制結構 (M-form)** | 按產品線或地理區域劃分自治事業部 (BU)，自負盈虧；總部專注戰略規劃與資本分配 | 相關或非相關多角化擴張、多產品跨區域經營 | 各事業部可能重複投資資源；易滋生內部穀倉與短視競爭 |
-| **矩陣型結構 (Matrix)** | 雙重指揮鏈（產品線 $\times$ 地理區域或職能維度）交叉管轄 | 應對高度動態、多變量交織的跨國複雜戰略 | 角色衝突、權責模糊、會議時間過長（詳見 [[matrix-organization_矩陣型組織]]） |
+| **矩陣型結構 (Matrix)** | 雙重指揮鏈（產品線 $\times$ 地理區域或職能維度）交叉管轄 | 應對高度動態、多變量交織的跨國複雜戰略 | 角色衝突、權責模糊、會議時間過長（詳見 [[98_商業概念庫/matrix-organization_矩陣型組織\|matrix-organization_矩陣型組織]]） |
 
 ### 2. 現代逆命題批判：「結構反向制約策略」
 儘管錢德勒主張「結構跟隨策略」，但現代管理學者（如哈佛商學院約瑟夫·鮑爾與羅伯特·伯格曼 Bower-Burgelman 模型）指出：在成熟企業中，**既有的組織結構與資源分配流程 (RAP) 往往反過來牢牢綁架了策略制定**。
@@ -70,12 +70,16 @@
 
 ## 四、 經理人反思與行動檢核清單
 
-```
-                               策略與結構動態對齊三步法
-┌─────────────────────────┬─────────────────────────┬─────────────────────────┐
-│     1. 策略新目標審查   │     2. 權力與預算重組   │     3. 考核指標同步變革 │
-│ 新戰略是否仍被塞入舊部門│ 關鍵資源是否轉移至新前鋒│ KPI 是否打破舊有穀倉自私│
-└─────────────────────────┴─────────────────────────┴─────────────────────────┘
+**策略與結構動態對齊三步法**
+
+```mermaid
+flowchart TD
+    classDef c_blue fill:#1e3a5f,stroke:#60a5fa,stroke-width:2px,color:#ffffff;
+    classDef c_green fill:#143823,stroke:#4ade80,stroke-width:2px,color:#ffffff;
+    classDef c_amber fill:#3d2806,stroke:#fbbf24,stroke-width:2px,color:#ffffff;
+    classDef c_purple fill:#3b1d54,stroke:#c084fc,stroke-width:2px,color:#ffffff;
+    classDef c_red fill:#5c1d24,stroke:#f87171,stroke-width:2px,color:#ffffff;
+    N0_0["1. 策略新目標審查   │     2. 權力與預算重組   │     3. 考核指標同步變革<br/>新戰略是否仍被塞入舊部門│ 關鍵資源是否轉移至新前鋒│ KPI 是否打破舊有穀倉自私"]:::c_blue
 ```
 
 ### Executive Decision Checklist
@@ -89,7 +93,7 @@
 
 ## 五、 關聯概念與延伸閱讀
 
-- 組織架構形態：[[organizational-structure_組織結構]] ｜ [[matrix-organization_矩陣型組織]] ｜ [[organization_有機式組織]] ｜ [[organization-3_機械式組織]]
-- 穀倉與整合：[[silo-effect_穀倉效應]] ｜ [[merger-acquisition-integration_併購後整合]] ｜ [[Organizational_Ambidexterity_組織雙巧性]]
-- 策略演進與變革：[[strategic-inflection-point_關鍵轉折]] ｜ [[strategy-9_轉機型策略]] ｜ [[organizational-change_組織變革]]
-- 治理與控制：[[corporate-governance_公司治理]] ｜ [[agency-costs_代理成本]] ｜ [[economies-of-scale_規模經濟]]
+- 組織架構形態：[[98_商業概念庫/organizational-structure_組織結構\|organizational-structure_組織結構]] ｜ [[98_商業概念庫/matrix-organization_矩陣型組織\|matrix-organization_矩陣型組織]] ｜ [[98_商業概念庫/organization_有機式組織\|organization_有機式組織]] ｜ [[98_商業概念庫/organization-3_機械式組織\|organization-3_機械式組織]]
+- 穀倉與整合：[[98_商業概念庫/silo-effect_穀倉效應\|silo-effect_穀倉效應]] ｜ [[98_商業概念庫/merger-acquisition-integration_併購後整合\|merger-acquisition-integration_併購後整合]] ｜ [[98_商業概念庫/Organizational_Ambidexterity_組織雙巧性\|Organizational_Ambidexterity_組織雙巧性]]
+- 策略演進與變革：[[98_商業概念庫/strategic-inflection-point_關鍵轉折\|strategic-inflection-point_關鍵轉折]] ｜ [[98_商業概念庫/strategy-9_轉機型策略\|strategy-9_轉機型策略]] ｜ [[98_商業概念庫/organizational-change_組織變革\|organizational-change_組織變革]]
+- 治理與控制：[[98_商業概念庫/corporate-governance_公司治理\|corporate-governance_公司治理]] ｜ [[98_商業概念庫/agency-costs_代理成本\|agency-costs_代理成本]] ｜ [[98_商業概念庫/economies-of-scale_規模經濟\|economies-of-scale_規模經濟]]

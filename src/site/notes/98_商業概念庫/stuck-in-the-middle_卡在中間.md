@@ -18,21 +18,18 @@
 波特嚴厲警告：
 > **如果一家企業既缺乏建立產業最低成本結構的市場份額與資本投入，又無法塑造出足以收取溢價的獨特品牌或技術差異化，它就陷入了「卡在中間」的致命陷阱。這類企業幾乎注定要承受極低的獲利能力、模糊的企業文化、矛盾的管理系統與長期的戰略平庸。**
 
-```
-                     【競爭範疇 (Strategic Target)】
-                     全產業廣泛目標              狹窄利基市場
-              ┌────────────────────────┬────────────────────────┐
-   低成本優勢 │  成本領導策略          │  集中成本策略          │
-              │  (Cost Leadership)     │  (Cost Focus)          │
-【優勢來源】  ├────────────────────────┼────────────────────────┤
-   差異化溢價 │  差異化策略            │  集中差異化策略        │
-              │  (Differentiation)     │  (Differentiation Focus)│
-              └────────────────────────┴────────────────────────┘
-                                   ▲
-                                   │ [未能成功抉擇上述任一象限]
-                        ┌─────────────────────┐
-                        │   卡在中間 (STUCK)   │ ──> 低 ROIC、價格戰挨打、客戶流失
-                        └─────────────────────┘
+**【競爭範疇 (Strategic Target)】**
+
+```mermaid
+flowchart TD
+    classDef c_blue fill:#1e3a5f,stroke:#60a5fa,stroke-width:2px,color:#ffffff;
+    classDef c_green fill:#143823,stroke:#4ade80,stroke-width:2px,color:#ffffff;
+    classDef c_amber fill:#3d2806,stroke:#fbbf24,stroke-width:2px,color:#ffffff;
+    classDef c_purple fill:#3b1d54,stroke:#c084fc,stroke-width:2px,color:#ffffff;
+    classDef c_red fill:#5c1d24,stroke:#f87171,stroke-width:2px,color:#ffffff;
+    N0_0["成本領導策略          │  集中成本策略<br/>（Cost Leadership）     │  （Cost Focus）<br/>差異化策略            │  集中差異化策略<br/>（Differentiation）     │  （Differentiation Focus）"]:::c_blue
+    N1_0["卡在中間 （STUCK）"]:::c_green
+    N0_0 -->|"[未能成功抉擇上述任一象限]"| N1_0
 ```
 
 ---
@@ -87,12 +84,16 @@
 
 ## 四、 經理人反思與行動檢核清單
 
-```
-                               擺脫「卡在中間」策略校準模型
-┌─────────────────────────┬─────────────────────────┬─────────────────────────┐
-│     1. VPC 價值差距審查 │     2. 戰略取捨殘酷清單 │     3. 戰略定位非黑即白 │
-│ 衡量售價溢價與單位成本差│ 清楚寫下「我們絕不做什麼」│ 決心向左（成本）或向右（差異）│
-└─────────────────────────┴─────────────────────────┴─────────────────────────┘
+**擺脫「卡在中間」策略校準模型**
+
+```mermaid
+flowchart TD
+    classDef c_blue fill:#1e3a5f,stroke:#60a5fa,stroke-width:2px,color:#ffffff;
+    classDef c_green fill:#143823,stroke:#4ade80,stroke-width:2px,color:#ffffff;
+    classDef c_amber fill:#3d2806,stroke:#fbbf24,stroke-width:2px,color:#ffffff;
+    classDef c_purple fill:#3b1d54,stroke:#c084fc,stroke-width:2px,color:#ffffff;
+    classDef c_red fill:#5c1d24,stroke:#f87171,stroke-width:2px,color:#ffffff;
+    N0_0["1. VPC 價值差距審查 │     2. 戰略取捨殘酷清單 │     3. 戰略定位非黑即白<br/>衡量售價溢價與單位成本差│ 清楚寫下「我們絕不做什麼」│ 決心向左（成本）或向右（差異）"]:::c_blue
 ```
 
 ### Executive Decision Checklist
@@ -106,7 +107,7 @@
 
 ## 五、 關聯概念與延伸閱讀
 
-- 核心戰略模型：[[cost-leadership-strategy_成本領導策略]] ｜ [[differentiation-strategy_差異化策略]] ｜ [[focused-strategy_集中化策略]]
-- 價值與定價：[[vpc-value-price-cost_價值價格成本分析]] ｜ [[competitive-advantage_競爭優勢]] ｜ [[pricing-power_溢價能力]]
-- 產業結構分析：[[Porter's Five Forces Analysis_波特五力分析]] ｜ [[scp-framework_結構行為績效模型]] ｜ [[market-concentration_市場集中度]]
-- 策略危機與轉型：[[strategic-inflection-point_關鍵轉折]] ｜ [[strategy-9_轉機型策略]] ｜ [[cannibalization_自我蠶食]]
+- 核心戰略模型：[[98_商業概念庫/cost-leadership-strategy_成本領導策略\|cost-leadership-strategy_成本領導策略]] ｜ [[98_商業概念庫/differentiation-strategy_差異化策略\|differentiation-strategy_差異化策略]] ｜ [[98_商業概念庫/focused-strategy_集中化策略\|focused-strategy_集中化策略]]
+- 價值與定價：[[98_商業概念庫/vpc-value-price-cost_價值價格成本分析\|vpc-value-price-cost_價值價格成本分析]] ｜ [[98_商業概念庫/competitive-advantage_競爭優勢\|competitive-advantage_競爭優勢]] ｜ [[98_商業概念庫/pricing-power_溢價能力\|pricing-power_溢價能力]]
+- 產業結構分析：[[98_商業概念庫/Porter's Five Forces Analysis_波特五力分析\|Porter's Five Forces Analysis_波特五力分析]] ｜ [[98_商業概念庫/scp-framework_結構行為績效模型\|scp-framework_結構行為績效模型]] ｜ [[98_商業概念庫/market-concentration_市場集中度\|market-concentration_市場集中度]]
+- 策略危機與轉型：[[98_商業概念庫/strategic-inflection-point_關鍵轉折\|strategic-inflection-point_關鍵轉折]] ｜ [[98_商業概念庫/strategy-9_轉機型策略\|strategy-9_轉機型策略]] ｜ [[98_商業概念庫/cannibalization_自我蠶食\|cannibalization_自我蠶食]]

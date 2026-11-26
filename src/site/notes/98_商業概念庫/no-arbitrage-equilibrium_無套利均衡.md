@@ -38,7 +38,7 @@
 | **遠期 / 期貨合約<br>(Forward / Futures)** | $$F_0 = S_0 e^{(r - q)T}$$ | 借入資金以現價 $S_0$ 買入標的資產現貨並持有，同時賣出遠期合約鎖定未來交割價 $F_0$（持有成本模型 Cost of Carry）。 | 遠期價格純粹由「現貨價格 + 資金利息成本 - 資產孳息 $q$」決定，與投資人對未來的看漲預期毫無關係。 |
 | **買權賣權平價公式<br>(Put-Call Parity)** | $$C + K e^{-rT} = P + S_0$$ | 買入買權 $C$ + 零息債券面額 $K$（保護性買權組合）的期末收益，在任何狀態下均嚴格等於買入賣權 $P$ + 現貨 $S_0$（保護性賣權組合）。 | 若公式失衡，套利者透過同時「買低賣高」瞬間鎖定無風險利潤，迫使市場價格回歸平價平衡。 |
 
-*符號說明*：$F_0$ 為遠期價格；$S_0$ 為現貨價格；$r$ 為無風險利率；$q$ 為股利率或便利收益；$T$ 為到期年限；$C$ 為[[call-option_買權|買權價格]]；$P$ 為[[put-option_賣權|賣權價格]]；$K$ 為[[price_履約價格|履約價格]]。
+*符號說明*：$F_0$ 為遠期價格；$S_0$ 為現貨價格；$r$ 為無風險利率；$q$ 為股利率或便利收益；$T$ 為到期年限；$C$ 為[[98_商業概念庫/call-option_買權\|買權價格]]；$P$ 為[[98_商業概念庫/put-option_賣權\|賣權價格]]；$K$ 為[[98_商業概念庫/price_履約價格\|履約價格]]。
 
 ### 2. 跨國匯率：無套利之拋補利率平價 (CIP)
 在跨國企業外匯避險中，無套利原則體現為**拋補利率平價 (Covered Interest Parity, CIP)**：
@@ -62,19 +62,23 @@ $$
 ### 2. 2008 年金融海嘯對拋補利率平價 (CIP) 的破壞與回歸
 在 2008 年 9 月雷曼兄弟破產後，全球金融體系爆發歷史罕見的流動性枯竭：
 - **套利機制失靈**：歐洲銀行因被懷疑持有巨額次貸有毒資產，在紐約同業拆借市場無法借入美元。歐洲銀行願意支付極高代價透過外匯掉期借入美元。
-- **CIP 顯著偏離**：美元兌歐元、日圓的外匯掉期基差 (Cross-Currency Basis) 飆升至負數百個基點，無套利平價長達數月無法閉合——因為所有具備套利能力的避險基金與商業銀行均面臨資產負債表額度封鎖與去槓桿壓力（[[arbitrage_套利|套利的局限性]]）。
+- **CIP 顯著偏離**：美元兌歐元、日圓的外匯掉期基差 (Cross-Currency Basis) 飆升至負數百個基點，無套利平價長達數月無法閉合——因為所有具備套利能力的避險基金與商業銀行均面臨資產負債表額度封鎖與去槓桿壓力（[[98_商業概念庫/arbitrage_套利\|套利的局限性]]）。
 - **修復機制**：直至美國聯準會 (Fed) 啟動全球央行流動性互換協議 (Central Bank Liquidity Swaps)，向歐洲與日本央行無限量注入美元流動性，資本市場才重新修復回歸無套利均衡。
 
 ---
 
 ## 四、 經理人反思與行動檢核清單
 
-```
-                               無套利定價與避險決策檢核
-┌─────────────────────────┬─────────────────────────┬─────────────────────────┐
-│     1. 排除方向性投機   │     2. 複製組合成本精算 │     3. 檢驗交易摩擦門檻 │
-│ 避險合約定價不依賴主觀預測│ 比較自行複製與銀行報價差│ 扣除滑價與保證金後利潤  │
-└─────────────────────────┴─────────────────────────┴─────────────────────────┘
+**無套利定價與避險決策檢核**
+
+```mermaid
+flowchart TD
+    classDef c_blue fill:#1e3a5f,stroke:#60a5fa,stroke-width:2px,color:#ffffff;
+    classDef c_green fill:#143823,stroke:#4ade80,stroke-width:2px,color:#ffffff;
+    classDef c_amber fill:#3d2806,stroke:#fbbf24,stroke-width:2px,color:#ffffff;
+    classDef c_purple fill:#3b1d54,stroke:#c084fc,stroke-width:2px,color:#ffffff;
+    classDef c_red fill:#5c1d24,stroke:#f87171,stroke-width:2px,color:#ffffff;
+    N0_0["1. 排除方向性投機   │     2. 複製組合成本精算 │     3. 檢驗交易摩擦門檻<br/>避險合約定價不依賴主觀預測│ 比較自行複製與銀行報價差│ 扣除滑價與保證金後利潤"]:::c_blue
 ```
 
 ### Executive Decision Checklist
@@ -88,7 +92,7 @@ $$
 
 ## 五、 關聯概念與延伸閱讀
 
-- 理論基石：[[arbitrage_套利]] ｜ [[wan-mei-capital-market_完美資本市場]] ｜ [[modigliani-miller-theorem_莫迪利安尼米勒定理]]
-- 衍生工具定價：[[financial-derivatives_衍生性金融商品]] ｜ [[price_履約價格]] ｜ [[options_選擇權]] ｜ [[call-option_買權]] ｜ [[put-option_賣權]]
-- 交易與保證金：[[margin-system_保證金制度]] ｜ [[settlement_每日結算制度]] ｜ [[contract-2_期貨合約]]
-- 避險實務應用：[[interest-rate-swap_利率交換]] ｜ [[currency-swap_貨幣交換]] ｜ [[strategy-2_避險策略]]
+- 理論基石：[[98_商業概念庫/arbitrage_套利\|arbitrage_套利]] ｜ [[98_商業概念庫/wan-mei-capital-market_完美資本市場\|wan-mei-capital-market_完美資本市場]] ｜ [[98_商業概念庫/modigliani-miller-theorem_莫迪利安尼米勒定理\|modigliani-miller-theorem_莫迪利安尼米勒定理]]
+- 衍生工具定價：[[98_商業概念庫/financial-derivatives_衍生性金融商品\|financial-derivatives_衍生性金融商品]] ｜ [[98_商業概念庫/price_履約價格\|price_履約價格]] ｜ [[98_商業概念庫/options_選擇權\|options_選擇權]] ｜ [[98_商業概念庫/call-option_買權\|call-option_買權]] ｜ [[98_商業概念庫/put-option_賣權\|put-option_賣權]]
+- 交易與保證金：[[98_商業概念庫/margin-system_保證金制度\|margin-system_保證金制度]] ｜ [[98_商業概念庫/settlement_每日結算制度\|settlement_每日結算制度]] ｜ [[98_商業概念庫/contract-2_期貨合約\|contract-2_期貨合約]]
+- 避險實務應用：[[98_商業概念庫/interest-rate-swap_利率交換\|interest-rate-swap_利率交換]] ｜ [[98_商業概念庫/currency-swap_貨幣交換\|currency-swap_貨幣交換]] ｜ [[98_商業概念庫/strategy-2_避險策略\|strategy-2_避險策略]]

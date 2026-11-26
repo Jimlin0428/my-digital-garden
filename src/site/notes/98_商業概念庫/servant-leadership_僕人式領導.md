@@ -12,22 +12,24 @@
 
 ## 1. 傳統金字塔 vs. 倒金字塔組織架構 (Inverted Pyramid)
 
-```
-       【傳統權威金字塔】                              【僕人式領導倒金字塔】
-               ▲                                       ┌─────────────────────────┐
-              / \  高階主管 (發號施令)                 │ 終端客戶與第一線服務同仁│ (最高優先)
-             /   \                                     └────────────┬────────────┘
-            /     \ 中階幹部 (監督傳達)                             │ (賦能與支援)
-           /       \                                                ▼
-          /─────────\                                  ┌─────────────────────────┐
-         / 第一線員工 \ (服侍上級)                      │     中高階主管與 CEO    │ (作為僕人後盾)
-        ───────────────                                └─────────────────────────┘
+**【傳統權威金字塔】                              【僕人式領導倒金字塔】**
+
+```mermaid
+flowchart TD
+    classDef c_blue fill:#1e3a5f,stroke:#60a5fa,stroke-width:2px,color:#ffffff;
+    classDef c_green fill:#143823,stroke:#4ade80,stroke-width:2px,color:#ffffff;
+    classDef c_amber fill:#3d2806,stroke:#fbbf24,stroke-width:2px,color:#ffffff;
+    classDef c_purple fill:#3b1d54,stroke:#c084fc,stroke-width:2px,color:#ffffff;
+    classDef c_red fill:#5c1d24,stroke:#f87171,stroke-width:2px,color:#ffffff;
+    N0_0["終端客戶與第一線服務同仁"]:::c_blue
+    N1_0["中高階主管與 CEO"]:::c_green
+    N0_0 -->|"/     \ 中階幹部 （監督傳達）                              （賦能與支援） /       \"| N1_0
 ```
 
 ---
 
 ## 2. 關聯概念與延伸閱讀 (Cross References)
 
-- [[authentic-leadership_真誠領導]]：以利他為導向的道德領導體系。
-- [[transformational-leadership_轉換型領導]]：個別化關懷與僕人式賦能之契合。
-- [[home]]：PMBA 知識庫首頁與模組導航。
+- [[98_商業概念庫/authentic-leadership_真誠領導\|authentic-leadership_真誠領導]]：以利他為導向的道德領導體系。
+- [[98_商業概念庫/transformational-leadership_轉換型領導\|transformational-leadership_轉換型領導]]：個別化關懷與僕人式賦能之契合。
+- [[home\|home]]：PMBA 知識庫首頁與模組導航。

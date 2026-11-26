@@ -38,25 +38,16 @@ $$	ext{轉移激勵值 (Switching Incentive)} = \Big( 	ext{知覺價值}_{	ext{N
 
 $$\Delta 	ext{淨顧客剩餘} = \Big( V_{	ext{New}} - P_{	ext{New}} \Big) - \Big( V_{	ext{Old}} - P_{	ext{Old}} \Big) > 	ext{Switching Cost (SC)}$$
 
-```
-【客戶轉換障礙與溢價定價空間】
+**【客戶轉換障礙與溢價定價空間】**
 
-  客戶知覺價值
-     ▲
-     │
-     │   新進者產品性能雖然略優 (+ΔV)
-     │   或價格略為便宜 (-ΔP)
-     │
-     │   ┌─────────────────────────────────────┐
-     │   │                                     │
-     │   │   【轉換成本護城河 (Switching Cost)】│ ◄── 客戶寧可繼續忍受舊系統
-     │   │   • 員工重新培訓學習成本            │     也不願冒險承擔轉移代價
-     │   │   • 歷史資料遷移中斷風險            │
-     │   │   • 軟硬體重新購置沉沒成本          │
-     │   │                                     │
-     │   └─────────────────────────────────────┘
-     │
-  0  └─────────────────────────────────────────────────────────────►
+```mermaid
+flowchart TD
+    classDef c_blue fill:#1e3a5f,stroke:#60a5fa,stroke-width:2px,color:#ffffff;
+    classDef c_green fill:#143823,stroke:#4ade80,stroke-width:2px,color:#ffffff;
+    classDef c_amber fill:#3d2806,stroke:#fbbf24,stroke-width:2px,color:#ffffff;
+    classDef c_purple fill:#3b1d54,stroke:#c084fc,stroke-width:2px,color:#ffffff;
+    classDef c_red fill:#5c1d24,stroke:#f87171,stroke-width:2px,color:#ffffff;
+    N0_0["│<br/>│   【轉換成本護城河 （Switching Cost）】<br/>│   • 員工重新培訓學習成本<br/>│   • 歷史資料遷移中斷風險<br/>│   • 軟硬體重新購置沉沒成本<br/>│"]:::c_blue
 ```
 
 - **定價特權的來源**：在位企業即使將產品價格 $P_{	ext{Old}}$ 調高，只要調價幅度小於客戶的 $	ext{Switching Cost}$，客戶依然會被「經濟理性鎖定」，這賦予了在位者極度珍貴的定價自由度。
@@ -170,19 +161,19 @@ flowchart TD
 ## 六、 知識圖譜關聯與雙向鏈結 (Bidirectional Knowledge Links)
 
 ### 6.1 核心系列套裝導航（策略護城河三部曲）
-- **[[barriers-to-entry_進入障礙]]** · 潛在進入者防線、結構性與行為性進入壁壘
-- **[[switching-costs_轉換成本]]** · 顧客鎖定效應、六大轉換成本維度與定價溢價權（本篇）
-- **[[economies-of-scale_規模經濟]]** · 供給端規模效益、最小有效規模 (MES) 與固定成本分攤
+- **[[98_商業概念庫/barriers-to-entry_進入障礙\|barriers-to-entry_進入障礙]]** · 潛在進入者防線、結構性與行為性進入壁壘
+- **[[98_商業概念庫/switching-costs_轉換成本\|switching-costs_轉換成本]]** · 顧客鎖定效應、六大轉換成本維度與定價溢價權（本篇）
+- **[[98_商業概念庫/economies-of-scale_規模經濟\|economies-of-scale_規模經濟]]** · 供給端規模效益、最小有效規模 (MES) 與固定成本分攤
 
 ### 6.2 核心策略理論對接
-- [[Porter's Five Forces Analysis_波特五力分析]] · 轉換成本如何同時削弱買方議價力與提高進入障礙
-- [[Firm_Value_Chain_企業價值鏈]] · 輔助活動與服務如何為買方構築獨特相容性壁壘
-- [[value-system_產業價值體系|Value_System_產業價值體系]] · 產業垂直分工網絡、五大連結條件與上下游合作鎖定
-- [[Porter's Diamond Model_波特鑽石模型]] · 挑剔顧客前導需求與本土產業生態黏著力
-- [[value-chokepoint_價值咽喉]] · 轉換成本極致化所鑄造的產業定價咽喉
-- [[clv-customer-lifetime-value_顧客終身價值]] · 轉換成本降低流失率 (Churn) 並極大化 CLV
+- [[98_商業概念庫/Porter's Five Forces Analysis_波特五力分析\|Porter's Five Forces Analysis_波特五力分析]] · 轉換成本如何同時削弱買方議價力與提高進入障礙
+- [[98_商業概念庫/Firm_Value_Chain_企業價值鏈\|Firm_Value_Chain_企業價值鏈]] · 輔助活動與服務如何為買方構築獨特相容性壁壘
+- [[98_商業概念庫/value-system_產業價值體系\|Value_System_產業價值體系]] · 產業垂直分工網絡、五大連結條件與上下游合作鎖定
+- [[98_商業概念庫/Porter's Diamond Model_波特鑽石模型\|Porter's Diamond Model_波特鑽石模型]] · 挑剔顧客前導需求與本土產業生態黏著力
+- [[98_商業概念庫/value-chokepoint_價值咽喉\|value-chokepoint_價值咽喉]] · 轉換成本極致化所鑄造的產業定價咽喉
+- [[98_商業概念庫/clv-customer-lifetime-value_顧客終身價值\|clv-customer-lifetime-value_顧客終身價值]] · 轉換成本降低流失率 (Churn) 並極大化 CLV
 
 ### 6.3 課程筆記與主控台
-- [[M1-5_波特五力分析與量化架構]] · 買方轉換成本對五力雷達圖之量化打分
-- [[_產業分析與投資策略 MOC]] · 全課導航總地圖
-- [[home]] · 全球 PMBA 知識庫總導航主頁面
+- [[04_主題選修/12_產業分析與投資策略/99_歷史舊版備份/M1-5_波特五力分析與量化架構\|M1-5_波特五力分析與量化架構]] · 買方轉換成本對五力雷達圖之量化打分
+- [[04_主題選修/12_產業分析與投資策略/99_歷史舊版備份/_產業分析與投資策略 MOC\|_產業分析與投資策略 MOC]] · 全課導航總地圖
+- [[home\|home]] · 全球 PMBA 知識庫總導航主頁面

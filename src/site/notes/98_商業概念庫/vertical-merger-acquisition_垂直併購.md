@@ -15,20 +15,20 @@
 ### 1.1 核心定義
 在公司理財與戰略管理中，垂直併購被定義為：**買方透過外部資本手段，將處於自身產品生命週期或生產工序緊密相連之供應端或銷售端的企業產權完全吸收，進而實現跨價值鏈階段的縱向一體化**。
 
-```
-                    ┌─────────────────────────────────────────────────────────┐
-                    │               垂直併購的兩大方向架構                    │
-                    └────────────────────────────┬────────────────────────────┘
-                                                 ▼
-        ┌───────────────────┐        ┌───────────────────┐        ┌───────────────────┐
-        │  上游：供應商端   │ ◀───── │   核心併購方企業  │ ─────▶ │   下游：通路客戶端 │
-        └───────────────────┘        └───────────────────┘        └───────────────────┘
-                  ▲                                                         ▲
-                  │                                                         │
-       【後向垂直併購 (Upstream)】                               【前向垂直併購 (Downstream)】
-       • 買下關鍵晶片設計/材料廠                                 • 買下全球連鎖零售門市
-       • 目標：鎖定供應, 保障技術機密                            • 目標：掌控定價, 獲取顧客數據
-       • 案例：微軟收購遊戲開發工作室 (動視暴雪)                 • 案例：亞馬遜收購全食超市 (Whole Foods)
+```mermaid
+flowchart TD
+    classDef c_blue fill:#1e3a5f,stroke:#60a5fa,stroke-width:2px,color:#ffffff;
+    classDef c_green fill:#143823,stroke:#4ade80,stroke-width:2px,color:#ffffff;
+    classDef c_amber fill:#3d2806,stroke:#fbbf24,stroke-width:2px,color:#ffffff;
+    classDef c_purple fill:#3b1d54,stroke:#c084fc,stroke-width:2px,color:#ffffff;
+    classDef c_red fill:#5c1d24,stroke:#f87171,stroke-width:2px,color:#ffffff;
+    N0_0["垂直併購的兩大方向架構"]:::c_blue
+    N1_0["上游：供應商端"]:::c_green
+    N1_1["核心併購方企業"]:::c_amber
+    N1_2["下游：通路客戶端"]:::c_purple
+    N0_0 --> N1_0
+    N0_0 --> N1_1
+    N0_0 --> N1_2
 ```
 
 ---
@@ -84,10 +84,10 @@ graph TD
 
 ## 5. 關聯概念與延伸閱讀 (Cross References)
 
-- [[backward-integration_後向整合]]：向價值鏈上游整合的策略理論基礎。
-- [[forward-integration_前向整合]]：向價值鏈下游通路整合的策略理論基礎。
-- [[horizontal-merger-acquisition_水平併購]]：同產業橫向併購的特徵與反壟斷審查。
-- [[merger-acquisition_併購綜效]]：併購創造營運與財務綜效的量化評價模型。
-- [[merger-acquisition-integration_併購後整合]]：垂直併購後的組織協同與文化融合。
-- [[TCE_Transaction_Cost_Economics_交易成本理論]]：決定是否採用產權併購的資產專屬性分析。
-- [[home]]：PMBA 知識庫首頁與模組導航。
+- [[98_商業概念庫/backward-integration_後向整合\|backward-integration_後向整合]]：向價值鏈上游整合的策略理論基礎。
+- [[98_商業概念庫/forward-integration_前向整合\|forward-integration_前向整合]]：向價值鏈下游通路整合的策略理論基礎。
+- [[98_商業概念庫/horizontal-merger-acquisition_水平併購\|horizontal-merger-acquisition_水平併購]]：同產業橫向併購的特徵與反壟斷審查。
+- [[98_商業概念庫/merger-acquisition_併購綜效\|merger-acquisition_併購綜效]]：併購創造營運與財務綜效的量化評價模型。
+- [[98_商業概念庫/merger-acquisition-integration_併購後整合\|merger-acquisition-integration_併購後整合]]：垂直併購後的組織協同與文化融合。
+- [[98_商業概念庫/TCE_Transaction_Cost_Economics_交易成本理論\|TCE_Transaction_Cost_Economics_交易成本理論]]：決定是否採用產權併購的資產專屬性分析。
+- [[home\|home]]：PMBA 知識庫首頁與模組導航。

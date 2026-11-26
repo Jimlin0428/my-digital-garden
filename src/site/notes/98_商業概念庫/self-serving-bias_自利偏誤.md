@@ -42,7 +42,7 @@ $$
 
 ### 2. 自利偏誤 vs. 基本歸因謬誤的鏡像交織
 
-自利偏誤與[[fundamental-attribution-error_基本歸因謬誤|基本歸因謬誤 (FAE)]]在組織內部互相激化，形成惡性的管理溝通死結：
+自利偏誤與[[98_商業概念庫/fundamental-attribution-error_基本歸因謬誤\|基本歸因謬誤 (FAE)]]在組織內部互相激化，形成惡性的管理溝通死結：
 
 | 評估情境 | 當事人（經理人自身）的歸因（自利偏誤） | 旁觀者（董事會或部屬）的歸因（基本歸因謬誤） | 組織衝突爆發點 |
 | :--- | :--- | :--- | :--- |
@@ -57,7 +57,7 @@ $$
 ### 1. 安隆 (Enron) 倒閉前夕高管的病態自利歸因
 在 2001 年安隆破產前夕，執行長傑弗瑞·史金林 (Jeffrey Skilling) 與董事會展現了商學院歷史上最惡劣的自利偏誤：
 - **牛市中的自我神話**：在天然氣期貨與衍生品繁榮期，安隆高管宣稱自己是「全美最具創新力的企業」，將市值飆漲完全歸功於其「輕資產戰略」與個人的超凡智商。
-- **熊市中的推諉與謾罵**：當寬頻網路泡沫破裂、表外實體 (SPE) 負債即將爆發時，史金林在分析師電話會議上公開辱罵質疑其現金流的華爾街分析師，並將公司股價重挫歸咎於「空頭機構的惡意做空與記者的惡意中傷」，拒不承認其採用[[accounting-profit-cash-flow-differentiation_會計利潤與現金流差異|激進市值計價會計 (Mark-to-Market)]]虛增利潤的犯罪本質。
+- **熊市中的推諉與謾罵**：當寬頻網路泡沫破裂、表外實體 (SPE) 負債即將爆發時，史金林在分析師電話會議上公開辱罵質疑其現金流的華爾街分析師，並將公司股價重挫歸咎於「空頭機構的惡意做空與記者的惡意中傷」，拒不承認其採用[[98_商業概念庫/accounting-profit-cash-flow-differentiation_會計利潤與現金流差異\|激進市值計價會計 (Mark-to-Market)]]虛增利潤的犯罪本質。
 - **結果**：病態的自利偏誤切斷了組織自我修復的神經系統，最終導致這家當時全美第七大企業瞬間瓦解。
 
 ### 2. Meta (Facebook) 2022 年「效率之年」的歸因重構
@@ -70,12 +70,16 @@ $$
 
 ## 四、 經理人反思與行動檢核清單
 
-```
-                               對抗自利偏誤的公司治理防線
-┌─────────────────────────┬─────────────────────────┬─────────────────────────┐
-│     1. 績效對標相對指標 │     2. 建立失敗坦白文化 │     3. 薪酬追討扣回機制 │
-│ 扣除大盤與同業順風紅利  │ 高管公開覆盤並承擔責任  │ 對虛飾獲利設追回機制    │
-└─────────────────────────┴─────────────────────────┴─────────────────────────┘
+**對抗自利偏誤的公司治理防線**
+
+```mermaid
+flowchart TD
+    classDef c_blue fill:#1e3a5f,stroke:#60a5fa,stroke-width:2px,color:#ffffff;
+    classDef c_green fill:#143823,stroke:#4ade80,stroke-width:2px,color:#ffffff;
+    classDef c_amber fill:#3d2806,stroke:#fbbf24,stroke-width:2px,color:#ffffff;
+    classDef c_purple fill:#3b1d54,stroke:#c084fc,stroke-width:2px,color:#ffffff;
+    classDef c_red fill:#5c1d24,stroke:#f87171,stroke-width:2px,color:#ffffff;
+    N0_0["1. 績效對標相對指標 │     2. 建立失敗坦白文化 │     3. 薪酬追討扣回機制<br/>扣除大盤與同業順風紅利  │ 高管公開覆盤並承擔責任  │ 對虛飾獲利設追回機制"]:::c_blue
 ```
 
 ### Executive Decision Checklist
@@ -89,7 +93,7 @@ $$
 
 ## 五、 關聯概念與延伸閱讀
 
-- 理論基石：[[fundamental-attribution-error_基本歸因謬誤]] ｜ [[cognitive-bias_認知偏誤]]
-- 決策防禦：[[confirmation-bias_確認偏誤]] ｜ [[bounded-rationality_有限理性]] ｜ [[organization-review-mechanism_組織覆盤機制]]
-- 公司治理與激勵：[[corporate-governance_公司治理]] ｜ [[agency-problem_代理人問題]] ｜ [[agency-costs_代理成本]]
-- 實務個案參照：[[Agency_Theory_Corporate_Governance_代理理論與公司治理]] ｜ [[Carter_Racing_NASA_Challenger_卡特賽車與挑戰者號決策個案]]
+- 理論基石：[[98_商業概念庫/fundamental-attribution-error_基本歸因謬誤\|fundamental-attribution-error_基本歸因謬誤]] ｜ [[98_商業概念庫/cognitive-bias_認知偏誤\|cognitive-bias_認知偏誤]]
+- 決策防禦：[[98_商業概念庫/confirmation-bias_確認偏誤\|confirmation-bias_確認偏誤]] ｜ [[98_商業概念庫/bounded-rationality_有限理性\|bounded-rationality_有限理性]] ｜ [[98_商業概念庫/organization-review-mechanism_組織覆盤機制\|organization-review-mechanism_組織覆盤機制]]
+- 公司治理與激勵：[[98_商業概念庫/corporate-governance_公司治理\|corporate-governance_公司治理]] ｜ [[98_商業概念庫/agency-problem_代理人問題\|agency-problem_代理人問題]] ｜ [[98_商業概念庫/agency-costs_代理成本\|agency-costs_代理成本]]
+- 實務個案參照：[[98_商業概念庫/Agency_Theory_Corporate_Governance_代理理論與公司治理\|Agency_Theory_Corporate_Governance_代理理論與公司治理]] ｜ [[98_商業概念庫/Carter_Racing_NASA_Challenger_卡特賽車與挑戰者號決策個案\|Carter_Racing_NASA_Challenger_卡特賽車與挑戰者號決策個案]]

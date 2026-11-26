@@ -69,12 +69,16 @@
 
 ## 四、 經理人反思與行動檢核清單
 
-```
-                               監控衡量體系防禦四原則
-┌─────────────────────────┬─────────────────────────┬─────────────────────────┐
-│     1. 領先與落後配對   │     2. 對抗指標博弈     │     3. 單一事實來源     │
-│ 每個落後指標必有領先支撐│ 結合質化抽查與未預告抽檢│ 消除私有報表，數據透明打通│
-└─────────────────────────┴─────────────────────────┴─────────────────────────┘
+**監控衡量體系防禦四原則**
+
+```mermaid
+flowchart TD
+    classDef c_blue fill:#1e3a5f,stroke:#60a5fa,stroke-width:2px,color:#ffffff;
+    classDef c_green fill:#143823,stroke:#4ade80,stroke-width:2px,color:#ffffff;
+    classDef c_amber fill:#3d2806,stroke:#fbbf24,stroke-width:2px,color:#ffffff;
+    classDef c_purple fill:#3b1d54,stroke:#c084fc,stroke-width:2px,color:#ffffff;
+    classDef c_red fill:#5c1d24,stroke:#f87171,stroke-width:2px,color:#ffffff;
+    N0_0["1. 領先與落後配對   │     2. 對抗指標博弈     │     3. 單一事實來源<br/>每個落後指標必有領先支撐│ 結合質化抽查與未預告抽檢│ 消除私有報表，數據透明打通"]:::c_blue
 ```
 
 ### Executive Decision Checklist
@@ -88,7 +92,7 @@
 
 ## 五、 關聯概念與延伸閱讀
 
-- 績效工具體系：[[key-performance-indicator-kpi_關鍵績效指標]] ｜ [[balanced-scorecard-bsc_平衡計分卡]] ｜ [[control-process_控制流程]]
-- 預算與控制循環：[[budget-control_預算控制]] ｜ [[management-6_管理修正行動]] ｜ [[internal-control-2_內部控制]]
-- 治理與道德防禦：[[internal-control_內部人控制]] ｜ [[corporate-governance_公司治理]] ｜ [[control-cost_控制成本與效益]]
-- 決策與系統思維：[[system_系統思考]] ｜ [[rational-decision-model_理性決策模型]] ｜ [[decision-analysis_決策直覺與分析]]
+- 績效工具體系：[[98_商業概念庫/key-performance-indicator-kpi_關鍵績效指標\|key-performance-indicator-kpi_關鍵績效指標]] ｜ [[98_商業概念庫/balanced-scorecard-bsc_平衡計分卡\|balanced-scorecard-bsc_平衡計分卡]] ｜ [[98_商業概念庫/control-process_控制流程\|control-process_控制流程]]
+- 預算與控制循環：[[98_商業概念庫/budget-control_預算控制\|budget-control_預算控制]] ｜ [[98_商業概念庫/management-6_管理修正行動\|management-6_管理修正行動]] ｜ [[98_商業概念庫/internal-control-2_內部控制\|internal-control-2_內部控制]]
+- 治理與道德防禦：[[98_商業概念庫/internal-control_內部人控制\|internal-control_內部人控制]] ｜ [[98_商業概念庫/corporate-governance_公司治理\|corporate-governance_公司治理]] ｜ [[98_商業概念庫/control-cost_控制成本與效益\|control-cost_控制成本與效益]]
+- 決策與系統思維：[[98_商業概念庫/system_系統思考\|system_系統思考]] ｜ [[98_商業概念庫/rational-decision-model_理性決策模型\|rational-decision-model_理性決策模型]] ｜ [[98_商業概念庫/decision-analysis_決策直覺與分析\|decision-analysis_決策直覺與分析]]

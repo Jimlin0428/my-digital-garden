@@ -68,12 +68,16 @@ $$
 
 ## 四、 經理人反思與行動檢核清單
 
-```
-                               游擊戰略可行性自檢矩陣
-┌─────────────────────────┬─────────────────────────┬─────────────────────────┐
-│     1. 戰場是否足夠狹小 │     2. 巨頭是否反擊遲鈍 │     3. 退場通道是否暢通 │
-│ 確保局部陣地能建立壟斷  │ 巨頭反擊成本是否高於收益│ 隨時能以極低代價調頭轉進│
-└─────────────────────────┴─────────────────────────┴─────────────────────────┘
+**游擊戰略可行性自檢矩陣**
+
+```mermaid
+flowchart TD
+    classDef c_blue fill:#1e3a5f,stroke:#60a5fa,stroke-width:2px,color:#ffffff;
+    classDef c_green fill:#143823,stroke:#4ade80,stroke-width:2px,color:#ffffff;
+    classDef c_amber fill:#3d2806,stroke:#fbbf24,stroke-width:2px,color:#ffffff;
+    classDef c_purple fill:#3b1d54,stroke:#c084fc,stroke-width:2px,color:#ffffff;
+    classDef c_red fill:#5c1d24,stroke:#f87171,stroke-width:2px,color:#ffffff;
+    N0_0["1. 戰場是否足夠狹小 │     2. 巨頭是否反擊遲鈍 │     3. 退場通道是否暢通<br/>確保局部陣地能建立壟斷  │ 巨頭反擊成本是否高於收益│ 隨時能以極低代價調頭轉進"]:::c_blue
 ```
 
 ### Executive Decision Checklist
@@ -87,7 +91,7 @@ $$
 
 ## 五、 關聯概念與延伸閱讀
 
-- 角色定位：[[market-niche_市場利基者]] ｜ [[market_市場挑戰者]] ｜ [[market-leadership-zhe_市場領導者]]
-- 攻防戰術：[[frontal-attack_正面進攻]] ｜ [[flank-defense_側翼防禦]] ｜ [[pioneering_開創]]
-- 策略矩陣：[[focused-strategy_集中化策略]] ｜ [[differentiation-strategy_差異化策略]] ｜ [[cost-leadership-strategy_成本領導策略]]
-- 創新模式：[[Performance_Oversupply_性能過剩與破壞性創新]] ｜ [[MVP最小可行產品]] ｜ [[validated-learning_驗證式學習]]
+- 角色定位：[[98_商業概念庫/market-niche_市場利基者\|market-niche_市場利基者]] ｜ [[98_商業概念庫/market_市場挑戰者\|market_市場挑戰者]] ｜ [[98_商業概念庫/market-leadership-zhe_市場領導者\|market-leadership-zhe_市場領導者]]
+- 攻防戰術：[[98_商業概念庫/frontal-attack_正面進攻\|frontal-attack_正面進攻]] ｜ [[98_商業概念庫/flank-defense_側翼防禦\|flank-defense_側翼防禦]] ｜ [[98_商業概念庫/pioneering_開創\|pioneering_開創]]
+- 策略矩陣：[[98_商業概念庫/focused-strategy_集中化策略\|focused-strategy_集中化策略]] ｜ [[98_商業概念庫/differentiation-strategy_差異化策略\|differentiation-strategy_差異化策略]] ｜ [[98_商業概念庫/cost-leadership-strategy_成本領導策略\|cost-leadership-strategy_成本領導策略]]
+- 創新模式：[[98_商業概念庫/Performance_Oversupply_性能過剩與破壞性創新\|Performance_Oversupply_性能過剩與破壞性創新]] ｜ [[98_商業概念庫/MVP最小可行產品\|MVP最小可行產品]] ｜ [[98_商業概念庫/validated-learning_驗證式學習\|validated-learning_驗證式學習]]

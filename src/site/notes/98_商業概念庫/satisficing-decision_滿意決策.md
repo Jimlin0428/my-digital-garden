@@ -71,7 +71,7 @@ $$
 - **不可能的最佳化**：VC 絕不可能將全美數千家種子期新創進行全面的財務建模與橫向拉榜排序。
 - **滿意化過濾門檻**：設定 3 項硬性抱負水準（Aspiration Levels）：
   1. 創辦團隊背景是否具備 10x 技術或產業經驗？
-  2. 總體潛在市場 ([[TAM]]) 是否大於 10 億美元？
+  2. 總體潛在市場 ([[98_商業概念庫/TAM\|TAM]]) 是否大於 10 億美元？
   3. 產品是否有驗證過的初期牽引力 (Traction) 或高用戶留存？
 - **實務運作**：只要新創項目跨過這三個指標，即刻推入合夥人會議深入盡職調查；未達標者在 3 分鐘內予以淘汰。這正是滿意決策在資本配置上的經典應用。
 
@@ -85,12 +85,16 @@ $$
 
 ## 四、 經理人反思與行動檢核清單
 
-```
-                               滿意決策動態平衡模型
-┌─────────────────────────┬─────────────────────────┬─────────────────────────┐
-│     1. 門檻標準清晰化   │     2. 動態抱負調整     │     3. 防平庸防線建立   │
-│ 拒絕模糊直覺，明文化指標│ 根據環境反饋及時升降門檻│ 區分核心戰略與日常營運  │
-└─────────────────────────┴─────────────────────────┴─────────────────────────┘
+**滿意決策動態平衡模型**
+
+```mermaid
+flowchart TD
+    classDef c_blue fill:#1e3a5f,stroke:#60a5fa,stroke-width:2px,color:#ffffff;
+    classDef c_green fill:#143823,stroke:#4ade80,stroke-width:2px,color:#ffffff;
+    classDef c_amber fill:#3d2806,stroke:#fbbf24,stroke-width:2px,color:#ffffff;
+    classDef c_purple fill:#3b1d54,stroke:#c084fc,stroke-width:2px,color:#ffffff;
+    classDef c_red fill:#5c1d24,stroke:#f87171,stroke-width:2px,color:#ffffff;
+    N0_0["1. 門檻標準清晰化   │     2. 動態抱負調整     │     3. 防平庸防線建立<br/>拒絕模糊直覺，明文化指標│ 根據環境反饋及時升降門檻│ 區分核心戰略與日常營運"]:::c_blue
 ```
 
 ### Executive Decision Checklist
@@ -104,7 +108,7 @@ $$
 
 ## 五、 關聯概念與延伸閱讀
 
-- 核心上游：[[bounded-rationality_有限理性]] ｜ [[rational-decision-model_理性決策模型]]
-- 決策心理學：[[cognitive-bias_認知偏誤]] ｜ [[anchoring-effect_錨定效應]] ｜ [[intuitive-decision-making_直覺決策]]
-- 實務策略應用：[[opportunity-cost_機會成本]] ｜ [[decision-competence_模糊決策能力]] ｜ [[tolerance-for-ambiguity_模糊容忍度]]
-- 組織流程優化：[[key-performance-indicator-kpi_關鍵績效指標]] ｜ [[learning-organization_學習型組織]]
+- 核心上游：[[98_商業概念庫/bounded-rationality_有限理性\|bounded-rationality_有限理性]] ｜ [[98_商業概念庫/rational-decision-model_理性決策模型\|rational-decision-model_理性決策模型]]
+- 決策心理學：[[98_商業概念庫/cognitive-bias_認知偏誤\|cognitive-bias_認知偏誤]] ｜ [[98_商業概念庫/anchoring-effect_錨定效應\|anchoring-effect_錨定效應]] ｜ [[98_商業概念庫/intuitive-decision-making_直覺決策\|intuitive-decision-making_直覺決策]]
+- 實務策略應用：[[98_商業概念庫/opportunity-cost_機會成本\|opportunity-cost_機會成本]] ｜ [[98_商業概念庫/decision-competence_模糊決策能力\|decision-competence_模糊決策能力]] ｜ [[98_商業概念庫/tolerance-for-ambiguity_模糊容忍度\|tolerance-for-ambiguity_模糊容忍度]]
+- 組織流程優化：[[98_商業概念庫/key-performance-indicator-kpi_關鍵績效指標\|key-performance-indicator-kpi_關鍵績效指標]] ｜ [[98_商業概念庫/learning-organization_學習型組織\|learning-organization_學習型組織]]

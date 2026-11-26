@@ -70,12 +70,16 @@ $$
 
 ## 四、 經理人反思與行動檢核清單
 
-```
-                               策略避險架構診斷四步法
-┌─────────────────────────┬─────────────────────────┬─────────────────────────┐
-│     1. 單點故障排查     │     2. 地緣政治雙重樞紐 │     3. 實質選擇權佈局   │
-│ 繪製供應鏈深度穿透地圖  │ 擺脫對單一國家產能過度依賴│ 採用模組化產線與彈性轉產│
-└─────────────────────────┴─────────────────────────┴─────────────────────────┘
+**策略避險架構診斷四步法**
+
+```mermaid
+flowchart TD
+    classDef c_blue fill:#1e3a5f,stroke:#60a5fa,stroke-width:2px,color:#ffffff;
+    classDef c_green fill:#143823,stroke:#4ade80,stroke-width:2px,color:#ffffff;
+    classDef c_amber fill:#3d2806,stroke:#fbbf24,stroke-width:2px,color:#ffffff;
+    classDef c_purple fill:#3b1d54,stroke:#c084fc,stroke-width:2px,color:#ffffff;
+    classDef c_red fill:#5c1d24,stroke:#f87171,stroke-width:2px,color:#ffffff;
+    N0_0["1. 單點故障排查     │     2. 地緣政治雙重樞紐 │     3. 實質選擇權佈局<br/>繪製供應鏈深度穿透地圖  │ 擺脫對單一國家產能過度依賴│ 採用模組化產線與彈性轉產"]:::c_blue
 ```
 
 ### Executive Decision Checklist
@@ -89,7 +93,7 @@ $$
 
 ## 五、 關聯概念與延伸閱讀
 
-- 風險與決策：[[investment-risk_投資風險]] ｜ [[decision-competence_模糊決策能力]] ｜ [[scenario-planning_情境規劃]]
-- 供應鏈韌性：[[sustainable-supply-chain_永續供應鏈]] ｜ [[operating-management_生產與營運管理]] ｜ [[stocks-and-flows_存量與流量]]
-- 競合與聯盟：[[strategy-alliance_策略聯盟]] ｜ [[flank-defense_側翼防禦]] ｜ [[business-ecosystem_商業生態系]]
-- 結構轉型：[[structure-follows-strategy_結構跟隨策略]] ｜ [[strategic-inflection-point_關鍵轉折]] ｜ [[TCE_Transaction_Cost_Economics_交易成本理論]]
+- 風險與決策：[[98_商業概念庫/investment-risk_投資風險\|investment-risk_投資風險]] ｜ [[98_商業概念庫/decision-competence_模糊決策能力\|decision-competence_模糊決策能力]] ｜ [[98_商業概念庫/scenario-planning_情境規劃\|scenario-planning_情境規劃]]
+- 供應鏈韌性：[[98_商業概念庫/sustainable-supply-chain_永續供應鏈\|sustainable-supply-chain_永續供應鏈]] ｜ [[98_商業概念庫/operating-management_生產與營運管理\|operating-management_生產與營運管理]] ｜ [[98_商業概念庫/stocks-and-flows_存量與流量\|stocks-and-flows_存量與流量]]
+- 競合與聯盟：[[98_商業概念庫/strategy-alliance_策略聯盟\|strategy-alliance_策略聯盟]] ｜ [[98_商業概念庫/flank-defense_側翼防禦\|flank-defense_側翼防禦]] ｜ [[98_商業概念庫/business-ecosystem_商業生態系\|business-ecosystem_商業生態系]]
+- 結構轉型：[[98_商業概念庫/structure-follows-strategy_結構跟隨策略\|structure-follows-strategy_結構跟隨策略]] ｜ [[98_商業概念庫/strategic-inflection-point_關鍵轉折\|strategic-inflection-point_關鍵轉折]] ｜ [[98_商業概念庫/TCE_Transaction_Cost_Economics_交易成本理論\|TCE_Transaction_Cost_Economics_交易成本理論]]

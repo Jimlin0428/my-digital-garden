@@ -13,17 +13,16 @@
 
 ## 二、 核心架構與三大包夾路徑
 
-```
-┌────────────────────────────────────────────────────────┐
-│               【發起包夾方：成熟超級平台】                │
-│            (掌握海量重疊用戶基礎 + 雲端基礎架構)          │
-└──────────────────────────┬─────────────────────────────┘
-                           │ 整合為內建免費功能 / 交叉補貼
-                           ▼
-┌────────────────────────────────────────────────────────┐
-│               【遭包夾方：獨立利基平台】                 │
-│              (功能被免費化，獨立商業模式瓦解)            │
-└────────────────────────────────────────────────────────┘
+```mermaid
+flowchart TD
+    classDef c_blue fill:#1e3a5f,stroke:#60a5fa,stroke-width:2px,color:#ffffff;
+    classDef c_green fill:#143823,stroke:#4ade80,stroke-width:2px,color:#ffffff;
+    classDef c_amber fill:#3d2806,stroke:#fbbf24,stroke-width:2px,color:#ffffff;
+    classDef c_purple fill:#3b1d54,stroke:#c084fc,stroke-width:2px,color:#ffffff;
+    classDef c_red fill:#5c1d24,stroke:#f87171,stroke-width:2px,color:#ffffff;
+    N0_0["【發起包夾方：成熟超級平台】<br/>（掌握海量重疊用戶基礎 + 雲端基礎架構）"]:::c_blue
+    N1_0["【遭包夾方：獨立利基平台】<br/>（功能被免費化，獨立商業模式瓦解）"]:::c_green
+    N0_0 -->|"整合為內建免費功能 / 交叉補貼"| N1_0
 ```
 
 ### 1. 平台包夾的三大操作路徑

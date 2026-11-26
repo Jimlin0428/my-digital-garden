@@ -13,21 +13,20 @@
 
 ## 二、 三維立體聚落模型架構圖
 
-```
-                    ┌──────────────────────────────────────────────┐
-                    │       產業聚落 (Cluster) 三維立體架構        │
-                    └──────────────────────┬───────────────────────┘
-                                           │
-        ┌──────────────────────────────────┼──────────────────────────────────┐
-        ▼                                  ▼                                  ▼
-┌──────────────────────────┐   ┌──────────────────────────┐   ┌──────────────────────────┐
-│ 1. 垂直聚群              │   │ 2. 水平聚群              │   │ 3. 勞動力池與知識外溢    │
-│    (Vertical Cluster)    │   │    (Horizontal Cluster)  │   │    (Labor Pool & Spill)  │
-├──────────────────────────┤   ├──────────────────────────┤   ├──────────────────────────┤
-│• 上下游深度分工協同      │   │• 同業集聚與激烈競爭      │   │• 高密度工程與研發人才庫  │
-│• 零組件極速外包與試製    │   │• 標竿學習 (Benchmarking) │   │• 隱性知識 (Tacit) 隨風散 │
-│• JIT 即時生產、零庫存運作│   │• 共同爭取政策與基建資源  │   │• 創業就業良性循環生態    │
-└──────────────────────────┘   └──────────────────────────┘   └──────────────────────────┘
+```mermaid
+flowchart TD
+    classDef c_blue fill:#1e3a5f,stroke:#60a5fa,stroke-width:2px,color:#ffffff;
+    classDef c_green fill:#143823,stroke:#4ade80,stroke-width:2px,color:#ffffff;
+    classDef c_amber fill:#3d2806,stroke:#fbbf24,stroke-width:2px,color:#ffffff;
+    classDef c_purple fill:#3b1d54,stroke:#c084fc,stroke-width:2px,color:#ffffff;
+    classDef c_red fill:#5c1d24,stroke:#f87171,stroke-width:2px,color:#ffffff;
+    N0_0["產業聚落 （Cluster） 三維立體架構"]:::c_blue
+    N1_0["1. 垂直聚群<br/>（Vertical Cluster）<br/>• 上下游深度分工協同<br/>• 零組件極速外包與試製<br/>• JIT 即時生產、零庫存運作"]:::c_green
+    N1_1["2. 水平聚群<br/>（Horizontal Cluster）<br/>• 同業集聚與激烈競爭<br/>• 標竿學習 （Benchmarking）<br/>• 共同爭取政策與基建資源"]:::c_amber
+    N1_2["3. 勞動力池與知識外溢<br/>（Labor Pool & Spill）<br/>• 高密度工程與研發人才庫<br/>• 隱性知識 （Tacit） 隨風散<br/>• 創業就業良性循環生態"]:::c_purple
+    N0_0 --> N1_0
+    N0_0 --> N1_1
+    N0_0 --> N1_2
 ```
 
 ### 聚落三大維度機能深度對照表

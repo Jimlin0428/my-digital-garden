@@ -14,20 +14,16 @@
 
 ## 二、 產業價格戰報酬矩陣
 
-```text
-【雙寡占降價決策矩陣 (廠商 A, 廠商 B)】
+**【雙寡占降價決策矩陣 (廠商 A, 廠商 B)】**
 
-                     廠商 B
-               維持高價 (合作)      降價求售 (背叛)
-      ┌──────────────┬──────────────┐
-維持  │              │              │
-高價  │   (-1, -1)   │   (-5,  0)   │
-(合作)│              │              │
-廠商  ├──────────────┼──────────────┤
- A    │              │              │
-降價  │   ( 0, -5)   │  ★ (-3, -3)  │  <── 納許均衡 (Nash Equilibrium)
-求售  │              │              │      (雙方降價，利潤皆受損)
-(背叛)└──────────────┴──────────────┘
+```mermaid
+flowchart TD
+    classDef c_blue fill:#1e3a5f,stroke:#60a5fa,stroke-width:2px,color:#ffffff;
+    classDef c_green fill:#143823,stroke:#4ade80,stroke-width:2px,color:#ffffff;
+    classDef c_amber fill:#3d2806,stroke:#fbbf24,stroke-width:2px,color:#ffffff;
+    classDef c_purple fill:#3b1d54,stroke:#c084fc,stroke-width:2px,color:#ffffff;
+    classDef c_red fill:#5c1d24,stroke:#f87171,stroke-width:2px,color:#ffffff;
+    N0_0["│<br/>（-1, -1）   │   （-5,  0）<br/>│<br/>│<br/>（ 0, -5）   │  ★ （-3, -3）<br/>│"]:::c_blue
 ```
 
 1. **優勢策略（Dominant Strategy）**：

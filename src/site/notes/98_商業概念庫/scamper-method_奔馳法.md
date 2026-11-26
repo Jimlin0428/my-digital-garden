@@ -11,17 +11,16 @@
 
 奔馳法的核心哲學在於：**「世上罕有憑空捏造的純粹發明，絕大多數創新皆是針對既有事物進行元素重組、屬性變形或情境轉移的產物。」** 它透過七組強制性引導提問，強制大腦打破慣性思考路徑，從不同視角切換檢視現有產品、製程或服務，是高階經理人與產品經理激發漸進式與架構性創新的實用武器。
 
-```
-                    【SCAMPER 創意思考七大維度】
-┌─────────────────────────────────────────────────────────────┐
-│ S - Substitute (替代)        │ 更換材料、零件、流程或人員     │
-│ C - Combine    (結合)        │ 融合相異功能、產品或生態系統   │
-│ A - Adapt      (調適/改編)   │ 跨界借鑑自然界或他業成熟解法   │
-│ M - Modify     (修改/縮放)   │ 放大、縮小、改變形狀或顏色     │
-│ P - Put to use (轉作他用)    │ 開發非目標客群或全新應用場景   │
-│ E - Eliminate  (消除)        │ 剔除多餘功能、極致精簡流程     │
-│ R - Reverse    (反轉/重組)   │ 顛倒順序、內外反轉、上下倒置   │
-└─────────────────────────────────────────────────────────────┘
+**【SCAMPER 創意思考七大維度】**
+
+```mermaid
+flowchart TD
+    classDef c_blue fill:#1e3a5f,stroke:#60a5fa,stroke-width:2px,color:#ffffff;
+    classDef c_green fill:#143823,stroke:#4ade80,stroke-width:2px,color:#ffffff;
+    classDef c_amber fill:#3d2806,stroke:#fbbf24,stroke-width:2px,color:#ffffff;
+    classDef c_purple fill:#3b1d54,stroke:#c084fc,stroke-width:2px,color:#ffffff;
+    classDef c_red fill:#5c1d24,stroke:#f87171,stroke-width:2px,color:#ffffff;
+    N0_0["S - Substitute （替代）        │ 更換材料、零件、流程或人員<br/>C - Combine    （結合）        │ 融合相異功能、產品或生態系統<br/>A - Adapt      （調適/改編）   │ 跨界借鑑自然界或他業成熟解法<br/>M - Modify     （修改/縮放）   │ 放大、縮小、改變形狀或顏色<br/>P - Put to use （轉作他用）    │ 開發非目標客群或全新應用場景<br/>E - Eliminate  （消除）        │ 剔除多餘功能、極致精簡流程<br/>R - Reverse    （反轉/重組）   │ 顛倒順序、內外反轉、上下倒置"]:::c_blue
 ```
 
 ---

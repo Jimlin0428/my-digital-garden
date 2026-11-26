@@ -66,12 +66,16 @@ $$
 
 ## 四、 經理人反思與行動檢核清單
 
-```
-                               信號有效性三維度審核架構
-┌─────────────────────────┬─────────────────────────┬─────────────────────────┐
-│     1. 成本不可逆性     │     2. 單調交叉檢驗     │     3. 信號解讀一致性   │
-│ 信號是否具備實質沉沒成本│ 低品質對手模仿代價是否致命│ 受眾能否準確解碼信號意涵│
-└─────────────────────────┴─────────────────────────┴─────────────────────────┘
+**信號有效性三維度審核架構**
+
+```mermaid
+flowchart TD
+    classDef c_blue fill:#1e3a5f,stroke:#60a5fa,stroke-width:2px,color:#ffffff;
+    classDef c_green fill:#143823,stroke:#4ade80,stroke-width:2px,color:#ffffff;
+    classDef c_amber fill:#3d2806,stroke:#fbbf24,stroke-width:2px,color:#ffffff;
+    classDef c_purple fill:#3b1d54,stroke:#c084fc,stroke-width:2px,color:#ffffff;
+    classDef c_red fill:#5c1d24,stroke:#f87171,stroke-width:2px,color:#ffffff;
+    N0_0["1. 成本不可逆性     │     2. 單調交叉檢驗     │     3. 信號解讀一致性<br/>信號是否具備實質沉沒成本│ 低品質對手模仿代價是否致命│ 受眾能否準確解碼信號意涵"]:::c_blue
 ```
 
 ### Executive Decision Checklist
@@ -85,7 +89,7 @@ $$
 
 ## 五、 關聯概念與延伸閱讀
 
-- 經濟學理論：[[TCE_Transaction_Cost_Economics_交易成本理論]] ｜ [[agency-problem_代理人問題]] ｜ [[Agency_Theory_Corporate_Governance_代理理論與公司治理]]
-- 競爭與博弈：[[Hypercompetition_動態超競爭理論]] ｜ [[competitive-advantage_競爭優勢]] ｜ [[pioneering_開創]]
-- 品牌與行銷：[[pricing-power_溢價能力]] ｜ [[differentiation-strategy_差異化策略]] ｜ [[market-leadership-zhe_市場領導者]]
-- 財務信號：[[cash-budget_現金預算]] ｜ [[free-cash-flow_自由現金流量]] ｜ [[corporate-governance_公司治理]]
+- 經濟學理論：[[98_商業概念庫/TCE_Transaction_Cost_Economics_交易成本理論\|TCE_Transaction_Cost_Economics_交易成本理論]] ｜ [[98_商業概念庫/agency-problem_代理人問題\|agency-problem_代理人問題]] ｜ [[98_商業概念庫/Agency_Theory_Corporate_Governance_代理理論與公司治理\|Agency_Theory_Corporate_Governance_代理理論與公司治理]]
+- 競爭與博弈：[[98_商業概念庫/Hypercompetition_動態超競爭理論\|Hypercompetition_動態超競爭理論]] ｜ [[98_商業概念庫/competitive-advantage_競爭優勢\|competitive-advantage_競爭優勢]] ｜ [[98_商業概念庫/pioneering_開創\|pioneering_開創]]
+- 品牌與行銷：[[98_商業概念庫/pricing-power_溢價能力\|pricing-power_溢價能力]] ｜ [[98_商業概念庫/differentiation-strategy_差異化策略\|differentiation-strategy_差異化策略]] ｜ [[98_商業概念庫/market-leadership-zhe_市場領導者\|market-leadership-zhe_市場領導者]]
+- 財務信號：[[98_商業概念庫/cash-budget_現金預算\|cash-budget_現金預算]] ｜ [[98_商業概念庫/free-cash-flow_自由現金流量\|free-cash-flow_自由現金流量]] ｜ [[98_商業概念庫/corporate-governance_公司治理\|corporate-governance_公司治理]]

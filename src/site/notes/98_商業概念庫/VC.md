@@ -19,26 +19,18 @@
 
 ### 1. 創投基金的底層組織架構：LP-GP 雙層合夥制
 
-```
-┌─────────────────────────────────────────────────────────────┐
-│ 【有限合夥人 (Limited Partners, LPs)】 (出資 99%)           │
-│  • 退休基金 (Pension Funds)   • 大學捐贈基金 (Endowments)   │
-│  • 主權財富基金 (SWFs)        • 家族辦公室 (Family Offices) │
-│  (僅承擔出資義務與有限責任，完全不干預基金日常投資決策)      │
-└──────────────────────────────┬──────────────────────────────┘
-                               │ 提供資本，每年支付 2% 管理費
-                               ▼
-┌─────────────────────────────────────────────────────────────┐
-│ 【普通合夥人 (General Partners, GPs) / 創投管理團隊】 (出資 1%) │
-│  • 尋找優質專案 (Deal Sourcing)   • 盡職調查與決策 (DD)       │
-│  • 投後賦能 (Post-investment)    • 輔導上市與併購退場 (Exit) │
-│  (獲取 20% 超額收益績效提成 Carried Interest ◄── 核心利潤來源)│
-└──────────────────────────────┬──────────────────────────────┘
-                               │ 投資股權
-                               ▼
-┌─────────────────────────────────────────────────────────────┐
-│ 【投資組合新創企業 (Portfolio Startups)】 (30 ~ 50 家)      │
-└─────────────────────────────────────────────────────────────┘
+```mermaid
+flowchart TD
+    classDef c_blue fill:#1e3a5f,stroke:#60a5fa,stroke-width:2px,color:#ffffff;
+    classDef c_green fill:#143823,stroke:#4ade80,stroke-width:2px,color:#ffffff;
+    classDef c_amber fill:#3d2806,stroke:#fbbf24,stroke-width:2px,color:#ffffff;
+    classDef c_purple fill:#3b1d54,stroke:#c084fc,stroke-width:2px,color:#ffffff;
+    classDef c_red fill:#5c1d24,stroke:#f87171,stroke-width:2px,color:#ffffff;
+    N0_0["【有限合夥人 （Limited Partners, LPs）】 （出資 99%）<br/>• 退休基金 （Pension Funds）   • 大學捐贈基金 （Endowments）<br/>• 主權財富基金 （SWFs）        • 家族辦公室 （Family Offices）<br/>（僅承擔出資義務與有限責任，完全不干預基金日常投資決策）"]:::c_blue
+    N1_0["【普通合夥人 （General Partners, GPs） / 創投管理團隊】 （出資 1%）<br/>• 尋找優質專案 （Deal Sourcing）   • 盡職調查與決策 （DD）<br/>• 投後賦能 （Post-investment）    • 輔導上市與併購退場 （Exit）<br/>（獲取 20% 超額收益績效提成 Carried Interest ◄── 核心利潤來源）"]:::c_green
+    N2_0["【投資組合新創企業 （Portfolio Startups）】 （30 ~ 50 家）"]:::c_amber
+    N0_0 -->|"提供資本，每年支付 2% 管理費"| N1_0
+    N1_0 -->|"投資股權"| N2_0
 ```
 
 - **經典「2/20 費用規則」**：LP 每年向 GP 支付基金總規模的 **2%** 作為管理費 (Management Fee，支應用餐、差旅與薪酬)；當基金退場回本後，GP 分得全基金淨利潤的 **20%** 作為績效提成 (Carried Interest / Carry)。

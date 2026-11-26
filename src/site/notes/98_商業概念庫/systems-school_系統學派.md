@@ -18,19 +18,17 @@
 1. 企業並非孤立封閉的機器，而是無時無刻與外部宏觀環境進行能量、資源、資金、人才與資訊交換的動態有機體。
 2. 企業的長期存續，取決於其能否適應外部環境的變化，並維持系統內部的動態平衡 (Dynamic Homeostasis)。
 
-```
-【開放系統輸入-轉換-輸出-回饋模型】
-外部宏觀環境 (PESTEL, 產業競爭, 利益關係人)
-    │                                                   ▲
-    │ (投入資源)                                         │ (外部影響與資訊回饋)
-    ▼                                                   │
-┌──────────────┐     ┌──────────────┐     ┌─────────────┴┐
-│  輸入 (Inputs)│ ──> │ 轉換 (Process)│ ──> │ 輸出 (Outputs)│
-│ 人力、資本、 │     │ 生產、研發、 │     │ 產品、服務、 │
-│ 原物料、資訊 │     │ 管理、價值創造│     │ 利潤、廢棄物 │
-└──────────────┘     └──────┬───────┘     └──────────────┘
-                            │                     ▲
-                            └───── 內部回饋調整 ───┘
+**【開放系統輸入-轉換-輸出-回饋模型】**
+
+```mermaid
+flowchart TD
+    classDef c_blue fill:#1e3a5f,stroke:#60a5fa,stroke-width:2px,color:#ffffff;
+    classDef c_green fill:#143823,stroke:#4ade80,stroke-width:2px,color:#ffffff;
+    classDef c_amber fill:#3d2806,stroke:#fbbf24,stroke-width:2px,color:#ffffff;
+    classDef c_purple fill:#3b1d54,stroke:#c084fc,stroke-width:2px,color:#ffffff;
+    classDef c_red fill:#5c1d24,stroke:#f87171,stroke-width:2px,color:#ffffff;
+    N0_0["輸入 （Inputs）<br/>人力、資本、<br/>原物料、資訊"]:::c_blue
+    N0_1["轉換 （Process）<br/>生產、研發、<br/>管理、價值創造"]:::c_green
 ```
 
 ---
@@ -55,7 +53,7 @@
 ## 三、 企業真實實務個案
 
 ### 1. 豐田生產方式 (TPS) 作為開放系統的極致體現
-大野耐一開創的豐田生產方式 (Toyota Production System, 詳見 [[operating-management_生產與營運管理]]) 是系統學派在產業實踐中的最高典範：
+大野耐一開創的豐田生產方式 (Toyota Production System, 詳見 [[98_商業概念庫/operating-management_生產與營運管理\|operating-management_生產與營運管理]]) 是系統學派在產業實踐中的最高典範：
 - **徹底打破封閉式大量生產**：福特傳統裝配線是封閉機械系統，追求單一工位極限效率，無視庫存堆積與終端需求波動。
 - **開放回饋閉環**：豐田建立看板管理 (Kanban) 與準時制 (JIT)，將汽車製造與終端經銷商銷售、一二級零部件供應商即時串接為開放動態系統。
 - **整體綜效壓倒局部效率**：TPS 甚至允許任何第一線工人拉動「安燈 (Andon) 繩」叫停整條流水線以排除品質根因，展現了「寧可犧牲局部生產工時，也要確保整體系統零缺陷」的系統學派思維。
@@ -69,26 +67,30 @@
 
 ## 四、 經理人反思與行動檢核清單
 
-```
-                               系統學派高階治理檢核維度
-┌─────────────────────────┬─────────────────────────┬─────────────────────────┐
-│     1. 組織負熵輸入     │     2. 警惕局部次佳化   │     3. 踐行等終極性思維 │
-│ 定期引進外部跨界異質人才│ 考核跨部門協同整體淨效益│ 允許多元路徑，包容異質創新│
-└─────────────────────────┴─────────────────────────┴─────────────────────────┘
+**系統學派高階治理檢核維度**
+
+```mermaid
+flowchart TD
+    classDef c_blue fill:#1e3a5f,stroke:#60a5fa,stroke-width:2px,color:#ffffff;
+    classDef c_green fill:#143823,stroke:#4ade80,stroke-width:2px,color:#ffffff;
+    classDef c_amber fill:#3d2806,stroke:#fbbf24,stroke-width:2px,color:#ffffff;
+    classDef c_purple fill:#3b1d54,stroke:#c084fc,stroke-width:2px,color:#ffffff;
+    classDef c_red fill:#5c1d24,stroke:#f87171,stroke-width:2px,color:#ffffff;
+    N0_0["1. 組織負熵輸入     │     2. 警惕局部次佳化   │     3. 踐行等終極性思維<br/>定期引進外部跨界異質人才│ 考核跨部門協同整體淨效益│ 允許多元路徑，包容異質創新"]:::c_blue
 ```
 
 ### Executive Decision Checklist
-- [ ] **外部環境掃描 (Environmental Scanning)**：高管團隊每月是否撥出固定時間，跳出日常營運瑣事，全盤審視 [[PESTEL分析|PESTEL]] 宏觀趨勢、地緣政治與跨界顛覆訊號？
+- [ ] **外部環境掃描 (Environmental Scanning)**：高管團隊每月是否撥出固定時間，跳出日常營運瑣事，全盤審視 [[98_商業概念庫/PESTEL分析\|PESTEL]] 宏觀趨勢、地緣政治與跨界顛覆訊號？
 - [ ] **組織熵增警訊診斷**：公司內部是否出現冗長官僚審批、無效會議激增、內部權力鬥爭壓倒客戶價值等典型「組織熵增」症狀？我們引進了什麼「負熵（新文化、新激勵、外部鯰魚）」來對抗衰老？
 - [ ] **次佳化陷阱排查**：各事業群 (BU) 的 KPI 設計是否存在互相衝突？（例如：業務部為了衝營收放寬信用條件，導致財務部應收帳款壞帳飆升）
 - [ ] **等終極性路徑包容**：身為高階主管，我是否給予團隊充分的授權與路徑自由度，允許多元創新的打法，還是頑固強求下屬必須按照我過去的成功步驟執行？
-- [ ] **邊界跨越與生態協同**：企業是否建立起具有高韌性的[[business-ecosystem_商業生態系]]，與上下游供應鏈夥伴建立共生共榮的數據與價值共享機制？
+- [ ] **邊界跨越與生態協同**：企業是否建立起具有高韌性的[[98_商業概念庫/business-ecosystem_商業生態系\|business-ecosystem_商業生態系]]，與上下游供應鏈夥伴建立共生共榮的數據與價值共享機制？
 
 ---
 
 ## 五、 關聯概念與延伸閱讀
 
-- 理論基石：[[system_系統思考]] ｜ [[stocks-and-flows_存量與流量]] ｜ [[learning-organization_學習型組織]]
-- 組織結構與演化：[[matrix-organization_矩陣型組織]] ｜ [[organization_有機式組織]] ｜ [[organization-3_機械式組織]] ｜ [[organizational-behavior_組織行為]]
-- 營運與戰略整合：[[operating-management_生產與營運管理]] ｜ [[business-ecosystem_商業生態系]] ｜ [[operating_營運綜效]]
-- 決策與變革：[[mode_心智模式]] ｜ [[organizational-change_組織變革]] ｜ [[PESTEL分析]]
+- 理論基石：[[98_商業概念庫/system_系統思考\|system_系統思考]] ｜ [[98_商業概念庫/stocks-and-flows_存量與流量\|stocks-and-flows_存量與流量]] ｜ [[98_商業概念庫/learning-organization_學習型組織\|learning-organization_學習型組織]]
+- 組織結構與演化：[[98_商業概念庫/matrix-organization_矩陣型組織\|matrix-organization_矩陣型組織]] ｜ [[98_商業概念庫/organization_有機式組織\|organization_有機式組織]] ｜ [[98_商業概念庫/organization-3_機械式組織\|organization-3_機械式組織]] ｜ [[98_商業概念庫/organizational-behavior_組織行為\|organizational-behavior_組織行為]]
+- 營運與戰略整合：[[98_商業概念庫/operating-management_生產與營運管理\|operating-management_生產與營運管理]] ｜ [[98_商業概念庫/business-ecosystem_商業生態系\|business-ecosystem_商業生態系]] ｜ [[98_商業概念庫/operating_營運綜效\|operating_營運綜效]]
+- 決策與變革：[[98_商業概念庫/mode_心智模式\|mode_心智模式]] ｜ [[98_商業概念庫/organizational-change_組織變革\|organizational-change_組織變革]] ｜ [[98_商業概念庫/PESTEL分析\|PESTEL分析]]

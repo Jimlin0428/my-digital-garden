@@ -13,19 +13,15 @@
 
 ## 二、 核心架構與網絡效應機理
 
-```
- ┌──────────────────────┐                     ┌──────────────────────┐
- │ 【市場端 A：使用者端】 │                     │ 【市場端 B：開發者端】 │
- │   (價格彈性高/補貼端)  │                     │   (商業變現/收費端)  │
- └──────────┬───────────┘                     └───────────┬──────────┘
-            │                                             │
-            │ (同邊直接效應)                               │ (同邊排擠效應)
-            ▼                                             ▼
-            用戶越多 溝通價值越高                         開發者過多 競爭踩踏
-            │                                             │
-            └───────────────► 雙向跨邊網絡效應 ◄───────────┘
-                       用戶越多 ➔ 吸引開發者越多
-                       內容越豐富 ➔ 吸引用戶越聚集
+```mermaid
+flowchart TD
+    classDef c_blue fill:#1e3a5f,stroke:#60a5fa,stroke-width:2px,color:#ffffff;
+    classDef c_green fill:#143823,stroke:#4ade80,stroke-width:2px,color:#ffffff;
+    classDef c_amber fill:#3d2806,stroke:#fbbf24,stroke-width:2px,color:#ffffff;
+    classDef c_purple fill:#3b1d54,stroke:#c084fc,stroke-width:2px,color:#ffffff;
+    classDef c_red fill:#5c1d24,stroke:#f87171,stroke-width:2px,color:#ffffff;
+    N0_0["【市場端 A：使用者端】<br/>（價格彈性高/補貼端）"]:::c_blue
+    N0_1["【市場端 B：開發者端】<br/>（商業變現/收費端）"]:::c_green
 ```
 
 ### 1. 跨邊網絡效應（Cross-Side / Indirect Network Effects）

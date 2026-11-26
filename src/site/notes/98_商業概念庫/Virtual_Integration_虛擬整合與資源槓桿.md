@@ -13,22 +13,25 @@
 
 ## 二、 實體整合 vs. 虛擬整合架構對比
 
-```
- 【傳統實體垂直整合 (Make)】              【現代虛擬垂直整合 (Leverage)】
-  ┌───────────────────────┐                ┌───────────────────────┐
-  │   上游自建工廠與產線   │                │   外部 20,000 家中小工廠  │
-  └──────────┬────────────┘                └───────────┬───────────┘
-             │ (自負盈虧/重資產)                        │ (柔性調度/零資產包袱)
-             ▼                                         ▼
-  ┌───────────────────────┐                ┌───────────────────────┐
-  │   核心企業內部協調     │                │   核心平台 (利豐/SHEIN)   │
-  │   (承擔固定折舊與工會) │                │   (掌握趨勢+製程工程知識) │
-  └──────────┬────────────┘                └───────────┬───────────┘
-             │                                         │
-             ▼                                         ▼
-  ┌───────────────────────┐                ┌───────────────────────┐
-  │   下游自營門市與車隊   │                │   外部通路 (Walmart/TikTok)│
-  └───────────────────────┘                └───────────────────────┘
+**【傳統實體垂直整合 (Make)】              【現代虛擬垂直整合 (Leverage)】**
+
+```mermaid
+flowchart TD
+    classDef c_blue fill:#1e3a5f,stroke:#60a5fa,stroke-width:2px,color:#ffffff;
+    classDef c_green fill:#143823,stroke:#4ade80,stroke-width:2px,color:#ffffff;
+    classDef c_amber fill:#3d2806,stroke:#fbbf24,stroke-width:2px,color:#ffffff;
+    classDef c_purple fill:#3b1d54,stroke:#c084fc,stroke-width:2px,color:#ffffff;
+    classDef c_red fill:#5c1d24,stroke:#f87171,stroke-width:2px,color:#ffffff;
+    N0_0["上游自建工廠與產線"]:::c_blue
+    N0_1["外部 20,000 家中小工廠"]:::c_green
+    N1_0["核心企業內部協調<br/>（承擔固定折舊與工會）"]:::c_amber
+    N1_1["核心平台 （利豐/SHEIN）<br/>（掌握趨勢+製程工程知識）"]:::c_purple
+    N2_0["下游自營門市與車隊"]:::c_red
+    N2_1["外部通路 （Walmart/TikTok）"]:::c_blue
+    N0_0 -->|"（自負盈虧/重資產）                         （柔性調度/零資產包袱）"| N1_0
+    N0_1 -->|"（自負盈虧/重資產）                         （柔性調度/零資產包袱）"| N1_1
+    N1_0 --> N2_0
+    N1_1 --> N2_1
 ```
 
 ---

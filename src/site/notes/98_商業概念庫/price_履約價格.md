@@ -30,12 +30,12 @@
 
 | 價位狀態 | 買權 (Call Option, 享有買入權利) | 賣權 (Put Option, 享有賣出權利) | 內在價值與時間價值特徵 |
 | :--- | :--- | :--- | :--- |
-| **價內 (In-the-Money, ITM)** | **$S > K$**<br>(市價高於履約價) | **$S < K$**<br>(市價低於履約價) | 具備實質內在價值；對標的資產價格變動極度敏感 ($\Delta \to 1.0$)；[[option-premium_權利金|權利金]]最昂貴。 |
+| **價內 (In-the-Money, ITM)** | **$S > K$**<br>(市價高於履約價) | **$S < K$**<br>(市價低於履約價) | 具備實質內在價值；對標的資產價格變動極度敏感 ($\Delta \to 1.0$)；[[98_商業概念庫/option-premium_權利金\|權利金]]最昂貴。 |
 | **價平 (At-the-Money, ATM)** | **$S \approx K$**<br>(市價等於履約價) | **$S \approx K$**<br>(市價等於履約價) | 內在價值為零；**時間價值 (Time Value) 與 Gamma ($\Gamma$) 敏感度達到極致最高點**。 |
 | **價外 (Out-of-the-Money, OTM)** | **$S < K$**<br>(市價低於履約價) | **$S > K$**<br>(市價高於履約價) | 內在價值為零；權利金完全由純時間價值構成；若到期仍處於價外，合約將如廢紙般歸零。 |
 
 ### 2. 選擇權權利金的價值分解方程式
-選擇權在市場上的交易總價格（[[option-premium_權利金|權利金 Premium]]），在數學上嚴格拆解為兩大部分：
+選擇權在市場上的交易總價格（[[98_商業概念庫/option-premium_權利金\|權利金 Premium]]），在數學上嚴格拆解為兩大部分：
 
 $$
 \\text{Option Premium} = \\text{Intrinsic Value (內在價值)} + \\text{Time Value (時間價值 / 外在價值)}
@@ -72,26 +72,30 @@ $$
 
 ## 四、 經理人反思與行動檢核清單
 
-```
-                               履約價格設計與避險自檢模型
-┌─────────────────────────┬─────────────────────────┬─────────────────────────┐
-│     1. 激勵對齊真實增長 │     2. 避險保費與保護平衡│     3. 合規性透明防線   │
-│ ESOP履約價絕不設為白送折價│ 依可承受損失選擇價位狀態│ 授予日市價必須具備第三戳記│
-└─────────────────────────┴─────────────────────────┴─────────────────────────┘
+**履約價格設計與避險自檢模型**
+
+```mermaid
+flowchart TD
+    classDef c_blue fill:#1e3a5f,stroke:#60a5fa,stroke-width:2px,color:#ffffff;
+    classDef c_green fill:#143823,stroke:#4ade80,stroke-width:2px,color:#ffffff;
+    classDef c_amber fill:#3d2806,stroke:#fbbf24,stroke-width:2px,color:#ffffff;
+    classDef c_purple fill:#3b1d54,stroke:#c084fc,stroke-width:2px,color:#ffffff;
+    classDef c_red fill:#5c1d24,stroke:#f87171,stroke-width:2px,color:#ffffff;
+    N0_0["1. 激勵對齊真實增長 │     2. 避險保費與保護平衡│     3. 合規性透明防線<br/>ESOP履約價絕不設為白送折價│ 依可承受損失選擇價位狀態│ 授予日市價必須具備第三戳記"]:::c_blue
 ```
 
 ### Executive Decision Checklist
 - [ ] **高管激勵真實性審查**：向高階主管團隊發放的股權選擇權 (ESOP)，其履約價格是否嚴格鎖定在授予日的公允市價？是否有意圖透過超低履約價進行利益輸送的嫌疑？
 - [ ] **防範「水下期權 (Underwater Options)」士氣瓦解**：當資本市場遭遇不可抗力大崩盤導致股價腰斬、既有期權深度價外 ($S \\ll K$) 喪失激勵功能時，公司是否有審慎的重新定價 (Repricing) 制度，防止核心技術骨幹大規模離職？
 - [ ] **企業避險深度選擇 (Moneyness Selection)**：在採購原油或外匯選擇權避險時，我們是選擇昂貴的價內期權 (ITM)，還是選擇低保費但僅防禦極端災難的深價外期權 (Deep OTM)？
-- [ ] **實質選擇權 ([[real-options_實質選擇權]]) 履約門檻**：在評估大型研發專案的二期投資擴張選擇權時，我們所設定的「啟動下一階段擴張的實質履約價格（資本支出 CapEx）」是否經過工程嚴謹測算？
+- [ ] **實質選擇權 ([[98_商業概念庫/real-options_實質選擇權\|real-options_實質選擇權]]) 履約門檻**：在評估大型研發專案的二期投資擴張選擇權時，我們所設定的「啟動下一階段擴張的實質履約價格（資本支出 CapEx）」是否經過工程嚴謹測算？
 - [ ] **法律合規安全戳記**：所有涉及董事與高管的股權授予契約，其履約價格的確認是否具備第三方證券交易所或轉讓代理機構不可篡改的時間戳記 (Timestamp)？
 
 ---
 
 ## 五、 關聯概念與延伸閱讀
 
-- 衍生工具核心：[[options_選擇權]] ｜ [[call-option_買權]] ｜ [[put-option_賣權]] ｜ [[option-premium_權利金]]
-- 定價與均衡：[[no-arbitrage-equilibrium_無套利均衡]] ｜ [[arbitrage_套利]] ｜ [[financial-derivatives_衍生性金融商品]]
-- 股權激勵機制：[[stock-options-motivation_股票選擇權激勵]] ｜ [[cap-table_股權結構表 Cap Table]] ｜ [[corporate-governance_公司治理]]
-- 實質與策略避險：[[real-options_實質選擇權]] ｜ [[strategy-2_避險策略]] ｜ [[investment-risk_投資風險]]
+- 衍生工具核心：[[98_商業概念庫/options_選擇權\|options_選擇權]] ｜ [[98_商業概念庫/call-option_買權\|call-option_買權]] ｜ [[98_商業概念庫/put-option_賣權\|put-option_賣權]] ｜ [[98_商業概念庫/option-premium_權利金\|option-premium_權利金]]
+- 定價與均衡：[[98_商業概念庫/no-arbitrage-equilibrium_無套利均衡\|no-arbitrage-equilibrium_無套利均衡]] ｜ [[98_商業概念庫/arbitrage_套利\|arbitrage_套利]] ｜ [[98_商業概念庫/financial-derivatives_衍生性金融商品\|financial-derivatives_衍生性金融商品]]
+- 股權激勵機制：[[98_商業概念庫/stock-options-motivation_股票選擇權激勵\|stock-options-motivation_股票選擇權激勵]] ｜ [[98_商業概念庫/cap-table_股權結構表 Cap Table\|cap-table_股權結構表 Cap Table]] ｜ [[98_商業概念庫/corporate-governance_公司治理\|corporate-governance_公司治理]]
+- 實質與策略避險：[[98_商業概念庫/real-options_實質選擇權\|real-options_實質選擇權]] ｜ [[98_商業概念庫/strategy-2_避險策略\|strategy-2_避險策略]] ｜ [[98_商業概念庫/investment-risk_投資風險\|investment-risk_投資風險]]

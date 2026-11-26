@@ -13,24 +13,20 @@
 SCP 架構的核心邏輯在於研究**外部產業環境如何決定內部企業行為，並最終決定產業整體的超額獲利能力**：
 > **「市場結構 (Structure)」決定了企業在市場中的「競爭行為 (Conduct)」，而企業的競爭行為又反過來決定了該產業整體的「經濟績效 (Performance)」。**
 
-```
-【傳統古典 SCP 單向因果傳遞鏈】
-外部基本條件 (技術/法規/需求彈性)
-         │
-         ▼
-┌──────────────────┐
-│ 市場結構 (Structure)│ ── 集中度 (HHI/CR4)、進入/退出障礙、產品差異化程度、成本結構
-└────────┬─────────┘
-         │ (決定)
-         ▼
-┌──────────────────┐
-│ 企業行為 (Conduct)  │ ── 定價策略、研發創新、廣告與促銷、產能擴張、合謀或法律攻防
-└────────┬─────────┘
-         │ (決定)
-         ▼
-┌──────────────────┐
-│ 經濟績效 (Performance)│ ── 產業平均報酬率 (ROIC/ROE)、資源配置效率、技術進步率
-└──────────────────┘
+**【傳統古典 SCP 單向因果傳遞鏈】**
+
+```mermaid
+flowchart TD
+    classDef c_blue fill:#1e3a5f,stroke:#60a5fa,stroke-width:2px,color:#ffffff;
+    classDef c_green fill:#143823,stroke:#4ade80,stroke-width:2px,color:#ffffff;
+    classDef c_amber fill:#3d2806,stroke:#fbbf24,stroke-width:2px,color:#ffffff;
+    classDef c_purple fill:#3b1d54,stroke:#c084fc,stroke-width:2px,color:#ffffff;
+    classDef c_red fill:#5c1d24,stroke:#f87171,stroke-width:2px,color:#ffffff;
+    N0_0["市場結構 （Structure）"]:::c_blue
+    N1_0["企業行為 （Conduct）"]:::c_green
+    N2_0["經濟績效 （Performance）"]:::c_amber
+    N0_0 -->|"（決定）"| N1_0
+    N1_0 -->|"（決定）"| N2_0
 ```
 
 ---
@@ -41,9 +37,9 @@ SCP 架構的核心邏輯在於研究**外部產業環境如何決定內部企�
 
 | SCP 構面 | 核心考察變數 | 常用量化指標與分析工具 |
 | :--- | :--- | :--- |
-| **市場結構 (Structure)** | - 賣方與買方數量及規模分佈<br>- 產業進入壁壘與退出壁壘<br>- 產品同質性 vs. 差異化程度<br>- 固定成本 vs. 變動成本結構比例 | - 四大廠商集中度 ($CR_4$)、赫芬達爾指數 ($HHI$)<br>- [[market-barriers-to-entry_市場進入障礙]]、[[exit-barriers_退出障礙]]<br>- 規模經濟最小有效規模 ($MES$) |
+| **市場結構 (Structure)** | - 賣方與買方數量及規模分佈<br>- 產業進入壁壘與退出壁壘<br>- 產品同質性 vs. 差異化程度<br>- 固定成本 vs. 變動成本結構比例 | - 四大廠商集中度 ($CR_4$)、赫芬達爾指數 ($HHI$)<br>- [[98_商業概念庫/market-barriers-to-entry_市場進入障礙\|market-barriers-to-entry_市場進入障礙]]、[[98_商業概念庫/exit-barriers_退出障礙\|exit-barriers_退出障礙]]<br>- 規模經濟最小有效規模 ($MES$) |
 | **企業行為 (Conduct)** | - 價格決策（掠奪性定價、價格卡特爾）<br>- 非價格競爭（品牌廣告、專利軍備競賽）<br>- 產能投資節奏（先發制人產能擴張）<br>- 併購與合謀行為 | - 廣告密集度 (Advertising-to-Sales Ratio)<br>- 研發密集度 (R&D-to-Sales Ratio)<br>- 賽局策略反應時間與信號傳遞 |
-| **經濟績效 (Performance)** | - 產業獲利能力與經濟利潤<br>- 社會資源配置效率與生產效率<br>- 技術創新與專利轉化率 | - 勒納指數 ($L = \frac{P - MC}{P}$，衡量市場力量)<br>- 產業加權 [[return-on-invested-capital_資本投入報酬率|ROIC]]、托賓 Q 值 ($Tobin's\;Q$) |
+| **經濟績效 (Performance)** | - 產業獲利能力與經濟利潤<br>- 社會資源配置效率與生產效率<br>- 技術創新與專利轉化率 | - 勒納指數 ($L = \frac{P - MC}{P}$，衡量市場力量)<br>- 產業加權 [[98_商業概念庫/return-on-invested-capital_資本投入報酬率\|ROIC]]、托賓 Q 值 ($Tobin's\;Q$) |
 
 ### 2. 現代回饋迴路：動態新內生性視角 (Dynamic Feedback)
 芝加哥學派（如施蒂格勒 Stigler）與現代企業戰略學者批判了古典 SCP 模型的「單向環境決定論」，指出：**優異企業的「行為 (Conduct)」完全能夠主動重塑「結構 (Structure)」**。
@@ -70,12 +66,16 @@ SCP 架構的核心邏輯在於研究**外部產業環境如何決定內部企�
 
 ## 四、 經理人反思與行動檢核清單
 
-```
-                               SCP 戰略洞察與重塑檢核
-┌─────────────────────────┬─────────────────────────┬─────────────────────────┐
-│     1. 結構天花板評估   │     2. 行為策略有效性   │     3. 主動重構產業結構 │
-│ 行業平均獲利是由結構決定│ 我們的行為能否改變博弈規則│ 透過投資提高行業進入壁壘│
-└─────────────────────────┴─────────────────────────┴─────────────────────────┘
+**SCP 戰略洞察與重塑檢核**
+
+```mermaid
+flowchart TD
+    classDef c_blue fill:#1e3a5f,stroke:#60a5fa,stroke-width:2px,color:#ffffff;
+    classDef c_green fill:#143823,stroke:#4ade80,stroke-width:2px,color:#ffffff;
+    classDef c_amber fill:#3d2806,stroke:#fbbf24,stroke-width:2px,color:#ffffff;
+    classDef c_purple fill:#3b1d54,stroke:#c084fc,stroke-width:2px,color:#ffffff;
+    classDef c_red fill:#5c1d24,stroke:#f87171,stroke-width:2px,color:#ffffff;
+    N0_0["1. 結構天花板評估   │     2. 行為策略有效性   │     3. 主動重構產業結構<br/>行業平均獲利是由結構決定│ 我們的行為能否改變博弈規則│ 透過投資提高行業進入壁壘"]:::c_blue
 ```
 
 ### Executive Decision Checklist
@@ -89,7 +89,7 @@ SCP 架構的核心邏輯在於研究**外部產業環境如何決定內部企�
 
 ## 五、 關聯概念與延伸閱讀
 
-- 理論基石：[[industrial-organization-theory_產業組織理論]] ｜ [[market-structure_市場結構]] ｜ [[market-concentration_市場集中度]]
-- 壁壘與防禦：[[market-barriers-to-entry_市場進入障礙]] ｜ [[exit-barriers_退出障礙]] ｜ [[barriers-mobility-barriers_移動障礙 Mobility Barriers]]
-- 競爭戰略分析：[[Porter's Five Forces Analysis_波特五力分析]] ｜ [[Hypercompetition_動態超競爭理論]] ｜ [[competitive-advantage_競爭優勢]]
-- 績效與指標：[[return-on-invested-capital_資本投入報酬率]] ｜ [[economies-of-scale_規模經濟]] ｜ [[wacc_加權平均資本成本]]
+- 理論基石：[[98_商業概念庫/industrial-organization-theory_產業組織理論\|industrial-organization-theory_產業組織理論]] ｜ [[98_商業概念庫/market-structure_市場結構\|market-structure_市場結構]] ｜ [[98_商業概念庫/market-concentration_市場集中度\|market-concentration_市場集中度]]
+- 壁壘與防禦：[[98_商業概念庫/market-barriers-to-entry_市場進入障礙\|market-barriers-to-entry_市場進入障礙]] ｜ [[98_商業概念庫/exit-barriers_退出障礙\|exit-barriers_退出障礙]] ｜ [[98_商業概念庫/barriers-mobility-barriers_移動障礙 Mobility Barriers\|barriers-mobility-barriers_移動障礙 Mobility Barriers]]
+- 競爭戰略分析：[[98_商業概念庫/Porter's Five Forces Analysis_波特五力分析\|Porter's Five Forces Analysis_波特五力分析]] ｜ [[98_商業概念庫/Hypercompetition_動態超競爭理論\|Hypercompetition_動態超競爭理論]] ｜ [[98_商業概念庫/competitive-advantage_競爭優勢\|competitive-advantage_競爭優勢]]
+- 績效與指標：[[98_商業概念庫/return-on-invested-capital_資本投入報酬率\|return-on-invested-capital_資本投入報酬率]] ｜ [[98_商業概念庫/economies-of-scale_規模經濟\|economies-of-scale_規模經濟]] ｜ [[98_商業概念庫/wacc_加權平均資本成本\|wacc_加權平均資本成本]]

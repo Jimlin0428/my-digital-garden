@@ -15,21 +15,16 @@
 
 價值陷阱的本質是**「以靜態的過去歷史財報，去衡量動態崩塌的未來實質價值」**。在查理·蒙格 (Charlie Munger) 的投資哲學中，價值陷阱正是「雪茄屁股 (Cigar Butt)」投資法的極限宿命——那口免費的殘留雪茄看似誘人，但往往伴隨著滿嘴的苦澀與燙傷。
 
-```
-【價值陷阱誘捕與價值毀滅歷程】
-表面靜態指標誘人 (P/E = 4x, P/B = 0.5x, 殖利率 10%)
-                     │
-                     ▼ (投資人誤判為「市場恐慌錯殺」大舉買入)
-┌────────────────────────────────────────────────────────┐
-│ 底層核心基本面發生結構性崩塌：                         │
-│ 1. 遭遇[[creative-destruction_創造性破壞|破壞性創新顛覆]] (如數位相機淘汰傳統膠卷)   │
-│ 2. 產業產能嚴重過剩，爆發毀滅性價格戰                  │
-│ 3. 資本支出黑洞：賺取 1 元利潤需投入 2 元新設備維護   │
-│ 4. 隱藏債務與資產實質減記暴雷                         │
-└────────────────────────────┬───────────────────────────┘
-                             ▼
-【[[davis-double-whammy_戴維斯雙殺效應]]爆發】
-獲利 EPS 暴跌 50% ──(疊加)──> 市場估值 P/E 崩塌 ──> 股價跌幅達 80%+
+**【價值陷阱誘捕與價值毀滅歷程】**
+
+```mermaid
+flowchart TD
+    classDef c_blue fill:#1e3a5f,stroke:#60a5fa,stroke-width:2px,color:#ffffff;
+    classDef c_green fill:#143823,stroke:#4ade80,stroke-width:2px,color:#ffffff;
+    classDef c_amber fill:#3d2806,stroke:#fbbf24,stroke-width:2px,color:#ffffff;
+    classDef c_purple fill:#3b1d54,stroke:#c084fc,stroke-width:2px,color:#ffffff;
+    classDef c_red fill:#5c1d24,stroke:#f87171,stroke-width:2px,color:#ffffff;
+    N0_0["底層核心基本面發生結構性崩塌：<br/>1. 遭遇破壞性創新顛覆 （如數位相機淘汰傳統膠卷）<br/>2. 產業產能嚴重過剩，爆發毀滅性價格戰<br/>3. 資本支出黑洞：賺取 1 元利潤需投入 2 元新設備維護<br/>4. 隱藏債務與資產實質減記暴雷"]:::c_blue
 ```
 
 ---
@@ -43,7 +38,7 @@
 | 陷阱類型 | 誘惑性假象指標 | 底層致命病因 | 典型產業與實例 |
 | :--- | :--- | :--- | :--- |
 | **1. 週期頂峰陷阱<br>(Cyclical Peak Trap)** | 本益比極低（P/E 僅 2 至 4 倍），淨利潤創歷史天價。 | 正處於強週期產業景氣最頂峰，產品價格暴漲即將反轉暴跌。 | 航運集裝箱暴賺後運價崩跌、大宗原物料化學品、DRAM 記憶體。 |
-| **2. 結構性顛覆陷阱<br>(Secular Obsolescence)** | 股價暴跌使股價淨值比極低（P/B < 0.5），資產雄厚。 | 技術典範轉移使舊資產在一夜之間淪為廢鐵；客戶發生永久性遷徙。 | 傳統實體零售百貨 ([[stuck-in-the-middle_卡在中間|西爾斯]])、傳真機製造商、傳統膠卷柯達。 |
+| **2. 結構性顛覆陷阱<br>(Secular Obsolescence)** | 股價暴跌使股價淨值比極低（P/B < 0.5），資產雄厚。 | 技術典範轉移使舊資產在一夜之間淪為廢鐵；客戶發生永久性遷徙。 | 傳統實體零售百貨 ([[98_商業概念庫/stuck-in-the-middle_卡在中間\|西爾斯]])、傳真機製造商、傳統膠卷柯達。 |
 | **3. 資本吞噬黑洞陷阱<br>(Capital-Intensive Sink)** | 帳面會計淨利年年為正，看似穩健。 | 自由現金流 (FCF) 永遠為負；為維持現有市占率必須不斷向產線追加天價 CapEx。 | 二線液晶面板廠、傳統鋼鐵冶煉、重資產晶圓代工追趕者。 |
 | **4. 高股息誘惑陷阱<br>(Yield Trap)** | 現金殖利率高達 10% 至 15%，超越無風險利率數倍。 | 公司獲利已無力支撐股利發放；高殖利率僅因股價暴跌造成，隨後必將砍半股息。 | 高負債電信公司、面臨專利斷崖的傳統製藥廠。 |
 
@@ -79,12 +74,16 @@
 
 ## 四、 經理人反思與行動檢核清單
 
-```
-                               價值陷阱防禦五維排查
-┌─────────────────────────┬─────────────────────────┬─────────────────────────┐
-│     1. 穿透自由現金流   │     2. 技術替代威脅審查 │     3. 檢視高管內部人持股│
-│ 過去五年 FCF 總和是否>0 │ 是否出現十倍速替代新模式│ 內部高管是否正在逢低真買│
-└─────────────────────────┴─────────────────────────┴─────────────────────────┘
+**價值陷阱防禦五維排查**
+
+```mermaid
+flowchart TD
+    classDef c_blue fill:#1e3a5f,stroke:#60a5fa,stroke-width:2px,color:#ffffff;
+    classDef c_green fill:#143823,stroke:#4ade80,stroke-width:2px,color:#ffffff;
+    classDef c_amber fill:#3d2806,stroke:#fbbf24,stroke-width:2px,color:#ffffff;
+    classDef c_purple fill:#3b1d54,stroke:#c084fc,stroke-width:2px,color:#ffffff;
+    classDef c_red fill:#5c1d24,stroke:#f87171,stroke-width:2px,color:#ffffff;
+    N0_0["1. 穿透自由現金流   │     2. 技術替代威脅審查 │     3. 檢視高管內部人持股<br/>過去五年 FCF 總和是否>0 │ 是否出現十倍速替代新模式│ 內部高管是否正在逢低真買"]:::c_blue
 ```
 
 ### Executive Decision Checklist
@@ -98,7 +97,7 @@
 
 ## 五、 關聯概念與延伸閱讀
 
-- 估值與指標：[[pb-ratio_股價淨值比]] ｜ [[earnings-per-share_每股盈餘]] ｜ [[davis-double-whammy_戴維斯雙殺效應]]
-- 顛覆性威脅：[[creative-destruction_創造性破壞]] ｜ [[strategic-inflection-point_關鍵轉折]] ｜ [[stuck-in-the-middle_卡在中間]]
-- 財務體質診斷：[[financial-cost_財務危機成本]] ｜ [[direct-bankruptcy-cost_直接破產成本]] ｜ [[free-cash-flow_自由現金流量]]
-- 資本配置與自殘：[[share-repurchase_股票買回]] ｜ [[cannibalization_自我蠶食]] ｜ [[sunk-cost_沉沒成本]]
+- 估值與指標：[[98_商業概念庫/pb-ratio_股價淨值比\|pb-ratio_股價淨值比]] ｜ [[98_商業概念庫/earnings-per-share_每股盈餘\|earnings-per-share_每股盈餘]] ｜ [[98_商業概念庫/davis-double-whammy_戴維斯雙殺效應\|davis-double-whammy_戴維斯雙殺效應]]
+- 顛覆性威脅：[[98_商業概念庫/creative-destruction_創造性破壞\|creative-destruction_創造性破壞]] ｜ [[98_商業概念庫/strategic-inflection-point_關鍵轉折\|strategic-inflection-point_關鍵轉折]] ｜ [[98_商業概念庫/stuck-in-the-middle_卡在中間\|stuck-in-the-middle_卡在中間]]
+- 財務體質診斷：[[98_商業概念庫/financial-cost_財務危機成本\|financial-cost_財務危機成本]] ｜ [[98_商業概念庫/direct-bankruptcy-cost_直接破產成本\|direct-bankruptcy-cost_直接破產成本]] ｜ [[98_商業概念庫/free-cash-flow_自由現金流量\|free-cash-flow_自由現金流量]]
+- 資本配置與自殘：[[98_商業概念庫/share-repurchase_股票買回\|share-repurchase_股票買回]] ｜ [[98_商業概念庫/cannibalization_自我蠶食\|cannibalization_自我蠶食]] ｜ [[98_商業概念庫/sunk-cost_沉沒成本\|sunk-cost_沉沒成本]]

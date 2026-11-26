@@ -11,17 +11,16 @@
 - **存量 (Stock / Accumulation)**：指在**特定時間時點 (Point in Time)** 上所累積的實體或非實體資源之狀態量（例如：2026 年 12 月 31 日資產負債表上的現金餘額、存貨總額、機器設備價值、股東權益）。存量具有記憶性與慣性，無法在瞬間憑空改變。
 - **流量 (Flow / Rate of Change)**：指在**一段時間跨度 (Period of Time)** 內流入或流出系統的變動量或速率（例如：綜合損益表上的年度營業收入、年度淨利，以及現金流量表上的年度營業活動現金流 CFO）。
 
-```
-        流入量 Inflow (流量)                     流出量 Outflow (流量)
-      (例: 銷貨收現、新增融資)                 (例: 營業費用付現、資本支出)
-               │                                         ▲
-               ▼                                         │
-        ┌─────────────────────────────────────────────────────┐
-        │                     【存量 Stock】                  │
-        │               (例: 銀行存款、庫存資產)              │
-        │                                                     │
-        │               積蓄水位 Current Level                │
-        └─────────────────────────────────────────────────────┘
+**流入量 Inflow (流量)                     流出量 Outflow (流量)**
+
+```mermaid
+flowchart TD
+    classDef c_blue fill:#1e3a5f,stroke:#60a5fa,stroke-width:2px,color:#ffffff;
+    classDef c_green fill:#143823,stroke:#4ade80,stroke-width:2px,color:#ffffff;
+    classDef c_amber fill:#3d2806,stroke:#fbbf24,stroke-width:2px,color:#ffffff;
+    classDef c_purple fill:#3b1d54,stroke:#c084fc,stroke-width:2px,color:#ffffff;
+    classDef c_red fill:#5c1d24,stroke:#f87171,stroke-width:2px,color:#ffffff;
+    N0_0["【存量 Stock】<br/>（例: 銀行存款、庫存資產）<br/>積蓄水位 Current Level"]:::c_blue
 ```
 
 ---
@@ -47,15 +46,18 @@ $$\frac{d\text{Stock}(t)}{dt} = \text{Net Flow}(t) = \text{Inflow}(t) - \text{Ou
 
 現代會計四大報表本質上就是一套極度嚴密的「存量-流量互動模型」：
 
-```
-【期初資產負債表】                【期間動態流量表】                 【期末資產負債表】
-  (期初時點存量)                    (一段時間之流量)                   (期末時點存量)
-┌──────────────┐                 ┌──────────────┐                 ┌──────────────┐
-│  資產存量     │ ──────────────►│ 綜合損益表   │───────────────► │  資產存量     │
-│  負債存量     │  (營運資金投入) │ 現金流量表   │ (淨利轉保留盈餘)│  負債存量     │
-│  權益存量     │                 │ 權益變動表   │ (淨現金累積)    │  權益存量     │
-└──────────────┘                 └──────────────┘                 └──────────────┘
-  Time: t_0                        Period: [t_0, t_1]               Time: t_1
+**【期初資產負債表】                【期間動態流量表】                 【期末資產負債表】**
+
+```mermaid
+flowchart TD
+    classDef c_blue fill:#1e3a5f,stroke:#60a5fa,stroke-width:2px,color:#ffffff;
+    classDef c_green fill:#143823,stroke:#4ade80,stroke-width:2px,color:#ffffff;
+    classDef c_amber fill:#3d2806,stroke:#fbbf24,stroke-width:2px,color:#ffffff;
+    classDef c_purple fill:#3b1d54,stroke:#c084fc,stroke-width:2px,color:#ffffff;
+    classDef c_red fill:#5c1d24,stroke:#f87171,stroke-width:2px,color:#ffffff;
+    N0_0["資產存量<br/>負債存量<br/>權益存量"]:::c_blue
+    N0_1["綜合損益表<br/>現金流量表<br/>權益變動表"]:::c_green
+    N0_2["資產存量<br/>負債存量<br/>權益存量"]:::c_amber
 ```
 
 - **資產負債表 (Balance Sheet)**：典型的**靜態存量表**，記錄特定日期的資源水位；

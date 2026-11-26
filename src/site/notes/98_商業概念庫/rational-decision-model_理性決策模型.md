@@ -18,31 +18,26 @@
 
 儘管西蒙的[[98_商業概念庫/bounded-rationality_有限理性\|有限理性學說]]與行為經濟學揭示了真實人類無法完全達成純粹理性，但「理性決策模型」依然是現代企業架構治理機制、投資銀行併購評估、跨國資本預算與戰略風險管理不可或缺的**理想基準 (Benchmark)** 與審計參照系。
 
-```
-【理性決策模型標準六階段閉環】
-  ┌────────────────────────────────────────────────────────┐
-  │ 1. 識別並界定問題 (Define the Problem)               │
-  └──────────────────────────┬─────────────────────────────┘
-                             ▼
-  ┌────────────────────────────────────────────────────────┐
-  │ 2. 確定決策標準與指標 (Identify Decision Criteria)    │
-  └──────────────────────────┬─────────────────────────────┘
-                             ▼
-  ┌────────────────────────────────────────────────────────┐
-  │ 3. 分配標準權重 (Allocate Weights to Criteria)        │
-  └──────────────────────────┬─────────────────────────────┘
-                             ▼
-  ┌────────────────────────────────────────────────────────┐
-  │ 4. 發展並窮舉替代方案 (Develop Alternatives)           │
-  └──────────────────────────┬─────────────────────────────┘
-                             ▼
-  ┌────────────────────────────────────────────────────────┐
-  │ 5. 評估方案並計算期望值 (Evaluate Alternatives)       │
-  └──────────────────────────┬─────────────────────────────┘
-                             ▼
-  ┌────────────────────────────────────────────────────────┐
-  │ 6. 選擇並執行最佳方案 (Select Best & Implement)        │
-  └────────────────────────────────────────────────────────┘
+**【理性決策模型標準六階段閉環】**
+
+```mermaid
+flowchart TD
+    classDef c_blue fill:#1e3a5f,stroke:#60a5fa,stroke-width:2px,color:#ffffff;
+    classDef c_green fill:#143823,stroke:#4ade80,stroke-width:2px,color:#ffffff;
+    classDef c_amber fill:#3d2806,stroke:#fbbf24,stroke-width:2px,color:#ffffff;
+    classDef c_purple fill:#3b1d54,stroke:#c084fc,stroke-width:2px,color:#ffffff;
+    classDef c_red fill:#5c1d24,stroke:#f87171,stroke-width:2px,color:#ffffff;
+    N0_0["1. 識別並界定問題 （Define the Problem）"]:::c_blue
+    N1_0["2. 確定決策標準與指標 （Identify Decision Criteria）"]:::c_green
+    N2_0["3. 分配標準權重 （Allocate Weights to Criteria）"]:::c_amber
+    N3_0["4. 發展並窮舉替代方案 （Develop Alternatives）"]:::c_purple
+    N4_0["5. 評估方案並計算期望值 （Evaluate Alternatives）"]:::c_red
+    N5_0["6. 選擇並執行最佳方案 （Select Best & Implement）"]:::c_blue
+    N0_0 --> N1_0
+    N1_0 --> N2_0
+    N2_0 --> N3_0
+    N3_0 --> N4_0
+    N4_0 --> N5_0
 ```
 
 ---
@@ -79,8 +74,8 @@ $$
 | 比較維度 | 經典理性決策模型 (Rational Model) | 行為/有限理性模型 (Behavioral / Satisficing) |
 | :--- | :--- | :--- |
 | **模型屬性** | 規範性 (應當如何做，Normative) | 描述性 (實際上如何做，Descriptive) |
-| **問題認知** | 問題界定清晰客觀，無偏見 | 問題界定受主觀[[mode_心智模式|心智模式]]與情境框架影響 |
-| **準則與權重** | 準則客觀量化，權重固定且透明 | 準則隨經驗浮動，易受[[anchoring-effect_錨定效應|錨定效應]]干擾 |
+| **問題認知** | 問題界定清晰客觀，無偏見 | 問題界定受主觀[[98_商業概念庫/mode_心智模式\|心智模式]]與情境框架影響 |
+| **準則與權重** | 準則客觀量化，權重固定且透明 | 準則隨經驗浮動，易受[[98_商業概念庫/anchoring-effect_錨定效應\|錨定效應]]干擾 |
 | **方案生成** | 窮舉所有可行的替代方案 | 依賴經驗局部搜尋，僅生成少數方案 |
 | **評估機制** | 同步全方位比較，計算最高期望值 | 循序評估，達標（滿意）即停止搜尋 |
 | **主要應用場景** | 重大資本預算、大型併購評估、合規風控 | 危機應變、高階人事招募、動態創業決策 |
@@ -91,12 +86,12 @@ $$
 
 ### 1. 奇異公司 (GE) Capital 投資委員會的資本預算理性審查
 在傑克·威爾許 (Jack Welch) 與後續治理時代，GE Capital 管理數千億美元資產，其重大併購與信貸配置嚴格採用理性決策模型的架構：
-- **嚴格六步閉環**：針對任何超過 5,000 萬美元的資本支出，團隊必須建立多變數折現模型（[[NPV_淨現值法 _Net Present Value|淨現值法]]、[[internal-rate-of-return_內部報酬率|IRR]]、回收期）。
+- **嚴格六步閉環**：針對任何超過 5,000 萬美元的資本支出，團隊必須建立多變數折現模型（[[98_商業概念庫/NPV_淨現值法 _Net Present Value\|淨現值法]]、[[98_商業概念庫/internal-rate-of-return_內部報酬率\|IRR]]、回收期）。
 - **機率加權與壓力測試**：強制建立三種宏觀經濟情境（基準、滯脹、衰退），指派獨立審計團隊分配情境機率，計算加權期望淨現值。
 - **治理功能**：此類理性決策模型並非保證每一次預測都 100% 精準，而是逼迫經理人將所有隱性假設（Implicit Assumptions）顯性化，降低個別主管因過度自信而帶來的災難性非理性下注。
 
 ### 2. 挑戰者號太空梭災難中的「理性模型失靈」
-1986 年 NASA 挑戰者號發射悲劇（詳見 [[Carter_Racing_NASA_Challenger_卡特賽車與挑戰者號決策個案]]）是理性決策模型在政治與組織壓力下被扭曲的慘痛教科書案例：
+1986 年 NASA 挑戰者號發射悲劇（詳見 [[98_商業概念庫/Carter_Racing_NASA_Challenger_卡特賽車與挑戰者號決策個案\|Carter_Racing_NASA_Challenger_卡特賽車與挑戰者號決策個案]]）是理性決策模型在政治與組織壓力下被扭曲的慘痛教科書案例：
 - **界定問題偏差**：管理層將問題界定為「如何確保在排定時間發射以滿足國會公關與預算」，而非「低溫環境下 O-ring 橡膠環的失效率物理極限」。
 - **數據評估偏誤**：工程師展示了過去低溫損壞的數據，但高層卻反向要求工程師「證明發射是不安全的」，將舉證責任倒置，違反了客觀概率評估的理性原則。
 - **啟示**：理性決策模型若缺乏獨立客觀的文化環境與異議保護機制，將淪為官僚組織用來為既定政治結論背書的偽理性道具。
@@ -105,26 +100,30 @@ $$
 
 ## 四、 經理人反思與行動檢核清單
 
-```
-                               理性決策治理三層防禦
-┌─────────────────────────┬─────────────────────────┬─────────────────────────┐
-│     1. 問題本質界定     │     2. 權重與方案獨立性 │     3. 偽理性道具警訊   │
-│ 排除症狀干擾，直擊根因  │ 評估前鎖定準則，防止射箭再畫靶│ 檢驗模型是否淪為背書工具│
-└─────────────────────────┴─────────────────────────┴─────────────────────────┘
+**理性決策治理三層防禦**
+
+```mermaid
+flowchart TD
+    classDef c_blue fill:#1e3a5f,stroke:#60a5fa,stroke-width:2px,color:#ffffff;
+    classDef c_green fill:#143823,stroke:#4ade80,stroke-width:2px,color:#ffffff;
+    classDef c_amber fill:#3d2806,stroke:#fbbf24,stroke-width:2px,color:#ffffff;
+    classDef c_purple fill:#3b1d54,stroke:#c084fc,stroke-width:2px,color:#ffffff;
+    classDef c_red fill:#5c1d24,stroke:#f87171,stroke-width:2px,color:#ffffff;
+    N0_0["1. 問題本質界定     │     2. 權重與方案獨立性 │     3. 偽理性道具警訊<br/>排除症狀干擾，直擊根因  │ 評估前鎖定準則，防止射箭再畫靶│ 檢驗模型是否淪為背書工具"]:::c_blue
 ```
 
 ### Executive Decision Checklist
 - [ ] **根因界定檢驗**：我們當前面對的決策，界定的是真正的「核心病因」，還是僅僅是表面顯現的「病徵（如業績下滑）」？
 - [ ] **評估準則前置鎖定**：重大戰略採購或供應商決選前，各項準則及其權重是否已由委員會在看到具體廠商報價前完成凍結？（防止先射箭後畫靶）
 - [ ] **反對方案產生**：團隊是否真正窮舉並認真分析了至少 3 個以上實質不同的替代方案？是否存在「稻草人方案」以護航預定選項？
-- [ ] **敏感度與臨界點審查**：對於方案的關鍵預測參數，是否執行了[[analysis-2_敏感度分析|敏感度分析]]，確認使 NPV 轉負的臨界變數為何？
+- [ ] **敏感度與臨界點審查**：對於方案的關鍵預測參數，是否執行了[[98_商業概念庫/analysis-2_敏感度分析\|敏感度分析]]，確認使 NPV 轉負的臨界變數為何？
 - [ ] **獨立復核機制**：重大專案模型中的折現率與現金流預測，是否有無利益衝突的財務或風控部門進行雙重盲審？
 
 ---
 
 ## 五、 關聯概念與延伸閱讀
 
-- 理論基石：[[bounded-rationality_有限理性]] ｜ [[satisficing-decision_滿意決策]]
-- 決策工具：[[NPV_淨現值法 _Net Present Value]] ｜ [[analysis-2_敏感度分析]] ｜ [[scenario-planning_情境規劃]]
-- 認知與行為糾偏：[[cognitive-bias_認知偏誤]] ｜ [[anchoring-effect_錨定效應]] ｜ [[confirmation-bias_確認偏誤]]
-- 實務個案參照：[[Carter_Racing_NASA_Challenger_卡特賽車與挑戰者號決策個案]] ｜ [[Prospect_Theory_Executive_Risk_展望理論與高管風險決策]]
+- 理論基石：[[98_商業概念庫/bounded-rationality_有限理性\|bounded-rationality_有限理性]] ｜ [[98_商業概念庫/satisficing-decision_滿意決策\|satisficing-decision_滿意決策]]
+- 決策工具：[[98_商業概念庫/NPV_淨現值法 _Net Present Value\|NPV_淨現值法 _Net Present Value]] ｜ [[98_商業概念庫/analysis-2_敏感度分析\|analysis-2_敏感度分析]] ｜ [[98_商業概念庫/scenario-planning_情境規劃\|scenario-planning_情境規劃]]
+- 認知與行為糾偏：[[98_商業概念庫/cognitive-bias_認知偏誤\|cognitive-bias_認知偏誤]] ｜ [[98_商業概念庫/anchoring-effect_錨定效應\|anchoring-effect_錨定效應]] ｜ [[98_商業概念庫/confirmation-bias_確認偏誤\|confirmation-bias_確認偏誤]]
+- 實務個案參照：[[98_商業概念庫/Carter_Racing_NASA_Challenger_卡特賽車與挑戰者號決策個案\|Carter_Racing_NASA_Challenger_卡特賽車與挑戰者號決策個案]] ｜ [[98_商業概念庫/Prospect_Theory_Executive_Risk_展望理論與高管風險決策\|Prospect_Theory_Executive_Risk_展望理論與高管風險決策]]

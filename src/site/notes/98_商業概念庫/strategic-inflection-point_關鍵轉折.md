@@ -48,9 +48,9 @@
 
 | 轉折階段 | 組織核心特徵 | 經理人心理病理 | 領導者關鍵行動 |
 | :--- | :--- | :--- | :--- |
-| **第一階段：訊號微弱期** | 傳統核心業務營收仍創新高，但邊際毛利率開始隱蔽性下滑 | [[confirmation-bias_確認偏誤|確認偏誤]]，將新技術視為小眾雜訊 | 傾聽組織內部的「卡珊德拉 (Cassandra，警世烏鴉)」 |
-| **第二階段：否認與爭辯** | 10X 力量全面爆發，主力產品遭受正面重創 | [[cognitive-dissonance_認知失調|認知失調]]，高管互相推諉責任 | 召集無利益關聯的跨部門幹部直面客觀數據 |
-| **第三階段：混亂死亡谷** | 舊業務加速萎縮，新業務尚未形成足夠造血能力 | 組織迷惘、骨幹流失、士氣崩潰 | 破釜沉舟，果斷退出舊領域，啟動[[strategy-9_轉機型策略|轉機型策略]] |
+| **第一階段：訊號微弱期** | 傳統核心業務營收仍創新高，但邊際毛利率開始隱蔽性下滑 | [[98_商業概念庫/confirmation-bias_確認偏誤\|確認偏誤]]，將新技術視為小眾雜訊 | 傾聽組織內部的「卡珊德拉 (Cassandra，警世烏鴉)」 |
+| **第二階段：否認與爭辯** | 10X 力量全面爆發，主力產品遭受正面重創 | [[98_商業概念庫/cognitive-dissonance_認知失調\|認知失調]]，高管互相推諉責任 | 召集無利益關聯的跨部門幹部直面客觀數據 |
+| **第三階段：混亂死亡谷** | 舊業務加速萎縮，新業務尚未形成足夠造血能力 | 組織迷惘、骨幹流失、士氣崩潰 | 破釜沉舟，果斷退出舊領域，啟動[[98_商業概念庫/strategy-9_轉機型策略\|轉機型策略]] |
 | **第四階段：重見曙光期** | 新業務飛輪效應成型，確立全新核心競爭力 | 團隊重拾信心，文化轉型落地 | 全面重組組織結構，鞏固新護城河 |
 
 ---
@@ -76,12 +76,16 @@
 
 ## 四、 經理人反思與行動檢核清單
 
-```
-                               策略轉折點預警自檢架構
-┌─────────────────────────┬─────────────────────────┬─────────────────────────┐
-│     1. 尋找十倍速威脅   │     2. 審查資源分配脫節 │     3. 擺脫歷史沉沒枷鎖 │
-│ 評估哪一項競爭維度突變  │ 檢視一線行為與官方策略差異│ 敢於設想「新CEO會做什麼」│
-└─────────────────────────┴─────────────────────────┴─────────────────────────┘
+**策略轉折點預警自檢架構**
+
+```mermaid
+flowchart TD
+    classDef c_blue fill:#1e3a5f,stroke:#60a5fa,stroke-width:2px,color:#ffffff;
+    classDef c_green fill:#143823,stroke:#4ade80,stroke-width:2px,color:#ffffff;
+    classDef c_amber fill:#3d2806,stroke:#fbbf24,stroke-width:2px,color:#ffffff;
+    classDef c_purple fill:#3b1d54,stroke:#c084fc,stroke-width:2px,color:#ffffff;
+    classDef c_red fill:#5c1d24,stroke:#f87171,stroke-width:2px,color:#ffffff;
+    N0_0["1. 尋找十倍速威脅   │     2. 審查資源分配脫節 │     3. 擺脫歷史沉沒枷鎖<br/>評估哪一項競爭維度突變  │ 檢視一線行為與官方策略差異│ 敢於設想「新CEO會做什麼」"]:::c_blue
 ```
 
 ### Executive Decision Checklist
@@ -89,13 +93,13 @@
 - [ ] **策略不協調排查**：高管會議上所討論的「戰略重點」，與研發團隊私底下實際投入最多工時的「真實專案」，兩者是否存在顯著的背離？
 - [ ] **傾聽組織卡珊德拉**：組織內部那些經常發表刺耳言論、警告新威脅的第一線業務或技術奇才，是否遭到中層官僚的邊緣化與打壓？
 - [ ] **重置視角的勇氣**：面對瀕臨破產或重度虧損的專案，管理層是否具備勇氣問自己：「若今天我是剛被聘任的空降 CEO，我會立刻關閉哪個事業群？」
-- [ ] **自我革命意志**：我們是否有決心親手殺死貢獻當前主要利潤的舊產品，以換取在新興戰場上的先發入場券？（落實[[cannibalization_自我蠶食|自我蠶食]]）
+- [ ] **自我革命意志**：我們是否有決心親手殺死貢獻當前主要利潤的舊產品，以換取在新興戰場上的先發入場券？（落實[[98_商業概念庫/cannibalization_自我蠶食\|自我蠶食]]）
 
 ---
 
 ## 五、 關聯概念與延伸閱讀
 
-- 核心戰略轉型：[[strategy-9_轉機型策略]] ｜ [[creative-destruction_創造性破壞]] ｜ [[cannibalization_自我蠶食]]
-- 競爭結構分析：[[Porter's Five Forces Analysis_波特五力分析]] ｜ [[Hypercompetition_動態超競爭理論]] ｜ [[Performance_Oversupply_性能過剩與破壞性創新]]
-- 領導心智與決策：[[tolerance-for-ambiguity_模糊容忍度]] ｜ [[decision-competence_模糊決策能力]] ｜ [[mode_心智模式]]
-- 組織變革與動態：[[organizational-change_組織變革]] ｜ [[learning-organization_學習型組織]] ｜ [[sunk-cost_沉沒成本]]
+- 核心戰略轉型：[[98_商業概念庫/strategy-9_轉機型策略\|strategy-9_轉機型策略]] ｜ [[98_商業概念庫/creative-destruction_創造性破壞\|creative-destruction_創造性破壞]] ｜ [[98_商業概念庫/cannibalization_自我蠶食\|cannibalization_自我蠶食]]
+- 競爭結構分析：[[98_商業概念庫/Porter's Five Forces Analysis_波特五力分析\|Porter's Five Forces Analysis_波特五力分析]] ｜ [[98_商業概念庫/Hypercompetition_動態超競爭理論\|Hypercompetition_動態超競爭理論]] ｜ [[98_商業概念庫/Performance_Oversupply_性能過剩與破壞性創新\|Performance_Oversupply_性能過剩與破壞性創新]]
+- 領導心智與決策：[[98_商業概念庫/tolerance-for-ambiguity_模糊容忍度\|tolerance-for-ambiguity_模糊容忍度]] ｜ [[98_商業概念庫/decision-competence_模糊決策能力\|decision-competence_模糊決策能力]] ｜ [[98_商業概念庫/mode_心智模式\|mode_心智模式]]
+- 組織變革與動態：[[98_商業概念庫/organizational-change_組織變革\|organizational-change_組織變革]] ｜ [[98_商業概念庫/learning-organization_學習型組織\|learning-organization_學習型組織]] ｜ [[98_商業概念庫/sunk-cost_沉沒成本\|sunk-cost_沉沒成本]]

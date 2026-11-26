@@ -57,7 +57,7 @@ $$
 | :--- | :--- | :--- |
 | **典型產業類別** | **銀行、保險、證券、航運、鋼鐵、公用事業** | **軟體 SaaS、生技研發、半導體 Fabless、品牌消費品** |
 | **資產結構特徵** | 資產主要由現金、貸款、證券、廠房船舶等**實體有形資產**構成，公允價值易於審計。 | 核心資產為專利代碼、研發團隊、品牌商譽等**無形資產**，依法在資產負債表上被全額費用化。 |
-| **會計失真陷阱** | 需警惕不良資產未提列跌價（隱藏壞帳）。 | 實施大規模[[share-repurchase_股票買回|股票買回]]的企業，淨資產可能被核減至負數，導致 P/B 失去數學意義。 |
+| **會計失真陷阱** | 需警惕不良資產未提列跌價（隱藏壞帳）。 | 實施大規模[[98_商業概念庫/share-repurchase_股票買回\|股票買回]]的企業，淨資產可能被核減至負數，導致 P/B 失去數學意義。 |
 
 ---
 
@@ -77,26 +77,30 @@ $$
 
 ## 四、 經理人反思與行動檢核清單
 
-```
-                               P/B 估值健全度審核矩陣
-┌─────────────────────────┬─────────────────────────┬─────────────────────────┐
-│     1. 有形淨資產穿透   │     2. ROE 長期可持續性 │     3. 警惕破淨陷阱     │
-│ 剔除商譽與無形資產計算TBVP│ 檢驗 ROE 是否高於權益成本r│ 辨識低 P/B 是便宜還是瀕死 │
-└─────────────────────────┴─────────────────────────┴─────────────────────────┘
+**P/B 估值健全度審核矩陣**
+
+```mermaid
+flowchart TD
+    classDef c_blue fill:#1e3a5f,stroke:#60a5fa,stroke-width:2px,color:#ffffff;
+    classDef c_green fill:#143823,stroke:#4ade80,stroke-width:2px,color:#ffffff;
+    classDef c_amber fill:#3d2806,stroke:#fbbf24,stroke-width:2px,color:#ffffff;
+    classDef c_purple fill:#3b1d54,stroke:#c084fc,stroke-width:2px,color:#ffffff;
+    classDef c_red fill:#5c1d24,stroke:#f87171,stroke-width:2px,color:#ffffff;
+    N0_0["1. 有形淨資產穿透   │     2. ROE 長期可持續性 │     3. 警惕破淨陷阱<br/>剔除商譽與無形資產計算TBVP│ 檢驗 ROE 是否高於權益成本r│ 辨識低 P/B 是便宜還是瀕死"]:::c_blue
 ```
 
 ### Executive Decision Checklist
 - [ ] **有形每股淨值 (TBVPS) 檢驗**：在計算資產負債表淨值時，是否已扣除過去併購溢價累積的巨額「商譽 (Goodwill)」與開發成本資本化項目？
 - [ ] **資產減記壓力測試**：若對庫存存貨、逾期 90 天以上應收帳款及閒置老舊廠房設備進行保守清算重估，公司的真實淨資產是否會縮水 30% 以上？
 - [ ] **ROE 與 P/B 匹配度審查**：若公司當前 P/B 高達 5 倍，我們的 ROE 是否能長期穩定維持在 25% 以上？若 ROE 僅有 8%，股價是否深陷嚴重的過度高估泡沫？
-- [ ] **防範低估值陷阱 ([[value-trap_價值陷阱]])**：當看到一家同業企業 P/B 僅有 0.4 倍時，是否深入排查其所處產業是否正遭受破壞性技術淘汰，或是面臨未決的巨額環境/法律索賠？
+- [ ] **防範低估值陷阱 ([[98_商業概念庫/value-trap_價值陷阱\|value-trap_價值陷阱]])**：當看到一家同業企業 P/B 僅有 0.4 倍時，是否深入排查其所處產業是否正遭受破壞性技術淘汰，或是面臨未決的巨額環境/法律索賠？
 - [ ] **資本分配優化決策**：若本公司股票長期深陷「破淨折價 (P/B < 0.8)」，管理層應當立即停止新建產能擴張，轉而將自由現金流用於買回註銷自家股票，直接增厚每股淨值。
 
 ---
 
 ## 五、 關聯概念與延伸閱讀
 
-- 估值指標體系：[[earnings-per-share_每股盈餘]] ｜ [[net-income_本期淨利]] ｜ [[EPV_盈餘能力價值模型 Earnings Power Value]]
-- 價值陷阱與風險：[[value-trap_價值陷阱]] ｜ [[davis-double-whammy_戴維斯雙殺效應]] ｜ [[financial-cost_財務危機成本]]
-- 資本配置與回購：[[share-repurchase_股票買回]] ｜ [[return-on-invested-capital_資本投入報酬率]] ｜ [[wacc_加權平均資本成本]]
-- 資本結構與破產：[[modigliani-miller-theorem_莫迪利安尼米勒定理]] ｜ [[direct-bankruptcy-cost_直接破產成本]] ｜ [[accounting-principles_會計保守原則]]
+- 估值指標體系：[[98_商業概念庫/earnings-per-share_每股盈餘\|earnings-per-share_每股盈餘]] ｜ [[98_商業概念庫/net-income_本期淨利\|net-income_本期淨利]] ｜ [[98_商業概念庫/EPV_盈餘能力價值模型 Earnings Power Value\|EPV_盈餘能力價值模型 Earnings Power Value]]
+- 價值陷阱與風險：[[98_商業概念庫/value-trap_價值陷阱\|value-trap_價值陷阱]] ｜ [[98_商業概念庫/davis-double-whammy_戴維斯雙殺效應\|davis-double-whammy_戴維斯雙殺效應]] ｜ [[98_商業概念庫/financial-cost_財務危機成本\|financial-cost_財務危機成本]]
+- 資本配置與回購：[[98_商業概念庫/share-repurchase_股票買回\|share-repurchase_股票買回]] ｜ [[98_商業概念庫/return-on-invested-capital_資本投入報酬率\|return-on-invested-capital_資本投入報酬率]] ｜ [[98_商業概念庫/wacc_加權平均資本成本\|wacc_加權平均資本成本]]
+- 資本結構與破產：[[98_商業概念庫/modigliani-miller-theorem_莫迪利安尼米勒定理\|modigliani-miller-theorem_莫迪利安尼米勒定理]] ｜ [[98_商業概念庫/direct-bankruptcy-cost_直接破產成本\|direct-bankruptcy-cost_直接破產成本]] ｜ [[98_商業概念庫/accounting-principles_會計保守原則\|accounting-principles_會計保守原則]]

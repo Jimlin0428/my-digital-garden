@@ -14,19 +14,14 @@
 
 $$\text{Total Asset Turnover} = \frac{\text{營業收入 (Revenue)}}{\text{平均資產總額 (Average Total Assets)}} = \frac{\text{Revenue}}{\frac{\text{期初資產} + \text{期末資產}}{2}}$$
 
-```
-┌─────────────────────────────────────────────────────────────────────────────┐
-│                 杜邦分析法 (DuPont Analysis) 三大支柱核心公式               │
-├─────────────────────────────────────────────────────────────────────────────┤
-│                                                                             │
-│      股東權益報酬率 (ROE) = 淨利率 (Margin) × 總資產周轉率 (TAT) × 權益乘數 (EM)│
-│                                                                             │
-│      $$\frac{\text{Net Income}}{\text{Equity}} = \frac{\text{Net Income}}{\text{Revenue}} \times \frac{\text{Revenue}}{\text{Assets}} \times \frac{\text{Assets}}{\text{Equity}}$$│
-│                                                                             │
-│      • 支柱 1：淨利率 (Profit Margin) ──▶ 反映【產品定價權與成本控制力】     │
-│      • 支柱 2：總資產周轉率 (Asset Turnover) ──▶ 反映【資產運用效率與營運節奏】│
-│      • 支柱 3：權益乘數 (Equity Multiplier) ──▶ 反映【財務槓桿與資本結構】  │
-└─────────────────────────────────────────────────────────────────────────────┘
+```mermaid
+flowchart TD
+    classDef c_blue fill:#1e3a5f,stroke:#60a5fa,stroke-width:2px,color:#ffffff;
+    classDef c_green fill:#143823,stroke:#4ade80,stroke-width:2px,color:#ffffff;
+    classDef c_amber fill:#3d2806,stroke:#fbbf24,stroke-width:2px,color:#ffffff;
+    classDef c_purple fill:#3b1d54,stroke:#c084fc,stroke-width:2px,color:#ffffff;
+    classDef c_red fill:#5c1d24,stroke:#f87171,stroke-width:2px,color:#ffffff;
+    N0_0["杜邦分析法 （DuPont Analysis） 三大支柱核心公式<br/>股東權益報酬率 （ROE） = 淨利率 （Margin） × 總資產周轉率 （TAT） × 權益乘數 （EM）<br/>$$\frac{\text{Net Income}}{\text{Equity}} = \frac{\text{Net Income}}{\text{Revenue}} \times \frac{\text{Revenue}}{\text{Assets}} \times \frac{\text{Assets}}{\text{Equity}}$$<br/>• 支柱 1：淨利率 （Profit Margin） ──▶ 反映【產品定價權與成本控制力】<br/>• 支柱 2：總資產周轉率 （Asset Turnover） ──▶ 反映【資產運用效率與營運節奏】<br/>• 支柱 3：權益乘數 （Equity Multiplier） ──▶ 反映【財務槓桿與資本結構】"]:::c_blue
 ```
 
 ---
@@ -42,8 +37,8 @@ $$\text{Total Asset Turnover} = \frac{\text{營業收入 (Revenue)}}{\text{平�
 
 ## 3. 關聯概念與延伸閱讀 (Cross References)
 
-- [[dupont-analysis_杜邦分析法]]：總資產周轉率之母架構。
-- [[inventory-3_存貨周轉率]]：流動資產周轉核心子指標。
-- [[fixed-assets_固定資產周轉率]]：長期資產周轉核心子指標。
-- [[sustainable-growth-rate_永續成長率]]：周轉率提升對永續成長率 SGR 的乘數效應。
-- [[home]]：PMBA 知識庫首頁與模組導航。
+- [[98_商業概念庫/dupont-analysis_杜邦分析法\|dupont-analysis_杜邦分析法]]：總資產周轉率之母架構。
+- [[98_商業概念庫/inventory-3_存貨周轉率\|inventory-3_存貨周轉率]]：流動資產周轉核心子指標。
+- [[98_商業概念庫/fixed-assets_固定資產周轉率\|fixed-assets_固定資產周轉率]]：長期資產周轉核心子指標。
+- [[98_商業概念庫/sustainable-growth-rate_永續成長率\|sustainable-growth-rate_永續成長率]]：周轉率提升對永續成長率 SGR 的乘數效應。
+- [[home\|home]]：PMBA 知識庫首頁與模組導航。

@@ -34,10 +34,10 @@
 
 | 構面維度 | 先發優勢核心驅動力 (First-Mover Advantages) | 先發劣勢與後發優勢 (Pioneer Hazards) |
 | :--- | :--- | :--- |
-| **技術與研發** | 率先沿著[[experience-curve_經驗曲線與學習曲線|學習曲線]]下滑，積累專利防禦網與製程訣竅 | **搭便車效應 (Free-Rider)**：後發者以極低成本逆向工程，研發成本僅需先驅者的 30% 至 50% |
+| **技術與研發** | 率先沿著[[98_商業概念庫/experience-curve_經驗曲線與學習曲線\|學習曲線]]下滑，積累專利防禦網與製程訣竅 | **搭便車效應 (Free-Rider)**：後發者以極低成本逆向工程，研發成本僅需先驅者的 30% 至 50% |
 | **資源獲取** | 鎖定最頂級供應商產能、搶佔黃金商圈門市、鎖定關鍵稀缺人才 | **資產沉沒與鎖定**：先驅者投資於初代落後技術產線，後發者直接採購最新一代高效率設備 |
 | **客戶與品牌** | 率先建立品牌認知成為品類代名詞（如可樂、全錄、Google） | **市場培育成本**：先驅者耗費巨資教育消費者，後發者坐享成熟市場瓜熟蒂落 |
-| **轉換成本** | 建立專有技術生態與資料積累，拉高用戶[[switching-costs_轉換成本|轉換成本]] | **顧客需求突變**：早期採用者 ([[early-adopters_早期採用者]]) 的需求與大眾市場主流需求脫節 |
+| **轉換成本** | 建立專有技術生態與資料積累，拉高用戶[[98_商業概念庫/switching-costs_轉換成本\|轉換成本]] | **顧客需求突變**：早期採用者 ([[98_商業概念庫/early-adopters_早期採用者\|early-adopters_早期採用者]]) 的需求與大眾市場主流需求脫節 |
 
 ### 2. 先驅者生存率數理實證：吉德爾與泰利斯研究
 南加州大學學者傑拉德·泰利斯與彼得·吉德爾 (Peter Golder & Gerard Tellis, 1993) 在其獲獎研究《先發優勢：先驅者還是早期進入者？》中，推翻了過去認為「先發者必贏」的通俗迷思：
@@ -65,26 +65,30 @@
 
 ## 四、 經理人反思與行動檢核清單
 
-```
-                               開創決策雙軌評估模型
-┌─────────────────────────┬─────────────────────────┬─────────────────────────┐
-│     1. 專利與保護機制   │     2. 網絡效應強度     │     3. 互補性資產儲備   │
-│ 技術是否能被有效專利隔離│ 是否具備雙邊自我強化網絡│ 製造、品牌與通路是否完備│
-└─────────────────────────┴─────────────────────────┴─────────────────────────┘
+**開創決策雙軌評估模型**
+
+```mermaid
+flowchart TD
+    classDef c_blue fill:#1e3a5f,stroke:#60a5fa,stroke-width:2px,color:#ffffff;
+    classDef c_green fill:#143823,stroke:#4ade80,stroke-width:2px,color:#ffffff;
+    classDef c_amber fill:#3d2806,stroke:#fbbf24,stroke-width:2px,color:#ffffff;
+    classDef c_purple fill:#3b1d54,stroke:#c084fc,stroke-width:2px,color:#ffffff;
+    classDef c_red fill:#5c1d24,stroke:#f87171,stroke-width:2px,color:#ffffff;
+    N0_0["1. 專利與保護機制   │     2. 網絡效應強度     │     3. 互補性資產儲備<br/>技術是否能被有效專利隔離│ 是否具備雙邊自我強化網絡│ 製造、品牌與通路是否完備"]:::c_blue
 ```
 
 ### Executive Decision Checklist
-- [ ] **護城河能否建立**：若我方率先推出該產品，我們是否具備足夠的[[network-effects_網絡效應|網絡效應]]或專利壁壘，防止大廠在 6 個月內直接逆向工程複製？
+- [ ] **護城河能否建立**：若我方率先推出該產品，我們是否具備足夠的[[98_商業概念庫/network-effects_網絡效應\|網絡效應]]或專利壁壘，防止大廠在 6 個月內直接逆向工程複製？
 - [ ] **互補性資產 (Complementary Assets) 充足性**：大衛·提斯 (David Teece) 指出，創新者能否獲利取決於互補資產。我們是否擁有足夠的全球通路、品牌知名度與製造產能將創新變現？
 - [ ] **市場教育成本評估**：我們是否有足夠的資本跑道，支撐長達數年的消費者教育期？（是否可能在黎明到來前現金耗盡倒下？）
 - [ ] **主動當快速跟隨者**：面對高度不確定的新前沿領域，先保持觀望、讓熱衷冒險的新創探路，待主流設計 (Dominant Design) 出現後以雄厚資源切入，是否是更明智的戰略選擇？
-- [ ] **跨越鴻溝準備**：我們的開創策略是否做好了從少數科技愛好者跨越到實用主義大眾市場的[[crossing-the-chasm_跨越鴻溝|跨越鴻溝戰術]]？
+- [ ] **跨越鴻溝準備**：我們的開創策略是否做好了從少數科技愛好者跨越到實用主義大眾市場的[[98_商業概念庫/crossing-the-chasm_跨越鴻溝\|跨越鴻溝戰術]]？
 
 ---
 
 ## 五、 關聯概念與延伸閱讀
 
-- 創新機制：[[creative-destruction_創造性破壞]] ｜ [[innovation_創新]] ｜ [[crossing-the-chasm_跨越鴻溝]]
-- 競爭戰略：[[market-leadership-zhe_市場領導者]] ｜ [[market-2_市場跟隨者]] ｜ [[market_市場挑戰者]]
-- 優勢與壁壘：[[competitive-advantage_競爭優勢]] ｜ [[network-effects_網絡效應]] ｜ [[switching-costs_轉換成本]]
-- 經營風險：[[strategic-inflection-point_關鍵轉折]] ｜ [[experience-curve_經驗曲線與學習曲線]] ｜ [[sunk-cost_沉沒成本]]
+- 創新機制：[[98_商業概念庫/creative-destruction_創造性破壞\|creative-destruction_創造性破壞]] ｜ [[98_商業概念庫/innovation_創新\|innovation_創新]] ｜ [[98_商業概念庫/crossing-the-chasm_跨越鴻溝\|crossing-the-chasm_跨越鴻溝]]
+- 競爭戰略：[[98_商業概念庫/market-leadership-zhe_市場領導者\|market-leadership-zhe_市場領導者]] ｜ [[98_商業概念庫/market-2_市場跟隨者\|market-2_市場跟隨者]] ｜ [[98_商業概念庫/market_市場挑戰者\|market_市場挑戰者]]
+- 優勢與壁壘：[[98_商業概念庫/competitive-advantage_競爭優勢\|competitive-advantage_競爭優勢]] ｜ [[98_商業概念庫/network-effects_網絡效應\|network-effects_網絡效應]] ｜ [[98_商業概念庫/switching-costs_轉換成本\|switching-costs_轉換成本]]
+- 經營風險：[[98_商業概念庫/strategic-inflection-point_關鍵轉折\|strategic-inflection-point_關鍵轉折]] ｜ [[98_商業概念庫/experience-curve_經驗曲線與學習曲線\|experience-curve_經驗曲線與學習曲線]] ｜ [[98_商業概念庫/sunk-cost_沉沒成本\|sunk-cost_沉沒成本]]

@@ -29,16 +29,14 @@ $$\text{SGR} = \frac{\text{ROE} \times b}{1 - \text{ROE} \times b}$$
 
 $$\text{SGR} = \underbrace{\frac{\text{Net Income}}{\text{Sales}}}_{\text{淨利率 (Profitability)}} \times \underbrace{\frac{\text{Sales}}{\text{Assets}}}_{\text{資產周轉率 (Efficiency)}} \times \underbrace{\frac{\text{Assets}}{\text{Equity}}}_{\text{權益乘數 (Leverage)}} \times \underbrace{(1 - \text{PR})}_{\text{留存政策 (Plowback)}}$$
 
-```
-                          ┌────────────────────────────┐
-                          │   驅動永續成長率的四大槓桿 │
-                          └─────────────┬──────────────┘
-                                        ▼
-    ┌───────────────────┬───────────────┴───────────────┬───────────────────┐
-    ▼                   ▼                               ▼                   ▼
-【1. 營業淨利率】       【2. 總資產周轉率】             【3. 財務槓桿乘數】 【4. 盈餘留存率】
- • 產品定價權與成本控制  • 供應鏈與營運資金周轉速度      • 舉債容量與財務結構  • 股利政策與分紅決策
- • 改善路徑：價值定位    • 改善路徑：精益生產、縮短CCC   • 改善路徑：適度舉債  • 改善路徑：降低配息率
+```mermaid
+flowchart TD
+    classDef c_blue fill:#1e3a5f,stroke:#60a5fa,stroke-width:2px,color:#ffffff;
+    classDef c_green fill:#143823,stroke:#4ade80,stroke-width:2px,color:#ffffff;
+    classDef c_amber fill:#3d2806,stroke:#fbbf24,stroke-width:2px,color:#ffffff;
+    classDef c_purple fill:#3b1d54,stroke:#c084fc,stroke-width:2px,color:#ffffff;
+    classDef c_red fill:#5c1d24,stroke:#f87171,stroke-width:2px,color:#ffffff;
+    N0_0["驅動永續成長率的四大槓桿"]:::c_blue
 ```
 
 ---
@@ -58,8 +56,8 @@ flowchart TD
 ---
 
 ## 3. 核心概念關聯地圖
-- **股利聯動**：[[dividend-payout-ratio_股利發放率]] · 決定留存比例 $b$ 的直接源頭
-- **核心政策**：[[dividend-policy_股利政策]] · 企業平衡增長與股東現金回報的頂層框架
-- **盈利驅動**：[[dupont-analysis_杜邦分析法]] · 拆解 ROE 對 SGR 的底層運作機制
-- **資本結構**：[[capital-structure_資本結構]] · 負債權益乘數對成長上限的調控
-- **導航總覽**：[[home]] · 全球 PMBA 知識庫總導航主頁面
+- **股利聯動**：[[98_商業概念庫/dividend-payout-ratio_股利發放率\|dividend-payout-ratio_股利發放率]] · 決定留存比例 $b$ 的直接源頭
+- **核心政策**：[[98_商業概念庫/dividend-policy_股利政策\|dividend-policy_股利政策]] · 企業平衡增長與股東現金回報的頂層框架
+- **盈利驅動**：[[98_商業概念庫/dupont-analysis_杜邦分析法\|dupont-analysis_杜邦分析法]] · 拆解 ROE 對 SGR 的底層運作機制
+- **資本結構**：[[98_商業概念庫/capital-structure_資本結構\|capital-structure_資本結構]] · 負債權益乘數對成長上限的調控
+- **導航總覽**：[[home\|home]] · 全球 PMBA 知識庫總導航主頁面

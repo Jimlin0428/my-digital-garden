@@ -34,17 +34,17 @@
 
 低模糊容忍度的經理人具備極高的閉合需求，在決策過程中展現出兩大破壞性病理行為：
 1. **緊抓不放 (Urgency Tendency / Seizing)**：渴望在最短時間內獲得「一個確定的答案」，草率接受第一個浮現的假說，以消除大腦面對未知的懸浮焦慮。
-2. **頑固僵化 (Permanence Tendency / Freezing)**：一旦形成某個初步結論，即刻將心智大門「冰凍鎖死」，拒絕吸收後續出現的任何反面新證據，深陷[[confirmation-bias_確認偏誤|確認偏誤]]。
+2. **頑固僵化 (Permanence Tendency / Freezing)**：一旦形成某個初步結論，即刻將心智大門「冰凍鎖死」，拒絕吸收後續出現的任何反面新證據，深陷[[98_商業概念庫/confirmation-bias_確認偏誤\|確認偏誤]]。
 
 ### 2. 高階領導人模糊容忍度高低光譜對照
 
 | 比較維度 | 低模糊容忍度經理人 (Low TFA) | 高模糊容忍度經理人 (High TFA) |
 | :--- | :--- | :--- |
 | **面對市場突變** | 感到極度焦慮、指責體系混亂、要求更多繁瑣公文與細節報告 | 泰然處之，視混亂為重塑產業規則的戰略窗口 |
-| **資訊不足時** | 拒絕採取行動，陷入「分析癱瘓」，直至機會窗口關閉 | 啟動[[validated-learning_驗證式學習|小步快跑試驗]]，在行動中獲取反饋與資訊 |
+| **資訊不足時** | 拒絕採取行動，陷入「分析癱瘓」，直至機會窗口關閉 | 啟動[[98_商業概念庫/validated-learning_驗證式學習\|小步快跑試驗]]，在行動中獲取反饋與資訊 |
 | **組織溝通風格** | 要求下屬給出「是或否」的非黑即白回答，無法容忍灰色地帶 | 鼓勵跨領域碰撞，能夠理解並處理組織內部的悖論與張力 |
 | **創新與研發取向** | 偏好漸進式、可高度預測的小修小補改善 | 敢於押注破壞性創新與從 0 到 1 的未開拓領域 |
-| **失敗歸因傾向** | 強烈受[[fundamental-attribution-error_基本歸因謬誤|基本歸因謬誤]]驅動，尋找替罪羊以重建確定感 | 採用[[system_系統思考|系統思考]]覆盤，承認環境隨機性與動態複雜性 |
+| **失敗歸因傾向** | 強烈受[[98_商業概念庫/fundamental-attribution-error_基本歸因謬誤\|基本歸因謬誤]]驅動，尋找替罪羊以重建確定感 | 採用[[98_商業概念庫/system_系統思考\|系統思考]]覆盤，承認環境隨機性與動態複雜性 |
 
 ---
 
@@ -59,18 +59,22 @@
 ### 2. 傳統商業銀行 vs. 頂級創投 (VC) 合夥人的心智壁壘
 金融領域展現了模糊容忍度的鮮明對比：
 - **商業銀行信貸審查員（極低 TFA）**：依賴抵押品價值、過去三年審計財報、確定現金流覆蓋率。面對缺乏營收記錄的硬科技新創，因無法消除不確定性而本能拒貸。
-- **頂級創投合夥人（極高 TFA）**：深知種子期企業未來充滿巨大模糊性，無法透過 Excel 預測。他們容忍 80% 的投資項目歸零，聚焦於少數具備非對稱爆發力（[[VC|冪律分佈]]）的「全壘打項目」，展現出在極致模糊中進行資本配置的專業能耐。
+- **頂級創投合夥人（極高 TFA）**：深知種子期企業未來充滿巨大模糊性，無法透過 Excel 預測。他們容忍 80% 的投資項目歸零，聚焦於少數具備非對稱爆發力（[[98_商業概念庫/VC\|冪律分佈]]）的「全壘打項目」，展現出在極致模糊中進行資本配置的專業能耐。
 
 ---
 
 ## 四、 經理人反思與行動檢核清單
 
-```
-                               培養模糊容忍度的高階領導心智法門
-┌─────────────────────────┬─────────────────────────┬─────────────────────────┐
-│     1. 覺察閉合焦慮     │     2. 灰度思考，黑白執行│     3. 打造心理安全網   │
-│ 辨識「急於拍板」的情緒衝動│ 思考時擁抱多維悖論與張力│ 降低試錯成本，寬容誠實失敗│
-└─────────────────────────┴─────────────────────────┴─────────────────────────┘
+**培養模糊容忍度的高階領導心智法門**
+
+```mermaid
+flowchart TD
+    classDef c_blue fill:#1e3a5f,stroke:#60a5fa,stroke-width:2px,color:#ffffff;
+    classDef c_green fill:#143823,stroke:#4ade80,stroke-width:2px,color:#ffffff;
+    classDef c_amber fill:#3d2806,stroke:#fbbf24,stroke-width:2px,color:#ffffff;
+    classDef c_purple fill:#3b1d54,stroke:#c084fc,stroke-width:2px,color:#ffffff;
+    classDef c_red fill:#5c1d24,stroke:#f87171,stroke-width:2px,color:#ffffff;
+    N0_0["1. 覺察閉合焦慮     │     2. 灰度思考，黑白執行│     3. 打造心理安全網<br/>辨識「急於拍板」的情緒衝動│ 思考時擁抱多維悖論與張力│ 降低試錯成本，寬容誠實失敗"]:::c_blue
 ```
 
 ### Executive Decision Checklist
@@ -84,7 +88,7 @@
 
 ## 五、 關聯概念與延伸閱讀
 
-- 核心能力：[[decision-competence_模糊決策能力]] ｜ [[intuitive-decision-making_直覺決策]] ｜ [[strategic-leadership_策略領導力]]
-- 認知與行為：[[mode_心智模式]] ｜ [[bounded-rationality_有限理性]] ｜ [[confirmation-bias_確認偏誤]]
-- 決策方法論：[[scenario-planning_情境規劃]] ｜ [[validated-learning_驗證式學習]] ｜ [[MVP最小可行產品]]
-- 組織適應性：[[learning-organization_學習型組織]] ｜ [[organizational-behavior_組織行為]] ｜ [[Organizational_Ambidexterity_組織雙巧性]]
+- 核心能力：[[98_商業概念庫/decision-competence_模糊決策能力\|decision-competence_模糊決策能力]] ｜ [[98_商業概念庫/intuitive-decision-making_直覺決策\|intuitive-decision-making_直覺決策]] ｜ [[98_商業概念庫/strategic-leadership_策略領導力\|strategic-leadership_策略領導力]]
+- 認知與行為：[[98_商業概念庫/mode_心智模式\|mode_心智模式]] ｜ [[98_商業概念庫/bounded-rationality_有限理性\|bounded-rationality_有限理性]] ｜ [[98_商業概念庫/confirmation-bias_確認偏誤\|confirmation-bias_確認偏誤]]
+- 決策方法論：[[98_商業概念庫/scenario-planning_情境規劃\|scenario-planning_情境規劃]] ｜ [[98_商業概念庫/validated-learning_驗證式學習\|validated-learning_驗證式學習]] ｜ [[98_商業概念庫/MVP最小可行產品\|MVP最小可行產品]]
+- 組織適應性：[[98_商業概念庫/learning-organization_學習型組織\|learning-organization_學習型組織]] ｜ [[98_商業概念庫/organizational-behavior_組織行為\|organizational-behavior_組織行為]] ｜ [[98_商業概念庫/Organizational_Ambidexterity_組織雙巧性\|Organizational_Ambidexterity_組織雙巧性]]

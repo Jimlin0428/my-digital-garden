@@ -15,16 +15,14 @@
 ### 1.1 核心定義
 營業活動現金流量（CFO）在國際財務報導準則（IFRS）與美國會計準則（US GAAP）中定義為：**企業營業活動所產生的現金流入（如收回貨款、客戶預付款）扣除營業活動之現金流出（如支付貨款、員工薪酬、營運稅捐、日常租金與雜項管銷費用）後的淨餘額**。
 
-```
-                  ┌─────────────────────────────────────────┐
-                  │ 企業現金流量表三大支柱結構               │
-                  └────────────────────┬────────────────────┘
-                                       ▼
-       ┌───────────────────────────────┼───────────────────────────────┐
-       ▼                               ▼                               ▼
-【營業活動現金流 (CFO)】       【投資活動現金流 (CFI)】        【籌資活動現金流 (CFF)】
- • 本業核心造血能力            • 廠房設備資本支出 (CapEx)      • 發行新股與債券融資
- • 營運資金變動管理            • 購買/出售金融資產與併購       • 償還借款本金與發放股利
+```mermaid
+flowchart TD
+    classDef c_blue fill:#1e3a5f,stroke:#60a5fa,stroke-width:2px,color:#ffffff;
+    classDef c_green fill:#143823,stroke:#4ade80,stroke-width:2px,color:#ffffff;
+    classDef c_amber fill:#3d2806,stroke:#fbbf24,stroke-width:2px,color:#ffffff;
+    classDef c_purple fill:#3b1d54,stroke:#c084fc,stroke-width:2px,color:#ffffff;
+    classDef c_red fill:#5c1d24,stroke:#f87171,stroke-width:2px,color:#ffffff;
+    N0_0["企業現金流量表三大支柱結構"]:::c_blue
 ```
 
 ### 1.2 本質解析：利潤與現金流的「四重脫節」
@@ -137,18 +135,18 @@ $$\text{Cash Realization Ratio} = \frac{\text{CFO}}{\text{Operating Income (or N
 ## 7. 關聯知識網絡與導航地圖 (Knowledge Network & Cross-References)
 
 ### 7.1 本主題核心三部曲
-- **[[enterprise-free-cash-flow-liang_企業自由現金流量]]** · 全體出資人視角、無槓桿資產造血本質與 DCF 企業價值評估
-- **[[equity-free-cash-flow_股權自由現金流量]]** · 股東剩餘索償權、財務槓桿淨效應與股東分配上限
-- **[[operating-cash-flow-statement_營業活動現金流量]]** · 本業營運現金造血能力、間接法調和與應計制盈餘品質檢驗（本篇）
+- **[[98_商業概念庫/enterprise-free-cash-flow-liang_企業自由現金流量\|enterprise-free-cash-flow-liang_企業自由現金流量]]** · 全體出資人視角、無槓桿資產造血本質與 DCF 企業價值評估
+- **[[98_商業概念庫/equity-free-cash-flow_股權自由現金流量\|equity-free-cash-flow_股權自由現金流量]]** · 股東剩餘索償權、財務槓桿淨效應與股東分配上限
+- **[[98_商業概念庫/operating-cash-flow-statement_營業活動現金流量\|operating-cash-flow-statement_營業活動現金流量]]** · 本業營運現金造血能力、間接法調和與應計制盈餘品質檢驗（本篇）
 
 ### 7.2 跨領域財務與策略鏈結
-- [[CCC_現金循環週期 Cash Conversion Cycle]] · 應收、存貨與應付帳款天數對 CFO 的底層驅動模型
-- [[working-capital_營運資金]] · 營運資金規模與短期流動性安全緩衝
-- [[dcf_現金流量折現法]] · 以 CFO 為起點推導各類自由現金流之估值基準
-- [[unit-economics-model_單位經濟模型]] · 微觀單元現金毛利對企業宏觀 CFO 的造血支撐
-- [[accounting-profit-cash-flow-differentiation_會計利潤與現金流差異]] · 權責發生制與收付實現制之核心哲學碰撞
+- [[98_商業概念庫/CCC_現金循環週期 Cash Conversion Cycle\|CCC_現金循環週期 Cash Conversion Cycle]] · 應收、存貨與應付帳款天數對 CFO 的底層驅動模型
+- [[98_商業概念庫/working-capital_營運資金\|working-capital_營運資金]] · 營運資金規模與短期流動性安全緩衝
+- [[98_商業概念庫/dcf_現金流量折現法\|dcf_現金流量折現法]] · 以 CFO 為起點推導各類自由現金流之估值基準
+- [[98_商業概念庫/unit-economics-model_單位經濟模型\|unit-economics-model_單位經濟模型]] · 微觀單元現金毛利對企業宏觀 CFO 的造血支撐
+- [[98_商業概念庫/accounting-profit-cash-flow-differentiation_會計利潤與現金流差異\|accounting-profit-cash-flow-differentiation_會計利潤與現金流差異]] · 權責發生制與收付實現制之核心哲學碰撞
 
 ### 7.3 課程筆記與導航主頁
-- [[L09_資本結構理論與決策]] · 財務策略模組九：公司財務報表與資本流動分析
-- [[_創業與企業財務策略 MOC]] · 企業財務策略與資本市場運作全景地圖
-- [[home]] · 全球 PMBA 知識庫總導航主頁面
+- [[02_核心必修/01_財務管理/L09_資本結構理論與決策\|L09_資本結構理論與決策]] · 財務策略模組九：公司財務報表與資本流動分析
+- [[04_主題選修/10_創業與企業財務策略/_歷史版本封存/_創業與企業財務策略 MOC\|_創業與企業財務策略 MOC]] · 企業財務策略與資本市場運作全景地圖
+- [[home\|home]] · 全球 PMBA 知識庫總導航主頁面

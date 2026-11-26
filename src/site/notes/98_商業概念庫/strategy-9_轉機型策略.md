@@ -77,26 +77,30 @@ $$
 
 ## 四、 經理人反思與行動檢核清單
 
-```
-                               轉機策略高階執行四步驟
-┌─────────────────────────┬─────────────────────────┬─────────────────────────┐
-│     1. 13 週滾動現金流  │     2. 戰地檢傷果斷處分 │     3. 核心能力再聚焦   │
-│ 每日追蹤現金進出死線    │ 絕不猶豫，即刻關停出血點│ 重新下注具備 VRIO 的本業│
-└─────────────────────────┴─────────────────────────┴─────────────────────────┘
+**轉機策略高階執行四步驟**
+
+```mermaid
+flowchart TD
+    classDef c_blue fill:#1e3a5f,stroke:#60a5fa,stroke-width:2px,color:#ffffff;
+    classDef c_green fill:#143823,stroke:#4ade80,stroke-width:2px,color:#ffffff;
+    classDef c_amber fill:#3d2806,stroke:#fbbf24,stroke-width:2px,color:#ffffff;
+    classDef c_purple fill:#3b1d54,stroke:#c084fc,stroke-width:2px,color:#ffffff;
+    classDef c_red fill:#5c1d24,stroke:#f87171,stroke-width:2px,color:#ffffff;
+    N0_0["1. 13 週滾動現金流  │     2. 戰地檢傷果斷處分 │     3. 核心能力再聚焦<br/>每日追蹤現金進出死線    │ 絕不猶豫，即刻關停出血點│ 重新下注具備 VRIO 的本業"]:::c_blue
 ```
 
 ### Executive Decision Checklist
 - [ ] **現金跑道透明化**：財務團隊是否已建立「13 週動態滾動現金流模型 (13-Week Cash Flow Forecast)」，並精確掌握賬面資金歸零的最後死線？
-- [ ] **沈沒成本徹底歸零**：在評估旗下長年虧損的事業群時，管理層是否擺脫了[[sunk-cost_沉沒成本|沉沒成本]]情感羈絆，敢於立即按下關停或出售鍵？
+- [ ] **沈沒成本徹底歸零**：在評估旗下長年虧損的事業群時，管理層是否擺脫了[[98_商業概念庫/sunk-cost_沉沒成本\|沉沒成本]]情感羈絆，敢於立即按下關停或出售鍵？
 - [ ] **高管團隊換血決心**：帶領企業陷入當前困境的舊有高管，是否具備帶領轉機的心智模式？是否需要引進具備危機處理經驗的專業重組主管 (CRO)？
 - [ ] **利益關係人溝通機制**：是否第一時間向核心供應商、授信銀行與主力客戶透明坦白重組方案，爭取帳期展延與債務重組，避免恐慌性抽銀根？
-- [ ] **復甦北極星錨定**：在第一階段緊縮止血的同時，團隊是否已清晰界定第二階段復甦時賴以生存的「[[core-competence_核心能力|核心競爭力]]」究竟是什麼？
+- [ ] **復甦北極星錨定**：在第一階段緊縮止血的同時，團隊是否已清晰界定第二階段復甦時賴以生存的「[[98_商業概念庫/core-competence_核心能力\|核心競爭力]]」究竟是什麼？
 
 ---
 
 ## 五、 關聯概念與延伸閱讀
 
-- 策略危機觸發：[[strategic-inflection-point_關鍵轉折]] ｜ [[sunk-cost_沉沒成本]] ｜ [[cannibalization_自我蠶食]]
-- 核心競爭力檢驗：[[core-competence_核心能力]] ｜ [[VRIO架構]] ｜ [[competitive-advantage_競爭優勢]]
-- 營運資金與重組：[[working-capital-management_營運資金管理]] ｜ [[cash-budget_現金預算]] ｜ [[operating-income_營業利益]]
-- 組織變革與領導：[[change-management_變革管理]] ｜ [[transformational-leadership_轉換型領導]] ｜ [[organizational-behavior_組織行為]]
+- 策略危機觸發：[[98_商業概念庫/strategic-inflection-point_關鍵轉折\|strategic-inflection-point_關鍵轉折]] ｜ [[98_商業概念庫/sunk-cost_沉沒成本\|sunk-cost_沉沒成本]] ｜ [[98_商業概念庫/cannibalization_自我蠶食\|cannibalization_自我蠶食]]
+- 核心競爭力檢驗：[[98_商業概念庫/core-competence_核心能力\|core-competence_核心能力]] ｜ [[98_商業概念庫/VRIO架構\|VRIO架構]] ｜ [[98_商業概念庫/competitive-advantage_競爭優勢\|competitive-advantage_競爭優勢]]
+- 營運資金與重組：[[98_商業概念庫/working-capital-management_營運資金管理\|working-capital-management_營運資金管理]] ｜ [[98_商業概念庫/cash-budget_現金預算\|cash-budget_現金預算]] ｜ [[98_商業概念庫/operating-income_營業利益\|operating-income_營業利益]]
+- 組織變革與領導：[[98_商業概念庫/change-management_變革管理\|change-management_變革管理]] ｜ [[98_商業概念庫/transformational-leadership_轉換型領導\|transformational-leadership_轉換型領導]] ｜ [[98_商業概念庫/organizational-behavior_組織行為\|organizational-behavior_組織行為]]

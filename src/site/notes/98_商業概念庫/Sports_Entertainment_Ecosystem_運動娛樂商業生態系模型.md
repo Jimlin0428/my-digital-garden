@@ -14,24 +14,15 @@
 
 ## 二、 NBA 商業生態系全景與價值流向圖
 
-```
-  【上游：天賦培育與供給】 ─────────► 【中游：聯盟運營與賽事主體】 ─────────► 【下游：多元商業變現】
-   • NCAA 美國大學體育                 • NBA 聯盟辦公室 (規則/治理)         • 媒體巨額轉播權 (ESPN/Amazon)
-   • 歐洲/澳洲職業聯賽                 • 30 支特許經營球隊 (Franchises)     • 賽事門票與 VIP 場館包廂
-   • AAU 青少年基層訓練營              • 裁判體系與賽程編排                 • 全球品牌贊助 (Nike/冠名)
-       │                                     │                              • 特許授權周邊商品
-       ▼                                     ▼                                      ▲
- ┌───────────┐                         ┌───────────┐                                │
- │ NBA選秀會 │                         │ 勞資集體  │                                │
- │(NBA Draft)│                         │ 協議(CBA) │                                │
- └───────────┘                         └─────┬─────┘                                │
-                                             │                                      │
-                                             ▼                                      │
- ─────────────────────────────────── 【橫向關鍵互補者 (Complementors)】 ──────────────────┘
-   • 運動彩券與在線博彩 (FanDuel/DraftKings) ➔ 數據授權、涉入度倍增
-   • 潮流球鞋與聯名文化 (Nike/Jordan Brand) ➔ 球星個人 IP 跨界穿透
-   • 社群短影音與新媒體 (YouTube/TikTok/X) ➔ 精華散播、Z世代全球破圈
-   • 城市觀光與地產飯店 ➔ 主場經濟學與跨州差旅消費
+```mermaid
+flowchart TD
+    classDef c_blue fill:#1e3a5f,stroke:#60a5fa,stroke-width:2px,color:#ffffff;
+    classDef c_green fill:#143823,stroke:#4ade80,stroke-width:2px,color:#ffffff;
+    classDef c_amber fill:#3d2806,stroke:#fbbf24,stroke-width:2px,color:#ffffff;
+    classDef c_purple fill:#3b1d54,stroke:#c084fc,stroke-width:2px,color:#ffffff;
+    classDef c_red fill:#5c1d24,stroke:#f87171,stroke-width:2px,color:#ffffff;
+    N0_0["NBA選秀會<br/>（NBA Draft）"]:::c_blue
+    N0_1["勞資集體<br/>協議（CBA）"]:::c_green
 ```
 
 ---

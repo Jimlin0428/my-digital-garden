@@ -38,27 +38,24 @@
 
 員工在面對一項「具體特定任務」時（準備度是針對任務而言，而非評價個人整體的智力），其發展階段經歷四個典型演進週期：
 
-```
-                    ┌─────────────────────────────────────────────────────────┐
-                    │               部屬發展階段四維演進圖譜                  │
-                    └────────────────────────────┬────────────────────────────┘
-                                                 ▼
-   【D1 熱情初學者】 ──────▶ 【D2 幻滅學習者】 ──────▶ 【D3 謹慎貢獻者】 ──────▶ 【D4 獨立高峰者】
-    (Low Comp, High Comm)     (Low Comp, Low Comm)      (High Comp, Var Comm)     (High Comp, High Comm)
-   ─────────────────────────────────────────────────────────────────────────────────────────────
-   • 剛接新任務, 雄心勃勃     • 遭遇挫折, 發現任務困難  • 技能純熟, 能獨當一面    • 具備專家級高超能力
-   • 缺乏經驗與專業技巧       • 熱情消退, 意願跌入谷底  • 缺乏自信或動力波動      • 主動負責, 具高度承諾
-   • 渴望明確方向與指令       • 渴望方向指引與心理打氣  • 渴望被傾聽與共同參與    • 渴望自主決策與信任放權
+```mermaid
+flowchart TD
+    classDef c_blue fill:#1e3a5f,stroke:#60a5fa,stroke-width:2px,color:#ffffff;
+    classDef c_green fill:#143823,stroke:#4ade80,stroke-width:2px,color:#ffffff;
+    classDef c_amber fill:#3d2806,stroke:#fbbf24,stroke-width:2px,color:#ffffff;
+    classDef c_purple fill:#3b1d54,stroke:#c084fc,stroke-width:2px,color:#ffffff;
+    classDef c_red fill:#5c1d24,stroke:#f87171,stroke-width:2px,color:#ffffff;
+    N0_0["部屬發展階段四維演進圖譜"]:::c_blue
 ```
 
 ### 領導風格與部屬準備度黃金匹配矩陣
 
 | 部屬發展階段 | 工作能力 (Competence) | 工作意願 (Commitment) | 最佳匹配領導風格 | 核心行為要領 |
 | :--- | :---: | :---: | :--- | :--- |
-| **D1: 熱情初學者** | **低（缺乏技能）** | **高（熱情高漲）** | **[[leadership-6_指導式領導|S1 指導式 (Directing)]]** | 告訴他「要做什麼、何時完成、步驟為何」；切忌放牛吃草。 |
-| **D2: 幻滅學習者** | **低至中（略懂皮毛）** | **低（受挫灰心）** | **[[leadership-5_教練式領導|S2 教練式 (Coaching)]]** | 雙向溝通；除指示流程外，詳細解釋「為什麼」，修復其受損的自信心。 |
-| **D3: 謹慎貢獻者** | **高（經驗豐富）** | **波動（缺乏信心/倦怠）** | **[[leadership-4_支持式領導|S3 支持式 (Supporting)]]** | 減少任務指示，主管扮演共鳴箱；多提問「你覺得該怎麼做？」，給予讚賞。 |
-| **D4: 獨立高峰者** | **高（專家水準）** | **高（主動當責）** | **[[leadership-3_授權式領導|S4 授權式 (Delegating)]]** | 明確成果目標後大膽放權；不干涉具體執行路徑，主管擔任後盾。 |
+| **D1: 熱情初學者** | **低（缺乏技能）** | **高（熱情高漲）** | **[[98_商業概念庫/leadership-6_指導式領導\|S1 指導式 (Directing)]]** | 告訴他「要做什麼、何時完成、步驟為何」；切忌放牛吃草。 |
+| **D2: 幻滅學習者** | **低至中（略懂皮毛）** | **低（受挫灰心）** | **[[98_商業概念庫/leadership-5_教練式領導\|S2 教練式 (Coaching)]]** | 雙向溝通；除指示流程外，詳細解釋「為什麼」，修復其受損的自信心。 |
+| **D3: 謹慎貢獻者** | **高（經驗豐富）** | **波動（缺乏信心/倦怠）** | **[[98_商業概念庫/leadership-4_支持式領導\|S3 支持式 (Supporting)]]** | 減少任務指示，主管扮演共鳴箱；多提問「你覺得該怎麼做？」，給予讚賞。 |
+| **D4: 獨立高峰者** | **高（專家水準）** | **高（主動當責）** | **[[98_商業概念庫/leadership-3_授權式領導\|S4 授權式 (Delegating)]]** | 明確成果目標後大膽放權；不干涉具體執行路徑，主管擔任後盾。 |
 
 ---
 
@@ -85,12 +82,12 @@ graph TD
 
 ## 4. 關聯概念與延伸閱讀 (Cross References)
 
-- [[transformational-leadership_轉換型領導]]：激發員工超越個人利益的願景引領。
-- [[transactional-leadership_交易型領導]]：基於契約與條件式酬賞的交換領導。
-- [[contingency-leadership-theory_權變領導理論]]：費德勒 LPC 領導權變模型對比。
-- [[leadership-6_指導式領導]]：S1 風格深度卡片。
-- [[leadership-5_教練式領導]]：S2 風格深度卡片。
-- [[leadership-4_支持式領導]]：S3 風格深度卡片。
-- [[leadership-3_授權式領導]]：S4 風格深度卡片。
-- [[corporate-life-cycle_企業生命週期]]：組織生命週期各階段對領導風格的動態需求。
-- [[home]]：PMBA 知識庫首頁與模組導航。
+- [[98_商業概念庫/transformational-leadership_轉換型領導\|transformational-leadership_轉換型領導]]：激發員工超越個人利益的願景引領。
+- [[98_商業概念庫/transactional-leadership_交易型領導\|transactional-leadership_交易型領導]]：基於契約與條件式酬賞的交換領導。
+- [[98_商業概念庫/contingency-leadership-theory_權變領導理論\|contingency-leadership-theory_權變領導理論]]：費德勒 LPC 領導權變模型對比。
+- [[98_商業概念庫/leadership-6_指導式領導\|leadership-6_指導式領導]]：S1 風格深度卡片。
+- [[98_商業概念庫/leadership-5_教練式領導\|leadership-5_教練式領導]]：S2 風格深度卡片。
+- [[98_商業概念庫/leadership-4_支持式領導\|leadership-4_支持式領導]]：S3 風格深度卡片。
+- [[98_商業概念庫/leadership-3_授權式領導\|leadership-3_授權式領導]]：S4 風格深度卡片。
+- [[98_商業概念庫/corporate-life-cycle_企業生命週期\|corporate-life-cycle_企業生命週期]]：組織生命週期各階段對領導風格的動態需求。
+- [[home\|home]]：PMBA 知識庫首頁與模組導航。

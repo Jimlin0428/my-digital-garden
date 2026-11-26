@@ -15,17 +15,14 @@
 ### 1.1 核心定義
 營運資金管理在公司理財中被定義為：**管理企業流動資產（現金、應收帳款、存貨）與流動負債（應付帳款、短期借款）之組合結構，確保企業具備足夠現金流履行即期付款義務，同時將資本持有成本與閒置損失降至最低的動態決策過程**。
 
-```
-                    ┌─────────────────────────────────────────┐
-                    │      營運資金管理的雙維戰略矩陣         │
-                    └────────────────────┬────────────────────┘
-                                         ▼
-         ┌───────────────────────────────┴───────────────────────────────┐
-         ▼                                                               ▼
-【維度一：流動資產投資政策】                                   【維度二：流動資產融資政策】
- • 寬鬆型 (Relaxed Policy: 高緩衝/低回報)                       • 配合型 (Matching Policy: 期限嚴格對齊)
- • 緊縮型 (Restricted Policy: 零冗餘/高風險)                    • 激進型 (Aggressive Policy: 短債長用/高槓桿)
- • 適中型 (Moderate Policy: 動態權衡平衡)                      • 保守型 (Conservative Policy: 全長債股權覆蓋)
+```mermaid
+flowchart TD
+    classDef c_blue fill:#1e3a5f,stroke:#60a5fa,stroke-width:2px,color:#ffffff;
+    classDef c_green fill:#143823,stroke:#4ade80,stroke-width:2px,color:#ffffff;
+    classDef c_amber fill:#3d2806,stroke:#fbbf24,stroke-width:2px,color:#ffffff;
+    classDef c_purple fill:#3b1d54,stroke:#c084fc,stroke-width:2px,color:#ffffff;
+    classDef c_red fill:#5c1d24,stroke:#f87171,stroke-width:2px,color:#ffffff;
+    N0_0["營運資金管理的雙維戰略矩陣"]:::c_blue
 ```
 
 ### 1.2 本質解析：期限結構與資本成本的終極權衡
@@ -142,16 +139,16 @@ graph TD
 ## 7. 關聯知識網絡與導航地圖 (Knowledge Network & Cross-References)
 
 ### 7.1 本主題核心三部曲
-- **[[net-working-capital_淨營運資金]]** · 營業 NWC 與會計 NWC 辨析、短期償債三道防線與資本沉澱成本
-- **[[working-capital-management_營運資金管理]]** · 配合型、激進型與保守型三大資產融資政策博弈（本篇）
-- **[[changes-in-net-working-capital_淨營運資金變動]]** · 現金流量調節閥、CCC 現金循環週期聯動與「無獲利成長」陷阱
+- **[[98_商業概念庫/net-working-capital_淨營運資金\|net-working-capital_淨營運資金]]** · 營業 NWC 與會計 NWC 辨析、短期償債三道防線與資本沉澱成本
+- **[[98_商業概念庫/working-capital-management_營運資金管理\|working-capital-management_營運資金管理]]** · 配合型、激進型與保守型三大資產融資政策博弈（本篇）
+- **[[98_商業概念庫/changes-in-net-working-capital_淨營運資金變動\|changes-in-net-working-capital_淨營運資金變動]]** · 現金流量調節閥、CCC 現金循環週期聯動與「無獲利成長」陷阱
 
 ### 7.2 跨領域財務與策略鏈結
-- [[capital-structure_資本結構]] · 企業長期資本配置與短期營運資金融資政策之戰略銜接
-- [[financial-flexibility_財務彈性]] · 充沛的授信額度與現金緩衝對激進融資政策之防護網
-- [[liquidity_流動性]] · 營運資金管理之核心終極目標：維持流動性健康與防範擠兌
-- [[L09_資本結構理論與決策]] · 財務策略模組九核心講義：短期資產負債與破產風險控制
+- [[98_商業概念庫/capital-structure_資本結構\|capital-structure_資本結構]] · 企業長期資本配置與短期營運資金融資政策之戰略銜接
+- [[98_商業概念庫/financial-flexibility_財務彈性\|financial-flexibility_財務彈性]] · 充沛的授信額度與現金緩衝對激進融資政策之防護網
+- [[98_商業概念庫/liquidity_流動性\|liquidity_流動性]] · 營運資金管理之核心終極目標：維持流動性健康與防範擠兌
+- [[02_核心必修/01_財務管理/L09_資本結構理論與決策\|L09_資本結構理論與決策]] · 財務策略模組九核心講義：短期資產負債與破產風險控制
 
 ### 7.3 課程筆記與導航主頁
-- [[_創業與企業財務策略 MOC]] · 企業財務策略與資本市場運作全景地圖
-- [[home]] · 全球 PMBA 知識庫總導航主頁面
+- [[04_主題選修/10_創業與企業財務策略/_歷史版本封存/_創業與企業財務策略 MOC\|_創業與企業財務策略 MOC]] · 企業財務策略與資本市場運作全景地圖
+- [[home\|home]] · 全球 PMBA 知識庫總導航主頁面

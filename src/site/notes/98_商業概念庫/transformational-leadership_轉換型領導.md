@@ -12,23 +12,14 @@
 
 ## 1. 概念核心架構：轉換型領導的四大支柱 (The 4 Is of Transformational Leadership)
 
-```
-                ┌─────────────────────────────────────────┐
-                │        轉換型領導 4I 核心支柱模型       │
-                └────────────────────┬────────────────────┘
-                                     ▼
-        ┌────────────────────────────┼────────────────────────────┐
-        ▼                            ▼                            ▼
- 【1. 理想化影響力 (II)】     【2. 鼓舞性激勵 (IM)】       【3. 智力激發 (IS)】
-  (Idealized Influence)        (Inspirational Motivation)   (Intellectual Stimulation)
-  • 以身作則, 崇高道德典範    • 描繪宏偉且令人振奮之願景   • 挑戰既有假設與權威常規
-  • 贏得追隨者深厚崇拜與信任  • 賦予日常工作深層崇高使命   • 鼓勵顛覆性創新, 容忍冒險
-                                     │
-                                     ▼
-                              【4. 個別化關懷 (IC)】
-                               (Individualized Consideration)
-                               • 傾聽每位員工的獨特渴望
-                               • 扮演導師與職涯成長教練
+```mermaid
+flowchart TD
+    classDef c_blue fill:#1e3a5f,stroke:#60a5fa,stroke-width:2px,color:#ffffff;
+    classDef c_green fill:#143823,stroke:#4ade80,stroke-width:2px,color:#ffffff;
+    classDef c_amber fill:#3d2806,stroke:#fbbf24,stroke-width:2px,color:#ffffff;
+    classDef c_purple fill:#3b1d54,stroke:#c084fc,stroke-width:2px,color:#ffffff;
+    classDef c_red fill:#5c1d24,stroke:#f87171,stroke-width:2px,color:#ffffff;
+    N0_0["轉換型領導 4I 核心支柱模型"]:::c_blue
 ```
 
 ### 4I 支柱深度解析表
@@ -56,10 +47,10 @@
 
 ## 3. 關聯概念與延伸閱讀 (Cross References)
 
-- [[transactional-leadership_交易型領導]]：轉換型領導的基石與對照面。
-- [[situational-leadership-theory_情境領導理論]]：在情境中靈活切換指導與支持行為。
-- [[leadership-2_魅力型領導]]：理想化影響力（II）的深層魅力學派源流。
-- [[authentic-leadership_真誠領導]]：確保轉換型願景不淪為偽善操縱的道德錨定。
-- [[leadership-vs-management_領導與管理]]：變革與秩序維護的職能劃分。
-- [[corporate-life-cycle_企業生命週期]]：成熟官僚期企業啟動第二曲線之關鍵驅動力。
-- [[home]]：PMBA 知識庫首頁與模組導航。
+- [[98_商業概念庫/transactional-leadership_交易型領導\|transactional-leadership_交易型領導]]：轉換型領導的基石與對照面。
+- [[98_商業概念庫/situational-leadership-theory_情境領導理論\|situational-leadership-theory_情境領導理論]]：在情境中靈活切換指導與支持行為。
+- [[98_商業概念庫/leadership-2_魅力型領導\|leadership-2_魅力型領導]]：理想化影響力（II）的深層魅力學派源流。
+- [[98_商業概念庫/authentic-leadership_真誠領導\|authentic-leadership_真誠領導]]：確保轉換型願景不淪為偽善操縱的道德錨定。
+- [[98_商業概念庫/leadership-vs-management_領導與管理\|leadership-vs-management_領導與管理]]：變革與秩序維護的職能劃分。
+- [[98_商業概念庫/corporate-life-cycle_企業生命週期\|corporate-life-cycle_企業生命週期]]：成熟官僚期企業啟動第二曲線之關鍵驅動力。
+- [[home\|home]]：PMBA 知識庫首頁與模組導航。

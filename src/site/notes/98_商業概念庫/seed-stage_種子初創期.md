@@ -51,18 +51,16 @@
 
 在種子初創期，資金運用必須極度冷酷且聚焦：
 
-```
-                  【種子期資本燃燒的三大去處】
-┌─────────────────────────────────────────────────────────────┐
-│ 1. 核心產品開發 (Product Engineering) ──────────────►  60% │
-│    (僅保留能寫代碼、做原型的核心技術骨幹薪酬與伺服器費用)   │
-├─────────────────────────────────────────────────────────────┤
-│ 2. 獲取第一批種子用戶 (Customer Discovery) ────────►  25% │
-│    (走出辦公室，進行深度訪談、小規模精準投放獲取反饋)       │
-├─────────────────────────────────────────────────────────────┤
-│ 3. 基礎法規、專利與維持生存底線 ───────────────────►  15% │
-│    (公司設立、核心智財保護、極簡辦公空間)                   │
-└─────────────────────────────────────────────────────────────┘
+**【種子期資本燃燒的三大去處】**
+
+```mermaid
+flowchart TD
+    classDef c_blue fill:#1e3a5f,stroke:#60a5fa,stroke-width:2px,color:#ffffff;
+    classDef c_green fill:#143823,stroke:#4ade80,stroke-width:2px,color:#ffffff;
+    classDef c_amber fill:#3d2806,stroke:#fbbf24,stroke-width:2px,color:#ffffff;
+    classDef c_purple fill:#3b1d54,stroke:#c084fc,stroke-width:2px,color:#ffffff;
+    classDef c_red fill:#5c1d24,stroke:#f87171,stroke-width:2px,color:#ffffff;
+    N0_0["1. 核心產品開發 （Product Engineering） ──────────────►  60%<br/>（僅保留能寫代碼、做原型的核心技術骨幹薪酬與伺服器費用）<br/>2. 獲取第一批種子用戶 （Customer Discovery） ────────►  25%<br/>（走出辦公室，進行深度訪談、小規模精準投放獲取反饋）<br/>3. 基礎法規、專利與維持生存底線 ───────────────────►  15%<br/>（公司設立、核心智財保護、極簡辦公空間）"]:::c_blue
 ```
 
 ---
